@@ -1,43 +1,50 @@
-# Rala (ರಲ) - English to Kannada Reverse Dictionary
+# Rala (ರಲ)
 
-**Live Site**: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
+**English → Kannada dictionary. An amateur reversal of V. Krishna's Alar**
 
-Rala is an uneducated reverse dictionary that helps you find Kannada words by searching for their English meanings or definitions. Instead of looking up a Kannada word to find its meaning, you can search for an English concept and discover the corresponding Kannada words.
+**🌐 Live Site**: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
 
-## Features
+---
 
-- **Direct Matches**: Find Kannada words that directly contain your search term in their definitions
-- **Indirect/Synonym Matches**: Discover related Kannada words through synonyms and similar meanings
-- **Automatic Sequential Search**: Direct matches load first, followed by indirect matches
-- **Tabbed Interface**: Easy navigation between direct and indirect results
-- **Real-time Search**: Instant results as you type
+Rala is a reverse dictionary that helps you find Kannada words by searching for their English meanings. Unlike traditional dictionaries where you look up a Kannada word to find its English definition, Rala works in reverse—enter an English word or concept, and discover the corresponding Kannada words.
 
-## How It Works
+**Rala** (ರಲ) = Reverse **Alar** — an amateur, uneducated attempt at reversing V. Krishna's excellent [Alar](https://alar.ink) Kannada → English dictionary.
+
+## ✨ Features
+
+- **🔍 Exact Matches**: Find Kannada words that directly contain your search term in their definitions
+- **🔗 Synonym Matches**: Discover related Kannada words through synonyms and similar meanings using the Datamuse API
+- **⚡ Automatic Sequential Loading**: Exact matches appear instantly, followed by synonym matches
+- **📑 Sticky Navigation**: Search bar and result tabs stay visible while scrolling
+- **⌨️ Real-time Search**: Instant results as you type (with smart debouncing)
+- **🎯 Smart Scrolling**: Click tabs to automatically scroll to the relevant section
+
+## 🚀 How It Works
 
 1. Enter an English word or phrase in the search box
-2. Direct matches appear first in the "DIRECT MATCHES" tab
-3. Indirect matches (via synonyms) load automatically and appear in the "Synonym/Indirect Matches" tab
-4. Click on either tab to view the respective results
+2. **Exact matches** appear first, showing Kannada words whose definitions directly contain your search term
+3. **Synonym matches** load automatically (after a 500ms delay, or immediately on Enter key press)
+4. Click the **Exact Match** or **Synonym Match** tabs to navigate between sections
+5. Results scroll smoothly to keep the relevant section in view
 
-## Attribution
+## 🏗️ Technical Details
 
-**Rala** (ರಲ) = Reverse **Alar**
+- **Dictionary Data**: Loaded from the [Alar YAML file](https://github.com/alar-dict/data) hosted on GitHub
+- **Synonym Matching**: Powered by the [Datamuse API](https://www.datamuse.com/api/)
+- **Architecture**: Fully client-side processing—all search happens in your browser
+- **No Backend**: No server required, works entirely with static hosting
 
-This project is built using dictionary data from [Alar](https://alar.ink), created by V. Krishna.
+## 📚 Attribution
 
-- **Dictionary Data**: [Alar Dictionary](https://alar.ink) by V. Krishna
-- **License**: [ODC-ODbL](https://opendatacommons.org/licenses/odbl/)
+This project is built using dictionary data from [Alar](https://alar.ink), created by **V. Krishna**.
+
+- **Original Dictionary**: [Alar - Kannada → English Dictionary](https://alar.ink)
 - **Source Data**: [alar-dict/data on GitHub](https://github.com/alar-dict/data)
+- **Data License**: [Open Database License (ODC-ODbL)](https://opendatacommons.org/licenses/odbl/)
 
-## Technical Details
-
-- Dictionary data is loaded from the Alar YAML file hosted on GitHub
-- Synonym matching uses the [Datamuse API](https://www.datamuse.com/api/)
-- All processing happens client-side in your browser
-
-## License
+## 📄 License
 
 This project and its code are licensed under the [Open Database License (ODC-ODbL)](https://opendatacommons.org/licenses/odbl/), inheriting from the source dictionary data license.
 
-The dictionary data is provided by [Alar](https://alar.ink) and is also licensed under ODC-ODbL. Please refer to the [Alar project](https://alar.ink) for more information about the data license.
+The dictionary data is provided by [Alar](https://alar.ink) and is also licensed under ODC-ODbL. For more information about the data license, please refer to the [Alar project](https://alar.ink).
 
