@@ -599,52 +599,33 @@
                     document.getElementById('tab-content-direct')?.classList.remove('active');
                 }
                 if (shouldScroll) {
-                    scrollToResults();
+                    // When switching to indirect tab, scroll to where that section starts
+                    setTimeout(() => {
+                        const indirectContent = document.getElementById('tab-content-indirect');
+                        if (indirectContent && tabName === 'indirect') {
+                            indirectContent.scrollIntoView({ 
+                                behavior: 'smooth', 
+                                block: 'start' 
+                            });
+                        } else {
+                            resultsDiv.scrollIntoView({ 
+                                behavior: 'smooth', 
+                                block: 'start' 
+                            });
+                        }
+                    }, 100);
                 }
             }
             
             tabDirect.addEventListener('click', () => switchTab('direct'));
             tabIndirect.addEventListener('click', () => switchTab('indirect'));
             
-            async function performSearch(query) {
-                if (!query.trim()) {
-                    resultsDiv.innerHTML = '';
-                    tabsContainer.style.display = 'none';
-                    directResults = [];
-                    synonymResults = [];
-                    synonymsUsed = {};
-                    currentQuery = '';
+            async function loadSynonyms(query) {
+                if (synonymSearchInProgress || synonymSearchCompleted) {
                     return;
                 }
                 
-                currentQuery = query;
-                directResults = [];
-                synonymResults = [];
-                synonymsUsed = {};
-                
-                // Show tabs
-                tabsContainer.style.display = 'flex';
-                
-                // Reset tab states
-                tabDirectCount.textContent = '';
-                tabIndirectCount.textContent = '';
-                tabDirectSpinner.style.display = 'inline-block';
-                tabIndirectSpinner.style.display = 'none';
-                
-                // Show loading state for direct matches
-                resultsDiv.innerHTML = renderResults([], [], {}, query, true, false);
-                switchTab('direct');
-                
-                // Step 1: Search direct matches
-                directResults = searchDirect(query);
-                tabDirectCount.textContent = `(${directResults.length})`;
-                tabDirectSpinner.style.display = 'none';
-                
-                // Update UI with direct results
-                resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, true);
-                switchTab('direct');
-                
-                // Step 2: Search indirect matches (after direct finishes)
+                synonymSearchInProgress = true;
                 tabIndirectSpinner.style.display = 'inline-block';
                 
                 const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
@@ -658,9 +639,74 @@
                 
                 tabIndirectCount.textContent = `(${synonymResults.length})`;
                 tabIndirectSpinner.style.display = 'none';
+                synonymSearchCompleted = true;
                 
                 // Update UI with both results
                 resultsDiv.innerHTML = renderResults(directResults, synonymResults, synonymsUsed, query, false, false);
+            }
+            
+            async function performSearch(query, fromEnter = false) {
+                if (!query.trim()) {
+                    resultsDiv.innerHTML = '';
+                    tabsContainer.style.display = 'none';
+                    directResults = [];
+                    synonymResults = [];
+                    synonymsUsed = {};
+                    currentQuery = '';
+                    synonymSearchInProgress = false;
+                    synonymSearchCompleted = false;
+                    if (synonymSearchTimeout) {
+                        clearTimeout(synonymSearchTimeout);
+                        synonymSearchTimeout = null;
+                    }
+                    return;
+                }
+                
+                currentQuery = query;
+                directResults = [];
+                synonymResults = [];
+                synonymsUsed = {};
+                synonymSearchInProgress = false;
+                synonymSearchCompleted = false;
+                
+                // Clear any pending synonym search
+                if (synonymSearchTimeout) {
+                    clearTimeout(synonymSearchTimeout);
+                    synonymSearchTimeout = null;
+                }
+                
+                // Show tabs
+                tabsContainer.style.display = 'flex';
+                
+                // Reset tab states
+                tabDirectCount.textContent = '';
+                tabIndirectCount.textContent = '';
+                tabDirectSpinner.style.display = 'inline-block';
+                tabIndirectSpinner.style.display = 'none';
+                
+                // Show loading state for direct matches
+                resultsDiv.innerHTML = renderResults([], [], {}, query, true, false);
+                switchTab('direct', !fromEnter);
+                
+                // Step 1: Search direct matches
+                directResults = searchDirect(query);
+                tabDirectCount.textContent = `(${directResults.length})`;
+                tabDirectSpinner.style.display = 'none';
+                
+                // Update UI with direct results
+                resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, false);
+                switchTab('direct', !fromEnter);
+                
+                // Step 2: Load synonyms with delay (500ms) or immediately if Enter was pressed
+                if (fromEnter) {
+                    // Load immediately if Enter was pressed
+                    await loadSynonyms(query);
+                } else {
+                    // Wait 500ms before loading synonyms
+                    synonymSearchTimeout = setTimeout(() => {
+                        loadSynonyms(query);
+                    }, 500);
+                }
                 
                 // Hide tabs if no results at all
                 if (directResults.length === 0 && synonymResults.length === 0) {
@@ -668,9 +714,9 @@
                 } else {
                     // If no direct results, switch to indirect tab
                     if (directResults.length === 0 && synonymResults.length > 0) {
-                        switchTab('indirect');
+                        switchTab('indirect', !fromEnter);
                     } else {
-                        switchTab('direct');
+                        switchTab('direct', !fromEnter);
                     }
                 }
             }
@@ -678,8 +724,28 @@
             searchInput.addEventListener('input', (e) => {
                 clearTimeout(debounceTimer);
                 debounceTimer = setTimeout(() => {
-                    performSearch(e.target.value);
+                    performSearch(e.target.value, false);
                 }, 300);
+            });
+            
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    clearTimeout(debounceTimer);
+                    const query = e.target.value.trim();
+                    
+                    // If query changed, perform new search
+                    if (query !== currentQuery) {
+                        performSearch(query, true);
+                    } else if (!synonymSearchCompleted && !synonymSearchInProgress && currentQuery) {
+                        // If synonyms haven't loaded yet, load them now
+                        if (synonymSearchTimeout) {
+                            clearTimeout(synonymSearchTimeout);
+                            synonymSearchTimeout = null;
+                        }
+                        loadSynonyms(currentQuery);
+                    }
+                }
             });
         }
         
