@@ -188,6 +188,9 @@
             cursor: pointer;
             font-size: 14px;
             transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         
         .tab.active {
@@ -197,6 +200,32 @@
         
         .tab:hover:not(.active) {
             background: #d0d0d0;
+        }
+        
+        .tab.loading {
+            opacity: 0.7;
+        }
+        
+        .tab-spinner {
+            width: 14px;
+            height: 14px;
+            border: 2px solid currentColor;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            display: inline-block;
+        }
+        
+        .results-container {
+            min-height: 200px;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
         }
         
         .attribution {
@@ -219,8 +248,8 @@
     </style>
 </head>
 <body>
-    <h1>📖 Rala</h1>
-    <p class="subtitle">English → Kannada ಶಬ್ದಕೋಶ (the dumber reverse dictionary)</p>
+    <h1>📖 Rala (ರಲ)</h1>
+    <p class="subtitle">English → Kannada ಶಬ್ದಕೋಶ (uneducated reverse dictionary)</p>
     
     <div id="app">
         <div class="loading">
@@ -231,7 +260,7 @@
     
     <footer class="attribution">
         <p>
-            <strong>Rala</strong> = Reverse <a href="https://alar.ink" target="_blank">Alar</a> · 
+            <strong>Rala (ರಲ)</strong> = Reverse <a href="https://alar.ink" target="_blank">Alar</a> · 
             Dictionary data by <a href="https://alar.ink" target="_blank">V. Krishna</a> · 
             Licensed under <a href="https://opendatacommons.org/licenses/odbl/" target="_blank">ODC-ODbL</a> · 
             <a href="https://github.com/alar-dict/data" target="_blank">Source Data</a>
@@ -410,35 +439,73 @@
             return text.replace(regex, '<span class="matched-word">$1</span>');
         }
         
-        function renderResults(directResults, synonymResults, synonymsUsed, query) {
+        function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false) {
             let html = '';
             
-            if (directResults.length > 0) {
+            // Direct matches tab content
+            html += `
+                <div class="tab-content ${directResults.length > 0 || loadingDirect ? 'active' : ''}" id="tab-content-direct">
+            `;
+            
+            if (loadingDirect) {
+                html += `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Searching direct matches...</p>
+                    </div>
+                `;
+            } else if (directResults.length > 0) {
                 html += `
                     <div class="results-section">
-                        <div class="section-title">Direct Matches (${directResults.length})</div>
                         ${directResults.map(r => renderResultCard(r, query)).join('')}
+                    </div>
+                `;
+            } else if (!loadingIndirect) {
+                html += `
+                    <div class="no-results">
+                        <p>😕 No direct matches found for "${query}"</p>
                     </div>
                 `;
             }
             
-            if (synonymResults.length > 0) {
+            html += `</div>`;
+            
+            // Indirect/synonym matches tab content
+            html += `
+                <div class="tab-content ${directResults.length === 0 && (synonymResults.length > 0 || loadingIndirect) ? 'active' : ''}" id="tab-content-indirect">
+            `;
+            
+            if (loadingIndirect) {
+                html += `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Searching indirect matches...</p>
+                    </div>
+                `;
+            } else if (synonymResults.length > 0) {
                 const usedSynonyms = Object.entries(synonymsUsed)
                     .map(([orig, syns]) => `"${orig}" → ${syns.slice(0, 5).join(', ')}`)
                     .join('; ');
                     
                 html += `
+                    <div class="search-info">
+                        🔗 Found via: ${usedSynonyms}
+                    </div>
                     <div class="results-section">
-                        <div class="section-title">Synonym Matches (${synonymResults.length})</div>
-                        <div class="search-info">
-                            🔗 Found via: ${usedSynonyms}
-                        </div>
                         ${synonymResults.map(r => renderResultCard(r, query, true)).join('')}
+                    </div>
+                `;
+            } else if (!loadingDirect) {
+                html += `
+                    <div class="no-results">
+                        <p>😕 No indirect matches found for "${query}"</p>
                     </div>
                 `;
             }
             
-            if (directResults.length === 0 && synonymResults.length === 0) {
+            html += `</div>`;
+            
+            if (directResults.length === 0 && synonymResults.length === 0 && !loadingDirect && !loadingIndirect) {
                 html = `
                     <div class="no-results">
                         <p>😕 No results found for "${query}"</p>
@@ -471,11 +538,19 @@
                 <div class="search-container">
                     <input type="text" id="search-input" placeholder="Search English word (e.g., happy, water, beautiful)..." autofocus>
                 </div>
-                <div class="tabs">
-                    <button class="tab active" id="tab-quick">Quick Search</button>
-                    <button class="tab" id="tab-deep">Deep Search (with synonyms)</button>
+                <div class="tabs" id="tabs-container" style="display: none;">
+                    <button class="tab active" id="tab-direct">
+                        <span>DIRECT MATCHES</span>
+                        <span id="tab-direct-count"></span>
+                        <span id="tab-direct-spinner" class="tab-spinner" style="display: none;"></span>
+                    </button>
+                    <button class="tab" id="tab-indirect">
+                        <span>Synonym/Indirect Matches</span>
+                        <span id="tab-indirect-count"></span>
+                        <span id="tab-indirect-spinner" class="tab-spinner" style="display: none;"></span>
+                    </button>
                 </div>
-                <div id="results"></div>
+                <div id="results" class="results-container"></div>
                 <div class="stats">
                     📚 ${dictionary.length.toLocaleString()} Kannada entries | 
                     🔤 ${reverseIndex.size.toLocaleString()} unique English words indexed
@@ -484,49 +559,119 @@
             
             const searchInput = document.getElementById('search-input');
             const resultsDiv = document.getElementById('results');
-            const tabQuick = document.getElementById('tab-quick');
-            const tabDeep = document.getElementById('tab-deep');
+            const tabsContainer = document.getElementById('tabs-container');
+            const tabDirect = document.getElementById('tab-direct');
+            const tabIndirect = document.getElementById('tab-indirect');
+            const tabDirectCount = document.getElementById('tab-direct-count');
+            const tabIndirectCount = document.getElementById('tab-indirect-count');
+            const tabDirectSpinner = document.getElementById('tab-direct-spinner');
+            const tabIndirectSpinner = document.getElementById('tab-indirect-spinner');
             
-            let searchMode = 'quick';
+            let directResults = [];
+            let synonymResults = [];
+            let synonymsUsed = {};
+            let currentQuery = '';
             let debounceTimer = null;
+            let synonymSearchInProgress = false;
+            let synonymSearchCompleted = false;
+            let synonymSearchTimeout = null;
             
-            tabQuick.addEventListener('click', () => {
-                searchMode = 'quick';
-                tabQuick.classList.add('active');
-                tabDeep.classList.remove('active');
-                if (searchInput.value.trim()) performSearch(searchInput.value);
-            });
+            function scrollToResults() {
+                setTimeout(() => {
+                    // Scroll to the results section
+                    resultsDiv.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'start' 
+                    });
+                }, 100);
+            }
             
-            tabDeep.addEventListener('click', () => {
-                searchMode = 'deep';
-                tabDeep.classList.add('active');
-                tabQuick.classList.remove('active');
-                if (searchInput.value.trim()) performSearch(searchInput.value);
-            });
+            function switchTab(tabName, shouldScroll = true) {
+                if (tabName === 'direct') {
+                    tabDirect.classList.add('active');
+                    tabIndirect.classList.remove('active');
+                    document.getElementById('tab-content-direct')?.classList.add('active');
+                    document.getElementById('tab-content-indirect')?.classList.remove('active');
+                } else {
+                    tabIndirect.classList.add('active');
+                    tabDirect.classList.remove('active');
+                    document.getElementById('tab-content-indirect')?.classList.add('active');
+                    document.getElementById('tab-content-direct')?.classList.remove('active');
+                }
+                if (shouldScroll) {
+                    scrollToResults();
+                }
+            }
+            
+            tabDirect.addEventListener('click', () => switchTab('direct'));
+            tabIndirect.addEventListener('click', () => switchTab('indirect'));
             
             async function performSearch(query) {
                 if (!query.trim()) {
                     resultsDiv.innerHTML = '';
+                    tabsContainer.style.display = 'none';
+                    directResults = [];
+                    synonymResults = [];
+                    synonymsUsed = {};
+                    currentQuery = '';
                     return;
                 }
                 
-                resultsDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Searching...</p></div>';
+                currentQuery = query;
+                directResults = [];
+                synonymResults = [];
+                synonymsUsed = {};
                 
-                const directResults = searchDirect(query);
+                // Show tabs
+                tabsContainer.style.display = 'flex';
                 
-                if (searchMode === 'quick') {
-                    resultsDiv.innerHTML = renderResults(directResults, [], {}, query);
+                // Reset tab states
+                tabDirectCount.textContent = '';
+                tabIndirectCount.textContent = '';
+                tabDirectSpinner.style.display = 'inline-block';
+                tabIndirectSpinner.style.display = 'none';
+                
+                // Show loading state for direct matches
+                resultsDiv.innerHTML = renderResults([], [], {}, query, true, false);
+                switchTab('direct');
+                
+                // Step 1: Search direct matches
+                directResults = searchDirect(query);
+                tabDirectCount.textContent = `(${directResults.length})`;
+                tabDirectSpinner.style.display = 'none';
+                
+                // Update UI with direct results
+                resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, true);
+                switchTab('direct');
+                
+                // Step 2: Search indirect matches (after direct finishes)
+                tabIndirectSpinner.style.display = 'inline-block';
+                
+                const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
+                
+                // Filter out synonym results that are already in direct results
+                const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
+                synonymResults = synonymResultsTemp.filter(r => 
+                    !directKeys.has(`${r.kannada}-${r.definition}`)
+                );
+                synonymsUsed = synonymsUsedTemp;
+                
+                tabIndirectCount.textContent = `(${synonymResults.length})`;
+                tabIndirectSpinner.style.display = 'none';
+                
+                // Update UI with both results
+                resultsDiv.innerHTML = renderResults(directResults, synonymResults, synonymsUsed, query, false, false);
+                
+                // Hide tabs if no results at all
+                if (directResults.length === 0 && synonymResults.length === 0) {
+                    tabsContainer.style.display = 'none';
                 } else {
-                    // Deep search - also get synonyms
-                    const { results: synonymResults, synonymsUsed } = await searchWithSynonyms(query);
-                    
-                    // Filter out synonym results that are already in direct results
-                    const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
-                    const filteredSynonymResults = synonymResults.filter(r => 
-                        !directKeys.has(`${r.kannada}-${r.definition}`)
-                    );
-                    
-                    resultsDiv.innerHTML = renderResults(directResults, filteredSynonymResults, synonymsUsed, query);
+                    // If no direct results, switch to indirect tab
+                    if (directResults.length === 0 && synonymResults.length > 0) {
+                        switchTab('indirect');
+                    } else {
+                        switchTab('direct');
+                    }
                 }
             }
             
