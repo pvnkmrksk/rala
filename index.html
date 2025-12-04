@@ -450,6 +450,9 @@
         let reverseIndex = new Map();
         let allEnglishWords = new Set();
         
+        // Cache for audio file existence checks
+        const audioExistenceCache = new Map(); // entryId -> boolean (true/false/null for unknown)
+        
         // DOM elements
         const app = document.getElementById('app');
         
@@ -485,8 +488,8 @@
                 const entry = dictionary[i];
                 if (!entry.defs) continue;
                 
-                // Use array index + 1 as ID (since IDs in voice corpus start from 1)
-                const entryId = i + 1;
+                // Use the entry's own ID field (which matches the voice corpus file IDs)
+                const entryId = entry.id;
                 
                 for (const def of entry.defs) {
                     if (!def.entry) continue;
@@ -717,6 +720,8 @@
                 `;
             } else if (directResults.length > 0) {
                 html += directResults.map(r => renderResultCard(r, query)).join('');
+                // Check audio files and update buttons after rendering
+                setTimeout(() => checkAndUpdateAudioButtons(directResults), 100);
             } else {
                 html += `
                     <div class="no-results">
@@ -751,6 +756,8 @@
                     </div>
                 `;
                 html += synonymResults.map(r => renderResultCard(r, query, true)).join('');
+                // Check audio files and update buttons after rendering
+                setTimeout(() => checkAndUpdateAudioButtons(synonymResults), 100);
             } else if (!loadingDirect) {
                 html += `
                     <div class="no-results">
@@ -767,11 +774,88 @@
         function getAudioUrl(entryId) {
             if (!entryId) return null;
             // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
-            const rangeStart = Math.floor((entryId - 1) / 10000) * 10000;
-            const rangeEnd = rangeStart + 9999;
+            // Range calculation: for ID 1-9999 use "1-9999", for 10000-19999 use "10000-19999", etc.
+            // For IDs 1-9999: rangeStart = 1, rangeEnd = 9999
+            // For IDs 10000-19999: rangeStart = 10000, rangeEnd = 19999
+            // For IDs 20000-29999: rangeStart = 20000, rangeEnd = 29999, etc.
+            let rangeStart, rangeEnd;
+            if (entryId <= 9999) {
+                rangeStart = 1;
+                rangeEnd = 9999;
+            } else {
+                rangeStart = Math.floor(entryId / 10000) * 10000;
+                rangeEnd = rangeStart + 9999;
+            }
             const range = `${rangeStart}-${rangeEnd}`;
             // Using raw.githubusercontent.com to serve the audio files
             return `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${entryId}.mp3`;
+        }
+        
+        async function checkAudioExists(entryId) {
+            if (!entryId) return false;
+            
+            // Check cache first
+            if (audioExistenceCache.has(entryId)) {
+                return audioExistenceCache.get(entryId);
+            }
+            
+            const audioUrl = getAudioUrl(entryId);
+            if (!audioUrl) {
+                audioExistenceCache.set(entryId, false);
+                return false;
+            }
+            
+            try {
+                // Use HEAD request to check if file exists without downloading it
+                const response = await fetch(audioUrl, { method: 'HEAD', cache: 'no-cache' });
+                const exists = response.ok && response.status === 200;
+                audioExistenceCache.set(entryId, exists);
+                
+                if (!exists) {
+                    console.log(`Audio file not found for entry ID ${entryId}: ${audioUrl}`);
+                }
+                
+                return exists;
+            } catch (error) {
+                // If there's an error (network, CORS, etc.), assume it doesn't exist
+                audioExistenceCache.set(entryId, false);
+                console.log(`Error checking audio for entry ID ${entryId}:`, error);
+                return false;
+            }
+        }
+        
+        async function checkAndUpdateAudioButtons(results) {
+            // Collect all unique entry IDs from results that we haven't checked yet
+            const entryIds = [...new Set(results.map(r => r.id).filter(id => id && !audioExistenceCache.has(id)))];
+            
+            if (entryIds.length === 0) return; // All already checked
+            
+            // Check all audio files in parallel (limit to avoid too many requests)
+            const checkPromises = entryIds.slice(0, 50).map(async (entryId) => {
+                const exists = await checkAudioExists(entryId);
+                return { entryId, exists };
+            });
+            
+            const results_checks = await Promise.all(checkPromises);
+            
+            // Update buttons based on existence
+            results_checks.forEach(({ entryId, exists }) => {
+                // Find all buttons for this entry ID
+                const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"]`);
+                if (buttons.length === 0 && exists) {
+                    // Button wasn't shown but file exists - we need to add it
+                    // This shouldn't happen with current logic, but handle it just in case
+                    return;
+                }
+                buttons.forEach(button => {
+                    if (exists) {
+                        button.style.display = '';
+                    } else {
+                        // Remove the button if it doesn't exist
+                        button.remove();
+                    }
+                });
+            });
         }
         
         function renderResultCard(result, query, isSynonym = false) {
@@ -779,11 +863,25 @@
             const audioUrl = result.id ? getAudioUrl(result.id) : null;
             const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
             
+            // Check cache first - if we know it doesn't exist, don't show button
+            // If unknown, show it and check asynchronously
+            let showButton = false;
+            if (audioUrl && result.id) {
+                const cached = audioExistenceCache.get(result.id);
+                if (cached === true) {
+                    showButton = true; // We know it exists
+                } else if (cached === false) {
+                    showButton = false; // We know it doesn't exist
+                } else {
+                    showButton = true; // Unknown - show it and check later
+                }
+            }
+            
             return `
                 <div class="result-card">
                     <div class="kannada-word">
-                        ${audioUrl ? `
-                            <button class="audio-button" id="${audioId}" onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')" title="Play pronunciation">
+                        ${showButton && audioUrl ? `
+                            <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')" title="Play pronunciation">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M8 5v14l11-7z"/>
                                 </svg>
