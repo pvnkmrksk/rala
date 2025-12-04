@@ -40,6 +40,8 @@ This project is built using dictionary data from [Alar](https://alar.ink), creat
 
 - **Original Dictionary**: [Alar - Kannada → English Dictionary](https://alar.ink)
 - **Source Data**: [alar-dict/data on GitHub](https://github.com/alar-dict/data)
+- **Voice Corpus**: [Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus) by Aditya-ds-1806
+- **Synonym API**: [Datamuse API](https://www.datamuse.com/api/)
 - **Data License**: [Open Database License (ODC-ODbL)](https://opendatacommons.org/licenses/odbl/)
 
 ## 📄 License
