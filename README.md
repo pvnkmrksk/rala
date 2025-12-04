@@ -1,5 +1,7 @@
 # Rala (ರಲ) - English to Kannada Reverse Dictionary
 
+**Live Site**: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
+
 Rala is an uneducated reverse dictionary that helps you find Kannada words by searching for their English meanings or definitions. Instead of looking up a Kannada word to find its meaning, you can search for an English concept and discover the corresponding Kannada words.
 
 ## Features
@@ -35,5 +37,7 @@ This project is built using dictionary data from [Alar](https://alar.ink), creat
 
 ## License
 
-The dictionary data is licensed under ODC-ODbL. Please refer to the [Alar project](https://alar.ink) for more information about the data license.
+This project and its code are licensed under the [Open Database License (ODC-ODbL)](https://opendatacommons.org/licenses/odbl/), inheriting from the source dictionary data license.
+
+The dictionary data is provided by [Alar](https://alar.ink) and is also licensed under ODC-ODbL. Please refer to the [Alar project](https://alar.ink) for more information about the data license.
 
