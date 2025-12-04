@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alar Reverse Dictionary - English to Kannada</title>
+    <title>Rala - English to Kannada Dictionary</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <style>
         * {
@@ -199,11 +198,29 @@
         .tab:hover:not(.active) {
             background: #d0d0d0;
         }
+        
+        .attribution {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #7f8c8d;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .attribution a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .attribution a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>🔤 Alar Reverse Dictionary</h1>
-    <p class="subtitle">English → Kannada with Smart Synonym Matching</p>
+    <h1>📖 Rala</h1>
+    <p class="subtitle">English → Kannada ಶಬ್ದಕೋಶ (the dumber reverse dictionary)</p>
     
     <div id="app">
         <div class="loading">
@@ -211,6 +228,15 @@
             <p>Loading dictionary from GitHub...</p>
         </div>
     </div>
+    
+    <footer class="attribution">
+        <p>
+            <strong>Rala</strong> = Reverse <a href="https://alar.ink" target="_blank">Alar</a> · 
+            Dictionary data by <a href="https://alar.ink" target="_blank">V. Krishna</a> · 
+            Licensed under <a href="https://opendatacommons.org/licenses/odbl/" target="_blank">ODC-ODbL</a> · 
+            <a href="https://github.com/alar-dict/data" target="_blank">Source Data</a>
+        </p>
+    </footer>
 
     <script>
         // Main App
