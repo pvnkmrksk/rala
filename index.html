@@ -14,41 +14,95 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
-            background: #f5f5f5;
+            padding: 0;
+            background: white;
             color: #333;
         }
         
-        h1 {
-            color: #2c3e50;
+        .header {
             text-align: center;
-            margin-bottom: 8px;
+            padding: 60px 20px 40px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            color: #000;
+            margin: 0 0 16px;
+            letter-spacing: -0.5px;
         }
         
         .subtitle {
             text-align: center;
             color: #666;
-            margin-bottom: 24px;
-            font-size: 14px;
+            margin-bottom: 8px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        
+        .subtitle-line {
+            display: block;
+            margin-bottom: 4px;
+        }
+        
+        .search-wrapper {
+            padding: 0 20px 40px;
         }
         
         .search-container {
-            position: relative;
-            margin-bottom: 20px;
+            display: flex;
+            gap: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .lang-selector {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 14px;
+            color: #666;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         
         input[type="text"] {
-            width: 100%;
-            padding: 16px 20px;
-            font-size: 18px;
-            border: 2px solid #ddd;
-            border-radius: 12px;
+            flex: 1;
+            padding: 12px 16px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
             outline: none;
             transition: border-color 0.2s;
         }
         
         input[type="text"]:focus {
-            border-color: #3498db;
+            border-color: #000;
+        }
+        
+        .search-button {
+            background: #000;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+        
+        .search-button:hover {
+            background: #333;
+        }
+        
+        .search-button svg {
+            width: 20px;
+            height: 20px;
         }
         
         .status {
@@ -94,50 +148,55 @@
         
         .result-card {
             background: white;
-            border-radius: 12px;
-            padding: 16px 20px;
-            margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            transition: box-shadow 0.2s;
+            border-radius: 0;
+            padding: 20px 0;
+            margin-bottom: 0;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.2s;
         }
         
         .result-card:hover {
-            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            background: #fafafa;
+        }
+        
+        .result-card:last-child {
+            border-bottom: none;
         }
         
         .kannada-word {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 4px;
+            color: #000;
+            margin-bottom: 6px;
         }
         
         .phonetic {
             font-size: 14px;
-            color: #95a5a6;
+            color: #999;
             font-style: italic;
             margin-bottom: 12px;
         }
         
         .definition {
             margin-bottom: 8px;
-            padding-left: 12px;
-            border-left: 3px solid #e8e8e8;
+            padding-left: 0;
+            border-left: none;
         }
         
         .def-type {
             font-size: 11px;
-            color: #fff;
-            background: #3498db;
-            padding: 2px 8px;
-            border-radius: 10px;
+            color: #666;
+            background: #f5f5f5;
+            padding: 3px 8px;
+            border-radius: 4px;
             margin-right: 8px;
             text-transform: uppercase;
+            font-weight: 500;
         }
         
         .def-text {
-            color: #444;
-            line-height: 1.5;
+            color: #333;
+            line-height: 1.6;
         }
         
         .matched-word {
@@ -147,9 +206,10 @@
         }
         
         .synonym-match {
-            font-size: 12px;
-            color: #e67e22;
+            font-size: 13px;
+            color: #999;
             margin-top: 8px;
+            font-style: italic;
         }
         
         .no-results {
@@ -161,45 +221,58 @@
         .stats {
             text-align: center;
             font-size: 13px;
-            color: #95a5a6;
-            margin-top: 8px;
+            color: #999;
+            margin-top: 40px;
+            padding: 20px;
         }
         
         .search-info {
-            font-size: 13px;
-            color: #7f8c8d;
-            margin-bottom: 16px;
-            padding: 12px;
-            background: #fff;
-            border-radius: 8px;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+            padding: 12px 0;
+        }
+        
+        .tabs-wrapper {
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 100;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 16px 20px;
+            margin-bottom: 0;
         }
         
         .tabs {
             display: flex;
             gap: 8px;
-            margin-bottom: 16px;
+            max-width: 600px;
+            margin: 0 auto;
         }
         
         .tab {
-            padding: 8px 16px;
+            padding: 10px 20px;
             border: none;
-            background: #e0e0e0;
-            border-radius: 20px;
+            background: transparent;
+            border-radius: 6px;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 15px;
             transition: all 0.2s;
             display: flex;
             align-items: center;
             gap: 8px;
+            color: #666;
+            font-weight: 500;
         }
         
         .tab.active {
-            background: #3498db;
-            color: white;
+            background: #f5f5f5;
+            color: #000;
         }
         
         .tab:hover:not(.active) {
-            background: #d0d0d0;
+            background: #fafafa;
+            color: #000;
         }
         
         .tab.loading {
@@ -217,39 +290,69 @@
         }
         
         .results-container {
-            min-height: 200px;
+            padding: 20px;
         }
         
-        .tab-content {
-            display: none;
+        .results-section {
+            margin-bottom: 40px;
         }
         
-        .tab-content.active {
-            display: block;
+        .section-anchor {
+            scroll-margin-top: 80px;
+        }
+        
+        .section-header {
+            font-size: 18px;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e0e0e0;
         }
         
         .attribution {
-            margin-top: 40px;
-            padding: 20px;
+            margin-top: 60px;
+            padding: 40px 20px;
             text-align: center;
             font-size: 13px;
-            color: #7f8c8d;
+            color: #999;
             border-top: 1px solid #e0e0e0;
         }
         
         .attribution a {
-            color: #3498db;
-            text-decoration: none;
+            color: #000;
+            text-decoration: underline;
         }
         
         .attribution a:hover {
-            text-decoration: underline;
+            text-decoration: none;
+        }
+        
+        .footer-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .footer-links a {
+            color: #666;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            color: #000;
         }
     </style>
 </head>
 <body>
-    <h1>📖 Rala (ರಲ)</h1>
-    <p class="subtitle">English → Kannada ಶಬ್ದಕೋಶ (uneducated reverse dictionary)</p>
+    <div class="header">
+        <h1>ರಲ</h1>
+        <p class="subtitle">
+            <span class="subtitle-line">ಶ್ರೀ. ವಿ. ಕೃಷ್ಣ ಅವರ ಇಂಗ್ಲಿಷ್ - ಕನ್ನಡ ನಿಘಂಟು</span>
+            <span class="subtitle-line">"Rala" V. Krishna's English → Kannada dictionary</span>
+        </p>
+    </div>
     
     <div id="app">
         <div class="loading">
@@ -265,6 +368,10 @@
             Licensed under <a href="https://opendatacommons.org/licenses/odbl/" target="_blank">ODC-ODbL</a> · 
             <a href="https://github.com/alar-dict/data" target="_blank">Source Data</a>
         </p>
+        <div class="footer-links">
+            <a href="https://github.com/alar-dict/data">Kannada glossary</a>
+            <a href="https://alar.ink">About</a>
+        </div>
     </footer>
 
     <script>
@@ -442,44 +549,51 @@
         function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false) {
             let html = '';
             
-            // Direct matches tab content
+            if (directResults.length === 0 && synonymResults.length === 0 && !loadingDirect && !loadingIndirect) {
+                return `
+                    <div class="no-results">
+                        <p>No results found for "${query}"</p>
+                        <p style="font-size: 14px; margin-top: 8px;">Try a different word or check spelling</p>
+                    </div>
+                `;
+            }
+            
+            // Exact matches section
             html += `
-                <div class="tab-content ${directResults.length > 0 || loadingDirect ? 'active' : ''}" id="tab-content-direct">
+                <div class="results-section section-anchor" id="exact-matches">
+                    <div class="section-header">Exact Match${directResults.length !== 1 ? 'es' : ''} (${directResults.length})</div>
             `;
             
             if (loadingDirect) {
                 html += `
                     <div class="loading">
                         <div class="spinner"></div>
-                        <p>Searching direct matches...</p>
+                        <p>Searching...</p>
                     </div>
                 `;
             } else if (directResults.length > 0) {
-                html += `
-                    <div class="results-section">
-                        ${directResults.map(r => renderResultCard(r, query)).join('')}
-                    </div>
-                `;
-            } else if (!loadingIndirect) {
+                html += directResults.map(r => renderResultCard(r, query)).join('');
+            } else {
                 html += `
                     <div class="no-results">
-                        <p>😕 No direct matches found for "${query}"</p>
+                        <p>No exact matches found</p>
                     </div>
                 `;
             }
             
             html += `</div>`;
             
-            // Indirect/synonym matches tab content
+            // Synonym matches section
             html += `
-                <div class="tab-content ${directResults.length === 0 && (synonymResults.length > 0 || loadingIndirect) ? 'active' : ''}" id="tab-content-indirect">
+                <div class="results-section section-anchor" id="synonym-matches">
+                    <div class="section-header">Synonym Match${synonymResults.length !== 1 ? 'es' : ''} (${synonymResults.length})</div>
             `;
             
             if (loadingIndirect) {
                 html += `
                     <div class="loading">
                         <div class="spinner"></div>
-                        <p>Searching indirect matches...</p>
+                        <p>Searching...</p>
                     </div>
                 `;
             } else if (synonymResults.length > 0) {
@@ -489,30 +603,19 @@
                     
                 html += `
                     <div class="search-info">
-                        🔗 Found via: ${usedSynonyms}
-                    </div>
-                    <div class="results-section">
-                        ${synonymResults.map(r => renderResultCard(r, query, true)).join('')}
+                        Found via: ${usedSynonyms}
                     </div>
                 `;
+                html += synonymResults.map(r => renderResultCard(r, query, true)).join('');
             } else if (!loadingDirect) {
                 html += `
                     <div class="no-results">
-                        <p>😕 No indirect matches found for "${query}"</p>
+                        <p>No synonym matches found</p>
                     </div>
                 `;
             }
             
             html += `</div>`;
-            
-            if (directResults.length === 0 && synonymResults.length === 0 && !loadingDirect && !loadingIndirect) {
-                html = `
-                    <div class="no-results">
-                        <p>😕 No results found for "${query}"</p>
-                        <p style="font-size: 14px;">Try a different word or check spelling</p>
-                    </div>
-                `;
-            }
             
             return html;
         }
@@ -528,44 +631,61 @@
                         <span class="def-type">${result.type || 'n/a'}</span>
                         <span class="def-text">${highlightedDef}</span>
                     </div>
-                    ${isSynonym ? `<div class="synonym-match">↳ matched via synonym: "${result.matchedWord}" (searched: "${result.originalQuery}")</div>` : ''}
+                    ${isSynonym ? `<div class="synonym-match">matched via synonym: "${result.matchedWord}" (searched: "${result.originalQuery}")</div>` : ''}
                 </div>
             `;
         }
         
         function renderApp() {
             app.innerHTML = `
-                <div class="search-container">
-                    <input type="text" id="search-input" placeholder="Search English word (e.g., happy, water, beautiful)..." autofocus>
+                <div class="search-wrapper">
+                    <div class="search-container">
+                        <div class="lang-selector">
+                            <span>English - Kannada</span>
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 6h6M6 3l3 3-3 3"/>
+                            </svg>
+                        </div>
+                        <input type="text" id="search-input" placeholder="Search English word..." autofocus>
+                        <button class="search-button" id="search-button">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <div class="tabs" id="tabs-container" style="display: none;">
-                    <button class="tab active" id="tab-direct">
-                        <span>DIRECT MATCHES</span>
-                        <span id="tab-direct-count"></span>
-                        <span id="tab-direct-spinner" class="tab-spinner" style="display: none;"></span>
-                    </button>
-                    <button class="tab" id="tab-indirect">
-                        <span>Synonym/Indirect Matches</span>
-                        <span id="tab-indirect-count"></span>
-                        <span id="tab-indirect-spinner" class="tab-spinner" style="display: none;"></span>
-                    </button>
+                <div class="tabs-wrapper" id="tabs-wrapper" style="display: none;">
+                    <div class="tabs">
+                        <button class="tab active" id="tab-exact">
+                            <span>Exact Match</span>
+                            <span id="tab-exact-count"></span>
+                            <span id="tab-exact-spinner" class="tab-spinner" style="display: none;"></span>
+                        </button>
+                        <button class="tab" id="tab-synonym">
+                            <span>Synonym Match</span>
+                            <span id="tab-synonym-count"></span>
+                            <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
+                        </button>
+                    </div>
                 </div>
                 <div id="results" class="results-container"></div>
                 <div class="stats">
-                    📚 ${dictionary.length.toLocaleString()} Kannada entries | 
-                    🔤 ${reverseIndex.size.toLocaleString()} unique English words indexed
+                    ${dictionary.length.toLocaleString()} Kannada entries | 
+                    ${reverseIndex.size.toLocaleString()} unique English words indexed
                 </div>
             `;
             
             const searchInput = document.getElementById('search-input');
+            const searchButton = document.getElementById('search-button');
             const resultsDiv = document.getElementById('results');
-            const tabsContainer = document.getElementById('tabs-container');
-            const tabDirect = document.getElementById('tab-direct');
-            const tabIndirect = document.getElementById('tab-indirect');
-            const tabDirectCount = document.getElementById('tab-direct-count');
-            const tabIndirectCount = document.getElementById('tab-indirect-count');
-            const tabDirectSpinner = document.getElementById('tab-direct-spinner');
-            const tabIndirectSpinner = document.getElementById('tab-indirect-spinner');
+            const tabsWrapper = document.getElementById('tabs-wrapper');
+            const tabExact = document.getElementById('tab-exact');
+            const tabSynonym = document.getElementById('tab-synonym');
+            const tabExactCount = document.getElementById('tab-exact-count');
+            const tabSynonymCount = document.getElementById('tab-synonym-count');
+            const tabExactSpinner = document.getElementById('tab-exact-spinner');
+            const tabSynonymSpinner = document.getElementById('tab-synonym-spinner');
             
             let directResults = [];
             let synonymResults = [];
@@ -576,49 +696,41 @@
             let synonymSearchCompleted = false;
             let synonymSearchTimeout = null;
             
-            function scrollToResults() {
-                setTimeout(() => {
-                    // Scroll to the results section
-                    resultsDiv.scrollIntoView({ 
-                        behavior: 'smooth', 
-                        block: 'start' 
-                    });
-                }, 100);
-            }
-            
-            function switchTab(tabName, shouldScroll = true) {
-                if (tabName === 'direct') {
-                    tabDirect.classList.add('active');
-                    tabIndirect.classList.remove('active');
-                    document.getElementById('tab-content-direct')?.classList.add('active');
-                    document.getElementById('tab-content-indirect')?.classList.remove('active');
+            function switchTab(tabName) {
+                if (tabName === 'exact') {
+                    tabExact.classList.add('active');
+                    tabSynonym.classList.remove('active');
+                    const exactSection = document.getElementById('exact-matches');
+                    if (exactSection) {
+                        setTimeout(() => {
+                            exactSection.scrollIntoView({ 
+                                behavior: 'smooth', 
+                                block: 'start' 
+                            });
+                        }, 100);
+                    }
                 } else {
-                    tabIndirect.classList.add('active');
-                    tabDirect.classList.remove('active');
-                    document.getElementById('tab-content-indirect')?.classList.add('active');
-                    document.getElementById('tab-content-direct')?.classList.remove('active');
-                }
-                if (shouldScroll) {
-                    // When switching to indirect tab, scroll to where that section starts
-                    setTimeout(() => {
-                        const indirectContent = document.getElementById('tab-content-indirect');
-                        if (indirectContent && tabName === 'indirect') {
-                            indirectContent.scrollIntoView({ 
+                    tabSynonym.classList.add('active');
+                    tabExact.classList.remove('active');
+                    const synonymSection = document.getElementById('synonym-matches');
+                    if (synonymSection) {
+                        setTimeout(() => {
+                            synonymSection.scrollIntoView({ 
                                 behavior: 'smooth', 
                                 block: 'start' 
                             });
-                        } else {
-                            resultsDiv.scrollIntoView({ 
-                                behavior: 'smooth', 
-                                block: 'start' 
-                            });
-                        }
-                    }, 100);
+                        }, 100);
+                    }
                 }
             }
             
-            tabDirect.addEventListener('click', () => switchTab('direct'));
-            tabIndirect.addEventListener('click', () => switchTab('indirect'));
+            tabExact.addEventListener('click', () => switchTab('exact'));
+            tabSynonym.addEventListener('click', () => switchTab('synonym'));
+            searchButton.addEventListener('click', () => {
+                if (searchInput.value.trim()) {
+                    performSearch(searchInput.value.trim(), true);
+                }
+            });
             
             async function loadSynonyms(query) {
                 if (synonymSearchInProgress || synonymSearchCompleted) {
@@ -626,7 +738,7 @@
                 }
                 
                 synonymSearchInProgress = true;
-                tabIndirectSpinner.style.display = 'inline-block';
+                tabSynonymSpinner.style.display = 'inline-block';
                 
                 const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
                 
@@ -637,8 +749,8 @@
                 );
                 synonymsUsed = synonymsUsedTemp;
                 
-                tabIndirectCount.textContent = `(${synonymResults.length})`;
-                tabIndirectSpinner.style.display = 'none';
+                tabSynonymCount.textContent = ` (${synonymResults.length})`;
+                tabSynonymSpinner.style.display = 'none';
                 synonymSearchCompleted = true;
                 
                 // Update UI with both results
@@ -648,7 +760,7 @@
             async function performSearch(query, fromEnter = false) {
                 if (!query.trim()) {
                     resultsDiv.innerHTML = '';
-                    tabsContainer.style.display = 'none';
+                    tabsWrapper.style.display = 'none';
                     directResults = [];
                     synonymResults = [];
                     synonymsUsed = {};
@@ -676,26 +788,25 @@
                 }
                 
                 // Show tabs
-                tabsContainer.style.display = 'flex';
+                tabsWrapper.style.display = 'block';
                 
                 // Reset tab states
-                tabDirectCount.textContent = '';
-                tabIndirectCount.textContent = '';
-                tabDirectSpinner.style.display = 'inline-block';
-                tabIndirectSpinner.style.display = 'none';
+                tabExactCount.textContent = '';
+                tabSynonymCount.textContent = '';
+                tabExactSpinner.style.display = 'inline-block';
+                tabSynonymSpinner.style.display = 'none';
                 
                 // Show loading state for direct matches
                 resultsDiv.innerHTML = renderResults([], [], {}, query, true, false);
-                switchTab('direct', !fromEnter);
+                switchTab('exact');
                 
                 // Step 1: Search direct matches
                 directResults = searchDirect(query);
-                tabDirectCount.textContent = `(${directResults.length})`;
-                tabDirectSpinner.style.display = 'none';
+                tabExactCount.textContent = ` (${directResults.length})`;
+                tabExactSpinner.style.display = 'none';
                 
                 // Update UI with direct results
                 resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, false);
-                switchTab('direct', !fromEnter);
                 
                 // Step 2: Load synonyms with delay (500ms) or immediately if Enter was pressed
                 if (fromEnter) {
@@ -710,14 +821,10 @@
                 
                 // Hide tabs if no results at all
                 if (directResults.length === 0 && synonymResults.length === 0) {
-                    tabsContainer.style.display = 'none';
+                    tabsWrapper.style.display = 'none';
                 } else {
-                    // If no direct results, switch to indirect tab
-                    if (directResults.length === 0 && synonymResults.length > 0) {
-                        switchTab('indirect', !fromEnter);
-                    } else {
-                        switchTab('direct', !fromEnter);
-                    }
+                    // Default to exact tab
+                    switchTab('exact');
                 }
             }
             
