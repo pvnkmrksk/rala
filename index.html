@@ -178,6 +178,48 @@
             font-weight: 600;
             color: #000;
             margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .audio-button {
+            background: transparent;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            padding: 0;
+            flex-shrink: 0;
+        }
+        
+        .audio-button:hover {
+            background: #f5f5f5;
+            border-color: #999;
+        }
+        
+        .audio-button:active {
+            transform: scale(0.95);
+        }
+        
+        .audio-button svg {
+            width: 16px;
+            height: 16px;
+            color: #666;
+        }
+        
+        .audio-button.playing {
+            background: #000;
+            border-color: #000;
+        }
+        
+        .audio-button.playing svg {
+            color: white;
         }
         
         .phonetic {
@@ -438,8 +480,12 @@
             // Build reverse index: English word -> list of Kannada entries
             reverseIndex = new Map();
             
-            for (const entry of dictionary) {
+            for (let i = 0; i < dictionary.length; i++) {
+                const entry = dictionary[i];
                 if (!entry.defs) continue;
+                
+                // Use array index + 1 as ID (since IDs in voice corpus start from 1)
+                const entryId = i + 1;
                 
                 for (const def of entry.defs) {
                     if (!def.entry) continue;
@@ -457,7 +503,8 @@
                             phone: entry.phone,
                             definition: def.entry,
                             type: def.type,
-                            head: entry.head
+                            head: entry.head,
+                            id: entryId
                         });
                     }
                 }
@@ -716,12 +763,33 @@
             return html;
         }
         
+        function getAudioUrl(entryId) {
+            if (!entryId) return null;
+            // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
+            const rangeStart = Math.floor((entryId - 1) / 10000) * 10000;
+            const rangeEnd = rangeStart + 9999;
+            const range = `${rangeStart}-${rangeEnd}`;
+            // Using raw.githubusercontent.com to serve the audio files
+            return `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${entryId}.mp3`;
+        }
+        
         function renderResultCard(result, query, isSynonym = false) {
             const highlightedDef = highlightMatch(result.definition, result.matchedWord);
+            const audioUrl = result.id ? getAudioUrl(result.id) : null;
+            const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
             
             return `
                 <div class="result-card">
-                    <div class="kannada-word">${result.kannada}</div>
+                    <div class="kannada-word">
+                        ${audioUrl ? `
+                            <button class="audio-button" id="${audioId}" onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')" title="Play pronunciation">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        ` : ''}
+                        <span>${result.kannada}</span>
+                    </div>
                     <div class="phonetic">${result.phone || ''}</div>
                     <div class="definition">
                         <span class="def-type">${result.type || 'n/a'}</span>
@@ -731,6 +799,44 @@
                 </div>
             `;
         }
+        
+        function playAudio(buttonId, audioUrl) {
+            const button = document.getElementById(buttonId);
+            if (!button) return;
+            
+            // Stop any currently playing audio
+            const currentAudio = window.currentPlayingAudio;
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                const prevButton = document.querySelector('.audio-button.playing');
+                if (prevButton) prevButton.classList.remove('playing');
+            }
+            
+            // Play new audio
+            const audio = new Audio(audioUrl);
+            window.currentPlayingAudio = audio;
+            
+            button.classList.add('playing');
+            
+            audio.play().catch(err => {
+                console.error('Error playing audio:', err);
+                button.classList.remove('playing');
+            });
+            
+            audio.onended = () => {
+                button.classList.remove('playing');
+                window.currentPlayingAudio = null;
+            };
+            
+            audio.onerror = () => {
+                button.classList.remove('playing');
+                window.currentPlayingAudio = null;
+            };
+        }
+        
+        // Make playAudio available globally
+        window.playAudio = playAudio;
         
         function renderApp() {
             app.innerHTML = `
