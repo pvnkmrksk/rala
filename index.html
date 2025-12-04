@@ -505,6 +505,42 @@
             }
         }
         
+        function isExactDefinition(definition) {
+            // Check if definition ends with "; a ..." or "; an ..." pattern
+            // These are primary/exact definitions
+            // Pattern examples: "; a printer." or "; an editor."
+            if (!definition) return false;
+            const trimmed = definition.trim();
+            // Match "; a " or "; an " followed by any text ending with period
+            // More permissive: check if it contains "; a " or "; an " in the last 100 chars
+            const lastPart = trimmed.slice(-100);
+            return /;\s*(a|an)\s+[^;]+\.\s*$/i.test(lastPart);
+        }
+        
+        function getDefinitionPriority(definition, searchWord) {
+            // Higher priority = comes first
+            // Priority 1: Ends with "; a [searchWord]" or "; an [searchWord]" (exact match)
+            // Priority 2: Ends with "; a ..." or "; an ..." (any exact definition)
+            // Priority 3: Other definitions
+            
+            if (!definition) return 3;
+            const trimmed = definition.trim().toLowerCase();
+            const searchLower = searchWord.toLowerCase();
+            
+            // Check if it ends with exact match: "; a editor." or "; an editor."
+            const exactMatchPattern = new RegExp(`;\\s*(a|an)\\s+${searchLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\.\\s*$`, 'i');
+            if (exactMatchPattern.test(trimmed)) {
+                return 1; // Highest priority
+            }
+            
+            // Check if it's an exact definition (ends with "; a ..." or "; an ...")
+            if (isExactDefinition(definition)) {
+                return 2; // Second priority
+            }
+            
+            return 3; // Lowest priority
+        }
+        
         function searchDirect(query) {
             const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
             const results = [];
@@ -521,6 +557,24 @@
                     }
                 }
             }
+            
+            // Sort results: prioritize exact definitions, especially those matching the search term
+            const exactCount = results.filter(r => isExactDefinition(r.definition)).length;
+            console.log(`Direct search - Total: ${results.length}, Exact definitions: ${exactCount}`);
+            
+            results.sort((a, b) => {
+                // Get priority for each result (using the matched word as search term)
+                const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
+                const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+                
+                // Lower priority number = higher priority (comes first)
+                if (aPriority !== bPriority) {
+                    return aPriority - bPriority;
+                }
+                
+                // If same priority, keep original order
+                return 0;
+            });
             
             return results;
         }
@@ -561,6 +615,24 @@
                     }
                 }
             }
+            
+            // Sort results: prioritize exact definitions, especially those matching the search term
+            const exactCount = results.filter(r => isExactDefinition(r.definition)).length;
+            console.log(`Synonym search - Total: ${results.length}, Exact definitions: ${exactCount}`);
+            
+            results.sort((a, b) => {
+                // Get priority for each result (using the matched word as search term)
+                const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
+                const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+                
+                // Lower priority number = higher priority (comes first)
+                if (aPriority !== bPriority) {
+                    return aPriority - bPriority;
+                }
+                
+                // If same priority, keep original order
+                return 0;
+            });
             
             return { results, synonymsUsed };
         }
