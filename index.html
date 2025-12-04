@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alar Reverse Dictionary - English to Kannada</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+        
+        .search-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 16px 20px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        
+        input[type="text"]:focus {
+            border-color: #3498db;
+        }
+        
+        .status {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e0e0e0;
+            border-top-color: #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .results-section {
+            margin-bottom: 24px;
+        }
+        
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .result-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: box-shadow 0.2s;
+        }
+        
+        .result-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        .kannada-word {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        
+        .phonetic {
+            font-size: 14px;
+            color: #95a5a6;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+        
+        .definition {
+            margin-bottom: 8px;
+            padding-left: 12px;
+            border-left: 3px solid #e8e8e8;
+        }
+        
+        .def-type {
+            font-size: 11px;
+            color: #fff;
+            background: #3498db;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-right: 8px;
+            text-transform: uppercase;
+        }
+        
+        .def-text {
+            color: #444;
+            line-height: 1.5;
+        }
+        
+        .matched-word {
+            background: #fff3cd;
+            padding: 1px 4px;
+            border-radius: 3px;
+        }
+        
+        .synonym-match {
+            font-size: 12px;
+            color: #e67e22;
+            margin-top: 8px;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #95a5a6;
+        }
+        
+        .stats {
+            text-align: center;
+            font-size: 13px;
+            color: #95a5a6;
+            margin-top: 8px;
+        }
+        
+        .search-info {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 16px;
+            padding: 12px;
+            background: #fff;
+            border-radius: 8px;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .tab {
+            padding: 8px 16px;
+            border: none;
+            background: #e0e0e0;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        
+        .tab.active {
+            background: #3498db;
+            color: white;
+        }
+        
+        .tab:hover:not(.active) {
+            background: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔤 Alar Reverse Dictionary</h1>
+    <p class="subtitle">English → Kannada with Smart Synonym Matching</p>
+    
+    <div id="app">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Loading dictionary from GitHub...</p>
+        </div>
+    </div>
+
+    <script>
+        // Main App
+        const YAML_URL = 'https://raw.githubusercontent.com/alar-dict/data/master/alar.yml';
+        const DATAMUSE_API = 'https://api.datamuse.com/words';
+        
+        let dictionary = [];
+        let reverseIndex = new Map();
+        let allEnglishWords = new Set();
+        
+        // DOM elements
+        const app = document.getElementById('app');
+        
+        // Initialize
+        async function init() {
+            try {
+                await loadDictionary();
+                buildReverseIndex();
+                renderApp();
+            } catch (error) {
+                app.innerHTML = `
+                    <div class="status" style="color: #e74c3c;">
+                        <p>❌ Failed to load dictionary: ${error.message}</p>
+                        <p style="font-size: 14px;">Try refreshing the page or check your internet connection.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        async function loadDictionary() {
+            const response = await fetch(YAML_URL);
+            if (!response.ok) throw new Error('Failed to fetch dictionary');
+            const text = await response.text();
+            dictionary = jsyaml.load(text);
+            console.log(`Loaded ${dictionary.length} entries`);
+        }
+        
+        function buildReverseIndex() {
+            // Build reverse index: English word -> list of Kannada entries
+            reverseIndex = new Map();
+            
+            for (const entry of dictionary) {
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    
+                    // Extract English words from definition
+                    const words = extractWords(def.entry.toLowerCase());
+                    
+                    for (const word of words) {
+                        allEnglishWords.add(word);
+                        if (!reverseIndex.has(word)) {
+                            reverseIndex.set(word, []);
+                        }
+                        reverseIndex.get(word).push({
+                            kannada: entry.entry,
+                            phone: entry.phone,
+                            definition: def.entry,
+                            type: def.type,
+                            head: entry.head
+                        });
+                    }
+                }
+            }
+            
+            console.log(`Built reverse index with ${reverseIndex.size} English words`);
+        }
+        
+        function extractWords(text) {
+            // Extract meaningful words (skip common words, punctuation, etc.)
+            const stopWords = new Set([
+                'a', 'an', 'the', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+                'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could',
+                'should', 'may', 'might', 'must', 'shall', 'can', 'need', 'dare',
+                'to', 'of', 'in', 'for', 'on', 'with', 'at', 'by', 'from', 'up',
+                'about', 'into', 'over', 'after', 'or', 'and', 'but', 'if', 'as',
+                'etc', 'eg', 'ie', 'cf', 'vs', 'fig', 'esp', 'also', 'see'
+            ]);
+            
+            return text
+                .replace(/[^\w\s-]/g, ' ')
+                .split(/\s+/)
+                .filter(w => w.length > 2 && !stopWords.has(w) && !/^\d+$/.test(w));
+        }
+        
+        async function getSynonyms(word) {
+            try {
+                // Get synonyms using Datamuse API
+                const response = await fetch(`${DATAMUSE_API}?rel_syn=${encodeURIComponent(word)}&max=15`);
+                const data = await response.json();
+                return data.map(item => item.word);
+            } catch {
+                return [];
+            }
+        }
+        
+        async function getSimilarWords(word) {
+            try {
+                // Get words with similar meaning
+                const response = await fetch(`${DATAMUSE_API}?ml=${encodeURIComponent(word)}&max=20`);
+                const data = await response.json();
+                return data.map(item => item.word);
+            } catch {
+                return [];
+            }
+        }
+        
+        function searchDirect(query) {
+            const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+            const results = [];
+            const seen = new Set();
+            
+            for (const word of words) {
+                if (reverseIndex.has(word)) {
+                    for (const entry of reverseIndex.get(word)) {
+                        const key = `${entry.kannada}-${entry.definition}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            results.push({ ...entry, matchedWord: word, matchType: 'direct' });
+                        }
+                    }
+                }
+            }
+            
+            return results;
+        }
+        
+        async function searchWithSynonyms(query) {
+            const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+            const results = [];
+            const seen = new Set();
+            const synonymsUsed = {};
+            
+            for (const word of words) {
+                // Get synonyms and similar words
+                const [synonyms, similar] = await Promise.all([
+                    getSynonyms(word),
+                    getSimilarWords(word)
+                ]);
+                
+                const relatedWords = [...new Set([...synonyms, ...similar])];
+                
+                for (const relWord of relatedWords) {
+                    if (reverseIndex.has(relWord)) {
+                        for (const entry of reverseIndex.get(relWord)) {
+                            const key = `${entry.kannada}-${entry.definition}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                if (!synonymsUsed[word]) synonymsUsed[word] = [];
+                                if (!synonymsUsed[word].includes(relWord)) {
+                                    synonymsUsed[word].push(relWord);
+                                }
+                                results.push({ 
+                                    ...entry, 
+                                    matchedWord: relWord, 
+                                    originalQuery: word,
+                                    matchType: 'synonym' 
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+            
+            return { results, synonymsUsed };
+        }
+        
+        function highlightMatch(text, word) {
+            const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+            return text.replace(regex, '<span class="matched-word">$1</span>');
+        }
+        
+        function renderResults(directResults, synonymResults, synonymsUsed, query) {
+            let html = '';
+            
+            if (directResults.length > 0) {
+                html += `
+                    <div class="results-section">
+                        <div class="section-title">Direct Matches (${directResults.length})</div>
+                        ${directResults.map(r => renderResultCard(r, query)).join('')}
+                    </div>
+                `;
+            }
+            
+            if (synonymResults.length > 0) {
+                const usedSynonyms = Object.entries(synonymsUsed)
+                    .map(([orig, syns]) => `"${orig}" → ${syns.slice(0, 5).join(', ')}`)
+                    .join('; ');
+                    
+                html += `
+                    <div class="results-section">
+                        <div class="section-title">Synonym Matches (${synonymResults.length})</div>
+                        <div class="search-info">
+                            🔗 Found via: ${usedSynonyms}
+                        </div>
+                        ${synonymResults.map(r => renderResultCard(r, query, true)).join('')}
+                    </div>
+                `;
+            }
+            
+            if (directResults.length === 0 && synonymResults.length === 0) {
+                html = `
+                    <div class="no-results">
+                        <p>😕 No results found for "${query}"</p>
+                        <p style="font-size: 14px;">Try a different word or check spelling</p>
+                    </div>
+                `;
+            }
+            
+            return html;
+        }
+        
+        function renderResultCard(result, query, isSynonym = false) {
+            const highlightedDef = highlightMatch(result.definition, result.matchedWord);
+            
+            return `
+                <div class="result-card">
+                    <div class="kannada-word">${result.kannada}</div>
+                    <div class="phonetic">${result.phone || ''}</div>
+                    <div class="definition">
+                        <span class="def-type">${result.type || 'n/a'}</span>
+                        <span class="def-text">${highlightedDef}</span>
+                    </div>
+                    ${isSynonym ? `<div class="synonym-match">↳ matched via synonym: "${result.matchedWord}" (searched: "${result.originalQuery}")</div>` : ''}
+                </div>
+            `;
+        }
+        
+        function renderApp() {
+            app.innerHTML = `
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search English word (e.g., happy, water, beautiful)..." autofocus>
+                </div>
+                <div class="tabs">
+                    <button class="tab active" id="tab-quick">Quick Search</button>
+                    <button class="tab" id="tab-deep">Deep Search (with synonyms)</button>
+                </div>
+                <div id="results"></div>
+                <div class="stats">
+                    📚 ${dictionary.length.toLocaleString()} Kannada entries | 
+                    🔤 ${reverseIndex.size.toLocaleString()} unique English words indexed
+                </div>
+            `;
+            
+            const searchInput = document.getElementById('search-input');
+            const resultsDiv = document.getElementById('results');
+            const tabQuick = document.getElementById('tab-quick');
+            const tabDeep = document.getElementById('tab-deep');
+            
+            let searchMode = 'quick';
+            let debounceTimer = null;
+            
+            tabQuick.addEventListener('click', () => {
+                searchMode = 'quick';
+                tabQuick.classList.add('active');
+                tabDeep.classList.remove('active');
+                if (searchInput.value.trim()) performSearch(searchInput.value);
+            });
+            
+            tabDeep.addEventListener('click', () => {
+                searchMode = 'deep';
+                tabDeep.classList.add('active');
+                tabQuick.classList.remove('active');
+                if (searchInput.value.trim()) performSearch(searchInput.value);
+            });
+            
+            async function performSearch(query) {
+                if (!query.trim()) {
+                    resultsDiv.innerHTML = '';
+                    return;
+                }
+                
+                resultsDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Searching...</p></div>';
+                
+                const directResults = searchDirect(query);
+                
+                if (searchMode === 'quick') {
+                    resultsDiv.innerHTML = renderResults(directResults, [], {}, query);
+                } else {
+                    // Deep search - also get synonyms
+                    const { results: synonymResults, synonymsUsed } = await searchWithSynonyms(query);
+                    
+                    // Filter out synonym results that are already in direct results
+                    const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
+                    const filteredSynonymResults = synonymResults.filter(r => 
+                        !directKeys.has(`${r.kannada}-${r.definition}`)
+                    );
+                    
+                    resultsDiv.innerHTML = renderResults(directResults, filteredSynonymResults, synonymsUsed, query);
+                }
+            }
+            
+            searchInput.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    performSearch(e.target.value);
+                }, 300);
+            });
+        }
+        
+        // Start the app
+        init();
+    </script>
+</body>
+</html>
