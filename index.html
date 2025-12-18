@@ -448,6 +448,9 @@
         // Main App
         const YAML_URL = 'https://raw.githubusercontent.com/alar-dict/data/master/alar.yml';
         const DATAMUSE_API = 'https://api.datamuse.com/words';
+        const CACHE_KEY = 'rala_dictionary_cache';
+        const CACHE_VERSION_KEY = 'rala_cache_version';
+        const CACHE_VERSION = '1.0'; // Increment this to invalidate all caches
         
         let dictionary = [];
         let reverseIndex = new Map();
@@ -475,13 +478,99 @@
             }
         }
         
-        async function loadDictionary() {
-            const response = await fetch(YAML_URL);
-            if (!response.ok) throw new Error('Failed to fetch dictionary');
-            const text = await response.text();
-            dictionary = jsyaml.load(text);
-            console.log(`Loaded ${dictionary.length} entries`);
+        // Check if cache should be invalidated (hard refresh or version mismatch)
+        function shouldUseCache() {
+            // Check if this is a hard refresh (performance.navigation.type === 1 means reload)
+            // Also check cache version
+            const cachedVersion = localStorage.getItem(CACHE_VERSION_KEY);
+            return cachedVersion === CACHE_VERSION;
         }
+        
+        // Load dictionary with caching
+        async function loadDictionary() {
+            const useCache = shouldUseCache();
+            let cachedData = null;
+            
+            // Try to load from cache first (if not hard refresh)
+            if (useCache) {
+                try {
+                    const cached = localStorage.getItem(CACHE_KEY);
+                    if (cached) {
+                        cachedData = JSON.parse(cached);
+                        console.log(`Loaded ${cachedData.length} entries from cache`);
+                        dictionary = cachedData;
+                        // Return early with cached data, but fetch fresh data in background
+                        fetchAndCacheDictionary();
+                        return;
+                    }
+                } catch (error) {
+                    console.warn('Failed to load from cache:', error);
+                    // Continue to fetch from network
+                }
+            }
+            
+            // If no cache or hard refresh, fetch from network
+            await fetchAndCacheDictionary();
+        }
+        
+        // Fetch dictionary from network and cache it
+        async function fetchAndCacheDictionary() {
+            try {
+                const response = await fetch(YAML_URL);
+                if (!response.ok) throw new Error('Failed to fetch dictionary');
+                const text = await response.text();
+                dictionary = jsyaml.load(text);
+                console.log(`Loaded ${dictionary.length} entries from network`);
+                
+                // Cache the parsed dictionary
+                try {
+                    localStorage.setItem(CACHE_KEY, JSON.stringify(dictionary));
+                    localStorage.setItem(CACHE_VERSION_KEY, CACHE_VERSION);
+                    console.log('Dictionary cached successfully');
+                } catch (error) {
+                    // Handle quota exceeded or other storage errors
+                    if (error.name === 'QuotaExceededError') {
+                        console.warn('Storage quota exceeded, clearing old cache');
+                        // Clear old cache and try again
+                        localStorage.removeItem(CACHE_KEY);
+                        localStorage.removeItem(CACHE_VERSION_KEY);
+                        try {
+                            localStorage.setItem(CACHE_KEY, JSON.stringify(dictionary));
+                            localStorage.setItem(CACHE_VERSION_KEY, CACHE_VERSION);
+                        } catch (retryError) {
+                            console.error('Failed to cache dictionary:', retryError);
+                        }
+                    } else {
+                        console.error('Failed to cache dictionary:', error);
+                    }
+                }
+            } catch (error) {
+                // If network fetch fails and we have cached data, use it
+                if (dictionary.length === 0) {
+                    try {
+                        const cached = localStorage.getItem(CACHE_KEY);
+                        if (cached) {
+                            dictionary = JSON.parse(cached);
+                            console.log(`Network failed, using cached data: ${dictionary.length} entries`);
+                            return;
+                        }
+                    } catch (cacheError) {
+                        console.error('Failed to load from cache:', cacheError);
+                    }
+                }
+                throw error;
+            }
+        }
+        
+        // Function to manually clear cache (can be called from console: clearRalaCache())
+        function clearRalaCache() {
+            localStorage.removeItem(CACHE_KEY);
+            localStorage.removeItem(CACHE_VERSION_KEY);
+            console.log('Rala cache cleared. Refresh the page to reload from network.');
+        }
+        
+        // Make cache clearing function available globally
+        window.clearRalaCache = clearRalaCache;
         
         function buildReverseIndex() {
             // Build reverse index: English word -> list of Kannada entries
