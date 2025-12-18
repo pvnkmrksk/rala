@@ -7,7 +7,8 @@
     <meta name="description" content="English → Kannada dictionary. An amateur reversal of V. Krishna's Alar">
     <title>Rala - English to Kannada Dictionary</title>
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23000'/%3E%3Ctext x='50%25' y='50%25' font-size='120' font-family='serif' fill='white' text-anchor='middle' dominant-baseline='central'%3Eರಲ%3C/text%3E%3C/svg%3E">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.svg">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <style>
         * {
@@ -406,16 +407,17 @@
             right: 20px;
             background: #000;
             color: white;
-            padding: 12px 20px;
+            padding: 14px 18px;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
             display: none;
-            align-items: center;
-            gap: 12px;
+            flex-direction: column;
+            gap: 8px;
             z-index: 1000;
             cursor: pointer;
             font-size: 14px;
-            max-width: 300px;
+            max-width: 320px;
+            line-height: 1.4;
         }
         
         .install-prompt.show {
@@ -424,6 +426,12 @@
         
         .install-prompt:hover {
             background: #333;
+        }
+        
+        .install-prompt-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
         
         .install-prompt svg {
@@ -437,10 +445,59 @@
             opacity: 0.7;
             font-size: 18px;
             line-height: 1;
+            cursor: pointer;
         }
         
         .install-prompt .close:hover {
             opacity: 1;
+        }
+        
+        .install-prompt-text {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+        
+        .pwa-info-banner {
+            background: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 20px;
+            font-size: 14px;
+            color: #666;
+            display: none;
+        }
+        
+        .pwa-info-banner.show {
+            display: block;
+        }
+        
+        .pwa-info-banner strong {
+            color: #000;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .pwa-info-banner ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+        
+        .pwa-info-banner li {
+            margin: 4px 0;
+        }
+        
+        .pwa-info-banner .dismiss {
+            margin-top: 12px;
+            color: #000;
+            text-decoration: underline;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .pwa-info-banner .dismiss:hover {
+            text-decoration: none;
         }
         
         @media (max-width: 600px) {
@@ -455,11 +512,25 @@
 </head>
 <body>
     <div id="install-prompt" class="install-prompt">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-        </svg>
-        <span>Install Rala for offline use</span>
-        <span class="close" id="install-close">×</span>
+        <div class="install-prompt-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            <span><strong>Install Rala</strong></span>
+            <span class="close" id="install-close">×</span>
+        </div>
+        <div class="install-prompt-text">Install for offline use and faster access</div>
+    </div>
+    
+    <div id="pwa-info-banner" class="pwa-info-banner">
+        <strong>💡 Install Rala as an App</strong>
+        <p>You can install Rala on your device to use it offline and access it like a native app:</p>
+        <ul>
+            <li><strong>Desktop:</strong> Look for the install button in your browser's address bar, or click the install prompt below</li>
+            <li><strong>Mobile:</strong> Use "Add to Home Screen" from your browser menu</li>
+            <li><strong>Benefits:</strong> Works offline, faster loading, app-like experience</li>
+        </ul>
+        <span class="dismiss" id="pwa-info-dismiss">Got it, dismiss this message</span>
     </div>
     
     <div class="header">
@@ -1513,6 +1584,38 @@
             console.log('Running as installed PWA');
             installPrompt.classList.remove('show');
         }
+        
+        // PWA Info Banner
+        const pwaInfoBanner = document.getElementById('pwa-info-banner');
+        const pwaInfoDismiss = document.getElementById('pwa-info-dismiss');
+        
+        // Show info banner on first visit (if not dismissed before)
+        function showPWAInfo() {
+            const dismissed = localStorage.getItem('pwa-info-dismissed');
+            const isInstalled = window.matchMedia('(display-mode: standalone)').matches || 
+                               window.navigator.standalone === true;
+            
+            // Don't show if already dismissed or already installed
+            if (!dismissed && !isInstalled && pwaInfoBanner) {
+                // Show after a short delay so page loads first
+                setTimeout(() => {
+                    pwaInfoBanner.classList.add('show');
+                }, 2000);
+            }
+        }
+        
+        // Dismiss banner
+        if (pwaInfoDismiss) {
+            pwaInfoDismiss.addEventListener('click', () => {
+                if (pwaInfoBanner) {
+                    pwaInfoBanner.classList.remove('show');
+                    localStorage.setItem('pwa-info-dismissed', 'true');
+                }
+            });
+        }
+        
+        // Show info banner
+        showPWAInfo();
         
         // Start the app
         init();

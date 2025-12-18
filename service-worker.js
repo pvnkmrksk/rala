@@ -7,6 +7,8 @@ const STATIC_ASSETS = [
   './',
   './index.html',
   './about.html',
+  './icon.svg',
+  './manifest.json',
   'https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js'
 ];
 
