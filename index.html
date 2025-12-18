@@ -451,6 +451,9 @@
         const CACHE_KEY = 'rala_dictionary_cache';
         const CACHE_VERSION_KEY = 'rala_cache_version';
         const CACHE_VERSION = '1.0'; // Increment this to invalidate all caches
+        const DB_NAME = 'rala_dictionary_db';
+        const DB_VERSION = 1;
+        const STORE_NAME = 'dictionary';
         
         let dictionary = [];
         let reverseIndex = new Map();
@@ -478,84 +481,167 @@
             }
         }
         
-        // Check if cache should be invalidated (hard refresh or version mismatch)
-        function shouldUseCache() {
-            // Check if this is a hard refresh (performance.navigation.type === 1 means reload)
-            // Also check cache version
-            const cachedVersion = localStorage.getItem(CACHE_VERSION_KEY);
-            return cachedVersion === CACHE_VERSION;
+        // IndexedDB helper functions
+        function openDB() {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(DB_NAME, DB_VERSION);
+                request.onerror = () => reject(request.error);
+                request.onsuccess = () => resolve(request.result);
+                request.onupgradeneeded = (event) => {
+                    const db = event.target.result;
+                    if (!db.objectStoreNames.contains(STORE_NAME)) {
+                        db.createObjectStore(STORE_NAME);
+                    }
+                };
+            });
         }
         
-        // Load dictionary with caching
+        async function getCachedDictionary() {
+            try {
+                const db = await openDB();
+                return new Promise((resolve, reject) => {
+                    const transaction = db.transaction([STORE_NAME], 'readonly');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.get('dictionary');
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve(request.result);
+                });
+            } catch (error) {
+                console.warn('IndexedDB not available:', error);
+                return null;
+            }
+        }
+        
+        async function setCachedDictionary(data) {
+            try {
+                const db = await openDB();
+                return new Promise((resolve, reject) => {
+                    const transaction = db.transaction([STORE_NAME], 'readwrite');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.put(data, 'dictionary');
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve();
+                });
+            } catch (error) {
+                console.error('Failed to save to IndexedDB:', error);
+                throw error;
+            }
+        }
+        
+        async function getCachedVersion() {
+            try {
+                const db = await openDB();
+                return new Promise((resolve, reject) => {
+                    const transaction = db.transaction([STORE_NAME], 'readonly');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.get('version');
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve(request.result);
+                });
+            } catch (error) {
+                return null;
+            }
+        }
+        
+        async function setCachedVersion(version) {
+            try {
+                const db = await openDB();
+                return new Promise((resolve, reject) => {
+                    const transaction = db.transaction([STORE_NAME], 'readwrite');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.put(version, 'version');
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve();
+                });
+            } catch (error) {
+                console.error('Failed to save version to IndexedDB:', error);
+            }
+        }
+        
+        // Check if URL has refresh parameter (for hard refresh bypass)
+        function shouldBypassCache() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.has('refresh') || urlParams.has('nocache');
+        }
+        
+        // Load dictionary with IndexedDB caching
         async function loadDictionary() {
-            const useCache = shouldUseCache();
-            let cachedData = null;
+            // Check if we should bypass cache (URL parameter or version mismatch)
+            const bypassCache = shouldBypassCache();
+            const cachedVersion = await getCachedVersion();
+            const versionMatches = cachedVersion === CACHE_VERSION;
             
-            // Try to load from cache first (if not hard refresh)
-            if (useCache) {
+            // Try to load from cache first (unless bypassed or version mismatch)
+            if (!bypassCache && versionMatches) {
                 try {
-                    const cached = localStorage.getItem(CACHE_KEY);
-                    if (cached) {
-                        cachedData = JSON.parse(cached);
-                        console.log(`Loaded ${cachedData.length} entries from cache`);
+                    const cachedData = await getCachedDictionary();
+                    if (cachedData && Array.isArray(cachedData) && cachedData.length > 0) {
+                        console.log(`✓ Loaded ${cachedData.length} entries from IndexedDB cache`);
+                        console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
                         dictionary = cachedData;
-                        // Return early with cached data, but fetch fresh data in background
-                        fetchAndCacheDictionary();
-                        return;
+                        return; // Use cache, don't fetch from network
+                    } else {
+                        console.log('No cache found in IndexedDB, fetching from network');
                     }
                 } catch (error) {
-                    console.warn('Failed to load from cache:', error);
-                    // Continue to fetch from network
+                    console.warn('Failed to load from IndexedDB cache:', error);
+                    console.log('Falling back to network fetch');
+                }
+            } else {
+                if (bypassCache) {
+                    console.log('Cache bypassed (refresh parameter detected)');
+                } else if (!versionMatches) {
+                    console.log(`Cache version mismatch (cached: ${cachedVersion}, current: ${CACHE_VERSION}), fetching fresh data`);
                 }
             }
             
-            // If no cache or hard refresh, fetch from network
+            // If no cache or bypassed, fetch from network
             await fetchAndCacheDictionary();
         }
         
-        // Fetch dictionary from network and cache it
+        // Fetch dictionary from network and cache it in IndexedDB
         async function fetchAndCacheDictionary() {
             try {
+                console.log('Fetching dictionary from network...');
                 const response = await fetch(YAML_URL);
                 if (!response.ok) throw new Error('Failed to fetch dictionary');
                 const text = await response.text();
                 dictionary = jsyaml.load(text);
-                console.log(`Loaded ${dictionary.length} entries from network`);
+                console.log(`✓ Loaded ${dictionary.length} entries from network`);
                 
-                // Cache the parsed dictionary
+                // Cache the parsed dictionary in IndexedDB
                 try {
-                    localStorage.setItem(CACHE_KEY, JSON.stringify(dictionary));
-                    localStorage.setItem(CACHE_VERSION_KEY, CACHE_VERSION);
-                    console.log('Dictionary cached successfully');
-                } catch (error) {
-                    // Handle quota exceeded or other storage errors
-                    if (error.name === 'QuotaExceededError') {
-                        console.warn('Storage quota exceeded, clearing old cache');
-                        // Clear old cache and try again
-                        localStorage.removeItem(CACHE_KEY);
-                        localStorage.removeItem(CACHE_VERSION_KEY);
-                        try {
-                            localStorage.setItem(CACHE_KEY, JSON.stringify(dictionary));
-                            localStorage.setItem(CACHE_VERSION_KEY, CACHE_VERSION);
-                        } catch (retryError) {
-                            console.error('Failed to cache dictionary:', retryError);
-                        }
+                    const dataSize = new Blob([JSON.stringify(dictionary)]).size;
+                    const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
+                    console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
+                    
+                    await setCachedDictionary(dictionary);
+                    await setCachedVersion(CACHE_VERSION);
+                    
+                    // Verify cache was saved
+                    const verifyCache = await getCachedDictionary();
+                    if (verifyCache && verifyCache.length === dictionary.length) {
+                        console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
+                        console.log(`  Cache verification: ${verifyCache.length} entries stored`);
                     } else {
-                        console.error('Failed to cache dictionary:', error);
+                        console.warn('⚠ Cache verification: entry count mismatch');
                     }
+                } catch (error) {
+                    console.error('✗ Failed to cache dictionary in IndexedDB:', error);
+                    console.error('Dictionary will be fetched on each visit');
                 }
             } catch (error) {
                 // If network fetch fails and we have cached data, use it
                 if (dictionary.length === 0) {
                     try {
-                        const cached = localStorage.getItem(CACHE_KEY);
-                        if (cached) {
-                            dictionary = JSON.parse(cached);
-                            console.log(`Network failed, using cached data: ${dictionary.length} entries`);
+                        const cachedData = await getCachedDictionary();
+                        if (cachedData && Array.isArray(cachedData) && cachedData.length > 0) {
+                            dictionary = cachedData;
+                            console.log(`✓ Network failed, using cached data: ${dictionary.length} entries`);
                             return;
                         }
                     } catch (cacheError) {
-                        console.error('Failed to load from cache:', cacheError);
+                        console.error('✗ Failed to load from cache:', cacheError);
                     }
                 }
                 throw error;
@@ -563,14 +649,65 @@
         }
         
         // Function to manually clear cache (can be called from console: clearRalaCache())
-        function clearRalaCache() {
-            localStorage.removeItem(CACHE_KEY);
-            localStorage.removeItem(CACHE_VERSION_KEY);
-            console.log('Rala cache cleared. Refresh the page to reload from network.');
+        async function clearRalaCache() {
+            try {
+                const db = await openDB();
+                const transaction = db.transaction([STORE_NAME], 'readwrite');
+                const store = transaction.objectStore(STORE_NAME);
+                await Promise.all([
+                    new Promise((resolve, reject) => {
+                        const req = store.delete('dictionary');
+                        req.onsuccess = () => resolve();
+                        req.onerror = () => reject(req.error);
+                    }),
+                    new Promise((resolve, reject) => {
+                        const req = store.delete('version');
+                        req.onsuccess = () => resolve();
+                        req.onerror = () => reject(req.error);
+                    })
+                ]);
+                console.log('✓ Rala cache cleared from IndexedDB. Refresh the page to reload from network.');
+            } catch (error) {
+                console.error('Failed to clear cache:', error);
+                // Fallback: try to delete the entire database
+                try {
+                    const deleteReq = indexedDB.deleteDatabase(DB_NAME);
+                    deleteReq.onsuccess = () => {
+                        console.log('✓ Database deleted. Refresh the page to reload from network.');
+                    };
+                    deleteReq.onerror = () => {
+                        console.error('Failed to delete database:', deleteReq.error);
+                    };
+                } catch (dbError) {
+                    console.error('Failed to delete database:', dbError);
+                }
+            }
         }
         
-        // Make cache clearing function available globally
+        // Function to check cache status (can be called from console: checkRalaCache())
+        async function checkRalaCache() {
+            try {
+                const cachedData = await getCachedDictionary();
+                const version = await getCachedVersion();
+                
+                if (cachedData && Array.isArray(cachedData)) {
+                    const size = new Blob([JSON.stringify(cachedData)]).size;
+                    console.log('Cache Status (IndexedDB):');
+                    console.log(`  Version: ${version} (current: ${CACHE_VERSION})`);
+                    console.log(`  Entries: ${cachedData.length}`);
+                    console.log(`  Size: ${(size / 1024 / 1024).toFixed(2)} MB`);
+                    console.log(`  Valid: ${cachedData.length > 0 ? 'Yes' : 'No'}`);
+                } else {
+                    console.log('Cache Status: No cache found in IndexedDB');
+                }
+            } catch (error) {
+                console.log('Cache Status: Error checking cache -', error.message);
+            }
+        }
+        
+        // Make cache functions available globally
         window.clearRalaCache = clearRalaCache;
+        window.checkRalaCache = checkRalaCache;
         
         function buildReverseIndex() {
             // Build reverse index: English word -> list of Kannada entries
