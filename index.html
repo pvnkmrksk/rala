@@ -1270,15 +1270,59 @@
             return { results, synonymsUsed };
         }
         
-        function highlightMatch(text, matchedWord) {
-            // Handle multi-word matches - highlight all words that matched
-            if (matchedWord.includes(' ')) {
-                // Multi-word: highlight the entire phrase
+        function highlightMatch(text, matchedWord, matchType = null) {
+            // Handle different match types
+            if (matchType === 'exact-phrase' && matchedWord.includes(' ')) {
+                // Exact phrase match: highlight the entire phrase
                 const escaped = matchedWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
                 const regex = new RegExp(`(${escaped})`, 'gi');
                 return text.replace(regex, '<span class="matched-word">$1</span>');
+            } else if (matchType === 'all-words' && matchedWord.includes(' ')) {
+                // All words present but not in order: highlight each word individually
+                const words = matchedWord.split(/\s+/).filter(w => w.length > 0);
+                let highlighted = text;
+                
+                // Process each word separately
+                // We need to be careful to not highlight words that are already inside HTML tags
+                for (const word of words) {
+                    const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    // Match word boundaries, but only in text content (not inside HTML tags)
+                    // Use a simple approach: find matches and check if they're inside tags
+                    const regex = new RegExp(`\\b(${escaped})\\b`, 'gi');
+                    let match;
+                    const matches = [];
+                    
+                    // Find all matches
+                    while ((match = regex.exec(highlighted)) !== null) {
+                        // Check if this match is inside an HTML tag
+                        const beforeMatch = highlighted.substring(0, match.index);
+                        const lastOpenTag = beforeMatch.lastIndexOf('<');
+                        const lastCloseTag = beforeMatch.lastIndexOf('>');
+                        
+                        // If there's an open tag before this match and no closing tag after it, skip
+                        if (lastOpenTag > lastCloseTag) {
+                            continue;
+                        }
+                        
+                        matches.push({
+                            index: match.index,
+                            length: match[0].length,
+                            text: match[0]
+                        });
+                    }
+                    
+                    // Replace matches in reverse order to preserve indices
+                    for (let i = matches.length - 1; i >= 0; i--) {
+                        const m = matches[i];
+                        highlighted = highlighted.substring(0, m.index) + 
+                                      `<span class="matched-word">${m.text}</span>` + 
+                                      highlighted.substring(m.index + m.length);
+                    }
+                }
+                
+                return highlighted;
             } else {
-                // Single word: highlight word boundaries
+                // Single word or any-word match: highlight word boundaries
                 const escaped = matchedWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
                 const regex = new RegExp(`\\b(${escaped})\\b`, 'gi');
                 return text.replace(regex, '<span class="matched-word">$1</span>');
@@ -1487,7 +1531,7 @@
         }
         
         function renderResultCard(result, query, isSynonym = false) {
-            const highlightedDef = highlightMatch(result.definition, result.matchedWord);
+            const highlightedDef = highlightMatch(result.definition, result.matchedWord, result.matchType);
             const audioUrl = result.id ? getAudioUrl(result.id) : null;
             const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
             const copyId = `copy-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
