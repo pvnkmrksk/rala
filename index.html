@@ -958,27 +958,134 @@
         
         function searchDirect(query) {
             const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
-            const results = [];
+            const queryLower = query.toLowerCase().trim();
+            const isMultiWord = words.length > 1;
+            
+            const exactPhraseResults = [];
+            const allWordsResults = [];
+            const anyWordResults = [];
             const seen = new Set();
             
-            for (const word of words) {
+            if (isMultiWord) {
+                // Step 1: Find exact phrase matches (entire query in exact order)
+                const exactPhrase = queryLower;
+                // Check all entries that contain the first word (most efficient starting point)
+                if (reverseIndex.has(words[0])) {
+                    for (const entry of reverseIndex.get(words[0])) {
+                        const defLower = entry.definition.toLowerCase();
+                        if (defLower.includes(exactPhrase)) {
+                            const key = `${entry.kannada}-${entry.definition}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                exactPhraseResults.push({ 
+                                    ...entry, 
+                                    matchedWord: exactPhrase, 
+                                    matchType: 'exact-phrase' 
+                                });
+                            }
+                        }
+                    }
+                }
+                // Also check entries for other words (in case first word doesn't appear)
+                for (let i = 1; i < words.length; i++) {
+                    if (reverseIndex.has(words[i])) {
+                        for (const entry of reverseIndex.get(words[i])) {
+                            const defLower = entry.definition.toLowerCase();
+                            if (defLower.includes(exactPhrase)) {
+                                const key = `${entry.kannada}-${entry.definition}`;
+                                if (!seen.has(key)) {
+                                    seen.add(key);
+                                    exactPhraseResults.push({ 
+                                        ...entry, 
+                                        matchedWord: exactPhrase, 
+                                        matchType: 'exact-phrase' 
+                                    });
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                // Step 2: Find definitions containing all words (in any order)
+                // Get all entries that contain the first word
+                const candidateEntries = new Map();
+                if (reverseIndex.has(words[0])) {
+                    for (const entry of reverseIndex.get(words[0])) {
+                        const key = `${entry.kannada}-${entry.definition}`;
+                        if (!seen.has(key)) {
+                            candidateEntries.set(key, entry);
+                        }
+                    }
+                }
+                
+                // Filter to only those that contain all words
+                for (const [key, entry] of candidateEntries.entries()) {
+                    const defLower = entry.definition.toLowerCase();
+                    const containsAllWords = words.every(word => defLower.includes(word));
+                    if (containsAllWords) {
+                        seen.add(key);
+                        allWordsResults.push({ 
+                            ...entry, 
+                            matchedWord: words.join(' '), 
+                            matchType: 'all-words' 
+                        });
+                    }
+                }
+                
+                // Step 3: Find definitions containing any of the words
+                for (const word of words) {
+                    if (reverseIndex.has(word)) {
+                        for (const entry of reverseIndex.get(word)) {
+                            const key = `${entry.kannada}-${entry.definition}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                anyWordResults.push({ 
+                                    ...entry, 
+                                    matchedWord: word, 
+                                    matchType: 'any-word' 
+                                });
+                            }
+                        }
+                    }
+                }
+            } else {
+                // Single word: use original logic
+                const word = words[0];
                 if (reverseIndex.has(word)) {
                     for (const entry of reverseIndex.get(word)) {
                         const key = `${entry.kannada}-${entry.definition}`;
                         if (!seen.has(key)) {
                             seen.add(key);
-                            results.push({ ...entry, matchedWord: word, matchType: 'direct' });
+                            anyWordResults.push({ 
+                                ...entry, 
+                                matchedWord: word, 
+                                matchType: 'direct' 
+                            });
                         }
                     }
                 }
             }
             
-            // Sort results: prioritize exact definitions, especially those matching the search term
-            const exactCount = results.filter(r => isExactDefinition(r.definition)).length;
-            console.log(`Direct search - Total: ${results.length}, Exact definitions: ${exactCount}`);
+            // Combine results in priority order
+            const allResults = [...exactPhraseResults, ...allWordsResults, ...anyWordResults];
             
-            results.sort((a, b) => {
-                // Get priority for each result (using the matched word as search term)
+            // Sort results: prioritize exact definitions, especially those matching the search term
+            const exactCount = allResults.filter(r => isExactDefinition(r.definition)).length;
+            console.log(`Direct search - Total: ${allResults.length}, Exact definitions: ${exactCount}`);
+            if (isMultiWord) {
+                console.log(`  Exact phrase: ${exactPhraseResults.length}, All words: ${allWordsResults.length}, Any word: ${anyWordResults.length}`);
+            }
+            
+            allResults.sort((a, b) => {
+                // First, prioritize by match type (exact phrase > all words > any word)
+                const typePriority = { 'exact-phrase': 1, 'all-words': 2, 'any-word': 3, 'direct': 3 };
+                const aTypePriority = typePriority[a.matchType] || 3;
+                const bTypePriority = typePriority[b.matchType] || 3;
+                if (aTypePriority !== bTypePriority) {
+                    return aTypePriority - bTypePriority;
+                }
+                
+                // Then, get priority for each result (using the matched word as search term)
                 const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
                 const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
                 
@@ -991,7 +1098,7 @@
                 return 0;
             });
             
-            return results;
+            return allResults;
         }
         
         async function searchWithSynonyms(query) {
