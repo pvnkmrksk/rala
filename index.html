@@ -150,6 +150,29 @@
             margin-bottom: 24px;
         }
         
+        .result-subsection {
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        .result-subsection:first-child {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+        
+        .subsection-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed #e8e8e8;
+        }
+        
         .section-title {
             font-size: 14px;
             font-weight: 600;
@@ -227,6 +250,46 @@
             color: white;
         }
         
+        .copy-button {
+            background: transparent;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            padding: 0;
+            flex-shrink: 0;
+            margin-left: auto;
+        }
+        
+        .copy-button:hover {
+            background: #f5f5f5;
+            border-color: #999;
+        }
+        
+        .copy-button:active {
+            transform: scale(0.95);
+        }
+        
+        .copy-button svg {
+            width: 16px;
+            height: 16px;
+            color: #666;
+        }
+        
+        .copy-button.copied {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        
+        .copy-button.copied svg {
+            color: #28a745;
+        }
+        
         .phonetic {
             font-size: 14px;
             color: #999;
@@ -238,6 +301,13 @@
             margin-bottom: 8px;
             padding-left: 0;
             border-left: none;
+        }
+        
+        .definition.selectable {
+            user-select: text;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
         }
         
         .def-type {
@@ -254,6 +324,10 @@
         .def-text {
             color: #333;
             line-height: 1.6;
+            user-select: text;
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
         }
         
         .matched-word {
@@ -969,7 +1043,6 @@
             if (isMultiWord) {
                 // Step 1: Find exact phrase matches (entire query in exact order)
                 const exactPhrase = queryLower;
-                // Check all entries that contain the first word (most efficient starting point)
                 if (reverseIndex.has(words[0])) {
                     for (const entry of reverseIndex.get(words[0])) {
                         const defLower = entry.definition.toLowerCase();
@@ -1007,7 +1080,6 @@
                 }
                 
                 // Step 2: Find definitions containing all words (in any order)
-                // Get all entries that contain the first word
                 const candidateEntries = new Map();
                 if (reverseIndex.has(words[0])) {
                     for (const entry of reverseIndex.get(words[0])) {
@@ -1048,6 +1120,14 @@
                         }
                     }
                 }
+                
+                // Sort each section alphabetically by Kannada word
+                exactPhraseResults.sort((a, b) => a.kannada.localeCompare(b.kannada));
+                allWordsResults.sort((a, b) => a.kannada.localeCompare(b.kannada));
+                anyWordResults.sort((a, b) => a.kannada.localeCompare(b.kannada));
+                
+                // Combine results in priority order
+                return [...exactPhraseResults, ...allWordsResults, ...anyWordResults];
             } else {
                 // Single word: use original logic
                 const word = words[0];
@@ -1064,45 +1144,76 @@
                         }
                     }
                 }
+                
+                // Sort results: prioritize exact definitions, especially those matching the search term
+                anyWordResults.sort((a, b) => {
+                    // Get priority for each result (using the matched word as search term)
+                    const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
+                    const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+                    
+                    // Lower priority number = higher priority (comes first)
+                    if (aPriority !== bPriority) {
+                        return aPriority - bPriority;
+                    }
+                    
+                    // If same priority, sort alphabetically by Kannada word
+                    return a.kannada.localeCompare(b.kannada);
+                });
+                
+                return anyWordResults;
             }
-            
-            // Combine results in priority order
-            const allResults = [...exactPhraseResults, ...allWordsResults, ...anyWordResults];
-            
-            // Sort results: prioritize exact definitions, especially those matching the search term
-            const exactCount = allResults.filter(r => isExactDefinition(r.definition)).length;
-            console.log(`Direct search - Total: ${allResults.length}, Exact definitions: ${exactCount}`);
-            if (isMultiWord) {
-                console.log(`  Exact phrase: ${exactPhraseResults.length}, All words: ${allWordsResults.length}, Any word: ${anyWordResults.length}`);
-            }
-            
-            allResults.sort((a, b) => {
-                // First, prioritize by match type (exact phrase > all words > any word)
-                const typePriority = { 'exact-phrase': 1, 'all-words': 2, 'any-word': 3, 'direct': 3 };
-                const aTypePriority = typePriority[a.matchType] || 3;
-                const bTypePriority = typePriority[b.matchType] || 3;
-                if (aTypePriority !== bTypePriority) {
-                    return aTypePriority - bTypePriority;
-                }
-                
-                // Then, get priority for each result (using the matched word as search term)
-                const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-                const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
-                
-                // Lower priority number = higher priority (comes first)
-                if (aPriority !== bPriority) {
-                    return aPriority - bPriority;
-                }
-                
-                // If same priority, keep original order
-                return 0;
-            });
-            
-            return allResults;
         }
         
         async function searchWithSynonyms(query) {
             const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+            const isMultiWord = words.length > 1;
+            
+            // For multi-word queries, first try to get synonyms for the whole phrase
+            if (isMultiWord) {
+                const queryLower = query.toLowerCase().trim();
+                const [synonyms, similar] = await Promise.all([
+                    getSynonyms(queryLower),
+                    getSimilarWords(queryLower)
+                ]);
+                
+                const relatedWords = [...new Set([...synonyms, ...similar])];
+                
+                // If synonyms exist for the whole phrase, use them and return early
+                if (relatedWords.length > 0) {
+                    const results = [];
+                    const seen = new Set();
+                    const synonymsUsed = {};
+                    
+                    for (const relWord of relatedWords) {
+                        if (reverseIndex.has(relWord)) {
+                            for (const entry of reverseIndex.get(relWord)) {
+                                const key = `${entry.kannada}-${entry.definition}`;
+                                if (!seen.has(key)) {
+                                    seen.add(key);
+                                    if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                                    if (!synonymsUsed[queryLower].includes(relWord)) {
+                                        synonymsUsed[queryLower].push(relWord);
+                                    }
+                                    results.push({ 
+                                        ...entry, 
+                                        matchedWord: relWord, 
+                                        originalQuery: queryLower,
+                                        matchType: 'synonym' 
+                                    });
+                                }
+                            }
+                        }
+                    }
+                    
+                    // Sort alphabetically by Kannada word
+                    results.sort((a, b) => a.kannada.localeCompare(b.kannada));
+                    return { results, synonymsUsed };
+                }
+                // If no synonyms for whole phrase, skip synonym search for multi-word
+                return { results: [], synonymsUsed: {} };
+            }
+            
+            // Original logic for single word (as usual)
             const results = [];
             const seen = new Set();
             const synonymsUsed = {};
@@ -1152,16 +1263,26 @@
                     return aPriority - bPriority;
                 }
                 
-                // If same priority, keep original order
-                return 0;
+                // If same priority, sort alphabetically by Kannada word
+                return a.kannada.localeCompare(b.kannada);
             });
             
             return { results, synonymsUsed };
         }
         
-        function highlightMatch(text, word) {
-            const regex = new RegExp(`\\b(${word})\\b`, 'gi');
-            return text.replace(regex, '<span class="matched-word">$1</span>');
+        function highlightMatch(text, matchedWord) {
+            // Handle multi-word matches - highlight all words that matched
+            if (matchedWord.includes(' ')) {
+                // Multi-word: highlight the entire phrase
+                const escaped = matchedWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`(${escaped})`, 'gi');
+                return text.replace(regex, '<span class="matched-word">$1</span>');
+            } else {
+                // Single word: highlight word boundaries
+                const escaped = matchedWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`\\b(${escaped})\\b`, 'gi');
+                return text.replace(regex, '<span class="matched-word">$1</span>');
+            }
         }
         
         function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false) {
@@ -1174,6 +1295,20 @@
                         <p style="font-size: 14px; margin-top: 8px;">Try a different word or check spelling</p>
                     </div>
                 `;
+            }
+            
+            // Check if multi-word query and split results by match type
+            const isMultiWord = query.trim().split(/\s+/).length > 1;
+            let exactPhraseResults = [];
+            let allWordsResults = [];
+            let anyWordResults = [];
+            
+            if (isMultiWord && directResults.length > 0) {
+                exactPhraseResults = directResults.filter(r => r.matchType === 'exact-phrase');
+                allWordsResults = directResults.filter(r => r.matchType === 'all-words');
+                anyWordResults = directResults.filter(r => r.matchType === 'any-word');
+            } else {
+                anyWordResults = directResults;
             }
             
             // Exact matches section
@@ -1190,7 +1325,29 @@
                     </div>
                 `;
             } else if (directResults.length > 0) {
-                html += directResults.map(r => renderResultCard(r, query)).join('');
+                // For multi-word, show sections with separators
+                if (isMultiWord && exactPhraseResults.length > 0) {
+                    html += `<div class="result-subsection"><div class="subsection-label">Exact phrase matches (${exactPhraseResults.length})</div>`;
+                    html += exactPhraseResults.map(r => renderResultCard(r, query)).join('');
+                    html += `</div>`;
+                }
+                
+                if (isMultiWord && allWordsResults.length > 0) {
+                    html += `<div class="result-subsection"><div class="subsection-label">All words present (${allWordsResults.length})</div>`;
+                    html += allWordsResults.map(r => renderResultCard(r, query)).join('');
+                    html += `</div>`;
+                }
+                
+                if (isMultiWord && anyWordResults.length > 0) {
+                    html += `<div class="result-subsection"><div class="subsection-label">Any word present (${anyWordResults.length})</div>`;
+                    html += anyWordResults.map(r => renderResultCard(r, query)).join('');
+                    html += `</div>`;
+                }
+                
+                if (!isMultiWord) {
+                    html += anyWordResults.map(r => renderResultCard(r, query)).join('');
+                }
+                
                 // Check audio files and update buttons after rendering
                 setTimeout(() => checkAndUpdateAudioButtons(directResults), 100);
             } else {
@@ -1333,6 +1490,7 @@
             const highlightedDef = highlightMatch(result.definition, result.matchedWord);
             const audioUrl = result.id ? getAudioUrl(result.id) : null;
             const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
+            const copyId = `copy-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
             
             // Check cache first - if we know it doesn't exist, don't show button
             // If unknown, show it and check asynchronously
@@ -1359,9 +1517,15 @@
                             </button>
                         ` : ''}
                         <span>${result.kannada}</span>
+                        <button class="copy-button" id="${copyId}" onclick="copyKannadaWord('${copyId}', '${result.kannada.replace(/'/g, "\\'")}')" title="Copy Kannada word">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
                     </div>
                     <div class="phonetic">${result.phone || ''}</div>
-                    <div class="definition">
+                    <div class="definition selectable">
                         <span class="def-type">${result.type || 'n/a'}</span>
                         <span class="def-text">${highlightedDef}</span>
                     </div>
@@ -1369,6 +1533,26 @@
                 </div>
             `;
         }
+        
+        function copyKannadaWord(buttonId, kannadaWord) {
+            navigator.clipboard.writeText(kannadaWord).then(() => {
+                const button = document.getElementById(buttonId);
+                if (button) {
+                    const originalTitle = button.getAttribute('title');
+                    button.setAttribute('title', 'Copied!');
+                    button.classList.add('copied');
+                    setTimeout(() => {
+                        button.setAttribute('title', originalTitle);
+                        button.classList.remove('copied');
+                    }, 2000);
+                }
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+            });
+        }
+        
+        // Make copyKannadaWord available globally
+        window.copyKannadaWord = copyKannadaWord;
         
         function playAudio(buttonId, audioUrl) {
             const button = document.getElementById(buttonId);
