@@ -97,8 +97,13 @@ function textContains(text, pattern) {
 }
 
 function searchDirect(query) {
-    const hasWildcard = query.includes('*');
+    // Auto-convert space to wildcard for exactly 2 words
+    // e.g., "north east" -> "north*east" to match "north-east", "northeast", "north east"
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+    const isAutoWildcard = words.length === 2 && !query.includes('*');
+    const wildcardPattern = isAutoWildcard ? query.replace(/\s+/, '*') : null;
+    
+    const hasWildcard = query.includes('*') || isAutoWildcard;
     const queryLower = query.toLowerCase().trim();
     const isMultiWord = words.length > 1;
     
@@ -107,8 +112,8 @@ function searchDirect(query) {
     const anyWordResults = [];
     const seen = new Set();
     
-    // If wildcards are present, we need to search all definitions directly
-    if (hasWildcard) {
+    // If wildcards are present (but not auto-wildcard for 2 words), search all definitions directly
+    if (hasWildcard && !isAutoWildcard) {
         const results = [];
         for (let i = 0; i < dictionary.length; i++) {
             const entry = dictionary[i];
@@ -119,10 +124,19 @@ function searchDirect(query) {
                 const defLower = def.entry.toLowerCase();
                 
                 // Check if definition matches the query pattern
-                if (textContains(defLower, queryLower)) {
+                // For auto-wildcard (2 words), also check original query for exact phrase match
+                const matchesWildcard = textContains(defLower, queryLower);
+                const matchesOriginal = words.length === 2 && defLower.includes(query.toLowerCase().trim());
+                
+                if (matchesWildcard || matchesOriginal) {
                     const key = `${entry.entry}-${def.entry}`;
                     if (!seen.has(key)) {
                         seen.add(key);
+                        // Determine which match was found for better highlighting
+                        const matchedWord = matchesOriginal && words.length === 2 
+                            ? query.toLowerCase().trim() 
+                            : queryLower;
+                        
                         results.push({
                             kannada: entry.entry,
                             phone: entry.phone,
@@ -130,7 +144,7 @@ function searchDirect(query) {
                             type: def.type,
                             head: entry.head,
                             id: entry.id,
-                            matchedWord: queryLower,
+                            matchedWord: matchedWord,
                             matchType: 'wildcard'
                         });
                     }
@@ -153,17 +167,47 @@ function searchDirect(query) {
     
     if (isMultiWord) {
         // Step 1: Find exact phrase matches (entire query in exact order)
+        // For 2-word auto-wildcard, also search for hyphenated/compound variations
         const exactPhrase = queryLower;
+        const searchPatterns = [exactPhrase];
+        if (isAutoWildcard && wildcardPattern) {
+            // Also search for hyphenated and compound variations
+            searchPatterns.push(wildcardPattern.toLowerCase().replace('*', '-'));
+            searchPatterns.push(wildcardPattern.toLowerCase().replace('*', ''));
+        }
+        
+        // Search using reverse index
         if (reverseIndex.has(words[0])) {
             for (const entry of reverseIndex.get(words[0])) {
                 const defLower = entry.definition.toLowerCase();
-                if (defLower.includes(exactPhrase)) {
+                let matched = false;
+                let matchedPattern = exactPhrase;
+                
+                // Check all patterns
+                for (const pattern of searchPatterns) {
+                    if (defLower.includes(pattern)) {
+                        matched = true;
+                        matchedPattern = pattern;
+                        break;
+                    }
+                }
+                
+                // Also check wildcard pattern if auto-wildcard
+                if (!matched && isAutoWildcard && wildcardPattern) {
+                    const wildcardLower = wildcardPattern.toLowerCase();
+                    if (textContains(defLower, wildcardLower)) {
+                        matched = true;
+                        matchedPattern = wildcardLower;
+                    }
+                }
+                
+                if (matched) {
                     const key = `${entry.kannada}-${entry.definition}`;
                     if (!seen.has(key)) {
                         seen.add(key);
                         exactPhraseResults.push({ 
                             ...entry, 
-                            matchedWord: exactPhrase, 
+                            matchedWord: matchedPattern, 
                             matchType: 'exact-phrase' 
                         });
                     }
@@ -175,14 +219,67 @@ function searchDirect(query) {
             if (reverseIndex.has(words[i])) {
                 for (const entry of reverseIndex.get(words[i])) {
                     const defLower = entry.definition.toLowerCase();
-                    if (defLower.includes(exactPhrase)) {
+                    let matched = false;
+                    let matchedPattern = exactPhrase;
+                    
+                    // Check all patterns
+                    for (const pattern of searchPatterns) {
+                        if (defLower.includes(pattern)) {
+                            matched = true;
+                            matchedPattern = pattern;
+                            break;
+                        }
+                    }
+                    
+                    // Also check wildcard pattern if auto-wildcard
+                    if (!matched && isAutoWildcard && wildcardPattern) {
+                        const wildcardLower = wildcardPattern.toLowerCase();
+                        if (textContains(defLower, wildcardLower)) {
+                            matched = true;
+                            matchedPattern = wildcardLower;
+                        }
+                    }
+                    
+                    if (matched) {
                         const key = `${entry.kannada}-${entry.definition}`;
                         if (!seen.has(key)) {
                             seen.add(key);
                             exactPhraseResults.push({ 
                                 ...entry, 
-                                matchedWord: exactPhrase, 
+                                matchedWord: matchedPattern, 
                                 matchType: 'exact-phrase' 
+                            });
+                        }
+                    }
+                }
+            }
+        }
+        
+        // For 2-word auto-wildcard, also search all definitions for wildcard matches
+        if (isAutoWildcard && wildcardPattern) {
+            const wildcardLower = wildcardPattern.toLowerCase();
+            for (let i = 0; i < dictionary.length; i++) {
+                const entry = dictionary[i];
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    const defLower = def.entry.toLowerCase();
+                    
+                    // Check if it matches wildcard pattern but wasn't already found
+                    if (textContains(defLower, wildcardLower)) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            exactPhraseResults.push({
+                                kannada: entry.entry,
+                                phone: entry.phone,
+                                definition: def.entry,
+                                type: def.type,
+                                head: entry.head,
+                                id: entry.id,
+                                matchedWord: wildcardLower,
+                                matchType: 'exact-phrase'
                             });
                         }
                     }
