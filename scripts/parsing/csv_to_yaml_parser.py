@@ -12,7 +12,6 @@ import sys
 import os
 import hashlib
 from pathlib import Path
-from collections import defaultdict
 import re
 
 
@@ -96,9 +95,6 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
     Returns:
         List of dictionary entries in YAML-compatible format
     """
-    entries = []
-    entries_by_kannada = defaultdict(list)
-    
     # If source_name not provided, derive from filename
     if source_name is None:
         source_name = Path(csv_file_path).stem
@@ -143,6 +139,11 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
         print(f"Found columns: {list(actual_columns.keys())}")
         
         row_count = 0
+        entry_index = 0
+        
+        # Store all entries as flat list (not grouped) - each synonym gets its own entry
+        all_entries = []
+        
         for row in reader:
             row_count += 1
             
@@ -216,60 +217,40 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
                 }
                 def_entry['type'] = grammar_map.get(grammar.lower(), 'Noun')
             
-            # Create separate entry for each Kannada synonym
+            # Create a SEPARATE YAML entry for each Kannada synonym
+            # This ensures each synonym is searchable independently
             for kannada_word in kannada_words:
-                # Store entry data grouped by Kannada word
-                entries_by_kannada[kannada_word].append({
-                    'kannada': kannada_word,
-                    'pronunciation': pronunciation,
-                    'definition': def_entry,
-                    'english_word': english_word,
-                    'kannada_meaning': kannada_meaning,
-                    'row_data': row  # Keep full row for additional metadata
-                })
+                entry_index += 1
+                
+                # Create YAML entry immediately - no grouping
+                yaml_entry = {
+                    'entry': kannada_word,
+                    'defs': [def_entry],  # Single definition per entry
+                    'id': generate_entry_id(kannada_word, english_word, entry_index),
+                    'source': source_name
+                }
+                
+                # Add dictionary title if provided
+                if dict_title:
+                    yaml_entry['dict_title'] = dict_title
+                
+                # Add pronunciation if available
+                if pronunciation:
+                    yaml_entry['phone'] = pronunciation
+                
+                # Use English word as head word
+                if english_word:
+                    yaml_entry['head'] = english_word
+                else:
+                    yaml_entry['head'] = kannada_word
+                
+                all_entries.append(yaml_entry)
         
         print(f"Processed {row_count} rows")
-        print(f"Found {len(entries_by_kannada)} unique Kannada words")
-    
-    # Convert grouped entries to YAML format
-    entry_index = 0
-    for kannada_word, word_entries in entries_by_kannada.items():
-        entry_index += 1
+        print(f"Created {len(all_entries)} separate entries (synonyms split)")
         
-        # Get pronunciation from first entry (or None)
-        pronunciation = word_entries[0].get('pronunciation')
-        
-        # Collect all definitions
-        defs = []
-        for word_entry in word_entries:
-            defs.append(word_entry['definition'])
-        
-        # Create YAML entry matching the expected structure
-        yaml_entry = {
-            'entry': kannada_word,
-            'defs': defs,
-            'id': generate_entry_id(kannada_word, word_entries[0]['english_word'], entry_index),
-            'source': source_name  # Tag with source for later filtering (filename-based)
-        }
-        
-        # Add dictionary title if provided (correct spelling)
-        if dict_title:
-            yaml_entry['dict_title'] = dict_title
-        
-        # Add pronunciation if available
-        if pronunciation:
-            yaml_entry['phone'] = pronunciation
-        
-        # Use first English word as head word (can be customized)
-        if word_entries[0]['english_word']:
-            yaml_entry['head'] = word_entries[0]['english_word']
-        else:
-            yaml_entry['head'] = kannada_word
-        
-        entries.append(yaml_entry)
-    
-    print(f"Created {len(entries)} YAML entries")
-    return entries
+        # Return all entries directly (no grouping)
+        return all_entries
 
 
 def save_yaml(entries, output_path):
