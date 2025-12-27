@@ -322,17 +322,6 @@ def sanitize_filename(name):
     safe = safe.replace('\x00', '').replace('\r', '').replace('\n', ' ')
     return safe.strip()
 
-def get_proper_filename(dict_name):
-    """Get proper filename from dictionary name - use the name as-is for Mac compatibility"""
-    # Use the dictionary name directly as filename (Mac handles Unicode properly)
-    # Only minimal sanitization for filesystem safety
-    filename = dict_name.strip()
-    # Replace only truly problematic characters
-    filename = filename.replace('\x00', '').replace('\r', '').replace('\n', ' ')
-    # Optionally replace | with _ for cleaner filenames, but keep everything else
-    filename = filename.replace('|', '_')
-    return filename
-
 
 def print_progress_bar(current, total, bar_length=50):
     """Print a progress bar"""
@@ -380,13 +369,11 @@ def main():
         
         for i, dict_info in enumerate(dictionaries, 1):
             dict_name = dict_info['text']
-            # Use proper filename - preserve full Unicode name (Mac compatible)
-            filename = get_proper_filename(dict_name)
+            filename = sanitize_filename(dict_name)
             
             # Print progress info
             print(f"\n{'='*80}")
             print(f"[{i}/{len(dictionaries)}] Processing: {dict_name[:60]}...")
-            print(f"  Filename: {filename}")
             print_progress_bar(i - 1, len(dictionaries))
             print()
             
@@ -394,7 +381,7 @@ def main():
             data = scraper.scrape_dictionary(dict_name)
             
             if data:
-                # Save files with proper Unicode filenames
+                # Save files
                 scraper.save_to_csv(f"{filename}.csv", data)
                 scraper.save_to_json(f"{filename}.json", data)
                 success_count += 1
