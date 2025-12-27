@@ -1,700 +1,1033 @@
 - entry: ಸಂಕ್ಷಿಪ್ತ ವಿವರಪಟ್ಟಿ
   defs:
   - entry: Abstract
-    type: n
+    type: Noun
   id: abstract_145d1c0710c0
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Abstract
 - entry: ಆಪಾದಿತ
   defs:
   - entry: Accused
-    type: n
+    type: Noun
   id: accused_cb2169406d32
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Accused
 - entry: ಉಪಸಾಧನಗಳು
   defs:
   - entry: Accessories
-    type: n
+    type: Noun
   id: accessorie_43ca70fb7634
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Accessories
 - entry: ನ್ಯಾಯನಿರ್ಣಯ
   defs:
   - entry: Adjudication
-    type: n
+    type: Noun
   id: adjudicati_4f1c45fb0665
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Adjudication
 - entry: ಸಮರ್ಪಕ ವೇತನ
   defs:
   - entry: Adequate Salary
-    type: n
+    type: Noun
   id: adequatesa_f75b12211269
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Adequate Salary
-- entry: ದತ್ತು, ದತ್ತಕ
+- entry: ದತ್ತು
   defs:
-  - entry: Adoption
-    type: n
-  id: adoption_9898f058324c
+  - &id001
+    entry: Adoption
+    type: Noun
+  id: adoption_d601afff7b88
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Adoption
-- entry: ಪ್ರಮಾಣಪತ್ರ, ಶಪಥಪತ್ರ
+- entry: ದತ್ತಕ
   defs:
-  - entry: Affidavit
-    type: n
-  id: affidavit_9aea6e78ebe6
+  - *id001
+  id: adoption_9b08f57fbd3e
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Adoption
+- entry: ಪ್ರಮಾಣಪತ್ರ
+  defs:
+  - &id002
+    entry: Affidavit
+    type: Noun
+  id: affidavit_36ea01106561
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Affidavit
+- entry: ಶಪಥಪತ್ರ
+  defs:
+  - *id002
+  id: affidavit_00d7d1a8bd43
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Affidavit
 - entry: ಸಂಯೋಜನೆ
   defs:
   - entry: Affiliation
-    type: n
-  id: affiliatio_ee10c85a808b
+    type: Noun
+  id: affiliatio_70f77b5ff00a
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Affiliation
-- entry: ಸಮ್ಮಿಲನ, ಸಮ್ಮಿಶ್ರಣ, ಬೆರಸುವಿಕೆ
+- entry: ಸಮ್ಮಿಲನ
   defs:
-  - entry: Amalgamation
-    type: n
-  id: amalgamati_0bcb28b4413b
+  - &id003
+    entry: Amalgamation
+    type: Noun
+  id: amalgamati_1b98d7c5f155
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Amalgamation
+- entry: ಸಮ್ಮಿಶ್ರಣ
+  defs:
+  - *id003
+  id: amalgamati_1ef57e213a72
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Amalgamation
+- entry: ಬೆರಸುವಿಕೆ
+  defs:
+  - *id003
+  id: amalgamati_875a0333b501
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Amalgamation
 - entry: ಸೌಹಾರ್ದಯುತ ಇತ್ಯರ್ಥ
   defs:
   - entry: Amicable settlement
-    type: n
-  id: amicablese_8e6f10c7db78
+    type: Noun
+  id: amicablese_e10ba79079db
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Amicable settlement
 - entry: ಮಧ್ಯಸ್ತಿಕೆ
   defs:
   - entry: Arbitration
-    type: n
-  id: arbitratio_16430456373f
+    type: Noun
+  id: arbitratio_4db38d90c534
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Arbitration
 - entry: ಲೆಕ್ಕ ಪರಿಶೋಧನೆ
   defs:
   - entry: Audit
-    type: n
-  id: audit_5fe48b8dca47
+    type: Noun
+  id: audit_4ad4fd45b841
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Audit
 - entry: ಫಲಾನುಭವಿ
   defs:
   - entry: Beneficiary
-    type: n
-  id: beneficiar_05cb2eda42ad
+    type: Noun
+  id: beneficiar_da413ea1299a
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Beneficiary
-- entry: ತಪಾಸಣಾ ಪಟ್ಟಿ, ಪರಿಶೀಲನಾ ಪಟ್ಟಿ
+- entry: ತಪಾಸಣಾ ಪಟ್ಟಿ
   defs:
-  - entry: Check list
-    type: n
-  id: checklist_9c4447403642
+  - &id004
+    entry: Check list
+    type: Noun
+  id: checklist_82fce55ffbc5
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Check list
+- entry: ಪರಿಶೀಲನಾ ಪಟ್ಟಿ
+  defs:
+  - *id004
+  id: checklist_5f0c2db2f4e3
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Check list
 - entry: ಕಾರ್ಮಿಕರ ವೇತನದಿಂದ ಚಂದಾ ಮುರಿದುಕೊಳ್ಳುವ ಪದ್ಧತಿ
   defs:
   - entry: Check off system
-    type: n
-  id: checkoffsy_68a08698f9a1
+    type: Noun
+  id: checkoffsy_60f28d8213b3
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Check off system
 - entry: ಸಂಧಾನ
   defs:
   - entry: Conciliation
-    type: n
-  id: conciliati_4468c90de145
+    type: Noun
+  id: conciliati_3d03e0c649e4
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Conciliation
 - entry: ಗ್ರಾಹಕರ ಬಾಳಿಕೆ ಬರುವ ವಸ್ತುಗಳು
   defs:
   - entry: Consumer durables
-    type: n
-  id: consumerdu_ab7572d28341
+    type: Noun
+  id: consumerdu_5a81c87c7135
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Consumer durables
 - entry: ಉಲ್ಲಂಘನೆ
   defs:
   - entry: Contravention
-    type: n
-  id: contravent_eb5d9416925b
+    type: Noun
+  id: contravent_4407402dcef7
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Contravention
 - entry: ಸಮಗ್ರ
   defs:
   - entry: Comprehensive
-    type: n
-  id: comprehens_068be28d6385
+    type: Noun
+  id: comprehens_4e050eaedfc7
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Comprehensive
 - entry: ಪರಿಕಲ್ಪನೆ
   defs:
   - entry: Concept
-    type: n
-  id: concept_80b4585a76ac
+    type: Noun
+  id: concept_47b8a4280bfd
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Concept
 - entry: ಮೂಲ ದ್ರವ್ಯ
   defs:
   - entry: Corpus
-    type: n
-  id: corpus_4d33b45f5c93
+    type: Noun
+  id: corpus_a6844b0ef7f8
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Corpus
-- entry: ಸಲಹೆ, ಸಲಹೆ ನೀಡುವುದು, ಕೌನ್ಸೆಲಿಂಗ್‌
+- entry: ಸಲಹೆ
   defs:
-  - entry: Counselling
-    type: n
-  id: counsellin_7110f6647475
+  - &id005
+    entry: Counselling
+    type: Noun
+  id: counsellin_e00918e58e57
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Counselling
-- entry: ಸಾಮೂಹಿಕ ಚೌಕಾಶಿ, ಸಾಮೂಹಿಕ ಕರಾರು
+- entry: ಸಲಹೆ ನೀಡುವುದು
   defs:
-  - entry: Collective Bargaining
-    type: n
-  id: collective_f737167e669e
+  - *id005
+  id: counsellin_775b2c57cfd0
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Counselling
+- entry: ಕೌನ್ಸೆಲಿಂಗ್‌
+  defs:
+  - *id005
+  id: counsellin_d0d37975517e
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Counselling
+- entry: ಸಾಮೂಹಿಕ ಚೌಕಾಶಿ
+  defs:
+  - &id006
+    entry: Collective Bargaining
+    type: Noun
+  id: collective_f4036d132b53
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Collective Bargaining
+- entry: ಸಾಮೂಹಿಕ ಕರಾರು
+  defs:
+  - *id006
+  id: collective_2b1534a3b381
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Collective Bargaining
 - entry: ಮಕ್ಕಳ ಪಾಲನ ಗೃಹ
   defs:
   - entry: Creche
-    type: n
-  id: creche_be2ee03c1b61
+    type: Noun
+  id: creche_a10700359779
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Creche
-- entry: ಮಾನದಂಡ, ಅಳತೆಗೋಲು
+- entry: ಮಾನದಂಡ
   defs:
-  - entry: Criteria
-    type: n
-  id: criteria_6622136e6215
+  - &id007
+    entry: Criteria
+    type: Noun
+  id: criteria_2da63d0a9474
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Criteria
+- entry: ಅಳತೆಗೋಲು
+  defs:
+  - *id007
+  id: criteria_2cd47e1bf328
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Criteria
 - entry: ಚಾಲನಾ ಸಿಬ್ಬಂದಿ ವಿಶ್ರಾಂತಿ ಕೊಠಡಿ
   defs:
   - entry: Crew Rest Room
-    type: n
-  id: crewrestro_a6a843896614
+    type: Noun
+  id: crewrestro_08a2e4f4f6f1
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Crew Rest Room
 - entry: ಮದ್ಯಚಟ ನಿವಾರಣೆ
   defs:
   - entry: De-addiction
-    type: n
-  id: deaddictio_398ae876e5ce
+    type: Noun
+  id: deaddictio_ec80f0cc48c8
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: De-addiction
-- entry: ಇಮ್ಮಡಿ ಕೆಲಸ, ಎರಡು ಕೆಲಸ
+- entry: ಇಮ್ಮಡಿ ಕೆಲಸ
   defs:
-  - entry: Double Duty
-    type: n
-  id: doubleduty_e5b88ae7b005
+  - &id008
+    entry: Double Duty
+    type: Noun
+  id: doubleduty_3d46b46e1aff
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Double Duty
+- entry: ಎರಡು ಕೆಲಸ
+  defs:
+  - *id008
+  id: doubleduty_68526630e150
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Double Duty
 - entry: ಸಮಾನ ಮಾಸಿಕ ಕಂತುಗಳು
   defs:
   - entry: Equated Monthly Installments
-    type: n
-  id: equatedmon_d666299214c9
+    type: Noun
+  id: equatedmon_5ba04951120a
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Equated Monthly Installments
-- entry: ಹಿಂದಿನ, ಪೂರ್ವ
+- entry: ಹಿಂದಿನ
   defs:
-  - entry: Erstwhile
-    type: n
-  id: erstwhile_c0ec7194a71e
+  - &id009
+    entry: Erstwhile
+    type: Noun
+  id: erstwhile_b4ce9220d74b
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Erstwhile
+- entry: ಪೂರ್ವ
+  defs:
+  - *id009
+  id: erstwhile_6d173c0a5141
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Erstwhile
 - entry: ಅಂದಾಜು
   defs:
   - entry: Estimate
-    type: n
-  id: estimate_a778f5dcbcef
+    type: Noun
+  id: estimate_d4dc0a895496
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Estimate
 - entry: ಅತ್ಯಾವಶ್ಯಕ ಸೇವೆಗಳ ನಿರ್ವಹಣಾ ಕಾಯ್ದೆ
   defs:
   - entry: Essential Services Maintainance Act
-    type: n
-  id: essentials_ee3c8dc42c94
+    type: Noun
+  id: essentials_182d103f7b30
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Essential Services Maintainance Act
 - entry: ವಿಸ್ತರಣಾ ಕೌಂಟರ್‌
   defs:
   - entry: Extension Counter
-    type: n
-  id: extensionc_8141e652593d
+    type: Noun
+  id: extensionc_77d306da1a04
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Extension Counter
-- entry: ಕಾರ್ಯಕಾರಿ ಅಂಗ, ಕಾರ್ಯಕಾರಿ ಸಂಸ್ಥೆ
+- entry: ಕಾರ್ಯಕಾರಿ ಅಂಗ
   defs:
-  - entry: Executive Body
-    type: n
-  id: executiveb_e52e8db0e782
+  - &id010
+    entry: Executive Body
+    type: Noun
+  id: executiveb_a3f7a20bcde1
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Executive Body
+- entry: ಕಾರ್ಯಕಾರಿ ಸಂಸ್ಥೆ
+  defs:
+  - *id010
+  id: executiveb_3ac09a0e9b7d
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Executive Body
 - entry: ಎಕ್ಸ್ ಗ್ರೇಷಿಯಾ
   defs:
   - entry: Ex-/Gratia
-    type: n
-  id: exgratia_2da28abb2def
+    type: Noun
+  id: exgratia_a2b9ff3c5036
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Ex-/Gratia
-- entry: ಆರ್ಥಿಕ ಸೌಲಭ್ಯ, ಫೈನಾನ್ಸಿಯಲ್‌ ಪ್ಯಾಕೇಜ್‌
+- entry: ಆರ್ಥಿಕ ಸೌಲಭ್ಯ
   defs:
-  - entry: Financial package
-    type: n
-  id: financialp_f0a17a34a323
+  - &id011
+    entry: Financial package
+    type: Noun
+  id: financialp_007543e80561
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Financial package
-- entry: ಅನುಸರಣೆ, ಅನುಸರಣಾ ಕ್ರಮ
+- entry: ಫೈನಾನ್ಸಿಯಲ್‌ ಪ್ಯಾಕೇಜ್‌
   defs:
-  - entry: Follow up
-    type: n
-  id: followup_f65f8cc30379
+  - *id011
+  id: financialp_da6b07f81092
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Financial package
+- entry: ಅನುಸರಣೆ
+  defs:
+  - &id012
+    entry: Follow up
+    type: Noun
+  id: followup_99ee617f7f97
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Follow up
+- entry: ಅನುಸರಣಾ ಕ್ರಮ
+  defs:
+  - *id012
+  id: followup_ea542c803fff
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Follow up
 - entry: ಕುಂದುಕೊರತೆ ನಿವಾರಣಾ ವ್ಯವಸ್ಥೆ
   defs:
   - entry: Grievance Machinery
-    type: n
-  id: grievancem_5678d9d87c03
+    type: Noun
+  id: grievancem_ab8e3d1fc09b
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Grievance Machinery
 - entry: ವ್ಯಾಯಾಮ ಶಾಲೆ
   defs:
   - entry: Gymnasium
-    type: n
-  id: gymnasium_59ef3f5ab1b0
+    type: Noun
+  id: gymnasium_cf271503d62d
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Gymnasium
 - entry: ಅಪಾಯಕಾರಿ
   defs:
   - entry: Hazardous
-    type: n
-  id: hazardous_4e7fad2fee33
+    type: Noun
+  id: hazardous_6b1da7505d56
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Hazardous
 - entry: ಮಧುರ ಬಾಂಧವ್ಯಗಳು
   defs:
   - entry: Harmonious Relations
-    type: n
-  id: harmonious_3de9408956c1
+    type: Noun
+  id: harmonious_1b21d08c6658
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Harmonious Relations
 - entry: ಮನೆ ಕೆಲಸದವನು
   defs:
   - entry: Home Orderly
-    type: n
-  id: homeorderl_0a4b48b56016
+    type: Noun
+  id: homeorderl_f31ea75111e4
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Home Orderly
-- entry: ಪ್ರೋತ್ಸಾಹಕ ಧನ, ಉತ್ತೇಜಕ ಧನ
+- entry: ಪ್ರೋತ್ಸಾಹಕ ಧನ
   defs:
-  - entry: Incentive
-    type: n
-  id: incentive_3dad146b0bfe
+  - &id013
+    entry: Incentive
+    type: Noun
+  id: incentive_9c3d257e5ba0
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Incentive
-- entry: ಕೈಗಾರಿಕಾ / ಔದ್ಯಮಿಕ ಬಾಂಧವ್ಯ
+- entry: ಉತ್ತೇಜಕ ಧನ
   defs:
-  - entry: Industrial Relations
-    type: n
-  id: industrial_ba7c1222e0f3
+  - *id013
+  id: incentive_00766a4a6df6
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Incentive
+- entry: ಕೈಗಾರಿಕಾ
+  defs:
+  - &id014
+    entry: Industrial Relations
+    type: Noun
+  id: industrial_9c50498c3f17
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Industrial Relations
+- entry: ಔದ್ಯಮಿಕ ಬಾಂಧವ್ಯ
+  defs:
+  - *id014
+  id: industrial_6fd3eb1c1ef5
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Industrial Relations
 - entry: ಕೈಗಾರಿಕಾ ವಿವಾದ ಕಾಯ್ದೆ
   defs:
   - entry: Industrial Dispute Act
-    type: n
-  id: industrial_757f7adaf2e1
+    type: Noun
+  id: industrial_d3f745495596
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Industrial Dispute Act
 - entry: ಕೈಗಾರಿಕಾ ನ್ಯಾಯಾಧಿಕರಣ
   defs:
   - entry: Industrial Tribunal
-    type: n
-  id: industrial_21b1051869c1
+    type: Noun
+  id: industrial_9a70de90a108
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Industrial Tribunal
 - entry: ಕರ್ತವ್ಯದ ಮೇಲಿದ್ದಾಗ ಆದ ಗಾಯ
   defs:
   - entry: Injury on Duty
-    type: n
-  id: injuryondu_10dc8f21f1b4
+    type: Noun
+  id: injuryondu_324cb007b1b4
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Injury on Duty
 - entry: ಸಮಾಪನ
   defs:
   - entry: Liquidation
-    type: n
-  id: liquidatio_37832fa3f69a
+    type: Noun
+  id: liquidatio_5a3799bc06a3
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Liquidation
 - entry: ಪ್ರಸೂತಿ ಸೌಲಭ್ಯ
   defs:
   - entry: Maternity Benefit
-    type: n
-  id: maternityb_49223b5fa96c
+    type: Noun
+  id: maternityb_d46d71eb8577
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Maternity Benefit
 - entry: ಅರ್ಹತಾ ಪ್ರಶಸ್ತಿ
   defs:
   - entry: Meritorious Award
-    type: n
-  id: meritoriou_e58c23f09444
+    type: Noun
+  id: meritoriou_bb38c3c8bb68
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Meritorious Award
-- entry: ವಿಧಾನ, ಕ್ರಮ
+- entry: ವಿಧಾನ
   defs:
-  - entry: Methodology
-    type: n
-  id: methodolog_0beb4e621c9c
+  - &id015
+    entry: Methodology
+    type: Noun
+  id: methodolog_af2741fcbfc4
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Methodology
+- entry: ಕ್ರಮ
+  defs:
+  - *id015
+  id: methodolog_8b4bdb7f9f48
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Methodology
 - entry: ಇತ್ಯರ್ಥ ಪತ್ರ
   defs:
   - entry: Memorandum of Settlement (MOS)
-    type: n
-  id: memorandum_5ed345709e4b
+    type: Noun
+  id: memorandum_576d097e6d07
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Memorandum of Settlement (MOS)
 - entry: ಒಡಂಬಡಿಕೆ ಪತ್ರ
   defs:
   - entry: Memorandum of Understanding (MOU)
-    type: n
-  id: memorandum_3cd13f971a5e
+    type: Noun
+  id: memorandum_6adaea65c63a
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Memorandum of Understanding (MOU)
 - entry: ವಿಲೀನ
   defs:
   - entry: Merger
-    type: n
-  id: merger_54f97e7bc78c
+    type: Noun
+  id: merger_94b0e585befc
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Merger
-- entry: ಸಂಕೀರ್ಣ, ಇತರೆ
+- entry: ಸಂಕೀರ್ಣ
   defs:
-  - entry: Miscellaneous
-    type: n
-  id: miscellane_23a85bfcc2df
+  - &id016
+    entry: Miscellaneous
+    type: Noun
+  id: miscellane_ca11a748504d
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Miscellaneous
+- entry: ಇತರೆ
+  defs:
+  - *id016
+  id: miscellane_8b0809e9beb2
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Miscellaneous
 - entry: ಕಾರ್ಯರೀತಿ
   defs:
   - entry: Modus Operandi
-    type: n
-  id: modusopera_375db18b633b
+    type: Noun
+  id: modusopera_e39fa905008a
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Modus Operandi
 - entry: ಮಾದರಿ ಕೆಲಸಗಾರ
   defs:
   - entry: Model Worker
-    type: n
-  id: modelworke_6a1b361b63d7
+    type: Noun
+  id: modelworke_7d5e37a153c7
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Model Worker
 - entry: ಮಾಸಿಕ ವಿವರ ಪಟ್ಟಿ ಸಲ್ಲಿಕೆ
   defs:
   - entry: Monthly Returns
-    type: n
-  id: monthlyret_993bcd22a61e
+    type: Noun
+  id: monthlyret_54caa50be188
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Monthly Returns
 - entry: ಮೋಟಾರು ಸಾರಿಗೆ ಕೆಲಸಗಾರರ ಕಾಯ್ದೆ
   defs:
   - entry: Motor Transport Workers Act
-    type: n
-  id: motortrans_f1f9edd7a9bd
+    type: Noun
+  id: motortrans_1c811456e2fe
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Motor Transport Workers Act
 - entry: ಮಾನದಂಡ
   defs:
   - entry: Norms
-    type: n
-  id: norms_97f6e55280d8
+    type: Noun
+  id: norms_097ee30c9fe5
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Norms
-- entry: ಪೋಷಣಾರ್ಥ ವಿರಾಮ, ಹಾಲೂಡಿಕೆ ವಿರಾಮ
+- entry: ಪೋಷಣಾರ್ಥ ವಿರಾಮ
   defs:
-  - entry: Nursing Break
-    type: n
-  id: nursingbre_37d377157d2d
+  - &id017
+    entry: Nursing Break
+    type: Noun
+  id: nursingbre_d01e505584c6
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Nursing Break
-- entry: ಬಾಧ್ಯತೆ, ಹೊಣೆ, ಕರ್ತವ್ಯ
+- entry: ಹಾಲೂಡಿಕೆ ವಿರಾಮ
   defs:
-  - entry: Obligation
-    type: n
-  id: obligation_54b7204c4ca9
+  - *id017
+  id: nursingbre_626a92dffec0
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Nursing Break
+- entry: ಬಾಧ್ಯತೆ
+  defs:
+  - &id018
+    entry: Obligation
+    type: Noun
+  id: obligation_a966790af747
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Obligation
+- entry: ಹೊಣೆ
+  defs:
+  - *id018
+  id: obligation_2f1e5df22153
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Obligation
+- entry: ಕರ್ತವ್ಯ
+  defs:
+  - *id018
+  id: obligation_fa6dae6acd52
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Obligation
 - entry: ಹೊರಹೋಗುವಿಕೆ
   defs:
   - entry: Outlay
-    type: n
-  id: outlay_555aeea8dd59
+    type: Noun
+  id: outlay_f8057e5110d8
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Outlay
-- entry: ಪರಿಮಾಣ, ಪರಿಧಿಗಳು
+- entry: ಪರಿಮಾಣ
   defs:
-  - entry: Parameters
-    type: n
-  id: parameters_2f4111d76a9a
+  - &id019
+    entry: Parameters
+    type: Noun
+  id: parameters_ac8e45e65bc9
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Parameters
+- entry: ಪರಿಧಿಗಳು
+  defs:
+  - *id019
+  id: parameters_eae96019dbec
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Parameters
 - entry: ದಂಡ
   defs:
   - entry: Penalty
-    type: n
-  id: penalty_49ef349855d8
+    type: Noun
+  id: penalty_cbc8b74f9525
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Penalty
-- entry: ಪರಿಲಬ್ದಿಗಳು / ಅವಶ್ಯಕತೆ
+- entry: ಪರಿಲಬ್ದಿಗಳು
   defs:
-  - entry: Perquisites
-    type: n
-  id: perquisite_21b508886b19
+  - &id020
+    entry: Perquisites
+    type: Noun
+  id: perquisite_1390fe28ae4e
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Perquisites
-- entry: ಕಾರ್ಯಾಧಾರಿತ ವರದಿ, ಕಾರ್ಯಪ್ರಗತಿ ವರದಿ
+- entry: ಅವಶ್ಯಕತೆ
   defs:
-  - entry: Performance Report
-    type: n
-  id: performanc_0470bb381f14
+  - *id020
+  id: perquisite_0df8aa2abe97
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Perquisites
+- entry: ಕಾರ್ಯಾಧಾರಿತ ವರದಿ
+  defs:
+  - &id021
+    entry: Performance Report
+    type: Noun
+  id: performanc_dd2ab874e42f
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Performance Report
-- entry: ವೈಯಕ್ತಿಕ ಕಾಯಿಲೆ, ವ್ಯಕ್ತಿಗತ ರೋಗ
+- entry: ಕಾರ್ಯಪ್ರಗತಿ ವರದಿ
   defs:
-  - entry: Personal Sickness
-    type: n
-  id: personalsi_7343f72433f5
+  - *id021
+  id: performanc_446e56e19577
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Performance Report
+- entry: ವೈಯಕ್ತಿಕ ಕಾಯಿಲೆ
+  defs:
+  - &id022
+    entry: Personal Sickness
+    type: Noun
+  id: personalsi_0ff374564ead
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Personal Sickness
-- entry: ಪ್ರಾಸಿಕ್ಯೂಷನ್‌, ಮುಂದುವರಿಸು / ವಿಚಾರಣೆ
+- entry: ವ್ಯಕ್ತಿಗತ ರೋಗ
   defs:
-  - entry: Prosecution
-    type: n
-  id: prosecutio_55a88c408e1e
+  - *id022
+  id: personalsi_2f541c687980
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Personal Sickness
+- entry: ಪ್ರಾಸಿಕ್ಯೂಷನ್‌
+  defs:
+  - &id023
+    entry: Prosecution
+    type: Noun
+  id: prosecutio_71354a6178bc
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Prosecution
+- entry: ಮುಂದುವರಿಸು
+  defs:
+  - *id023
+  id: prosecutio_e040d0bdb09e
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Prosecution
+- entry: ವಿಚಾರಣೆ
+  defs:
+  - *id023
+  id: prosecutio_a602a7290ad2
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Prosecution
 - entry: ಉತ್ಪಾದಕತೆ
   defs:
   - entry: Productivity
-    type: n
-  id: productivi_573863ef429d
+    type: Noun
+  id: productivi_e3d3fd9d8a89
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Productivity
 - entry: ಲಾಭದಾಯಕತೆ
   defs:
   - entry: Profitability
-    type: n
-  id: profitabil_48d4a40dd626
+    type: Noun
+  id: profitabil_148e4036f473
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Profitability
-- entry: ಪ್ರಾವೀಣ್ಯ, ಪ್ರಾವೀಣ್ಯತೆ ತಜ್ಞತೆ, ಕುಶಲತೆ
+- entry: ಪ್ರಾವೀಣ್ಯ
   defs:
-  - entry: Proficiency
-    type: n
-  id: proficienc_8570bda26eba
+  - &id024
+    entry: Proficiency
+    type: Noun
+  id: proficienc_a16ec05bc4cf
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Proficiency
+- entry: ಪ್ರಾವೀಣ್ಯತೆ ತಜ್ಞತೆ
+  defs:
+  - *id024
+  id: proficienc_5c68f7018f65
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Proficiency
+- entry: ಕುಶಲತೆ
+  defs:
+  - *id024
+  id: proficienc_edcd5fe3d4b2
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Proficiency
 - entry: ಸಾರ್ವಜನಿಕ ಉಪಯುಕ್ತತೆ
   defs:
   - entry: Public Utility
-    type: n
-  id: publicutil_bf3075e5e3b7
+    type: Noun
+  id: publicutil_dad9e8a259f2
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Public Utility
-- entry: ಮೂಲ / ಆರಂಭದ ಸಾಲ ನೀಡಿಕೆ ದರ
+- entry: ಮೂಲ
   defs:
-  - entry: Prime Lending Rate
-    type: n
-  id: primelendi_6f3e319794dd
+  - &id025
+    entry: Prime Lending Rate
+    type: Noun
+  id: primelendi_4b6b913b03bc
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Prime Lending Rate
+- entry: ಆರಂಭದ ಸಾಲ ನೀಡಿಕೆ ದರ
+  defs:
+  - *id025
+  id: primelendi_7d957c8344e7
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Prime Lending Rate
 - entry: ಸಂರಕ್ಷಿತ ಕೆಲಸಗಾರ
   defs:
   - entry: Protected Workman
-    type: n
-  id: protectedw_e82315c4ac84
+    type: Noun
+  id: protectedw_968e64eba01c
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Protected Workman
 - entry: ದೀರ್ಘ ಸಂಧಾನಗಳು
   defs:
   - entry: Protracted Negotiations
-    type: n
-  id: protracted_1cab7d72258a
+    type: Noun
+  id: protracted_db7a180023d4
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Protracted Negotiations
-- entry: ಮರಳಿ ಕಳುಹಿಸುವುದು, ವಾಪಸ್ಸು ಕಳುಹಿಸುವುದು
+- entry: ಮರಳಿ ಕಳುಹಿಸುವುದು
   defs:
-  - entry: Repatriation
-    type: n
-  id: repatriati_48c67a28d422
+  - &id026
+    entry: Repatriation
+    type: Noun
+  id: repatriati_00317572208a
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Repatriation
+- entry: ವಾಪಸ್ಸು ಕಳುಹಿಸುವುದು
+  defs:
+  - *id026
+  id: repatriati_cb8636186a2f
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Repatriation
 - entry: ಕೆಲಸದಿಂದ ತೆಗೆದುಹಾಕುವುದು
   defs:
   - entry: Retrenchment
-    type: n
-  id: retrenchme_551d4dac4aab
+    type: Noun
+  id: retrenchme_5cb2772e8499
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Retrenchment
-- entry: ಅನುಸಮರ್ಥನೆ / ಸ್ಥಿರೀಕರಣೆ
+- entry: ಅನುಸಮರ್ಥನೆ
   defs:
-  - entry: Ratification
-    type: n
-  id: ratificati_d500daf43f34
+  - &id027
+    entry: Ratification
+    type: Noun
+  id: ratificati_89882436cd37
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Ratification
-- entry: ಪುನರಾವಲೋಕನ, ಪುನಃ ಪರಿಶೀಲನೆ ಸಮೀಕ್ಷೆ
+- entry: ಸ್ಥಿರೀಕರಣೆ
   defs:
-  - entry: Review
-    type: n
-  id: review_8e7abe4f6287
+  - *id027
+  id: ratificati_1bf30be9eb2a
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Ratification
+- entry: ಪುನರಾವಲೋಕನ
+  defs:
+  - &id028
+    entry: Review
+    type: Noun
+  id: review_6010b9b15b48
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Review
-- entry: ಪೂರ್ವಸ್ಥಿತಿಸ್ಥಾಪನೆ, ಜೀರ್ಣೋದ್ದಾರ
+- entry: ಪುನಃ ಪರಿಶೀಲನೆ ಸಮೀಕ್ಷೆ
   defs:
-  - entry: Restoration
-    type: n
-  id: restoratio_b4e1101670d4
+  - *id028
+  id: review_f5b421bfe075
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Review
+- entry: ಪೂರ್ವಸ್ಥಿತಿಸ್ಥಾಪನೆ
+  defs:
+  - &id029
+    entry: Restoration
+    type: Noun
+  id: restoratio_37d16b362ef8
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Restoration
+- entry: ಜೀರ್ಣೋದ್ದಾರ
+  defs:
+  - *id029
+  id: restoratio_6f68acc5487f
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Restoration
 - entry: ಪೂರ್ವಾನ್ವಯ
   defs:
   - entry: Retrospective
-    type: n
-  id: retrospect_7395274b6db1
+    type: Noun
+  id: retrospect_ee08db2cebfd
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Retrospective
-- entry: ನಿರ್ಣಯ, ತೀರ್ಮಾನ
+- entry: ನಿರ್ಣಯ
   defs:
-  - entry: Resolve
-    type: n
-  id: resolve_a309cfa52395
+  - &id030
+    entry: Resolve
+    type: Noun
+  id: resolve_7ef1a45206b0
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Resolve
-- entry: ಸಂಪನ್ಮೂಲ, ಸಾಧನ ಸಂಪತ್ತು,
+- entry: ತೀರ್ಮಾನ
   defs:
-  - entry: Resource
-    type: n
-  id: resource_cf15e305cb90
+  - *id030
+  id: resolve_75c371d549dd
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Resolve
+- entry: ಸಂಪನ್ಮೂಲ
+  defs:
+  - &id031
+    entry: Resource
+    type: Noun
+  id: resource_d4db7a743010
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Resource
+- entry: ಸಾಧನ ಸಂಪತ್ತು
+  defs:
+  - *id031
+  id: resource_ee22f27fe3f4
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Resource
 - entry: ರೆಫರಲ್‌ ಆಸ್ಪತ್ರೆಗಳು
   defs:
   - entry: Referal Hospitals
-    type: n
-  id: referalhos_489c84d90c0d
+    type: Noun
+  id: referalhos_e7de83e3b197
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Referal Hospitals
-- entry: ಪರಿಣಾಮ, ಪ್ರತಿಕ್ರಿಯೆ, ಮಾರ್ದನಿ
+- entry: ಪರಿಣಾಮ
   defs:
-  - entry: Repurcussion
-    type: n
-  id: repurcussi_06953c555370
+  - &id032
+    entry: Repurcussion
+    type: Noun
+  id: repurcussi_1297f620ce8b
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Repurcussion
+- entry: ಪ್ರತಿಕ್ರಿಯೆ
+  defs:
+  - *id032
+  id: repurcussi_a834ea55b8e9
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Repurcussion
+- entry: ಮಾರ್ದನಿ
+  defs:
+  - *id032
+  id: repurcussi_6ed8844b0d6a
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Repurcussion
 - entry: ಅಂಗಡಿ ಮತ್ತು ವಾಣಿಜ್ಯಸಂಸ್ಥೆಗಳ ಕಾಯ್ದೆ
   defs:
   - entry: Shops & Commercial Establishments Act
-    type: n
-  id: shopscomme_c7a8fe437524
+    type: Noun
+  id: shopscomme_0b3b68ffef97
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Shops & Commercial Establishments Act
 - entry: ವಿದ್ಯಾರ್ಥಿ ವೇತನ
   defs:
   - entry: Scholarship
-    type: n
-  id: scholarshi_7f1f59863475
+    type: Noun
+  id: scholarshi_e6bc56b06ea2
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Scholarship
 - entry: ಸಹಿಹಾಕುವುದು ಮತ್ತು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದು
   defs:
   - entry: Signing on and Signing off
-    type: n
-  id: signingona_a80347bc23d5
+    type: Noun
+  id: signingona_aa030ee20537
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Signing on and Signing off
 - entry: ಸ್ಥಾಯೀ ಆದೇಶಗಳು
   defs:
   - entry: Standing Orders
-    type: n
-  id: standingor_b5d54e8e3834
+    type: Noun
+  id: standingor_7cf46fff8a21
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Standing Orders
 - entry: ಶಾಸನಬದ್ಧ ಅಗತ್ಯಗಳು
   defs:
   - entry: Statutory Requirements
-    type: n
-  id: statutoryr_92523666ffb4
+    type: Noun
+  id: statutoryr_dea286bc2cfa
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Statutory Requirements
-- entry: ತನ್ನದೇ ಆದ, ಅನನ್ಯ ಸಾಮಾನ್ಯ
+- entry: ತನ್ನದೇ ಆದ
   defs:
-  - entry: Sui geniris
-    type: n
-  id: suigeniris_c366742a1625
+  - &id033
+    entry: Sui geniris
+    type: Noun
+  id: suigeniris_f1112e7b5758
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Sui geniris
-- entry: ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತ, ತಾತ್ಕಾಲಿಕ ಅಮಾನತು, ಸಸ್ಪೆಂಡೆಡ್‌ ಅನಿಮೇಷನ್‌
+- entry: ಅನನ್ಯ ಸಾಮಾನ್ಯ
   defs:
-  - entry: Suspended animation
-    type: n
-  id: suspendeda_6daeb6cc7570
+  - *id033
+  id: suigeniris_fb4c06c8cd00
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Sui geniris
+- entry: ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತ
+  defs:
+  - &id034
+    entry: Suspended animation
+    type: Noun
+  id: suspendeda_b2ee73b0b449
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Suspended animation
-- entry: ತಾನಾಗಿಯೇ, ತನಗೆತಾನೇ, ಸ್ವಯಂಪ್ರೇರಣೆ
+- entry: ತಾತ್ಕಾಲಿಕ ಅಮಾನತು
   defs:
-  - entry: Suo-moto
-    type: n
-  id: suomoto_8f15e5d1e431
+  - *id034
+  id: suspendeda_0131e3f4a4d3
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Suspended animation
+- entry: ಸಸ್ಪೆಂಡೆಡ್‌ ಅನಿಮೇಷನ್‌
+  defs:
+  - *id034
+  id: suspendeda_b7c7bfb3b47d
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Suspended animation
+- entry: ತಾನಾಗಿಯೇ
+  defs:
+  - &id035
+    entry: Suo-moto
+    type: Noun
+  id: suomoto_989dd85e86e7
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Suo-moto
-- entry: ಉದ್ಯಮ, ಪರಿವಚನ, ಮುಚ್ಚಳಿಕೆ
+- entry: ತನಗೆತಾನೇ
   defs:
-  - entry: Undertaking
-    type: n
-  id: undertakin_b88ba4505974
+  - *id035
+  id: suomoto_f3ce2264a3f2
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Suo-moto
+- entry: ಸ್ವಯಂಪ್ರೇರಣೆ
+  defs:
+  - *id035
+  id: suomoto_e11e390d6416
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Suo-moto
+- entry: ಉದ್ಯಮ
+  defs:
+  - &id036
+    entry: Undertaking
+    type: Noun
+  id: undertakin_a48d6c0242e4
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Undertaking
-- entry: ತಿಳಿವಳಿಕೆ, ಒಪ್ಪಂದ
+- entry: ಪರಿವಚನ
   defs:
-  - entry: Understanding
-    type: n
-  id: understand_996341f2c4b4
+  - *id036
+  id: undertakin_4c077705ca6a
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Undertaking
+- entry: ಮುಚ್ಚಳಿಕೆ
+  defs:
+  - *id036
+  id: undertakin_7d5e0ce5e0c0
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Undertaking
+- entry: ತಿಳಿವಳಿಕೆ
+  defs:
+  - &id037
+    entry: Understanding
+    type: Noun
+  id: understand_c51ea1408aac
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Understanding
-- entry: ಮಜೂರಿ ಸ್ಥಗಿತ, ಮೂಲ ಸಂಪತ್ತು, ಸಾಧನೋಪಾಯ
+- entry: ಒಪ್ಪಂದ
   defs:
-  - entry: Wage Freeze
-    type: n
-  id: wagefreeze_b54315f6fa6a
+  - *id037
+  id: understand_f6ee8943219b
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Understanding
+- entry: ಮಜೂರಿ ಸ್ಥಗಿತ
+  defs:
+  - &id038
+    entry: Wage Freeze
+    type: Noun
+  id: wagefreeze_f929f65334ce
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wage Freeze
+- entry: ಮೂಲ ಸಂಪತ್ತು
+  defs:
+  - *id038
+  id: wagefreeze_c95f022fb1dc
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wage Freeze
+- entry: ಸಾಧನೋಪಾಯ
+  defs:
+  - *id038
+  id: wagefreeze_48f929610746
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Wage Freeze
 - entry: ವೇತನ ಪರಿಷ್ಕರಣೆ
   defs:
   - entry: Wage Revision
-    type: n
-  id: wagerevisi_25bd54069518
+    type: Noun
+  id: wagerevisi_a70ad250c398
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Wage Revision
 - entry: ಕಾರ್ಮಿಕರ ನಷ್ಟ ಪರಿಹಾರ
   defs:
   - entry: Workmen Compensation
-    type: n
-  id: workmencom_f4b6144b2700
+    type: Noun
+  id: workmencom_c86aa034a818
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Workmen Compensation
-- entry: ಕಾರ್ಮಿಕ ಬಲ, ಕಾರ್ಮಿಕ ಸಂಖ್ಯೆ
+- entry: ಕಾರ್ಮಿಕ ಬಲ
   defs:
-  - entry: Workforce
-    type: n
-  id: workforce_3797c8f8d0a6
+  - &id039
+    entry: Workforce
+    type: Noun
+  id: workforce_de6c42ccd043
+  source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Workforce
+- entry: ಕಾರ್ಮಿಕ ಸಂಖ್ಯೆ
+  defs:
+  - *id039
+  id: workforce_2b206694677d
   source: ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
   head: Workforce

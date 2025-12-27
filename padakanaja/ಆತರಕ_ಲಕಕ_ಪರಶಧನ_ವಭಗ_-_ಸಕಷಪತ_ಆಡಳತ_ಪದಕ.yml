@@ -1,128 +1,212 @@
-- entry: ಸಮೃದ್ಧವಾಗಿ, ಹೇರಳವಾಗಿ
+- entry: ಸಮೃದ್ಧವಾಗಿ
   defs:
-  - entry: Abundantly
-    type: n
-  id: abundantly_476650e839e7
+  - &id001
+    entry: Abundantly
+    type: Noun
+  id: abundantly_b71eea5a59db
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Abundantly
-- entry: ಆಡ್‌ಹಾಕ್‌ ಸಮಿತಿ, ತದರ್ಥ ಸಮಿತಿ, ತಾತ್ಕಾಲಿಕ ಸಮಿತಿ
+- entry: ಹೇರಳವಾಗಿ
   defs:
-  - entry: Adhoc-Committee
-    type: n
-  id: adhoccommi_08e06ae05b29
+  - *id001
+  id: abundantly_cb76adfd1fe5
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Abundantly
+- entry: ಆಡ್‌ಹಾಕ್‌ ಸಮಿತಿ
+  defs:
+  - &id002
+    entry: Adhoc-Committee
+    type: Noun
+  id: adhoccommi_a72a5b96dbbf
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Adhoc-Committee
+- entry: ತದರ್ಥ ಸಮಿತಿ
+  defs:
+  - *id002
+  id: adhoccommi_1dab6d8658a3
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Adhoc-Committee
+- entry: ತಾತ್ಕಾಲಿಕ ಸಮಿತಿ
+  defs:
+  - *id002
+  id: adhoccommi_94830a89c82b
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Adhoc-Committee
 - entry: ಆಸ್ತಿ ಮತ್ತು ಋಣಭಾರ
   defs:
   - entry: Assets & Liabilities
-    type: n
-  id: assetsliab_0f25c80f8109
+    type: Noun
+  id: assetsliab_933eab3f1018
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Assets & Liabilities
 - entry: ಲೆಕ್ಕ ಪರಿಶೋಧನಾ ವರದಿ
   defs:
   - entry: Audit Report
-    type: n
-  id: auditrepor_e3b9730be4df
+    type: Noun
+  id: auditrepor_b87b7b361206
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Audit Report
 - entry: ಲೆಕ್ಕ ಪರಿಶೋಧನಾ ಪರಿವೀಕ್ಷಣೆ
   defs:
   - entry: Audit Observations
-    type: n
-  id: auditobser_cdfa7d4a201a
+    type: Noun
+  id: auditobser_3a35ed7d52fc
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Audit Observations
 - entry: ಲೆಕ್ಕ ಪರಿಶೋಧನಾ ವಿಚಾರಣೆ
   defs:
   - entry: Audit Enquiry
-    type: n
-  id: auditenqui_178af803a0bf
+    type: Noun
+  id: auditenqui_84b01b212393
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Audit Enquiry
 - entry: ಲೆಕ್ಕಪರಿಶೋಧನಾ ಕಂಡಿಕೆ
   defs:
   - entry: Audit Para
-    type: n
-  id: auditpara_2e739f748c57
+    type: Noun
+  id: auditpara_4b1d95e57e97
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Audit Para
-- entry: ನಿಯಂತ್ರಕ ಮತ್ತು ಮಹಾಲೇಖ ಪರೀಕ್ಷಕರ ವರದಿ, ಕಂಟ್ರೋಲರ್‌ ಮತ್ತು ಅಕೌಂಟೆಂಟ್‌ ಜನರಲ್‌ ವರದಿ
+- entry: ನಿಯಂತ್ರಕ ಮತ್ತು ಮಹಾಲೇಖ ಪರೀಕ್ಷಕರ ವರದಿ
   defs:
-  - entry: C & A.G. Report
-    type: n
-  id: cagreport_af184dbba6d2
+  - &id003
+    entry: C & A.G. Report
+    type: Noun
+  id: cagreport_3a205743533d
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: C & A.G. Report
-- entry: ಪ್ರಾಸಂಗಿಕ / ಕರಾರಿನ / ಒಪ್ಪಂದದ ಮೇರೆಗೆ ನೀಡಿದ ವಾಹನದ ಬಿಲ್ಲು
+- entry: ಕಂಟ್ರೋಲರ್‌ ಮತ್ತು ಅಕೌಂಟೆಂಟ್‌ ಜನರಲ್‌ ವರದಿ
   defs:
-  - entry: Casual Contract Bills
-    type: n
-  id: casualcont_b4e8f9c1a0e3
+  - *id003
+  id: cagreport_5e0d459385fd
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: C & A.G. Report
+- entry: ಪ್ರಾಸಂಗಿಕ
+  defs:
+  - &id004
+    entry: Casual Contract Bills
+    type: Noun
+  id: casualcont_baacee4dfb79
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Casual Contract Bills
+- entry: ಕರಾರಿನ
+  defs:
+  - *id004
+  id: casualcont_25cd3ef66d8b
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Casual Contract Bills
+- entry: ಒಪ್ಪಂದದ ಮೇರೆಗೆ ನೀಡಿದ ವಾಹನದ ಬಿಲ್ಲು
+  defs:
+  - *id004
+  id: casualcont_469a62e07a93
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Casual Contract Bills
 - entry: ಕರಡು ಲೆಕ್ಕ ಪರಿಶೋಧನಾ ಕಂಡಿಕೆ
   defs:
   - entry: Draft Audit Para
-    type: n
-  id: draftaudit_8e893d220dda
+    type: Noun
+  id: draftaudit_d6cb0c039833
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Draft Audit Para
 - entry: ಮುಂಬರುವ
   defs:
   - entry: Ensuing
-    type: n
-  id: ensuing_3c3faf9dd930
+    type: Noun
+  id: ensuing_daee901fb731
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Ensuing
-- entry: ಘಟಕ / ವಿಭಾಗ, ಸಂಗ್ರಹಣಾ ಲೆಕ್ಕಪತ್ರಗಳು
+- entry: ಘಟಕ
   defs:
-  - entry: Pool Collection Account
-    type: n
-  id: poolcollec_43533b77c995
+  - &id005
+    entry: Pool Collection Account
+    type: Noun
+  id: poolcollec_633225ddc20d
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Pool Collection Account
-- entry: ಹಣ ಪಾವತಿ /ಕಳಿಸುವುದು /ಇರಸಾಲು
+- entry: ವಿಭಾಗ
   defs:
-  - entry: Remittance
-    type: n
-  id: remittance_75de4e7315be
+  - *id005
+  id: poolcollec_af01ec38b15a
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Pool Collection Account
+- entry: ಸಂಗ್ರಹಣಾ ಲೆಕ್ಕಪತ್ರಗಳು
+  defs:
+  - *id005
+  id: poolcollec_fe21eb9d6d85
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Pool Collection Account
+- entry: ಹಣ ಪಾವತಿ
+  defs:
+  - &id006
+    entry: Remittance
+    type: Noun
+  id: remittance_5d7223dd36be
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Remittance
+- entry: ಕಳಿಸುವುದು
+  defs:
+  - *id006
+  id: remittance_93ba04f70fd8
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Remittance
+- entry: ಇರಸಾಲು
+  defs:
+  - *id006
+  id: remittance_ed054851045d
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Remittance
 - entry: ಅನುಸೂಚಿಗಳು
   defs:
   - entry: Schedules
-    type: n
-  id: schedules_5daf922af0f2
+    type: Noun
+  id: schedules_c70df83d1abb
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Schedules
 - entry: ತೂಕಹಾಕಿದ ಸರಾಸರಿ ದರ
   defs:
   - entry: Weighted Average Rate
-    type: n
-  id: weightedav_35ce571ca45e
+    type: Noun
+  id: weightedav_d38e90f35e70
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Weighted Average Rate
-- entry: ಕೆಲಸದ ಡೈರಿ / ದಿನಚರಿ
+- entry: ಕೆಲಸದ ಡೈರಿ
   defs:
-  - entry: Work Diary
-    type: n
-  id: workdiary_97ed580d36fa
+  - &id007
+    entry: Work Diary
+    type: Noun
+  id: workdiary_650403b6c98b
+  source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
+  dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  head: Work Diary
+- entry: ದಿನಚರಿ
+  defs:
+  - *id007
+  id: workdiary_76259924da6e
   source: ಆತರಕ_ಲಕಕ_ಪರಶಧನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕ
   dict_title: ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
   head: Work Diary

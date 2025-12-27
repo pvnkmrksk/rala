@@ -174,7 +174,8 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
             for semicolon_part in kannada_word_raw.split(';'):
                 for comma_part in semicolon_part.split(','):
                     for slash_part in comma_part.split('/'):
-                        cleaned = slash_part.strip()
+                        # Strip all whitespace including Unicode spaces (non-breaking spaces, etc.)
+                        cleaned = slash_part.strip().strip('\u200B\u200C\u200D\uFEFF\u00A0')
                         if cleaned:
                             kannada_words.append(cleaned)
             

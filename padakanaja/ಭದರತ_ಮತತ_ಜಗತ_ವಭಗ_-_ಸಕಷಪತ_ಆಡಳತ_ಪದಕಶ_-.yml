@@ -1,1600 +1,2376 @@
-- entry: ನೀಡು, ಒಪ್ಪು, ಒಡಂಬಡು, ಒದಗಿಸು, ಒಡಂಬಡಿಕೆ
+- entry: ನೀಡು
   defs:
-  - entry: Accord
-    type: n
-  id: accord_115f52fe6dad
+  - &id001
+    entry: Accord
+    type: Noun
+  id: accord_ff161eab45be
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Accord
+- entry: ಒಪ್ಪು
+  defs:
+  - *id001
+  id: accord_e28117d247b8
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Accord
+- entry: ಒಡಂಬಡು
+  defs:
+  - *id001
+  id: accord_1ea7413c9d4a
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Accord
+- entry: ಒದಗಿಸು
+  defs:
+  - *id001
+  id: accord_a4339aecbaff
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Accord
+- entry: ಒಡಂಬಡಿಕೆ
+  defs:
+  - *id001
+  id: accord_2418ca47dcf3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Accord
 - entry: ಆಡಳಿತ ನಿಯಂತ್ರಣ
   defs:
   - entry: Administrative control
-    type: n
-  id: administra_a2893aade297
+    type: Noun
+  id: administra_3c601fe8e2ba
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Administrative control
 - entry: ಆಡಳಿತ ಕಾರಣಗಳು
   defs:
   - entry: Administrative grounds
-    type: n
-  id: administra_ba4c0a353b81
+    type: Noun
+  id: administra_4ff121e3240b
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Administrative grounds
 - entry: ಆಡಳಿತ ವರದಿ
   defs:
   - entry: Administrative report
-    type: n
-  id: administra_b1abcd217048
+    type: Noun
+  id: administra_8f469a842219
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Administrative report
-- entry: ಚಟ, ಗೀಳು, ವ್ಯಸನ, ದುರಾಭ್ಯಾಸ
+- entry: ಚಟ
   defs:
-  - entry: Addictness
-    type: n
-  id: addictness_f1ae87c635c6
+  - &id002
+    entry: Addictness
+    type: Noun
+  id: addictness_48c93f0fc2ba
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Addictness
+- entry: ಗೀಳು
+  defs:
+  - *id002
+  id: addictness_710544cc3dc5
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Addictness
+- entry: ವ್ಯಸನ
+  defs:
+  - *id002
+  id: addictness_592133ba00bf
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Addictness
+- entry: ದುರಾಭ್ಯಾಸ
+  defs:
+  - *id002
+  id: addictness_b4b12fdfdba6
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Addictness
 - entry: ಜಾಲಸಾವಾಮಿ
   defs:
   - entry: Adherence
-    type: n
-  id: adherence_4d90e7594cba
+    type: Noun
+  id: adherence_2db70c97f19a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Adherence
 - entry: ಪ್ರತಿಕೂಲ ಷರಾ
   defs:
   - entry: Adverse remarks
-    type: n
-  id: adverserem_51c307ae958c
+    type: Noun
+  id: adverserem_be49f6d8aca4
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Adverse remarks
 - entry: ಆಡಳಿತದ ಅನುಕೂಲತೆ
   defs:
   - entry: Administrative Convenience
-    type: n
-  id: administra_0c8027695f8d
+    type: Noun
+  id: administra_ab85fd908fed
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Administrative Convenience
-- entry: ವಿಸ್ತರಣ, ವರ್ಧನೆ, ವಿವರಣೆ, ಉತ್ಪ್ರೇಕ್ಷೆ
+- entry: ವಿಸ್ತರಣ
   defs:
-  - entry: Amplification
-    type: n
-  id: amplificat_a57316c4c0f4
+  - &id003
+    entry: Amplification
+    type: Noun
+  id: amplificat_52b68d462967
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Amplification
-- entry: ಅನಾಮಿಕ, ಅನಾಮಧೇಯ
+- entry: ವರ್ಧನೆ
   defs:
-  - entry: Anonymous
-    type: n
-  id: anonymous_e8b33b5361ff
+  - *id003
+  id: amplificat_77015e68b0c4
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Amplification
+- entry: ವಿವರಣೆ
+  defs:
+  - *id003
+  id: amplificat_34c89a0abf34
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Amplification
+- entry: ಉತ್ಪ್ರೇಕ್ಷೆ
+  defs:
+  - *id003
+  id: amplificat_b94a392da1c6
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Amplification
+- entry: ಅನಾಮಿಕ
+  defs:
+  - &id004
+    entry: Anonymous
+    type: Noun
+  id: anonymous_3c5044b48ebb
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Anonymous
+- entry: ಅನಾಮಧೇಯ
+  defs:
+  - *id004
+  id: anonymous_993c46683b76
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Anonymous
 - entry: ವಾರ್ಷಿಕ ಗೋಪ್ಯ ವರದಿಗಳು
   defs:
   - entry: Annual Confidential reports
-    type: n
-  id: annualconf_f1413a5a33b3
+    type: Noun
+  id: annualconf_5b0804b96123
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Annual Confidential reports
-- entry: ಕಿರುಕುಳ, ಪೀಡೆ
+- entry: ಕಿರುಕುಳ
   defs:
-  - entry: Annoyance
-    type: n
-  id: annoyance_6a1a0679ac0d
+  - &id005
+    entry: Annoyance
+    type: Noun
+  id: annoyance_e3702de88d45
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Annoyance
-- entry: ಹಿಂದಿನ ಸರಿ ನೋಡುವಿಕೆ / ಪೂರ್ವ ಸಂಗತಿಗಳ ಪರಿಶೀಲನೆ
+- entry: ಪೀಡೆ
   defs:
-  - entry: Antecedents verification
-    type: n
-  id: antecedent_032b998b8526
+  - *id005
+  id: annoyance_9f8d80d6a82b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Annoyance
+- entry: ಹಿಂದಿನ ಸರಿ ನೋಡುವಿಕೆ
+  defs:
+  - &id006
+    entry: Antecedents verification
+    type: Noun
+  id: antecedent_9ca61d118558
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Antecedents verification
+- entry: ಪೂರ್ವ ಸಂಗತಿಗಳ ಪರಿಶೀಲನೆ
+  defs:
+  - *id006
+  id: antecedent_4fa088ad3bc1
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Antecedents verification
 - entry: ವಿಶ್ಲೇಷಣಾತ್ಮಕ ಅಧ್ಯಯನ
   defs:
   - entry: Analytical study
-    type: n
-  id: analytical_85540fa895d9
+    type: Noun
+  id: analytical_f64c9fac07dd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Analytical study
 - entry: ವಾರ್ಷಿಕ ಸಮೀಕ್ಷೆ
   defs:
   - entry: Annual review
-    type: n
-  id: annualrevi_d84a8933c06e
+    type: Noun
+  id: annualrevi_0e170644854e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Annual review
 - entry: ಅನುಮೋದನೆ
   defs:
   - entry: Approval
-    type: n
-  id: approval_3289d60d531b
+    type: Noun
+  id: approval_f0567b30820c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Approval
 - entry: ಹಲ್ಲೆ
   defs:
   - entry: Assault
-    type: n
-  id: assault_a46e7e408b44
+    type: Noun
+  id: assault_f4db850f9ae7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Assault
-- entry: ದೃಢೀಕರಣ / ಅನುಪ್ರಮಾಣದ ನಮೂನೆ
+- entry: ದೃಢೀಕರಣ
   defs:
-  - entry: Attestation form
-    type: n
-  id: attestatio_98e5d519b3dc
+  - &id007
+    entry: Attestation form
+    type: Noun
+  id: attestatio_edba43ae4b1d
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Attestation form
-- entry: ಅಧಿಕೃತತೆ, ವಿಶ್ವಾಸಾರ್ಹತೆ
+- entry: ಅನುಪ್ರಮಾಣದ ನಮೂನೆ
   defs:
-  - entry: Authenticity
-    type: n
-  id: authentici_0d45aa523c8f
+  - *id007
+  id: attestatio_4507771229f1
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Attestation form
+- entry: ಅಧಿಕೃತತೆ
+  defs:
+  - &id008
+    entry: Authenticity
+    type: Noun
+  id: authentici_b61ff01377a0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Authenticity
-- entry: ಬ್ಯಾರೆಟ್‌ ಕ್ಯಾಪ್‌, ಚದರ ಟೋಪಿ
+- entry: ವಿಶ್ವಾಸಾರ್ಹತೆ
   defs:
-  - entry: Barret cap
-    type: n
-  id: barretcap_a115dd74ce10
+  - *id008
+  id: authentici_d298f100d7ad
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Authenticity
+- entry: ಬ್ಯಾರೆಟ್‌ ಕ್ಯಾಪ್‌
+  defs:
+  - &id009
+    entry: Barret cap
+    type: Noun
+  id: barretcap_7447675eadb5
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Barret cap
+- entry: ಚದರ ಟೋಪಿ
+  defs:
+  - *id009
+  id: barretcap_dff4494e7497
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Barret cap
 - entry: ಶ್ವಾಸ ವಿಶ್ಲೇಷಕ
   defs:
   - entry: Breath analysor
-    type: n
-  id: breathanal_aa36bc78f532
+    type: Noun
+  id: breathanal_ac0a10c84e83
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Breath analysor
 - entry: ವ್ಯವಹಾರ ಯೋಜನೆ
   defs:
   - entry: Business plan
-    type: n
-  id: businesspl_e359c2e4305d
+    type: Noun
+  id: businesspl_5f6328ca4f5f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Business plan
-- entry: ಸಾಂದರ್ಭಿಕ ಕರಾರು / ಒಪ್ಪಂದ
+- entry: ಸಾಂದರ್ಭಿಕ ಕರಾರು
   defs:
-  - entry: Casual contract
-    type: n
-  id: casualcont_c2e02afe9f63
+  - &id010
+    entry: Casual contract
+    type: Noun
+  id: casualcont_85572c9929ac
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Casual contract
+- entry: ಒಪ್ಪಂದ
+  defs:
+  - *id010
+  id: casualcont_91ea84f8613a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Casual contract
 - entry: ಸಿಬ್ಬಂದಿಯ ಪ್ರವರ್ಗ
   defs:
   - entry: Categories of staff
-    type: n
-  id: categories_1b53b6440831
+    type: Noun
+  id: categories_cb9c5db38426
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Categories of staff
 - entry: ಇತ್ಯರ್ಥದಲ್ಲಿರುವ ಪ್ರಕರಣಗಳು
   defs:
   - entry: Cases pending
-    type: n
-  id: casespendi_0fc64a0ff244
+    type: Noun
+  id: casespendi_767f86bf02ec
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Cases pending
 - entry: ಕೇಂದ್ರಮಾರ್ಗ ತನಿಕಾ ದಳ
   defs:
   - entry: Central line checking squad
-    type: n
-  id: centrallin_8767f483501e
+    type: Noun
+  id: centrallin_0549dec0cb82
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Central line checking squad
 - entry: ಕಾಲಾನುಕ್ರಮ
   defs:
   - entry: Chronological order
-    type: n
-  id: chronologi_8e5dff7fa8a8
+    type: Noun
+  id: chronologi_49bdf5d2e9bd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Chronological order
 - entry: ತನಿಖಾ ಸಿಬ್ಬಂದಿ
   defs:
   - entry: Checking staff
-    type: n
-  id: checkingst_f69d43bdef43
+    type: Noun
+  id: checkingst_7f9912696e07
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Checking staff
 - entry: ಆರೋಪಣಾ ಪತ್ರ
   defs:
   - entry: Charge memo
-    type: n
-  id: chargememo_cb09653ec248
+    type: Noun
+  id: chargememo_4a5d20d20c49
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Charge memo
 - entry: ಅನಧಿಕೃತ ಕಾರ್ಯಾಚರಣೆ
   defs:
   - entry: Clandestine operation
-    type: n
-  id: clandestin_084d69071eb4
+    type: Noun
+  id: clandestin_4d5101a1c268
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Clandestine operation
-- entry: ಗುಪ್ತ / ಮುಚ್ಚುಮರೆಯ ತನಿಖೆ
+- entry: ಗುಪ್ತ
   defs:
-  - entry: Clandestine checking
-    type: n
-  id: clandestin_89515f3db777
+  - &id011
+    entry: Clandestine checking
+    type: Noun
+  id: clandestin_1a73dcdec5f0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Clandestine checking
-- entry: ಕ್ಲಾಂಡಸೈನ್‌ ಆಪರೇಟರ್‌, ಗುಪ್ತವಾಗಿ ಕಾರ್ಯಚರಣೆ ಮಾಡುವವ
+- entry: ಮುಚ್ಚುಮರೆಯ ತನಿಖೆ
   defs:
-  - entry: Clandestine operator
-    type: n
-  id: clandestin_42aa9d47ecec
+  - *id011
+  id: clandestin_ea98566884f3
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Clandestine checking
+- entry: ಕ್ಲಾಂಡಸೈನ್‌ ಆಪರೇಟರ್‌
+  defs:
+  - &id012
+    entry: Clandestine operator
+    type: Noun
+  id: clandestin_8bcb0198c293
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Clandestine operator
-- entry: ಕೋಡ್‌ ಮಾಡುವುದು, ಸಂಕೇತ ಭಾಷೆಗೆ ತಿರುಗಿಸುವುದು
+- entry: ಗುಪ್ತವಾಗಿ ಕಾರ್ಯಚರಣೆ ಮಾಡುವವ
   defs:
-  - entry: Coding
-    type: n
-  id: coding_dad29a761f2a
+  - *id012
+  id: clandestin_58ac9fd4b6d8
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Clandestine operator
+- entry: ಕೋಡ್‌ ಮಾಡುವುದು
+  defs:
+  - &id013
+    entry: Coding
+    type: Noun
+  id: coding_32d709a4837c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Coding
-- entry: ಸ್ನೇಹಿತ / ಸಹಸದಸ್ಯ
+- entry: ಸಂಕೇತ ಭಾಷೆಗೆ ತಿರುಗಿಸುವುದು
   defs:
-  - entry: Comrade
-    type: n
-  id: comrade_19df1b257194
+  - *id013
+  id: coding_026093edfb41
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Coding
+- entry: ಸ್ನೇಹಿತ
+  defs:
+  - &id014
+    entry: Comrade
+    type: Noun
+  id: comrade_441fe626b7c4
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Comrade
+- entry: ಸಹಸದಸ್ಯ
+  defs:
+  - *id014
+  id: comrade_87850ef50b16
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Comrade
 - entry: ಪರಿಹಾರ ರಜೆ
   defs:
   - entry: Compensatory off
-    type: n
-  id: compensato_92e483e86a06
+    type: Noun
+  id: compensato_9eaceaca53f0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Compensatory off
 - entry: ಅನುಕಂಪದ ನೇಮಕಾತಿ
   defs:
   - entry: Compassionate appointment
-    type: n
-  id: compassion_fe5716473f80
+    type: Noun
+  id: compassion_b7513d47280a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Compassionate appointment
-- entry: ವಾಣಿಜ್ಯ ಪ್ರಸ್ತಾವ / ಪ್ರಕಟಣೆ (ಟೆಂಡರ್‌)
+- entry: ವಾಣಿಜ್ಯ ಪ್ರಸ್ತಾವ
   defs:
-  - entry: Commercial offer (Tender)
-    type: n
-  id: commercial_2088a7345f46
+  - &id015
+    entry: Commercial offer (Tender)
+    type: Noun
+  id: commercial_88217c36461b
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Commercial offer (Tender)
-- entry: ವರ್ತನೆ, ನಡತೆ
+- entry: ಪ್ರಕಟಣೆ (ಟೆಂಡರ್‌)
   defs:
-  - entry: Conduct
-    type: n
-  id: conduct_7b861dae85e0
+  - *id015
+  id: commercial_830c5b3723c6
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Commercial offer (Tender)
+- entry: ವರ್ತನೆ
+  defs:
+  - &id016
+    entry: Conduct
+    type: Noun
+  id: conduct_af2f5908a110
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Conduct
+- entry: ನಡತೆ
+  defs:
+  - *id016
+  id: conduct_b451b5f69167
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Conduct
 - entry: ನಡತೆ ಮತ್ತು ಶಿಸ್ತು ನಿಯಮಾವಳಿ
   defs:
   - entry: Conduct and discipline regulation
-    type: n
-  id: conductand_2a82a6135f1e
+    type: Noun
+  id: conductand_0f684c2b1bf9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Conduct and discipline regulation
 - entry: ಸೂಕ್ತ ಪ್ರಾಧಿಕಾರಿ
   defs:
   - entry: Competent Authority
-    type: n
-  id: competenta_e73bae9aa537
+    type: Noun
+  id: competenta_5eabea93f586
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Competent Authority
 - entry: ಬೆಂಕಿಯ ಸ್ವರೂಪ
   defs:
   - entry: Configuration of fire
-    type: n
-  id: configurat_762700ba3e7a
+    type: Noun
+  id: configurat_ed303ebc8dd7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Configuration of fire
 - entry: ಮದ್ಯಸೇವನೆ
   defs:
   - entry: Consumption of Alcohol
-    type: n
-  id: consumptio_1e1ecc438ea4
+    type: Noun
+  id: consumptio_7c1eb2e0c672
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Consumption of Alcohol
 - entry: ಉಲ್ಲಂಘನೆ
   defs:
   - entry: Contravenes
-    type: n
-  id: contravene_e3956ce9d5fd
+    type: Noun
+  id: contravene_2f65c05f12f3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Contravenes
 - entry: ಸಮನ್ವಯ
   defs:
   - entry: Co-ordination
-    type: n
-  id: coordinati_ea84bc1e0118
+    type: Noun
+  id: coordinati_efd783f8ca42
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Co-ordination
 - entry: ಗೋಪ್ಯ ಮಾಹಿತಿ
   defs:
   - entry: Confidential information
-    type: n
-  id: confidenti_9ba3184aa82c
+    type: Noun
+  id: confidenti_27d76a251a0d
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Confidential information
-- entry: ಅಪರಾಧ ನಿರ್ಣಯ, ಮನವರಿಕೆ, ದೃಢವಿಶ್ವಾಸ
+- entry: ಅಪರಾಧ ನಿರ್ಣಯ
   defs:
-  - entry: Conviction
-    type: n
-  id: conviction_70bf81d9ee46
+  - &id017
+    entry: Conviction
+    type: Noun
+  id: conviction_5cc7274e697b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Conviction
+- entry: ಮನವರಿಕೆ
+  defs:
+  - *id017
+  id: conviction_b359c5667305
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Conviction
+- entry: ದೃಢವಿಶ್ವಾಸ
+  defs:
+  - *id017
+  id: conviction_ce62640b8d24
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Conviction
 - entry: ನಿರ್ವಾಹಕರ ಮಾರ್ಗ ಪತ್ರ
   defs:
   - entry: Conductor's way bill
-    type: n
-  id: conductors_e5f83033a469
+    type: Noun
+  id: conductors_af2ce0535dda
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Conductor's way bill
-- entry: ನಿಗಮಿತ, ಕಾರ್ಪೋರೇಟ್‌
+- entry: ನಿಗಮಿತ
   defs:
-  - entry: Corporate
-    type: n
-  id: corporate_fa34d1a004fe
+  - &id018
+    entry: Corporate
+    type: Noun
+  id: corporate_59c847e67d3f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Corporate
-- entry: ಅಪರಾಧಿಕ ಒಳಸಂಚು / ಪಿತೂರಿ
+- entry: ಕಾರ್ಪೋರೇಟ್‌
   defs:
-  - entry: Criminal Conspiracy
-    type: n
-  id: criminalco_539e32eedc69
+  - *id018
+  id: corporate_8fb6b58c680b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Corporate
+- entry: ಅಪರಾಧಿಕ ಒಳಸಂಚು
+  defs:
+  - &id019
+    entry: Criminal Conspiracy
+    type: Noun
+  id: criminalco_13ae445e9656
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Criminal Conspiracy
+- entry: ಪಿತೂರಿ
+  defs:
+  - *id019
+  id: criminalco_d31847899460
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Criminal Conspiracy
 - entry: ಪಾಟಿಸವಾಲು
   defs:
   - entry: Cross examination
-    type: n
-  id: crossexami_723c724d309d
+    type: Noun
+  id: crossexami_4d5b05d328c9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Cross examination
 - entry: ಭ್ರಷ್ಟಾಚಾರ
   defs:
   - entry: Corruption
-    type: n
-  id: corruption_05f29f1c489a
+    type: Noun
+  id: corruption_dd0a8a26f672
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Corruption
-- entry: ಬೀಗದ ಕೈಗಳ ವಶ / ಅಭಿರಕ್ಷೆ / ರಕ್ಷಣೆ
+- entry: ಬೀಗದ ಕೈಗಳ ವಶ
   defs:
-  - entry: Custody of keys
-    type: n
-  id: custodyofk_025c8de43429
+  - &id020
+    entry: Custody of keys
+    type: Noun
+  id: custodyofk_9f0b86b45118
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Custody of keys
+- entry: ಅಭಿರಕ್ಷೆ
+  defs:
+  - *id020
+  id: custodyofk_cb0ef3bd9905
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Custody of keys
+- entry: ರಕ್ಷಣೆ
+  defs:
+  - *id020
+  id: custodyofk_994eb38cd8bf
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Custody of keys
 - entry: ನಿಯೋಜನೆ
   defs:
   - entry: Deployment
-    type: n
-  id: deployment_23a978321e7c
+    type: Noun
+  id: deployment_16fd7a9cafd9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Deployment
-- entry: ವಾಹನಗಳಲ್ಲಿ ನೂನ್ಯತೆ /ದೋಷ
+- entry: ವಾಹನಗಳಲ್ಲಿ ನೂನ್ಯತೆ
   defs:
-  - entry: Defects in vehicles
-    type: n
-  id: defectsinv_1d3cc8579c9f
+  - &id021
+    entry: Defects in vehicles
+    type: Noun
+  id: defectsinv_797b3bdfb810
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Defects in vehicles
+- entry: ದೋಷ
+  defs:
+  - *id021
+  id: defectsinv_7f40d12fa4c0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Defects in vehicles
 - entry: ಮೃತ ನೌಕರ
   defs:
   - entry: Deceased employee
-    type: n
-  id: deceasedem_69321effc4ab
+    type: Noun
+  id: deceasedem_dd4fb08557c3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Deceased employee
-- entry: ಮೃತ ಆಶ್ರಿತ /ಅವಲಂಬಿತ
+- entry: ಮೃತ ಆಶ್ರಿತ
   defs:
-  - entry: Deceased dependent
-    type: n
-  id: deceasedde_c0c5da99c393
+  - &id022
+    entry: Deceased dependent
+    type: Noun
+  id: deceasedde_c86fee36bccb
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Deceased dependent
-- entry: ವಿಸಂಕೇತಿಸುವುದು, ಬಳಕೆ ಭಾಷೆಗೆ ತಿರುಗಿಸುವುದು, ಡಿಕೋಡ್‌ ಮಾಡುವುದು
+- entry: ಅವಲಂಬಿತ
   defs:
-  - entry: Decoding
-    type: n
-  id: decoding_a43a88ea3007
+  - *id022
+  id: deceasedde_3fcb059d68d0
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Deceased dependent
+- entry: ವಿಸಂಕೇತಿಸುವುದು
+  defs:
+  - &id023
+    entry: Decoding
+    type: Noun
+  id: decoding_602fab2b95e8
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Decoding
+- entry: ಬಳಕೆ ಭಾಷೆಗೆ ತಿರುಗಿಸುವುದು
+  defs:
+  - *id023
+  id: decoding_0428f7da7c88
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Decoding
+- entry: ಡಿಕೋಡ್‌ ಮಾಡುವುದು
+  defs:
+  - *id023
+  id: decoding_475b1bc0fa5f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Decoding
 - entry: ದ್ರವ್ಯಾಪಹರಣ
   defs:
   - entry: Defaulcation
-    type: n
-  id: defaulcati_cefb651302db
+    type: Noun
+  id: defaulcati_486d2085378a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Defaulcation
-- entry: ದ್ರವ ಬಗ್ಗಿಸುವುದು, ಸುರಿಯುವದು, ತಿಳಿ
+- entry: ದ್ರವ ಬಗ್ಗಿಸುವುದು
   defs:
-  - entry: Decantation
-    type: n
-  id: decantatio_b6cef48049e2
+  - &id024
+    entry: Decantation
+    type: Noun
+  id: decantatio_42dc2b9ccc81
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Decantation
+- entry: ಸುರಿಯುವದು
+  defs:
+  - *id024
+  id: decantatio_6749ac169ae6
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Decantation
+- entry: ತಿಳಿ
+  defs:
+  - *id024
+  id: decantatio_d348b5188077
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Decantation
 - entry: ಘಟಕದಲ್ಲಿರುವ ಹೆಚ್ಚುವರಿ ಸಿಬ್ಬಂದಿ
   defs:
   - entry: Depot spare
-    type: n
-  id: depotspare_de6dd5688c52
+    type: Noun
+  id: depotspare_d65af3acd8cd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Depot spare
 - entry: ಅಧಿಕಾರ ಪ್ರತ್ಯಾಯೋಜನೆ
   defs:
   - entry: Delegation of powers
-    type: n
-  id: delegation_131faf5b69e7
+    type: Noun
+  id: delegation_14189b58aa6c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Delegation of powers
 - entry: ಅವಿಧೇಯತೆ
   defs:
   - entry: Disobediance
-    type: n
-  - entry: Insubordination
-    type: n
-  id: disobedian_f563dba9fb49
+    type: Noun
+  id: disobedian_320473adcb1f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Disobediance
 - entry: ವಿವೇಚನಾಯುಕ್ತ ತನಿಖೆ
   defs:
   - entry: Discreet enquiry
-    type: n
-  id: discreeten_3c4cc56addfb
+    type: Noun
+  id: discreeten_dff038ef8de9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Discreet enquiry
 - entry: ವ್ಯತ್ಯಾಸ
   defs:
   - entry: Discrepancy
-    type: n
-  id: discrepanc_b30bad84639b
+    type: Noun
+  id: discrepanc_b4b0e1fd5b6a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Discrepancy
 - entry: ಅಪಖ್ಯಾತಿ
   defs:
   - entry: Disrepute
-    type: n
-  id: disrepute_5564780baa1c
+    type: Noun
+  id: disrepute_a0f068201476
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Disrepute
 - entry: ಕರ್ತವ್ಯ ಹುದ್ದೆಯ ವಿವರಣೆ
   defs:
   - entry: Discretion of duty post
-    type: n
-  id: discretion_2f1180f4a190
+    type: Noun
+  id: discretion_cad259b8cb8d
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Discretion of duty post
 - entry: ಕರ್ತವ್ಯಗಳ ನಿರ್ವಹಣೆ
   defs:
   - entry: Discharge of duties
-    type: n
-  id: dischargeo_fc46f1f9ae15
+    type: Noun
+  id: dischargeo_0d87c36dc589
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Discharge of duties
 - entry: ಸೇವೆಯಿಂದ ಬಿಡುಗಡೆ ಹೊಂದಿದ ನೌಕರರು
   defs:
   - entry: Discharged employees
-    type: n
-  id: discharged_9dc30772fee0
+    type: Noun
+  id: discharged_28d1d52bd510
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Discharged employees
-- entry: ಅಸಭ್ಯತೆ, ಅನಾದರಣೆ, ಅಸೌಜನ್ಯ
+- entry: ಅಸಭ್ಯತೆ
   defs:
-  - entry: Discourtesy
-    type: n
-  id: discourtes_44bbb9cf672d
+  - &id025
+    entry: Discourtesy
+    type: Noun
+  id: discourtes_76bd0242ddc5
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Discourtesy
+- entry: ಅನಾದರಣೆ
+  defs:
+  - *id025
+  id: discourtes_12603f82158a
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Discourtesy
+- entry: ಅಸೌಜನ್ಯ
+  defs:
+  - *id025
+  id: discourtes_c5a5f46d656f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Discourtesy
 - entry: ಔಷಧದ ದುರುಪಯೋಗ
   defs:
   - entry: Drug abuse
-    type: n
-  id: drugabuse_26977421f987
+    type: Noun
+  id: drugabuse_30a18259a783
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Drug abuse
-- entry: ಕಾರ್ಯ / ಕೆಲಸ ಹಂಚಿಕೆ ಪುಸ್ತಕ
+- entry: ಕಾರ್ಯ
   defs:
-  - entry: Duty allocation register
-    type: n
-  id: dutyalloca_03b6f7d77c47
+  - &id026
+    entry: Duty allocation register
+    type: Noun
+  id: dutyalloca_52425b0b601b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Duty allocation register
+- entry: ಕೆಲಸ ಹಂಚಿಕೆ ಪುಸ್ತಕ
+  defs:
+  - *id026
+  id: dutyalloca_ffd3bd10f334
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Duty allocation register
 - entry: ತುರ್ತು ಸಂದರ್ಭಗಳು
   defs:
   - entry: Emergent circumstances
-    type: n
-  id: emergentci_cdab65ea92a6
+    type: Noun
+  id: emergentci_3b1c166706fc
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Emergent circumstances
 - entry: ಆವರಣದೊಳಗೆ ಪ್ರವೇಶ
   defs:
   - entry: Entry into premises
-    type: n
-  id: entryintop_fe3ef61fb35c
+    type: Noun
+  id: entryintop_0823addd879a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Entry into premises
-- entry: ಜಾರಿ, ಒತ್ತಾಯ, ಪ್ರವರ್ತನೆ
+- entry: ಜಾರಿ
   defs:
-  - entry: Enforcement
-    type: n
-  id: enforcemen_a1d9bb0e50a6
+  - &id027
+    entry: Enforcement
+    type: Noun
+  id: enforcemen_469c37ce0cda
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Enforcement
+- entry: ಒತ್ತಾಯ
+  defs:
+  - *id027
+  id: enforcemen_c6e57ca35596
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Enforcement
+- entry: ಪ್ರವರ್ತನೆ
+  defs:
+  - *id027
+  id: enforcemen_002234e1d836
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Enforcement
 - entry: ವಿಚಾರಣೆ
   defs:
   - entry: Enquiry
-    type: n
-  id: enquiry_8f150cd56776
+    type: Noun
+  id: enquiry_f5d54b28ed61
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Enquiry
 - entry: ನಿರ್ವಾಹಕರ ಸಾಧನ ಸಾಮಗ್ರಿಗಳು
   defs:
   - entry: Equipments of Conductors
-    type: n
-  id: equipments_d31cfb1da02b
+    type: Noun
+  id: equipments_ab8b2f74e59f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Equipments of Conductors
 - entry: ಅಳಿಸುವುದು
   defs:
   - entry: Erasing
-    type: n
-  id: erasing_946e34e4a34f
+    type: Noun
+  id: erasing_bf64bdb13553
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Erasing
-- entry: ಬೆರಳೊತ್ತು, ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ಸ್
+- entry: ಬೆರಳೊತ್ತು
   defs:
-  - entry: Finger prints
-    type: n
-  id: fingerprin_9826196bb32b
+  - &id028
+    entry: Finger prints
+    type: Noun
+  id: fingerprin_be26060bc229
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Finger prints
+- entry: ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ಸ್
+  defs:
+  - *id028
+  id: fingerprin_ba03ec1ae693
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Finger prints
 - entry: ಜವಾಬ್ದಾರಿಯನ್ನುನಿಗದಿಪಡಿಸುವುದು
   defs:
   - entry: Fixing responsibility
-    type: n
-  id: fixingresp_854405580b0d
+    type: Noun
+  id: fixingresp_8735d937c0ea
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Fixing responsibility
 - entry: ಅಗ್ನಿಶಾಮಕ ಸಲಕರಣೆಗಳು
   defs:
   - entry: Fire fighting equipments
-    type: n
-  id: firefighti_56660ed97de8
+    type: Noun
+  id: firefighti_fafc67507290
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Fire fighting equipments
 - entry: ಅಗ್ನಿಶಾಮಕ
   defs:
   - entry: Fire extinguisher
-    type: n
-  id: fireexting_5a5dca2f75e1
+    type: Noun
+  id: fireexting_3fbd097e09e6
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Fire extinguisher
 - entry: ಅಗ್ನಿ ಮುನ್ನೆಚ್ಚರಿಕೆ
   defs:
   - entry: Fire pre-cautions
-    type: n
-  id: fireprecau_037c5380ea29
+    type: Noun
+  id: fireprecau_f1c1c4b6c579
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Fire pre-cautions
 - entry: ಕೆಲಸದ ವೇಳೆಯನ್ನು ನಿಗದಿಪಡಿಸುವುದು
   defs:
   - entry: Fixation of duty hours
-    type: n
-  id: fixationof_405e346e6de6
+    type: Noun
+  id: fixationof_1ebaf1d8e8ae
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Fixation of duty hours
-- entry: ರಚಿಸುವುದು, ರೂಪಿಸುವುದು
+- entry: ರಚಿಸುವುದು
   defs:
-  - entry: Formation
-    type: n
-  id: formation_84fca047c4dd
+  - &id029
+    entry: Formation
+    type: Noun
+  id: formation_eb0eb2649488
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Formation
+- entry: ರೂಪಿಸುವುದು
+  defs:
+  - *id029
+  id: formation_3c00f7da57ac
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Formation
 - entry: ಔಪಚಾರಿಕತೆಗಳು
   defs:
   - entry: Formalities
-    type: n
-  id: formalitie_82ef78d9e2b0
+    type: Noun
+  id: formalitie_0d0560a3ea6e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Formalities
 - entry: ಇಂಧನ ಗುಮಾಸ್ತ
   defs:
   - entry: Fuel clerk
-    type: n
-  id: fuelclerk_80c0971fce1b
+    type: Noun
+  id: fuelclerk_edc1c0e5ca49
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Fuel clerk
-- entry: ಗೇಟ್‌ ಪ್ರಕ್ರಿಯೆ / ಪ್ರೊಸೀಜರ್
+- entry: ಗೇಟ್‌ ಪ್ರಕ್ರಿಯೆ
   defs:
-  - entry: Gate procedure
-    type: n
-  id: gateproced_bcd9cfbc2de1
+  - &id030
+    entry: Gate procedure
+    type: Noun
+  id: gateproced_d1b19638b372
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Gate procedure
+- entry: ಪ್ರೊಸೀಜರ್
+  defs:
+  - *id030
+  id: gateproced_36d5716f9353
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Gate procedure
 - entry: ಮಾರ್ಗದರ್ಶಿ ಸೂತ್ರಗಳು
   defs:
   - entry: Guidelines
-    type: n
-  id: guidelines_f0371d370f22
+    type: Noun
+  id: guidelines_1fb34fc109f5
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Guidelines
-- entry: ಈವರೆಗೆ, ಇಲ್ಲಿಯವರೆಗೆ
+- entry: ಈವರೆಗೆ
   defs:
-  - entry: Hitherto
-    type: n
-  id: hitherto_efe9321bc796
+  - &id031
+    entry: Hitherto
+    type: Noun
+  id: hitherto_768b91a7e5dc
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Hitherto
-- entry: ಬಿಡಿ ವ್ಯಾಪಾರಿಗಳು, ತಿರುಗು ವ್ಯಾಪಾರಿ, ಕೋರಿಸೆಟ್ಟಿ
+- entry: ಇಲ್ಲಿಯವರೆಗೆ
   defs:
-  - entry: Hawkers
-    type: n
-  id: hawkers_2c410c674026
+  - *id031
+  id: hitherto_f0d5c0a2f3ca
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Hitherto
+- entry: ಬಿಡಿ ವ್ಯಾಪಾರಿಗಳು
+  defs:
+  - &id032
+    entry: Hawkers
+    type: Noun
+  id: hawkers_4ccfcebc02a3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Hawkers
-- entry: ಹೆಚ್‌ಎಸ್‌ಡಿ ಸಂಗ್ರಹ/ ದಾಸ್ತಾನು
+- entry: ತಿರುಗು ವ್ಯಾಪಾರಿ
   defs:
-  - entry: HSD storage
-    type: n
-  id: hsdstorage_449d1e30a66e
+  - *id032
+  id: hawkers_4927fa215688
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Hawkers
+- entry: ಕೋರಿಸೆಟ್ಟಿ
+  defs:
+  - *id032
+  id: hawkers_cdf4cd5f32fd
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Hawkers
+- entry: ಹೆಚ್‌ಎಸ್‌ಡಿ ಸಂಗ್ರಹ
+  defs:
+  - &id033
+    entry: HSD storage
+    type: Noun
+  id: hsdstorage_306439241d9c
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: HSD storage
+- entry: ದಾಸ್ತಾನು
+  defs:
+  - *id033
+  id: hsdstorage_58500d491d28
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: HSD storage
 - entry: ಅರೆವಾರ್ಷಿಕ ಸಮೀಕ್ಷೆ
   defs:
   - entry: Half yearly review
-    type: n
-  id: halfyearly_efb489e62ea0
+    type: Noun
+  id: halfyearly_db48fad23967
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Half yearly review
-- entry: ಅನುಷ್ಠಾನ, ಕಾರ್ಯಗತ ಗೊಳಿಸುವುದು
+- entry: ಅನುಷ್ಠಾನ
   defs:
-  - entry: Implementation
-    type: n
-  id: implementa_de495890fb75
+  - &id034
+    entry: Implementation
+    type: Noun
+  id: implementa_37e89b546d00
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Implementation
-- entry: ಬನಾವಟಿ ಪ್ರಕರಣ / ಮತ್ತೊಬ್ಬನಂತೆ ನಟಿಸುವ ಬಗೆಗಿನ ಪ್ರಕರಣ
+- entry: ಕಾರ್ಯಗತ ಗೊಳಿಸುವುದು
   defs:
-  - entry: Impersonation case
-    type: n
-  id: impersonat_af2dba09d527
+  - *id034
+  id: implementa_dcd64fdd212e
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Implementation
+- entry: ಬನಾವಟಿ ಪ್ರಕರಣ
+  defs:
+  - &id035
+    entry: Impersonation case
+    type: Noun
+  id: impersonat_cb9f73e0c461
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Impersonation case
-- entry: ಅಡ್ಡಿಪಡಿಸಿದ / ನಿರೋಧಿತ / ಪ್ರತಿಬಂಧಿಸಿದ
+- entry: ಮತ್ತೊಬ್ಬನಂತೆ ನಟಿಸುವ ಬಗೆಗಿನ ಪ್ರಕರಣ
   defs:
-  - entry: Intercepted
-    type: n
-  id: intercepte_777b61623bfe
+  - *id035
+  id: impersonat_ae24f322c4a9
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Impersonation case
+- entry: ಅಡ್ಡಿಪಡಿಸಿದ
+  defs:
+  - &id036
+    entry: Intercepted
+    type: Noun
+  id: intercepte_946704ad54cc
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Intercepted
+- entry: ನಿರೋಧಿತ
+  defs:
+  - *id036
+  id: intercepte_643c1e7c2616
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Intercepted
+- entry: ಪ್ರತಿಬಂಧಿಸಿದ
+  defs:
+  - *id036
+  id: intercepte_3720ed953589
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Intercepted
 - entry: ಪರಿ ಪ್ರಶ್ನಿಸುವುದು
   defs:
   - entry: Interrogation
-    type: n
-  id: interrogat_8168dd518fdc
+    type: Noun
+  id: interrogat_738225975dd9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Interrogation
-- entry: ತನಿಖೆಗಾರನ / ಪರಿಶೀಲನಾಧಿಕಾರಿಯ ಸಿಬ್ಬಂದಿ
+- entry: ತನಿಖೆಗಾರನ
   defs:
-  - entry: Inspectorial staff
-    type: n
-  - entry: Inspectorial staff
-    type: n
-  id: inspectori_5e438ab2af60
+  - &id037
+    entry: Inspectorial staff
+    type: Noun
+  id: inspectori_aab0b86ffaf9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Inspectorial staff
-- entry: ಗುಪ್ತಚರ್ಯೆ, ಬುದ್ಧಿಶಕ್ತಿ ಸುದ್ದಿ, ವರ್ತಮಾನ,ಮಾಹಿತಿ
+- entry: ಪರಿಶೀಲನಾಧಿಕಾರಿಯ ಸಿಬ್ಬಂದಿ
   defs:
-  - entry: Intelligence
-    type: n
-  id: intelligen_fb4ac3cf4947
+  - *id037
+  id: inspectori_96602c75a281
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Inspectorial staff
+- entry: ಗುಪ್ತಚರ್ಯೆ
+  defs:
+  - &id038
+    entry: Intelligence
+    type: Noun
+  id: intelligen_31783e0fac47
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Intelligence
+- entry: ಬುದ್ಧಿಶಕ್ತಿ ಸುದ್ದಿ
+  defs:
+  - *id038
+  id: intelligen_09201fb0c286
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Intelligence
+- entry: ವರ್ತಮಾನ
+  defs:
+  - *id038
+  id: intelligen_e90623c41017
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Intelligence
+- entry: ಮಾಹಿತಿ
+  defs:
+  - *id038
+  id: intelligen_9c4a426f9f73
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Intelligence
 - entry: ಕೈಗಾರಿಕಾ ವಿಮಾ ಪಾಸು
   defs:
   - entry: Industrial truce pass
-    type: n
-  id: industrial_3547b959dbed
+    type: Noun
+  id: industrial_e6b8e1fbe2ec
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Industrial truce pass
-- entry: ವೇಷಾಂತರ ತಾಳಿ, ಅಜ್ಞಾತ ವೇಷದ, ಅಜ್ಞಾತ ವೇಷಧಾರಿ, ಛದ್ಮ ವೇಷಧಾರಿ
+- entry: ವೇಷಾಂತರ ತಾಳಿ
   defs:
-  - entry: Incognito
-    type: n
-  id: incognito_6241cace76cb
+  - &id039
+    entry: Incognito
+    type: Noun
+  id: incognito_61551c008bf9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Incognito
-- entry: ಪ್ರತ್ಯೇಕ / ಬೇರ್ಪಡಿಸಿದ ಸ್ಥಳಗಳು
+- entry: ಅಜ್ಞಾತ ವೇಷದ
   defs:
-  - entry: Isolated places
-    type: n
-  id: isolatedpl_52d4285f57d9
+  - *id039
+  id: incognito_f1f92c342720
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Incognito
+- entry: ಅಜ್ಞಾತ ವೇಷಧಾರಿ
+  defs:
+  - *id039
+  id: incognito_902db1fee61b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Incognito
+- entry: ಛದ್ಮ ವೇಷಧಾರಿ
+  defs:
+  - *id039
+  id: incognito_1cbc64c01c02
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Incognito
+- entry: ತನಿಖೆಗಾರನ
+  defs:
+  - &id040
+    entry: Inspectorial staff
+    type: Noun
+  id: inspectori_89ede3b96c1b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Inspectorial staff
+- entry: ಪರಿಶೀಲನಾಧಿಕಾರಿಯ ಸಿಬ್ಬಂದಿ
+  defs:
+  - *id040
+  id: inspectori_8f57dc7962ae
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Inspectorial staff
+- entry: ಪ್ರತ್ಯೇಕ
+  defs:
+  - &id041
+    entry: Isolated places
+    type: Noun
+  id: isolatedpl_2193bc8f48c8
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Isolated places
+- entry: ಬೇರ್ಪಡಿಸಿದ ಸ್ಥಳಗಳು
+  defs:
+  - *id041
+  id: isolatedpl_0196fa884656
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Isolated places
 - entry: ಕ್ರಮದೋಷವುಳ್ಳ ಕಾರ್ಯ
   defs:
   - entry: Irregular function
-    type: n
-  id: irregularf_e0893499b305
+    type: Noun
+  id: irregularf_c23ad9e68a19
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Irregular function
-- entry: ಹಸ್ತಕ್ಷೇಪ, ಮಧ್ಯೆ ಬರು, ಕೈ ಹಾಕು, ಅಡ್ಡಿ ಬರು, ಆಂತಕವನ್ನುಂಟುಮಾಡು
+- entry: ಹಸ್ತಕ್ಷೇಪ
   defs:
-  - entry: Interference
-    type: n
-  id: interferen_0642edd98ba5
+  - &id042
+    entry: Interference
+    type: Noun
+  id: interferen_af3d4a14b0bd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Interference
-- entry: ಕರ್ತವ್ಯ, ಅಧಿಕಾರ, ಪದಧಾರಿ
+- entry: ಮಧ್ಯೆ ಬರು
   defs:
-  - entry: Incumbent
-    type: n
-  id: incumbent_7d84d44ed88d
+  - *id042
+  id: interferen_443186ed8d05
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Interference
+- entry: ಕೈ ಹಾಕು
+  defs:
+  - *id042
+  id: interferen_1ae573c0d9c7
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Interference
+- entry: ಅಡ್ಡಿ ಬರು
+  defs:
+  - *id042
+  id: interferen_0247c1f05ac0
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Interference
+- entry: ಆಂತಕವನ್ನುಂಟುಮಾಡು
+  defs:
+  - *id042
+  id: interferen_6977ab7f8c5c
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Interference
+- entry: ಕರ್ತವ್ಯ
+  defs:
+  - &id043
+    entry: Incumbent
+    type: Noun
+  id: incumbent_9d2181eea788
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Incumbent
+- entry: ಅಧಿಕಾರ
+  defs:
+  - *id043
+  id: incumbent_18de4e18d7eb
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Incumbent
+- entry: ಪದಧಾರಿ
+  defs:
+  - *id043
+  id: incumbent_7847aa771f0c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Incumbent
 - entry: ಅಸಮರ್ಥತೆ
   defs:
   - entry: Inefficiency
-    type: n
-  id: inefficien_cddd9a27067f
+    type: Noun
+  id: inefficien_2e0b0bdfb81e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Inefficiency
-- entry: ಸ್ಥಾಪನೆ, ಅಳವಡಿಸುವುದು, ಸ್ಥಾವರ
+- entry: ಅವಿಧೇಯತೆ
   defs:
-  - entry: Installation
-    type: n
-  id: installati_fe07c487bc7a
+  - entry: Insubordination
+    type: Noun
+  id: insubordin_bb97dd74de19
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Insubordination
+- entry: ಸ್ಥಾಪನೆ
+  defs:
+  - &id044
+    entry: Installation
+    type: Noun
+  id: installati_744087b60ae8
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Installation
+- entry: ಅಳವಡಿಸುವುದು
+  defs:
+  - *id044
+  id: installati_e2425e199bcd
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Installation
+- entry: ಸ್ಥಾವರ
+  defs:
+  - *id044
+  id: installati_59cf0f97dc78
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Installation
 - entry: ವೈಯಕ್ತಿಕ
   defs:
   - entry: Individual
-    type: n
-  id: individual_0ef374fac088
+    type: Noun
+  id: individual_458fcb049bc9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Individual
 - entry: ತನಿಖೆ
   defs:
   - entry: Investigation
-    type: n
-  id: investigat_1e7e67db3695
+    type: Noun
+  id: investigat_e7b9d74940c8
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Investigation
 - entry: ತೀವ್ರ ವಿಶೇಷ ಮಾರ್ಗ ತನಿಖೆಮಾಡುವುದು
   defs:
   - entry: Intensive special line checking
-    type: n
-  id: intensives_74813a619e0d
+    type: Noun
+  id: intensives_1b3415b7b2de
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Intensive special line checking
 - entry: ಸಮರ್ಥನೆ
   defs:
   - entry: Justification
-    type: n
-  id: justificat_44d29dfd68e7
+    type: Noun
+  id: justificat_5756c74666f6
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Justification
 - entry: ವಿವೇಕಯುತ
   defs:
   - entry: Judicious
-    type: n
-  id: judicious_8b4fb12174f5
+    type: Noun
+  id: judicious_3f07f3daf8a6
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Judicious
 - entry: ಅಧಿಕಾರವ್ಯಾಪ್ತಿ
   defs:
   - entry: Jurisdiction
-    type: n
-  id: jurisdicti_b23fbbeef270
+    type: Noun
+  id: jurisdicti_656b96ab65c9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Jurisdiction
 - entry: ಕಾರ್ಮಿಕ ಚಟುವಟಿಕೆ
   defs:
   - entry: Labour activity
-    type: n
-  id: labouracti_495bc05d59ba
+    type: Noun
+  id: labouracti_92260d225b6e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Labour activity
 - entry: ಕಾರ್ಮಿಕ ಅಶಾಂತಿ
   defs:
   - entry: Labour unrest
-    type: n
-  id: labourunre_c7b0d6dedef6
+    type: Noun
+  id: labourunre_5d18b2651c88
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Labour unrest
 - entry: ಕಾರ್ಮಿಕ ಸಂಘ
   defs:
   - entry: Labour Union
-    type: n
-  id: labourunio_f9f9da308c49
+    type: Noun
+  id: labourunio_e02b7f30c404
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Labour Union
 - entry: ಕಾರ್ಯಸಾಧನೆಯಲ್ಲಿ ಅಲಕ್ಷ್ಯ
   defs:
   - entry: Laxity in the performance
-    type: n
-  id: laxityinth_53627e76494a
+    type: Noun
+  id: laxityinth_b6eb0769476d
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Laxity in the performance
 - entry: ಮಿಂಚಿನ ಮುಷ್ಕರ
   defs:
   - entry: Lightning strike
-    type: n
-  id: lightnings_6b883c26a669
+    type: Noun
+  id: lightnings_11e234ec2c05
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Lightning strike
-- entry: ಮದ್ಯ, ಸಾರಾಯಿ ಪಾನೀಯ
+- entry: ಮದ್ಯ
   defs:
-  - entry: Liquor
-    type: n
-  id: liquor_ab0df187027e
+  - &id045
+    entry: Liquor
+    type: Noun
+  id: liquor_98c17c792ac7
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Liquor
+- entry: ಸಾರಾಯಿ ಪಾನೀಯ
+  defs:
+  - *id045
+  id: liquor_31ffa99bd5a4
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Liquor
 - entry: ಮಾರ್ಗ ತನಿಖೆ ಕರ್ತವ್ಯ
   defs:
   - entry: Line checking duty
-    type: n
-  id: linechecki_0f82c5d63106
+    type: Noun
+  id: linechecki_85c19bcfe5af
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Line checking duty
 - entry: ಸ್ಥಳೀಯ ಅಗ್ನಿಶಾಮಕ ದಳ
   defs:
   - entry: Local fire brigade
-    type: n
-  id: localfireb_95eee721c18a
+    type: Noun
+  id: localfireb_9550037b4aae
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Local fire brigade
 - entry: ಕಡಿಮೆ ದರ
   defs:
   - entry: Lower denomination
-    type: n
-  id: lowerdenom_393566377a15
+    type: Noun
+  id: lowerdenom_bb585fec99f3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Lower denomination
 - entry: ಲಾಗ್‌ಶೀಟ್‌
   defs:
   - entry: Log sheet
-    type: n
-  id: logsheet_9fa7c5fbe2f4
+    type: Noun
+  id: logsheet_dfc3be9dc6af
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Log sheet
 - entry: ಸ್ವತ್ತಿನ ಹಾನಿ
   defs:
   - entry: Loss of Property
-    type: n
-  id: lossofprop_4a779cda0f6d
+    type: Noun
+  id: lossofprop_46fc85cbc45e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Loss of Property
 - entry: ಲಾಗ್‌ಬುಕ್‌
   defs:
   - entry: Log book
-    type: n
-  id: logbook_aaa40021f9c8
+    type: Noun
+  id: logbook_2a103eeccacb
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Log book
-- entry: ಮೃದುಚಾಲಕ, ಕೀಲೆಣ್ಣೆ
+- entry: ಮೃದುಚಾಲಕ
   defs:
-  - entry: Lubricants
-    type: n
-  id: lubricants_329797713eb9
+  - &id046
+    entry: Lubricants
+    type: Noun
+  id: lubricants_ecea477cc2d0
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Lubricants
+- entry: ಕೀಲೆಣ್ಣೆ
+  defs:
+  - *id046
+  id: lubricants_c355def8aec4
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Lubricants
 - entry: ನಿರ್ವಹಣೆ
   defs:
   - entry: Maintenance
-    type: n
-  id: maintenanc_8fe8da3b30a8
+    type: Noun
+  id: maintenanc_759669c01f3b
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Maintenance
 - entry: ಗುರುತು ಚಿಹ್ನೆಗಳು
   defs:
   - entry: Marks of Identification
-    type: n
-  id: marksofide_28196442944d
+    type: Noun
+  id: marksofide_510375b07323
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Marks of Identification
 - entry: ದುರಾಚರಣೆ
   defs:
   - entry: Malpractice
-    type: n
-  id: malpractic_e0cdb6077117
+    type: Noun
+  id: malpractic_a03e43b602dd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Malpractice
 - entry: ವೈದ್ಯಕೀಯ ಅನರ್ಹತೆ
   defs:
   - entry: Medically unfit
-    type: n
-  id: medicallyu_17ba047f7b14
+    type: Noun
+  id: medicallyu_cf513afbd4ee
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Medically unfit
-- entry: ಜನ ಮತ್ತು ಸರಕು ಸಾಮಾಗ್ರಿ / ಸಲಕರಣೆಗಳು
+- entry: ಜನ ಮತ್ತು ಸರಕು ಸಾಮಾಗ್ರಿ
   defs:
-  - entry: Men and material
-    type: n
-  id: menandmate_044a322296ea
+  - &id047
+    entry: Men and material
+    type: Noun
+  id: menandmate_3e234b45c6e7
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Men and material
+- entry: ಸಲಕರಣೆಗಳು
+  defs:
+  - *id047
+  id: menandmate_d0a5b6168423
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Men and material
 - entry: ದುರ್ನಡತೆ
   defs:
   - entry: Misconduct
-    type: n
-  id: misconduct_61884b38d630
+    type: Noun
+  id: misconduct_207e92dfaa6e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Misconduct
 - entry: ದುರ್ವರ್ತನೆಯ ಪ್ರಕರಣ
   defs:
   - entry: Misbehaviour case
-    type: n
-  id: misbehavio_1d647b985cd2
+    type: Noun
+  id: misbehavio_ca5aab24aa45
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Misbehaviour case
 - entry: ಹಣಕಾಸಿನ ವ್ಯವಹಾರ
   defs:
   - entry: Monetary transaction
-    type: n
-  id: monetarytr_d1010aebc3d7
+    type: Noun
+  id: monetarytr_079be30473e7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Monetary transaction
-- entry: ಕೂಡಕ್ಷರ, ಮೊನೊಗ್ರಾಮ್ಸ್‌
+- entry: ಕೂಡಕ್ಷರ
   defs:
-  - entry: Monograms
-    type: n
-  id: monograms_3c997125ce27
+  - &id048
+    entry: Monograms
+    type: Noun
+  id: monograms_2882c33015a0
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Monograms
+- entry: ಮೊನೊಗ್ರಾಮ್ಸ್‌
+  defs:
+  - *id048
+  id: monograms_64f61c1728c0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Monograms
 - entry: ಮಾಸಿಕ ವರದಿ
   defs:
   - entry: Monthly return
-    type: n
-  id: monthlyret_b8ea9ecd12bb
+    type: Noun
+  id: monthlyret_f85752e3aee4
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Monthly return
 - entry: ರಾಷ್ಟ್ರೀಕೃತ ಮಾರ್ಗಗಳು
   defs:
   - entry: Nationalised routes
-    type: n
-  id: nationalis_77c21b5a9d47
+    type: Noun
+  id: nationalis_a6a7a651aaa2
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Nationalised routes
 - entry: ನಿರೂಪಣಾ ವರದಿ
   defs:
   - entry: Narrative report
-    type: n
-  id: narrativer_897fa22d0056
+    type: Noun
+  id: narrativer_0bc73f223740
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Narrative report
 - entry: ರಾತ್ರಿ ಪಹರೆ
   defs:
   - entry: Night round
-    type: n
-  id: nightround_ba105367fa0f
+    type: Noun
+  id: nightround_007545850e6c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Night round
-- entry: ಹಾವಳಿ, ಉಪದ್ರವ
+- entry: ಹಾವಳಿ
   defs:
-  - entry: Nuisance
-    type: n
-  id: nuisance_32547d35f7d3
+  - &id049
+    entry: Nuisance
+    type: Noun
+  id: nuisance_c7aacf820a1e
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Nuisance
+- entry: ಉಪದ್ರವ
+  defs:
+  - *id049
+  id: nuisance_b443f238708c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Nuisance
 - entry: ಹೆಚ್ಚುವರಿ ಭತ್ಯೆ
   defs:
   - entry: Non-scheduled overtime
-    type: n
-  id: nonschedul_bea0ef98c9fc
+    type: Noun
+  id: nonschedul_f3ea0f675abd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Non-scheduled overtime
-- entry: ಅಡ್ಡಿ, ಅಡೆತಡೆ
+- entry: ಅಡ್ಡಿ
   defs:
-  - entry: Obstruction
-    type: n
-  id: obstructio_b22c7efdcb6b
+  - &id050
+    entry: Obstruction
+    type: Noun
+  id: obstructio_a8aba8d99216
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Obstruction
+- entry: ಅಡೆತಡೆ
+  defs:
+  - *id050
+  id: obstructio_105858c44d22
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Obstruction
 - entry: ನಿವಾರಿಸು
   defs:
   - entry: Obviate
-    type: n
-  id: obviate_80689e488956
+    type: Noun
+  id: obviate_33c27e2e50d5
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Obviate
 - entry: ಅಪರಾಧ ಜ್ಞಾಪನ
   defs:
   - entry: Offence memo
-    type: n
-  id: offencemem_dfd72569281f
+    type: Noun
+  id: offencemem_71ac3575892b
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Offence memo
 - entry: ಕಾರ್ಯಾಚರಣೆ ತೊಂದರೆಗಳು
   defs:
   - entry: Operational difficulties
-    type: n
-  id: operationa_a48d7a47ace3
+    type: Noun
+  id: operationa_434d5dd79eff
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Operational difficulties
 - entry: ಕಾರ್ಯಾಚರಣೆ ಘಟಕ
   defs:
   - entry: Operating unit
-    type: n
-  id: operatingu_b82d421e1654
+    type: Noun
+  id: operatingu_181b8e77142f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Operating unit
-- entry: ಗೇಟ್‌ಕಾರ್ಯಾಚರಣೆ / ನಿರ್ವಹಣೆ
+- entry: ಗೇಟ್‌ಕಾರ್ಯಾಚರಣೆ
   defs:
-  - entry: Operation of Gates
-    type: n
-  id: operationo_1162f3d83037
+  - &id051
+    entry: Operation of Gates
+    type: Noun
+  id: operationo_53ba40b142db
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Operation of Gates
-- entry: ಬಾಕಿ ಇರುವ / ಇತ್ಯರ್ಥವಾಗದಿರುವ ಮೊಕದ್ದಮೆ ಪ್ರಕರಣ
+- entry: ನಿರ್ವಹಣೆ
   defs:
-  - entry: Outstanding case
-    type: n
-  id: outstandin_99b000a3c3fa
+  - *id051
+  id: operationo_9e9fb39b3217
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Operation of Gates
+- entry: ಬಾಕಿ ಇರುವ
+  defs:
+  - &id052
+    entry: Outstanding case
+    type: Noun
+  id: outstandin_21b4754ad29f
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Outstanding case
+- entry: ಇತ್ಯರ್ಥವಾಗದಿರುವ ಮೊಕದ್ದಮೆ ಪ್ರಕರಣ
+  defs:
+  - *id052
+  id: outstandin_c4ca5833581c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Outstanding case
 - entry: ಸಿಬ್ಬಂದಿ
   defs:
   - entry: Personnel
-    type: n
-  id: personnel_7193feb63261
+    type: Noun
+  id: personnel_0b6fed547633
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Personnel
 - entry: ನಿಯತಕಾಲಿಕ ತನಿಖೆ
   defs:
   - entry: Periodical check
-    type: n
-  id: periodical_623ed7d2a46f
+    type: Noun
+  id: periodical_1fb53a82b31b
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Periodical check
 - entry: ದಂಡ ಸ್ವೀಕೃತಿ ಪುಸ್ತಕ
   defs:
   - entry: Penalty receipt book
-    type: n
-  id: penaltyrec_a6490fd059d5
+    type: Noun
+  id: penaltyrec_17f7ca0247fd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Penalty receipt book
 - entry: ದಂಡ ಗೋಷ್ವಾರೆ ಪುಸ್ತಕ
   defs:
   - entry: Penalty Abstract book
-    type: n
-  id: penaltyabs_72569fdc70ff
+    type: Noun
+  id: penaltyabs_cbfeca35db5a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Penalty Abstract book
 - entry: ಲೇಖನಿ ಮುಷ್ಕರ
   defs:
   - entry: Pendown strike
-    type: n
-  id: pendownstr_de6d1f03ae51
+    type: Noun
+  id: pendownstr_cfa4498f4ea0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Pendown strike
 - entry: ದಂಡ
   defs:
   - entry: Penalty
-    type: n
-  id: penalty_efe50732fdd4
+    type: Noun
+  id: penalty_4b476c335f58
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Penalty
 - entry: ವಾಸ್ತವ ದಾಸ್ತಾನು
   defs:
   - entry: Physical stock
-    type: n
-  id: physicalst_ac4a2df43c32
+    type: Noun
+  id: physicalst_0e13c3843ccb
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Physical stock
-- entry: ಕಳವು / ಕಳವು ಮಾಲು, ಸೋರಿಕೆ ಹಣ ಕದಿಯುವಿಕೆಯ ಪ್ರವೃತ್ತಿಯುಳ್ಳ ನಿರ್ವಾಹಕ
+- entry: ಕಳವು
   defs:
-  - entry: Pilferage Pilferage prone conductor
-    type: n
-  id: pilferagep_7faa3eb1376a
+  - &id053
+    entry: Pilferage Pilferage prone conductor
+    type: Noun
+  id: pilferagep_a587ec152161
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Pilferage Pilferage prone conductor
-- entry: ಘಟನೋತ್ತರ ಮಂಜೂರಾತಿ / ತರುವಾಯದ ಮಂಜೂರಾತಿ
+- entry: ಕಳವು ಮಾಲು
   defs:
-  - entry: Post-facto sanction
-    type: n
-  id: postfactos_b7190b579505
+  - *id053
+  id: pilferagep_748db448f849
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Pilferage Pilferage prone conductor
+- entry: ಸೋರಿಕೆ ಹಣ ಕದಿಯುವಿಕೆಯ ಪ್ರವೃತ್ತಿಯುಳ್ಳ ನಿರ್ವಾಹಕ
+  defs:
+  - *id053
+  id: pilferagep_f40e2f290619
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Pilferage Pilferage prone conductor
+- entry: ಘಟನೋತ್ತರ ಮಂಜೂರಾತಿ
+  defs:
+  - &id054
+    entry: Post-facto sanction
+    type: Noun
+  id: postfactos_d272c63a800c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Post-facto sanction
-- entry: ಒಮ್ಮೆ ನೀಡಿದ ಟಿಕಟ್‌ಗಳನ್ನು ಸ್ವಾಧೀನ ಪಡಿಸಿಕೊಳ್ಳುವುದು / ಹಿಂದಕ್ಕೆ ಪಡೆಯುವುದು
+- entry: ತರುವಾಯದ ಮಂಜೂರಾತಿ
   defs:
-  - entry: Possession of once issued tickets
-    type: n
-  id: possession_2844fc5cb432
+  - *id054
+  id: postfactos_5b56b47ce613
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Post-facto sanction
+- entry: ಒಮ್ಮೆ ನೀಡಿದ ಟಿಕಟ್‌ಗಳನ್ನು ಸ್ವಾಧೀನ ಪಡಿಸಿಕೊಳ್ಳುವುದು
+  defs:
+  - &id055
+    entry: Possession of once issued tickets
+    type: Noun
+  id: possession_8f7e51689c16
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Possession of once issued tickets
-- entry: ಕೊಡುಗೆ / ಹಾಜರುಪಡಿಸುವುದು
+- entry: ಹಿಂದಕ್ಕೆ ಪಡೆಯುವುದು
   defs:
-  - entry: Presentation
-    type: n
-  id: presentati_fcafcd99aec9
+  - *id055
+  id: possession_d34f24dedcf9
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Possession of once issued tickets
+- entry: ಕೊಡುಗೆ
+  defs:
+  - &id056
+    entry: Presentation
+    type: Noun
+  id: presentati_60e318e30de6
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Presentation
-- entry: ಪ್ರತಿಬಂಧಕ / ನಿವಾರಕ ಕ್ರಮಗಳು
+- entry: ಹಾಜರುಪಡಿಸುವುದು
   defs:
-  - entry: Preventive measures
-    type: n
-  id: preventive_42f9d9692f3f
+  - *id056
+  id: presentati_f74182286f83
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Presentation
+- entry: ಪ್ರತಿಬಂಧಕ
+  defs:
+  - &id057
+    entry: Preventive measures
+    type: Noun
+  id: preventive_252c128ff620
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Preventive measures
+- entry: ನಿವಾರಕ ಕ್ರಮಗಳು
+  defs:
+  - *id057
+  id: preventive_dd3f6abda26a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Preventive measures
 - entry: ಪೂರ್ವಾರ್ಹತೆ ಟೆಂಡರ್‌
   defs:
   - entry: Pre-qualification tender
-    type: n
-  id: prequalifi_85e9c88a43bc
+    type: Noun
+  id: prequalifi_ccf6019cb4d8
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Pre-qualification tender
 - entry: ತ್ವರಿತ ವಿಲೇವಾರಿ
   defs:
   - entry: Prompt disposal
-    type: n
-  id: promptdisp_3b2573e2dd84
+    type: Noun
+  id: promptdisp_0abdc043850b
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Prompt disposal
 - entry: ಮುನ್ನೆಚ್ಚರಿಕೆ
   defs:
   - entry: Pre-cautionary
-    type: n
-  id: precaution_25c3f89fe444
+    type: Noun
+  id: precaution_490a882942dd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Pre-cautionary
 - entry: ಕಾನೂನು ಕ್ರಮಜರುಗಿಸುವುದು
   defs:
   - entry: Prosecution
-    type: n
-  id: prosecutio_90bd0aed0751
+    type: Noun
+  id: prosecutio_95b5bf5d7e9c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Prosecution
 - entry: ಯುಕ್ತ ಭದ್ರತಾ ಕ್ರಮಗಳು
   defs:
   - entry: Proper security measures
-    type: n
-  id: propersecu_b3ef803d7efc
+    type: Noun
+  id: propersecu_c93e0b25f654
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Proper security measures
-- entry: ಕಾನೂನು ಕ್ರಮಜರುಗಿಸಲಾದ / ವಿಚಾರಣೆ
+- entry: ಕಾನೂನು ಕ್ರಮಜರುಗಿಸಲಾದ
   defs:
-  - entry: Prosecuted
-    type: n
-  id: prosecuted_33796f151fd9
+  - &id058
+    entry: Prosecuted
+    type: Noun
+  id: prosecuted_e1d649bf77d7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Prosecuted
-- entry: ರಂಧ್ರ ಮಾಡು, ಪಂಚ್
+- entry: ವಿಚಾರಣೆ
   defs:
-  - entry: Punch
-    type: n
-  id: punch_9a8901260581
+  - *id058
+  id: prosecuted_2b3cfe78ecb2
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Prosecuted
+- entry: ರಂಧ್ರ ಮಾಡು
+  defs:
+  - &id059
+    entry: Punch
+    type: Noun
+  id: punch_60ebd2e0328c
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Punch
+- entry: ಪಂಚ್
+  defs:
+  - *id059
+  id: punch_7bdefc45de9d
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Punch
 - entry: ವ್ಯಾಪ್ತಿ
   defs:
   - entry: Purview
-    type: n
-  id: purview_f6f4299f920c
+    type: Noun
+  id: purview_ad8213293261
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Purview
 - entry: ಸಾರ್ವಜನಿಕ ದೂರುಗಳು
   defs:
   - entry: Public complaints
-    type: n
-  id: publiccomp_b0e377d5f566
+    type: Noun
+  id: publiccomp_db1ed3ecf418
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Public complaints
-- entry: ತ್ರೈಮಾಸಿಕ ಪುನರವಲೋಕನ / ಪುನಃ ಪರಿಶೀಲನೆ ಮಾಡುವುದು
+- entry: ತ್ರೈಮಾಸಿಕ ಪುನರವಲೋಕನ
   defs:
-  - entry: Quarterly review
-    type: n
-  id: quarterlyr_e0d76b7d4a3e
+  - &id060
+    entry: Quarterly review
+    type: Noun
+  id: quarterlyr_1347b01e6e08
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Quarterly review
+- entry: ಪುನಃ ಪರಿಶೀಲನೆ ಮಾಡುವುದು
+  defs:
+  - *id060
+  id: quarterlyr_e811cae9ba0f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Quarterly review
 - entry: ರಸ್ತೆ ತಡೆ ಚಳುವಳಿ
   defs:
   - entry: Rastha rokho agitation
-    type: n
-  id: rastharokh_89d08d279451
+    type: Noun
+  id: rastharokh_517023f4c2f9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Rastha rokho agitation
 - entry: ಸಂಬಂಧಪಟ್ಟ ವಿವರ
   defs:
   - entry: Relevent details
-    type: n
-  id: releventde_890d54ea24a1
+    type: Noun
+  id: releventde_f781559ddeb0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Relevent details
 - entry: ಪ್ರದೇಶ
   defs:
   - entry: Region
-    type: n
-  id: region_e2c0c4146902
+    type: Noun
+  id: region_adaac777b1ae
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Region
 - entry: ಪರಿಹಾರ ಕ್ರಮಗಳು
   defs:
   - entry: Remedial measures
-    type: n
-  id: remedialme_6c645e03c0ce
+    type: Noun
+  id: remedialme_7c97c51a8098
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Remedial measures
 - entry: ಮಾರ್ಗದಿಂದ ಮರಳಿ ಬರುವುದು
   defs:
   - entry: Return from line
-    type: n
-  id: returnfrom_112d361e860d
+    type: Noun
+  id: returnfrom_5dea42654d14
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Return from line
 - entry: ಜವಾಬ್ದಾರಿ
   defs:
   - entry: Responsibility
-    type: n
-  id: responsibi_29e95164daf5
+    type: Noun
+  id: responsibi_26d1127ef098
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Responsibility
 - entry: ಪುನಸ್ಸಂಘಟನೆ
   defs:
   - entry: Re-organisation
-    type: n
-  id: reorganisa_cc3fe58a7c23
+    type: Noun
+  id: reorganisa_ee4bbdc25302
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Re-organisation
-- entry: ಮರುನೀಡಿಕೆ / ಪುನಃ ಕೊಡುವುದು
+- entry: ಮರುನೀಡಿಕೆ
   defs:
-  - entry: Re-issue
-    type: n
-  id: reissue_513e9f5120f5
+  - &id061
+    entry: Re-issue
+    type: Noun
+  id: reissue_4cdd0f933ff3
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Re-issue
+- entry: ಪುನಃ ಕೊಡುವುದು
+  defs:
+  - *id061
+  id: reissue_1a6006dee06f
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Re-issue
 - entry: ಬಸ್‌ನ ಛಾವಣಿ
   defs:
   - entry: Roof of the bus
-    type: n
-  id: roofoftheb_a1c4c7705970
+    type: Noun
+  id: roofoftheb_65c6d8009856
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Roof of the bus
 - entry: ಅಸಭ್ಯ ವರ್ತನೆ
   defs:
   - entry: Rude behavior
-    type: n
-  id: rudebehavi_5b7353f6fe21
+    type: Noun
+  id: rudebehavi_64bcd3a73787
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Rude behavior
-- entry: ನಿಗದಿಪಡಿಸಿದ / ಅಧಿಕ ಕಾಲಿಕ ಹೆಚ್ಚುವರಿ ಭತ್ಯೆ
+- entry: ನಿಗದಿಪಡಿಸಿದ
   defs:
-  - entry: Scheduled overtime wages
-    type: n
-  id: scheduledo_053137b72d73
+  - &id062
+    entry: Scheduled overtime wages
+    type: Noun
+  id: scheduledo_550c41696556
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Scheduled overtime wages
+- entry: ಅಧಿಕ ಕಾಲಿಕ ಹೆಚ್ಚುವರಿ ಭತ್ಯೆ
+  defs:
+  - *id062
+  id: scheduledo_787d2066cae3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Scheduled overtime wages
 - entry: ಮಾರ್ಗಪತ್ರಗಳ ಪರಿಶೀಲನೆ
   defs:
   - entry: Scrutiny of way bills
-    type: n
-  id: scrutinyof_a871bb21a11a
+    type: Noun
+  id: scrutinyof_78025ab34d87
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Scrutiny of way bills
-- entry: ಕಟ್ಟುನಿಟ್ಟಾದ, ಅತಿ ಎಚ್ಚರಿಕೆಯ
+- entry: ಕಟ್ಟುನಿಟ್ಟಾದ
   defs:
-  - entry: Scrupulous
-    type: n
-  id: scrupulous_6d956d9462a9
+  - &id063
+    entry: Scrupulous
+    type: Noun
+  id: scrupulous_afd6140973cf
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Scrupulous
-- entry: ಅನುಸೂಚಿವಾರು / ನಿಗದಿತ ಕಾಲದ ಪ್ರಕಾರ
+- entry: ಅತಿ ಎಚ್ಚರಿಕೆಯ
   defs:
-  - entry: Schedulewise
-    type: n
-  id: schedulewi_11c0b970f4e2
+  - *id063
+  id: scrupulous_d2daa2382806
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Scrupulous
+- entry: ಅನುಸೂಚಿವಾರು
+  defs:
+  - &id064
+    entry: Schedulewise
+    type: Noun
+  id: schedulewi_199dca27060b
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Schedulewise
+- entry: ನಿಗದಿತ ಕಾಲದ ಪ್ರಕಾರ
+  defs:
+  - *id064
+  id: schedulewi_7bfc2062df96
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Schedulewise
 - entry: ಜೈಲು ಶಿಕ್ಷೆಗೆಗುರಿಯಾದ
   defs:
   - entry: Sentenced to Jail
-    type: n
-  id: sentencedt_75c184eef444
+    type: Noun
+  id: sentencedt_2f2498d41458
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Sentenced to Jail
-- entry: ಕಠಿಣ / ತೀವ್ರ ಕ್ರಮ
+- entry: ಕಠಿಣ
   defs:
-  - entry: Severe action
-    type: n
-  id: severeacti_bed24b808b8f
+  - &id065
+    entry: Severe action
+    type: Noun
+  id: severeacti_7eb117ca96f9
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Severe action
+- entry: ತೀವ್ರ ಕ್ರಮ
+  defs:
+  - *id065
+  id: severeacti_07dcebe82952
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Severe action
 - entry: ಅನುಕ್ರಮ
   defs:
   - entry: Sequence
-    type: n
-  id: sequence_50b188bed087
+    type: Noun
+  id: sequence_6adf319edd26
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Sequence
 - entry: ಷೋಲ್ಡರ್‌ ಬ್ಯಾಡ್ಜ್
   defs:
   - entry: Shoulder badge
-    type: n
-  id: shoulderba_92263d383aca
+    type: Noun
+  id: shoulderba_c5999cfdfcdb
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Shoulder badge
 - entry: ಪಾಳಿ ಕೆಲಸ
   defs:
   - entry: Shift duty
-    type: n
-  id: shiftduty_4096a2d94da9
+    type: Noun
+  id: shiftduty_eb63d6f252f1
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Shift duty
 - entry: ಕರಡು ನೀಲಿ ನಕ್ಷೆ
   defs:
   - entry: Sketch blue print
-    type: n
-  id: sketchblue_4e6e8fa8ee19
+    type: Noun
+  id: sketchblue_59176c12ecf9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Sketch blue print
 - entry: ಸಂಚಾರ ಒತ್ತಡ ಇಲ್ಲದ ಅವಧಿ
   defs:
   - entry: Slack season
-    type: n
-  id: slackseaso_719058c2c38b
+    type: Noun
+  id: slackseaso_b69b90a69145
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Slack season
 - entry: ಡೀಸಲ್‌ನ ಕಳ್ಳಸಾಗಣೆ
   defs:
   - entry: Smuggling of Diesel
-    type: n
-  id: smugglingo_164a59d646a5
+    type: Noun
+  id: smugglingo_942451fd55e4
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Smuggling of Diesel
-- entry: ಹೊರಚೆಲ್ಲುವುದು / ಸುರಿಯುವುದು
+- entry: ಹೊರಚೆಲ್ಲುವುದು
   defs:
-  - entry: Spillage
-    type: n
-  id: spillage_d8167f45e3d2
+  - &id066
+    entry: Spillage
+    type: Noun
+  id: spillage_caab360ce6b7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Spillage
-- entry: ವಿಶೇಷ ದಳ / ತಂಡ
+- entry: ಸುರಿಯುವುದು
   defs:
-  - entry: Special squad
-    type: n
-  id: specialsqu_cf8f928b595c
+  - *id066
+  id: spillage_ca6fb780cfbe
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Spillage
+- entry: ವಿಶೇಷ ದಳ
+  defs:
+  - &id067
+    entry: Special squad
+    type: Noun
+  id: specialsqu_30dc2dbb72c1
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Special squad
-- entry: ಖೋಟಾ / ಮೋಸದ / ಬನಾವಟ್ಟಿನ ಸಾಮಗ್ರಿಗಳು
+- entry: ತಂಡ
   defs:
-  - entry: Spurious materials
-    type: n
-  id: spuriousma_5be8b881d7be
+  - *id067
+  id: specialsqu_bb8cbbd876e0
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Special squad
+- entry: ಖೋಟಾ
+  defs:
+  - &id068
+    entry: Spurious materials
+    type: Noun
+  id: spuriousma_6552ee30a004
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Spurious materials
-- entry: ಕ್ರಮಬದ್ದ ಏರ್ಪಾಟು ಮಾಡುವುದು / ಏಕರೂಪಗೊಳಿಸುವುದು, ಸರಿಪಡಿಸುವುದು, ಸಮಗ್ರ ಬದಲಾವಣೆ
+- entry: ಮೋಸದ
   defs:
-  - entry: Stream lining
-    type: n
-  id: streamlini_de96e513ebcc
+  - *id068
+  id: spuriousma_ffd7880eda92
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Spurious materials
+- entry: ಬನಾವಟ್ಟಿನ ಸಾಮಗ್ರಿಗಳು
+  defs:
+  - *id068
+  id: spuriousma_90400a837116
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Spurious materials
+- entry: ಕ್ರಮಬದ್ದ ಏರ್ಪಾಟು ಮಾಡುವುದು
+  defs:
+  - &id069
+    entry: Stream lining
+    type: Noun
+  id: streamlini_5a957210de41
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Stream lining
+- entry: ಏಕರೂಪಗೊಳಿಸುವುದು
+  defs:
+  - *id069
+  id: streamlini_1b43e8f5cf70
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Stream lining
+- entry: ಸರಿಪಡಿಸುವುದು
+  defs:
+  - *id069
+  id: streamlini_8a9a5f67bb75
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Stream lining
+- entry: ಸಮಗ್ರ ಬದಲಾವಣೆ
+  defs:
+  - *id069
+  id: streamlini_b0c0ea9e8a71
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Stream lining
 - entry: ಹಂತ ನಮೂದುಗಳು
   defs:
   - entry: Stage entries
-    type: n
-  id: stageentri_d23dc2daaaa0
+    type: Noun
+  id: stageentri_a5fea2ed0345
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Stage entries
-- entry: ವಾಹನಗಳು ಕೈಗಾವಲು / ಹೆಚ್ಚಿನ ಚಕ್ರ / ಸ್ಟೆಪ್ನಿ
+- entry: ವಾಹನಗಳು ಕೈಗಾವಲು
   defs:
-  - entry: Stepney of vehicles
-    type: n
-  id: stepneyofv_c7c71a406c9d
+  - &id070
+    entry: Stepney of vehicles
+    type: Noun
+  id: stepneyofv_6da31b70545e
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Stepney of vehicles
+- entry: ಹೆಚ್ಚಿನ ಚಕ್ರ
+  defs:
+  - *id070
+  id: stepneyofv_ff35afdc1a40
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Stepney of vehicles
+- entry: ಸ್ಟೆಪ್ನಿ
+  defs:
+  - *id070
+  id: stepneyofv_80799d99fda7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Stepney of vehicles
 - entry: ಹಂತ
   defs:
   - entry: Stage
-    type: n
-  id: stage_e8f4a1df38a7
+    type: Noun
+  id: stage_d1c0914fd142
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Stage
 - entry: ಮುಂಬರುವ ತಿಂಗಳು
   defs:
   - entry: Succeeding month
-    type: n
-  id: succeeding_184f1fca6ecb
+    type: Noun
+  id: succeeding_877af066cb37
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Succeeding month
-- entry: ಅನಿರೀಕ್ಷಿತ ತನಿಖೆ, ದಿಢೀರ್‌ ತಪಾಸಣೆ
+- entry: ಅನಿರೀಕ್ಷಿತ ತನಿಖೆ
   defs:
-  - entry: Surprise check
-    type: n
-  id: surprisech_2878bd0670f5
+  - &id071
+    entry: Surprise check
+    type: Noun
+  id: surprisech_eb61af200754
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Surprise check
+- entry: ದಿಢೀರ್‌ ತಪಾಸಣೆ
+  defs:
+  - *id071
+  id: surprisech_df8ecdfec253
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Surprise check
 - entry: ವಿಧ್ವಂಸಕ ಚಟುವಟಿಕೆಗಳು
   defs:
   - entry: Subversive activities
-    type: n
-  id: subversive_c978cb6c38ed
+    type: Noun
+  id: subversive_c195970a9fb2
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Subversive activities
 - entry: ಮೇಲ್ವಿಚಾರಕ ಸಿಬ್ಬಂದಿ
   defs:
   - entry: Supervisory staff
-    type: n
-  id: supervisor_08474a2eaa03
+    type: Noun
+  id: supervisor_ae6fcbe6bca1
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Supervisory staff
 - entry: ಪೂರಕ
   defs:
   - entry: Supplementary
-    type: n
-  id: supplement_c9a43a6ac816
+    type: Noun
+  id: supplement_6d7fd68fbcd8
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Supplementary
-- entry: ಅಕ್ರಮವಾಗಿ ತಿದ್ದುವುದು / ಸಾಕ್ಷ್ಯವನ್ನು ಕೆಡಿಸುವುದು
+- entry: ಅಕ್ರಮವಾಗಿ ತಿದ್ದುವುದು
   defs:
-  - entry: Tampering
-    type: n
-  id: tampering_7e8060594f7a
+  - &id072
+    entry: Tampering
+    type: Noun
+  id: tampering_074c249b987a
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Tampering
+- entry: ಸಾಕ್ಷ್ಯವನ್ನು ಕೆಡಿಸುವುದು
+  defs:
+  - *id072
+  id: tampering_48f377f65e4e
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Tampering
 - entry: ಟೆಂಡರ್‌ ಹಾಗೂ ಹರಾಜು
   defs:
   - entry: Tender cum Auction
-    type: n
-  id: tendercuma_6c1df5412e96
+    type: Noun
+  id: tendercuma_f12c2c04f9e9
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Tender cum Auction
-- entry: ಸಾಕ್ಷ್ಯ ನೀಡುವುದು / ಒದಗಿಸುವುದು
+- entry: ಸಾಕ್ಷ್ಯ ನೀಡುವುದು
   defs:
-  - entry: Tendering of evidence
-    type: n
-  id: tenderingo_79b1e28ec2e3
+  - &id073
+    entry: Tendering of evidence
+    type: Noun
+  id: tenderingo_8cd78c9f73a7
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Tendering of evidence
+- entry: ಒದಗಿಸುವುದು
+  defs:
+  - *id073
+  id: tenderingo_6a9df3b944c8
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Tendering of evidence
 - entry: ಹೆಬ್ಬೆರಳಿನ ಗುರುತು
   defs:
   - entry: Thumb impression
-    type: n
-  id: thumbimpre_b1f176f59253
+    type: Noun
+  id: thumbimpre_819c6c686fd0
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Thumb impression
 - entry: ಕಳವು ಪ್ರಕರಣ
   defs:
   - entry: Theft case
-    type: n
-  id: theftcase_2c50bbf4214c
+    type: Noun
+  id: theftcase_a28c8439a453
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Theft case
 - entry: ದರಗಳಿಗೆ ಅನುಗುಣವಾಗಿರುವ ಟಿಕೆಟ್‌ಗಳು
   defs:
   - entry: Tickets corresponding to the fares
-    type: n
-  id: ticketscor_8d9a97f2b9fb
+    type: Noun
+  id: ticketscor_46b8aead4e21
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Tickets corresponding to the fares
-- entry: ಟಿಕೇಟು ರಹಿತ ಪ್ರಯಾಣ, ಟಿಕೆಟ್‌ ಇಲ್ಲದೆ ಪ್ರಯಾಣ
+- entry: ಟಿಕೇಟು ರಹಿತ ಪ್ರಯಾಣ
   defs:
-  - entry: Ticketless travel
-    type: n
-  id: ticketless_8e5a165fc2d4
+  - &id074
+    entry: Ticketless travel
+    type: Noun
+  id: ticketless_5ef0b161f1d9
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Ticketless travel
+- entry: ಟಿಕೆಟ್‌ ಇಲ್ಲದೆ ಪ್ರಯಾಣ
+  defs:
+  - *id074
+  id: ticketless_a7324d1fcd24
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Ticketless travel
 - entry: ಬಂದು ಸೇರಿದ ಸಮಯ
   defs:
   - entry: Time alighted
-    type: n
-  id: timealight_743670f5c246
+    type: Noun
+  id: timealight_7c9e0f451296
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Time alighted
 - entry: ಅತಿಕ್ರಮವಾಗಿ ಪ್ರವೇಶಿಸುವುದು
   defs:
   - entry: Tress passing
-    type: n
-  id: tresspassi_01c2913c5bf1
+    type: Noun
+  id: tresspassi_9318822db7fc
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Tress passing
-- entry: ಸಂಚಾರ ಕ್ರಮದೋಷ / ಕ್ರಮಬಾಹಿರ
+- entry: ಸಂಚಾರ ಕ್ರಮದೋಷ
   defs:
-  - entry: Traffic irregularities
-    type: n
-  id: trafficirr_80d20198d3f5
+  - &id075
+    entry: Traffic irregularities
+    type: Noun
+  id: trafficirr_1247ce879f00
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Traffic irregularities
+- entry: ಕ್ರಮಬಾಹಿರ
+  defs:
+  - *id075
+  id: trafficirr_d3b375cab6b8
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Traffic irregularities
 - entry: ಸುತ್ತುವಳಿ ಪ್ರಯಾಣದ ಪ್ರಕಾರ
   defs:
   - entry: Trip wise
-    type: n
-  id: tripwise_bc68fc81f533
+    type: Noun
+  id: tripwise_e6939cf4e238
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Trip wise
 - entry: ಸುತ್ತುವಳಿ ಚೀಟಿ
   defs:
   - entry: Trip sheet
-    type: n
-  id: tripsheet_4cf2e5eb6edf
+    type: Noun
+  id: tripsheet_d0d0a4535168
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Trip sheet
 - entry: ವ್ಯವಹಾರ
   defs:
   - entry: Transactions
-    type: n
-  id: transactio_a246d3b33a73
+    type: Noun
+  id: transactio_781c5e4be4e3
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Transactions
 - entry: ಪ್ರಯಾಣ ಭತ್ಯೆ
   defs:
   - entry: Travelling Allowance
-    type: n
-  id: travelling_2003a8eb7b24
+    type: Noun
+  id: travelling_53367c1adca6
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Travelling Allowance
-- entry: ಯೋಗ್ಯವಲ್ಲದ, ಅನುಚಿತ
+- entry: ಯೋಗ್ಯವಲ್ಲದ
   defs:
-  - entry: Unbecoming
-    type: n
-  id: unbecoming_5f2f1e4e58fb
+  - &id076
+    entry: Unbecoming
+    type: Noun
+  id: unbecoming_8411142f9279
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Unbecoming
+- entry: ಅನುಚಿತ
+  defs:
+  - *id076
+  id: unbecoming_92dd812f52ca
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Unbecoming
 - entry: ಅನಧಿಕೃತವಾಗಿ ಒಯ್ಯುವುದು
   defs:
   - entry: Un-authorised carrying
-    type: n
-  id: unauthoris_da456acdbbd1
+    type: Noun
+  id: unauthoris_78dea924f300
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Un-authorised carrying
-- entry: ಯೂನಿಟ್‌ಗಳು, ಘಟಕಗಳು
+- entry: ಯೂನಿಟ್‌ಗಳು
   defs:
-  - entry: Units
-    type: n
-  id: units_479defc67b84
+  - &id077
+    entry: Units
+    type: Noun
+  id: units_d7cad3de925a
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Units
-- entry: ಅನಪೇಕ್ಷಿತ / ಅಹಿತಕರ ಶಕ್ತಿಗಳು / ವಿಷಯಗಳು
+- entry: ಘಟಕಗಳು
   defs:
-  - entry: Undesirable elements
-    type: n
-  id: undesirabl_d75b93c15b0c
+  - *id077
+  id: units_6e9568684d90
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Units
+- entry: ಅನಪೇಕ್ಷಿತ
+  defs:
+  - &id078
+    entry: Undesirable elements
+    type: Noun
+  id: undesirabl_bc321c30db17
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Undesirable elements
+- entry: ಅಹಿತಕರ ಶಕ್ತಿಗಳು
+  defs:
+  - *id078
+  id: undesirabl_a46c1e7d39fe
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Undesirable elements
+- entry: ವಿಷಯಗಳು
+  defs:
+  - *id078
+  id: undesirabl_64ad1e1d3cbd
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Undesirable elements
 - entry: ಅನಧಿಕೃತ
   defs:
   - entry: Un-authorised
-    type: n
-  id: unauthoris_09f7a4f32c30
+    type: Noun
+  id: unauthoris_0f45a8bcb67c
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Un-authorised
 - entry: ಉಪಯೋಗಕ್ಕೆ ಬರದ ಬಾಬ್ತುಗಳು
   defs:
   - entry: Unserviceable items
-    type: n
-  id: unservicea_3305c0b8814b
+    type: Noun
+  id: unservicea_17f060bd49f4
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Unserviceable items
 - entry: ಅನಾರೋಗ್ಯಕರ ಚಟುವಟಿಕೆಗಳು
   defs:
   - entry: Unhealthy activities
-    type: n
-  id: unhealthya_671f1c5c2f60
+    type: Noun
+  id: unhealthya_d9fa962d9175
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Unhealthy activities
-- entry: ಪ್ರಮುಖ ಸಂಸ್ಥೆ / ಸಿಬ್ಬಂದಿ
+- entry: ಪ್ರಮುಖ ಸಂಸ್ಥೆ
   defs:
-  - entry: Vital establishment
-    type: n
-  id: vitalestab_f5c3cc42a7dd
+  - &id079
+    entry: Vital establishment
+    type: Noun
+  id: vitalestab_cb3b973b8971
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Vital establishment
-- entry: ವಾರದ ಪೆರೇಡು, ಕವಾಯಿತು / ವಾರದ ಮೆರವಣಿಗೆ, ಪ್ರದರ್ಶನ
+- entry: ಸಿಬ್ಬಂದಿ
   defs:
-  - entry: Weekly parade
-    type: n
-  id: weeklypara_476b8f943768
+  - *id079
+  id: vitalestab_702f96b7407f
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Vital establishment
+- entry: ವಾರದ ಪೆರೇಡು
+  defs:
+  - &id080
+    entry: Weekly parade
+    type: Noun
+  id: weeklypara_35b3181ddb67
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Weekly parade
-- entry: ಮಾಡಿದ / ನಿರ್ವಹಿಸಿದ ಕಾರ್ಯದ ವಿವರಪಟ್ಟಿ
+- entry: ಕವಾಯಿತು
   defs:
-  - entry: Work done statement
-    type: n
-  id: workdonest_1ecf4ba857cb
+  - *id080
+  id: weeklypara_9d14a50fbd24
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Weekly parade
+- entry: ವಾರದ ಮೆರವಣಿಗೆ
+  defs:
+  - *id080
+  id: weeklypara_c3315eae0a43
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Weekly parade
+- entry: ಪ್ರದರ್ಶನ
+  defs:
+  - *id080
+  id: weeklypara_f6a25c8a47ab
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Weekly parade
+- entry: ಮಾಡಿದ
+  defs:
+  - &id081
+    entry: Work done statement
+    type: Noun
+  id: workdonest_94af3a83e530
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Work done statement
-- entry: ಕಾರ್ಯಾಗಾರದ ಯಂತ್ರ ಸಾಮಗ್ರಿ / ಯಂತ್ರ ಸಮುದಾಯ
+- entry: ನಿರ್ವಹಿಸಿದ ಕಾರ್ಯದ ವಿವರಪಟ್ಟಿ
   defs:
-  - entry: Workshop machinery
-    type: n
-  id: workshopma_263d2ce4e359
+  - *id081
+  id: workdonest_986b7a98e746
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Work done statement
+- entry: ಕಾರ್ಯಾಗಾರದ ಯಂತ್ರ ಸಾಮಗ್ರಿ
+  defs:
+  - &id082
+    entry: Workshop machinery
+    type: Noun
+  id: workshopma_5cac2651e342
+  source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
+  head: Workshop machinery
+- entry: ಯಂತ್ರ ಸಮುದಾಯ
+  defs:
+  - *id082
+  id: workshopma_b71f798e5db7
   source: ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-
   head: Workshop machinery

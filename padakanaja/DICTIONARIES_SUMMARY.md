@@ -5,7 +5,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 ## Overview
 
 - **Total Dictionaries**: 63
-- **Total Entries**: 218,997
+- **Total Entries**: 385,020
 - **From Languages**: English (60), Kannada (3)
 - **To Languages**: Kannada (59), Unknown (2), English (2)
 
@@ -13,99 +13,99 @@ This document provides an overview of all dictionaries in the padakanaja collect
 
 | Type | Count | Total Entries |
 |------|-------|---------------|
-| Technical/Terminological | 30 | 84,136 |
-| General | 29 | 120,883 |
-| General Dictionary | 4 | 13,978 |
+| Technical/Terminological | 30 | 116,748 |
+| General | 29 | 234,136 |
+| General Dictionary | 4 | 34,136 |
 
 ## Summary by Subject Focus
 
 | Subject | Count | Total Entries |
 |---------|-------|---------------|
-| Agriculture | 22 | 69,043 |
-| General | 18 | 63,273 |
-| Administrative | 6 | 8,731 |
-| General Dictionary | 3 | 4,600 |
-| Medical | 2 | 6,932 |
-| Forestry | 1 | 3,838 |
-| Science | 1 | 5,911 |
-| Entomology | 1 | 1,974 |
-| Botany | 1 | 38,178 |
+| Agriculture | 22 | 106,682 |
+| General | 18 | 106,202 |
+| Administrative | 6 | 14,644 |
+| General Dictionary | 3 | 5,297 |
+| Medical | 2 | 9,829 |
+| Forestry | 1 | 5,705 |
+| Science | 1 | 8,263 |
+| Entomology | 1 | 2,519 |
+| Botany | 1 | 87,231 |
 | Computer Science | 1 | 0 |
-| Treasury | 1 | 398 |
-| Biology | 1 | 9,378 |
-| Economic | 1 | 255 |
-| Pharmaceutical | 1 | 595 |
-| Revenue | 1 | 2,075 |
-| Printing | 1 | 716 |
-| Commerce | 1 | 3,100 |
+| Treasury | 1 | 694 |
+| Biology | 1 | 28,839 |
+| Economic | 1 | 278 |
+| Pharmaceutical | 1 | 801 |
+| Revenue | 1 | 3,161 |
+| Printing | 1 | 1,132 |
+| Commerce | 1 | 3,743 |
 
 ## Dictionary Details
 
 | # | Dictionary Name | Type (Subject Focus) | From→To | Entries | Additional Columns (≥10% filled, unique) |
 |---|----------------|---------------------|---------|---------|------------------------------------------|
-| 1 | `ಅರಣ್ಯಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Forestry) | English→Kannada | 3,838 | None |
-| 2 | `ಆಡಳಿತ ಮತ್ತು ತಾಂತ್ರಿಕ ಪದಕೋಶ - ಕರ್ನಾಟಕ ವಿದ್ಯಾವತಿ ಪ್ರಕಾಶನ` | General (Administrative) | English→Kannada | 4,142 | None |
-| 3 | `ಆಡಳಿತ ಮತ್ತು ತಾಂತ್ರಿಕ ಪದಕೋಶ - ಬೆಂಗಳೂರು ವಿದ್ಯಾವತಿ ಸರಕಾರ` | General (Administrative) | English→Kannada | 4,483 | None |
-| 4 | `ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ` | General (Administrative) | English→Kannada | 16 | None |
-| 5 | `ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 34 | None |
-| 6 | `ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್` | General (Administrative) | English→Kannada | 90 | None |
-| 7 | `ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ ವಿಜ್ಞಾನ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General (Science) | English→Kannada | 5,911 | None |
-| 8 | `ಇಂಗ್ಲೀಷ್ ಕನ್ನಡ ಔದ್ಯೋಗಿಕ ನಿಘಂಟು | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General Dictionary | English→Kannada | 4,590 | None |
-| 9 | `ಇಂಗ್ಲೀಷ್ ಕನ್ನಡ ಪದಕೋಶ - ಭಾರತ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ | ಇಂಗ್ಲೀಷ್` | General | English→Kannada | 4,259 | None |
-| 10 | `ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 176 | None |
-| 11 | `ಕೀಟಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological (Entomology) | English→Kannada | 1,974 | None |
-| 12 | `ಕನ್ನಡ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು - ಸಸ್ಯದಯ` | General (Botany) | English→Kannada | 38,178 | None |
-| 13 | `ಕನನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 97 | None |
+| 1 | `ಅರಣ್ಯಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Forestry) | English→Kannada | 5,705 | None |
+| 2 | `ಆಡಳಿತ ಮತ್ತು ತಾಂತ್ರಿಕ ಪದಕೋಶ - ಕರ್ನಾಟಕ ವಿದ್ಯಾವತಿ ಪ್ರಕಾಶನ` | General (Administrative) | English→Kannada | 7,062 | None |
+| 3 | `ಆಡಳಿತ ಮತ್ತು ತಾಂತ್ರಿಕ ಪದಕೋಶ - ಬೆಂಗಳೂರು ವಿದ್ಯಾವತಿ ಸರಕಾರ` | General (Administrative) | English→Kannada | 7,464 | None |
+| 4 | `ಆರ್ಥಿಕ ಲಕ್ಷ್ಯಕ ಪರಿಶೋಧನ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ` | General (Administrative) | English→Kannada | 27 | None |
+| 5 | `ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 36 | None |
+| 6 | `ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್` | General (Administrative) | English→Kannada | 91 | None |
+| 7 | `ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ ವಿಜ್ಞಾನ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General (Science) | English→Kannada | 8,263 | None |
+| 8 | `ಇಂಗ್ಲೀಷ್ ಕನ್ನಡ ಔದ್ಯೋಗಿಕ ನಿಘಂಟು | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General Dictionary | English→Kannada | 5,272 | None |
+| 9 | `ಇಂಗ್ಲೀಷ್ ಕನ್ನಡ ಪದಕೋಶ - ಭಾರತ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ | ಇಂಗ್ಲೀಷ್` | General | English→Kannada | 6,259 | None |
+| 10 | `ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 235 | None |
+| 11 | `ಕೀಟಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological (Entomology) | English→Kannada | 2,519 | None |
+| 12 | `ಕನ್ನಡ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು - ಸಸ್ಯದಯ` | General (Botany) | English→Kannada | 87,231 | None |
+| 13 | `ಕನನ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 216 | None |
 | 14 | `ಕನ್ನಡ-ಇಂಗ್ಲೀಷ್ ನಿಘಂಟು ಪದ ಯೋಜನೆ ಕನ್ನಡ - ಕನ್ನಡ ಪ್ರಕಾಶನ` | General Dictionary | Kannada→Unknown | 0 | Pronunciation (100.0%, 8133 unique), Grammar (100.0%) |
 | 15 | `ಕಂಪ್ಯೂಟರ್ ತಂತ್ರಜ್ಞಾನ ಪದವಿವರಣ ಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | General (Computer Science) | English→Unknown | 0 | Pronunciation (100.0%, 338 unique), Short Description (100.0%, 338 unique), Long Description (100.0%, 335 unique) |
-| 16 | `ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ.csv` | General (Agriculture) | English→Kannada | 178 | None |
-| 17 | `ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ.csv` | General (Agriculture) | English→Kannada | 100 | None |
-| 18 | `ಕೃಷಿ ಎಂಜಿನಿಯರಿಂಗ್ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Agriculture) | English→Kannada | 2,656 | None |
-| 19 | `ಕೃಷಿ ರಸಾಯನಶಾಸ್ತ್ರ ಶಬ್ದಾರ್ಥ ನಿರೂಪಣಾವಳಿ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | General (Agriculture) | English→Kannada | 643 | None |
-| 20 | `ಕೃಷಿ ವಿಜ್ಞಾನ ತಾಂತ್ರಿಕ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General (Agriculture) | English→Kannada | 19,766 | None |
-| 21 | `ಕೃಷಿ ವಿಜ್ಞಾನ ಪದಕೋಶ ಕೃಷಿ ವಿಜ್ಞಾನ ಗಳಸರ | ಇಂಗ್ಲೀಷ್` | General (Agriculture) | English→Kannada | 2,588 | None |
-| 22 | `ಕೃಷಿ ವಿಜ್ಞಾನ ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological (Agriculture) | English→Kannada | 20,115 | None |
-| 23 | `ಕೃಷಿ ಸಂಕೇತಮಜವಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological (Agriculture) | English→Kannada | 2,985 | None |
-| 24 | `ಕೃಷಿ ಸಸ್ಯಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Agriculture) | English→Kannada | 1,043 | None |
-| 25 | `ಖಜಾನೆ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು - ಕನ್ನಡ ಮತ್ತು ಸಂ...` | General (Treasury) | English→Kannada | 398 | None |
-| 26 | `ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ.csv` | General (Agriculture) | English→Kannada | 149 | None |
-| 27 | `ಜೀವಿ ಇಂಗ್ಲೀಷ್ - ಕನ್ನಡ ನಿಘಂಟು | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General Dictionary (Biology) | English→Kannada | 9,378 | None |
-| 28 | `ತಟಗಾರಿಕ ಇಲಾಖೆ ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological | English→Kannada | 10,021 | None |
-| 29 | `ತಟಗಾರಿಕ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological | English→Kannada | 3,927 | None |
+| 16 | `ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ.csv` | General (Agriculture) | English→Kannada | 392 | None |
+| 17 | `ಕರಮಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ.csv` | General (Agriculture) | English→Kannada | 149 | None |
+| 18 | `ಕೃಷಿ ಎಂಜಿನಿಯರಿಂಗ್ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Agriculture) | English→Kannada | 3,517 | None |
+| 19 | `ಕೃಷಿ ರಸಾಯನಶಾಸ್ತ್ರ ಶಬ್ದಾರ್ಥ ನಿರೂಪಣಾವಳಿ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | General (Agriculture) | English→Kannada | 1,254 | None |
+| 20 | `ಕೃಷಿ ವಿಜ್ಞಾನ ತಾಂತ್ರಿಕ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General (Agriculture) | English→Kannada | 30,062 | None |
+| 21 | `ಕೃಷಿ ವಿಜ್ಞಾನ ಪದಕೋಶ ಕೃಷಿ ವಿಜ್ಞಾನ ಗಳಸರ | ಇಂಗ್ಲೀಷ್` | General (Agriculture) | English→Kannada | 3,415 | None |
+| 22 | `ಕೃಷಿ ವಿಜ್ಞಾನ ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological (Agriculture) | English→Kannada | 30,681 | None |
+| 23 | `ಕೃಷಿ ಸಂಕೇತಮಜವಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological (Agriculture) | English→Kannada | 3,713 | None |
+| 24 | `ಕೃಷಿ ಸಸ್ಯಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Agriculture) | English→Kannada | 1,274 | None |
+| 25 | `ಖಜಾನೆ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು - ಕನ್ನಡ ಮತ್ತು ಸಂ...` | General (Treasury) | English→Kannada | 694 | None |
+| 26 | `ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ.csv` | General (Agriculture) | English→Kannada | 162 | None |
+| 27 | `ಜೀವಿ ಇಂಗ್ಲೀಷ್ - ಕನ್ನಡ ನಿಘಂಟು | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | General Dictionary (Biology) | English→Kannada | 28,839 | None |
+| 28 | `ತಟಗಾರಿಕ ಇಲಾಖೆ ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological | English→Kannada | 17,675 | None |
+| 29 | `ತಟಗಾರಿಕ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological | English→Kannada | 6,166 | None |
 | 30 | `ನವಕರನಟಕ_ಆಡಳತ_ಪದಕಶ_ಕನನಡ-ಇಗಲಷ-ಕನನಡ_ಪರಕ.csv` | General (Administrative) | Kannada→English | 0 | None |
 | 31 | `ನವಕರನಟಕ_ಆಡಳತ_ಪದಕಶ_ಕನನಡ-ಇಗಲಷ-ಕನನಡ_ಪರಕ_temp.csv` | General (Administrative) | Kannada→English | 0 | None |
-| 32 | `ಪತ್ರಿಕಾ ನಿಘಂಟು - ಎಲ್ ಗಡಪಪ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | General Dictionary | English→Kannada | 10 | Grammar (90.0%, 2 unique) |
-| 33 | `ಪತ್ರಿಕಾ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು - ಕರ್ನಾಟಕ` | General | English→Kannada | 17,460 | Grammar (77.6%) |
-| 34 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಅಗ್ನಿಶಾಮಕ ಸೇವೆಗಳ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological | English→Kannada | 1,067 | None |
-| 35 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಆರ್ಥಿಕ ಮತ್ತು ಸಂಖ್ಯಾಯಕ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological (Economic) | English→Kannada | 255 | None |
-| 36 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಆಹಾರ ಮತ್ತು ನಾಗರಿಕ ಪರಕ ನಿರ್ದೇಶ` | Technical/Terminological | English→Kannada | 10 | None |
-| 37 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಔಷಧ ನಿಯಂತ್ರಣ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Pharmaceutical) | English→Kannada | 595 | None |
-| 38 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕಗಾರಕ ಮತ್ತು ವಾಣಿಜ್ಯ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological | English→Kannada | 2,375 | None |
-| 39 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕರಗಹಗಳ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological | English→Kannada | 199 | None |
-| 40 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕರ್ನಾಟಕ ಲಕ್ಷ್ಯಸೇವಾ ಆಯೋಗ | ಇಂಗ್ಲೀಷ್-` | Technical/Terminological | English→Kannada | 1,563 | None |
-| 41 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕರಮಿಕ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Revenue) | English→Kannada | 2,075 | None |
-| 42 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕೃಷಿ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological (Agriculture) | English→Kannada | 8,337 | None |
-| 43 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಗಹರಕಷಕದಳ ಮತ್ತು ಪರರಕಷಣ ನಿರ್ದೇಶ` | Technical/Terminological (Agriculture) | English→Kannada | 599 | None |
-| 44 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological | English→Kannada | 10 | None |
-| 45 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ` | Technical/Terminological | English→Kannada | 10 | None |
-| 46 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಪತ್ರಗಾರ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ ಪ್ರಕಾಶಕ` | Technical/Terminological | English→Kannada | 1,982 | None |
-| 47 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಪಶುಸಂಗೋಪನ ಮತ್ತು ಪಶುವೈದ್ಯ ಇಲಾಖೆ` | Technical/Terminological (Medical) | English→Kannada | 804 | None |
-| 48 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಮುದ್ರಣ ಲೇಖನಸಮಗರ ಮತ್ತು ಪ್ರಕಟಣ` | Technical/Terminological (Printing) | English→Kannada | 716 | None |
-| 49 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ವಾಣಿಜ್ಯ ತರಗ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-` | Technical/Terminological | English→Kannada | 1,084 | None |
-| 50 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಸಣ್ಣ ಉಳಿತಾಯ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological | English→Kannada | 1,327 | None |
-| 51 | `ಪರಭಷಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ.csv` | Technical/Terminological (Agriculture) | English→Kannada | 278 | None |
-| 52 | `ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ.csv` | General (Agriculture) | English→Kannada | 21 | None |
-| 53 | `ಪಶುವೈದ್ಯಕೀಯ ಮತ್ತು ಪಶುಸಂಗೋಪನ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological (Medical) | English→Kannada | 6,128 | None |
-| 54 | `ಫೌಂಡೇಶನ್ ಅಡಮಿನಿಸ್ಟ್ರೇಟಿವ್ ಟರ್ಮಿನಾಲಜಿ | ಇಂಗ್ಲೀಷ್-` | General | English→Kannada | 4,606 | None |
-| 55 | `ವ್ಯಾಪಾರಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾ...` | Technical/Terminological (Commerce) | English→Kannada | 3,100 | None |
-| 56 | `ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-.csv` | General (Agriculture) | English→Kannada | 228 | None |
-| 57 | `ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 102 | None |
-| 58 | `ಮನಗಾರಿಕ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological | English→Kannada | 2,215 | None |
-| 59 | `ವಿಶ್ವವಿದ್ಯಾಲಯ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು -` | General | English→Kannada | 8,310 | None |
-| 60 | `ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_ಇಗಲಷ-ಕನನಡ__ಪರಕಶಕರ.csv` | General (Agriculture) | English→Kannada | 8,673 | None |
-| 61 | `ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 229 | None |
-| 62 | `ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ.csv` | General (Agriculture) | English→Kannada | 46 | None |
-| 63 | `ಹನಿಗಾರಿಕ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological | English→Kannada | 2,848 | None |
+| 32 | `ಪತ್ರಿಕಾ ನಿಘಂಟು - ಎಲ್ ಗಡಪಪ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | General Dictionary | English→Kannada | 25 | Grammar (90.0%, 2 unique) |
+| 33 | `ಪತ್ರಿಕಾ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು - ಕರ್ನಾಟಕ` | General | English→Kannada | 46,283 | Grammar (77.6%) |
+| 34 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಅಗ್ನಿಶಾಮಕ ಸೇವೆಗಳ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological | English→Kannada | 1,783 | None |
+| 35 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಆರ್ಥಿಕ ಮತ್ತು ಸಂಖ್ಯಾಯಕ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological (Economic) | English→Kannada | 278 | None |
+| 36 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಆಹಾರ ಮತ್ತು ನಾಗರಿಕ ಪರಕ ನಿರ್ದೇಶ` | Technical/Terminological | English→Kannada | 13 | None |
+| 37 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಔಷಧ ನಿಯಂತ್ರಣ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Pharmaceutical) | English→Kannada | 801 | None |
+| 38 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕಗಾರಕ ಮತ್ತು ವಾಣಿಜ್ಯ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological | English→Kannada | 0 | None |
+| 39 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕರಗಹಗಳ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological | English→Kannada | 321 | None |
+| 40 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕರ್ನಾಟಕ ಲಕ್ಷ್ಯಸೇವಾ ಆಯೋಗ | ಇಂಗ್ಲೀಷ್-` | Technical/Terminological | English→Kannada | 1,958 | None |
+| 41 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕರಮಿಕ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological (Revenue) | English→Kannada | 3,161 | None |
+| 42 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಕೃಷಿ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological (Agriculture) | English→Kannada | 11,669 | None |
+| 43 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಗಹರಕಷಕದಳ ಮತ್ತು ಪರರಕಷಣ ನಿರ್ದೇಶ` | Technical/Terminological (Agriculture) | English→Kannada | 1,014 | None |
+| 44 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological | English→Kannada | 13 | None |
+| 45 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ` | Technical/Terminological | English→Kannada | 19 | None |
+| 46 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಪತ್ರಗಾರ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ ಪ್ರಕಾಶಕ` | Technical/Terminological | English→Kannada | 0 | None |
+| 47 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಪಶುಸಂಗೋಪನ ಮತ್ತು ಪಶುವೈದ್ಯ ಇಲಾಖೆ` | Technical/Terminological (Medical) | English→Kannada | 981 | None |
+| 48 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಮುದ್ರಣ ಲೇಖನಸಮಗರ ಮತ್ತು ಪ್ರಕಟಣ` | Technical/Terminological (Printing) | English→Kannada | 1,132 | None |
+| 49 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ವಾಣಿಜ್ಯ ತರಗ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-` | Technical/Terminological | English→Kannada | 1,486 | None |
+| 50 | `ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಸಣ್ಣ ಉಳಿತಾಯ ಇಲಾಖೆ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ` | Technical/Terminological | English→Kannada | 1,530 | None |
+| 51 | `ಪರಭಷಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ.csv` | Technical/Terminological (Agriculture) | English→Kannada | 402 | None |
+| 52 | `ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ.csv` | General (Agriculture) | English→Kannada | 27 | None |
+| 53 | `ಪಶುವೈದ್ಯಕೀಯ ಮತ್ತು ಪಶುಸಂಗೋಪನ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್` | Technical/Terminological (Medical) | English→Kannada | 8,848 | None |
+| 54 | `ಫೌಂಡೇಶನ್ ಅಡಮಿನಿಸ್ಟ್ರೇಟಿವ್ ಟರ್ಮಿನಾಲಜಿ | ಇಂಗ್ಲೀಷ್-` | General | English→Kannada | 0 | None |
+| 55 | `ವ್ಯಾಪಾರಶಾಸ್ತ್ರ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾ...` | Technical/Terminological (Commerce) | English→Kannada | 3,743 | None |
+| 56 | `ಭದರತ_ಮತತ_ಜಗತ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-.csv` | General (Agriculture) | English→Kannada | 344 | None |
+| 57 | `ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 214 | None |
+| 58 | `ಮನಗಾರಿಕ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological | English→Kannada | 2,773 | None |
+| 59 | `ವಿಶ್ವವಿದ್ಯಾಲಯ ಪದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು -` | General | English→Kannada | 16,350 | None |
+| 60 | `ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_ಇಗಲಷ-ಕನನಡ__ಪರಕಶಕರ.csv` | General (Agriculture) | English→Kannada | 17,557 | None |
+| 61 | `ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ.csv` | General (Agriculture) | English→Kannada | 349 | None |
+| 62 | `ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ.csv` | General (Agriculture) | English→Kannada | 0 | None |
+| 63 | `ಹನಿಗಾರಿಕ ಪಾರಿಭಾಷಿಕ ಶಬ್ದಕೋಶ | ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ | ಪ್ರಕಾಶಕರು` | Technical/Terminological | English→Kannada | 3,573 | None |
 
 ## Detailed Metadata
 
@@ -115,7 +115,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Forestry
 - **Total Rows**: 4,030
-- **YAML Entries**: 3,838
+- **YAML Entries**: 5,705
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -128,7 +128,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Administrative
 - **Total Rows**: 4,181
-- **YAML Entries**: 4,142
+- **YAML Entries**: 7,062
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -141,7 +141,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Administrative
 - **Total Rows**: 4,538
-- **YAML Entries**: 4,483
+- **YAML Entries**: 7,464
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -154,7 +154,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Administrative
 - **Total Rows**: 16
-- **YAML Entries**: 16
+- **YAML Entries**: 27
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -167,7 +167,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 34
-- **YAML Entries**: 34
+- **YAML Entries**: 36
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -180,7 +180,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Administrative
 - **Total Rows**: 90
-- **YAML Entries**: 90
+- **YAML Entries**: 91
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -193,7 +193,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Science
 - **Total Rows**: 6,080
-- **YAML Entries**: 5,911
+- **YAML Entries**: 8,263
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -206,7 +206,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General Dictionary
 - **Subject Focus**: General Dictionary
 - **Total Rows**: 4,690
-- **YAML Entries**: 4,590
+- **YAML Entries**: 5,272
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -219,7 +219,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: General
 - **Total Rows**: 4,332
-- **YAML Entries**: 4,259
+- **YAML Entries**: 6,259
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -232,7 +232,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 177
-- **YAML Entries**: 176
+- **YAML Entries**: 235
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -245,7 +245,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Entomology
 - **Total Rows**: 1,992
-- **YAML Entries**: 1,974
+- **YAML Entries**: 2,519
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -258,7 +258,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Botany
 - **Total Rows**: 38,800
-- **YAML Entries**: 38,178
+- **YAML Entries**: 87,231
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -271,7 +271,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 97
-- **YAML Entries**: 97
+- **YAML Entries**: 216
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -314,7 +314,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 178
-- **YAML Entries**: 178
+- **YAML Entries**: 392
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -327,7 +327,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 100
-- **YAML Entries**: 100
+- **YAML Entries**: 149
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -340,7 +340,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 2,682
-- **YAML Entries**: 2,656
+- **YAML Entries**: 3,517
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -353,7 +353,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 643
-- **YAML Entries**: 643
+- **YAML Entries**: 1,254
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -366,7 +366,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 20,123
-- **YAML Entries**: 19,766
+- **YAML Entries**: 30,062
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -379,7 +379,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 2,606
-- **YAML Entries**: 2,588
+- **YAML Entries**: 3,415
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -392,7 +392,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 20,574
-- **YAML Entries**: 20,115
+- **YAML Entries**: 30,681
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -405,7 +405,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 3,017
-- **YAML Entries**: 2,985
+- **YAML Entries**: 3,713
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -418,7 +418,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 1,063
-- **YAML Entries**: 1,043
+- **YAML Entries**: 1,274
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -431,7 +431,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Treasury
 - **Total Rows**: 400
-- **YAML Entries**: 398
+- **YAML Entries**: 694
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -444,7 +444,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 149
-- **YAML Entries**: 149
+- **YAML Entries**: 162
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -457,7 +457,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General Dictionary
 - **Subject Focus**: Biology
 - **Total Rows**: 9,400
-- **YAML Entries**: 9,378
+- **YAML Entries**: 28,839
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -470,7 +470,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 10,507
-- **YAML Entries**: 10,021
+- **YAML Entries**: 17,675
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -483,7 +483,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 4,003
-- **YAML Entries**: 3,927
+- **YAML Entries**: 6,166
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -499,6 +499,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **YAML Entries**: 0
 - **From Language**: Kannada
 - **To Language**: English
+- **Error**: [Errno 32] Broken pipe
 - **Columns with Data (≥10% filled, non-junk)**:
   - English Meaning: 12,714 entries (100.0%), 11080 unique values
   - Kannada Meaning: 4,324 entries (34.0%), 4169 unique values
@@ -524,7 +525,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General Dictionary
 - **Subject Focus**: General Dictionary
 - **Total Rows**: 10
-- **YAML Entries**: 10
+- **YAML Entries**: 25
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -538,7 +539,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: General
 - **Total Rows**: 17,600
-- **YAML Entries**: 17,460
+- **YAML Entries**: 46,283
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -552,7 +553,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 1,070
-- **YAML Entries**: 1,067
+- **YAML Entries**: 1,783
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -565,7 +566,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Economic
 - **Total Rows**: 257
-- **YAML Entries**: 255
+- **YAML Entries**: 278
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -578,7 +579,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 10
-- **YAML Entries**: 10
+- **YAML Entries**: 13
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -591,7 +592,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Pharmaceutical
 - **Total Rows**: 600
-- **YAML Entries**: 595
+- **YAML Entries**: 801
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -604,9 +605,10 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 2,379
-- **YAML Entries**: 2,375
+- **YAML Entries**: 0
 - **From Language**: English
 - **To Language**: Kannada
+- **Error**: [Errno 32] Broken pipe
 - **Columns with Data (≥10% filled, non-junk)**:
   - English Word: 2,379 entries (100.0%), 2377 unique values
   - Kannada Meaning: 2,379 entries (100.0%), 2375 unique values
@@ -617,7 +619,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 200
-- **YAML Entries**: 199
+- **YAML Entries**: 321
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -630,7 +632,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 1,597
-- **YAML Entries**: 1,563
+- **YAML Entries**: 1,958
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -643,7 +645,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Revenue
 - **Total Rows**: 2,091
-- **YAML Entries**: 2,075
+- **YAML Entries**: 3,161
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -656,7 +658,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 8,707
-- **YAML Entries**: 8,337
+- **YAML Entries**: 11,669
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -669,7 +671,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 600
-- **YAML Entries**: 599
+- **YAML Entries**: 1,014
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -682,7 +684,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 10
-- **YAML Entries**: 10
+- **YAML Entries**: 13
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -695,7 +697,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 10
-- **YAML Entries**: 10
+- **YAML Entries**: 19
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -708,9 +710,10 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 2,010
-- **YAML Entries**: 1,982
+- **YAML Entries**: 0
 - **From Language**: English
 - **To Language**: Kannada
+- **Error**: [Errno 32] Broken pipe
 - **Columns with Data (≥10% filled, non-junk)**:
   - English Word: 2,010 entries (100.0%), 2006 unique values
   - Kannada Meaning: 2,010 entries (100.0%), 1982 unique values
@@ -721,7 +724,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Medical
 - **Total Rows**: 834
-- **YAML Entries**: 804
+- **YAML Entries**: 981
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -734,7 +737,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Printing
 - **Total Rows**: 721
-- **YAML Entries**: 716
+- **YAML Entries**: 1,132
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -747,7 +750,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 1,097
-- **YAML Entries**: 1,084
+- **YAML Entries**: 1,486
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -760,7 +763,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 1,333
-- **YAML Entries**: 1,327
+- **YAML Entries**: 1,530
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -773,7 +776,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Agriculture
 - **Total Rows**: 278
-- **YAML Entries**: 278
+- **YAML Entries**: 402
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -786,7 +789,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 21
-- **YAML Entries**: 21
+- **YAML Entries**: 27
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -799,7 +802,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Medical
 - **Total Rows**: 6,232
-- **YAML Entries**: 6,128
+- **YAML Entries**: 8,848
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -812,9 +815,10 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: General
 - **Total Rows**: 4,654
-- **YAML Entries**: 4,606
+- **YAML Entries**: 0
 - **From Language**: English
 - **To Language**: Kannada
+- **Error**: [Errno 32] Broken pipe
 - **Columns with Data (≥10% filled, non-junk)**:
   - English Word: 4,654 entries (100.0%), 4654 unique values
   - Kannada Meaning: 4,654 entries (100.0%), 4606 unique values
@@ -825,7 +829,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: Commerce
 - **Total Rows**: 3,148
-- **YAML Entries**: 3,100
+- **YAML Entries**: 3,743
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -838,7 +842,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 230
-- **YAML Entries**: 228
+- **YAML Entries**: 344
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -851,7 +855,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 102
-- **YAML Entries**: 102
+- **YAML Entries**: 214
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -864,7 +868,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 2,266
-- **YAML Entries**: 2,215
+- **YAML Entries**: 2,773
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -877,7 +881,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: General
 - **Total Rows**: 8,456
-- **YAML Entries**: 8,310
+- **YAML Entries**: 16,350
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -890,7 +894,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 8,774
-- **YAML Entries**: 8,673
+- **YAML Entries**: 17,557
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -903,7 +907,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 230
-- **YAML Entries**: 229
+- **YAML Entries**: 349
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
@@ -916,9 +920,10 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: General
 - **Subject Focus**: Agriculture
 - **Total Rows**: 46
-- **YAML Entries**: 46
+- **YAML Entries**: 0
 - **From Language**: English
 - **To Language**: Kannada
+- **Error**: [Errno 32] Broken pipe
 - **Columns with Data (≥10% filled, non-junk)**:
   - English Word: 46 entries (100.0%), 46 unique values
   - Kannada Meaning: 46 entries (100.0%), 46 unique values
@@ -929,7 +934,7 @@ This document provides an overview of all dictionaries in the padakanaja collect
 - **Type**: Technical/Terminological
 - **Subject Focus**: General
 - **Total Rows**: 2,880
-- **YAML Entries**: 2,848
+- **YAML Entries**: 3,573
 - **From Language**: English
 - **To Language**: Kannada
 - **Columns with Data (≥10% filled, non-junk)**:
