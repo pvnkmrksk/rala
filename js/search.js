@@ -2,6 +2,31 @@
 // search.js - Search functions: direct search, synonym search, highlighting
 // ============================================================================
 
+// Clean Kannada entry text - remove brackets, parentheses, and other non-text characters
+function cleanKannadaEntry(text) {
+    if (!text) return '';
+    // Remove brackets: [], (), {}, 【】, 「」, etc.
+    let cleaned = text.replace(/[\[\](){}【】「」〈〉《》『』〔〕［］（）｛｝]/g, '');
+    // Remove other common punctuation that shouldn't be in dictionary keys
+    cleaned = cleaned.replace(/[<>"']/g, '');
+    // Remove multiple spaces and trim
+    cleaned = cleaned.replace(/\s+/g, ' ').trim();
+    return cleaned;
+}
+
+// Count words in Kannada text (split by spaces)
+function countWords(text) {
+    if (!text) return 0;
+    const cleaned = cleanKannadaEntry(text);
+    const words = cleaned.split(/\s+/).filter(w => w.length > 0);
+    return words.length;
+}
+
+// Check if entry is a long phrase (>4 words)
+function isLongPhrase(text) {
+    return countWords(text) > 4;
+}
+
 async function getSynonyms(word) {
     try {
         // Get synonyms using Datamuse API
@@ -154,14 +179,23 @@ function searchDirect(query) {
             }
         }
         
-        // Sort by priority
+        // Sort by priority, then alphabetically, then by length (long phrases at bottom)
         results.sort((a, b) => {
             const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
             const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
             if (aPriority !== bPriority) {
                 return aPriority - bPriority;
             }
-            return a.kannada.localeCompare(b.kannada);
+            // Clean Kannada entries for comparison
+            const aKannada = cleanKannadaEntry(a.kannada);
+            const bKannada = cleanKannadaEntry(b.kannada);
+            const aIsLong = isLongPhrase(aKannada);
+            const bIsLong = isLongPhrase(bKannada);
+            // Long phrases go to bottom
+            if (aIsLong !== bIsLong) {
+                return aIsLong ? 1 : -1;
+            }
+            return aKannada.localeCompare(bKannada);
         });
         
         return results;
@@ -333,33 +367,28 @@ function searchDirect(query) {
             }
         }
         
-        // Sort each section by priority, then alphabetically
-        exactPhraseResults.sort((a, b) => {
+        // Sort each section by priority, then alphabetically, then by length (long phrases at bottom)
+        const sortWithLength = (a, b) => {
             const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
             const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
             if (aPriority !== bPriority) {
                 return aPriority - bPriority;
             }
-            return a.kannada.localeCompare(b.kannada);
-        });
+            // Clean Kannada entries for comparison
+            const aKannada = cleanKannadaEntry(a.kannada);
+            const bKannada = cleanKannadaEntry(b.kannada);
+            const aIsLong = isLongPhrase(aKannada);
+            const bIsLong = isLongPhrase(bKannada);
+            // Long phrases go to bottom
+            if (aIsLong !== bIsLong) {
+                return aIsLong ? 1 : -1;
+            }
+            return aKannada.localeCompare(bKannada);
+        };
         
-        allWordsResults.sort((a, b) => {
-            const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-            const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
-            if (aPriority !== bPriority) {
-                return aPriority - bPriority;
-            }
-            return a.kannada.localeCompare(b.kannada);
-        });
-        
-        anyWordResults.sort((a, b) => {
-            const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-            const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
-            if (aPriority !== bPriority) {
-                return aPriority - bPriority;
-            }
-            return a.kannada.localeCompare(b.kannada);
-        });
+        exactPhraseResults.sort(sortWithLength);
+        allWordsResults.sort(sortWithLength);
+        anyWordResults.sort(sortWithLength);
         
         // Combine results in priority order
         return [...exactPhraseResults, ...allWordsResults, ...anyWordResults];
@@ -380,7 +409,7 @@ function searchDirect(query) {
             }
         }
         
-        // Sort results: prioritize by position in definition
+        // Sort results: prioritize by position in definition, then alphabetically, then by length
         anyWordResults.sort((a, b) => {
             // Get priority for each result (using the matched word as search term)
             const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
@@ -391,8 +420,18 @@ function searchDirect(query) {
                 return aPriority - bPriority;
             }
             
-            // If same priority, sort alphabetically by Kannada word
-            return a.kannada.localeCompare(b.kannada);
+            // Clean Kannada entries for comparison
+            const aKannada = cleanKannadaEntry(a.kannada);
+            const bKannada = cleanKannadaEntry(b.kannada);
+            const aIsLong = isLongPhrase(aKannada);
+            const bIsLong = isLongPhrase(bKannada);
+            // Long phrases go to bottom
+            if (aIsLong !== bIsLong) {
+                return aIsLong ? 1 : -1;
+            }
+            
+            // If same priority and length category, sort alphabetically by Kannada word
+            return aKannada.localeCompare(bKannada);
         });
         
         return anyWordResults;
@@ -440,8 +479,18 @@ async function searchWithSynonyms(query) {
                 }
             }
             
-            // Sort alphabetically by Kannada word
-            results.sort((a, b) => a.kannada.localeCompare(b.kannada));
+            // Sort alphabetically by Kannada word, then by length (long phrases at bottom)
+            results.sort((a, b) => {
+                const aKannada = cleanKannadaEntry(a.kannada);
+                const bKannada = cleanKannadaEntry(b.kannada);
+                const aIsLong = isLongPhrase(aKannada);
+                const bIsLong = isLongPhrase(bKannada);
+                // Long phrases go to bottom
+                if (aIsLong !== bIsLong) {
+                    return aIsLong ? 1 : -1;
+                }
+                return aKannada.localeCompare(bKannada);
+            });
             return { results, synonymsUsed };
         }
         // If no synonyms for whole phrase, skip synonym search for multi-word
@@ -498,8 +547,18 @@ async function searchWithSynonyms(query) {
             return aPriority - bPriority;
         }
         
-        // If same priority, sort alphabetically by Kannada word
-        return a.kannada.localeCompare(b.kannada);
+        // Clean Kannada entries for comparison
+        const aKannada = cleanKannadaEntry(a.kannada);
+        const bKannada = cleanKannadaEntry(b.kannada);
+        const aIsLong = isLongPhrase(aKannada);
+        const bIsLong = isLongPhrase(bKannada);
+        // Long phrases go to bottom
+        if (aIsLong !== bIsLong) {
+            return aIsLong ? 1 : -1;
+        }
+        
+        // If same priority and length category, sort alphabetically by Kannada word
+        return aKannada.localeCompare(bKannada);
     });
     
     return { results, synonymsUsed };

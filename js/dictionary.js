@@ -37,6 +37,31 @@ async function loadDictionary() {
     await fetchAndCacheDictionary();
 }
 
+// Clean Kannada entry text - remove brackets, parentheses, and other non-text characters
+function cleanKannadaEntry(text) {
+    if (!text) return '';
+    // Remove brackets: [], (), {}, 【】, 「」, etc.
+    let cleaned = text.replace(/[\[\](){}【】「」〈〉《》『』〔〕［］（）｛｝]/g, '');
+    // Remove other common punctuation that shouldn't be in dictionary keys
+    cleaned = cleaned.replace(/[<>"']/g, '');
+    // Remove multiple spaces and trim
+    cleaned = cleaned.replace(/\s+/g, ' ').trim();
+    return cleaned;
+}
+
+// Count words in Kannada text (split by spaces)
+function countWords(text) {
+    if (!text) return 0;
+    const cleaned = cleanKannadaEntry(text);
+    const words = cleaned.split(/\s+/).filter(w => w.length > 0);
+    return words.length;
+}
+
+// Check if entry is a long phrase (>4 words)
+function isLongPhrase(text) {
+    return countWords(text) > 4;
+}
+
 // Normalize type field to full forms (e.g., "n" -> "Noun", "v" -> "Verb")
 function normalizeType(type) {
     if (!type) return 'Noun';
@@ -259,7 +284,7 @@ function addToReverseIndex(entries) {
                     reverseIndex.set(word, []);
                 }
                 reverseIndex.get(word).push({
-                    kannada: entry.entry,
+                    kannada: cleanKannadaEntry(entry.entry),
                     phone: entry.phone,
                     definition: def.entry,
                     type: normalizeType(def.type),
@@ -315,7 +340,7 @@ function buildReverseIndex() {
                     reverseIndex.set(word, []);
                 }
                 reverseIndex.get(word).push({
-                    kannada: entry.entry,
+                    kannada: cleanKannadaEntry(entry.entry),
                     phone: entry.phone,
                     definition: def.entry,
                     type: normalizeType(def.type),

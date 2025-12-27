@@ -2,6 +2,18 @@
 // ui.js - UI rendering functions: results display and result cards
 // ============================================================================
 
+// Clean Kannada entry text - remove brackets, parentheses, and other non-text characters
+function cleanKannadaEntry(text) {
+    if (!text) return '';
+    // Remove brackets: [], (), {}, 【】, 「」, etc.
+    let cleaned = text.replace(/[\[\](){}【】「」〈〉《》『』〔〕［］（）｛｝]/g, '');
+    // Remove other common punctuation that shouldn't be in dictionary keys
+    cleaned = cleaned.replace(/[<>"']/g, '');
+    // Remove multiple spaces and trim
+    cleaned = cleaned.replace(/\s+/g, ' ').trim();
+    return cleaned;
+}
+
 function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false) {
     let html = '';
     
@@ -259,7 +271,7 @@ function renderResultCard(result, query, isSynonym = false) {
                         </svg>
                     </button>
                 ` : ''}
-                <span>${result.kannada}</span>
+                <span>${cleanKannadaEntry(result.kannada)}</span>
                 ${sourceDisplay}
                 <button class="copy-button" id="${copyId}" onclick="copyKannadaWord('${copyId}', '${result.kannada.replace(/'/g, "\\'")}')" title="Copy Kannada word">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
