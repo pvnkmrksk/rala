@@ -8,8 +8,11 @@ import csv
 import sys
 import json
 from pathlib import Path
+import sys
+from pathlib import Path
+# Add parent directory to path to import from same directory
+sys.path.insert(0, str(Path(__file__).parent))
 from csv_to_yaml_parser import parse_csv_to_yaml, save_yaml
-# Note: csv_to_yaml_parser should be in the same directory or adjust import path
 from collections import defaultdict
 
 
