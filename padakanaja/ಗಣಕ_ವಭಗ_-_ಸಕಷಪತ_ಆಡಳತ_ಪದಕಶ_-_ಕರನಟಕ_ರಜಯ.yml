@@ -2,1042 +2,1042 @@
   defs:
   - entry: Add Bullets
     type: n
-  id: ಅ_ಶಸ_ಚಕಗಳನ_ನ__ಸ_ರ_ಸ__add_bullets_1
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: addbullets_b6f9ee5a858a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Add Bullets
 - entry: ವಿಳಾಸ
   defs:
   - entry: Address
     type: n
-  id: ವ_ಳ_ಸ_address_2
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: address_0b029c091b59
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Address
 - entry: ಸಾಲು ಹೊಂದಿಕೆ
   defs:
   - entry: Alignment
     type: n
-  id: ಸ_ಲ__ಹ__ದ_ಕ__alignment_3
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: alignment_fbd69a03a2df
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Alignment
 - entry: ಎಡಕ್ಕೆಹೊಂದಿಸು
   defs:
   - entry: Alingn left
     type: n
-  id: ಎಡಕ_ಕ_ಹ__ದ_ಸ__alingn_left_4
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: alingnleft_ba508d629de3
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Alingn left
 - entry: ಸಮುದ್ರ ನೀಲಿ
   defs:
   - entry: Aqua
     type: n
-  id: ಸಮ_ದ_ರ_ನ_ಲ__aqua_5
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: aqua_57018ff21543
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Aqua
 - entry: ಎಲ್ಲವನ್ನು ಜೋಡಿಸು
   defs:
   - entry: Arrange all
     type: n
-  id: ಎಲ_ಲವನ_ನ__ಜ_ಡ_ಸ__arrange_all_6
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: arrangeall_ccf16ba7ceac
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Arrange all
 - entry: ಲಾಂಛನ ಜೋಡಿಸು
   defs:
   - entry: Arrange icon
     type: n
-  id: ಲ__ಛನ_ಜ_ಡ_ಸ__arrange_icon_7
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: arrangeico_2b6bd357a8ea
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Arrange icon
 - entry: ಮೇಲೆ ಜೋಡಿಸು
   defs:
   - entry: Arrange top
     type: n
-  id: ಮ_ಲ__ಜ_ಡ_ಸ__arrange_top_8
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: arrangetop_25f9ac086d41
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Arrange top
 - entry: ಸ್ವಯಂ ಚಾಲಿತ
   defs:
   - entry: Automatic
     type: n
-  id: ಸ_ವಯ__ಚ_ಲ_ತ_automatic_9
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: automatic_1e615c5d1b28
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Automatic
 - entry: ಸ್ವಯಂ ಪದ ಆಯ್ಕೆ
   defs:
   - entry: Automatic Word Selection
     type: n
-  id: ಸ_ವಯ__ಪದ_ಆಯ_ಕ__automatic_word_selection_10
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: automaticw_3b20be0d3ad1
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Automatic Word Selection
 - entry: ಲಭ್ಯ ನಮೂನೆಗಳು
   defs:
   - entry: Available Formats
     type: n
-  id: ಲಭ_ಯ_ನಮ_ನ_ಗಳ__available_formats_11
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: availablef_2a969841a44e
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Available Formats
 - entry: ಹಿಂಭಾಗದ ಬಣ್ಣ
   defs:
   - entry: Background colour
     type: n
-  id: ಹ__ಭ_ಗದ_ಬಣ_ಣ_background_colour_12
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: background_ca45bb6fd7b8
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Background colour
 - entry: ಹಿಂಬದಿ ಜಾಗ
   defs:
   - entry: Back Space
     type: n
-  id: ಹ__ಬದ__ಜ_ಗ_back_space_13
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: backspace_bf9b59cab707
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Back Space
 - entry: ದ್ವಿ ಭಾಷೆ
   defs:
   - entry: Bilingual
     type: n
-  id: ದ_ವ__ಭ_ಷ__bilingual_14
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: bilingual_ac47ad3287f5
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Bilingual
 - entry: ಕಪ್ಪು
   defs:
   - entry: Black
     type: n
-  id: ಕಪ_ಪ__black_15
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: black_f0249822d404
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Black
 - entry: ನೀಲಿ
   defs:
   - entry: Blue
     type: n
-  id: ನ_ಲ__blue_16
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: blue_20fedde0fee6
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Blue
 - entry: ದಟ್ಟ
   defs:
   - entry: Bold
     type: n
-  id: ದಟ_ಟ_bold_17
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: bold_fa3ca26d4983
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Bold
 - entry: ದಟ್ಟ ಅಕ್ಷರ
   defs:
   - entry: Bold letter
     type: n
-  id: ದಟ_ಟ_ಅಕ_ಷರ_bold_letter_18
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: boldletter_4f7a4694a170
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Bold letter
 - entry: ಅಂಶಸೂಚಕ ಶೈಲಿ
   defs:
   - entry: Bullet Style
     type: n
-  id: ಅ_ಶಸ_ಚಕ_ಶ_ಲ__bullet_style_19
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: bulletstyl_de8ffc1e1fd1
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Bullet Style
 - entry: ರದ್ದು ಮಾಡು
   defs:
   - entry: Cancel
     type: n
-  id: ರದ_ದ__ಮ_ಡ__cancel_20
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: cancel_4d298bd7c175
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Cancel
 - entry: ಸೆಂಟಿಮೀಟರು
   defs:
   - entry: Centimeter
     type: n
-  id: ಸ__ಟ_ಮ_ಟರ__centimeter_21
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: centimeter_bbf78039ebba
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Centimeter
 - entry: ಕೀಲಿಪದ ಬದಲಿಸು
   defs:
   - entry: Change password
     type: n
-  id: ಕ_ಲ_ಪದ_ಬದಲ_ಸ__change_password_22
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: changepass_6acc2161a27e
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Change password
 - entry: ಮುಕ್ತಗೊಳಿಸು
   defs:
   - entry: Clear
     type: n
-  id: ಮ_ಕ_ತಗ_ಳ_ಸ__clear_23
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: clear_34ee168b4742
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Clear
 - entry: ಎಲ್ಲವನ್ನೂ ತೆಗೆದುಹಾಕು
   defs:
   - entry: Clear All
     type: n
-  id: ಎಲ_ಲವನ_ನ__ತ_ಗ_ದ_ಹ_ಕ__clear_all_24
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: clearall_348fd4575e32
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Clear All
 - entry: ಮುಚ್ಚು
   defs:
   - entry: Close
     type: n
-  id: ಮ_ಚ_ಚ__close_25
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: close_52c6e18cbba3
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Close
 - entry: ಬಣ್ಣಗಳು
   defs:
   - entry: Colour
     type: n
-  id: ಬಣ_ಣಗಳ__colour_26
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: colour_eaa220c73e4a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Colour
 - entry: ಹೊಸ ಅಂಚೆ ಸಿದ್ಧಪಡಿಸಿ
   defs:
   - entry: Compose new mail
     type: n
-  id: ಹ_ಸ_ಅ_ಚ__ಸ_ದ_ಧಪಡ_ಸ__compose_new_mail_27
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: composenew_d5ec83f8ae14
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Compose new mail
 - entry: ಖಚಿತಪಡಿಸು
   defs:
   - entry: Confirm
     type: n
-  id: ಖಚ_ತಪಡ_ಸ__confirm_28
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: confirm_2890b8dfc8e2
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Confirm
 - entry: ಹೊಸ ಕೀಲಿಪದ ಖಚಿತ ಪಡಿಸಿ
   defs:
   - entry: Confirm new password
     type: n
-  id: ಹ_ಸ_ಕ_ಲ_ಪದ_ಖಚ_ತ_ಪಡ_ಸ__confirm_new_password_29
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: confirmnew_c74df42f0604
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Confirm new password
 - entry: ಪ್ರತಿ
   defs:
   - entry: Copy
     type: n
-  id: ಪ_ರತ__copy_30
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: copy_4f5842af4c40
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Copy
 - entry: ಈಗಿನ ಕೀಲಿಪದ
   defs:
   - entry: Current password
     type: n
-  id: ಈಗ_ನ_ಕ_ಲ_ಪದ_current_password_31
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: currentpas_7b1b467c0b60
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Current password
 - entry: ಕತ್ತರಿಸು
   defs:
   - entry: Cut
     type: n
-  id: ಕತ_ತರ_ಸ__cut_32
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: cut_1b25a4c8ea47
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Cut
 - entry: ದಿನಾಂಕ ಮತ್ತು ಸಮಯ
   defs:
   - entry: Date and Time
     type: n
-  id: ದ_ನ__ಕ_ಮತ_ತ__ಸಮಯ_date_and_time_33
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: dateandtim_5d6713c4c471
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Date and Time
 - entry: ಪತ್ರದ ಗಾತ್ರ / ಪದ ಕುಗ್ಗಿಸುವುದು
   defs:
   - entry: Decrease the letter
     type: n
-  id: ಪತ_ರದ_ಗ_ತ_ರ___ಪದ_ಕ_ಗ_ಗ_ಸ_ವ_ದ__decrease_the_letter_
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: decreaseth_3b0773ec0c7b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Decrease the letter
 - entry: ಅಳಿಸು ತೆಗೆದುಹಾಕು
   defs:
   - entry: Delete
     type: n
-  id: ಅಳ_ಸ__ತ_ಗ_ದ_ಹ_ಕ__delete_35
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: delete_184e4d452cfd
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Delete
 - entry: ಆಯ್ದದ್ದನ್ನು ಅಳಿಸು / ತೆಗೆದುಹಾಕು
   defs:
   - entry: Delete selected
     type: n
-  id: ಆಯ_ದದ_ದನ_ನ__ಅಳ_ಸ____ತ_ಗ_ದ_ಹ_ಕ__delete_selected_36
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: deletesele_5d2ffb79e488
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Delete selected
 - entry: ಕ್ಷೇತ್ರ
   defs:
   - entry: Domain
     type: n
-  id: ಕ_ಷ_ತ_ರ_domain_37
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: domain_f961000159bc
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Domain
 - entry: ಸಂಪಾದನೆ
   defs:
   - entry: Edit
     type: n
-  id: ಸ_ಪ_ದನ__edit_38
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: edit_d1fd104194b1
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Edit
 - entry: ಅಂತ್ಯ, ಅಂತ
   defs:
   - entry: End
     type: n
-  id: ಅ_ತ_ಯ__ಅ_ತ_end_39
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: end_a4afc93e606a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: End
 - entry: ಅಭ್ಯಾಸ
   defs:
   - entry: Exercise
     type: n
-  id: ಅಭ_ಯ_ಸ_exercise_40
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: exercise_b91baf505631
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Exercise
 - entry: ಹಾಲಿ ಸದಸ್ಯರು
   defs:
   - entry: Existing members
     type: n
-  id: ಹ_ಲ__ಸದಸ_ಯರ__existing_members_41
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: existingme_515f5e332410
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Existing members
 - entry: ನಿರ್ಗಮನ / ಹೊರಕ್ಕೆ
   defs:
   - entry: Exit
     type: n
-  id: ನ_ರ_ಗಮನ___ಹ_ರಕ_ಕ__exit_42
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: exit_2ca5cf275b59
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Exit
 - entry: ಕಡತ
   defs:
   - entry: File
     type: n
-  id: ಕಡತ_file_43
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: file_141d0f0fa3a2
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: File
 - entry: ಮೊದಲ ಸಾಲು
   defs:
   - entry: First Line
     type: n
-  id: ಮ_ದಲ_ಸ_ಲ__first_line_44
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: firstline_3e2d333ebb7b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: First Line
 - entry: ಅಕ್ಷರ ವಿನ್ಯಾಸ
   defs:
   - entry: Font
     type: n
-  id: ಅಕ_ಷರ_ವ_ನ_ಯ_ಸ_font_45
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: font_3a1264d00445
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Font
 - entry: ಅಕ್ಷರದ ಬಣ್ಣ
   defs:
   - entry: Font colour
     type: n
-  id: ಅಕ_ಷರದ_ಬಣ_ಣ_font_colour_46
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: fontcolour_8fd38892cc86
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Font colour
 - entry: ವಿನ್ಯಾಸ, ನಮೂನೆ
   defs:
   - entry: Format
     type: n
-  id: ವ_ನ_ಯ_ಸ__ನಮ_ನ__format_47
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: format_cff12444546a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Format
 - entry: ನಮೂನೆ ಪಟ್ಟಿ
   defs:
   - entry: Format Bar
     type: n
-  id: ನಮ_ನ__ಪಟ_ಟ__format_bar_48
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: formatbar_928ee9f7da8a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Format Bar
 - entry: ರವಾನಿಸು
   defs:
   - entry: Forward
     type: n
-  id: ರವ_ನ_ಸ__forward_49
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: forward_c2995fc13a99
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Forward
 - entry: ..ಇಂದ
   defs:
   - entry: From
     type: n
-  id: __ಇ_ದ_from_50
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: from_d0f07a9a421f
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: From
 - entry: ಬೂದು
   defs:
   - entry: Gray
     type: n
-  id: ಬ_ದ__gray_51
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: gray_a6e769e854dc
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Gray
 - entry: ಹಸಿರು
   defs:
   - entry: Green
     type: n
-  id: ಹಸ_ರ__green_52
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: green_994134decb20
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Green
 - entry: ಸಹಾಯ
   defs:
   - entry: Help
     type: n
-  id: ಸಹ_ಯ_help_53
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: help_c20f55a8eaeb
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Help
 - entry: ಸಹಾಯ ಪರಿವಿಡಿ
   defs:
   - entry: Help topic
     type: n
-  id: ಸಹ_ಯ_ಪರ_ವ_ಡ__help_topic_54
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: helptopic_05306ba7d4ff
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Help topic
 - entry: ಅಡ್ಡಗೆರೆ
   defs:
   - entry: Hyphen
     type: n
-  id: ಅಡ_ಡಗ_ರ__hyphen_55
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: hyphen_a24ca6dd00cd
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Hyphen
 - entry: ಅಂಚೆ ಸಂಚಯ
   defs:
   - entry: Inbox
     type: n
-  id: ಅ_ಚ__ಸ_ಚಯ_inbox_56
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: inbox_f98183b018ec
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Inbox
 - entry: ಅಂಗುಲಗಳು
   defs:
   - entry: Inches
     type: n
-  id: ಅ_ಗ_ಲಗಳ__inches_57
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: inches_c14e0a8247b5
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Inches
 - entry: ಸರಿಯಲ್ಲದ ಬಳಕೆದಾರರ ಹೆಸರು ಅಥವಾ ಕೀಲಿಪದ
   defs:
   - entry: Incorrect user name or Password
     type: n
-  id: ಸರ_ಯಲ_ಲದ_ಬಳಕ_ದ_ರರ_ಹ_ಸರ__ಅಥವ__ಕ_ಲ_ಪದ_incorrect_user
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: incorrectu_d532903b7af8
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Incorrect user name or Password
 - entry: ಗಾತ್ರ ಹಿಗ್ಗಿಸು
   defs:
   - entry: Increase the letter/word size
     type: n
-  id: ಗ_ತ_ರ_ಹ_ಗ_ಗ_ಸ__increase_the_letter_word_size_59
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: increaseth_e63051828dab
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Increase the letter/word size
 - entry: ಪದಜಾಗ ನಿರ್ಧರಣೆ
   defs:
   - entry: Indentation
     type: n
-  id: ಪದಜ_ಗ_ನ_ರ_ಧರಣ__indentation_60
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: indentatio_2569fbf131c3
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Indentation
 - entry: ಕೀಲಿಯೊತ್ತು ಅಳವಡಿಸು
   defs:
   - entry: Insert Keystrokes
     type: n
-  id: ಕ_ಲ_ಯ_ತ_ತ__ಅಳವಡ_ಸ__insert_keystrokes_61
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: insertkeys_12ec3f558987
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Insert Keystrokes
 - entry: ಓರೆಅಕ್ಷರ
   defs:
   - entry: Italics
     type: n
-  id: ಓರ_ಅಕ_ಷರ_italics_62
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: italics_8005b748f4a0
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Italics
 - entry: ಕೀಲಿ ಪರಿಚಯ
   defs:
   - entry: Keyboard introduction
     type: n
-  id: ಕ_ಲ__ಪರ_ಚಯ_keyboard_introduction_63
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: keyboardin_4d6f119364c7
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Keyboard introduction
 - entry: ಕೀಲಿಮಣೆ ವಿನ್ಯಾಸ
   defs:
   - entry: Keyboard layout
     type: n
-  id: ಕ_ಲ_ಮಣ__ವ_ನ_ಯ_ಸ_keyboard_layout_64
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: keyboardla_f7bd33d9ddee
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Keyboard layout
 - entry: ಕೊನೆಯ ಹೆಸರು
   defs:
   - entry: Last name
     type: n
-  id: ಕ_ನ_ಯ_ಹ_ಸರ__last_name_65
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: lastname_d9f9a57af9f1
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Last name
 - entry: ಎಡ
   defs:
   - entry: Left
     type: n
-  id: ಎಡ_left_66
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: left_2524654f25f6
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Left
 - entry: ಭೂತಗನ್ನಡಿ
   defs:
   - entry: Lens
     type: n
-  id: ಭ_ತಗನ_ನಡ__lens_67
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: lens_1c493301b61c
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Lens
 - entry: ಲಿಂಡಾ ಇನ್‌ ಮೊಬೈಲ್‌ ಎನ್‌ವಿರೋನ್‌ಮೆಂಟ್‌
   defs:
   - entry: Lime
     type: n
-  id: ಲ__ಡ__ಇನ___ಮ_ಬ_ಲ___ಎನ__ವ_ರ_ನ__ಮ__ಟ___lime_68
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: lime_50932eeff34d
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Lime
 - entry: ಕೊಂಡಿಗಳು
   defs:
   - entry: Links
     type: n
-  id: ಕ__ಡ_ಗಳ__links_69
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: links_e8868d8bed21
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Links
 - entry: ಒಳಬರು
   defs:
   - entry: Login
     type: n
-  id: ಒಳಬರ__login_70
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: login_3d4b077e9eda
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Login
 - entry: ಹೊರಹೋಗು
   defs:
   - entry: Logout
     type: n
-  id: ಹ_ರಹ_ಗ__logout_71
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: logout_05b9eeec9816
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Logout
 - entry: ಕಳಿಸಿದ ಅಂಚೆ
   defs:
   - entry: Mail sent
     type: n
-  id: ಕಳ_ಸ_ದ_ಅ_ಚ__mail_sent_72
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: mailsent_922b694ec05f
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Mail sent
 - entry: ಕಡುಗೆಂಪು
   defs:
   - entry: Maroon
     type: n
-  id: ಕಡ_ಗ__ಪ__maroon_73
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: maroon_2e7ebaa2419f
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Maroon
 - entry: ಹೆಚ್ಚಿಸು
   defs:
   - entry: Maximize
     type: n
-  id: ಹ_ಚ_ಚ_ಸ__maximize_74
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: maximize_330d4a66b70b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Maximize
 - entry: ಅಳತೆಯ ಮಾನಗಳು
   defs:
   - entry: Measurement Units
     type: n
-  id: ಅಳತ_ಯ_ಮ_ನಗಳ__measurement_units_75
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: measuremen_330b34537803
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Measurement Units
 - entry: ಸಂದೇಶ ಪೆಟ್ಟಿಗೆ
   defs:
   - entry: Message box
     type: n
-  id: ಸ_ದ_ಶ_ಪ_ಟ_ಟ_ಗ__message_box_76
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: messagebox_5177350ad71b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Message box
 - entry: ಸಂದೇಶ ತೆಗೆದುಹಾಕಲಾಗಿದೆ
   defs:
   - entry: Message deleted
     type: n
-  id: ಸ_ದ_ಶ_ತ_ಗ_ದ_ಹ_ಕಲ_ಗ_ದ__message_deleted_77
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: messagedel_7b12d86e0bdb
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Message deleted
 - entry: ಏಕ ಭಾಷೆ
   defs:
   - entry: Monolingual
     type: n
-  id: ಏಕ_ಭ_ಷ__monolingual_78
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: monolingua_78c6e36c60d2
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Monolingual
 - entry: ನನ್ನ ಕುರಿತು
   defs:
   - entry: My profile
     type: n
-  id: ನನ_ನ_ಕ_ರ_ತ__my_profile_79
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: myprofile_1cb9b4b53197
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: My profile
 - entry: ಗಾಢನೀಲಿ
   defs:
   - entry: Navy Blue
     type: n
-  id: ಗ_ಢನ_ಲ__navy_blue_80
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: navyblue_7b38c570cdf0
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Navy Blue
 - entry: ಹೊಸ
   defs:
   - entry: New
     type: n
-  id: ಹ_ಸ_new_81
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: new_10fc98f51fd7
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: New
 - entry: ಹೊಸ ಕಡತ ಮಾದರಿ
   defs:
   - entry: New Document Type
     type: n
-  id: ಹ_ಸ_ಕಡತ_ಮ_ದರ__new_document_type_82
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: newdocumen_e8778e0f253e
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: New Document Type
 - entry: ಹೊಸ ಕೀಲಿಪದ
   defs:
   - entry: New password
     type: n
-  id: ಹ_ಸ_ಕ_ಲ_ಪದ_new_password_83
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: newpasswor_60a51b53a1ab
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: New password
 - entry: ಹೊಸ ಬಳಕೆದಾರರು ದಾಖಲಾಗಿರಿ
   defs:
   - entry: New users sign up now
     type: n
-  id: ಹ_ಸ_ಬಳಕ_ದ_ರರ__ದ_ಖಲ_ಗ_ರ__new_users_sign_up_now_84
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: newuserssi_68bfdbda0af1
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: New users sign up now
 - entry: ಹೊಸ ಕಿಟಕಿ
   defs:
   - entry: New window
     type: n
-  id: ಹ_ಸ_ಕ_ಟಕ__new_window_85
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: newwindow_a6a49f14639b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: New window
 - entry: ಹೊಸ ಸಾಲು
   defs:
   - entry: New line
     type: n
-  id: ಹ_ಸ_ಸ_ಲ__new_line_86
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: newline_0701d2680a10
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: New line
 - entry: ಮುಂದಕ್ಕೆ
   defs:
   - entry: Next
     type: n
-  id: ಮ__ದಕ_ಕ__next_87
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: next_673f99b02e3e
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Next
 - entry: ಆವರಣರಹಿತ
   defs:
   - entry: No Warp
     type: n
-  id: ಆವರಣರಹ_ತ_no_warp_88
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: nowarp_dd0cbcd975cc
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: No Warp
 - entry: ವಸ್ತು
   defs:
   - entry: Object
     type: n
-  id: ವಸ_ತ__object_89
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: object_64dcfb0e9608
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Object
 - entry: ವಸ್ತುವಿನ ಗುಣಲಕ್ಷಣಗಳು
   defs:
   - entry: Object Properties
     type: n
-  id: ವಸ_ತ_ವ_ನ_ಗ_ಣಲಕ_ಷಣಗಳ__object_properties_90
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: objectprop_2761a7b5e07d
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Object Properties
 - entry: ಎಲೆ ಹಸಿರು
   defs:
   - entry: Olive
     type: n
-  id: ಎಲ__ಹಸ_ರ__olive_91
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: olive_4298aac5a6f0
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Olive
 - entry: ತೆಗೆ
   defs:
   - entry: Open
     type: n
-  id: ತ_ಗ__open_92
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: open_854c27d19522
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Open
 - entry: ಆಯ್ಕೆಗಳು
   defs:
   - entry: Options
     type: n
-  id: ಆಯ_ಕ_ಗಳ__options_93
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: options_6adc18e22160
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Options
 - entry: ಪುಟದ ಅಂಚು
   defs:
   - entry: Page Margins
     type: n
-  id: ಪ_ಟದ_ಅ_ಚ__page_margins_94
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: pagemargin_3c1957b9020b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Page Margins
 - entry: ಪುಟ ಸಿದ್ಧತೆ
   defs:
   - entry: Page Setup
     type: n
-  id: ಪ_ಟ_ಸ_ದ_ಧತ__page_setup_95
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: pagesetup_9ae392a5fc03
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Page Setup
 - entry: ವಾಕ್ಯವೃಂದ
   defs:
   - entry: Paragraph
     type: n
-  id: ವ_ಕ_ಯವ__ದ_paragraph_96
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: paragraph_23dd41bd487e
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Paragraph
 - entry: ಕೀಲಿ ಪದ
   defs:
   - entry: Password
     type: n
-  id: ಕ_ಲ__ಪದ_password_97
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: password_9283c5ce197b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Password
 - entry: ಕೀಲಿಪದ ಬದಲಾಗಿದೆ
   defs:
   - entry: Password changed
     type: n
-  id: ಕ_ಲ_ಪದ_ಬದಲ_ಗ_ದ__password_changed_98
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: passwordch_65c74c8c1fa4
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Password changed
 - entry: ಕೀಲಿಪದ ಜ್ಞಾಪನ
   defs:
   - entry: Password reminder
     type: n
-  id: ಕ_ಲ_ಪದ_ಜ_ಞ_ಪನ_password_reminder_99
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: passwordre_a07250d054bb
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Password reminder
 - entry: ಅಂಟಿಸು
   defs:
   - entry: Paste
     type: n
-  id: ಅ_ಟ_ಸ__paste_100
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: paste_422806d1dd3d
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Paste
 - entry: ಲೇಖನಿ
   defs:
   - entry: Pen
     type: n
-  id: ಲ_ಖನ__pen_101
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: pen_32134c8b749a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Pen
 - entry: ಅವಧಿ
   defs:
   - entry: Period
     type: n
-  id: ಅವಧ__period_102
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: period_468bc8ec3993
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Period
 - entry: ಬಿಂದುಗಳು
   defs:
   - entry: Points
     type: n
-  id: ಬ__ದ_ಗಳ__points_103
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: points_4142d1f7d744
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Points
 - entry: ಮುದ್ರಿಸು
   defs:
   - entry: Print
     type: n
-  id: ಮ_ದ_ರ_ಸ__print_104
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: print_0f83aac09b82
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Print
 - entry: ನೇರ ಮುದ್ರಿಸು
   defs:
   - entry: Print Direct
     type: n
-  id: ನ_ರ_ಮ_ದ_ರ_ಸ__print_direct_105
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: printdirec_0457b3f6d365
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Print Direct
 - entry: ಮುದ್ರಣ ಮುನ್ನೊಟ
   defs:
   - entry: Print Preview
     type: n
-  id: ಮ_ದ_ರಣ_ಮ_ನ_ನ_ಟ_print_preview_106
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: printprevi_d56b0366a4ed
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Print Preview
 - entry: ಮುದ್ರಣ ಸಿದ್ಧತೆ
   defs:
   - entry: Print setup
     type: n
-  id: ಮ_ದ_ರಣ_ಸ_ದ_ಧತ__print_setup_107
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: printsetup_ff11d0033f10
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Print setup
 - entry: ನೇರಳೆ
   defs:
   - entry: Purple
     type: n
-  id: ನ_ರಳ__purple_108
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: purple_b5532cc3c45c
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Purple
 - entry: ಕೆಂಪು
   defs:
   - entry: Red
     type: n
-  id: ಕ__ಪ__red_109
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: red_134138a10eac
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Red
 - entry: ನೋಂದಣಿ ಅರ್ಜಿ
   defs:
   - entry: Registration form
     type: n
-  id: ನ__ದಣ__ಅರ_ಜ__registration_form_110
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: registrati_d72eae9e8ba2
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Registration form
 - entry: ಬದಲಿಸು
   defs:
   - entry: Replace
     type: n
-  id: ಬದಲ_ಸ__replace_111
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: replace_90cd71caf5a4
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Replace
 - entry: ಮರು ಉತ್ತರ
   defs:
   - entry: Reply
     type: n
-  id: ಮರ__ಉತ_ತರ_reply_112
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: reply_9c4418b43e94
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Reply
 - entry: ಬಲ
   defs:
   - entry: Right
     type: n
-  id: ಬಲ_right_113
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: right_df9ea3107bc9
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Right
 - entry: ಬಲಕ್ಕೆ ಹೊಂದಿಸು
   defs:
   - entry: Right align
     type: n
-  id: ಬಲಕ_ಕ__ಹ__ದ_ಸ__right_align_114
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: rightalign_eed17ba34b39
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Right align
 - entry: ಅಳತೆ ಪಟ್ಟಿ
   defs:
   - entry: Ruler
     type: n
-  id: ಅಳತ__ಪಟ_ಟ__ruler_115
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: ruler_61b4d8527958
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Ruler
 - entry: ಉಳಿಸು
   defs:
   - entry: Save
     type: n
-  id: ಉಳ_ಸ__save_116
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: save_62dc8d095f7b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Save
 - entry: ಅಂತೆ ಉಳಿಸು
   defs:
   - entry: Save as
     type: n
-  id: ಅ_ತ__ಉಳ_ಸ__save_as_117
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: saveas_e22d2e304427
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Save as
 - entry: ಹುಡುಕು
   defs:
   - entry: Search
     type: n
-  id: ಹ_ಡ_ಕ__search_118
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: search_207db79c92e5
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Search
 - entry: ಮತ್ತೆ ಹುಡುಕು
   defs:
   - entry: Search again
     type: n
-  id: ಮತ_ತ__ಹ_ಡ_ಕ__search_again_119
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: searchagai_05dad4699dec
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Search again
 - entry: ಎಲ್ಲಾ ಆಯ್ಕೆ ಮಾಡು
   defs:
   - entry: Select all
     type: n
-  id: ಎಲ_ಲ__ಆಯ_ಕ__ಮ_ಡ__select_all_120
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: selectall_acb71ca12bc3
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Select all
 - entry: ಸಿದ್ಧತೆ
   defs:
   - entry: Setup
     type: n
-  id: ಸ_ದ_ಧತ__setup_121
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: setup_ab6b82874e16
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Setup
 - entry: ತೋರಿಸು / ಪ್ರದರ್ಶನ
   defs:
   - entry: Show
     type: n
-  id: ತ_ರ_ಸ____ಪ_ರದರ_ಶನ_show_122
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: show_276e31ced527
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Show
 - entry: ಬೆಳ್ಳಿ
   defs:
   - entry: Silver
     type: n
-  id: ಬ_ಳ_ಳ__silver_123
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: silver_735169371f6a
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Silver
 - entry: ಗಾತ್ರ
   defs:
   - entry: Size
     type: n
-  id: ಗ_ತ_ರ_size_124
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: size_65fb931e95c8
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Size
 - entry: ತಂತ್ರಾಂಶ ಅಭಿವೃದ್ಧಿ
   defs:
   - entry: Software development
     type: n
-  id: ತ_ತ_ರ__ಶ_ಅಭ_ವ_ದ_ಧ__software_development_125
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: softwarede_7b35494e2694
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Software development
 - entry: ಆರೋಹಣವಾಗಿ ವಿಂಗಡಿಸು
   defs:
   - entry: Sort in ascending order
     type: n
-  id: ಆರ_ಹಣವ_ಗ__ವ__ಗಡ_ಸ__sort_in_ascending_order_126
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: sortinasce_e644058e39a6
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Sort in ascending order
 - entry: ಅವರೋಹಣವಾಗಿ ವಿಂಗಡಿಸು
   defs:
   - entry: Sort in descending order
     type: n
-  id: ಅವರ_ಹಣವ_ಗ__ವ__ಗಡ_ಸ__sort_in_descending_order_127
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: sortindesc_f814ac7bdd57
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Sort in descending order
 - entry: ಜಾಗ
   defs:
   - entry: Space
     type: n
-  id: ಜ_ಗ_space_128
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: space_6dbe512a9f09
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Space
 - entry: ಆರಂಭ
   defs:
   - entry: Start
     type: n
-  id: ಆರ_ಭ_start_129
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: start_9ad97359383b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Start
 - entry: ಸ್ಥಿತಿ ಪಟ್ಟಿ
   defs:
   - entry: Status bar
     type: n
-  id: ಸ_ಥ_ತ__ಪಟ_ಟ__status_bar_130
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: statusbar_d97e9dcc06fe
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Status bar
 - entry: ವಿಷಯ
   defs:
   - entry: Subject
     type: n
-  id: ವ_ಷಯ_subject_131
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: subject_7ece64817322
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Subject
 - entry: ನಿರ್ದಿಷ್ಟಾಂತರ ನಿಲುಗಡೆ
   defs:
   - entry: Tab Stop Position
     type: n
-  id: ನ_ರ_ದ_ಷ_ಟ__ತರ_ನ_ಲ_ಗಡ__tab_stop_position_132
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: tabstoppos_9f02e9424a79
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Tab Stop Position
 - entry: ..ಗೆ
   defs:
   - entry: To
     type: n
-  id: __ಗ__to_133
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: to_63f601c29e95
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: To
 - entry: ಉಪಕರಣ ಪಟ್ಟಿಗಳು
   defs:
   - entry: Tool bars
     type: n
-  id: ಉಪಕರಣ_ಪಟ_ಟ_ಗಳ__tool_bars_134
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: toolbars_297cb92b4075
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Tool bars
 - entry: ಮೇಲೆ, ಕೆಳಗೆ, ಎಡ, ಬಲ
   defs:
   - entry: Top, Bottom, Left, Right
     type: n
-  id: ಮ_ಲ___ಕ_ಳಗ___ಎಡ__ಬಲ_top__bottom__left__right_135
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: topbottoml_37c391d467ae
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Top, Bottom, Left, Right
 - entry: ಕೆಳಗೆರೆ / ಕೆಳಸಾಲು
   defs:
   - entry: Underline
     type: n
-  id: ಕ_ಳಗ_ರ____ಕ_ಳಸ_ಲ__underline_136
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: underline_c910259369af
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Underline
 - entry: ಬಳಕೆದಾರನ ಹೆಸರು
   defs:
   - entry: User name
     type: n
-  id: ಬಳಕ_ದ_ರನ_ಹ_ಸರ__user_name_137
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: username_927609a54441
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: User name
 - entry: ಆವೃತ್ತಿ
   defs:
   - entry: Version
     type: n
-  id: ಆವ_ತ_ತ__version_138
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: version_7f20dd0d564b
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Version
 - entry: ಬಿಳಿ / ಶ್ವೇತವರ್ಣ
   defs:
   - entry: White
     type: n
-  id: ಬ_ಳ____ಶ_ವ_ತವರ_ಣ_white_139
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: white_cdf4c1e71155
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: White
 - entry: ಕಿಟಕಿ
   defs:
   - entry: Window
     type: n
-  id: ಕ_ಟಕ__window_140
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: window_a2a5fd29daa1
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Window
 - entry: ಪದ ಆವರಣ
   defs:
   - entry: Word Wrap
     type: n
-  id: ಪದ_ಆವರಣ_word_wrap_141
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: wordwrap_6bf5c6c25d98
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Word Wrap
 - entry: ಅಳತೆಪಟ್ಟಿಗೆ ಆವರಣ
   defs:
   - entry: Wrap to ruler
     type: n
-  id: ಅಳತ_ಪಟ_ಟ_ಗ__ಆವರಣ_wrap_to_ruler_142
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: wraptorule_f4a1b053ae63
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Wrap to ruler
 - entry: ಕಿಟಕಿಗೆ ಆವರಣ
   defs:
   - entry: Wrap to window
     type: n
-  id: ಕ_ಟಕ_ಗ__ಆವರಣ_wrap_to_window_143
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: wraptowind_1f8521af0770
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Wrap to window
 - entry: ಪತ್ರ ಬರೆಯಿರಿ
   defs:
   - entry: Write mail
     type: n
-  id: ಪತ_ರ_ಬರ_ಯ_ರ__write_mail_144
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: writemail_c0de1d2410fa
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Write mail
 - entry: ತಪ್ಪು
   defs:
   - entry: Wrong
     type: n
-  id: ತಪ_ಪ__wrong_145
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: wrong_0e744821e377
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Wrong
 - entry: ಹಳದಿ
   defs:
   - entry: Yellow
     type: n
-  id: ಹಳದ__yellow_146
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: yellow_96dfaf7bc1f9
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Yellow
 - entry: ಸರಿ / ಹೌದು / ಆಗಬಹುದು
   defs:
   - entry: Yes/Right/Ok
     type: n
-  id: ಸರ____ಹ_ದ____ಆಗಬಹ_ದ__yes_right_ok_147
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: yesrightok_5247e5911ecf
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Yes/Right/Ok
 - entry: ನಿಮ್ಮ ಈಗಿನ ಪ್ರವೇಶ ಪದ ತಪ್ಪು
   defs:
   - entry: Your current password is wrong
     type: n
-  id: ನ_ಮ_ಮ_ಈಗ_ನ_ಪ_ರವ_ಶ_ಪದ_ತಪ_ಪ__your_current_password_i
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: yourcurren_7f4133d72d81
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Your current password is wrong
 - entry: ನಿಮ್ಮ ಪ್ರವೇಶಪದ ಇದೆ
   defs:
   - entry: Your password exists
     type: n
-  id: ನ_ಮ_ಮ_ಪ_ರವ_ಶಪದ_ಇದ__your_password_exists_149
-  source: ಗಣಕ ವಿಭಾಗ - ಸಕ್ರಿಯ ಆಡಳಿತ ಪದಕೋಶ
+  id: yourpasswo_cf0e092d2cbd
+  source: ಗಣಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜಯ
   head: Your password exists

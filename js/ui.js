@@ -223,6 +223,32 @@ function renderResultCard(result, query, isSynonym = false) {
         }
     }
     
+    // Get source display text and link
+    let sourceText, sourceLink, sourceTextKannada;
+    if (result.source === 'alar') {
+        sourceText = PRIMARY_DICTIONARY.dictTitle;
+        sourceTextKannada = PRIMARY_DICTIONARY.dictTitleKannada;
+        sourceLink = PRIMARY_DICTIONARY.link;
+    } else if (result.dict_title) {
+        sourceText = result.dict_title;
+        sourceLink = PADAKANAJA_BASE_URL;
+    } else {
+        sourceText = result.source || '';
+        sourceLink = PADAKANAJA_BASE_URL;
+    }
+    
+    const sourceId = `source-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
+    const escapedSourceText = sourceText.replace(/'/g, "&#39;").replace(/"/g, '&quot;');
+    const escapedSourceTextKannada = (sourceTextKannada || '').replace(/'/g, "&#39;").replace(/"/g, '&quot;');
+    const tooltipText = sourceTextKannada ? `${escapedSourceTextKannada}<br>${escapedSourceText}` : escapedSourceText;
+    
+    const sourceDisplay = sourceText ? `
+        <span class="dict-source-wrapper">
+            <a href="${sourceLink}" target="_blank" rel="noopener noreferrer" class="dict-source" id="${sourceId}" data-source-text="${escapedSourceText}">[source]</a>
+            <div class="dict-source-tooltip" id="${sourceId}-tooltip">${tooltipText}</div>
+        </span>
+    ` : '';
+    
     return `
         <div class="result-card">
             <div class="kannada-word">
@@ -234,6 +260,7 @@ function renderResultCard(result, query, isSynonym = false) {
                     </button>
                 ` : ''}
                 <span>${result.kannada}</span>
+                ${sourceDisplay}
                 <button class="copy-button" id="${copyId}" onclick="copyKannadaWord('${copyId}', '${result.kannada.replace(/'/g, "\\'")}')" title="Copy Kannada word">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>

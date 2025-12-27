@@ -667,3 +667,134 @@ body.dark-mode .matched-word {
         max-width: none;
     }
 }
+
+/* Dictionary loading progress indicator - glassy ephemeral style */
+.dict-progress {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 10px 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    min-width: 160px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: none;
+    font-size: 11px;
+}
+
+body.dark-mode .dict-progress {
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    .dict-progress {
+        background: rgba(30, 30, 30, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+.dict-progress .progress-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dict-progress .progress-label {
+    color: var(--text-color-light);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.dict-progress .progress-bar {
+    width: 100%;
+    height: 4px;
+    background: var(--border-color-light);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.dict-progress .progress-bar-fill {
+    height: 100%;
+    background: var(--text-color);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+    width: 0%;
+}
+
+.dict-progress .progress-percent {
+    color: var(--text-color);
+    font-size: 10px;
+    font-weight: 500;
+    text-align: right;
+    opacity: 0.8;
+}
+
+/* Dictionary source badge with tooltip */
+.dict-source-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.dict-source {
+    font-size: 10px;
+    color: var(--text-color-lighter);
+    font-weight: 400;
+    cursor: help;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    user-select: none;
+}
+
+.dict-source:hover {
+    opacity: 1;
+    color: var(--text-color-light);
+    text-decoration: underline;
+}
+
+.dict-source-tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border-color);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+    z-index: 1000;
+    max-width: 300px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+
+.dict-source-tooltip br {
+    display: block;
+    margin: 4px 0;
+}
+
+.dict-source-wrapper:hover .dict-source-tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-4px);
+    pointer-events: auto;
+}
+
+.kannada-word {
+    position: relative;
+}

@@ -1,0 +1,147 @@
+- entry: ವನನಿರ್ಮಾಣ ಅರಣ್ಯಾಭಿವೃದ್ಧಿ
+  defs:
+  - entry: Afforestation
+    type: n
+  id: afforestat_9639c45e5c1d
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Afforestation
+- entry: ಜೈವಿಕ ಇಂಧನ
+  defs:
+  - entry: Bio-fuel
+    type: n
+  id: biofuel_abb13a114ac3
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Bio-fuel
+- entry: ಖನಿಜ ರಹಿತಗೊಳಿಸುವುದು, ಡೀ ಮಿನರಲೈಜಿಂಗ್‌
+  defs:
+  - entry: De-Mineralizing
+    type: n
+  id: deminerali_7f253d38e991
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: De-Mineralizing
+- entry: ಭಟ್ಟಿ ಇಳಿಸಿದ ನೀರು, ಶೋಧಿಸಿದ ನೀರು
+  defs:
+  - entry: Distilled Water
+    type: n
+  id: distilledw_7a3929f7b089
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Distilled Water
+- entry: ಪರಿಸರ ಸ್ನೇಹಿ / ಪ್ರೇಮಿ
+  defs:
+  - entry: Eco-Friendly
+    type: n
+  id: ecofriendl_7f00ef4e513f
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Eco-Friendly
+- entry: ಇಂಧನ ಸಂರಕ್ಷಣೆ
+  defs:
+  - entry: Energy Conservation
+    type: n
+  id: energycons_611e3a845dba
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Energy Conservation
+- entry: ಇಂಧನ ಪರಿಶೋಧನೆ
+  defs:
+  - entry: Energy Audits
+    type: n
+  id: energyaudi_3935f7b588b9
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Energy Audits
+- entry: ಇಂಧನ ಮತ್ತು ಮೃದುಚಾಲಕ
+  defs:
+  - entry: Fuel and Lubricant
+    type: n
+  id: fuelandlub_184b28fff697
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Fuel and Lubricant
+- entry: ಪ್ರಯೋಗಾಲಯ
+  defs:
+  - entry: Laboratory
+    type: n
+  id: laboratory_bba5485bd8f2
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Laboratory
+- entry: ಮಾಲಿನ್ಯ
+  defs:
+  - entry: Pollution
+    type: n
+  id: pollution_bed109d1f5a8
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Pollution
+- entry: ಸಸಿಗಳು
+  defs:
+  - entry: Saplings
+    type: n
+  id: saplings_8ac26089b2d1
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Saplings
+- entry: (ಕೀಲೆಣ್ಣೆ) ಮಾದರಿ
+  defs:
+  - entry: Sample
+    type: n
+  id: sample_f45944bd7dbb
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Sample
+- entry: ಧೂಮ ಪರೀಕ್ಷಾ ಉಪಕರಣ
+  defs:
+  - entry: Smoke Testing Equipment
+    type: n
+  id: smoketesti_31895b100e96
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Smoke Testing Equipment
+- entry: ಹೊರಬಿಡುವ ಧೂಮದ ತಪಾಸಣೆ / ಧೂಮ್ರ ತಪಾಸಣೆ
+  defs:
+  - entry: Smoke Emission Check
+    type: n
+  id: smokeemiss_38b011aae87b
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Smoke Emission Check
+- entry: ಅಂಟುವ ಚೀಟಿ, ಸ್ಟಿಕರ್‌
+  defs:
+  - entry: Sticker
+    type: n
+  id: sticker_8a5d56f7fff0
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Sticker
+- entry: ಮಳೆ ನೀರು ಸಂಗ್ರಹ
+  defs:
+  - entry: Rain Water Harvesting
+    type: n
+  id: rainwaterh_2f385eb068d1
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Rain Water Harvesting
+- entry: ಜಲ ಸಂರಕ್ಷಣೆ
+  defs:
+  - entry: Water Conservation
+    type: n
+  id: waterconse_a1adae878fbb
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Water Conservation
+- entry: ನಿರುಪಯುಕ್ತ, ಪೋಲು
+  defs:
+  - entry: Waste
+    type: n
+  id: waste_3f44de4cdfaf
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Waste
+- entry: ನೀರಿನ ಮರುಬಳಕೆ
+  defs:
+  - entry: Water Re-cycling
+    type: n
+  id: waterrecyc_7aa5cb14358c
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Water Re-cycling
+- entry: ನೀರಿನ ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ
+  defs:
+  - entry: Water Quality Check
+    type: n
+  id: waterquali_fdaec8910342
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: Water Quality Check
+- entry: ವಿಶ್ವ ಪರಿಸರ ದಿನ
+  defs:
+  - entry: World Environment Day
+    type: n
+  id: worldenvir_12b8e84f5589
+  source: ಪರಸರ_ಶಖ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ
+  head: World Environment Day

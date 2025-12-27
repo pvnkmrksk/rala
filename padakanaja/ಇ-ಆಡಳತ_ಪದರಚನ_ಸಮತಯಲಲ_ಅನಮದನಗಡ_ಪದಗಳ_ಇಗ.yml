@@ -1,0 +1,720 @@
+- entry: ಪ್ರವೇಶ
+  defs:
+  - entry: Access
+    type: n
+  id: access_cc8974495e95
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Access
+- entry: ಪ್ರವೇಶಿಸುವುದು
+  defs:
+  - entry: Accessing
+    type: n
+  id: accessing_d8f152845894
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Accessing
+- entry: ಎಚ್ಚರಿಕೆ
+  defs:
+  - entry: Alert
+    type: n
+  id: alert_78b62757db9a
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Alert
+- entry: ಯಾನೆ
+  defs:
+  - entry: Alias
+    type: n
+  id: alias_2266fa168c68
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Alias
+- entry: ಗುಂಪು
+  defs:
+  - entry: Batch
+    type: n
+  id: batch_71cfbb63e505
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Batch
+- entry: ರಾಶಿ
+  defs:
+  - entry: Bulk
+    type: n
+  id: bulk_9f669716d56d
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Bulk
+- entry: ವೃಂದ
+  defs:
+  - entry: Cadre
+    type: n
+  id: cadre_17d2343f7775
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Cadre
+- entry: ಮಾರ್ಗ
+  defs:
+  - entry: Channel
+    type: n
+  id: channel_8be936c58dbc
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Channel
+- entry: ಕ್ಲಿಕ್ಕಿಸಿ
+  defs:
+  - entry: Click
+    type: n
+  id: click_0fb3c3363a04
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Click
+- entry: ಮುಕ್ತಾಯಗೊಳಿಸಿ
+  defs:
+  - entry: Close
+    type: n
+  id: close_91d97bab7af5
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Close
+- entry: ಸಮವರ್ತಿ
+  defs:
+  - entry: Concurrent
+    type: n
+  id: concurrent_8d99e796a0c3
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Concurrent
+- entry: ಒಳಪಿಡಿ
+  defs:
+  - entry: Content
+    type: n
+  id: content_2b52706b204d
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Content
+- entry: ರಚಿಸು
+  defs:
+  - entry: Create
+    type: n
+  id: create_ab9dc44042cc
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Create
+- entry: ರೂಢಿ
+  defs:
+  - entry: Custom
+    type: n
+  id: custom_d3faad40ceb4
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Custom
+- entry: ರೂಢೀಕರಿಸು
+  defs:
+  - entry: Customize
+    type: n
+  id: customize_bf0e91d0ad53
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Customize
+- entry: ಮಾಹಿತಿ ಫಲಕ
+  defs:
+  - entry: Dash board
+    type: n
+  id: dashboard_1f42b2d4b50b
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Dash board
+- entry: ಪೂರ್ವನಿಗದಿತ
+  defs:
+  - entry: Default
+    type: n
+  id: default_cc2fa75c79bd
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Default
+- entry: ಬೇರ್ಪಡಿಸು
+  defs:
+  - entry: Delink
+    type: n
+  id: delink_a64a80c5eff5
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Delink
+- entry: ದಿನಚರಿಗೊಳಿಸು
+  defs:
+  - entry: Diarise
+    type: n
+  id: diarise_966e99d00dd1
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Diarise
+- entry: ದಿನಚರಿಗೊಳಸಲಾದುದು
+  defs:
+  - entry: Diarised
+    type: n
+  id: diarised_a8d95a3ea7b5
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Diarised
+- entry: ದಿನಚರೀಕರಣ
+  defs:
+  - entry: Diarization
+    type: n
+  id: diarizatio_f5d90a6acb31
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Diarization
+- entry: ದಿನಚರಿ
+  defs:
+  - entry: Diary
+    type: n
+  id: diary_e840f3ea4a9d
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Diary
+- entry: ಅಂಕೀಯ
+  defs:
+  - entry: Digital
+    type: n
+  id: digital_b896d7676ef5
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Digital
+- entry: ದಸ್ತಾವೇಜು ಸಂಚಯ
+  defs:
+  - entry: Dossier
+    type: n
+  id: dossier_4f9814c82fa6
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Dossier
+- entry: ನಕಲಿಳಿಸು
+  defs:
+  - entry: Download
+    type: n
+  id: download_d4d05d349d81
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Download
+- entry: ಇಳಿಪಟ್ಟಿ
+  defs:
+  - entry: Dropdown
+    type: n
+  id: dropdown_6ce0c0d570d1
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Dropdown
+- entry: ಅಂಕೀಯ ಸಹಿ ಪ್ರಮಾಣ ಪತ್ರ
+  defs:
+  - entry: DSC
+    type: n
+  id: dsc_7063c2f7ae7c
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: DSC
+- entry: ಇ-ಅಂಚೆ
+  defs:
+  - entry: E-mail
+    type: n
+  id: email_2b4812812d6a
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: E-mail
+- entry: ಇ-ಅಂಚೆ-ಪರೀಕ್ಷೆ
+  defs:
+  - entry: Email-test
+    type: n
+  id: emailtest_90dcc7b5c0bc
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Email-test
+- entry: ಇ-ಸಹಿ
+  defs:
+  - entry: Esign
+    type: n
+  id: esign_2bda6629a794
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Esign
+- entry: ಫೋಲ್ಡರು
+  defs:
+  - entry: Folder
+    type: n
+  id: folder_5ef65773e609
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Folder
+- entry: ಜಾಗತಿಕ
+  defs:
+  - entry: Global
+    type: n
+  id: global_12f6164b2f07
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Global
+- entry: ದರ್ಜೆ
+  defs:
+  - entry: Grade
+    type: n
+  id: grade_6ec440a4c28e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Grade
+- entry: ಅನಂತರದ
+  defs:
+  - entry: Later
+    type: n
+  id: later_ef2a393c4a0a
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Later
+- entry: ಇತ್ತೀಚಿನ
+  defs:
+  - entry: Latest
+    type: n
+  id: latest_d34090f1b1ed
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Latest
+- entry: ಅತ್ಯಲ್ಪ
+  defs:
+  - entry: Least
+    type: n
+  id: least_41eb319d818d
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Least
+- entry: ಜೋಡಿಸಿ
+  defs:
+  - entry: Link
+    type: n
+  id: link_19ce35c2ef28
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Link
+- entry: ಹೇರಿಸು
+  defs:
+  - entry: Load
+    type: n
+  id: load_42582afd1f22
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Load
+- entry: ಹೆಜ್ಜೆಗುರುತು
+  defs:
+  - entry: Log
+    type: n
+  id: log_d641eb167eb5
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Log
+- entry: ಪ್ರವೇಶಿಸಿ
+  defs:
+  - entry: Login
+    type: n
+  id: login_24c54b910afb
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Login
+- entry: ನಿರ್ಗಮಿಸಿ
+  defs:
+  - entry: Logout
+    type: n
+  id: logout_369f65c3f77e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Logout
+- entry: ರೇಖಿಸು
+  defs:
+  - entry: Mapping
+    type: n
+  id: mapping_6a380fe3f0ec
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Mapping
+- entry: ಸಕಲ
+  defs:
+  - entry: Master
+    type: n
+  id: master_303896d188d7
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Master
+- entry: ಪರಿದತ್ತಾಂಶ
+  defs:
+  - entry: Metadata
+    type: n
+  id: metadata_2a5b3283fd67
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Metadata
+- entry: ಸ್ಥಾನಾಂತರಿಸು
+  defs:
+  - entry: Migrate
+    type: n
+  id: migrate_e4da5a0c1fcc
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Migrate
+- entry: ಸ್ಥಾನಾಂತರಿತ
+  defs:
+  - entry: Migrated
+    type: n
+  id: migrated_3c43664aa6bc
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Migrated
+- entry: ಸ್ಥಾನಾಂತರಣ
+  defs:
+  - entry: Migration
+    type: n
+  id: migration_75645fab4dce
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Migration
+- entry: ಚರವಾಣಿ
+  defs:
+  - entry: Mobile
+    type: n
+  id: mobile_cf2eedee1a6e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Mobile
+- entry: ಮೌಸ್‌
+  defs:
+  - entry: Mouse
+    type: n
+  id: mouse_c4c269764b84
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Mouse
+- entry: ಸ್ಥಳಾಂತರಿಸು
+  defs:
+  - entry: Move
+    type: n
+  id: move_d56d57f06215
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Move
+- entry: ಸ್ಥಳಾಂತರಿಸಿದೆ
+  defs:
+  - entry: Moved
+    type: n
+  id: moved_2e0059779640
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Moved
+- entry: ಟಿಪ್ಪಣಿ
+  defs:
+  - entry: Note
+    type: n
+  id: note_94399282048b
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Note
+- entry: ಟಿಪ್ಪಣಿಬರಹ
+  defs:
+  - entry: Noting
+    type: n
+  id: noting_f673f870b909
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Noting
+- entry: ಟಿಪ್ಪ್ಪಣಿಬರಹಗಳು
+  defs:
+  - entry: Notings
+    type: n
+  id: notings_108f7b1b4787
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Notings
+- entry: ಶೂನ್ಯ
+  defs:
+  - entry: 'Null'
+    type: n
+  id: null_11ac712f6be8
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: 'Null'
+- entry: ನಿಲುಗಡೆಗೊಳಿಸು
+  defs:
+  - entry: Park
+    type: n
+  id: park_eda58739d96e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Park
+- entry: ಸಂಯೋಜಿಸು
+  defs:
+  - entry: Plug
+    type: n
+  id: plug_9649a41752e1
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Plug
+- entry: ಸಂಯೋಜಿತ
+  defs:
+  - entry: Plugged
+    type: n
+  id: plugged_73d098dde91f
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Plugged
+- entry: ಅಂಶ
+  defs:
+  - entry: Point
+    type: n
+  id: point_a6958accde1e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Point
+- entry: ಹುದ್ದೆ/ ಅಂಚೆ
+  defs:
+  - entry: Post
+    type: n
+  id: post_67436a4993b4
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Post
+- entry: ಅಂಚೆಸಂಬಂಧಿ
+  defs:
+  - entry: Postal
+    type: n
+  id: postal_26f3b9c1e762
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Postal
+- entry: ಸ್ಥಳನಿಯುಕ್ತಿಗೊಂಡ
+  defs:
+  - entry: Posted
+    type: n
+  id: posted_08aba44fbf84
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Posted
+- entry: ಸ್ಥಳನಿಯುಕ್ತಿಗೊಳಿಸುವುದು
+  defs:
+  - entry: Posting
+    type: n
+  id: posting_8e7f6bbd2895
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Posting
+- entry: ಪೂರ್ವಪದ
+  defs:
+  - entry: Prefix
+    type: n
+  id: prefix_629c97405a4f
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Prefix
+- entry: ಉಲ್ಲೇಖಗಳು
+  defs:
+  - entry: Refferal
+    type: n
+  id: refferal_e1f6f3ec45f2
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Refferal
+- entry: ವಂದನೆಗಳು
+  defs:
+  - entry: Regards
+    type: n
+  id: regards_204a519ae8c2
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Regards
+- entry: ಮರುಭರಿಸು
+  defs:
+  - entry: Reload
+    type: n
+  id: reload_7e4b0126f1f7
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Reload
+- entry: ಮೂಡಿಸು
+  defs:
+  - entry: Render
+    type: n
+  id: render_616082b9ef6e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Render
+- entry: ಮೂಡಿಸಿದ
+  defs:
+  - entry: Rendered
+    type: n
+  id: rendered_773d337eccc7
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Rendered
+- entry: ಮೂಡಿಸುವುದು
+  defs:
+  - entry: Rendering
+    type: n
+  id: rendering_66b0d113156e
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Rendering
+- entry: ಹುಡುಕು
+  defs:
+  - entry: Search
+    type: n
+  id: search_c923af230fa3
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Search
+- entry: ಹುಡುಕಲಾಗುತ್ತಿದೆ
+  defs:
+  - entry: Searching
+    type: n
+  id: searching_19a41ac7f5c6
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Searching
+- entry: ಸೇವಾಕಟ್ಟೆ
+  defs:
+  - entry: Servicedesk
+    type: n
+  id: servicedes_829f01284bc8
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Servicedesk
+- entry: ಕಾರ್ಯಾವಧಿ
+  defs:
+  - entry: Session
+    type: n
+  id: session_12c7a2e08f7c
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Session
+- entry: ಹಾರಿಸಿಬಿಡು
+  defs:
+  - entry: Skip
+    type: n
+  id: skip_a14a94316bea
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Skip
+- entry: ಜಾಣ
+  defs:
+  - entry: Smart
+    type: n
+  id: smart_6c9f8dcdb1d1
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Smart
+- entry: ಪರಸ್ಪರ ವರ್ಗಾಯಿಸು
+  defs:
+  - entry: Switch
+    type: n
+  id: switch_e80495d8c0fb
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Switch
+- entry: ಕಿಟಕಿಪುಟ
+  defs:
+  - entry: Tab
+    type: n
+  id: tab_20c90dee9996
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Tab
+- entry: ಕಿಟಕಿಪುಟಗಳು
+  defs:
+  - entry: Tabs
+    type: n
+  id: tabs_cc1d672d8464
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Tabs
+- entry: ಸಿದ್ಧಮಾದರಿ
+  defs:
+  - entry: Template
+    type: n
+  id: template_1514964fa621
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Template
+- entry: ತೊನೆ
+  defs:
+  - entry: Toggle
+    type: n
+  id: toggle_2fba3cba9ec3
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Toggle
+- entry: ಪತ್ತೆಸೂಚಕ
+  defs:
+  - entry: Token
+    type: n
+  id: token_cee1b62a06f3
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Token
+- entry: ಜಾಡುಹಿಡಿ
+  defs:
+  - entry: Track
+    type: n
+  id: track_1843ae9264c3
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Track
+- entry: ಸಾರ್ವತ್ರಿಕ-ಸ್ವೀಕಾರಾರ್ಹತೆ-ಪರೀಕ್ಷೆ
+  defs:
+  - entry: Universal-Acceptance-Test
+    type: n
+  id: universala_874af4ea3ec2
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Universal-Acceptance-Test
+- entry: ನಿಲುಗಡೆತೆಗೆ
+  defs:
+  - entry: Unpark
+    type: n
+  id: unpark_96991091cac7
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Unpark
+- entry: ನಿಲುಗಡೆತೆಗೆಯಲಾದ,
+  defs:
+  - entry: Unparked
+    type: n
+  id: unparked_1f712916b469
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Unparked
+- entry: ಇಂತೇದಿಸು
+  defs:
+  - entry: Update
+    type: n
+  id: update_37d314b4f751
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Update
+- entry: ನಕಲೇರಿಸು
+  defs:
+  - entry: Upload
+    type: n
+  id: upload_0f0a5693d900
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Upload
+- entry: ಅನನ್ಯ ಜಾಲ ವಿಳಾಸ ಪತ್ತೆಕಾರ
+  defs:
+  - entry: Url
+    type: n
+  id: url_954f192bb047
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Url
+- entry: ಕಿಟಕಿ
+  defs:
+  - entry: Window
+    type: n
+  id: window_b14d0fe13aa6
+  source: ಇ-ಆಡಳತ_ಪದರಚನ_ಸಮತಯಲಲ_ಅನಮದನಗಡ_ಪದಗಳ_ಇಗ
+  dict_title: ಇ-ಆಡಳಿತ ಪದರಚನ ಸಮತೆಯಲ್ಲಿ ಅನುಮೋದನಗೊಂಡ ಪದಗಳು | ಇಂಗ್ಲೀಷ್
+  head: Window

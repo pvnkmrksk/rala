@@ -1,0 +1,80 @@
+- entry: ನಟಿಸು, ಅಭಿನಯಿಸು
+  defs:
+  - entry: Act
+    type: n
+  id: act_dbb4948cf3bc
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Act
+- entry: ಅಭಿನಯ, ಅಭಿನಯಿಸುವುದು
+  defs:
+  - entry: Acting
+    type: n
+  id: acting_cdc2f68ca926
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Acting
+- entry: 'ಅಭಿನಯ : ಕ್ರಿಯೆ'
+  defs:
+  - entry: Action
+    type: n
+  id: action_4fc3ee9f6a5a
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Action
+- entry: ನಟ
+  defs:
+  - entry: Actor
+    type: n
+  id: actor_8a11e03f7ead
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Actor
+- entry: ನಟಿ
+  defs:
+  - entry: Actress
+    type: n
+  id: actress_fc23947fd224
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Actress
+- entry: ವಾಸ್ತವಿಕ
+  defs:
+  - entry: Actual
+    type: n
+  id: actual_d716315de08b
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Actual
+- entry: ಅಳವಡಿಕೆ
+  defs:
+  - entry: Adaptation
+    type: n
+  id: adaptation_7e8e017f822e
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Adaptation
+- entry: ನಿಪುಣ
+  defs:
+  - entry: Adept
+    type: n
+  id: adept_7568e70bdf78
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Adept
+- entry: ಶೃಂಗಾರ, ಅಲಂಕಾರ
+  defs:
+  - entry: Adornment
+    type: n
+  id: adornment_db58530f6a1e
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Adornment
+- entry: ಜಾಹೀರಾತು
+  defs:
+  - entry: Advertisement
+    type: n
+  id: advertisem_484e98e00e26
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ಚಲನಚತರ_ಅಭವದಧ_ನಗಮ__ಇಗಲ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ಚಲನಚಿತ್ರ ಅಭಿವೃದ್ಧಿ ನಿಗಮ | ಇಂಗ್ಲೀಷ್
+  head: Advertisement
