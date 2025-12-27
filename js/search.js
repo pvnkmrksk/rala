@@ -144,6 +144,8 @@ function searchDirect(query) {
                             type: def.type,
                             head: entry.head,
                             id: entry.id,
+                            dict_title: entry.dict_title,
+                            source: entry.source,
                             matchedWord: matchedWord,
                             matchType: 'wildcard'
                         });
@@ -278,6 +280,8 @@ function searchDirect(query) {
                                 type: def.type,
                                 head: entry.head,
                                 id: entry.id,
+                                dict_title: entry.dict_title,
+                                source: entry.source,
                                 matchedWord: wildcardLower,
                                 matchType: 'exact-phrase'
                             });

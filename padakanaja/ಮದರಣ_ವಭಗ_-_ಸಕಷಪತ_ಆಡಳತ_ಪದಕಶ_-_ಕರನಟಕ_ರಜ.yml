@@ -1,0 +1,714 @@
+- entry: ಏರ್‌ ಸಕ್ಕರ್ಸ್
+  defs:
+  - entry: Air Succures
+    type: n
+  id: airsuccure_56f1237ea09a
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Air Succures
+- entry: ಬೈಂಡ್‌ ಮಾಡುವುದು, ರಟ್ಟುಹಾಕುವುದು
+  defs:
+  - entry: Binding
+    type: n
+  id: binding_b17f240e58d7
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Binding
+- entry: ಪಡಿಯಚ್ಚು ಬ್ಲಾಕ್‌
+  defs:
+  - entry: Block
+    type: n
+  id: block_0b0eaa82684b
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Block
+- entry: ಅಂಚು, ಸೆರಗು, ಬಾರ್ಡರ್ಸ್
+  defs:
+  - entry: Borders
+    type: n
+  id: borders_e2c485afdd27
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Borders
+- entry: ಬೋರ್ಡ್‌, ಹಲಗೆ, ಮಣೆ
+  defs:
+  - entry: Board
+    type: n
+  id: board_d8f373d330a2
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Board
+- entry: ಸ್ಪಚ್ಛಗೊಳಿಸುವುದು, ಶುಭ್ರಗೊಳಿಸುವುದು, ಕ್ಲೀನಿಂಗ್‌
+  defs:
+  - entry: Cleaning
+    type: n
+  id: cleaning_39bcf8755548
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cleaning
+- entry: ಲೇಪನ
+  defs:
+  - entry: Coating
+    type: n
+  id: coating_88dff9907332
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Coating
+- entry: ಅಚ್ಚುಮೊಳೆ
+  defs:
+  - entry: Composing
+    type: n
+  id: composing_964afd934b4f
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Composing
+- entry: ಕಂಪ್ರೆಸ್ಸಿಂಗ್‌, ಸಂಪೀಡನ, ಅಡಕಗೊಳಿಸುವುದು, ಕುಗ್ಗಿಸುವುದು
+  defs:
+  - entry: Compressing
+    type: n
+  id: compressin_fa23a6ccf392
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Compressing
+- entry: ತಿರುಗಿಸುವುದು, ತಿರುಗುವುದು, ಪರಿವರ್ತನೆ
+  defs:
+  - entry: Conversion
+    type: n
+  id: conversion_48eec66ab2f3
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Conversion
+- entry: ಸರಿಸ್ಪರ್ಶ, ತಗುಲಿಕೆ, ತಾಗು, ಸೇರಿಕೆ, ಕಾಂಟ್ಯಾಂಕ್ಟಿಂಗ್‌
+  defs:
+  - entry: Contacting
+    type: n
+  id: contacting_62214523d250
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Contacting
+- entry: ಕ್ರೀಸಿಂಗ್‌, ಮಡಿಕೆ, ನಿರಿಗೆ, ಸುಕ್ಕು ಆಗುವುದು
+  defs:
+  - entry: Creasing
+    type: n
+  id: creasing_59e25c18a0bf
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Creasing
+- entry: ಕಟ್‌ ಅಂಡ್‌ ಪೇಸ್ಟ್‌, ಒಂದು ಕಡೆಯಿಂದ ತಂದು ಇನ್ನೊಂದು ಕಡೆ ಅಳವಡಿಸುವುದು
+  defs:
+  - entry: Cut and Paste
+    type: n
+  id: cutandpast_0d6c2bad72f5
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cut and Paste
+- entry: ಸಿಲಿಂಡರಿಂಗ್‌
+  defs:
+  - entry: Cylindering
+    type: n
+  id: cylinderin_73838fc5635e
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cylindering
+- entry: ಸಿಲಿಂಡರ್‌
+  defs:
+  - entry: Cylinder
+    type: n
+  id: cylinder_309b748a2d41
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cylinder
+- entry: ತೇವತಟ್ಟುವುದು, ಆರ್ದ್ರತೆ
+  defs:
+  - entry: Dampening
+    type: n
+  id: dampening_1bdb2bac9928
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Dampening
+- entry: ಕೆಟ್ಟು ಹೋಗುವುದು, ಹಾನಿಹೊಂದು, ಮುರಿ
+  defs:
+  - entry: Damage
+    type: n
+  id: damage_008fede85916
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Damage
+- entry: ವಿನ್ಯಾಸ
+  defs:
+  - entry: Designing
+    type: n
+  id: designing_ddb6bbcb1fc1
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Designing
+- entry: ಡೆವಲಪಿಂಗ್‌, ಸ್ಫುಟಗೊಳಿಸು, ವರ್ಧಿಸು
+  defs:
+  - entry: Developing
+    type: n
+  id: developing_608d8c4c74c0
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Developing
+- entry: ಡಿಜಿಟಲ್‌
+  defs:
+  - entry: Digital
+    type: n
+  id: digital_fe9ce863819f
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Digital
+- entry: ಹಾಲಿನ ರಚನೆವುಳ್ಳ ಎಮಲ್ಷನ್‌
+  defs:
+  - entry: Emulsion
+    type: n
+  id: emulsion_b6b2db582800
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Emulsion
+- entry: ವಿಸ್ತಾರಗೊಳಿಸುವುದು, ವಿಸ್ತರಣೆ, ದೊಡ್ಡದು ಮಾಡುವುದು
+  defs:
+  - entry: Enlarging
+    type: n
+  id: enlarging_f83338c909b7
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Enlarging
+- entry: ನಕಾಸೆ ಕೆತ್ತು, ರೇಖಿಸು, ಎಂಗ್ರೇವಿಂಗ್‌
+  defs:
+  - entry: Engraving
+    type: n
+  id: engraving_c36711cf966e
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Engraving
+- entry: ಕೊರೆಯುವುದು, ಕೆತ್ತುವುದು, ಪ್ರತಿರೂಪ ತಯಾರಿಸು, ಎಚಿಂಗ್‌
+  defs:
+  - entry: Etching
+    type: n
+  id: etching_9cfb49d56be5
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Etching
+- entry: ಎಕ್ಸ್ ಪೋಸಿಂಗ್‌; ಬೆಳಕಿಗೆ ಒಡ್ಡು, ಬಹಿರಂಗಪಡಿಸು
+  defs:
+  - entry: Exposing
+    type: n
+  id: exposing_4dbfc40db23d
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Exposing
+- entry: ಪೂರ್ಣಗೊಳಿಸು, ಓರಣಗೊಳಿಸು, ಫಿನಿಷಿಂಗ್‌
+  defs:
+  - entry: Finishing
+    type: n
+  id: finishing_7c75467fc59f
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Finishing
+- entry: ಆಚ್ಚುಮೊಳೆ, ಫಾಂಟುಗಳು
+  defs:
+  - entry: Fonts
+    type: n
+  id: fonts_cbd5504af898
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fonts
+- entry: ನಮೂನೆಗಳು
+  defs:
+  - entry: Forms
+    type: n
+  id: forms_2af53cb940c3
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Forms
+- entry: ಹಿ೦ಬಳಿತ ಬೆನ್ನುಲೇಪ, ತಗಡು ಹೊದಿಸು
+  defs:
+  - entry: Foiling
+    type: n
+  id: foiling_c23d5d716c7a
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Foiling
+- entry: ಮಡಚುವುದು
+  defs:
+  - entry: Folding
+    type: n
+  id: folding_6061db001aaf
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Folding
+- entry: ಮಸಿಕೊಳವೆ, ಬುಡ್ಡಿ ನೀರು ಬುಗ್ಗೆ, ಚಿಲುಮೆ, ಫೌಂಟೇನ್‌
+  defs:
+  - entry: Fountaining
+    type: n
+  id: fountainin_fb7169281b72
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fountaining
+- entry: ಗ್ರೇಸ್ಕೇಲ್‌
+  defs:
+  - entry: Gray Scale
+    type: n
+  id: grayscale_16b7e3db4e5c
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Gray Scale
+- entry: ಗ್ರವ್ಯುರ್‌
+  defs:
+  - entry: Gravure
+    type: n
+  id: gravure_57a208449271
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Gravure
+- entry: ತೂಗುಹಾಕುವುದು, ತಗಲುಹಾಕುವುದು, ಇಳಿಬಿದ್ದಿರುವುದು
+  defs:
+  - entry: Hanging
+    type: n
+  id: hanging_354826c56695
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Hanging
+- entry: ಗಂಟುಹಾಕುವುದು, ನಾಟಿಂಗ್‌
+  defs:
+  - entry: Knoting
+    type: n
+  id: knoting_37a53f69f4f8
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Knoting
+- entry: ಮುದ್ರೆಗಳು
+  defs:
+  - entry: Impressions
+    type: n
+  id: impression_8dfc4c1ea5f6
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Impressions
+- entry: ಚಿತ್ರ / ದೃಶ್ಯಮಿಶ್ರಣ
+  defs:
+  - entry: Image mixing
+    type: n
+  id: imagemixin_8e78367bc450
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Image mixing
+- entry: ಇಮೇಜ್‌ ಸೆಟರ್‌
+  defs:
+  - entry: image setter
+    type: n
+  id: imagesette_3a0bdf08bcd4
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: image setter
+- entry: ಚಿತ್ರಗಳು, ಸಂಕೇತ, ಬಿಂಬ, ದೃಶ್ಯ
+  defs:
+  - entry: Images
+    type: n
+  id: images_fcab815c0bda
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Images
+- entry: ಪುಟವಿನ್ಯಾಸ
+  defs:
+  - entry: Imposing
+    type: n
+  id: imposing_6e653b84594b
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Imposing
+- entry: ಇಂಕ್‌ಡಕ್ಟ್
+  defs:
+  - entry: Ink duct
+    type: n
+  id: inkduct_55958fd0630d
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ink duct
+- entry: ಶಾಯಿ, ಮಸಿ, ಇಂಕ್‌
+  defs:
+  - entry: Ink
+    type: n
+  id: ink_35eb689eac9c
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ink
+- entry: ಇಂಚಿಂಗ್‌
+  defs:
+  - entry: Inching
+    type: n
+  id: inching_298041a16120
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Inching
+- entry: ಆಹ್ವಾನ, ಕೋರಿಕೆ
+  defs:
+  - entry: Invitation
+    type: n
+  id: invitation_9ec091911597
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Invitation
+- entry: ಜಾಗಿಂಗ್‌
+  defs:
+  - entry: Jogging
+    type: n
+  id: jogging_c9ac7f435ef1
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Jogging
+- entry: ಗುರುತುಚೀಟಿ, ಲೇಬಲ್‌
+  defs:
+  - entry: Labels
+    type: n
+  id: labels_aad97bf60884
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Labels
+- entry: ವಿನ್ಯಾಸ, ಲೇಔಟ್‌
+  defs:
+  - entry: Layout
+    type: n
+  id: layout_17da739cb510
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Layout
+- entry: ಪದರ ರಚನೆ, ಪ್ಲಾಸ್ಟಿಕ್‌ ಹೊದಿಕೆ, ಲ್ಯಾಮಿನೇಷನ್
+  defs:
+  - entry: Lamination
+    type: n
+  id: lamination_d5b7d44ceb6b
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Lamination
+- entry: ಅಚ್ಚುಮೊಳೆಗಳು, ಅಕ್ಷರಗಳು, ಪತ್ರಗಳು
+  defs:
+  - entry: Letters
+    type: n
+  id: letters_c11b8966e4ab
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Letters
+- entry: ಲೆಟರ್ ಪ್ರೆಸ್
+  defs:
+  - entry: Letter press
+    type: n
+  id: letterpres_a63268b54f3c
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Letter press
+- entry: ಎತ್ತುವುದು, ಮೇಲಕ್ಕೆತ್ತುವುದು
+  defs:
+  - entry: Lifting
+    type: n
+  id: lifting_c377f7b256d2
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Lifting
+- entry: ಶಿಲಾಮುದ್ರಣ
+  defs:
+  - entry: Lithography
+    type: n
+  id: lithograph_1ad66d34ef99
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Lithography
+- entry: ಅಂಚು, ಸೀಮೆ
+  defs:
+  - entry: Margin
+    type: n
+  id: margin_20e0bc3f1545
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Margin
+- entry: ಮೇಕ್ ರೆಡಿ
+  defs:
+  - entry: Make ready
+    type: n
+  id: makeready_98120f730fd1
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Make ready
+- entry: ಮಾನ, ಪರಿಮಾಣ, ಅಳತೆ
+  defs:
+  - entry: Measurement
+    type: n
+  id: measuremen_f312e6cb8904
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Measurement
+- entry: ಮಾಧ್ಯಮ, ವಾಹಕ ಸಾಧನ
+  defs:
+  - entry: Medium
+    type: n
+  id: medium_f1cc769b140d
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Medium
+- entry: ಮಿಶ್ರಣ ಬೆರೆಸುವುದು, ಮಿಕ್ಸಿಂಗ್‌
+  defs:
+  - entry: Mixing
+    type: n
+  id: mixing_53018f3fc375
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Mixing
+- entry: ಮಬ್ಬಾದ, ಮಸುಕಾದ, ಅಪಾರದರ್ಶಕ
+  defs:
+  - entry: Opaque
+    type: n
+  id: opaque_6273c57615e8
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Opaque
+- entry: ಆಫ್ಸೆಟ್‌, ಪ್ರತಿ, ಮುದ್ರಣ
+  defs:
+  - entry: Offset
+    type: n
+  id: offset_b10033ce1807
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Offset
+- entry: ಕಟ್ಟುವುದು, ಪ್ಯಾಕ್ ಮಾಡುವುದು
+  defs:
+  - entry: Packing
+    type: n
+  id: packing_6f1551e82714
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Packing
+- entry: ಕಾಗದ
+  defs:
+  - entry: Paper
+    type: n
+  id: paper_1cadf1a94daf
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Paper
+- entry: ಪುಟಗಳು
+  defs:
+  - entry: Pages
+    type: n
+  id: pages_9d8427811692
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Pages
+- entry: ಪೇಸ್ಟ್ ಅಪ್‌
+  defs:
+  - entry: Paste-up
+    type: n
+  id: pasteup_8ff32dce0217
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Paste-up
+- entry: ಸುಲಿಯುವುದು, ತೆಗೆದುಹಾಕುವುದು
+  defs:
+  - entry: Peeling
+    type: n
+  id: peeling_e23e646f8292
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Peeling
+- entry: ಗಟ್ಟಿ ಮಾಡಿದ, ಶುದ್ಧ, ಪರ್‌ಫೆಕ್ಟ್
+  defs:
+  - entry: Perfect
+    type: n
+  id: perfect_ae51d1ccc156
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Perfect
+- entry: ಹಲಗೆಗಳು, ಫಲಕಗಳು, ಪ್ಲೇಟುಗಳು
+  defs:
+  - entry: Plates
+    type: n
+  id: plates_0a340c68800f
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Plates
+- entry: ಪಾಸಿಟಿವ್ಸ್
+  defs:
+  - entry: Positives
+    type: n
+  id: positives_9b5151de5e50
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Positives
+- entry: ಪೂರ್ವ ಮುದ್ರಣ / ಮೊದಲೇ ಮುದ್ರಿಸಿದ
+  defs:
+  - entry: Pre-printed
+    type: n
+  id: preprinted_2390c993ee27
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Pre-printed
+- entry: ಉತ್ಪತ್ತಿ, ಉತ್ಪನ್ನ, ಪ್ರೊಡಕ್ಷನ್‌
+  defs:
+  - entry: Production
+    type: n
+  id: production_3dcd6fadde42
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Production
+- entry: ಪ್ರೆಸ್ಸಿಂಗ್‌, ಒತ್ತುವುದು, ಅಚ್ಚೊತ್ತುವುದು
+  defs:
+  - entry: Pressing
+    type: n
+  id: pressing_9a6a4d495bce
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Pressing
+- entry: ಪ್ರೊಸೆಸಿಂಗ್‌ / ಮಂಡಿಸುವುದು
+  defs:
+  - entry: Processing
+    type: n
+  id: processing_27d2cc44694b
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Processing
+- entry: ಪ್ರೊಸೆಸರ್‌ / ಮಂಡಿಸುವವ
+  defs:
+  - entry: Processor
+    type: n
+  id: processor_72a9b13d045d
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Processor
+- entry: ಕರಡಚ್ಚು, ಪ್ರೂಫಿಂಗ್‌
+  defs:
+  - entry: Proofing
+    type: n
+  id: proofing_bc8315caca50
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Proofing
+- entry: ಖರೀದಿ ಕೋರಿಕೆ
+  defs:
+  - entry: Purchase order
+    type: n
+  id: purchaseor_75a2f9c6f892
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Purchase order
+- entry: ಪಂಚ್‌ ಮಾಡುವುದು, ರಂಧ್ರ ಮಾಡುವುದು
+  defs:
+  - entry: Punching
+    type: n
+  id: punching_2e7f18645679
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Punching
+- entry: ಕಚ್ಚಾ ವಸ್ತುಗಳು / ಸಾಮಗ್ರಿಗಳು
+  defs:
+  - entry: Raw materials
+    type: n
+  id: rawmateria_c4b0c4ea0712
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Raw materials
+- entry: ಅಚ್ಚಿನ ಹೊಂದಿಕೆ ಗುರುತು, ಹೊಂದಾವಣೆ ಗುರುತು, ರಿಜಿಸ್ಟರ್‌ ಮಾರ್ಕ್‌
+  defs:
+  - entry: Register mark
+    type: n
+  id: registerma_41a9939e46ff
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Register mark
+- entry: ಇಳಿಕೆ, ಕಡಿತ
+  defs:
+  - entry: Reduction
+    type: n
+  id: reduction_d2029048de66
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Reduction
+- entry: ಪುನರ್‌ ಮುದ್ರಣ
+  defs:
+  - entry: Re-printing
+    type: n
+  id: reprinting_8d9b610c037f
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Re-printing
+- entry: ತಿರುಗುವುದು, ಆವರ್ತ, ಸರದಿ, ರೊಟೇಟಿಂಗ್‌ ಪೀಲಿಂಗ್‌
+  defs:
+  - entry: Rotating
+    type: n
+  id: rotating_f91da26a29f0
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rotating
+- entry: ಉರುಳೆಯಂತ್ರ, ಆವರ್ತಕ, ರೋಟರಿ
+  defs:
+  - entry: Rotary
+    type: n
+  id: rotary_7aebe0875d5b
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rotary
+- entry: ಗೆರೆಹಾಕುವುದು, ರೂಲಿಂಗ್‌
+  defs:
+  - entry: Ruling
+    type: n
+  id: ruling_e80ce4778ce5
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ruling
+- entry: ತೆರೆ, ಫಲಕ, ಪರದೆ, ಸ್ಕ್ರೀನ್
+  defs:
+  - entry: Screen
+    type: n
+  id: screen_a1418928c8c7
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Screen
+- entry: ಸ್ಕ್ರೀನಿಂಗ್‌
+  defs:
+  - entry: Screening
+    type: n
+  id: screening_d92ecd8480b9
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Screening
+- entry: ಅಳತೆ ಪಟ್ಟಿ, ಸ್ಕೇಲ್‌
+  defs:
+  - entry: Scale
+    type: n
+  id: scale_011fe8a0c82d
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Scale
+- entry: ಸೂಕ್ಷ್ಮ ಗ್ರಾಹಿ, ಸೂಕ್ಷ್ಮ
+  defs:
+  - entry: Sensitive
+    type: n
+  id: sensitive_b6c112e3c401
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sensitive
+- entry: ವಿಭಾಗ /ಖಂಡ, ಸೆಕ್ಷನ್ಸ್
+  defs:
+  - entry: Sections
+    type: n
+  id: sections_de1ce2d3c245
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sections
+- entry: ಚೂಪು, ಮೊನಚು
+  defs:
+  - entry: Sharp
+    type: n
+  id: sharp_60ab8e878a3d
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sharp
+- entry: ಹಾಳೆಗಳು, ತಗಡು
+  defs:
+  - entry: Sheets
+    type: n
+  id: sheets_bc929106bfe9
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sheets
+- entry: ವೇಗ, ರಭಸ, ಶೀಘ್ರತೆ
+  defs:
+  - entry: Speed
+    type: n
+  id: speed_bf3fc2188578
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Speed
+- entry: ಸ್ಟೆಪ್‌ ಆಂಡ್‌ ರಿಪೀಟ್‌
+  defs:
+  - entry: Step and repeat
+    type: n
+  id: stepandrep_7e001e44329e
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Step and repeat
+- entry: ಲೇಖನ ಸಾಮಗ್ರಿ
+  defs:
+  - entry: Stationery
+    type: n
+  id: stationery_948164978c15
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stationery
+- entry: ಹೊಲಿಯುವುದು
+  defs:
+  - entry: Stitching
+    type: n
+  id: stitching_d8b71e5696f1
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stitching
+- entry: ಸುಂದರ ಪುಟ ವಿನ್ಯಾಸ
+  defs:
+  - entry: Super Imposing
+    type: n
+  id: superimpos_e4b650254e3f
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Super Imposing
+- entry: ಹೊರಭಾಗ, ಮೇಲ್ಮೈ, ಫಲಕ
+  defs:
+  - entry: Surface
+    type: n
+  id: surface_e8b546d5f8d2
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Surface
+- entry: ಸರಬರಾಜು ಕೋರಿಕೆ
+  defs:
+  - entry: Supply order
+    type: n
+  id: supplyorde_b0157d946e21
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Supply order
+- entry: ಟಾರ್ಗೆಟ್‌ ಮಾಸ್ಕ್‌
+  defs:
+  - entry: Target mask
+    type: n
+  id: targetmask_9843328dcf08
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Target mask
+- entry: ಕಟ್ಟುವುದು, ಬಿಗಿಯುವುದು ಭದ್ರಪಡಿಸುವುದು, ಟೈಯಿಂಗ್‌
+  defs:
+  - entry: Tieing
+    type: n
+  id: tieing_8163a7885457
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tieing
+- entry: ಟ್ರಿಮ್ಮಿಂಗ್‌
+  defs:
+  - entry: Trimming
+    type: n
+  id: trimming_0cdcee8fd435
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Trimming
+- entry: ಅಚ್ಚುಮೊಳೆ, ಟೈಪು
+  defs:
+  - entry: Types
+    type: n
+  id: types_955f666274e9
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Types
+- entry: ಕಾರ್ಯಾದೇಶ, ಕೆಲಸ ಮಾಡಲು
+  defs:
+  - entry: Work order
+    type: n
+  id: workorder_d2fd93a81793
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Work order
+- entry: ಜಾಲ, ಬಲೆ, ಪೊರೆ, ವೆಬ್‌
+  defs:
+  - entry: Web
+    type: n
+  id: web_4c79de2daa2b
+  source: ಮದರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Web

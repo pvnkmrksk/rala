@@ -1,0 +1,1246 @@
+- entry: ಲಂಗರುಹಾಕುವುದು, ದೃಢವಾಗಿ ಬಂಧಿಸು, ಆಂಕರಿಂಗ್‌
+  defs:
+  - entry: Anchoring
+    type: n
+  id: anchoring_8105a348119a
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Anchoring
+- entry: ಡಾಂಬರು ಹಾಕುವುದು
+  defs:
+  - entry: Asphalting
+    type: n
+  id: asphalting_af40e7cdc68b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Asphalting
+- entry: ಕಲ್ನಾರು, ಅಸ್ಬೆಸ್ಟೋಸ್‌
+  defs:
+  - entry: Asbestos
+    type: n
+  id: asbestos_eda292e431ee
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Asbestos
+- entry: ಅಗ್ನಿಶಿಲೆ, ಕಪ್ಪು ಪಿಂಗಾಣಿ ಮಣ್ಣು, ಬಸಾಲ್ಟ್
+  defs:
+  - entry: Basalt
+    type: n
+  id: basalt_5fce0ba2a0c1
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Basalt
+- entry: ತಳಮನೆ, ಮೇಲ್ಪಾಯ, ಕಟ್ಟಡ ತಳಹದಿ, ಬೇಸ್‌ಮೆಂಟ್‌
+  defs:
+  - entry: Basement
+    type: n
+  id: basement_4cd341c44998
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Basement
+- entry: ಬೇಯಲಿಂಗ್‌
+  defs:
+  - entry: Bailing
+    type: n
+  id: bailing_eeec8b3a7f9f
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bailing
+- entry: ಬಾಲ್‌ ವಾಲ್ವ್
+  defs:
+  - entry: Ball valve
+    type: n
+  id: ballvalve_245ee3350e03
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Ball valve
+- entry: ಬೀಮುಗಳು / ತೊಲೆಗಳು
+  defs:
+  - entry: Beams
+    type: n
+  id: beams_f168b2548abb
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Beams
+- entry: ಮಟ್ಟದ ಗುರುತು, ಒರೆಗಲ್ಲು, ಮಾನದಂಡ
+  defs:
+  - entry: Benchmarking
+    type: n
+  id: benchmarki_42dc4b78b176
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Benchmarking
+- entry: ಬಗ್ಗಿಸು, ಬಗ್ಗು, ತಿರುಗು, ಬೆಂಡಿಂಗ್‌
+  defs:
+  - entry: Bending
+    type: n
+  id: bending_2762b6c10230
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bending
+- entry: ಮಣಿಗೆಲಸ, ಬೀಡಿಂಗ್‌
+  defs:
+  - entry: Beading
+    type: n
+  id: beading_2cf9ae9211ed
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Beading
+- entry: ಬೆಂಡುಗಳು
+  defs:
+  - entry: Bends
+    type: n
+  id: bends_dede9e41088a
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bends
+- entry: ಬಿಗಿಸುವ ತಂತಿ, ಕಟ್ಟುವ ತಂತಿ, ಬೈಂಡಿಂಗ್‌ ವೈರ್‌
+  defs:
+  - entry: Binding wire
+    type: n
+  id: bindingwir_3805ac80426f
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Binding wire
+- entry: ಡಾಂಬರು ಬಿಟುಮೆನ್‌
+  defs:
+  - entry: Bitumen
+    type: n
+  id: bitumen_938c8489f88c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bitumen
+- entry: ಡಾಂಬರಿನ ಮೇಲ್ಮೈ / ಕ್ಷೇತ್ರ
+  defs:
+  - entry: Bitumen surface
+    type: n
+  id: bitumensur_b4fffc0976c5
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bitumen surface
+- entry: ಬಿಬ್‌ ಕಾಕ್‌
+  defs:
+  - entry: Bib cock
+    type: n
+  id: bibcock_6fbe8f6c96d3
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bib cock
+- entry: ಸಿಡಿಸುವುದು, ಊದುವುದು, ಬ್ಲಾಸ್ಟಿಂಗ್‌
+  defs:
+  - entry: Blasting
+    type: n
+  id: blasting_d068923da9eb
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Blasting
+- entry: ಪಡಿಯಚ್ಚು, ಬ್ಲಾಕ್‌
+  defs:
+  - entry: Block
+    type: n
+  id: block_c874bc4c7d96
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Block
+- entry: ಹಿಡಿಗಲ್ಲು, ಬಾಂಡ್‌ಸ್ಲ್ಯಾಬ್‌
+  defs:
+  - entry: Bond slab
+    type: n
+  id: bondslab_75cae2ccf8bf
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bond slab
+- entry: ಗುಂಡುಕಲ್ಲುಗಳು, ಉಂಡೆ ಗಲ್ಲುಗಳು,
+  defs:
+  - entry: Boulders
+    type: n
+  id: boulders_d6fae0c09396
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Boulders
+- entry: ಚಾಚುಪೀಠ, ಕಂಸ, ಬ್ರಾಕೆಟ್‌
+  defs:
+  - entry: Bracket
+    type: n
+  id: bracket_b4a3b4110996
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Bracket
+- entry: ಇಟ್ಟಿಗೆ
+  defs:
+  - entry: Brick
+    type: n
+  id: brick_5f8b91b235c8
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Brick
+- entry: ಮೇಲ್ಕಟ್ಟುಗಳು, ಚಾಚುಭಾಗ, ಕ್ಯಾನೋಪಿಗಳು
+  defs:
+  - entry: Canopies
+    type: n
+  id: canopies_b04dce6dc1c2
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Canopies
+- entry: ಎರಕ ಹೊಯ್ಯುವುದು, ಅಚ್ಚು, ರೂಫು, ಕ್ಯಾಸ್ಟಿಂಗ್‌
+  defs:
+  - entry: Casting
+    type: n
+  id: casting_0de8dc49e8bf
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Casting
+- entry: ಸಿಮೆಂಟು
+  defs:
+  - entry: Cement
+    type: n
+  id: cement_c39cd556bcb3
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Cement
+- entry: ಸಿಮೆಂಟ್‌ ಮಾರ್ಟರ್‌, ಸಿಮೆಂಟು ಗಾರೆ
+  defs:
+  - entry: Cement Morter (C.M)
+    type: n
+  id: cementmort_3b7edb0cdbf6
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Cement Morter (C.M)
+- entry: ಸಿಮೆಂಟ್‌ ಕಾಂಕ್ರೀಟು
+  defs:
+  - entry: Cement Concrete (C.C.)
+    type: n
+  id: cementconc_5440f39249d4
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Cement Concrete (C.C.)
+- entry: ಊರೆಕಟ್ಟು, ಚೌಕಟ್ಟು ಸೆಂಟ್ರಿಂಗ್‌
+  defs:
+  - entry: Centering
+    type: n
+  id: centering_8843ce535af1
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Centering
+- entry: ಛಾವಣಿಯ ಒಳಮೈ, ಒಳಮಾಳಿಗೆ,
+  defs:
+  - entry: Ceiling
+    type: n
+  id: ceiling_7a0e3742aa54
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Ceiling
+- entry: ಉಳಿಯಿಂದ ಕೆತ್ತುವುದು, ಉಳಿಗೆಲಸ ಮಾಡುವುದು
+  defs:
+  - entry: Chistling
+    type: n
+  id: chistling_f39479efdb44
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Chistling
+- entry: ಚಾಂಫರಿಂಗ್‌
+  defs:
+  - entry: Chamfering
+    type: n
+  id: chamfering_303ff62484a9
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Chamfering
+- entry: ಚಜ್ಜಾಗಳು
+  defs:
+  - entry: Chajjas
+    type: n
+  id: chajjas_f960df67c3d6
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Chajjas
+- entry: ಸಿಲ್‌ಗಳು
+  defs:
+  - entry: Cills
+    type: n
+  id: cills_dd656b3aa1e6
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Cills
+- entry: ಜೇಡಿಮಣ್ಣು, ಕ್ಲೇ
+  defs:
+  - entry: Clay
+    type: n
+  id: clay_40de6844729f
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Clay
+- entry: ಶೌಚಾಗಾರ, ಗೂಡು, ಕಪಾಟು, ಕ್ಲಾಸೆಟ್‌
+  defs:
+  - entry: Closet
+    type: n
+  id: closet_1e1eac3e5969
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Closet
+- entry: ಲೇಪ, ಬಳಿತ, ಕೋಟ್‌
+  defs:
+  - entry: Coat
+    type: n
+  id: coat_33fbb0fe8578
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Coat
+- entry: ಆವರಣ ಗೋಡೆ, ಸುತ್ತು ಗೋಡೆ
+  defs:
+  - entry: Compound Wall
+    type: n
+  id: compoundwa_41fa1b07a743
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Compound Wall
+- entry: ಕಾಂಪೌಡ್‌
+  defs:
+  - entry: Compound
+    type: n
+  id: compound_0bc7ac502990
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Compound
+- entry: ಕಾಂಕ್ರೀಟು
+  defs:
+  - entry: Concrete
+    type: n
+  id: concrete_2b0be49bf638
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Concrete
+- entry: ಕೊಪಿಂಗ್‌
+  defs:
+  - entry: Coping
+    type: n
+  id: coping_b16388a2b2ca
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Coping
+- entry: ರಿಇನ್‌ಪೋರ್ಸ್ಡ್ ಸಿಮೆಂಟ್‌ ಕಾಂಕ್ರೀಟು (ಆರ್‌ಸಿಸಿ)
+  defs:
+  - entry: Concrete (RCC)
+    type: n
+  id: concreterc_1d5fd48d74ae
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Concrete (RCC)
+- entry: ಕಾಂಕ್ರಿಟ್‌ ಹಾಕುವದು, ಕಾಂಕ್ರೀಟಿಂಗ್‌
+  defs:
+  - entry: Concreting
+    type: n
+  id: concreting_f194667389ea
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Concreting
+- entry: ಕಾಲರುಗಳು
+  defs:
+  - entry: Collars
+    type: n
+  id: collars_114af5ce68e9
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Collars
+- entry: ಕಂಬ, ಅಂಕಣ, ಕಾಲಮ್‌
+  defs:
+  - entry: Column
+    type: n
+  id: column_71aa9b1fd728
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Column
+- entry: ಅಡಿಗಾಲುವೆ, ನೀರ್ಗೊಳವೆ, ಕಲ್ವರ್ಟ್‌
+  defs:
+  - entry: Culvert
+    type: n
+  id: culvert_cab9c39f8370
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Culvert
+- entry: ಒಣಗಿಸುವುದು, ಗಟ್ಟಿಯಾಗುವಂತೆ ಮಾಡುವುದು, ಕ್ಯೂರಿಂಗ್‌
+  defs:
+  - entry: Curing
+    type: n
+  id: curing_9d4f2cff763d
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Curing
+- entry: ಕತ್ತರಿಸುವುದು, ಚೂರು ಮಾಡುವುದು, ಕಟಿಂಗ್
+  defs:
+  - entry: Cutting
+    type: n
+  id: cutting_82746f5201ee
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Cutting
+- entry: ಬಾಗಿಲು, ದ್ವಾರ, ಮಾರ್ಗ
+  defs:
+  - entry: Door
+    type: n
+  id: door_3d8c7376a75c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Door
+- entry: ಅಗೆತದ ಕೆಲಸ
+  defs:
+  - entry: Earth work
+    type: n
+  id: earthwork_fb801f8b6bbf
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Earth work
+- entry: ಮೊಣಕೈ ಆಕಾರದ ಮೂಲೆಗಳು, ಎಲ್ಬೋಗಳು
+  defs:
+  - entry: Elbows
+    type: n
+  id: elbows_402e6fb9957b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Elbows
+- entry: ನೆಡ್ತು ನಾಟು, ಹೂಳು ಭದ್ರವಾಗಿ ಹಿಡಿದ, ಎಂಬಿಡೆಡ್‌
+  defs:
+  - entry: Embedded
+    type: n
+  id: embedded_2e595caf9d45
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Embedded
+- entry: ಗಾಜುಲೇಪ, ಎನಾಮೆಲ್‌
+  defs:
+  - entry: Enamel
+    type: n
+  id: enamel_2970eddbfe7e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Enamel
+- entry: ಅಗೆಯುವುದು, ತೋಡುವುದು, ಭೂಶೋಧನ
+  defs:
+  - entry: Excavation
+    type: n
+  id: excavation_3f2603612333
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Excavation
+- entry: ರಚನೆ, ಬಂಧ ಫ್ಯಾಬ್ರಿಕೇಷನ್‌
+  defs:
+  - entry: Fabrication
+    type: n
+  id: fabricatio_25a317f042f5
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Fabrication
+- entry: ನೆಡು, ನಿಲ್ಲಿಸು, ಅಳವಡಿಸು, ಫಿಕ್ಸಿಂಗ್‌
+  defs:
+  - entry: Fixing
+    type: n
+  id: fixing_e5b36839f2bc
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Fixing
+- entry: ವಸ್ತುಗಳು, ಸಲಕರಣೆಗಳು, ಜೋಡಣೆಗಳು,
+  defs:
+  - entry: Fittings
+    type: n
+  id: fittings_22531414bea8
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Fittings
+- entry: ಫಿನ್ ಗಳು
+  defs:
+  - entry: Fins
+    type: n
+  id: fins_97620a275120
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Fins
+- entry: ಫ್ಲಶ್‌ ಟ್ಯಾಂಕ್‌
+  defs:
+  - entry: Flush tank
+    type: n
+  id: flushtank_3b8607e2d3b6
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Flush tank
+- entry: ನೆಲಹಾಸು
+  defs:
+  - entry: Flooring
+    type: n
+  id: flooring_7c8c0e844a9a
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Flooring
+- entry: ಆಕೃತಿ ರೂಪಕ, ಫಾರ್ಮ್ ವರ್ಕ್ಸ್
+  defs:
+  - entry: Form Work
+    type: n
+  id: formwork_c50076d88129
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Form Work
+- entry: ಅಡಿಪಾಯ /ಬುನಾದಿ
+  defs:
+  - entry: Foundation
+    type: n
+  id: foundation_5e621a5afcd3
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Foundation
+- entry: ಅಡಿವರಸೆ, ಕಾಲಿಡಲು ನೆಲೆ, ಫೂಟಿಂಗ್‌, ಪಾದ
+  defs:
+  - entry: Footing
+    type: n
+  id: footing_da28cfeacce6
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Footing
+- entry: ಚೌಕಟ್ಟು, ಫ್ರೇಮ್
+  defs:
+  - entry: Frame
+    type: n
+  id: frame_3654d705a3a8
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Frame
+- entry: ನಿಗದಿಯ ಅಳತೆ, ಪ್ರಮಾಣ, ಹರವು, ಅಳೆಪಿಡಿ, ಗೇಜ್‌
+  defs:
+  - entry: Gauge
+    type: n
+  id: gauge_d384ac4f666e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Gauge
+- entry: ಉರಿದೀಪ, ಜಾಲರಿ ಲಾಂದ್ರ
+  defs:
+  - entry: Gauze
+    type: n
+  id: gauze_06379acbd365
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Gauze
+- entry: ಬೆಣಚುಕಲ್ಲು, ಅಭ್ರಕ, ಗ್ರಾನೈಟ್‌
+  defs:
+  - entry: Granite
+    type: n
+  id: granite_55fc4cf6ef6e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Granite
+- entry: ಗ್ರಾವೆಲ್‌
+  defs:
+  - entry: Gravel
+    type: n
+  id: gravel_f494335867d7
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Gravel
+- entry: ತೋಡುಗಳು, ರಂಧ್ರಗಳು, ಗ್ರೂವ್ಸ್‌,
+  defs:
+  - entry: Grooves
+    type: n
+  id: grooves_f2cfb9702b3a
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Grooves
+- entry: ಗಲ್ಲಿ ಟ್ರಾಪ್‌
+  defs:
+  - entry: Gully trap
+    type: n
+  id: gullytrap_0d8f2b6bb42b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Gully trap
+- entry: ಗಟ್ಟಿ ಮಣ್ಣು, ಗಡುಸು ಮಣ್ಣು, ಹಾರ್ಡ್‌ ಸಾಯಿಲ್‌
+  defs:
+  - entry: Hard soil
+    type: n
+  id: hardsoil_fff52b04cdcd
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Hard soil
+- entry: ಗಟ್ಟಿ ಕಲ್ಲು, ಗಡುಸು ಕಲ್ಲು ಹಾರ್ಡ್‌ ರಾಕ್‌
+  defs:
+  - entry: Hard rock
+    type: n
+  id: hardrock_e68fa7fb807b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Hard rock
+- entry: ಹಿಡಿಕಂಬಿ, ಹ್ಯಾಂಡ್‌ ರೈಲಿಂಗ್‌
+  defs:
+  - entry: Hand railing
+    type: n
+  id: handrailin_953ae8b72510
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Hand railing
+- entry: ತಿರುಗಣೆಗಳು, ಕೀಲುಗಳು, ಹಿಂಜಸ್‌
+  defs:
+  - entry: Hinges
+    type: n
+  id: hinges_78b53f2d5eaa
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Hinges
+- entry: ಹೊನ್ನೆಮರ
+  defs:
+  - entry: Honne Wood
+    type: n
+  id: honnewood_ccf19756bb1e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Honne Wood
+- entry: ಕೊಕ್ಕೆ ಹಾಕುವುದು, ತಗಲುಹಾಕುವುದು, ಹುಕಿಂಗ್‌
+  defs:
+  - entry: Hooking
+    type: n
+  id: hooking_44428674b59c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Hooking
+- entry: ತನಿಖಾ ಕೊಠಡಿ
+  defs:
+  - entry: Inspection Chamber
+    type: n
+  id: inspection_740c86ef6d3b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Inspection Chamber
+- entry: ಕಬ್ಬಿಣ
+  defs:
+  - entry: Iron
+    type: n
+  id: iron_8f85f6d63676
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Iron
+- entry: ಜೆಲ್ಲಿ
+  defs:
+  - entry: Jelly
+    type: n
+  id: jelly_a69fbd56579c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Jelly
+- entry: ಪದರ, ಸ್ತರ, ಲೇಯರ್‌
+  defs:
+  - entry: Layer
+    type: n
+  id: layer_60577af61e7e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Layer
+- entry: ಹಾಕುವುದು, ಅಳವಡಿಸುವುದು, ಜೋಡಿಸುವುದು,
+  defs:
+  - entry: Laying
+    type: n
+  id: laying_92a9a778a2ee
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Laying
+- entry: ಚಾಚುವುದು, ಹಾಸುವುದು, ಸುರುಳಿ, ಕೂಡಿಸುವುದು,
+  defs:
+  - entry: Lapping
+    type: n
+  id: lapping_c66b4735c2d7
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lapping
+- entry: ಕೂಲಿ, ಕೆಲಸ, ಕಾರ್ಯ, ಶ್ರಮ
+  defs:
+  - entry: Labour
+    type: n
+  id: labour_2e633532755d
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Labour
+- entry: ಉದ್ದರಣಾ
+  defs:
+  - entry: Lead & Lift
+    type: n
+  id: leadlift_03c67f699a93
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lead & Lift
+- entry: ಮಟ್ಟಮಾಡುವುದು, ಸಮತಲಗೊಳಿಸುವುದು,
+  defs:
+  - entry: Levelling
+    type: n
+  id: levelling_b6001392b7f5
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Levelling
+- entry: ಸುಣ್ಣದ ಕಲ್ಲು, ಲೈಮ್‌ಸ್ಟೋನ್‌
+  defs:
+  - entry: Lime stone
+    type: n
+  id: limestone_b3c559c59589
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lime stone
+- entry: ಸುಟ್ಟ, ಸುಣ್ಣ
+  defs:
+  - entry: Lime
+    type: n
+  id: lime_c2c263342bd4
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lime
+- entry: ಲೈನಿಂಗ್‌
+  defs:
+  - entry: Lining
+    type: n
+  id: lining_d94e2f888269
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lining
+- entry: ಮೇಲಕ್ಕೆತ್ತು, ಎತ್ತರಿಸು, ಎತ್ತುವುದು, ಲಿಫ್ಟಿಂಗ್‌
+  defs:
+  - entry: Lifting
+    type: n
+  id: lifting_61513defebac
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lifting
+- entry: ಹಾಸುಗಲ್ಲು, ಹಾಸುಮರ, ಲಿಂಟೆಲ್‌ಗಳು
+  defs:
+  - entry: Lintels
+    type: n
+  id: lintels_787e0cd8fbf0
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lintels
+- entry: ಭಾರ, ಹೇರು, ಹೊರೆ
+  defs:
+  - entry: Load
+    type: n
+  id: load_a6757c34cf90
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Load
+- entry: ಅಟ್ಟ, ಚಾಚುಪೀಠ ಪಂಕ್ತಿ, ಲಾಫ್ಟ್
+  defs:
+  - entry: Loft
+    type: n
+  id: loft_6944b806548e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Loft
+- entry: ತುಂಬುವುದು, ಭರ್ತಿ ಮಾಡುವುದು, ಲೋಡಿಂಗ್
+  defs:
+  - entry: Loading
+    type: n
+  id: loading_7de66d4ca6f7
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Loading
+- entry: ಕೆಳಕ್ಕಿಳಿಸು, ಇಳಿಸು, ತಗ್ಗಿಸು
+  defs:
+  - entry: Lowering
+    type: n
+  id: lowering_7a90eba7f174
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Lowering
+- entry: ಆಳುಗಂಡಿ, ಮ್ಯಾನ್ ಹೋಲ್
+  defs:
+  - entry: Manhole
+    type: n
+  id: manhole_917077a4a569
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Manhole
+- entry: ಗಾರೆ ಕೆಲಸದವನು, ಕಲ್ಲು ಕುಟಿಗ, ಮೇಸನ್‌
+  defs:
+  - entry: Mason
+    type: n
+  id: mason_f3dfa3ba90e4
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Mason
+- entry: ಮತ್ತಿ ಮರ
+  defs:
+  - entry: Mathi
+    type: n
+  id: mathi_c396a16beac2
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Mathi
+- entry: ಅದರ ಪದರವಾಗಿ ಹಾಕಿ ತಯಾರಿಸಿದೆ, ಮಕಾಡಂ
+  defs:
+  - entry: Macadam
+    type: n
+  id: macadam_aebdbc3cc1e4
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Macadam
+- entry: ಲೋಹ, ಜಲ್ಲಿಕಲ್ಲು
+  defs:
+  - entry: Metal
+    type: n
+  id: metal_eaf1fb950d0f
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Metal
+- entry: ಬಲೆ-ಬಲೆಯಂಥ ರಚನೆ, ಮೆಶ್‌
+  defs:
+  - entry: Mesh
+    type: n
+  id: mesh_2c840208fcb3
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Mesh
+- entry: ಮಿಶ್ರಗೊಳಿಸುವುದು, ಬೆರಸುವುದು, ಮಿಕ್ಸಿಂಗ್‌
+  defs:
+  - entry: Mixing
+    type: n
+  id: mixing_26150d370610
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Mixing
+- entry: ಮೊಸಾಯಿಕ್‌
+  defs:
+  - entry: Mosaic
+    type: n
+  id: mosaic_bdf6f3594127
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Mosaic
+- entry: ಅಚ್ಚುಹಾಕುವುದು, ಮೌಲ್ಡ್‌ ಮಾಡುವುದು
+  defs:
+  - entry: Moulding
+    type: n
+  id: moulding_9df41e9bf8f4
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Moulding
+- entry: ಎಂ.ಎಸ್‌. ರಾಡ್‌
+  defs:
+  - entry: M.S. rod
+    type: n
+  id: msrod_24b5d7ca7673
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: M.S. rod
+- entry: ಮಣ್ಣು ಕೆಸರು
+  defs:
+  - entry: Mud
+    type: n
+  id: mud_07cbf0aaaf82
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Mud
+- entry: ಮಾಡ್ಯುಲರ್‌
+  defs:
+  - entry: Modular
+    type: n
+  id: modular_589904636607
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Modular
+- entry: ನಂದಿ ಮರ
+  defs:
+  - entry: Nandi Wood
+    type: n
+  id: nandiwood_97126bf27855
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Nandi Wood
+- entry: ಸಾಮಾನ್ಯ ಮಣ್ಣು
+  defs:
+  - entry: Ordinary soil
+    type: n
+  id: ordinaryso_9caad2f8bb58
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Ordinary soil
+- entry: ಸಾಮಾನ್ಯ ಕಲ್ಲು, ಬಂಡೆ ಶಿಲೆ
+  defs:
+  - entry: Ordinary rock
+    type: n
+  id: ordinaryro_06dc8d6e562d
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Ordinary rock
+- entry: ಮೇಲು ಎತ್ತರದ ತೊಟ್ಟಿ, ಮೇಲುಮಹಡಿಯಲ್ಲಿ ಮಾಡಿರುವ ತೊಟ್ಟಿ
+  defs:
+  - entry: Overhead tank
+    type: n
+  id: overheadta_03645c7f400a
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Overhead tank
+- entry: ಕೈಪಿಡಿಗೊಡೆ, ಪಾಗಾರ, ಪ್ಯಾರಾಪಟ್‌
+  defs:
+  - entry: Parapet
+    type: n
+  id: parapet_3330e22f1ffa
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Parapet
+- entry: ಹಾಸುವುದು, ನೆಲಗಟ್ಟು ಮಾಡುವುದು, ಹದಿಸುವುದು
+  defs:
+  - entry: Paving
+    type: n
+  id: paving_309fb56df3ce
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Paving
+- entry: ಚಿಲಕ, ಪ್ಯಾಡ್ ಲಾಕ್
+  defs:
+  - entry: Padlock
+    type: n
+  id: padlock_09591c6dc363
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Padlock
+- entry: ಅಂಕಣ, ಪ್ಯಾನಲ್ಸ್‌
+  defs:
+  - entry: Panels
+    type: n
+  id: panels_ba285d2cc24e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Panels
+- entry: ಮಾದರಿ, ನಮೂನೆ, ರೂಪಿಕೆ, ಪ್ಯಾಟ್ರನ್‌
+  defs:
+  - entry: Pattern
+    type: n
+  id: pattern_c59757b6cb67
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Pattern
+- entry: ಬಣ್ಣ, ವರ್ಣ
+  defs:
+  - entry: Paint
+    type: n
+  id: paint_5bd411ae66b8
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Paint
+- entry: ಸಮಗೊಳಿಸುವುದು, ಪಟ್ಟಿ ಮಾಡುವುದು
+  defs:
+  - entry: Patti
+    type: n
+  id: patti_a8b3b289f6cd
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Patti
+- entry: ಕಂಬಗಳು, ಸ್ತಂಬಗಳು
+  defs:
+  - entry: Pillars
+    type: n
+  id: pillars_15bf8a6b6130
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Pillars
+- entry: ಕೊಳವೆಮಾರ್ಗ, ಪೈಪ್‌ಲೈನ್‌
+  defs:
+  - entry: Pipeline
+    type: n
+  id: pipeline_b7d82c2ca9b1
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Pipeline
+- entry: ಮರದ ಹಲಗೆ, ಫಲಕ
+  defs:
+  - entry: Plank
+    type: n
+  id: plank_ae655e74b4d1
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Plank
+- entry: ಮೆತ್ತು, ಗಾರೆ ಮಾಡುವುದು, ಮಡ್ಡಿ ಮಾಡುವುದು
+  defs:
+  - entry: Plastering
+    type: n
+  id: plastering_03d3e71fe8ef
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Plastering
+- entry: ನಯ, ಮೆರುಗು, ಹೊಳಪು
+  defs:
+  - entry: Polish
+    type: n
+  id: polish_e4e01da90f62
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Polish
+- entry: ಚೂಪು ಮಾಡುವುದು, ಸಂದುಗಾರೆ ಮಾಡುವುದು
+  defs:
+  - entry: Pointing
+    type: n
+  id: pointing_89d2998040e9
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Pointing
+- entry: ಒದಗಿಸುವುದು ಸರಬರಾಜು ಮಾಡುವುದು, ಏರ್ಪಾಟು ಮಾಡುವುದು
+  defs:
+  - entry: Providing
+    type: n
+  id: providing_1699c3dec32d
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Providing
+- entry: ಮೊದಲ ಲೇಪ, ಪ್ರೈಮರ್‌
+  defs:
+  - entry: Primer
+    type: n
+  id: primer_74c1bf5da731
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Primer
+- entry: ಕಲ್ಲುಗಣಿ, ಕ್ವಾರಿ
+  defs:
+  - entry: Quarry
+    type: n
+  id: quarry_0b52a0a5dc70
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Quarry
+- entry: ಕಂಬಿಗಳು, ರೇಲ್ಸ್‌
+  defs:
+  - entry: Rails
+    type: n
+  id: rails_340163a18831
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Rails
+- entry: ತಲೊಟ್ಟಿಲು, ತೆಪ್ಪ, ಕಟ್ಟುಮರ,
+  defs:
+  - entry: Raft
+    type: n
+  id: raft_6118cbe78842
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Raft
+- entry: ರ‍್ಯಾಕಿಂಗ್
+  defs:
+  - entry: Racking
+    type: n
+  id: racking_2419324df30e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Racking
+- entry: ಭದ್ರಪಡಿಸಿದ ಜಲ್ಲಿಗಾರೆ, ಭದ್ರಗಾರೆ
+  defs:
+  - entry: Reinforcement
+    type: n
+  id: reinforcem_39c6420dfa5e
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Reinforcement
+- entry: ರೆಡ್‌ ಆಕ್ಸೈಡ್‌
+  defs:
+  - entry: Red oxide
+    type: n
+  id: redoxide_8d5173a6d6d3
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Red oxide
+- entry: ರೀಪರುಗಳು
+  defs:
+  - entry: Reapers
+    type: n
+  id: reapers_f84399247da1
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Reapers
+- entry: ತೆಗೆದುಹಾಕು, ಸಾಗಿಸು, ಬದಲಾಯಿಸು, ಒಯ್ಯುವುದು
+  defs:
+  - entry: Removing
+    type: n
+  id: removing_53e0aa9c4515
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Removing
+- entry: ಭದ್ರಗಾರೆ, ಭದ್ರಪಡಿಸಿದ ಗಾರೆ
+  defs:
+  - entry: Reinforced Cement
+    type: n
+  id: reinforced_60c94c3b517c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Reinforced Cement
+- entry: ಕೋಲು, ದಂಡ, ಸಲಾಕೆ, ರಾಡ್‌
+  defs:
+  - entry: Rod
+    type: n
+  id: rod_1c110a38ca5c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Rod
+- entry: ಛಾವಣಿ ಹಾಕುವುದು, ರೂಫಿಂಗ್‌
+  defs:
+  - entry: Roofing
+    type: n
+  id: roofing_3e1382ffb3fb
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Roofing
+- entry: ಉರುಳೆ
+  defs:
+  - entry: Roller
+    type: n
+  id: roller_44256d518810
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Roller
+- entry: ಮೇಲ್ಛಾವಣಿ ಚಪ್ಪಡಿ, ಹಾಸುಗಲ್ಲು, ರೂಫ್‌ ಸ್ಲ್ಯಾಬ್
+  defs:
+  - entry: Roof slab
+    type: n
+  id: roofslab_0ee9bd0b98ec
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Roof slab
+- entry: ಮರಳು
+  defs:
+  - entry: Sand
+    type: n
+  id: sand_939933ea490b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Sand
+- entry: ಮರಳುಗಲ್ಲು, ಕೆಮ್ಮರಳು ಶಿಲೆ
+  defs:
+  - entry: Sand stone
+    type: n
+  id: sandstone_adf00f97690b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Sand stone
+- entry: ಅಟ್ಟ, ಅಟ್ಟಣೆ ಸಾರುವೆ ಕಟ್ಟು
+  defs:
+  - entry: Scaffolding
+    type: n
+  id: scaffoldin_38713ba774ad
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Scaffolding
+- entry: ಮಲನಾಶಕ ಕೊಳ, ಸೆಪ್ಟಿಕ್‌ ಟ್ಯಾಂಕ್‌
+  defs:
+  - entry: Septic tank
+    type: n
+  id: septictank_2e58d7c72bdc
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Septic tank
+- entry: ಊರೆಕೊಡುವುದು, ಊರೆಗಳು
+  defs:
+  - entry: Shoring
+    type: n
+  id: shoring_c08fb4208f32
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Shoring
+- entry: ಕಿಟಕಿಯ ಕದ, ಕವಾಟ, ಷಟರುಗಳು
+  defs:
+  - entry: Shutters
+    type: n
+  id: shutters_54877e152408
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Shutters
+- entry: ಬಚ್ಚಲು ಗುಂಡಿ, ರೊಚ್ಚುಗುಂಡಿ, ಸಿಂಕುಗಳು
+  defs:
+  - entry: Sinks
+    type: n
+  id: sinks_ffe2bbecf492
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Sinks
+- entry: ಸೈಜು ಕಲ್ಲಿನ ಕೆಲಸ / ಕಟ್ಟುವುದು
+  defs:
+  - entry: Size Stone Masonry (S.S.M.)
+    type: n
+  id: sizestonem_77fb6a766e7c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Size Stone Masonry (S.S.M.)
+- entry: ನೀರು ಹೀರಿಕೊಳ್ಳುವ ಗುಂಡಿ, ನೀರು ಹೀರುವ ಗುಂಡಿ
+  defs:
+  - entry: Soak Pit
+    type: n
+  id: soakpit_c78c4bcb14dd
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Soak Pit
+- entry: ಹರಡುವುದು, ವಿಸ್ತರಿಸುವುದು, ಹಾಸುವುದು
+  defs:
+  - entry: Spreading
+    type: n
+  id: spreading_e9b2982c4828
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Spreading
+- entry: ಮೆಟ್ಟಿಲು ಸಾಲು, ಸ್ಟೇರ್‌ ಕೇಸ್‌
+  defs:
+  - entry: Stair case
+    type: n
+  id: staircase_a20079efccdd
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Stair case
+- entry: ಉಕ್ಕು, ಸ್ಟೀಲು
+  defs:
+  - entry: Steel
+    type: n
+  id: steel_e4cfd8503e50
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Steel
+- entry: ಕಲ್ಲು ಕಟ್ಟಡ
+  defs:
+  - entry: Stone masonry
+    type: n
+  id: stonemason_343f670ea616
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Stone masonry
+- entry: ನೆಟ್ಟಗೆ ಮಾಡುವುದು, ನೇರಗೊಳಿಸುವುದು, ಸರಿ ಮಾಡುವುದು
+  defs:
+  - entry: Straightening
+    type: n
+  id: straighten_e856bac0231d
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Straightening
+- entry: ಮರ, ಮೂಲೆ ಮರದಿಂದ ಭದ್ರಪಡಿಸುವುದು ಸ್ಟ್ರಟ್ಟಿಂಗ್‌
+  defs:
+  - entry: Strutting
+    type: n
+  id: strutting_ec70845e4b33
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Strutting
+- entry: ಕಲ್ಲು; ಶಿಲೆ
+  defs:
+  - entry: Stone
+    type: n
+  id: stone_11924589f65a
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Stone
+- entry: ಬೆಣಚು ಕಲ್ಲು ಕೊಳವೆ
+  defs:
+  - entry: Stoneware pipe
+    type: n
+  id: stonewarep_8e456c6178eb
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Stoneware pipe
+- entry: ರಚನೆ, ಕಟ್ಟಿರುವ ರೀತಿ, ವಿನ್ಯಾಸ, ಬಂಧ, ಸ್ಟ್ರಕ್ಚರ್
+  defs:
+  - entry: Structure
+    type: n
+  id: structure_7586efff2b2d
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Structure
+- entry: ನೆಲದೊಳಗೆ ಮಾಡಿದ ತೊಟ್ಟಿ, ಸಂಪ್ ಟ್ಯಾಂಕ್
+  defs:
+  - entry: Sump tank
+    type: n
+  id: sumptank_0e61ec1c64ef
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Sump tank
+- entry: ಮೇಲ್ ಕಟ್ಟಡ, ಮೇಲೆ ಕಟ್ಟಿದ ಕಟ್ಟಡ, ಸೂಪರ್ ಸ್ಟ್ರಕ್ಚರ್
+  defs:
+  - entry: Super structure
+    type: n
+  id: superstruc_e357e56a6823
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Super structure
+- entry: ಮುಚ್ಚುವುದು, ದಮಸ್ಸು ಮಾಡುವುದು, ಟ್ಯಾಂಪಿಂಗ್
+  defs:
+  - entry: Tamping
+    type: n
+  id: tamping_5ae8d2963f24
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Tamping
+- entry: ತೇಗದ ಮರ, ಟೀಕ್‌
+  defs:
+  - entry: Teak
+    type: n
+  id: teak_1261794bee25
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Teak
+- entry: ಟೀಗಳು
+  defs:
+  - entry: Tees
+    type: n
+  id: tees_2dcb35b4f8f5
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Tees
+- entry: ಕಟ್ಟುವುದು, ಬಿಗಿಯುವುದು, ಟೈಯಿಂಗ್‌
+  defs:
+  - entry: Tieing
+    type: n
+  id: tieing_f1699db90a61
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Tieing
+- entry: ಕಂದಕ, ಹಳ್ಳ, ಕಾಲುವೆ, ಗುಂಡಿ, ಟ್ರೆಂಚುಗಳು
+  defs:
+  - entry: Trenches
+    type: n
+  id: trenches_2d83dd4852ed
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Trenches
+- entry: ಮೂತ್ರಾಲಯಗಳು, ಮೂತ್ರಿಗಳು
+  defs:
+  - entry: Urinals
+    type: n
+  id: urinals_5e7ae6e1f196
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Urinals
+- entry: ಭಾರ ಇಳಿಸುವುದು, ಸರಕು ಖಾಲಿ ಮಾಡುವುದು, ಸರಕು ಇಳಿಸುವುದು,
+  defs:
+  - entry: Unloading
+    type: n
+  id: unloading_23429303068c
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Unloading
+- entry: ಮೆರುಗೆಣ್ಣೆ, ವಾರ್ನಿಷ್‌
+  defs:
+  - entry: Varnish
+    type: n
+  id: varnish_9e808d3515c9
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Varnish
+- entry: ಗಾಳಿ ಕಂಡಿಗಳು, ವಾತಾಯನಗಳು
+  defs:
+  - entry: Ventilators
+    type: n
+  id: ventilator_0db553b332bb
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Ventilators
+- entry: ಅದುರುವುದು, ಕಂಪನ ಗೊಳ್ಳುವುದು, ವೈಬ್ರೇಟಿಂಗ್‌
+  defs:
+  - entry: Vibrating
+    type: n
+  id: vibrating_3dcb203b90ae
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Vibrating
+- entry: ಅಂದೋಲಕ, ಕಂಪಕ, ವೈಬ್ರೇಟರ್‌
+  defs:
+  - entry: Vibrator
+    type: n
+  id: vibrator_b3b1ed0f8ecf
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Vibrator
+- entry: ಗೋಡೆಯ ಅಂತಸ್ತು ಹಲಗೆ, ಬಡು, ಗೋಡೆಯ ಮರದ ಹಲಗೆಗಳು
+  defs:
+  - entry: Wall shelves
+    type: n
+  id: wallshelve_9731c211f717
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wall shelves
+- entry: ಗೋಡೆ, ಭಿತ್ತಿ, ಪ್ರಾಕಾರ
+  defs:
+  - entry: Wall
+    type: n
+  id: wall_439fd946446b
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wall
+- entry: ಕೈತೊಳೆಯುವ ಬೋಗುಣಿ / ತೊಟ್ಟಿ
+  defs:
+  - entry: Wash basin
+    type: n
+  id: washbasin_fd04d285de23
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wash basin
+- entry: ನೀರಿನ ಎಲ್ಲೆ, ಜಲಬಂಧಿತ
+  defs:
+  - entry: Water bound
+    type: n
+  id: waterbound_68faf1f54ccb
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Water bound
+- entry: ನೀರುಹಾಕುವುದು, ವಾಟರಿಂಗ್‌
+  defs:
+  - entry: Watering
+    type: n
+  id: watering_15bb35d5c399
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Watering
+- entry: ಹರಿನೀರು ಕಕ್ಕಸು
+  defs:
+  - entry: Water closet
+    type: n
+  id: waterclose_b89579764840
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Water closet
+- entry: ಬಣೆಹೊಡೆಯುವುದು, ತುರುಕುವುದು, ವೆಡ್ಜಿಂಗ್‌
+  defs:
+  - entry: Wedging
+    type: n
+  id: wedging_06319b3a7108
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wedging
+- entry: ಬೆಸೆಯುವುದು, ವೆಲ್ಡ್‌ ಮಾಡುವುದು
+  defs:
+  - entry: Welding
+    type: n
+  id: welding_57d65ea09090
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Welding
+- entry: ಕಿಟಕಿ, ಕಂಡಿ
+  defs:
+  - entry: Window
+    type: n
+  id: window_998867708dca
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Window
+- entry: ಮರ
+  defs:
+  - entry: Wood
+    type: n
+  id: wood_cbffbb405ea6
+  source: ಕಮಗರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರ
+  head: Wood

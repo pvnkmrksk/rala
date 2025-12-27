@@ -1,0 +1,1605 @@
+- entry: ಗೈರು ಹಾಜರಾಗಿರುವವನು, ಅನುಪಸ್ತಿತನಾದವನು
+  defs:
+  - entry: Absentee
+    type: n
+  id: absentee_de4a76b5ec39
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Absentee
+- entry: ಅಪಘಾತ, ಆಕಸ್ಮಿಕ
+  defs:
+  - entry: Accident
+    type: n
+  id: accident_999432e4494e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accident
+- entry: ಕಾರ್ಯಯೋಜನೆ
+  defs:
+  - entry: Action Plan
+    type: n
+  id: actionplan_bb288afb34fc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Action Plan
+- entry: ಸಮರ್ಪಕ ಸಮನ್ವಯ ಸಾರಿಗೆ ಸೇವೆಗಳು
+  defs:
+  - entry: Adequate and Properly Coordinated Transport Services
+    type: n
+  id: adequatean_a12cb8158618
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Adequate and Properly Coordinated Transport Services
+- entry: ಮುಂಗಡ ಕಾಯ್ದಿರಿಸುವಿಕೆ
+  defs:
+  - entry: Advance Reservation Counter
+    type: n
+  id: advanceres_04fd26913160
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Advance Reservation Counter
+- entry: ಜಾಹೀರಾತು
+  defs:
+  - entry: Advertisement
+    type: n
+  id: advertisem_bfc59050aa28
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Advertisement
+- entry: ಒಪ್ಪಂದ ಪ್ರಸ್ತಾವ
+  defs:
+  - entry: Agreement Proposal
+    type: n
+  id: agreementp_83eea567155e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Agreement Proposal
+- entry: ಸರ್ವಋತು ರಸ್ತೆ
+  defs:
+  - entry: All Weather Road
+    type: n
+  id: allweather_9ed8186269cb
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: All Weather Road
+- entry: ಪರ್ಯಾಯ / ಬದಲಿಸೇವೆ
+  defs:
+  - entry: Alternate Service
+    type: n
+  id: alternates_0052aff8f173
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Alternate Service
+- entry: ವಿಶ್ಲೇಷಣೆ
+  defs:
+  - entry: Analysis
+    type: n
+  id: analysis_944fe634a702
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Analysis
+- entry: ಆಗಮಿಸು, ತಲುಪು, ಬರು
+  defs:
+  - entry: Arrival
+    type: n
+  id: arrival_fe3266d8043b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Arrival
+- entry: ದೊಡ್ಡದು ಮಾಡುವುದು, ವೃದ್ಧಿ, ಅಭಿವೃದ್ಧಿ, ಬೆಳೆಸುವುದು, ಸೇರಿಸುವುದು
+  defs:
+  - entry: Augmentation
+    type: n
+  id: augmentati_b98fe1975494
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Augmentation
+- entry: ಸ್ವಯಂಚಾಲಿತ
+  defs:
+  - entry: Automatic
+    type: n
+  id: automatic_89c99f811026
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Automatic
+- entry: ಸರಾಸರಿ ಆಸನ ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Average Seating Capacity
+    type: n
+  id: averagesea_4fee110cf172
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Average Seating Capacity
+- entry: ಮೂಲ ದರ
+  defs:
+  - entry: Basic Fare
+    type: n
+  id: basicfare_3f9f0bc13a31
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Basic Fare
+- entry: ವಾಹನದಲ್ಲಿ ಲಟಲಟನೆ ಸದ್ದು ಮಾಡುವ
+  defs:
+  - entry: Body Rattling
+    type: n
+  id: bodyrattli_2b29dc84e0aa
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Body Rattling
+- entry: ಹಂತಗಳನ್ನು ವರ್ಗೀಕರಿಸುವುದು
+  defs:
+  - entry: Bracketing of Stages
+    type: n
+  id: bracketing_1434c16f7d94
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bracketing of Stages
+- entry: ಕೆಟ್ಟುನಿಂತುಹೋಗುವಿಕೆ, ಕೆಲಸ ಮಾಡದ ಸ್ಥಿತಿ, ಬ್ರೇಕ್‌ಡೌನ್‌
+  defs:
+  - entry: Break Down
+    type: n
+  id: breakdown_519ff1f9af7a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Break Down
+- entry: ಲಾಭ ನಷ್ಟ ಎರಡೂ ಇಲ್ಲದಿರುವ ಸ್ಥಿತಿ
+  defs:
+  - entry: Break Even Point
+    type: n
+  id: breakevenp_ac5e98d2dd99
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Break Even Point
+- entry: ಬಸ್‌
+  defs:
+  - entry: Bus
+    type: n
+  id: bus_e2be412d07f1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bus
+- entry: ಬಸ್‌ ತಂಗುದಾಣ
+  defs:
+  - entry: Bus Shelter
+    type: n
+  id: busshelter_520bfb4a302c
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bus Shelter
+- entry: ಬಸ್‌ನಿಲ್ದಾಣ
+  defs:
+  - entry: Bus Station
+    type: n
+  id: busstation_687f7fa9b7e7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bus Station
+- entry: ರಸ್ತೆಯ ಮೇಲೆ ಓಡಾಡುವ, ಬಸ್‌ಗಳು
+  defs:
+  - entry: Buses on Road
+    type: n
+  id: busesonroa_4adb22e3b96d
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Buses on Road
+- entry: ಒಪ್ಪಂದದ ಮೇರೆಗೆ
+  defs:
+  - entry: Casual Contract
+    type: n
+  id: casualcont_1e15ddbcb8ff
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Casual Contract
+- entry: ರದ್ದತಿ
+  defs:
+  - entry: Cancellation
+    type: n
+  id: cancellati_6391ec443da3
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cancellation
+- entry: ರದ್ದುಗೊಳಿಸಿದ ಕಿಲೋಮೀಟರ್‌ಗಳು
+  defs:
+  - entry: Cancelled Kms
+    type: n
+  id: cancelledk_450cdf0817a2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cancelled Kms
+- entry: ಒಯ್ಯುವ ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Carrying Capacity
+    type: n
+  id: carryingca_cf47a5633118
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Carrying Capacity
+- entry: ಕೇಂದ್ರ ಸಂಚಾರಿ ಪ್ರಾಧಿಕಾರ
+  defs:
+  - entry: Central Traffic Authority
+    type: n
+  id: centraltra_9cd8ae22d6a1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Central Traffic Authority
+- entry: ಕೇಂದ್ರ ಸಂಚಾರಿ ಸಂಸ್ಥೆ
+  defs:
+  - entry: Central Traffic Establishment
+    type: n
+  id: centraltra_c60f0d578e59
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Central Traffic Establishment
+- entry: ಶುಲ್ಕ ವಿಧಿಸಬಹುದಾದ ಹಂತಗಳು
+  defs:
+  - entry: Chargeable Stages
+    type: n
+  id: chargeable_aeb5142385fc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Chargeable Stages
+- entry: ಗುತ್ತಿಗೆ ಆಧಾರದ ಮೇರೆಗೆ
+  defs:
+  - entry: Chartered Contract
+    type: n
+  id: charteredc_2af2e6717b15
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Chartered Contract
+- entry: ಮುಚ್ಚುಮರೆಯ ಕಾರ್ಯಾಚರಣೆ / ಗುಪ್ತವಾಗಿ ಕಾರ್ಯಾಚರಣೆ ಮಾಡುವವ
+  defs:
+  - entry: Clandestine Operation
+    type: n
+  id: clandestin_da213e604f38
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Clandestine Operation
+- entry: ವಾಣಿಜ್ಯ ಸಂಸ್ಥೆಗಳು
+  defs:
+  - entry: Commercial Establishments
+    type: n
+  id: commercial_08d44c045048
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Commercial Establishments
+- entry: ಸಾರಿಗೆ ಕಮೀಷನರು ಆಯುಕ್ತರು
+  defs:
+  - entry: Commissioner for Transport
+    type: n
+  id: commission_171251faa842
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Commissioner for Transport
+- entry: ಪಾಲಿಸುವ, ನೆರವೇರಿಸುವ
+  defs:
+  - entry: Complying
+    type: n
+  id: complying_c2cb073b38a7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Complying
+- entry: ಮುಕ್ತಾಯ ಮಾಡಿರುವ ಒಪ್ಪಂದ
+  defs:
+  - entry: Concluded Agreement
+    type: n
+  id: concludeda_19772b97f56e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Concluded Agreement
+- entry: ನಿರ್ವಾಹಕ, ಕಂಡಕ್ಟರ್‌
+  defs:
+  - entry: Conductor
+    type: n
+  id: conductor_68857f530a22
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Conductor
+- entry: ಕಿಕ್ಕಿರಿದ, ಸಂದಣಿ
+  defs:
+  - entry: Congestion
+    type: n
+  id: congestion_abb0172120a2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Congestion
+- entry: ಕರಾರು ವಾಹನ / ಒಪ್ಪಂದದ ಮೇರೆಗೆ ಪಡೆಯಲಾದ ಕ್ಯಾರೇಜ್‌
+  defs:
+  - entry: Contract Carriage
+    type: n
+  id: contractca_db8238c706c1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Contract Carriage
+- entry: ನಿಯಂತ್ರಣ ಸ್ಥಾನ / ಸ್ಥಳ
+  defs:
+  - entry: Control Point
+    type: n
+  id: controlpoi_80e6cdfe8bc7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Control Point
+- entry: ಪ್ರತಿ ಕಿ.ಮೀ.ಗೆ ಆಗುವ ಖರ್ಚು / ವೆಚ್ಚ
+  defs:
+  - entry: Cost per km (CPKM)
+    type: n
+  id: costperkmc_36dd115ced0c
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cost per km (CPKM)
+- entry: ಸಿಬ್ಬಂದಿ ಬಳಕೆ
+  defs:
+  - entry: Crew Utilisation
+    type: n
+  id: crewutilis_85af5598e29b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Crew Utilisation
+- entry: ಚಾಲಕ ನಿರ್ವಾಹಕ ವರ್ಗ
+  defs:
+  - entry: Crew
+    type: n
+  id: crew_80cbb04f4227
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Crew
+- entry: ಚಾಲಕ ನಿರ್ವಾಹಕ ವರ್ಗದ ಬಳಕೆ
+  defs:
+  - entry: Crew Utilisation
+    type: n
+  id: crewutilis_342731fdbb75
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Crew Utilisation
+- entry: ಚಾಲ್ತಿ ವರ್ಷ
+  defs:
+  - entry: Current year
+    type: n
+  id: currentyea_df747568b3db
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Current year
+- entry: ಗ್ರಾಹಕನ ಸಮಾಧಾನ / ತೃಪ್ತಿ
+  defs:
+  - entry: Customer Satisfaction
+    type: n
+  id: customersa_5fa1327e4435
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Customer Satisfaction
+- entry: ದೈನಿಕ ಗಳಿಕೆ/ ಸಂಪಾದನೆ
+  defs:
+  - entry: Daily Earnings
+    type: n
+  id: dailyearni_b8a9e1b71ee0
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Daily Earnings
+- entry: ಹಗಲು / ರಾತ್ರಿ ದರಗಳು
+  defs:
+  - entry: Day/Night fares
+    type: n
+  id: daynightfa_5c09f4799ecf
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Day/Night fares
+- entry: ನಿಷ್ಕ್ರಿಯ ಕಿಲೋಮೀಟರ್‌
+  defs:
+  - entry: Dead Kilometers
+    type: n
+  id: deadkilome_3b71edddaf9f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Dead Kilometers
+- entry: ವಿಳಂಬ
+  defs:
+  - entry: Delay
+    type: n
+  id: delay_e54d8ac3f8f4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Delay
+- entry: ತೆಗೆದುಹಾಕುವುದು / ಬಿಟ್ಟುಬಿಡುವುದು
+  defs:
+  - entry: Deletion
+    type: n
+  id: deletion_e52637c5d6f7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Deletion
+- entry: ಇಲಾಖಾ ವಾಹನ
+  defs:
+  - entry: Departmental Vehicle
+    type: n
+  id: department_55730c304c71
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Departmental Vehicle
+- entry: ನಿರ್ಗಮನ
+  defs:
+  - entry: Departure
+    type: n
+  id: departure_4da6ec06f937
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Departure
+- entry: ಘಟಕ
+  defs:
+  - entry: Depot
+    type: n
+  id: depot_bc4d784177f0
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Depot
+- entry: ರವಾನಿಸು, ಸಾಗಹಾಕು, ಕಳುಹಿಸು
+  defs:
+  - entry: Despatch
+    type: n
+  id: despatch_bfbc2a2bb62a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Despatch
+- entry: ಗಮ್ಯಸ್ಥಾನ, ಗುರಿ, ತಲುಪಬೇಕಾದ ಸ್ಹಳ
+  defs:
+  - entry: Destination
+    type: n
+  id: destinatio_be70442969bc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Destination
+- entry: ಗಮ್ಯಸ್ಥಳವಾರು ದರ
+  defs:
+  - entry: Destination Wise Fare
+    type: n
+  id: destinatio_199fa740028c
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Destination Wise Fare
+- entry: ವಿಭಾಗ
+  defs:
+  - entry: Division
+    type: n
+  id: division_5e80b034a779
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Division
+- entry: ರಿಯಾಯಿತಿ ಬಿಲ್ಲೆ
+  defs:
+  - entry: Discount Coupon
+    type: n
+  id: discountco_d2953991b3d2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Discount Coupon
+- entry: ಇಲಾಖಾ ವಾಹನ ಚಾಲಕ
+  defs:
+  - entry: Domestic Vehicle Driver
+    type: n
+  id: domesticve_73a09833d4a4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Domestic Vehicle Driver
+- entry: ಎರಡು ಹಂತದ ತೆರಿಗೆ
+  defs:
+  - entry: Double Point Tax
+    type: n
+  id: doublepoin_bec31d444baa
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Double Point Tax
+- entry: ಹೆಚ್ಚುವರಿ ಕರ್ತವ್ಯ
+  defs:
+  - entry: Double Duty
+    type: n
+  id: doubleduty_52db88795081
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Double Duty
+- entry: ಕರಡು ಪೂರಕ ಒಪ್ಪಂದ
+  defs:
+  - entry: Draft Supplemental agreement
+    type: n
+  id: draftsuppl_22a8f620a41e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Draft Supplemental agreement
+- entry: ಚಾಲಕ -ಕಂ- ನಿರ್ವಾಹಕ
+  defs:
+  - entry: Driver-Cum-Conductor
+    type: n
+  id: drivercumc_f078c7c42dee
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Driver-Cum-Conductor
+- entry: ಚಾಲಕ
+  defs:
+  - entry: Driver
+    type: n
+  id: driver_16a2f36d65d1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Driver
+- entry: ಚಾಲನಮಾರ್ಗ
+  defs:
+  - entry: Driving Track
+    type: n
+  id: drivingtra_423dc4d08cdf
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Driving Track
+- entry: ಕರ್ತವ್ಯಗಳು ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳು
+  defs:
+  - entry: Duties & Responsibilities
+    type: n
+  id: dutiesresp_25093eb78fc7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Duties & Responsibilities
+- entry: ಪ್ರತಿ ಕಿ.ಮೀ. ಗೆ ಗಳಿಕೆ / ಸಂಪಾದನೆ
+  defs:
+  - entry: Earning per km (EPKM)
+    type: n
+  id: earningper_99e019937541
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Earning per km (EPKM)
+- entry: ಆರ್ಥಿಕ, ಹಣಕಾಸಿನ
+  defs:
+  - entry: Economic
+    type: n
+  - entry: Financial
+    type: n
+  id: economic_5cc13778ca44
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Economic
+- entry: ಪರಿಣಾಮಕಾರಿ ಕಿ.ಮೀ.ಗಳು
+  defs:
+  - entry: Effective Kms
+    type: n
+  id: effectivek_84d147558640
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Effective Kms
+- entry: ದಕ್ಷತೆ, ಕಾರ್ಯಕ್ಷಮತೆ
+  defs:
+  - entry: Efficiency
+    type: n
+  id: efficiency_c392d8372e20
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Efficiency
+- entry: ಸಮರ್ಥ, ಮಿತವ್ಯಯ, ಪರ್ಯಾಪ್ತ ಮತ್ತು ಪರರಾಜ್ಯ ಸುತ್ತುಗಟ್ಟಿರುವ ದೇಶ
+  defs:
+  - entry: Efficient, Economical, Enclave
+    type: n
+  id: efficiente_094e16c951c9
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Efficient, Economical, Enclave
+- entry: ಜಾರಿ, ಒತ್ತಾಯ, ಪ್ರವರ್ತನೆ
+  defs:
+  - entry: Enforcement
+    type: n
+  id: enforcemen_e8d57ba19147
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Enforcement
+- entry: ಹೊರತುಪಡಿಸುವ, ಹೊರಹಾಕುವ
+  defs:
+  - entry: Exclusion
+    type: n
+  id: exclusion_22651fc5fe68
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Exclusion
+- entry: ಅಧಿಕ, ಹೆಚ್ಚಾದ, ಹೆಚ್ಚು / ಕೊರತೆ, ಕಡಿಮೆ
+  defs:
+  - entry: Excess/Shortage
+    type: n
+  id: excessshor_9ae54a207bab
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Excess/Shortage
+- entry: ಹೆಚ್ಚುವರಿ ಕಾರ್ಯಾಚರಣೆ
+  defs:
+  - entry: Extra Operation
+    type: n
+  id: extraopera_ccb59e80818f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Extra Operation
+- entry: ಹೆಚ್ಚುವರಿ ಟ್ರಿಪ್‌ಗಳು / ಸುತ್ತುವಳಿ
+  defs:
+  - entry: Extra Trips
+    type: n
+  id: extratrips_c1a03ede5a02
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Extra Trips
+- entry: ದರ
+  defs:
+  - entry: Fare
+    type: n
+  id: fare_0279e5af69a5
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fare
+- entry: ದರ ಏರಿಕೆ
+  defs:
+  - entry: Fare Hike
+    type: n
+  id: farehike_518786b2b483
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fare Hike
+- entry: ದರ ರಚನೆ
+  defs:
+  - entry: Fare Structure
+    type: n
+  id: farestruct_f89ec0f46db8
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fare Structure
+- entry: ಮಾರಣಾಂತಿಕ ಅಪಘಾತ
+  defs:
+  - entry: Fatal Accident
+    type: n
+  id: fatalaccid_e92e6bcedccb
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fatal Accident
+- entry: ಕಾರ್ಯ ಸಾಧ್ಯ
+  defs:
+  - entry: Feasible
+    type: n
+  id: feasible_8c8ea9f8395f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Feasible
+- entry: ಹಡಗುಪಡೆ, ನೌಕಾಬಲ,ಸಾರಿಗೆ ಸೇವೆಗಳು / ವಿಮಾನತಂಡ, ಫ್ಲೀಟ್‌, ಬಾಡಿಗೆ ವಾಹನಗಳ ತಂಡ
+  defs:
+  - entry: Fleet
+    type: n
+  id: fleet_255b5d9b9608
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fleet
+- entry: ಹೊಂದಿಸಲಾಗುವ ದರ
+  defs:
+  - entry: Flexible Fare
+    type: n
+  id: flexiblefa_acdbfedc015d
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Flexible Fare
+- entry: ಏರಿಳಿತ ದರ
+  defs:
+  - entry: Fluctuating Fare
+    type: n
+  id: fluctuatin_fbcb032ad92f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fluctuating Fare
+- entry: ಒಂದು ನಿರ್ದಿಷ್ಟ ಕಾಲದಲ್ಲಾಗುವ ಆವೃತ್ತಿ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Frequency
+    type: n
+  id: frequency_6da0ea303ed5
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Frequency
+- entry: ಇಂಧನ
+  defs:
+  - entry: Fuel
+    type: n
+  id: fuel_0280f2bf6325
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fuel
+- entry: ಜಾಗತೀಕರಣ
+  defs:
+  - entry: Globalisation
+    type: n
+  id: globalisat_a255396b3d2b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Globalisation
+- entry: ಒಟ್ಟಾರೆ ಕಿ.ಮೀ.
+  defs:
+  - entry: Gross Kms
+    type: n
+  id: grosskms_cd66e7e89dd9
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Gross Kms
+- entry: ಪ್ರಯಾಣಿಕರ ಭಾರಿ ಮೋಟಾರು ವಾಹನ
+  defs:
+  - entry: Heavy Passenger Motor
+    type: n
+  id: heavypasse_74142c3e72dd
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Heavy Passenger Motor
+- entry: ಹೆಚ್ಚು ಸಂದಣಿ / ದಟ್ಟಣಿಯ ಮಾರ್ಗ
+  defs:
+  - entry: High Density Route
+    type: n
+  id: highdensit_8c4e72ac4a97
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: High Density Route
+- entry: ನಿಗದಿತ ಆಸನಗಳಿಗಿಂತ ಹೆಚ್ಚು ಪ್ರಯಾಣಿಕರು ಇರುವ ಪರಿಸ್ಥಿತಿ
+  defs:
+  - entry: High Load Factor
+    type: n
+  id: highloadfa_a3905655cffc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: High Load Factor
+- entry: ಗುಡ್ಡಗಾಡು ರಸ್ತೆ
+  defs:
+  - entry: Hilly Road
+    type: n
+  id: hillyroad_49fe6ae3d0ed
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Hilly Road
+- entry: ಬಾಡಿಗೆ ವಾಹನಗಳು
+  defs:
+  - entry: Hired Buses
+    type: n
+  id: hiredbuses_799277564200
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Hired Buses
+- entry: ಹೆಚ್‌.ಎಸ್‌.ಡಿ. ಆಯಿಲ್‌ (ಡೀಸಲ್‌)
+  defs:
+  - entry: HSD Oil (Diesel)
+    type: n
+  id: hsdoildies_a444b4d1a467
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: HSD Oil (Diesel)
+- entry: ಅಸಮತೋಲನ, ಅಸಮತೆ, ಏರುಪೇರು, ವ್ಯತ್ಯಾಸ
+  defs:
+  - entry: Imbalance
+    type: n
+  id: imbalance_71730b4ae4e6
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Imbalance
+- entry: ಅಂತರ ರಾಜ್ಯ
+  defs:
+  - entry: Inter State
+    type: n
+  id: interstate_d43bc7bbf60e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Inter State
+- entry: ಅಂತರ ರಾಜ್ಯ ಪರಸ್ಪರ ಸಾರಿಗೆ ಒಪ್ಪಂದ
+  defs:
+  - entry: Inter state Reciprocal Transport Agreement
+    type: n
+  id: interstate_352ff5d03749
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Inter state Reciprocal Transport Agreement
+- entry: ಜಂಟಿ ಸಾರಿಗೆ ಆಯುಕ್ತರು / ಕಮಿಷನರು
+  defs:
+  - entry: Joint Transport Commissioner
+    type: n
+  id: jointtrans_92410c2bdc1a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Joint Transport Commissioner
+- entry: ಕಾರ್ಮಿಕ
+  defs:
+  - entry: Labourer
+    type: n
+  id: labourer_1ec2f2efe40a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Labourer
+- entry: ತಡವಾಗಿ ಸೇರು / ಬರು
+  defs:
+  - entry: Late Arival
+    type: n
+  id: latearival_d93c68bc4166
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Late Arival
+- entry: ತಡವಾಗಿ ಹೊರಡುವುದು
+  defs:
+  - entry: Late departure
+    type: n
+  id: latedepart_51ef6748f0bf
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Late departure
+- entry: ಬಿಡುವು ಕಾಲ / ಸಮಯ
+  defs:
+  - entry: Layover Time
+    type: n
+  id: layovertim_4effd0f908c3
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Layover Time
+- entry: ಹೊಣೆಗಾರಿಕೆ
+  defs:
+  - entry: Liability
+    type: n
+  id: liability_7f82b6a71b93
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Liability
+- entry: ಉದಾರೀಕರಣ
+  defs:
+  - entry: Liberalisation
+    type: n
+  id: liberalisa_a7cc321197c9
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Liberalisation
+- entry: ಮಾರ್ಗ ತಪಾಸಣೆ
+  defs:
+  - entry: Line Checking
+    type: n
+  id: linechecki_2e4bbf97775f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Line Checking
+- entry: ನಿಗದಿತ ಆಸನಗಳಷ್ಟೇ ಪ್ರಯಾಣಿಕರು ಇರುವ ಪರಿಸ್ಥಿತಿ
+  defs:
+  - entry: Load Factor
+    type: n
+  id: loadfactor_6fffa167adfa
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Load Factor
+- entry: ನಿಗದಿತ ಅಸನಗಳಿಗಂತ ಕಡಿಮೆ ಪ್ರಯಾಣಿಕರು ಇರುವ ಪರಿಸ್ಥಿತಿ
+  defs:
+  - entry: Low Load Factor
+    type: n
+  id: lowloadfac_997c799f424d
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Low Load Factor
+- entry: ಲಗೇಜು, ಸಾಮಾನು, ಗಂಟುಮೂಟೆ
+  defs:
+  - entry: Luggage
+    type: n
+  id: luggage_4dbb5360a237
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Luggage
+- entry: ದೊಡ್ಡ ಅಪಘಾತ, ಭಾರಿ ಅಪಘಾತ
+  defs:
+  - entry: Major Accident
+    type: n
+  id: majoraccid_868784c77c32
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Major Accident
+- entry: ಮಾನವ / ಜನಶಕ್ತಿ ಉತ್ಪಾದನೆ
+  defs:
+  - entry: Man Power Productivity
+    type: n
+  id: manpowerpr_b5cf38efe17d
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Man Power Productivity
+- entry: ಅಂಚು, ಮಿತಿ, ಮಟ್ಟ
+  defs:
+  - entry: Margin
+    type: n
+  id: margin_8b7524d28f56
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Margin
+- entry: ಮ್ಯಾಕ್ಸಿಕ್ಯಾಬ್
+  defs:
+  - entry: Maxi Cab
+    type: n
+  id: maxicab_71394ed96915
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Maxi Cab
+- entry: ಸಣ್ಣಪುಟ್ಟ ಅಪಘಾತ
+  defs:
+  - entry: Minor Accident
+    type: n
+  id: minoraccid_624b38e151c4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Minor Accident
+- entry: ಮಾರ್ಪಾಟು
+  defs:
+  - entry: Modification
+    type: n
+  id: modificati_5bf519432ee7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Modification
+- entry: ಏಕಾನುಭೋಗ, ಏಕಸ್ವಾಮ್ಯತೆ, ಪೂರ್ಣಾಧಿಕಾರ, ಏಕಸ್ವಾಮ್ಯಕ್ಕೆ ಒಳಗಾದ ವಸ್ತು
+  defs:
+  - entry: Monopoly
+    type: n
+  id: monopoly_6757d3584cb5
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Monopoly
+- entry: ಮೋಟಾರು ಸಾರಿಗೆ ಕೆಲಸಗಾರ
+  defs:
+  - entry: Motor Transport Worker
+    type: n
+  id: motortrans_1ba1c45fd064
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Motor Transport Worker
+- entry: ಮೋಟಾರು ವಾಹನಗಳು ಸಂಚರಿಸಬಹುದಾದ ರಸ್ತೆ
+  defs:
+  - entry: Motorable Road
+    type: n
+  id: motorabler_a502c1af2866
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Motorable Road
+- entry: ರಾಷ್ಟ್ರೀಕರಣ
+  defs:
+  - entry: Nationalisation
+    type: n
+  id: nationalis_d5cbb7cdb1ad
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Nationalisation
+- entry: ನೆರೆಹೊರೆ ರಾಜ್ಯಗಳು
+  defs:
+  - entry: Neighbouring States
+    type: n
+  id: neighbouri_61e7e805d88b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Neighbouring States
+- entry: ಏಕಸ್ವಾಮ್ಯತೆಯಲ್ಲದ
+  defs:
+  - entry: Non Monopoly
+    type: n
+  id: nonmonopol_76f4f456d67f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Non Monopoly
+- entry: ಸಾಮಾನ್ಯಋತು
+  defs:
+  - entry: Normal Season
+    type: n
+  id: normalseas_71e0135d48be
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Normal Season
+- entry: ಅಧಿಸೂಚಿತ ಮಾರ್ಗ
+  defs:
+  - entry: Notified Route
+    type: n
+  id: notifiedro_ad951c42d833
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Notified Route
+- entry: ಆದೇಶ
+  defs:
+  - entry: Order (CTEO)
+    type: n
+  id: ordercteo_516994f95478
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Order (CTEO)
+- entry: ಅಧಿಕ ಕಾರ್ಯಾವಧಿ, ಅಧಿಕ ಕಾಲಿಕ
+  defs:
+  - entry: O.T. (Over time)
+    type: n
+  id: otovertime_e4df12589843
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: O.T. (Over time)
+- entry: ಸ್ವಾಮ್ಯ / ಸ್ವಾಧೀನ/ ಇರುವಿಕೆ / ನೆಲಸಿರುವಿಕೆ ಪ್ರಮಾಣ
+  defs:
+  - entry: Occupancy Ratio
+    type: n
+  id: occupancyr_bec65dbfe35d
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Occupancy Ratio
+- entry: ಅಮ್ನಿಬಸ್‌
+  defs:
+  - entry: Omni Bus
+    type: n
+  id: omnibus_00dbf29d5c96
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Omni Bus
+- entry: ಕಾರ್ಯಾಚರಣೆ / ಪ್ರವರ್ತನೆ
+  defs:
+  - entry: Operation
+    type: n
+  id: operation_cd72b74f6691
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Operation
+- entry: ಕಾರ್ಯಾಚರಣೆ / ಕಾರ್ಯಕಾರಿ ಫಲಿತಾಂಶ
+  defs:
+  - entry: Operational Results
+    type: n
+  id: operationa_19a51dff6e14
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Operational Results
+- entry: ಆಶಾವಾದಿಯಾಗಿರು, ಅತ್ಯುತ್ತಮವಾಗಿಸು, ಅತ್ಯಂತ ಲಾಭ ಪಡೆದುದು
+  defs:
+  - entry: Optimise
+    type: n
+  id: optimise_e781f1e1a13a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Optimise
+- entry: ಸಾಮಾನ್ಯ-ವೇಗದೂತ
+  defs:
+  - entry: Ordinary–Express
+    type: n
+  id: ordinaryex_a5ddc2480f30
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ordinary–Express
+- entry: ಅತಿಯಾದ ಹೊರೆಯನ್ನು ಹೇರು, ಮಿತಿಮೀರಿ ಜನರನ್ನು ತುಂಬು
+  defs:
+  - entry: Overload
+    type: n
+  id: overload_afbed586c5f6
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Overload
+- entry: ಅತಿವ್ಯಾಪಿಸು, ಅತಿಕ್ರಮಿಸು, ಪರಸ್ಪರ, ವ್ಯಾಪ್ತವಾಗಿರುವ
+  defs:
+  - entry: Overlapping
+    type: n
+  id: overlappin_28c06add225f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Overlapping
+- entry: ಸದೃಶೆ / ಸಮಾಂತರ ಕಾರ್ಯಾಚರಣೆ
+  defs:
+  - entry: Parallel Operation
+    type: n
+  id: parallelop_05317e5955c9
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Parallel Operation
+- entry: ಕಾರ್ಯ ನಿರ್ವಹಣಾ ಕ್ಷೇತ್ರ
+  defs:
+  - entry: Parameters
+    type: n
+  id: parameters_700642980770
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Parameters
+- entry: ಸಮತೆ
+  defs:
+  - entry: Parity
+    type: n
+  id: parity_9b37db3c5d5b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Parity
+- entry: ಪ್ರಯಾಣಿಕರ ಸೌಕರ್ಯಗಳು / ಸವಲತ್ತುಗಳು
+  defs:
+  - entry: Passenger Amenities
+    type: n
+  id: passengera_333a7907bcbe
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Passenger Amenities
+- entry: ಪ್ರಯಾಣಿಕನ ಕಿಲೋಮೀಟರ್‌ಗಳು
+  defs:
+  - entry: Passenger Kilometres
+    type: n
+  id: passengerk_a6fd792a165f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Passenger Kilometres
+- entry: ಪ್ರಯಾಣಿಕರು
+  defs:
+  - entry: Passengers
+    type: n
+  id: passengers_935223b6fad4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Passengers
+- entry: ಪ್ರೋತ್ಸಾಹಿಸಿದ, ಪೋಷಿಸಿದ
+  defs:
+  - entry: Patronised
+    type: n
+  id: patronised_37e17370de06
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Patronised
+- entry: ಸಂಚಾರ ದಟ್ಟಣೆಯ ಅವಧಿ
+  defs:
+  - entry: Peak Season
+    type: n
+  id: peakseason_3fda61d3c565
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Peak Season
+- entry: ದಂಡ
+  defs:
+  - entry: Penalty
+    type: n
+  id: penalty_7ca669090bfb
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Penalty
+- entry: ಪರ್ಮಿಟ್ಟು, ರಹದಾರಿ, ಅನುಮತಿ, ಅನುಮತಿಸು
+  defs:
+  - entry: Permit
+    type: n
+  id: permit_c48f56a1019d
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Permit
+- entry: ಚಿಲ್ಲರೆ ವಸ್ತುಗಳನ್ನು ಕದಿಯುವುದು, ಹಣ ಕಸಿಯುವಿಕೆ
+  defs:
+  - entry: Pilferage
+    type: n
+  id: pilferage_59ca63edeaac
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Pilferage
+- entry: ಯೋಜನೆ, ಯೋಜಿಸುವುದು
+  defs:
+  - entry: Planning
+    type: n
+  id: planning_40eef0703dfc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Planning
+- entry: ಸಂಭಾವ್ಯ ವರ್ಷ
+  defs:
+  - entry: Potential Year
+    type: n
+  id: potentialy_d67b9edad1ac
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Potential Year
+- entry: ಪ್ರೀಮಿಯಂ ಸೇವೆಗಳು
+  defs:
+  - entry: Premium Services
+    type: n
+  id: premiumser_3012308dc10e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Premium Services
+- entry: ಹಿಂದಿನ ವರ್ಷ
+  defs:
+  - entry: Previous Year
+    type: n
+  id: previousye_ce4f6e2cbdc1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Previous Year
+- entry: ಖಾಸಗಿ ವಾಹನ ಪ್ರವರ್ತಕ
+  defs:
+  - entry: Private Operator
+    type: n
+  id: privateope_a250c7dc5d51
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Private Operator
+- entry: ಖಾಸಗಿ ಸೇವಾ ವಾಹನ
+  defs:
+  - entry: Private Service Vehicle
+    type: n
+  id: privateser_587c8183b77a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Private Service Vehicle
+- entry: ಖಾಸಗೀಕರಣ
+  defs:
+  - entry: Privatisation
+    type: n
+  id: privatisat_38086a2164b2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Privatisation
+- entry: ಪೂರ್ವ ನಿಯಾಮಕ ನಿಯಂತ್ರಕ
+  defs:
+  - entry: Proactive
+    type: n
+  id: proactive_6e52d5dbd3a0
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Proactive
+- entry: ಪ್ರಕ್ರಿಯೆ, ಕಾರ್ಯವಿಧಾನ
+  defs:
+  - entry: Procedure
+    type: n
+  id: procedure_e80f201f06cc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Procedure
+- entry: ಉತ್ಪಾದನಾ ದರ, ಮೊತ್ತ, ಉತ್ಪಾದಕತೆ, ಉತ್ಪಾದನಾ ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Productivity
+    type: n
+  id: productivi_ace0f1baa9fd
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Productivity
+- entry: ಪ್ರಗತಿಪರ ಕಿ.ಮೀ.ಗಳು
+  defs:
+  - entry: Progressive Kilometres
+    type: n
+  id: progressiv_7c1f19a6d65f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Progressive Kilometres
+- entry: ಪೂರ್ವಸಿದ್ಧತೆ, ವಿಧಿ, ಕಟ್ಟಳೆ, ನಿಬಂಧನೆ, ಅವಕಾಶ
+  defs:
+  - entry: Provisions
+    type: n
+  id: provisions_7faaaa622653
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Provisions
+- entry: ಷರತ್ತು, ನಿಬಂಧನೆ, ಕಟ್ಟಳೆ
+  defs:
+  - entry: Proviso
+    type: n
+  id: proviso_a63321cee49e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Proviso
+- entry: ಸಾರ್ವಜನಿಕ ದೂರು
+  defs:
+  - entry: Public Complaint
+    type: n
+  id: publiccomp_3645f8fa4a47
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Public Complaint
+- entry: ಸಾರ್ವಜನಿಕ ಸ್ಥಳ
+  defs:
+  - entry: Public place
+    type: n
+  id: publicplac_d4d4369f52e1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Public place
+- entry: ಸಾರ್ವಜನಿಕ ಸೇವಾ ವಾಹನ
+  defs:
+  - entry: Public service vehicle
+    type: n
+  id: publicserv_cf11b4ab695a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Public service vehicle
+- entry: ಕಾರ್ಯನಿಷ್ಠೆ, ಸಕಾಲಿಕತೆ
+  defs:
+  - entry: Punctuality
+    type: n
+  id: punctualit_bbe327107774
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Punctuality
+- entry: ಗುಣಮಟ್ಟ
+  defs:
+  - entry: Quality
+    type: n
+  id: quality_27e1e0e304f2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Quality
+- entry: ಸಮನ್ವಯಿಸುವುದು, ಹೊಂದಿಸಿ ತಿದ್ದುವುದು
+  defs:
+  - entry: Rationalisation
+    type: n
+  id: rationalis_074279d63cf4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rationalisation
+- entry: ಅನುಸಮರ್ಥನೆ / ಸ್ಥೀರೀಕರಣೆ
+  defs:
+  - entry: Ratification
+    type: n
+  id: ratificati_0a89ff495541
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ratification
+- entry: ಅಪಘಾತಗಳ ಪ್ರಮಾಣ
+  defs:
+  - entry: Rate of Accident
+    type: n
+  id: rateofacci_7d3430763400
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rate of Accident
+- entry: ಅವಘಡ ಪ್ರಮಾಣ
+  defs:
+  - entry: Rate of Breakdown
+    type: n
+  id: rateofbrea_9c48899e09c4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rate of Breakdown
+- entry: ಸರಿಪಡಿಸುವಿಕೆ, ಸುಧಾರಣೆ, ನಿವಾರಣೆ, ಪರಿಹರಣ
+  defs:
+  - entry: Rectification
+    type: n
+  id: rectificat_83e94f122bdc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rectification
+- entry: ಉಪಹಾರ ಗೃಹ / ಭೋಜನ ಶಾಲೆ
+  defs:
+  - entry: Refreshment Room
+    type: n
+  id: refreshmen_c96a3c7f99bb
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Refreshment Room
+- entry: ಪ್ರಾದೇಶಿಕ ಸಾರಿಗೆ ಅಧಿಕಾರಿ /ಪ್ರಾಧಿಕಾರ
+  defs:
+  - entry: Regional Transport Authority (RTA)
+    type: n
+  id: regionaltr_abf650c9d374
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Regional Transport Authority (RTA)
+- entry: ಕಾರ್ಯಾಚರಣೆಯ ಕ್ರಮಬದ್ಧತೆ
+  defs:
+  - entry: Regularity of Operation
+    type: n
+  id: regularity_9fb992af7b18
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Regularity of Operation
+- entry: ಕಟ್ಟಳೆಗಳು / ನಿಯಮಾವಳಿಗಳು
+  defs:
+  - entry: Regulations
+    type: n
+  id: regulation_443f53cecff1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Regulations
+- entry: ಪ್ರತಿಫಲ ತರುವ / ಕೊಡುವ, ಸಂಭಾವನೆ ತರುವ, ಪ್ರೋತ್ಸಾಹದಾಯಕ
+  defs:
+  - entry: Remunerative
+    type: n
+  id: remunerati_c03e92b6e9b6
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Remunerative
+- entry: ನಿರಸನ, ತೆಗೆದುಹಾಕುವುದು
+  defs:
+  - entry: Repeal
+    type: n
+  id: repeal_a1bbcca51285
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Repeal
+- entry: ರಾಜಸ್ವ ಕಂದಾಯ, ಆದಾಯ
+  defs:
+  - entry: Revenue
+    type: n
+  id: revenue_95c52ef459c9
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Revenue
+- entry: ಆದಾಯ ಚಲಾವಣೆಗೊಳಿಸುವಿಕೆ / ಸಂಗ್ರಹಣೆ
+  defs:
+  - entry: Revenue Mobilisation
+    type: n
+  id: revenuemob_5f04bc20d9c4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Revenue Mobilisation
+- entry: ಆದಾಯದ ಮೇಲ್ವಿಚಾರಣೆ ನೋಡಿಕೊಳ್ಳುವುದು
+  defs:
+  - entry: Revenue Monitoring
+    type: n
+  id: revenuemon_adee5c729105
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Revenue Monitoring
+- entry: ಆದಾಯ ಸಂಗ್ರಹಣೆ/ಗಳಿಕೆ
+  defs:
+  - entry: Revenue Realisation
+    type: n
+  id: revenuerea_96bbcf55c5a4
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Revenue Realisation
+- entry: ರಸ್ತೆ
+  defs:
+  - entry: Road
+    type: n
+  id: road_d8e03674cfbd
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Road
+- entry: ರೌಂಡ್‌ ಟ್ರಿಪ್‌ಗಳು
+  defs:
+  - entry: Round Trips
+    type: n
+  id: roundtrips_693f0629ff90
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Round Trips
+- entry: ಮಾರ್ಗ
+  defs:
+  - entry: Route
+    type: n
+  id: route_66715fbb720a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Route
+- entry: ಮಾರ್ಗ ಕಿ.ಮೀ.ಗಳು
+  defs:
+  - entry: Route Kilometres
+    type: n
+  id: routekilom_cf5d40781836
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Route Kilometres
+- entry: ಮಾರ್ಗ ವಿಷಯಗಳು
+  defs:
+  - entry: Route Matters
+    type: n
+  id: routematte_f7e6a4c85896
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Route Matters
+- entry: ಸಂಚರಿಸುವ ಕಾಲ
+  defs:
+  - entry: Running time
+    type: n
+  id: runningtim_974c426d9b25
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Running time
+- entry: ಮಾರಾಟವಾಗಿರುವ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Sale figure
+    type: n
+  id: salefigure_467343219d0c
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sale figure
+- entry: ಹಿಂದಿನ ವರ್ಷದ ಇದೇ ತಿಂಗಳು
+  defs:
+  - entry: Same Month Previous Year
+    type: n
+  id: samemonthp_ccb9f1d25757
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Same Month Previous Year
+- entry: ಅನುಸೂಚಿ ಕಿ.ಮೀ.ಗಳು
+  defs:
+  - entry: Scheduled Kms
+    type: n
+  id: scheduledk_0266ff7490af
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Scheduled Kms
+- entry: ಅನುಸೂಚಿಗಳು
+  defs:
+  - entry: Schedules
+    type: n
+  id: schedules_4a87a0f10148
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Schedules
+- entry: ಯೋಜನೆ
+  defs:
+  - entry: Scheme
+    type: n
+  id: scheme_95f6664585ce
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Scheme
+- entry: ಕಾಲಿಕ ದರಗಳು
+  defs:
+  - entry: Seasonal Fares
+    type: n
+  id: seasonalfa_20000dd51c93
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Seasonal Fares
+- entry: ಸೀಟ್‌ ಕಿ.ಮೀ.ಗಳು
+  defs:
+  - entry: Seat Kilometres
+    type: n
+  id: seatkilome_6efdd02559b2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Seat Kilometres
+- entry: ಆಸನ ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Seating Capacity
+    type: n
+  id: seatingcap_0c53a0b20083
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Seating Capacity
+- entry: ಕಾರ್ಯದರ್ಶಿ
+  defs:
+  - entry: Secretary
+    type: n
+  id: secretary_6947987e5451
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Secretary
+- entry: ಶಾಖೆ, ಪ್ರಕರಣ, ವಿಭಾಗ
+  defs:
+  - entry: Section
+    type: n
+  id: section_d8719a53919e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Section
+- entry: ಸರ್ವೀಸ್‌ ಕಿ.ಮೀ.ಗಳು
+  defs:
+  - entry: Service km
+    type: n
+  id: servicekm_acc7080df352
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Service km
+- entry: ಏಕಹಂತದ ತೆರಿಗೆ
+  defs:
+  - entry: Single Point Tax
+    type: n
+  id: singlepoin_efb995a9b17a
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Single Point Tax
+- entry: ಏಕಮಾರ್ಗ ರಸ್ತೆ
+  defs:
+  - entry: Single Track Road
+    type: n
+  id: singletrac_1bc4cb779a43
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Single Track Road
+- entry: ಒಂದೆ ಟ್ರಿಪ್‌
+  defs:
+  - entry: Single Trip
+    type: n
+  id: singletrip_edd7f1d97352
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Single Trip
+- entry: ಕರ್ತವ್ಯ ಪ್ರಾರಂಭ ವೇಳೆ -ಮುಗಿಯುವ ವೇಳೆ-ಕರ್ತವ್ಯ
+  defs:
+  - entry: Sign-on/off-
+    type: n
+  id: signonoff_0a10ad367896
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sign-on/off-
+- entry: ಪ್ರಯಾಣ ದಟ್ಟಣೆ ಕಡಿಮೆ ಅವಧಿ
+  defs:
+  - entry: Slack Season
+    type: n
+  id: slackseaso_0647a3a91587
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Slack Season
+- entry: ನಿರ್ವಹಿಸಿದ ವೇಳೆ
+  defs:
+  - entry: Spread Hour
+    type: n
+  id: spreadhour_03d78f34c276
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Spread Hour
+- entry: ಹೆಚ್ಚುವರಿ, ಬಿಡಿ
+  defs:
+  - entry: Spare
+    type: n
+  id: spare_a6fd69c35a8b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Spare
+- entry: ಹೆಚ್ಚುವರಿ ಬಸ್‌ಗಳು
+  defs:
+  - entry: Spare Buses
+    type: n
+  id: sparebuses_c5f1b2ef7935
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Spare Buses
+- entry: ಹೆಚ್ಚುವರಿ ವಾಹನಗಳ ತಂಡ
+  defs:
+  - entry: Spare Fleet
+    type: n
+  id: sparefleet_756f122f0a0b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Spare Fleet
+- entry: ವೇಗ ನಿಯಂತ್ರಕ ಸಾಧನ
+  defs:
+  - entry: Speed Control Device
+    type: n
+  id: speedcontr_25be98a7959b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Speed Control Device
+- entry: ಸಿಬ್ಬಂದಿ ಪ್ರಮಾಣ
+  defs:
+  - entry: Staff Ratio
+    type: n
+  id: staffratio_06db916f97f8
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Staff Ratio
+- entry: ಹಂತ / ಉಪಹಂತ
+  defs:
+  - entry: Stage/Sub-stage
+    type: n
+  id: stagesubst_368277328436
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stage/Sub-stage
+- entry: ಮಜಲು ವಾಹನ
+  defs:
+  - entry: Stage Carriage
+    type: n
+  id: stagecarri_55d7087b353e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stage Carriage
+- entry: ರಾಜ್ಯ ಸಾರಿಗೆ ಪ್ರಾಧಿಕಾರ
+  defs:
+  - entry: State Transport Authority (STA)
+    type: n
+  id: statetrans_b07058046aef
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: State Transport Authority (STA)
+- entry: ರಾಜ್ಯ ಸಾರಿಗೆ ಉದ್ಯಮ
+  defs:
+  - entry: State Transport Undertaking
+    type: n
+  id: statetrans_14cfabaa5d1e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: State Transport Undertaking
+- entry: ವಿವರಣಾ ಪಟ್ಟಿ, ಹೇಳಿಕೆ
+  defs:
+  - entry: Statement
+    type: n
+  id: statement_880c76f4d2ca
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Statement
+- entry: ಚಾಲನಾ ಯುಕ್ತ ಗಂಟೆಗಳು
+  defs:
+  - entry: Steering duly hours
+    type: n
+  id: steeringdu_59d545676b59
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Steering duly hours
+- entry: ಹಠಾತ್ತಾಗಿ ಮುಳುಗು, ಹಠಾತ್ತಾಗಿ ತಗ್ಗಿಸು
+  defs:
+  - entry: Sudden Dip
+    type: n
+  id: suddendip_e83ccf7c372b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sudden Dip
+- entry: ಸಮೀಕ್ಷೆ, ಪರಿಶೀಲನೆ
+  defs:
+  - entry: Survey
+    type: n
+  id: survey_cf4c8eb390dc
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Survey
+- entry: ನಿಬಂಧನೆಗಳು ಮತ್ತು ಷರತ್ತುಗಳು
+  defs:
+  - entry: Terms & Conditions
+    type: n
+  id: termscondi_9ed0ca0e1043
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Terms & Conditions
+- entry: ಟಿಕೆಟ್‌ಗಳು
+  defs:
+  - entry: Tickets
+    type: n
+  id: tickets_ecee8a2b633f
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tickets
+- entry: ಸ್ವಯಂಚಾಲಿತ ಚೀಟಿ ವಿತರಿಸುವ ಯಂತ್ರ
+  defs:
+  - entry: Ticket Issuing Machine
+    type: n
+  id: ticketissu_680807a64254
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ticket Issuing Machine
+- entry: ವೇಳಾಪಟ್ಟಿ
+  defs:
+  - entry: Time Table
+    type: n
+  id: timetable_c31ac1d3015c
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Time Table
+- entry: ರಸ್ತೆಯ ಮೇಲೆ ಓಡಾಡುತ್ತಿರುವ ಒಟ್ಟು ವಾಹನ
+  defs:
+  - entry: Total Vehicle On Road
+    type: n
+  id: totalvehic_6643b61ae834
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Total Vehicle On Road
+- entry: ಪಾರದರ್ಶಕತೆ
+  defs:
+  - entry: Transparency
+    type: n
+  id: transparen_509dbcd1705b
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transparency
+- entry: ಸಾರಿಗೆ
+  defs:
+  - entry: Transport
+    type: n
+  id: transport_1c54e2638dcd
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transport
+- entry: ಸಾರಿಗೆ ವಾಹನ
+  defs:
+  - entry: Transport Vehicle
+    type: n
+  id: transportv_137ecbdc03e2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transport Vehicle
+- entry: ಸಂಭಾವನೆ ಕೊಡದ, ಪ್ರತಿಫಲಕೊಡದ / ತರದ
+  defs:
+  - entry: Unremunerative
+    type: n
+  id: unremunera_052976d357a7
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Unremunerative
+- entry: ಮೌಲ್ಯದ ಸೇರ್ಪಡೆ
+  defs:
+  - entry: Value Addition
+    type: n
+  id: valueaddit_e0856a21f947
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Value Addition
+- entry: ವಾಹನ ಬಳಕೆ
+  defs:
+  - entry: Vehicle Utilisation
+    type: n
+  id: vehicleuti_3c14edbc7fd1
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Vehicle Utilisation
+- entry: ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Viability
+    type: n
+  id: viability_4ab1c6bddade
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Viability
+- entry: ಕ್ರಯಸಂಖ್ಯೆ-ಮಾರ್ಗ ಪತ್ರ ನಮೂದನೆ
+  defs:
+  - entry: Way bill entries
+    type: n
+  id: waybillent_b20176aec3c6
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Way bill entries
+- entry: ಮಾರ್ಗಪತ್ರ
+  defs:
+  - entry: Way Bill
+    type: n
+  id: waybill_21175ca5ae5e
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Way Bill
+- entry: ರಿಟ್‌ ಅರ್ಜಿ/ರಿಟ್‌ ಅಪೀಲು
+  defs:
+  - entry: Writ Petition
+    type: n
+  id: writpetiti_9fd4e6c55a02
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Writ Petition
+- entry: ಅಂಕುಡೊಂಕು ರಸ್ತೆ, ಜಿಗ್‌ಜ್ಯಾಗ್‌ ರೋಡ್‌
+  defs:
+  - entry: Zig Zag Road
+    type: n
+  id: zigzagroad_16805baa44c2
+  source: ಸಚರ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Zig Zag Road

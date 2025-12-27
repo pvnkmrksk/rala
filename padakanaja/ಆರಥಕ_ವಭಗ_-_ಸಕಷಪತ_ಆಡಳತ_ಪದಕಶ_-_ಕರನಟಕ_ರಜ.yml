@@ -1,0 +1,238 @@
+- entry: ಲೆಕ್ಕ ನಿರ್ವಹಣೆ ಪ್ರಕ್ರಿಯೆಗಳು
+  defs:
+  - entry: Accounting procedures
+    type: n
+  id: accounting_f8c42d5fb86f
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accounting procedures
+- entry: ಲೆಕ್ಕ ನಿರ್ವಹಣೆಯ ಕಾರ್ಯನೀತಿಗಳು
+  defs:
+  - entry: Accounting Policies
+    type: n
+  id: accounting_824ed446ba49
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accounting Policies
+- entry: ಲೆಕ್ಕ ನಿರ್ವಹಣೆಯ ಅಳತೆಗೋಲುಗಳು
+  defs:
+  - entry: Accounting standards
+    type: n
+  id: accounting_9acf7b51c5d2
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accounting standards
+- entry: ಅಪಘಾತ ಪರಿಹಾರ ನಿಧಿ
+  defs:
+  - entry: Accident Relief Fund
+    type: n
+  id: accidentre_c3c77678c94f
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accident Relief Fund
+- entry: ಅಳವಡಿಸಿಕೊಂಡ ಲೆಕ್ಕಪತ್ರಗಳು
+  defs:
+  - entry: Adopted Accounts
+    type: n
+  id: adoptedacc_52ff8cbe7c5a
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Adopted Accounts
+- entry: ಮುಂಗಡ ಪತ್ರ ಮತ್ತು ನಿವ್ವಳ ಮೌಲ್ಯ
+  defs:
+  - entry: Budget and Networth
+    type: n
+  id: budgetandn_f48575bcb969
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Budget and Networth
+- entry: ವರ್ಗಾವಣೆಯಲ್ಲಿರುವ ನಗದು ಹಣ
+  defs:
+  - entry: Cash in Transit
+    type: n
+  id: cashintran_a9a5d2c944ff
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cash in Transit
+- entry: ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿರುವ ಸ್ಥಿರಾಸ್ತಿಗಳು
+  defs:
+  - entry: Capital work in Progress
+    type: n
+  id: capitalwor_1509cbb9b209
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Capital work in Progress
+- entry: ಬಂಡವಾಳ ಕೊಡುಗೆ
+  defs:
+  - entry: Capital Contribution
+    type: n
+  id: capitalcon_fa4af70cf716
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Capital Contribution
+- entry: ಬಂಡವಾಳ ತೊಡಗಿಸಿರುವುದು
+  defs:
+  - entry: Capital employed
+    type: n
+  id: capitalemp_b0865edd6402
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Capital employed
+- entry: ಸಾದಿಲ್ವಾರು ನಿಧಿ
+  defs:
+  - entry: Contingent fund
+    type: n
+  id: contingent_98c89cc5fb6d
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Contingent fund
+- entry: ನಿಯಂತ್ರಣ
+  defs:
+  - entry: Control
+    type: n
+  id: control_f1d6b7a24e09
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Control
+- entry: ಚಾಲ್ತಿ ಆಸ್ತಿಗಳು, ಸಾಲ ಮತ್ತು ಮುಂಗಡಗಳು
+  defs:
+  - entry: Current Assets, Loans & Advances
+    type: n
+  id: currentass_b603798baf85
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Current Assets, Loans & Advances
+- entry: ಚಾಲ್ತಿ ದಾಯಿತ್ವಗಳು, ಋಣಭಾರಗಳು ಹಾಗೂ ಅವಕಾಶಗಳು
+  defs:
+  - entry: Current liabilites & Provisions
+    type: n
+  id: currentlia_eb27b8ba5ad7
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Current liabilites & Provisions
+- entry: ಮುಂದೂಡಲಾದ ಕಾರ್ಯಾಚರಣೆ
+  defs:
+  - entry: Deferred revenue
+    type: n
+  id: deferredre_6a826fbf87d5
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Deferred revenue
+- entry: ಸವಕಳಿ ನಿಧಿ
+  defs:
+  - entry: Depriciation Fund
+    type: n
+  id: depriciati_d35741e11b78
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Depriciation Fund
+- entry: ವೆಚ್ಚಗಳು
+  defs:
+  - entry: Expenditure
+    type: n
+  id: expenditur_1ec29aa8b768
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Expenditure
+- entry: ನಿಧಿ ಬಳಕೆ ವಿವರಣಾ ಪಟ್ಟಿ
+  defs:
+  - entry: Fund flow statement
+    type: n
+  id: fundflowst_0b6336765278
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fund flow statement
+- entry: ಸಾಮಾನ್ಯವಾಗಿ ಅಂಗೀಕೃತವಾದ
+  defs:
+  - entry: Generally accepted
+    type: n
+  id: generallya_65229345cfb6
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Generally accepted
+- entry: ಹೂಡಿಕೆಗಳು
+  defs:
+  - entry: Investments
+    type: n
+  id: investment_38f69bc1fece
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Investments
+- entry: ಹೊಣೆಗಾರಿಕೆಗಳು
+  defs:
+  - entry: Liabilities
+    type: n
+  id: liabilitie_b46606e3f1a4
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Liabilities
+- entry: ನಿವ್ವಳ ಚಾಲ್ತಿ ಆಸ್ತಿಗಳು
+  defs:
+  - entry: Net Current Assets
+    type: n
+  id: netcurrent_2bab420f3e1e
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Net Current Assets
+- entry: ನಿವ್ವಳ ಆದಿಯ ವಿನಿಯೋಗದ ಖಾತೆ
+  defs:
+  - entry: Not appropriation a/c
+    type: n
+  id: notappropr_544b40c27144
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Not appropriation a/c
+- entry: ಅಸ್ತಿ ವಿಮೆ ನಿಧಿ
+  defs:
+  - entry: Property Insurance Fund
+    type: n
+  id: propertyin_a143befe2d5f
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Property Insurance Fund
+- entry: ಸಂದೇಹಾಸ್ಪದ ಹಾಗೂ ವಸೂಲಾಗದ ಬಾಕಿಯ ಬಗ್ಗೆ ಏರ್ಪಾಡುಗಳು
+  defs:
+  - entry: Provision for bad and doubtful debts
+    type: n
+  id: provisionf_c96b7d8726ab
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Provision for bad and doubtful debts
+- entry: ಹಿಂದಿನ ಅವಧಿಯ ಹೊಂದಾಣಿಕೆಗಳು
+  defs:
+  - entry: Prior period adjustments
+    type: n
+  id: priorperio_eef65af8bfab
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Prior period adjustments
+- entry: ಮೀಸಲು ಮತ್ತು ನಿಧಿಗಳು
+  defs:
+  - entry: Reserve & Funds
+    type: n
+  id: reservefun_89dda24da96c
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Reserve & Funds
+- entry: ಬೇಡಿಕೆ ಪಟ್ಟಿ
+  defs:
+  - entry: Requirement statement
+    type: n
+  id: requiremen_510146d975c5
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Requirement statement
+- entry: ಲೆಕ್ಕ ಪುನರಾವಲೋಕನ
+  defs:
+  - entry: Review of Accounts
+    type: n
+  id: reviewofac_c65a8095995e
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Review of Accounts
+- entry: ಗುಣಮಟ್ಟ ಲೆಕ್ಕ ನಿರ್ವಹಣೆ ಪದ್ಧತಿಗಳು
+  defs:
+  - entry: Standard accounting practices
+    type: n
+  id: standardac_e48ee4f76030
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Standard accounting practices
+- entry: ಗುಣಮಟ್ಟ ವೆಚ್ಚ ನಿರ್ವಹಣೆ
+  defs:
+  - entry: Standard costing
+    type: n
+  id: standardco_43906c0f2258
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Standard costing
+- entry: ಮೂಲಗಳು ಮತ್ತು ಕಾರ್ಯ ನಿರ್ವಹಣಾ ಬಂಡವಾಳದ ವಿನಿಯೋಗ
+  defs:
+  - entry: Source & Application of Working Capital
+    type: n
+  id: sourceappl_1c5818c4da95
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Source & Application of Working Capital
+- entry: ವ್ಯವಹಾರದ ಬಾಕಿಗಳು
+  defs:
+  - entry: Trades Dues
+    type: n
+  id: tradesdues_bf8d2165dfb3
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Trades Dues
+- entry: ಕಾರ್ಯ ನಿರ್ವಹಣಾ ಫಲಿತಾಂಶಗಳು
+  defs:
+  - entry: Working results
+    type: n
+  id: workingres_c674c7497fcf
+  source: ಆರಥಕ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Working results

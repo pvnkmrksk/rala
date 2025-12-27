@@ -1,0 +1,322 @@
+- entry: ಒಪ್ಪಲಾದ, ಕೊಡಲಾದ, ನೀಡಲಾದ, ಅನುಮತಿಸಲಾದ
+  defs:
+  - entry: Accorded
+    type: n
+  id: accorded_8fbcd9ed4b19
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Accorded
+- entry: ಕ್ರಮ ಕೈಗೊಳ್ಳಲಾದ, ಕ್ರಮಕೈಗೊಂಡ, ಕೈಗೊಂಡ ಕ್ರಮ
+  defs:
+  - entry: Action taken
+    type: n
+  id: actiontake_062ff2a94639
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Action taken
+- entry: ಕಾರ್ಯಸೂಚಿ
+  defs:
+  - entry: Agenda
+    type: n
+  id: agenda_b317d90f3730
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Agenda
+- entry: ಬಾಧಿತನಾದ, ತೊಂದರೆಗೊಳಗಾದ
+  defs:
+  - entry: Aggrieved
+    type: n
+  id: aggrieved_c569092b8b50
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Aggrieved
+- entry: ಮೆಚ್ಚುಗೆ, ಗುಣಾವಗುಣ, ವಿವೇಚನೆ, ಬೆಲೆ ಹೆಚ್ಚಳ
+  defs:
+  - entry: Appreciation
+    type: n
+  id: appreciati_d065b631ac33
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Appreciation
+- entry: ಅನುಮೋದನೆ
+  defs:
+  - entry: Approval
+    type: n
+  id: approval_8bd97dcf4134
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Approval
+- entry: ಮಂಡಳಿ ಸಭೆ
+  defs:
+  - entry: Board Meeting
+    type: n
+  id: boardmeeti_869b777fa86e
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Board Meeting
+- entry: ಮಂಡಳಿ ಟಿಪ್ಪಣಿ
+  defs:
+  - entry: Board Note
+    type: n
+  id: boardnote_23230ef702b8
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Board Note
+- entry: ಮಂಡಳಿ ನಿರ್ಣಯ / ಠರಾವು
+  defs:
+  - entry: Board Resolution
+    type: n
+  id: boardresol_9fd4fd94769e
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Board Resolution
+- entry: ಮಂಡಳಿ ಕಾರ್ಯದರ್ಶಿ
+  defs:
+  - entry: Board Secretary
+    type: n
+  id: boardsecre_af2772e5fc6a
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Board Secretary
+- entry: ಚಿಂತನ ಗೋಷ್ಠಿ, ಭಾವೋದ್ರೇಕದ ಚರ್ಚೆ, ಬಿರುಸಿನ ಸಭೆ, ಚರ್ಚಾತ್ಮಕ ಸಭೆ, ಚರ್ಚೆ
+  defs:
+  - entry: Brainstorming
+    type: n
+  id: brainstorm_6eceb3801026
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Brainstorming
+- entry: ಸುತ್ತೋಲೆ
+  defs:
+  - entry: Circular
+    type: n
+  id: circular_225c13ad66e5
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Circular
+- entry: ಸಹಮತಿಸು- ಸಹಮತಿಸಲಾದ - ಸಹಮತಿ
+  defs:
+  - entry: Concur-Concurred-Concurrance
+    type: n
+  id: concurconc_e77377fe54b3
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Concur-Concurred-Concurrance
+- entry: ಸ್ಥಿರೀಕರಣ, ಖಾಯಂಗೊಳಿಸುವುದು
+  defs:
+  - entry: Confirmation
+    type: n
+  id: confirmati_efcb6ab0a130
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Confirmation
+- entry: ಸಮವ್ಯಾಪಿ, ಸಮಾನಾಂತ, ಎರಡರ ಅವಧಿ ಒಂದೇ ಆಗುವಂಥ
+  defs:
+  - entry: Co-Terminus
+    type: n
+  id: coterminus_eb8f7238993f
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Co-Terminus
+- entry: ಸುಸಂಗತ, ಸಮಂಜಸ, ದೃಢತೆ
+  defs:
+  - entry: Consistency
+    type: n
+  id: consistenc_c09c2e99d35f
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Consistency
+- entry: ತೀರ್ಮಾನ
+  defs:
+  - entry: Decision
+    type: n
+  id: decision_1445b1f61768
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Decision
+- entry: ಚರ್ಚೆ
+  defs:
+  - entry: Deliberation
+    type: n
+  id: deliberati_4b2e3834a656
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Deliberation
+- entry: ನಿರ್ದೇಶಕ
+  defs:
+  - entry: Director
+    type: n
+  id: director_b6e265781b63
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Director
+- entry: ಹಡಗನ್ನು ಹತ್ತು, ಪ್ರಾರಂಭಿಸು, ಹೂಡು, ಹತ್ತುವುದು
+  defs:
+  - entry: Embarking
+    type: n
+  id: embarking_5d394372fa39
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Embarking
+- entry: ಭಾವಿಸು, ಯೋಜಿಸು ಒಳಗೊಂಡಿರುವ, ರೂಪಿಸು, ಆಲೋಚಿಸು
+  defs:
+  - entry: Envisage
+    type: n
+  id: envisage_8acce0fa2367
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Envisage
+- entry: ಪೂರ್ವಾಧಿ, ಋಣಭಾರ
+  defs:
+  - entry: Encumbrance
+    type: n
+  id: encumbranc_ed2c67013443
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Encumbrance
+- entry: ಸಮಗ್ರ ಪ್ರಯತ್ನ, ಸಮಗ್ರತಾ ದೃಷ್ಟಿ
+  defs:
+  - entry: Holistic Approcach
+    type: n
+  id: holisticap_1197638ce6ef
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Holistic Approcach
+- entry: ಆಹ್ವಾನಿತ
+  defs:
+  - entry: Invitee
+    type: n
+  id: invitee_829dea74e122
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Invitee
+- entry: ಪರಸ್ಪರ, ತಮ್ಮ ತಮ್ಮೊಳಗೆ
+  defs:
+  - entry: Interse
+    type: n
+  id: interse_d567534e6e46
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Interse
+- entry: ಗೈರುಹಾಜರಿಗೆ ಅನುಮತಿ, ಅನುಮತಿ ಪಡೆದ ರಜೆ
+  defs:
+  - entry: Leave of absence
+    type: n
+  id: leaveofabs_54af8ad91637
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Leave of absence
+- entry: ಮಾರ್ಪಡಿಸು - ಮಾರ್ಪಡಿಸಿದ
+  defs:
+  - entry: Modify-Modified
+    type: n
+  id: modifymodi_440e6625cf8c
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Modify-Modified
+- entry: ಅಧಿಕಾರೇತರ ನಿರ್ದೇಶಕ
+  defs:
+  - entry: Non-Official Director
+    type: n
+  id: nonofficia_8f508d54932e
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Non-Official Director
+- entry: ಗಮನಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Noted
+    type: n
+  id: noted_5cc718cd4963
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Noted
+- entry: ಕಾಲ್ಪನಿಕ, ಅಭಿಪ್ರಾಯ
+  defs:
+  - entry: Notional
+    type: n
+  id: notional_964a1de6e1c4
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Notional
+- entry: ಅಧಿಕೃತ ನಿರ್ದೇಶಕ
+  defs:
+  - entry: Official Director
+    type: n
+  id: officialdi_dc9d98a6a001
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Official Director
+- entry: ಹೊರಗುತ್ತಿಗೆ, ಗುತ್ತಿಗೆ ನೀಡಿ ಪ್ರಯೋಜನ ಪಡೆಯುವುದು
+  defs:
+  - entry: Out Sourcing
+    type: n
+  id: outsourcin_0235c429ec22
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Out Sourcing
+- entry: ಯಥಾ ದೃಷ್ಟಿಯ, ಯಥಾದೃಷ್ಟ ರೂಪಣ
+  defs:
+  - entry: Perspective
+    type: n
+  id: perspectiv_b41c274ea875
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Perspective
+- entry: ಅವತರಣಿಕೆ, ಪೀಠಿಕೆ, ಪ್ರಸ್ತಾವನೆ
+  defs:
+  - entry: Preamble
+    type: n
+  id: preamble_785eb560f089
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Preamble
+- entry: ವ್ಯವಹರಣಿಗಳು-ನಡೆವಳಿಗಳು
+  defs:
+  - entry: Proceedings
+    type: n
+  id: proceeding_42623a9ca6f7
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Proceedings
+- entry: ಪ್ರಸ್ತಾವನೆ, ಪ್ರಸ್ತಾಪ, ಉದ್ದೇಶಿತ ಕ್ರಮ, ಸೂಚನೆ
+  defs:
+  - entry: Proposal
+    type: n
+  id: proposal_5b145c4e136a
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Proposal
+- entry: ಸಭೆಗೆ ಅವಶ್ಶಕವಾದ ಸದಸ್ಯರ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Quorum
+    type: n
+  id: quorum_e849c79b9aa2
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Quorum
+- entry: ಅನುಸಮರ್ಥಿಸು, ಅನುಸಮರ್ಥನೆ ಸ್ಥೀರಿಕರಿಸು
+  defs:
+  - entry: Ratify-Ratification
+    type: n
+  id: ratifyrati_d6696db2bbc8
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Ratify-Ratification
+- entry: ಓದಲಾಗಿದೆ ಮತ್ತು ದಾಖಲಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Read & Record
+    type: n
+  id: readrecord_b7ff16c11b62
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Read & Record
+- entry: ದಾಖಲೆ, ನಮೂದು ಮಾಡು - ದಾಖಲೆ ಮಾಡಲಾಗಿದೆ, ನಮೂದಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Record-Recorded
+    type: n
+  id: recordreco_5117b0246994
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Record-Recorded
+- entry: ನಿರ್ಣಯ- ನಿರ್ಣಯಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Resolve-Resolved
+    type: n
+  id: resolveres_733caf01d6d9
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Resolve-Resolved
+- entry: ಜವಾಬು ಕೊಡು, ಪ್ರತಿಕ್ರಿಯಿಸು, ಪ್ರತಿಕ್ರಿಯೆಕೊಡು
+  defs:
+  - entry: Responding
+    type: n
+  id: responding_c90bda1f1641
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Responding
+- entry: ಉಪವೇಶನ ಫೀಜು, ಉಪವೇಶನ ಸಂಭಾವನೆ
+  defs:
+  - entry: Sitting Fees
+    type: n
+  id: sittingfee_76bb9b6704c0
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Sitting Fees
+- entry: ವೇತನವನ್ನು ಮೇಲಕ್ಕೇರಿಸು, ವೇತನ ಹೆಚ್ಚಿಸುವಿಕೆ
+  defs:
+  - entry: Stepping up of pay
+    type: n
+  id: steppingup_f286f7b32fdc
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Stepping up of pay
+- entry: ಏಕರೂಪಗೊಳಿಸು, ಸರಿಪಡಿಸು, ಪರಿಷ್ಕರಿಸು, ಸಮಗ್ರ ಬದಲಾವಣೆ
+  defs:
+  - entry: Streamline
+    type: n
+  id: streamline_14ce77a10fde
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Streamline
+- entry: ವಂದನಾರ್ಪಣೆ, ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುವುದು, ಅಭಾರ ಮನ್ನಣೆ
+  defs:
+  - entry: Vote of Thanks
+    type: n
+  id: voteofthan_d51442359105
+  source: ಸಮನಯ_ಬಳಕ_ಪದಗಳ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನ
+  head: Vote of Thanks

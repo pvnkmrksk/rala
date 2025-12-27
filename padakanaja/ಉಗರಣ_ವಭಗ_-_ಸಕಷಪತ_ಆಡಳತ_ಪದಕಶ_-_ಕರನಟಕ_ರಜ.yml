@@ -1,0 +1,1234 @@
+- entry: ಎ.ಬಿ.ಸಿ. ವರ್ಗೀಕರಣ
+  defs:
+  - entry: ABC Classification
+    type: n
+  id: abcclassif_2ca6f8dca6ae
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: ABC Classification
+- entry: ಅಂಗೀಕೃತ ಪ್ರಮಾಣ
+  defs:
+  - entry: Accepted Quantity
+    type: n
+  id: acceptedqu_d6ee09c9f8a3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accepted Quantity
+- entry: ಲೆಕ್ಕದ ಘಟಕ
+  defs:
+  - entry: Accounting Unit
+    type: n
+  id: accounting_f446e3ed273c
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Accounting Unit
+- entry: ಮುಂಗಡ ಕೋರಿಕೆ
+  defs:
+  - entry: Advance Requisition
+    type: n
+  id: advancereq_b7955e95ff61
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Advance Requisition
+- entry: ಸಹಾಯಕ ಘಟಕಗಳು
+  defs:
+  - entry: Ancillary Units
+    type: n
+  id: ancillaryu_442469da8976
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ancillary Units
+- entry: ವಾರ್ಷಿಕ ಸರಾಸರಿ ವಹಿವಾಟು
+  defs:
+  - entry: Annual Average Turnover
+    type: n
+  id: annualaver_fe2f3903f3e6
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Annual Average Turnover
+- entry: ಅರ್ಜಿ ನಮೂನೆ
+  defs:
+  - entry: Application form
+    type: n
+  id: applicatio_4f984f8c3ac4
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Application form
+- entry: ಅಸಂಬ್ಲಿ ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Assembly Cards
+    type: n
+  id: assemblyca_5b3ca024289a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Assembly Cards
+- entry: ಸಹಾಯಕ ಉಗ್ರಾಣ ಪಾಲಕ
+  defs:
+  - entry: Assistant Stores Keeper
+    type: n
+  id: assistants_77b9a5e40e2e
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Assistant Stores Keeper
+- entry: ಸಹಾಯಕ ಉಗ್ರಾಣ ಅಧಿಕಾರಿ
+  defs:
+  - entry: Assistant Stores Officer
+    type: n
+  id: assistants_a31552cfa1bb
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Assistant Stores Officer
+- entry: ಹರಾಜು
+  defs:
+  - entry: Auction
+    type: n
+  - entry: Bid
+    type: n
+  id: auction_afa1b2b9fa35
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Auction
+- entry: ಮೋಟಾರು ವಾಹನ
+  defs:
+  - entry: Automobile
+    type: n
+  id: automobile_b63fe0b041aa
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Automobile
+- entry: ಜಮಾ ಖರ್ಚುಪಟ್ಟಿ / ಆಯವ್ಯಯ ಪಟ್ಟಿ
+  defs:
+  - entry: Balance sheet
+    type: n
+  id: balanceshe_2b3ebfb33d15
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Balance sheet
+- entry: ಬ್ಯಾಂಕಿನ ಕಮಿಷನ್‌
+  defs:
+  - entry: Bank Commission
+    type: n
+  id: bankcommis_561367bb09a2
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bank Commission
+- entry: ಬ್ಯಾಂಕ್‌ ತಿಳಿವಳಿಕೆ
+  defs:
+  - entry: Bank Intimation
+    type: n
+  id: bankintima_250b71ab7968
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bank Intimation
+- entry: ಬ್ಯಾಟರಿ ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Battery Cards
+    type: n
+  id: batterycar_b59605d6cdb4
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Battery Cards
+- entry: ತೊಟ್ಟಿ, ಪಾತ್ರೆ
+  defs:
+  - entry: Bin
+    type: n
+  id: bin_9f66bb31fd72
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bin
+- entry: ಬಿನ್‌ ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Bin Cards
+    type: n
+  id: bincards_a96e274d51c6
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bin Cards
+- entry: ಒಡೆದ
+  defs:
+  - entry: Broken
+    type: n
+  id: broken_4b27c6174c93
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Broken
+- entry: ಆಯವ್ಯಯ, ಬಜೆಟ್‌
+  defs:
+  - entry: Budget
+    type: n
+  id: budget_776c72ce23d1
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Budget
+- entry: ಆಯವ್ಯಯ ನಿಯಂತ್ರಣ ಪುಸ್ತಕ
+  defs:
+  - entry: Budget Control Register
+    type: n
+  id: budgetcont_0b5c63da394a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Budget Control Register
+- entry: ಸಗಟು ಆದೇಶ, ಸಗಟು ಕೋರಿಕೆ
+  defs:
+  - entry: Bulk Order
+    type: n
+  id: bulkorder_0f5addd52e9d
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bulk Order
+- entry: ಸಗಟು ಸರಬರಾಜು ಕೋರಿಕೆ ಪತ್ರ
+  defs:
+  - entry: Bulk Provisioning Indent
+    type: n
+  id: bulkprovis_e436751ffd07
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Bulk Provisioning Indent
+- entry: ಕೋರಿಕೆ ವಿವರಪಟ್ಟಿ
+  defs:
+  - entry: Calendar of Indent
+    type: n
+  id: calendarof_a5373c6d5bef
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Calendar of Indent
+- entry: ಅಂಕಶೋಧನಾ ಚಾರ್ಟ್‌, ಕ್ಯಾಲಿಬ್ರೇಷನ್‌ ಚಾರ್ಟ್‌
+  defs:
+  - entry: Calibration Chart
+    type: n
+  id: calibratio_83993e5bd6c0
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Calibration Chart
+- entry: ಮೂಲ ಸರಕು
+  defs:
+  - entry: Capital Goods
+    type: n
+  id: capitalgoo_cfd2d890b069
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Capital Goods
+- entry: ಗಾಡಿ ಏಜೆಂಟ್‌
+  defs:
+  - entry: Carting Agent
+    type: n
+  id: cartingage_30d175c7aec4
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Carting Agent
+- entry: ನಗದು ಸೋಡಿ
+  defs:
+  - entry: Cash Discount
+    type: n
+  id: cashdiscou_b85229c73c9a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cash Discount
+- entry: ಕೇಂದ್ರ ಖರೀದಿ ಸಮಿತಿ
+  defs:
+  - entry: Central Purchase Committee
+    type: n
+  id: centralpur_0847ac8dbf86
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Central Purchase Committee
+- entry: ಕೇಂದ್ರ ಖರೀದಿ ಉಪಸಮಿತಿ
+  defs:
+  - entry: Central Purchase Sub Committee
+    type: n
+  id: centralpur_f5c765b694a5
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Central Purchase Sub Committee
+- entry: ಕೇಂದ್ರ ಮಾರಾಟ ತೆರಿಗೆ
+  defs:
+  - entry: Central Sales Tax
+    type: n
+  id: centralsal_2b13eac2b4ed
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Central Sales Tax
+- entry: ಪ್ರಮಾಣ ಪತ್ರ
+  defs:
+  - entry: Certificate
+    type: n
+  id: certificat_bf5497bc6b5f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Certificate
+- entry: ಸನ್ನದು ಲೆಕ್ಕಿಗ, ಚಾರ್ಟರ್ಡ್‌ ಅಕೌಂಟೆಂಟ್‌
+  defs:
+  - entry: Charted Accountant
+    type: n
+  id: chartedacc_ea9c05b6cb64
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Charted Accountant
+- entry: ದರ ಪ್ರಸ್ತಾವನೆ
+  defs:
+  - entry: Commercial Offer
+    type: n
+  id: commercial_d63c2ecad229
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Commercial Offer
+- entry: ತುಲನಾತ್ಮಕ ಚಾರ್ಟ್‌
+  defs:
+  - entry: Comparative Chart
+    type: n
+  id: comparativ_eb6bfb91e654
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Comparative Chart
+- entry: ಸ್ಪರ್ಧಾತ್ಮಕ ದರಗಳು
+  defs:
+  - entry: Competitive rates
+    type: n
+  id: competitiv_da10c70bb119
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Competitive rates
+- entry: ಸ್ಥಿರೀಕರಣದ ಆದೇಶ
+  defs:
+  - entry: Confirmed Order
+    type: n
+  id: confirmedo_2a70e2fc8aeb
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Confirmed Order
+- entry: ಸರಕು ಪಡೆಯುವವ
+  defs:
+  - entry: Consignee
+    type: n
+  id: consignee_f75949301b00
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Consignee
+- entry: ರವಾನೆ, ರವಾನಿಸಿದ ಸರಕು
+  defs:
+  - entry: Consignment
+    type: n
+  id: consignmen_78c98e91958f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Consignment
+- entry: ಸರಕು ರವಾನೆಗಾರ
+  defs:
+  - entry: Consignor
+    type: n
+  id: consignor_9ce054044958
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Consignor
+- entry: ಬಳಕೆ ಅವಧಿ
+  defs:
+  - entry: Consumption period
+    type: n
+  id: consumptio_6dbadea729f3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Consumption period
+- entry: ಸರಕು ಮತ್ತು ಖರೀದಿ ನಿಯಂತ್ರಕ
+  defs:
+  - entry: Controller of Stores and Purchases
+    type: n
+  id: controller_50b7a8698a73
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Controller of Stores and Purchases
+- entry: ಸಾಗಣೆ ಬಾಡಿಗೆ ಆಧಾರದ ಮೇಲೆ ವಿಮಾ ವೆಚ್ಚ
+  defs:
+  - entry: Cost Insurance Freight basis
+    type: n
+  id: costinsura_f8101ba05783
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Cost Insurance Freight basis
+- entry: ಕೊರಿಯರ್‌
+  defs:
+  - entry: Courier
+    type: n
+  id: courier_9c147d33f9ed
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Courier
+- entry: ಸಾಲ, ಜಮೆ, ವಿಶ್ವಾಸಾರ್ಹತೆ
+  defs:
+  - entry: Credit
+    type: n
+  id: credit_9ab52905cb25
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Credit
+- entry: ಸ್ಥಳ ನಿಯುಕ್ತಿ ದಿನಾಂಕ
+  defs:
+  - entry: Date of posting
+    type: n
+  id: dateofpost_36553a8021c7
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Date of posting
+- entry: ಸುರಿ, ಬಗ್ಗಿಸು, ದ್ರವಬಸಿ, ತಿಳಿಬಗ್ಗಿಸು
+  defs:
+  - entry: Decanting
+    type: n
+  id: decanting_2c81b9a52286
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Decanting
+- entry: ಬಟವಾಡೆ, ಒಪ್ಪಿಸುವುದು
+  defs:
+  - entry: Delivery
+    type: n
+  id: delivery_b535870f9f26
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Delivery
+- entry: ಸಾಂದ್ರತೆ
+  defs:
+  - entry: Density
+    type: n
+  id: density_ef9676abfe26
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Density
+- entry: ಘಟಕ ಉಗ್ರಾಣ
+  defs:
+  - entry: Depot Stores
+    type: n
+  id: depotstore_834970b4f795
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Depot Stores
+- entry: ಸರಕು ಮತ್ತು ಖರೀದಿ ಉಪ ನಿಯಂತ್ರಕರು
+  defs:
+  - entry: Deputy Controller of Stores and Purchases
+    type: n
+  id: deputycont_74a2316aa72a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Deputy Controller of Stores and Purchases
+- entry: ತಲುಪಬೇಕಾದ ಸ್ಥಳ, ಗಮ್ಯ ಸ್ಥಾನ
+  defs:
+  - entry: Destination
+    type: n
+  id: destinatio_f980e473d2a3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Destination
+- entry: ರವಾನಿಸು, ರವಾನೆ
+  defs:
+  - entry: Dispatch
+    type: n
+  id: dispatch_73ddb9568e04
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Dispatch
+- entry: ಅದ್ದುವ ಸಲಾಕೆ, ಡಿಪ್‌ರಾಡ್‌
+  defs:
+  - entry: Dip Rod
+    type: n
+  id: diprod_615f1c960e76
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Dip Rod
+- entry: ಬಟವಾಡೆ
+  defs:
+  - entry: Disbursement
+    type: n
+  id: disburseme_246b7fe2dbb5
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Disbursement
+- entry: ವ್ಯತ್ಯಾಸ ವರದಿ, ಅಸಂಬದ್ಧ ವರದಿ, ಭಿನ್ನ ವರದಿ
+  defs:
+  - entry: Discrepancy Report
+    type: n
+  id: discrepanc_c29efa8c774d
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Discrepancy Report
+- entry: ವಿಲೆ, ಹಸ್ತಾಂತರ
+  defs:
+  - entry: Disposal
+    type: n
+  id: disposal_1bb420757fe8
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Disposal
+- entry: ಅನರ್ಹಗೊಳಿಸು
+  defs:
+  - entry: Disqualify
+    type: n
+  id: disqualify_fe787aa65269
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Disqualify
+- entry: ವಿತರಣಾ ಪಟ್ಟಿ
+  defs:
+  - entry: Distribution Chart
+    type: n
+  id: distributi_0db22e93cf65
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Distribution Chart
+- entry: ಜಿಲ್ಲಾಟೆಂಡರ್‌ ಪ್ರಕಟಣೆ
+  defs:
+  - entry: District Tender Bulletin
+    type: n
+  id: districtte_1b8c35cec8b5
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: District Tender Bulletin
+- entry: ವಿಭಾಗಿಯ ದಾಸ್ತಾನು ಮಳೆಗೆ
+  defs:
+  - entry: Divisional Stores
+    type: n
+  id: divisional_e0bcf54bef8a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Divisional Stores
+- entry: ಮುಂಗಡ ಠೇವಣಿ ಮೊತ್ತ
+  defs:
+  - entry: Earnest Money Deposit
+    type: n
+  id: earnestmon_47d5f5c5277a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Earnest Money Deposit
+- entry: ಅರ್ಹ / ಅರ್ಹತೆ
+  defs:
+  - entry: Eligible/ eligibility
+    type: n
+  id: eligibleel_0ead0be38868
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Eligible/ eligibility
+- entry: ಅಂತಿಮ ದರ, ಕೊನೆ ದರ
+  defs:
+  - entry: End rate
+    type: n
+  id: endrate_6a3012f97fe9
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: End rate
+- entry: ಮೌಲ್ಯ ಮಾಪನ ಮಾನದಂಡ
+  defs:
+  - entry: Evaluation criteria
+    type: n
+  id: evaluation_94493835b0d7
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Evaluation criteria
+- entry: ಅಬಕಾರಿ ಸುಂಕ
+  defs:
+  - entry: Excise Duty
+    type: n
+  id: exciseduty_e023c99c1d4f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Excise Duty
+- entry: ಮಳಿಗೆ
+  defs:
+  - entry: Ex-godown
+    type: n
+  id: exgodown_cc3c0611df91
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ex-godown
+- entry: ಫ್ಯಾಕ್ಸ್
+  defs:
+  - entry: Fax
+    type: n
+  id: fax_9f05a338984b
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fax
+- entry: ಫರ್ಮುಗಳು
+  defs:
+  - entry: Firms
+    type: n
+  id: firms_1ac4bdd409df
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Firms
+- entry: ನಿಗದಿತ ಆಸ್ತಿಗಳು / ಸ್ವತ್ತುಗಳು / ಸ್ಥಿರಾಸ್ತಿಗಳು
+  defs:
+  - entry: Fixed Assets
+    type: n
+  id: fixedasset_74b72d495e4e
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Fixed Assets
+- entry: ಹಡಗಿನಲ್ಲಿ ವೆಚ್ಚವಿಲ್ಲದೆ ಸಾಗುವ
+  defs:
+  - entry: Free on Board
+    type: n
+  id: freeonboar_c96b3300d011
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Free on Board
+- entry: ರಸ್ತೆಯಲ್ಲಿ ವೆಚ್ಚವಿಲ್ಲದೆ ಸಾಗುವ
+  defs:
+  - entry: Free on road
+    type: n
+  id: freeonroad_4a157b33acf3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Free on road
+- entry: ವೆಚ್ಚವಿಲ್ಲದ ಬದಲಾವಣೆ
+  defs:
+  - entry: Free replacement
+    type: n
+  id: freereplac_f426a8f6729a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Free replacement
+- entry: ಸಾಗಣೆ ಬಾಡಿಗೆ
+  defs:
+  - entry: Freight
+    type: n
+  id: freight_cc67353667c2
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Freight
+- entry: ನೆಲ ಬಾಡಿಗೆ
+  defs:
+  - entry: Ground rent
+    type: n
+  id: groundrent_2dfa86faf584
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Ground rent
+- entry: ಗ್ಯಾರಂಟಿ, ಖಾತರಿ
+  defs:
+  - entry: Guarantee
+    type: n
+  id: guarantee_58f3f54804c9
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Guarantee
+- entry: ಅರ್ಧ ವರ್ಷ
+  defs:
+  - entry: Half year
+    type: n
+  id: halfyear_7ad457f3a02e
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Half year
+- entry: ನಿರ್ವಹಣಾ ಶುಲ್ಕಗಳು
+  defs:
+  - entry: Handling Charges
+    type: n
+  id: handlingch_fb2fb0b26753
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Handling Charges
+- entry: ಕೋರಿಕೆ ಸಲ್ಲಿಸುವುದು / ಬೇಡಿಕೆ ಸಲ್ಲಿಸುವುದು
+  defs:
+  - entry: Indenting
+    type: n
+  id: indenting_360af275071f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Indenting
+- entry: ತಪಾಸಣಾ ವರದಿ
+  defs:
+  - entry: Inspection report
+    type: n
+  id: inspection_267384446b87
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Inspection report
+- entry: ವಿಮೆ
+  defs:
+  - entry: Insurance
+    type: n
+  id: insurance_3a396d21d437
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Insurance
+- entry: ವಿವರಣಾ ಪಟ್ಟಿ
+  defs:
+  - entry: Inventory
+    type: n
+  id: inventory_95b7df047b21
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Inventory
+- entry: ಖರೀದಿ ಪಟ್ಟಿ
+  defs:
+  - entry: Invoice
+    type: n
+  id: invoice_7eec576a977a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Invoice
+- entry: ಆಹ್ವಾನಿಸು, ಅನ್ವಯಿಸು
+  defs:
+  - entry: Invoke
+    type: n
+  id: invoke_483f2734d8c5
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Invoke
+- entry: ನೀಡಿಕೆ ವೋಚರ್‌
+  defs:
+  - entry: Issue Voucher
+    type: n
+  id: issuevouch_56dea6ba5214
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Issue Voucher
+- entry: ಬಾಬ್ತಿನ ಗೌಪ್ಯ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Item Code Number
+    type: n
+  id: itemcodenu_608f6642d16b
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Item Code Number
+- entry: ಕಿರಿಯ ಸಹಾಯಕ
+  defs:
+  - entry: Junior Assistant
+    type: n
+  id: juniorassi_65f866742f6f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Junior Assistant
+- entry: ಕರ್ನಾಟಕ ಸಾರ್ವಜನಿಕ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಪಾರದರ್ಶಕತೆ ಅಧಿನಿಯಮ
+  defs:
+  - entry: Karnataka Transparency in Public Procurement Act
+    type: n
+  id: karnatakat_e9ce1ceed3ce
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Karnataka Transparency in Public Procurement Act
+- entry: ಬೃಹತ್ ಪ್ರಮಾಣದ ಕೈಗಾರಿಕೆಗಳು
+  defs:
+  - entry: Large Scale Industries
+    type: n
+  id: largescale_81f5182d8cfb
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Large Scale Industries
+- entry: ಉದ್ದೇಶಪತ್ರ
+  defs:
+  - entry: Letter of Intent
+    type: n
+  id: letterofin_e82d2cae570c
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Letter of Intent
+- entry: ಸ್ಥಳೀಯ ಖರೀದಿ
+  defs:
+  - entry: Local Purchase
+    type: n
+  id: localpurch_448be8355398
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Local Purchase
+- entry: ಸ್ಥಳೀಯ ಖರೀದಿ ಸಮಿತಿ
+  defs:
+  - entry: Local purchase Committee
+    type: n
+  id: localpurch_2bc43347b17a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Local purchase Committee
+- entry: ದೊಡ್ಡ ಜೋಡಣೆಗಳು
+  defs:
+  - entry: Major Assemblies
+    type: n
+  id: majorassem_a40b25d2bb9f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Major Assemblies
+- entry: ತಯಾರಿಕೆ / ಬ್ರಾಂಡ್
+  defs:
+  - entry: Make/ Brand
+    type: n
+  id: makebrand_3e1f35cbbd85
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Make/ Brand
+- entry: ತಯಾರಿಕರ ಭಾಗ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Manufacturers Part Number
+    type: n
+  id: manufactur_ef896d8b2ed8
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Manufacturers Part Number
+- entry: ಮುಖ್ಯ ನಿಯಂತ್ರಣ ರಿಜಿಸ್ಟರು
+  defs:
+  - entry: Master Control Register
+    type: n
+  id: mastercont_7777163ad7cf
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Master Control Register
+- entry: ಮಧ್ಯಮ ಪ್ರಮಾಣದ ಕೈಗಾರಿಕೆಗಳು.
+  defs:
+  - entry: Medium scale Industries
+    type: n
+  id: mediumscal_91636538d9a2
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Medium scale Industries
+- entry: ಸಣ್ಣ ಜೋಡಣೆಗಳು
+  defs:
+  - entry: Minor Assemblies
+    type: n
+  id: minorassem_71cc4efd060f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Minor Assemblies
+- entry: ಮಾತುಕತೆ, ಸಂಧಾನಗಳು
+  defs:
+  - entry: Negotiations
+    type: n
+  id: negotiatio_482379bca113
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Negotiations
+- entry: ನಾಮಾವಳಿ
+  defs:
+  - entry: Nomenclature
+    type: n
+  id: nomenclatu_9785a7d6c5d7
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Nomenclature
+- entry: ಕಾರ್ಯಾಚರಣೆ ಗುರಿ
+  defs:
+  - entry: Operational target
+    type: n
+  id: operationa_8d5af7a17c48
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Operational target
+- entry: ಆದೇಶದ ಹಂತ, ಕೋರಿಕೆಯ ಹಂತ
+  defs:
+  - entry: Order level
+    type: n
+  id: orderlevel_26ed4ee24122
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Order level
+- entry: ಮೂಲ ಉಪಕರಣ ತಯಾರಕರು
+  defs:
+  - entry: Original Equipment Manufacturers
+    type: n
+  id: originaleq_9341b8434719
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Original Equipment Manufacturers
+- entry: ಪ್ಯಾಕಿಂಗ್‌ ಮತ್ತು ರವಾನೆ
+  defs:
+  - entry: Packing and Forwarding
+    type: n
+  id: packingand_72cf0bc9dcf1
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Packing and Forwarding
+- entry: ಶುಲ್ಕಗಳು
+  defs:
+  - entry: Charges
+    type: n
+  id: charges_4fed66ba172c
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Charges
+- entry: ಸಂದಾಯ
+  defs:
+  - entry: Payment
+    type: n
+  id: payment_176f43b1ebe8
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Payment
+- entry: ಯೋಜನೆ
+  defs:
+  - entry: Planning
+    type: n
+  id: planning_aed7948145d0
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Planning
+- entry: ಕಳಪೆ ಗುಣಮಟ್ಟ
+  defs:
+  - entry: Poor Quality
+    type: n
+  id: poorqualit_c69b4ccdd358
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Poor Quality
+- entry: ಅಕಾಲಿಕ ವಿಫಲತೆಗಳು
+  defs:
+  - entry: Premature failures
+    type: n
+  id: prematuref_28c19be193c2
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Premature failures
+- entry: ಪೂರ್ವಾರ್ಹತೆ ಆಹ್ವಾನ, ಕೋರಿಕೆ
+  defs:
+  - entry: Prequalification Offer
+    type: n
+  id: prequalifi_d12f5a56c46a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Prequalification Offer
+- entry: ಬೆಲೆ ವ್ಯತ್ಯಾಸ ಖಂಡ
+  defs:
+  - entry: Price variation clause
+    type: n
+  id: pricevaria_21bd14aebfff
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Price variation clause
+- entry: ಬೆಲೆಗಳು
+  defs:
+  - entry: Prices
+    type: n
+  id: prices_095fc8b14e25
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Prices
+- entry: ಸಂಗ್ರಹಣೆ, ಪಡೆಯುವುದು, ದೊರಕಿಸುವುದು
+  defs:
+  - entry: Procurement
+    type: n
+  id: procuremen_405376447919
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Procurement
+- entry: ದಾಮಾಷಾ ವಸೂಲಾತಿ
+  defs:
+  - entry: Prorata recovery
+    type: n
+  id: proratarec_98d54cfa96e3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Prorata recovery
+- entry: ಖರೀದಿ ಆದೇಶ, ಕೋರಿಕೆ
+  defs:
+  - entry: Purchase Order
+    type: n
+  id: purchaseor_3f9fcc921330
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Purchase Order
+- entry: ಖರೀದಿ ನೀತಿ
+  defs:
+  - entry: Purchase Policy
+    type: n
+  id: purchasepo_3d398994e11b
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Purchase Policy
+- entry: ಅರ್ಹವಾಗು
+  defs:
+  - entry: Qualify
+    type: n
+  id: qualify_179b16021de4
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Qualify
+- entry: ಗುಣ ಮಟ್ಟ
+  defs:
+  - entry: Quality
+    type: n
+  id: quality_7784191e1c7f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Quality
+- entry: ಪ್ರಮಾಣ
+  defs:
+  - entry: Quantity
+    type: n
+  id: quantity_87f4316bf0b9
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Quantity
+- entry: ತ್ರೈಮಾಸಿಕ
+  defs:
+  - entry: Quarter
+    type: n
+  id: quarter_051744666a11
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Quarter
+- entry: ಉದ್ದರಣೆ, ಕೊಟೇಶನ್
+  defs:
+  - entry: Quotation
+    type: n
+  id: quotation_6d97d2561987
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Quotation
+- entry: ಉದ್ಧರಿತ ದರಗಳು
+  defs:
+  - entry: Quoted rates
+    type: n
+  id: quotedrate_3060535af618
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Quoted rates
+- entry: ರ‍್ಯಾಕ್‌
+  defs:
+  - entry: Rack
+    type: n
+  id: rack_53f770717d28
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rack
+- entry: ರೈಲ್ವೆ ರಸೀತಿ, ರೈಲ್ವೆ ಸ್ವೀಕೃತಿ
+  defs:
+  - entry: Railway receipt
+    type: n
+  id: railwayrec_43997a19f72a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Railway receipt
+- entry: ದರ ಕರಾರು, ದರ ಒಪ್ಪಂದ
+  defs:
+  - entry: Rate Contract
+    type: n
+  id: ratecontra_bcf0d0ad3ec3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rate Contract
+- entry: ದರಗಳು
+  defs:
+  - entry: Rates
+    type: n
+  id: rates_9ef725fc895f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Rates
+- entry: ಸ್ವೀಕೃತಿ ನಿಯಂತ್ರಣ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Receipt Control number
+    type: n
+  id: receiptcon_d4cfe33ec688
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Receipt Control number
+- entry: ಸ್ವೀಕೃತಿ ವೋಚರ್‌
+  defs:
+  - entry: Receipt Voucher
+    type: n
+  id: receiptvou_fea9047818e9
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Receipt Voucher
+- entry: ಕೋರಿಕೆ ಪತ್ರಗಳ ದಾಖಲೆಗಳು
+  defs:
+  - entry: Record of indents
+    type: n
+  id: recordofin_6ae74bc58444
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Record of indents
+- entry: ನಿರ್ಣಯ, ಠರಾವು
+  defs:
+  - entry: Resolution
+    type: n
+  id: resolution_b5a88238c5af
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Resolution
+- entry: ದಾಖಲೆಗಳ ವಿಮುಕ್ತಿ, ದಸ್ತಾವೇಜುಗಳನ್ನು ಚಲಾವಣೆಯಿಂದ ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದು
+  defs:
+  - entry: Retirement of documents
+    type: n
+  id: retirement_a7b6d62ea514
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Retirement of documents
+- entry: ಹೊಣೆ ಖರೀದಿ ಖಂಡ
+  defs:
+  - entry: Risk purchase clause
+    type: n
+  id: riskpurcha_b91f205a118d
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Risk purchase clause
+- entry: ಮಾರಾಟಗಳು
+  defs:
+  - entry: Sales
+    type: n
+  id: sales_552b8906a5cd
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sales
+- entry: ಮಾರಾಟ ತೆರಿಗೆ
+  defs:
+  - entry: Sales Tax
+    type: n
+  id: salestax_ec1b591b6d16
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Sales Tax
+- entry: ಚೂರುಪಾರು ನಿರ್ವಹಣೆ
+  defs:
+  - entry: Scrap Management
+    type: n
+  id: scrapmanag_8677829fc331
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Scrap Management
+- entry: ಭದ್ರತಾ ಠೇವಣಿ
+  defs:
+  - entry: Security Deposit
+    type: n
+  id: securityde_2d77a44c23f0
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Security Deposit
+- entry: ಸಣ್ಣ ಪ್ರಮಾಣದ ಕೈಗಾರಿಕೆಗಳು
+  defs:
+  - entry: Small Scale Industries
+    type: n
+  id: smallscale_579976ae8137
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Small Scale Industries
+- entry: ಬಿಡಿ / ಬಿಡಿಭಾಗಗಳು
+  defs:
+  - entry: Spares/spare parts
+    type: n
+  id: sparesspar_0c525e3feef5
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Spares/spare parts
+- entry: ನಮೂದು ಮಾಡುವುದು, ವಿಶಿಷ್ಟ ವಿವರಣೆ / ತಪಶೀಲು, ನಿರ್ದಿಷ್ಟತೆ
+  defs:
+  - entry: Specification
+    type: n
+  id: specificat_728975e834a6
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Specification
+- entry: ರಾಜ್ಯ ಟೆಂಡರು ಪ್ರಕಟಣೆ
+  defs:
+  - entry: State Tender Bulletin
+    type: n
+  id: statetende_c2b03b81d0b3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: State Tender Bulletin
+- entry: ಸ್ಥಾನಮಾನ, ವಸ್ತುಸ್ಥಿತಿ
+  defs:
+  - entry: Status
+    type: n
+  id: status_bc028b8e086b
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Status
+- entry: ದಾಸ್ತಾನು ಪರಿಶೀಲನೆ
+  defs:
+  - entry: Stock Verification
+    type: n
+  id: stockverif_f27ba29a52f3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stock Verification
+- entry: ಸರಕು ಮಾರಾಟ ಸ್ಮಳ, ಸ್ಟೋರ್ಸ್‌, ಸಂಗ್ರಹ ಸ್ಥಳ
+  defs:
+  - entry: Stores
+    type: n
+  id: stores_c47129e8c0f2
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stores
+- entry: ಉಗ್ರಾಣ ಪಾಲಕ
+  defs:
+  - entry: Stores Keeper
+    type: n
+  id: storeskeep_9865e249f3c1
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stores Keeper
+- entry: ಉಗ್ರಾಣ ಅಧಿಕಾರಿ
+  defs:
+  - entry: Stores Officer
+    type: n
+  id: storesoffi_46e45127239f
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stores Officer
+- entry: ಉಗ್ರಾಣ ಅಧೀಕ್ಷಕ, ಸ್ಟೋರ್ಸ್‌ ಸೂಪರಿಂಟೆಂಡೆಂಟ್‌
+  defs:
+  - entry: Stores Superintendent
+    type: n
+  id: storessupe_116a2e22d595
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Stores Superintendent
+- entry: ಸರಬರಾಜುದಾರರು
+  defs:
+  - entry: Suppliers
+    type: n
+  id: suppliers_d47efb13548c
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Suppliers
+- entry: ಸರಬರಾಜು ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Supply capacity
+    type: n
+  id: supplycapa_3ff107d93053
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Supply capacity
+- entry: ಸರಬರಾಜು ಪ್ರಮಾಣ
+  defs:
+  - entry: Supply Quantity
+    type: n
+  id: supplyquan_002aaaaaf458
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Supply Quantity
+- entry: ಅಧಿಭಾರ, ಸರ್‌ಚಾರ್ಜ್‌, ಮೇಲ್‌ ತೆರಿಗೆ
+  defs:
+  - entry: Surcharge
+    type: n
+  id: surcharge_6193a4b45f95
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Surcharge
+- entry: ದರ, ಬೆಲೆ, ಆಮದು ರಫ್ತು ಸುಂಕ
+  defs:
+  - entry: Tariff
+    type: n
+  id: tariff_3bed68650cfc
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tariff
+- entry: ಉಷ್ಣಾಂಶ
+  defs:
+  - entry: Temperature
+    type: n
+  id: temperatur_9b3ea593c784
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Temperature
+- entry: ಟೆಂಡರು
+  defs:
+  - entry: Tender
+    type: n
+  id: tender_583c29e14a8b
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender
+- entry: ಟೆಂಡರು ಅಂಗೀಕರಿಸುವ ಪ್ರಾಧಿಕಾರ
+  defs:
+  - entry: Tender accepting Authority
+    type: n
+  id: tenderacce_45ab517045a7
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender accepting Authority
+- entry: ಟೆಂಡರು ಪೆಟ್ಟಿಗೆ
+  defs:
+  - entry: Tender Box
+    type: n
+  id: tenderbox_dff9c01d6543
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender Box
+- entry: ಟೆಂಡರು ದಾಖಲೆ
+  defs:
+  - entry: Tender Document
+    type: n
+  id: tenderdocu_4111ba2e5bdb
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender Document
+- entry: ಟೆಂಡರು ವಿಚಾರಣೆ
+  defs:
+  - entry: Tender Enquiry
+    type: n
+  id: tenderenqu_5e9288e3bf58
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender Enquiry
+- entry: ಟೆಂಡರು ಅಧಿಸೂಚನೆ
+  defs:
+  - entry: Tender Notification
+    type: n
+  id: tendernoti_1a7fc8d018a5
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender Notification
+- entry: ಟೆಂಡರು ಪರಿಶೀಲನಾ ಸಮಿತಿ
+  defs:
+  - entry: Tender Scrutiny Committee
+    type: n
+  id: tenderscru_32c052e67d65
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tender Scrutiny Committee
+- entry: ನಿಬಂಧನೆಗಳು ಮತ್ತು ಷರತ್ತುಗಳು
+  defs:
+  - entry: Terms and Conditions
+    type: n
+  id: termsandco_54e126a6149b
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Terms and Conditions
+- entry: ತಾಂತ್ರಿಕ ವಿಶಿಷ್ಟ ವಿವರಣೆ/ ತಪಶೀಲು ತಾಂತ್ರಿಕ ನಿರ್ದಿಷ್ಟಾಂಶಗಳು
+  defs:
+  - entry: Technical Specification
+    type: n
+  id: technicals_5cee6211ade3
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Technical Specification
+- entry: ದಾರಿ, ಮಾರ್ಗ, ಪಥ, ಜಾಡು
+  defs:
+  - entry: Tracking
+    type: n
+  id: tracking_9bb83413543c
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tracking
+- entry: ಉತ್ಕ್ರಮಣ, ಉಲ್ಲಂಘಿಸು
+  defs:
+  - entry: Transgression
+    type: n
+  id: transgress_b5c5e6616037
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transgression
+- entry: ಸಾಗಣೆ
+  defs:
+  - entry: Transit
+    type: n
+  id: transit_c0f15bc97248
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transit
+- entry: ಸಾಗಣೆ ಶುಲ್ಕಗಳು
+  defs:
+  - entry: Transportation Charges
+    type: n
+  id: transporta_7f57ca936c8a
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transportation Charges
+- entry: ಸಾಗಣೆದಾರರ ಬಿಲ್ಲು
+  defs:
+  - entry: Transporters Bill
+    type: n
+  id: transporte_29e7b08dcf23
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Transporters Bill
+- entry: ಅಧಿವಿಚಾರಣೆ ದರ ಕರಾರು
+  defs:
+  - entry: Trial Rate Contract
+    type: n
+  id: trialratec_7dafcbd63be8
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Trial Rate Contract
+- entry: ವಹಿವಾಟು
+  defs:
+  - entry: Turnover
+    type: n
+  id: turnover_efc6af418293
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Turnover
+- entry: ಟೈರು ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Tyre Cards
+    type: n
+  id: tyrecards_5de682cb8625
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tyre Cards
+- entry: ಟೈರಿಗೆ ಸಂಬಂಧಿಸಿದ ಮುಖ್ಯ ರಿಜಿಸ್ಟರು
+  defs:
+  - entry: Tyre Master register
+    type: n
+  id: tyremaster_9c9eeaf481b2
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Tyre Master register
+- entry: ಸಿಂಧುತ್ವ
+  defs:
+  - entry: Validity
+    type: n
+  id: validity_7676a6a75621
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Validity
+- entry: ಸತ್ಯಾಪನೆ, ಪರಿಶೀಲನೆ
+  defs:
+  - entry: Verification
+    type: n
+  id: verificati_fb630c08c0b4
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Verification
+- entry: ಅನುಮೋದನೆ, ಒಪ್ಪಿಗೆ ಕೊಡುವುದು
+  defs:
+  - entry: Vetting
+    type: n
+  id: vetting_eefab9059a9c
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Vetting
+- entry: ಪರಿಮಾಣ ಸೋಡಿ
+  defs:
+  - entry: Volume Discount
+    type: n
+  id: volumedisc_40fc88d6bfcd
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Volume Discount
+- entry: ಭರವಸೆ, ವಾರಂಟಿ
+  defs:
+  - entry: Warranty
+    type: n
+  id: warranty_4bfa55ac6062
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Warranty
+- entry: ಮನ್ನಾ ಮಾಡು
+  defs:
+  - entry: Write off
+    type: n
+  id: writeoff_bf7e7fd16b06
+  source: ಉಗರಣ_ವಭಗ_-_ಸಕಷಪತ_ಆಡಳತ_ಪದಕಶ_-_ಕರನಟಕ_ರಜ
+  head: Write off
