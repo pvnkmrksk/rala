@@ -1,80 +1,151 @@
-- entry: ದುಷ್ಪ್ರೇರಿಸು; ಕೆಟ್ಟ ಕೆಲಸಕ್ಕೆ ನೆರವಾಗು
+- entry: ದುಷ್ಪ್ರೇರಿಸು
   defs:
-  - entry: Abet
-    type: n
-  id: abet_8bd1aa8fd98e
+  - &id001
+    entry: Abet
+    type: Noun
+  id: abet_442bba2cb255
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Abet
-- entry: ರದ್ದುಮಾಡು; ಕಿತ್ತುಹಾಕು
+- entry: ಕೆಟ್ಟ ಕೆಲಸಕ್ಕೆ ನೆರವಾಗು
   defs:
-  - entry: Abrogate
-    type: n
-  id: abrogate_a465f63bdbd9
+  - *id001
+  id: abet_96fa0ef65ae4
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Abet
+- entry: ರದ್ದುಮಾಡು
+  defs:
+  - &id002
+    entry: Abrogate
+    type: Noun
+  id: abrogate_4905bbf215a8
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Abrogate
-- entry: ಗೋಷ್ವಾರೆ; ಸಾರಾಂಶ; ಭಾವವಾಚಕ
+- entry: ಕಿತ್ತುಹಾಕು
   defs:
-  - entry: Abstract
-    type: n
-  id: abstract_585dcaef706f
+  - *id002
+  id: abrogate_9ee0a5770e5c
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Abrogate
+- entry: ಗೋಷ್ವಾರೆ
+  defs:
+  - &id003
+    entry: Abstract
+    type: Noun
+  id: abstract_7e06726ae99e
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Abstract
-- entry: ಒಪ್ಪಿಗೆ; ಅಂಗೀಕಾರ
+- entry: ಸಾರಾಂಶ
   defs:
-  - entry: Acceptance
-    type: n
-  id: acceptance_32faf62ea0ca
+  - *id003
+  id: abstract_632041686cca
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Abstract
+- entry: ಭಾವವಾಚಕ
+  defs:
+  - *id003
+  id: abstract_b1ec92d687f8
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Abstract
+- entry: ಒಪ್ಪಿಗೆ
+  defs:
+  - &id004
+    entry: Acceptance
+    type: Noun
+  id: acceptance_7bc5569ded9c
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Acceptance
-- entry: ಅಪಘಾತ; ಆಕಸ್ಮಿಕ
+- entry: ಅಂಗೀಕಾರ
   defs:
-  - entry: Accident
-    type: n
-  id: accident_9ad99bba6c63
+  - *id004
+  id: acceptance_76e19a56a2f6
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Acceptance
+- entry: ಅಪಘಾತ
+  defs:
+  - &id005
+    entry: Accident
+    type: Noun
+  id: accident_7f965f0d4998
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Accident
-- entry: ಲೆಕ್ಕ; ಖಾತೆ
+- entry: ಆಕಸ್ಮಿಕ
   defs:
-  - entry: Account
-    type: n
-  id: account_3534d8c4cbeb
+  - *id005
+  id: accident_b9e21ebe6d38
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Accident
+- entry: ಲೆಕ್ಕ
+  defs:
+  - &id006
+    entry: Account
+    type: Noun
+  id: account_6477e3b1d160
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Account
+- entry: ಖಾತೆ
+  defs:
+  - *id006
+  id: account_c9b1cf7b2f67
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Account
 - entry: ಕಾರಣ ಕೊಡು
   defs:
   - entry: Account for
-    type: n
-  id: accountfor_20d73927a29c
+    type: Noun
+  id: accountfor_86c16ceafaaf
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Account for
 - entry: ಲೆಕ್ಕಪತ್ರ
   defs:
   - entry: Accounts
-    type: n
-  id: accounts_dccfa09e322d
+    type: Noun
+  id: accounts_81922ea0fe81
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Accounts
-- entry: ಕೂಡಿಬರು; ಪ್ರಾಪ್ತವಾಗು
+- entry: ಕೂಡಿಬರು
   defs:
-  - entry: Accrue
-    type: n
-  id: accrue_a46cff3d8dd4
+  - &id007
+    entry: Accrue
+    type: Noun
+  id: accrue_c5036018c3b3
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Accrue
-- entry: ಒಟ್ಟುಗೂಡಿದ; ಸಂಚಿತ
+- entry: ಪ್ರಾಪ್ತವಾಗು
   defs:
-  - entry: Accumulated
-    type: n
-  id: accumulate_24157044d68a
+  - *id007
+  id: accrue_16000b013e2f
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Accrue
+- entry: ಒಟ್ಟುಗೂಡಿದ
+  defs:
+  - &id008
+    entry: Accumulated
+    type: Noun
+  id: accumulate_ed2a1999b5f8
+  source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
+  dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
+  head: Accumulated
+- entry: ಸಂಚಿತ
+  defs:
+  - *id008
+  id: accumulate_71a423636888
   source: ಪರಭಷಕ_ಪದಕಶ_-_ನದಣ_ಮತತ_ಮದರಕಗಳ_ಇಲಖ
   dict_title: ಪಾರಿಭಾಷಿಕ ಪದಕೋಶ - ನದಣ ಮತ್ತು ಮದರಕಗಳ ಇಲಾಖೆ
   head: Accumulated
