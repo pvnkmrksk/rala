@@ -1,52 +1,59 @@
-# Rala (ರಲ)
+# Dictionary Scraper
 
-**English → Kannada dictionary. An amateur reversal of V. Krishna's Alar**
+Simple scraper for Kannada-English dictionaries from [padakanaja.karnataka.gov.in](https://padakanaja.karnataka.gov.in/dictionary).
 
-**🌐 Live Site**: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
+## Features
 
----
+- **One-page extraction**: Sets pagination to show all entries on a single page (no pagination needed!)
+- **Automatic processing**: Processes all dictionaries sequentially
+- **Progress tracking**: Shows progress bar and detailed logs
+- **Clean output**: Saves both CSV and JSON formats
 
-Rala is a reverse dictionary that helps you find Kannada words by searching for their English meanings. Unlike traditional dictionaries where you look up a Kannada word to find its English definition, Rala works in reverse—enter an English word or concept, and discover the corresponding Kannada words.
+## Installation
 
-**Rala** (ರಲ) = Reverse **Alar** — an amateur, uneducated attempt at reversing V. Krishna's excellent [Alar](https://alar.ink) Kannada → English dictionary.
+```bash
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-## ✨ Features
+# Install dependencies
+pip install -r requirements.txt
+```
 
-- **🔍 Exact Matches**: Find Kannada words that directly contain your search term in their definitions
-- **🔗 Synonym Matches**: Discover related Kannada words through synonyms and similar meanings using the Datamuse API
-- **⚡ Automatic Sequential Loading**: Exact matches appear instantly, followed by synonym matches
-- **📑 Sticky Navigation**: Search bar and result tabs stay visible while scrolling
-- **⌨️ Real-time Search**: Instant results as you type (with smart debouncing)
-- **🎯 Smart Scrolling**: Click tabs to automatically scroll to the relevant section
+## Usage
 
-## 🚀 How It Works
+```bash
+# Process all dictionaries
+python scraper_simple.py
 
-1. Enter an English word or phrase in the search box
-2. **Exact matches** appear first, showing Kannada words whose definitions directly contain your search term
-3. **Synonym matches** load automatically (after a 500ms delay, or immediately on Enter key press)
-4. Click the **Exact Match** or **Synonym Match** tabs to navigate between sections
-5. Results scroll smoothly to keep the relevant section in view
+# Process first 5 dictionaries (for testing)
+python scraper_simple.py --limit 5
 
-## 🏗️ Technical Details
+# Start from a specific index
+python scraper_simple.py --start-from 10
 
-- **Dictionary Data**: Loaded from the [Alar YAML file](https://github.com/alar-dict/data) hosted on GitHub
-- **Synonym Matching**: Powered by the [Datamuse API](https://www.datamuse.com/api/)
-- **Architecture**: Fully client-side processing—all search happens in your browser
-- **No Backend**: No server required, works entirely with static hosting
+# Run in headless mode (no browser window)
+python scraper_simple.py --headless
+```
 
-## 📚 Attribution
+## How It Works
 
-This project is built using dictionary data from [Alar](https://alar.ink), created by **V. Krishna**.
+1. Navigates to the dictionary website
+2. For each dictionary:
+   - Selects the dictionary from dropdown
+   - Sets pagination to 2 million (shows all entries on one page)
+   - Extracts all entries from the single page
+   - Saves to CSV and JSON files
 
-- **Original Dictionary**: [Alar - Kannada → English Dictionary](https://alar.ink)
-- **Source Data**: [alar-dict/data on GitHub](https://github.com/alar-dict/data)
-- **Voice Corpus**: [Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus) by Aditya-ds-1806
-- **Synonym API**: [Datamuse API](https://www.datamuse.com/api/)
-- **Data License**: [Open Database License (ODC-ODbL)](https://opendatacommons.org/licenses/odbl/)
+## Output
 
-## 📄 License
+Each dictionary is saved as:
+- `{sanitized_name}.csv` - CSV format with all columns
+- `{sanitized_name}.json` - JSON format with all entries
 
-This project and its code are licensed under the [Open Database License (ODC-ODbL)](https://opendatacommons.org/licenses/odbl/), inheriting from the source dictionary data license.
+## Requirements
 
-The dictionary data is provided by [Alar](https://alar.ink) and is also licensed under ODC-ODbL. For more information about the data license, please refer to the [Alar project](https://alar.ink).
-
+- Python 3.7+
+- Chrome browser
+- Selenium
+- webdriver-manager (optional, for automatic ChromeDriver management)
