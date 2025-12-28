@@ -13,14 +13,28 @@ async function loadDictionary() {
     if (!bypassCache && versionMatches) {
         try {
             const cachedData = await getCachedDictionary();
-            if (cachedData && Array.isArray(cachedData) && cachedData.length > 0) {
-                console.log(`✓ Loaded ${cachedData.length} entries from IndexedDB cache`);
-                console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
-                dictionary = cachedData;
-                return; // Use cache, don't fetch from network
-            } else {
-                console.log('No cache found in IndexedDB, fetching from network');
+            // Handle both old format (array) and new format (object with alar/padakanaja)
+            if (cachedData) {
+                if (Array.isArray(cachedData)) {
+                    // Old format: just array of entries
+                    console.log(`✓ Loaded ${cachedData.length} entries from IndexedDB cache (old format)`);
+                    dictionary = cachedData;
+                    dictionaryReady = true;
+                    return;
+                } else if (cachedData.alar && Array.isArray(cachedData.alar)) {
+                    // New format: separate alar and padakanaja - expand padakanaja
+                    dictionary = cachedData.alar;
+                    if (cachedData.padakanaja) {
+                        const expandedPadakanaja = expandOptimizedEntries(cachedData.padakanaja);
+                        dictionary = dictionary.concat(expandedPadakanaja);
+                    }
+                    dictionaryReady = true;
+                    console.log(`✓ Loaded ${dictionary.length} entries from IndexedDB cache`);
+                    console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
+                    return; // Use cache, don't fetch from network
+                }
             }
+            console.log('No valid cache found in IndexedDB, fetching from network');
         } catch (error) {
             console.warn('Failed to load from IndexedDB cache:', error);
             console.log('Falling back to network fetch');
@@ -314,6 +328,7 @@ async function fetchAndCacheDictionary() {
         });
         
         dictionary = primaryEntries;
+        dictionaryReady = true; // Alar is ready for search
         console.log(`✓ Loaded ${primaryEntries.length} entries from ${PRIMARY_DICTIONARY.name}`);
         
         // Load pre-built Alar reverse index instead of building it client-side
@@ -366,13 +381,20 @@ async function fetchAndCacheDictionary() {
                     // All chunks loaded
                     clearTimeout(progressTimeout);
                     if (allPadakanajaEntries.length > 0) {
-                        // Use concat instead of spread to avoid "too many arguments" error
-                        dictionary = dictionary.concat(allPadakanajaEntries);
-                        console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
-
-                        // Padakanaja entries are English->Kannada, so we search directly (no reverse index needed)
-                        // Reverse index is only for Alar (Kannada->English)
+                        // Flatten all chunks and add to dictionary array (simple!)
+                        let totalPadakanajaEntries = 0;
+                        for (const chunk of allPadakanajaEntries) {
+                            if (Array.isArray(chunk)) {
+                                dictionary = dictionary.concat(chunk);
+                                totalPadakanajaEntries += chunk.length;
+                            }
+                        }
+                        
+                        console.log(`✓ Loaded ${totalPadakanajaEntries} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
                         console.log('✓ Padakanaja entries loaded - will search directly (no reverse index needed)');
+                        
+                        // Mark dictionary as ready (both Alar and Padakanaja loaded)
+                        dictionaryReady = true;
                         
                         // Update cache asynchronously (non-blocking)
                         if ('requestIdleCallback' in window) {
@@ -388,9 +410,10 @@ async function fetchAndCacheDictionary() {
                         if (progressShown) {
                             updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
                         }
-                        console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
+                        console.log(`✓ Total loaded: ${dictionary.length} entries`);
                     } else {
                         console.warn(`⚠ Failed to load padakanaja dictionary chunks`);
+                        dictionaryReady = true; // Still mark as ready with just Alar
                         if (progressShown) {
                             updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
                         }
@@ -402,6 +425,7 @@ async function fetchAndCacheDictionary() {
                 const padakanajaSource = { url: chunkFile, type: 'local' };
                 
                 try {
+                    // Fetch and expand entries (simple!)
                     const chunkEntries = await fetchDictionaryFile(
                         padakanajaSource,
                         (loaded, total, percent) => {
@@ -422,7 +446,7 @@ async function fetchAndCacheDictionary() {
                     );
                     
                     if (chunkEntries && Array.isArray(chunkEntries)) {
-                        allPadakanajaEntries.push(...chunkEntries);
+                        allPadakanajaEntries.push(chunkEntries);
                         loadedChunks++;
                         console.log(`✓ Loaded chunk ${chunkIndex + 1}/${PADAKANAJA_COMBINED_FILES.length}: ${chunkEntries.length} entries`);
                         
@@ -465,6 +489,7 @@ async function fetchAndCacheDictionary() {
         // Cache function (called separately)
         async function updateCache() {
         try {
+            // Simple: just cache the dictionary array
             const dataSize = new Blob([JSON.stringify(dictionary)]).size;
             const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
             console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
@@ -474,7 +499,7 @@ async function fetchAndCacheDictionary() {
             
             // Verify cache was saved
             const verifyCache = await getCachedDictionary();
-            if (verifyCache && verifyCache.length === dictionary.length) {
+            if (verifyCache && Array.isArray(verifyCache) && verifyCache.length === dictionary.length) {
                 console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
                 console.log(`  Cache verification: ${verifyCache.length} entries stored`);
             } else {

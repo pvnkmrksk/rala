@@ -148,6 +148,7 @@ function searchDirect(query) {
     // If wildcards are present (but not auto-wildcard for 2 words), search all definitions directly
     if (hasWildcard && !isAutoWildcard) {
         const results = [];
+        // Search Alar entries
         for (let i = 0; i < dictionary.length; i++) {
             const entry = dictionary[i];
             if (!entry.defs) continue;
@@ -420,6 +421,7 @@ function searchDirect(query) {
         }
         
         // Search padakanaja entries directly (English->Kannada, no reverse index)
+        // Simple: just iterate through dictionary array, skip Alar entries
         for (let i = 0; i < dictionary.length; i++) {
             const entry = dictionary[i];
             // Skip Alar entries (they're in reverse index)

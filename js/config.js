@@ -5,7 +5,7 @@ const YAML_URL = 'https://raw.githubusercontent.com/alar-dict/data/master/alar.y
 const DATAMUSE_API = 'https://api.datamuse.com/words';
 const CACHE_KEY = 'rala_dictionary_cache';
 const CACHE_VERSION_KEY = 'rala_cache_version';
-const CACHE_VERSION = '1.9'; // Increment this to invalidate all caches (optimized format)
+const CACHE_VERSION = '2.0'; // Increment this to invalidate all caches (simplified format)
 const DB_NAME = 'rala_dictionary_db';
 const DB_VERSION = 1;
 const STORE_NAME = 'dictionary';
@@ -46,8 +46,9 @@ const ALAR_REVERSE_INDEX_METADATA = 'padakanaja/alar_reverse_index_metadata.json
 // Reverse index is only for Alar (Kannada->English)
 
 // Global state
-let dictionary = [];
-let reverseIndex = new Map();
+let dictionary = []; // All entries (Alar + Padakanaja)
+let dictionaryReady = false; // Flag to indicate dictionary is ready for search
+let reverseIndex = new Map(); // Only for Alar
 let allEnglishWords = new Set();
 
 // Cache for audio file existence checks

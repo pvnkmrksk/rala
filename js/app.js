@@ -9,7 +9,8 @@ async function init() {
         initDarkMode();
         
         await loadDictionary();
-        buildReverseIndex();
+        // buildReverseIndex is now only needed if pre-built index fails (handled in loadDictionary)
+        // Don't call it here as it's already handled
         
         // Remove loading message immediately
         const loadingEl = app.querySelector('.loading');
@@ -232,7 +233,10 @@ function renderApp(initialQuery = '') {
         
         // Debounce search by 400ms to prevent input lag during typing
         debounceTimer = setTimeout(() => {
-            performSearch(e.target.value, false);
+            // Only search if dictionary is ready
+            if (dictionaryReady) {
+                performSearch(e.target.value, false);
+            }
         }, 400);
     });
     
@@ -242,8 +246,8 @@ function renderApp(initialQuery = '') {
             clearTimeout(debounceTimer);
             const query = e.target.value.trim();
             
-            // If query changed, perform new search
-            if (query !== currentQuery) {
+            // If query changed, perform new search (only if dictionary is ready)
+            if (query !== currentQuery && dictionaryReady) {
                 performSearch(query, true);
             } else if (!synonymSearchCompleted && !synonymSearchInProgress && currentQuery) {
                 // If synonyms haven't loaded yet, load them now
