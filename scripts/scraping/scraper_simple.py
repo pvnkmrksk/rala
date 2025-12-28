@@ -323,14 +323,48 @@ def sanitize_filename(name):
     return safe.strip()
 
 def get_proper_filename(dict_name):
-    """Get proper filename from dictionary name - use the name as-is for Mac compatibility"""
-    # Use the dictionary name directly as filename (Mac handles Unicode properly)
-    # Only minimal sanitization for filesystem safety
-    filename = dict_name.strip()
-    # Replace only truly problematic characters
-    filename = filename.replace('\x00', '').replace('\r', '').replace('\n', ' ')
-    # Optionally replace | with _ for cleaner filenames, but keep everything else
-    filename = filename.replace('|', '_')
+    """
+    Get proper filename from dictionary name using canonical title mapping.
+    This ensures filenames use correct spellings without typos.
+    """
+    import sys
+    from pathlib import Path
+    
+    # Add parent directory to path for imports
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+    
+    try:
+        from scripts.parsing.batch_parse_padakanaja import get_dictionary_title
+        
+        # Create a temp filename from dict_name to look up
+        temp_filename = dict_name.replace('|', '_').replace('/', '_').replace(' ', '_').strip()
+        
+        # Get canonical title from mapping
+        canonical_title = get_dictionary_title(temp_filename, None)
+        
+        # If not found, try with common typo fix (ಆಡಳತ -> ಆಡಳಿತ)
+        if not canonical_title:
+            fixed_temp = temp_filename.replace('ಆಡಳತ', 'ಆಡಳಿತ')
+            if fixed_temp != temp_filename:
+                canonical_title = get_dictionary_title(fixed_temp, None)
+        
+        if canonical_title:
+            # Use canonical title for filename (replace spaces with underscores)
+            filename = canonical_title.replace('|', '_').replace('/', '_').replace(' ', '_')
+        else:
+            # Fallback to dict_name if no mapping found
+            filename = dict_name.strip().replace(' ', '_')
+    except ImportError:
+        # Fallback if import fails
+        filename = dict_name.strip().replace(' ', '_')
+    
+    # Sanitize for filesystem safety
+    filename = filename.replace('\x00', '').replace('\r', '').replace('\n', '_')
+    # Remove multiple consecutive underscores
+    while '__' in filename:
+        filename = filename.replace('__', '_')
+    filename = filename.strip('_')
+    
     return filename
 
 

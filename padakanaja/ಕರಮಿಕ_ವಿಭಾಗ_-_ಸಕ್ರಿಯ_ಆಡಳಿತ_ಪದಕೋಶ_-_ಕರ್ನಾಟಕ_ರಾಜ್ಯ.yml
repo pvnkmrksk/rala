@@ -1,0 +1,1033 @@
+- entry: ಸಂಕ್ಷಿಪ್ತ ವಿವರಪಟ್ಟಿ
+  defs:
+  - entry: Abstract
+    type: Noun
+  id: abstract_145d1c0710c0
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Abstract
+- entry: ಆಪಾದಿತ
+  defs:
+  - entry: Accused
+    type: Noun
+  id: accused_cb2169406d32
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Accused
+- entry: ಉಪಸಾಧನಗಳು
+  defs:
+  - entry: Accessories
+    type: Noun
+  id: accessorie_43ca70fb7634
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Accessories
+- entry: ನ್ಯಾಯನಿರ್ಣಯ
+  defs:
+  - entry: Adjudication
+    type: Noun
+  id: adjudicati_4f1c45fb0665
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Adjudication
+- entry: ಸಮರ್ಪಕ ವೇತನ
+  defs:
+  - entry: Adequate Salary
+    type: Noun
+  id: adequatesa_f75b12211269
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Adequate Salary
+- entry: ದತ್ತು
+  defs:
+  - &id001
+    entry: Adoption
+    type: Noun
+  id: adoption_d601afff7b88
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Adoption
+- entry: ದತ್ತಕ
+  defs:
+  - *id001
+  id: adoption_9b08f57fbd3e
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Adoption
+- entry: ಪ್ರಮಾಣಪತ್ರ
+  defs:
+  - &id002
+    entry: Affidavit
+    type: Noun
+  id: affidavit_36ea01106561
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Affidavit
+- entry: ಶಪಥಪತ್ರ
+  defs:
+  - *id002
+  id: affidavit_00d7d1a8bd43
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Affidavit
+- entry: ಸಂಯೋಜನೆ
+  defs:
+  - entry: Affiliation
+    type: Noun
+  id: affiliatio_70f77b5ff00a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Affiliation
+- entry: ಸಮ್ಮಿಲನ
+  defs:
+  - &id003
+    entry: Amalgamation
+    type: Noun
+  id: amalgamati_1b98d7c5f155
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Amalgamation
+- entry: ಸಮ್ಮಿಶ್ರಣ
+  defs:
+  - *id003
+  id: amalgamati_1ef57e213a72
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Amalgamation
+- entry: ಬೆರಸುವಿಕೆ
+  defs:
+  - *id003
+  id: amalgamati_875a0333b501
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Amalgamation
+- entry: ಸೌಹಾರ್ದಯುತ ಇತ್ಯರ್ಥ
+  defs:
+  - entry: Amicable settlement
+    type: Noun
+  id: amicablese_e10ba79079db
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Amicable settlement
+- entry: ಮಧ್ಯಸ್ತಿಕೆ
+  defs:
+  - entry: Arbitration
+    type: Noun
+  id: arbitratio_4db38d90c534
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Arbitration
+- entry: ಲೆಕ್ಕ ಪರಿಶೋಧನೆ
+  defs:
+  - entry: Audit
+    type: Noun
+  id: audit_4ad4fd45b841
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Audit
+- entry: ಫಲಾನುಭವಿ
+  defs:
+  - entry: Beneficiary
+    type: Noun
+  id: beneficiar_da413ea1299a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Beneficiary
+- entry: ತಪಾಸಣಾ ಪಟ್ಟಿ
+  defs:
+  - &id004
+    entry: Check list
+    type: Noun
+  id: checklist_82fce55ffbc5
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Check list
+- entry: ಪರಿಶೀಲನಾ ಪಟ್ಟಿ
+  defs:
+  - *id004
+  id: checklist_5f0c2db2f4e3
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Check list
+- entry: ಕಾರ್ಮಿಕರ ವೇತನದಿಂದ ಚಂದಾ ಮುರಿದುಕೊಳ್ಳುವ ಪದ್ಧತಿ
+  defs:
+  - entry: Check off system
+    type: Noun
+  id: checkoffsy_60f28d8213b3
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Check off system
+- entry: ಸಂಧಾನ
+  defs:
+  - entry: Conciliation
+    type: Noun
+  id: conciliati_3d03e0c649e4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Conciliation
+- entry: ಗ್ರಾಹಕರ ಬಾಳಿಕೆ ಬರುವ ವಸ್ತುಗಳು
+  defs:
+  - entry: Consumer durables
+    type: Noun
+  id: consumerdu_5a81c87c7135
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Consumer durables
+- entry: ಉಲ್ಲಂಘನೆ
+  defs:
+  - entry: Contravention
+    type: Noun
+  id: contravent_4407402dcef7
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Contravention
+- entry: ಸಮಗ್ರ
+  defs:
+  - entry: Comprehensive
+    type: Noun
+  id: comprehens_4e050eaedfc7
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Comprehensive
+- entry: ಪರಿಕಲ್ಪನೆ
+  defs:
+  - entry: Concept
+    type: Noun
+  id: concept_47b8a4280bfd
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Concept
+- entry: ಮೂಲ ದ್ರವ್ಯ
+  defs:
+  - entry: Corpus
+    type: Noun
+  id: corpus_a6844b0ef7f8
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Corpus
+- entry: ಸಲಹೆ
+  defs:
+  - &id005
+    entry: Counselling
+    type: Noun
+  id: counsellin_e00918e58e57
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Counselling
+- entry: ಸಲಹೆ ನೀಡುವುದು
+  defs:
+  - *id005
+  id: counsellin_775b2c57cfd0
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Counselling
+- entry: ಕೌನ್ಸೆಲಿಂಗ್
+  defs:
+  - *id005
+  id: counsellin_03c5ff084ca8
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Counselling
+- entry: ಸಾಮೂಹಿಕ ಚೌಕಾಶಿ
+  defs:
+  - &id006
+    entry: Collective Bargaining
+    type: Noun
+  id: collective_f4036d132b53
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Collective Bargaining
+- entry: ಸಾಮೂಹಿಕ ಕರಾರು
+  defs:
+  - *id006
+  id: collective_2b1534a3b381
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Collective Bargaining
+- entry: ಮಕ್ಕಳ ಪಾಲನ ಗೃಹ
+  defs:
+  - entry: Creche
+    type: Noun
+  id: creche_a10700359779
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Creche
+- entry: ಮಾನದಂಡ
+  defs:
+  - &id007
+    entry: Criteria
+    type: Noun
+  id: criteria_2da63d0a9474
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Criteria
+- entry: ಅಳತೆಗೋಲು
+  defs:
+  - *id007
+  id: criteria_2cd47e1bf328
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Criteria
+- entry: ಚಾಲನಾ ಸಿಬ್ಬಂದಿ ವಿಶ್ರಾಂತಿ ಕೊಠಡಿ
+  defs:
+  - entry: Crew Rest Room
+    type: Noun
+  id: crewrestro_08a2e4f4f6f1
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Crew Rest Room
+- entry: ಮದ್ಯಚಟ ನಿವಾರಣೆ
+  defs:
+  - entry: De-addiction
+    type: Noun
+  id: deaddictio_ec80f0cc48c8
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: De-addiction
+- entry: ಇಮ್ಮಡಿ ಕೆಲಸ
+  defs:
+  - &id008
+    entry: Double Duty
+    type: Noun
+  id: doubleduty_3d46b46e1aff
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Double Duty
+- entry: ಎರಡು ಕೆಲಸ
+  defs:
+  - *id008
+  id: doubleduty_68526630e150
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Double Duty
+- entry: ಸಮಾನ ಮಾಸಿಕ ಕಂತುಗಳು
+  defs:
+  - entry: Equated Monthly Installments
+    type: Noun
+  id: equatedmon_5ba04951120a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Equated Monthly Installments
+- entry: ಹಿಂದಿನ
+  defs:
+  - &id009
+    entry: Erstwhile
+    type: Noun
+  id: erstwhile_b4ce9220d74b
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Erstwhile
+- entry: ಪೂರ್ವ
+  defs:
+  - *id009
+  id: erstwhile_6d173c0a5141
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Erstwhile
+- entry: ಅಂದಾಜು
+  defs:
+  - entry: Estimate
+    type: Noun
+  id: estimate_d4dc0a895496
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Estimate
+- entry: ಅತ್ಯಾವಶ್ಯಕ ಸೇವೆಗಳ ನಿರ್ವಹಣಾ ಕಾಯ್ದೆ
+  defs:
+  - entry: Essential Services Maintainance Act
+    type: Noun
+  id: essentials_182d103f7b30
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Essential Services Maintainance Act
+- entry: ವಿಸ್ತರಣಾ ಕೌಂಟರ್
+  defs:
+  - entry: Extension Counter
+    type: Noun
+  id: extensionc_8cd2ea37ff47
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Extension Counter
+- entry: ಕಾರ್ಯಕಾರಿ ಅಂಗ
+  defs:
+  - &id010
+    entry: Executive Body
+    type: Noun
+  id: executiveb_a3f7a20bcde1
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Executive Body
+- entry: ಕಾರ್ಯಕಾರಿ ಸಂಸ್ಥೆ
+  defs:
+  - *id010
+  id: executiveb_3ac09a0e9b7d
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Executive Body
+- entry: ಎಕ್ಸ್ ಗ್ರೇಷಿಯಾ
+  defs:
+  - entry: Ex-/Gratia
+    type: Noun
+  id: exgratia_a2b9ff3c5036
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ex-/Gratia
+- entry: ಆರ್ಥಿಕ ಸೌಲಭ್ಯ
+  defs:
+  - &id011
+    entry: Financial package
+    type: Noun
+  id: financialp_007543e80561
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Financial package
+- entry: ಫೈನಾನ್ಸಿಯಲ್‌ ಪ್ಯಾಕೇಜ್
+  defs:
+  - *id011
+  id: financialp_0f045a63780f
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Financial package
+- entry: ಅನುಸರಣೆ
+  defs:
+  - &id012
+    entry: Follow up
+    type: Noun
+  id: followup_99ee617f7f97
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Follow up
+- entry: ಅನುಸರಣಾ ಕ್ರಮ
+  defs:
+  - *id012
+  id: followup_ea542c803fff
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Follow up
+- entry: ಕುಂದುಕೊರತೆ ನಿವಾರಣಾ ವ್ಯವಸ್ಥೆ
+  defs:
+  - entry: Grievance Machinery
+    type: Noun
+  id: grievancem_ab8e3d1fc09b
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Grievance Machinery
+- entry: ವ್ಯಾಯಾಮ ಶಾಲೆ
+  defs:
+  - entry: Gymnasium
+    type: Noun
+  id: gymnasium_cf271503d62d
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gymnasium
+- entry: ಅಪಾಯಕಾರಿ
+  defs:
+  - entry: Hazardous
+    type: Noun
+  id: hazardous_6b1da7505d56
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hazardous
+- entry: ಮಧುರ ಬಾಂಧವ್ಯಗಳು
+  defs:
+  - entry: Harmonious Relations
+    type: Noun
+  id: harmonious_1b21d08c6658
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Harmonious Relations
+- entry: ಮನೆ ಕೆಲಸದವನು
+  defs:
+  - entry: Home Orderly
+    type: Noun
+  id: homeorderl_f31ea75111e4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Home Orderly
+- entry: ಪ್ರೋತ್ಸಾಹಕ ಧನ
+  defs:
+  - &id013
+    entry: Incentive
+    type: Noun
+  id: incentive_9c3d257e5ba0
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Incentive
+- entry: ಉತ್ತೇಜಕ ಧನ
+  defs:
+  - *id013
+  id: incentive_00766a4a6df6
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Incentive
+- entry: ಕೈಗಾರಿಕಾ
+  defs:
+  - &id014
+    entry: Industrial Relations
+    type: Noun
+  id: industrial_9c50498c3f17
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Industrial Relations
+- entry: ಔದ್ಯಮಿಕ ಬಾಂಧವ್ಯ
+  defs:
+  - *id014
+  id: industrial_6fd3eb1c1ef5
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Industrial Relations
+- entry: ಕೈಗಾರಿಕಾ ವಿವಾದ ಕಾಯ್ದೆ
+  defs:
+  - entry: Industrial Dispute Act
+    type: Noun
+  id: industrial_d3f745495596
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Industrial Dispute Act
+- entry: ಕೈಗಾರಿಕಾ ನ್ಯಾಯಾಧಿಕರಣ
+  defs:
+  - entry: Industrial Tribunal
+    type: Noun
+  id: industrial_9a70de90a108
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Industrial Tribunal
+- entry: ಕರ್ತವ್ಯದ ಮೇಲಿದ್ದಾಗ ಆದ ಗಾಯ
+  defs:
+  - entry: Injury on Duty
+    type: Noun
+  id: injuryondu_324cb007b1b4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Injury on Duty
+- entry: ಸಮಾಪನ
+  defs:
+  - entry: Liquidation
+    type: Noun
+  id: liquidatio_5a3799bc06a3
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Liquidation
+- entry: ಪ್ರಸೂತಿ ಸೌಲಭ್ಯ
+  defs:
+  - entry: Maternity Benefit
+    type: Noun
+  id: maternityb_d46d71eb8577
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Maternity Benefit
+- entry: ಅರ್ಹತಾ ಪ್ರಶಸ್ತಿ
+  defs:
+  - entry: Meritorious Award
+    type: Noun
+  id: meritoriou_bb38c3c8bb68
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Meritorious Award
+- entry: ವಿಧಾನ
+  defs:
+  - &id015
+    entry: Methodology
+    type: Noun
+  id: methodolog_af2741fcbfc4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Methodology
+- entry: ಕ್ರಮ
+  defs:
+  - *id015
+  id: methodolog_8b4bdb7f9f48
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Methodology
+- entry: ಇತ್ಯರ್ಥ ಪತ್ರ
+  defs:
+  - entry: Memorandum of Settlement (MOS)
+    type: Noun
+  id: memorandum_576d097e6d07
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Memorandum of Settlement (MOS)
+- entry: ಒಡಂಬಡಿಕೆ ಪತ್ರ
+  defs:
+  - entry: Memorandum of Understanding (MOU)
+    type: Noun
+  id: memorandum_6adaea65c63a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Memorandum of Understanding (MOU)
+- entry: ವಿಲೀನ
+  defs:
+  - entry: Merger
+    type: Noun
+  id: merger_94b0e585befc
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Merger
+- entry: ಸಂಕೀರ್ಣ
+  defs:
+  - &id016
+    entry: Miscellaneous
+    type: Noun
+  id: miscellane_ca11a748504d
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Miscellaneous
+- entry: ಇತರೆ
+  defs:
+  - *id016
+  id: miscellane_8b0809e9beb2
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Miscellaneous
+- entry: ಕಾರ್ಯರೀತಿ
+  defs:
+  - entry: Modus Operandi
+    type: Noun
+  id: modusopera_e39fa905008a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Modus Operandi
+- entry: ಮಾದರಿ ಕೆಲಸಗಾರ
+  defs:
+  - entry: Model Worker
+    type: Noun
+  id: modelworke_7d5e37a153c7
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Model Worker
+- entry: ಮಾಸಿಕ ವಿವರ ಪಟ್ಟಿ ಸಲ್ಲಿಕೆ
+  defs:
+  - entry: Monthly Returns
+    type: Noun
+  id: monthlyret_54caa50be188
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Monthly Returns
+- entry: ಮೋಟಾರು ಸಾರಿಗೆ ಕೆಲಸಗಾರರ ಕಾಯ್ದೆ
+  defs:
+  - entry: Motor Transport Workers Act
+    type: Noun
+  id: motortrans_1c811456e2fe
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Motor Transport Workers Act
+- entry: ಮಾನದಂಡ
+  defs:
+  - entry: Norms
+    type: Noun
+  id: norms_097ee30c9fe5
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Norms
+- entry: ಪೋಷಣಾರ್ಥ ವಿರಾಮ
+  defs:
+  - &id017
+    entry: Nursing Break
+    type: Noun
+  id: nursingbre_d01e505584c6
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Nursing Break
+- entry: ಹಾಲೂಡಿಕೆ ವಿರಾಮ
+  defs:
+  - *id017
+  id: nursingbre_626a92dffec0
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Nursing Break
+- entry: ಬಾಧ್ಯತೆ
+  defs:
+  - &id018
+    entry: Obligation
+    type: Noun
+  id: obligation_a966790af747
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Obligation
+- entry: ಹೊಣೆ
+  defs:
+  - *id018
+  id: obligation_2f1e5df22153
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Obligation
+- entry: ಕರ್ತವ್ಯ
+  defs:
+  - *id018
+  id: obligation_fa6dae6acd52
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Obligation
+- entry: ಹೊರಹೋಗುವಿಕೆ
+  defs:
+  - entry: Outlay
+    type: Noun
+  id: outlay_f8057e5110d8
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Outlay
+- entry: ಪರಿಮಾಣ
+  defs:
+  - &id019
+    entry: Parameters
+    type: Noun
+  id: parameters_ac8e45e65bc9
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Parameters
+- entry: ಪರಿಧಿಗಳು
+  defs:
+  - *id019
+  id: parameters_eae96019dbec
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Parameters
+- entry: ದಂಡ
+  defs:
+  - entry: Penalty
+    type: Noun
+  id: penalty_cbc8b74f9525
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Penalty
+- entry: ಪರಿಲಬ್ದಿಗಳು
+  defs:
+  - &id020
+    entry: Perquisites
+    type: Noun
+  id: perquisite_1390fe28ae4e
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Perquisites
+- entry: ಅವಶ್ಯಕತೆ
+  defs:
+  - *id020
+  id: perquisite_0df8aa2abe97
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Perquisites
+- entry: ಕಾರ್ಯಾಧಾರಿತ ವರದಿ
+  defs:
+  - &id021
+    entry: Performance Report
+    type: Noun
+  id: performanc_dd2ab874e42f
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Performance Report
+- entry: ಕಾರ್ಯಪ್ರಗತಿ ವರದಿ
+  defs:
+  - *id021
+  id: performanc_446e56e19577
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Performance Report
+- entry: ವೈಯಕ್ತಿಕ ಕಾಯಿಲೆ
+  defs:
+  - &id022
+    entry: Personal Sickness
+    type: Noun
+  id: personalsi_0ff374564ead
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Personal Sickness
+- entry: ವ್ಯಕ್ತಿಗತ ರೋಗ
+  defs:
+  - *id022
+  id: personalsi_2f541c687980
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Personal Sickness
+- entry: ಪ್ರಾಸಿಕ್ಯೂಷನ್
+  defs:
+  - &id023
+    entry: Prosecution
+    type: Noun
+  id: prosecutio_1979ff4b1489
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prosecution
+- entry: ಮುಂದುವರಿಸು
+  defs:
+  - *id023
+  id: prosecutio_e040d0bdb09e
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prosecution
+- entry: ವಿಚಾರಣೆ
+  defs:
+  - *id023
+  id: prosecutio_a602a7290ad2
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prosecution
+- entry: ಉತ್ಪಾದಕತೆ
+  defs:
+  - entry: Productivity
+    type: Noun
+  id: productivi_e3d3fd9d8a89
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Productivity
+- entry: ಲಾಭದಾಯಕತೆ
+  defs:
+  - entry: Profitability
+    type: Noun
+  id: profitabil_148e4036f473
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Profitability
+- entry: ಪ್ರಾವೀಣ್ಯ
+  defs:
+  - &id024
+    entry: Proficiency
+    type: Noun
+  id: proficienc_a16ec05bc4cf
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Proficiency
+- entry: ಪ್ರಾವೀಣ್ಯತೆ ತಜ್ಞತೆ
+  defs:
+  - *id024
+  id: proficienc_5c68f7018f65
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Proficiency
+- entry: ಕುಶಲತೆ
+  defs:
+  - *id024
+  id: proficienc_edcd5fe3d4b2
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Proficiency
+- entry: ಸಾರ್ವಜನಿಕ ಉಪಯುಕ್ತತೆ
+  defs:
+  - entry: Public Utility
+    type: Noun
+  id: publicutil_dad9e8a259f2
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Public Utility
+- entry: ಮೂಲ
+  defs:
+  - &id025
+    entry: Prime Lending Rate
+    type: Noun
+  id: primelendi_4b6b913b03bc
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prime Lending Rate
+- entry: ಆರಂಭದ ಸಾಲ ನೀಡಿಕೆ ದರ
+  defs:
+  - *id025
+  id: primelendi_7d957c8344e7
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prime Lending Rate
+- entry: ಸಂರಕ್ಷಿತ ಕೆಲಸಗಾರ
+  defs:
+  - entry: Protected Workman
+    type: Noun
+  id: protectedw_968e64eba01c
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Protected Workman
+- entry: ದೀರ್ಘ ಸಂಧಾನಗಳು
+  defs:
+  - entry: Protracted Negotiations
+    type: Noun
+  id: protracted_db7a180023d4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Protracted Negotiations
+- entry: ಮರಳಿ ಕಳುಹಿಸುವುದು
+  defs:
+  - &id026
+    entry: Repatriation
+    type: Noun
+  id: repatriati_00317572208a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Repatriation
+- entry: ವಾಪಸ್ಸು ಕಳುಹಿಸುವುದು
+  defs:
+  - *id026
+  id: repatriati_cb8636186a2f
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Repatriation
+- entry: ಕೆಲಸದಿಂದ ತೆಗೆದುಹಾಕುವುದು
+  defs:
+  - entry: Retrenchment
+    type: Noun
+  id: retrenchme_5cb2772e8499
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Retrenchment
+- entry: ಅನುಸಮರ್ಥನೆ
+  defs:
+  - &id027
+    entry: Ratification
+    type: Noun
+  id: ratificati_89882436cd37
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ratification
+- entry: ಸ್ಥಿರೀಕರಣೆ
+  defs:
+  - *id027
+  id: ratificati_1bf30be9eb2a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ratification
+- entry: ಪುನರಾವಲೋಕನ
+  defs:
+  - &id028
+    entry: Review
+    type: Noun
+  id: review_6010b9b15b48
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Review
+- entry: ಪುನಃ ಪರಿಶೀಲನೆ ಸಮೀಕ್ಷೆ
+  defs:
+  - *id028
+  id: review_f5b421bfe075
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Review
+- entry: ಪೂರ್ವಸ್ಥಿತಿಸ್ಥಾಪನೆ
+  defs:
+  - &id029
+    entry: Restoration
+    type: Noun
+  id: restoratio_37d16b362ef8
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Restoration
+- entry: ಜೀರ್ಣೋದ್ದಾರ
+  defs:
+  - *id029
+  id: restoratio_6f68acc5487f
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Restoration
+- entry: ಪೂರ್ವಾನ್ವಯ
+  defs:
+  - entry: Retrospective
+    type: Noun
+  id: retrospect_ee08db2cebfd
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Retrospective
+- entry: ನಿರ್ಣಯ
+  defs:
+  - &id030
+    entry: Resolve
+    type: Noun
+  id: resolve_7ef1a45206b0
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Resolve
+- entry: ತೀರ್ಮಾನ
+  defs:
+  - *id030
+  id: resolve_75c371d549dd
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Resolve
+- entry: ಸಂಪನ್ಮೂಲ
+  defs:
+  - &id031
+    entry: Resource
+    type: Noun
+  id: resource_d4db7a743010
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Resource
+- entry: ಸಾಧನ ಸಂಪತ್ತು
+  defs:
+  - *id031
+  id: resource_ee22f27fe3f4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Resource
+- entry: ರೆಫರಲ್‌ ಆಸ್ಪತ್ರೆಗಳು
+  defs:
+  - entry: Referal Hospitals
+    type: Noun
+  id: referalhos_e7de83e3b197
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Referal Hospitals
+- entry: ಪರಿಣಾಮ
+  defs:
+  - &id032
+    entry: Repurcussion
+    type: Noun
+  id: repurcussi_1297f620ce8b
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Repurcussion
+- entry: ಪ್ರತಿಕ್ರಿಯೆ
+  defs:
+  - *id032
+  id: repurcussi_a834ea55b8e9
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Repurcussion
+- entry: ಮಾರ್ದನಿ
+  defs:
+  - *id032
+  id: repurcussi_6ed8844b0d6a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Repurcussion
+- entry: ಅಂಗಡಿ ಮತ್ತು ವಾಣಿಜ್ಯಸಂಸ್ಥೆಗಳ ಕಾಯ್ದೆ
+  defs:
+  - entry: Shops & Commercial Establishments Act
+    type: Noun
+  id: shopscomme_0b3b68ffef97
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Shops & Commercial Establishments Act
+- entry: ವಿದ್ಯಾರ್ಥಿ ವೇತನ
+  defs:
+  - entry: Scholarship
+    type: Noun
+  id: scholarshi_e6bc56b06ea2
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Scholarship
+- entry: ಸಹಿಹಾಕುವುದು ಮತ್ತು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದು
+  defs:
+  - entry: Signing on and Signing off
+    type: Noun
+  id: signingona_aa030ee20537
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Signing on and Signing off
+- entry: ಸ್ಥಾಯೀ ಆದೇಶಗಳು
+  defs:
+  - entry: Standing Orders
+    type: Noun
+  id: standingor_7cf46fff8a21
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Standing Orders
+- entry: ಶಾಸನಬದ್ಧ ಅಗತ್ಯಗಳು
+  defs:
+  - entry: Statutory Requirements
+    type: Noun
+  id: statutoryr_dea286bc2cfa
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Statutory Requirements
+- entry: ತನ್ನದೇ ಆದ
+  defs:
+  - &id033
+    entry: Sui geniris
+    type: Noun
+  id: suigeniris_f1112e7b5758
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sui geniris
+- entry: ಅನನ್ಯ ಸಾಮಾನ್ಯ
+  defs:
+  - *id033
+  id: suigeniris_fb4c06c8cd00
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sui geniris
+- entry: ತಾತ್ಕಾಲಿಕ ಸ್ಥಗಿತ
+  defs:
+  - &id034
+    entry: Suspended animation
+    type: Noun
+  id: suspendeda_b2ee73b0b449
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suspended animation
+- entry: ತಾತ್ಕಾಲಿಕ ಅಮಾನತು
+  defs:
+  - *id034
+  id: suspendeda_0131e3f4a4d3
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suspended animation
+- entry: ಸಸ್ಪೆಂಡೆಡ್‌ ಅನಿಮೇಷನ್
+  defs:
+  - *id034
+  id: suspendeda_2cb3eeec42fc
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suspended animation
+- entry: ತಾನಾಗಿಯೇ
+  defs:
+  - &id035
+    entry: Suo-moto
+    type: Noun
+  id: suomoto_989dd85e86e7
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suo-moto
+- entry: ತನಗೆತಾನೇ
+  defs:
+  - *id035
+  id: suomoto_f3ce2264a3f2
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suo-moto
+- entry: ಸ್ವಯಂಪ್ರೇರಣೆ
+  defs:
+  - *id035
+  id: suomoto_e11e390d6416
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suo-moto
+- entry: ಉದ್ಯಮ
+  defs:
+  - &id036
+    entry: Undertaking
+    type: Noun
+  id: undertakin_a48d6c0242e4
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Undertaking
+- entry: ಪರಿವಚನ
+  defs:
+  - *id036
+  id: undertakin_4c077705ca6a
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Undertaking
+- entry: ಮುಚ್ಚಳಿಕೆ
+  defs:
+  - *id036
+  id: undertakin_7d5e0ce5e0c0
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Undertaking
+- entry: ತಿಳಿವಳಿಕೆ
+  defs:
+  - &id037
+    entry: Understanding
+    type: Noun
+  id: understand_c51ea1408aac
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Understanding
+- entry: ಒಪ್ಪಂದ
+  defs:
+  - *id037
+  id: understand_f6ee8943219b
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Understanding
+- entry: ಮಜೂರಿ ಸ್ಥಗಿತ
+  defs:
+  - &id038
+    entry: Wage Freeze
+    type: Noun
+  id: wagefreeze_f929f65334ce
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wage Freeze
+- entry: ಮೂಲ ಸಂಪತ್ತು
+  defs:
+  - *id038
+  id: wagefreeze_c95f022fb1dc
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wage Freeze
+- entry: ಸಾಧನೋಪಾಯ
+  defs:
+  - *id038
+  id: wagefreeze_48f929610746
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wage Freeze
+- entry: ವೇತನ ಪರಿಷ್ಕರಣೆ
+  defs:
+  - entry: Wage Revision
+    type: Noun
+  id: wagerevisi_a70ad250c398
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wage Revision
+- entry: ಕಾರ್ಮಿಕರ ನಷ್ಟ ಪರಿಹಾರ
+  defs:
+  - entry: Workmen Compensation
+    type: Noun
+  id: workmencom_c86aa034a818
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Workmen Compensation
+- entry: ಕಾರ್ಮಿಕ ಬಲ
+  defs:
+  - &id039
+    entry: Workforce
+    type: Noun
+  id: workforce_de6c42ccd043
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Workforce
+- entry: ಕಾರ್ಮಿಕ ಸಂಖ್ಯೆ
+  defs:
+  - *id039
+  id: workforce_2b206694677d
+  source: ಕರಮಿಕ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Workforce

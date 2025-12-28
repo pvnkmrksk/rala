@@ -1,0 +1,2662 @@
+- entry: ಲಂಗರುಹಾಕುವುದು
+  defs:
+  - &id001
+    entry: Anchoring
+    type: Noun
+  id: anchoring_1723ca72dc52
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Anchoring
+- entry: ದೃಢವಾಗಿ ಬಂಧಿಸು
+  defs:
+  - *id001
+  id: anchoring_11f91f5d8fb9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Anchoring
+- entry: ಆಂಕರಿಂಗ್
+  defs:
+  - *id001
+  id: anchoring_85aa54456c25
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Anchoring
+- entry: ಡಾಂಬರು ಹಾಕುವುದು
+  defs:
+  - entry: Asphalting
+    type: Noun
+  id: asphalting_3b66404b420c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Asphalting
+- entry: ಕಲ್ನಾರು
+  defs:
+  - &id002
+    entry: Asbestos
+    type: Noun
+  id: asbestos_f56d96a62806
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Asbestos
+- entry: ಅಸ್ಬೆಸ್ಟೋಸ್
+  defs:
+  - *id002
+  id: asbestos_48f625bc169f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Asbestos
+- entry: ಅಗ್ನಿಶಿಲೆ
+  defs:
+  - &id003
+    entry: Basalt
+    type: Noun
+  id: basalt_a421de1fc42b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basalt
+- entry: ಕಪ್ಪು ಪಿಂಗಾಣಿ ಮಣ್ಣು
+  defs:
+  - *id003
+  id: basalt_e0510de29647
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basalt
+- entry: ಬಸಾಲ್ಟ್
+  defs:
+  - *id003
+  id: basalt_0362bf0f5d55
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basalt
+- entry: ತಳಮನೆ
+  defs:
+  - &id004
+    entry: Basement
+    type: Noun
+  id: basement_58066282d766
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basement
+- entry: ಮೇಲ್ಪಾಯ
+  defs:
+  - *id004
+  id: basement_04bfd773a822
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basement
+- entry: ಕಟ್ಟಡ ತಳಹದಿ
+  defs:
+  - *id004
+  id: basement_97ee2cf8fdc2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basement
+- entry: ಬೇಸ್‌ಮೆಂಟ್
+  defs:
+  - *id004
+  id: basement_7d511723ad36
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Basement
+- entry: ಬೇಯಲಿಂಗ್
+  defs:
+  - entry: Bailing
+    type: Noun
+  id: bailing_c888cf2ef549
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bailing
+- entry: ಬಾಲ್‌ ವಾಲ್ವ್
+  defs:
+  - entry: Ball valve
+    type: Noun
+  id: ballvalve_9d15767a37c8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ball valve
+- entry: ಬೀಮುಗಳು
+  defs:
+  - &id005
+    entry: Beams
+    type: Noun
+  id: beams_48c5688a25df
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Beams
+- entry: ತೊಲೆಗಳು
+  defs:
+  - *id005
+  id: beams_99bc09e593c7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Beams
+- entry: ಮಟ್ಟದ ಗುರುತು
+  defs:
+  - &id006
+    entry: Benchmarking
+    type: Noun
+  id: benchmarki_a15cb15dae6c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Benchmarking
+- entry: ಒರೆಗಲ್ಲು
+  defs:
+  - *id006
+  id: benchmarki_ea27db0f8d2a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Benchmarking
+- entry: ಮಾನದಂಡ
+  defs:
+  - *id006
+  id: benchmarki_65a7aa126342
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Benchmarking
+- entry: ಬಗ್ಗಿಸು
+  defs:
+  - &id007
+    entry: Bending
+    type: Noun
+  id: bending_eeae92f61d16
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bending
+- entry: ಬಗ್ಗು
+  defs:
+  - *id007
+  id: bending_b9232bf5e9e5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bending
+- entry: ತಿರುಗು
+  defs:
+  - *id007
+  id: bending_44747fecdac3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bending
+- entry: ಬೆಂಡಿಂಗ್
+  defs:
+  - *id007
+  id: bending_ad9545af239f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bending
+- entry: ಮಣಿಗೆಲಸ
+  defs:
+  - &id008
+    entry: Beading
+    type: Noun
+  id: beading_9e1573d48fae
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Beading
+- entry: ಬೀಡಿಂಗ್
+  defs:
+  - *id008
+  id: beading_514155a1f34e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Beading
+- entry: ಬೆಂಡುಗಳು
+  defs:
+  - entry: Bends
+    type: Noun
+  id: bends_5f6e3356919f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bends
+- entry: ಬಿಗಿಸುವ ತಂತಿ
+  defs:
+  - &id009
+    entry: Binding wire
+    type: Noun
+  id: bindingwir_e055b7367304
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Binding wire
+- entry: ಕಟ್ಟುವ ತಂತಿ
+  defs:
+  - *id009
+  id: bindingwir_ecc317efe27b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Binding wire
+- entry: ಬೈಂಡಿಂಗ್‌ ವೈರ್
+  defs:
+  - *id009
+  id: bindingwir_9a1c7669faff
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Binding wire
+- entry: ಡಾಂಬರು ಬಿಟುಮೆನ್
+  defs:
+  - entry: Bitumen
+    type: Noun
+  id: bitumen_dd4aa98d017a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bitumen
+- entry: ಡಾಂಬರಿನ ಮೇಲ್ಮೈ
+  defs:
+  - &id010
+    entry: Bitumen surface
+    type: Noun
+  id: bitumensur_154f9186028f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bitumen surface
+- entry: ಕ್ಷೇತ್ರ
+  defs:
+  - *id010
+  id: bitumensur_c4210446f99a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bitumen surface
+- entry: ಬಿಬ್‌ ಕಾಕ್
+  defs:
+  - entry: Bib cock
+    type: Noun
+  id: bibcock_43dae34d487e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bib cock
+- entry: ಸಿಡಿಸುವುದು
+  defs:
+  - &id011
+    entry: Blasting
+    type: Noun
+  id: blasting_d876057e9650
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Blasting
+- entry: ಊದುವುದು
+  defs:
+  - *id011
+  id: blasting_9e2c254173e9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Blasting
+- entry: ಬ್ಲಾಸ್ಟಿಂಗ್
+  defs:
+  - *id011
+  id: blasting_2551f4c51f21
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Blasting
+- entry: ಪಡಿಯಚ್ಚು
+  defs:
+  - &id012
+    entry: Block
+    type: Noun
+  id: block_ec0a3b0359e2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Block
+- entry: ಬ್ಲಾಕ್
+  defs:
+  - *id012
+  id: block_74a7d7467095
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Block
+- entry: ಹಿಡಿಗಲ್ಲು
+  defs:
+  - &id013
+    entry: Bond slab
+    type: Noun
+  id: bondslab_95895cc061fc
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bond slab
+- entry: ಬಾಂಡ್‌ಸ್ಲ್ಯಾಬ್
+  defs:
+  - *id013
+  id: bondslab_6e3dfaa7fcd1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bond slab
+- entry: ಗುಂಡುಕಲ್ಲುಗಳು
+  defs:
+  - &id014
+    entry: Boulders
+    type: Noun
+  id: boulders_35a3898a9a9a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Boulders
+- entry: ಉಂಡೆ ಗಲ್ಲುಗಳು
+  defs:
+  - *id014
+  id: boulders_0770edf7be5a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Boulders
+- entry: ಚಾಚುಪೀಠ
+  defs:
+  - &id015
+    entry: Bracket
+    type: Noun
+  id: bracket_ed44d458b72a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bracket
+- entry: ಕಂಸ
+  defs:
+  - *id015
+  id: bracket_970f34e28279
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bracket
+- entry: ಬ್ರಾಕೆಟ್
+  defs:
+  - *id015
+  id: bracket_ef7e5792e739
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bracket
+- entry: ಇಟ್ಟಿಗೆ
+  defs:
+  - entry: Brick
+    type: Noun
+  id: brick_19549ffd212a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Brick
+- entry: ಮೇಲ್ಕಟ್ಟುಗಳು
+  defs:
+  - &id016
+    entry: Canopies
+    type: Noun
+  id: canopies_65b0466921f5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Canopies
+- entry: ಚಾಚುಭಾಗ
+  defs:
+  - *id016
+  id: canopies_2621d444186f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Canopies
+- entry: ಕ್ಯಾನೋಪಿಗಳು
+  defs:
+  - *id016
+  id: canopies_279ac8af03be
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Canopies
+- entry: ಎರಕ ಹೊಯ್ಯುವುದು
+  defs:
+  - &id017
+    entry: Casting
+    type: Noun
+  id: casting_910e443bd83b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Casting
+- entry: ಅಚ್ಚು
+  defs:
+  - *id017
+  id: casting_cdb697c0c382
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Casting
+- entry: ರೂಫು
+  defs:
+  - *id017
+  id: casting_dd3209f04709
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Casting
+- entry: ಕ್ಯಾಸ್ಟಿಂಗ್
+  defs:
+  - *id017
+  id: casting_da9702e182fb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Casting
+- entry: ಸಿಮೆಂಟು
+  defs:
+  - entry: Cement
+    type: Noun
+  id: cement_294a681a6aa0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cement
+- entry: ಸಿಮೆಂಟ್‌ ಮಾರ್ಟರ್
+  defs:
+  - &id018
+    entry: Cement Morter (C.M)
+    type: Noun
+  id: cementmort_2c0054a731bb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cement Morter (C.M)
+- entry: ಸಿಮೆಂಟು ಗಾರೆ
+  defs:
+  - *id018
+  id: cementmort_8b5e5435c2c5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cement Morter (C.M)
+- entry: ಸಿಮೆಂಟ್‌ ಕಾಂಕ್ರೀಟು
+  defs:
+  - entry: Cement Concrete (C.C.)
+    type: Noun
+  id: cementconc_3cf474b2c5a9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cement Concrete (C.C.)
+- entry: ಊರೆಕಟ್ಟು
+  defs:
+  - &id019
+    entry: Centering
+    type: Noun
+  id: centering_fe30f4f8e32a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Centering
+- entry: ಚೌಕಟ್ಟು ಸೆಂಟ್ರಿಂಗ್
+  defs:
+  - *id019
+  id: centering_7f29eb8d1490
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Centering
+- entry: ಛಾವಣಿಯ ಒಳಮೈ
+  defs:
+  - &id020
+    entry: Ceiling
+    type: Noun
+  id: ceiling_06befe39398c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ceiling
+- entry: ಒಳಮಾಳಿಗೆ
+  defs:
+  - *id020
+  id: ceiling_4b606e816a8b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ceiling
+- entry: ಉಳಿಯಿಂದ ಕೆತ್ತುವುದು
+  defs:
+  - &id021
+    entry: Chistling
+    type: Noun
+  id: chistling_a3a5fa74cb7f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Chistling
+- entry: ಉಳಿಗೆಲಸ ಮಾಡುವುದು
+  defs:
+  - *id021
+  id: chistling_37d1edcdbd64
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Chistling
+- entry: ಚಾಂಫರಿಂಗ್
+  defs:
+  - entry: Chamfering
+    type: Noun
+  id: chamfering_ec01cb72a62c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Chamfering
+- entry: ಚಜ್ಜಾಗಳು
+  defs:
+  - entry: Chajjas
+    type: Noun
+  id: chajjas_7714a353950e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Chajjas
+- entry: ಸಿಲ್‌ಗಳು
+  defs:
+  - entry: Cills
+    type: Noun
+  id: cills_dfa7ab5f6f4c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cills
+- entry: ಜೇಡಿಮಣ್ಣು
+  defs:
+  - &id022
+    entry: Clay
+    type: Noun
+  id: clay_54894fba5540
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Clay
+- entry: ಕ್ಲೇ
+  defs:
+  - *id022
+  id: clay_bfd29f083625
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Clay
+- entry: ಶೌಚಾಗಾರ
+  defs:
+  - &id023
+    entry: Closet
+    type: Noun
+  id: closet_cd44b9653898
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Closet
+- entry: ಗೂಡು
+  defs:
+  - *id023
+  id: closet_81d8999132fe
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Closet
+- entry: ಕಪಾಟು
+  defs:
+  - *id023
+  id: closet_64c08cfb111e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Closet
+- entry: ಕ್ಲಾಸೆಟ್
+  defs:
+  - *id023
+  id: closet_feaca58db16f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Closet
+- entry: ಲೇಪ
+  defs:
+  - &id024
+    entry: Coat
+    type: Noun
+  id: coat_5ce0ed6ec4e5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Coat
+- entry: ಬಳಿತ
+  defs:
+  - *id024
+  id: coat_bdd80026e1f3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Coat
+- entry: ಕೋಟ್
+  defs:
+  - *id024
+  id: coat_975212d467c1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Coat
+- entry: ಆವರಣ ಗೋಡೆ
+  defs:
+  - &id025
+    entry: Compound Wall
+    type: Noun
+  id: compoundwa_36b74bc65459
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compound Wall
+- entry: ಸುತ್ತು ಗೋಡೆ
+  defs:
+  - *id025
+  id: compoundwa_8f63e9f30a33
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compound Wall
+- entry: ಕಾಂಪೌಡ್
+  defs:
+  - entry: Compound
+    type: Noun
+  id: compound_f9555e5bd739
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compound
+- entry: ಕಾಂಕ್ರೀಟು
+  defs:
+  - entry: Concrete
+    type: Noun
+  id: concrete_591b31e95f2e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Concrete
+- entry: ಕೊಪಿಂಗ್
+  defs:
+  - entry: Coping
+    type: Noun
+  id: coping_004c07af28aa
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Coping
+- entry: ರಿಇನ್‌ಪೋರ್ಸ್ಡ್ ಸಿಮೆಂಟ್‌ ಕಾಂಕ್ರೀಟು ಆರ್‌ಸಿಸಿ
+  defs:
+  - entry: Concrete (RCC)
+    type: Noun
+  id: concreterc_97aaab8739f0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Concrete (RCC)
+- entry: ಕಾಂಕ್ರಿಟ್‌ ಹಾಕುವದು
+  defs:
+  - &id026
+    entry: Concreting
+    type: Noun
+  id: concreting_7d5c710ca88b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Concreting
+- entry: ಕಾಂಕ್ರೀಟಿಂಗ್
+  defs:
+  - *id026
+  id: concreting_02fd13fd0d96
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Concreting
+- entry: ಕಾಲರುಗಳು
+  defs:
+  - entry: Collars
+    type: Noun
+  id: collars_fd6f85cb8b50
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Collars
+- entry: ಕಂಬ
+  defs:
+  - &id027
+    entry: Column
+    type: Noun
+  id: column_a717d314d1b7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Column
+- entry: ಅಂಕಣ
+  defs:
+  - *id027
+  id: column_44a793dd52e2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Column
+- entry: ಕಾಲಮ್
+  defs:
+  - *id027
+  id: column_4790f2f3ad9a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Column
+- entry: ಅಡಿಗಾಲುವೆ
+  defs:
+  - &id028
+    entry: Culvert
+    type: Noun
+  id: culvert_baa50d07dc83
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Culvert
+- entry: ನೀರ್ಗೊಳವೆ
+  defs:
+  - *id028
+  id: culvert_23ecdfe0ddb8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Culvert
+- entry: ಕಲ್ವರ್ಟ್
+  defs:
+  - *id028
+  id: culvert_56893a9f029f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Culvert
+- entry: ಒಣಗಿಸುವುದು
+  defs:
+  - &id029
+    entry: Curing
+    type: Noun
+  id: curing_0cd762e90c30
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Curing
+- entry: ಗಟ್ಟಿಯಾಗುವಂತೆ ಮಾಡುವುದು
+  defs:
+  - *id029
+  id: curing_30046d0048d9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Curing
+- entry: ಕ್ಯೂರಿಂಗ್
+  defs:
+  - *id029
+  id: curing_dc097fb9bc89
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Curing
+- entry: ಕತ್ತರಿಸುವುದು
+  defs:
+  - &id030
+    entry: Cutting
+    type: Noun
+  id: cutting_01ffbc29fdc0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cutting
+- entry: ಚೂರು ಮಾಡುವುದು
+  defs:
+  - *id030
+  id: cutting_c436ea3eb9ca
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cutting
+- entry: ಕಟಿಂಗ್
+  defs:
+  - *id030
+  id: cutting_387af8161335
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cutting
+- entry: ಬಾಗಿಲು
+  defs:
+  - &id031
+    entry: Door
+    type: Noun
+  id: door_f2915189c674
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Door
+- entry: ದ್ವಾರ
+  defs:
+  - *id031
+  id: door_3b4c3b3fcfcb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Door
+- entry: ಮಾರ್ಗ
+  defs:
+  - *id031
+  id: door_ba6e67b39259
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Door
+- entry: ಅಗೆತದ ಕೆಲಸ
+  defs:
+  - entry: Earth work
+    type: Noun
+  id: earthwork_d1a5aec30ff9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Earth work
+- entry: ಮೊಣಕೈ ಆಕಾರದ ಮೂಲೆಗಳು
+  defs:
+  - &id032
+    entry: Elbows
+    type: Noun
+  id: elbows_66dd223297d7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Elbows
+- entry: ಎಲ್ಬೋಗಳು
+  defs:
+  - *id032
+  id: elbows_d08dbb128383
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Elbows
+- entry: ನೆಡ್ತು ನಾಟು
+  defs:
+  - &id033
+    entry: Embedded
+    type: Noun
+  id: embedded_8fc5413a0e4d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Embedded
+- entry: ಹೂಳು ಭದ್ರವಾಗಿ ಹಿಡಿದ
+  defs:
+  - *id033
+  id: embedded_a0070af0f7d2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Embedded
+- entry: ಎಂಬಿಡೆಡ್
+  defs:
+  - *id033
+  id: embedded_c35fc747316f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Embedded
+- entry: ಗಾಜುಲೇಪ
+  defs:
+  - &id034
+    entry: Enamel
+    type: Noun
+  id: enamel_8d254d6f09e3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Enamel
+- entry: ಎನಾಮೆಲ್
+  defs:
+  - *id034
+  id: enamel_bbb2f8a30558
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Enamel
+- entry: ಅಗೆಯುವುದು
+  defs:
+  - &id035
+    entry: Excavation
+    type: Noun
+  id: excavation_0b0049a993ba
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Excavation
+- entry: ತೋಡುವುದು
+  defs:
+  - *id035
+  id: excavation_c9a9f15a935e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Excavation
+- entry: ಭೂಶೋಧನ
+  defs:
+  - *id035
+  id: excavation_fd97f140257c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Excavation
+- entry: ರಚನೆ
+  defs:
+  - &id036
+    entry: Fabrication
+    type: Noun
+  id: fabricatio_f13e03d1390a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fabrication
+- entry: ಬಂಧ ಫ್ಯಾಬ್ರಿಕೇಷನ್
+  defs:
+  - *id036
+  id: fabricatio_0a143b690b88
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fabrication
+- entry: ನೆಡು
+  defs:
+  - &id037
+    entry: Fixing
+    type: Noun
+  id: fixing_5b478842716d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixing
+- entry: ನಿಲ್ಲಿಸು
+  defs:
+  - *id037
+  id: fixing_e44dc0551718
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixing
+- entry: ಅಳವಡಿಸು
+  defs:
+  - *id037
+  id: fixing_98c4d7c89d41
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixing
+- entry: ಫಿಕ್ಸಿಂಗ್
+  defs:
+  - *id037
+  id: fixing_03f852b8cf5d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixing
+- entry: ವಸ್ತುಗಳು
+  defs:
+  - &id038
+    entry: Fittings
+    type: Noun
+  id: fittings_d8c4706ecce9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fittings
+- entry: ಸಲಕರಣೆಗಳು
+  defs:
+  - *id038
+  id: fittings_e6e41fcd0b41
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fittings
+- entry: ಜೋಡಣೆಗಳು
+  defs:
+  - *id038
+  id: fittings_77d6a1d37ab9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fittings
+- entry: ಫಿನ್ ಗಳು
+  defs:
+  - entry: Fins
+    type: Noun
+  id: fins_8accbfa65285
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fins
+- entry: ಫ್ಲಶ್‌ ಟ್ಯಾಂಕ್
+  defs:
+  - entry: Flush tank
+    type: Noun
+  id: flushtank_665b024099d2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Flush tank
+- entry: ನೆಲಹಾಸು
+  defs:
+  - entry: Flooring
+    type: Noun
+  id: flooring_d2c4b5b7fb46
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Flooring
+- entry: ಆಕೃತಿ ರೂಪಕ
+  defs:
+  - &id039
+    entry: Form Work
+    type: Noun
+  id: formwork_d32a731401a1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Form Work
+- entry: ಫಾರ್ಮ್ ವರ್ಕ್ಸ್
+  defs:
+  - *id039
+  id: formwork_b7647653591e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Form Work
+- entry: ಅಡಿಪಾಯ
+  defs:
+  - &id040
+    entry: Foundation
+    type: Noun
+  id: foundation_7f7ca7b89b32
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Foundation
+- entry: ಬುನಾದಿ
+  defs:
+  - *id040
+  id: foundation_48826da857b8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Foundation
+- entry: ಅಡಿವರಸೆ
+  defs:
+  - &id041
+    entry: Footing
+    type: Noun
+  id: footing_9c55a076d761
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Footing
+- entry: ಕಾಲಿಡಲು ನೆಲೆ
+  defs:
+  - *id041
+  id: footing_68fbfdbc7943
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Footing
+- entry: ಫೂಟಿಂಗ್
+  defs:
+  - *id041
+  id: footing_4def26f5b63e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Footing
+- entry: ಪಾದ
+  defs:
+  - *id041
+  id: footing_1f332daa0d05
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Footing
+- entry: ಚೌಕಟ್ಟು
+  defs:
+  - &id042
+    entry: Frame
+    type: Noun
+  id: frame_7ba368eb226d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Frame
+- entry: ಫ್ರೇಮ್
+  defs:
+  - *id042
+  id: frame_dd568e94852a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Frame
+- entry: ನಿಗದಿಯ ಅಳತೆ
+  defs:
+  - &id043
+    entry: Gauge
+    type: Noun
+  id: gauge_d5bba5c74d77
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauge
+- entry: ಪ್ರಮಾಣ
+  defs:
+  - *id043
+  id: gauge_6a064d085dae
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauge
+- entry: ಹರವು
+  defs:
+  - *id043
+  id: gauge_897d553616c0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauge
+- entry: ಅಳೆಪಿಡಿ
+  defs:
+  - *id043
+  id: gauge_bd0797850ccf
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauge
+- entry: ಗೇಜ್
+  defs:
+  - *id043
+  id: gauge_14682fe0eb42
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauge
+- entry: ಉರಿದೀಪ
+  defs:
+  - &id044
+    entry: Gauze
+    type: Noun
+  id: gauze_5eb20c915cd2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauze
+- entry: ಜಾಲರಿ ಲಾಂದ್ರ
+  defs:
+  - *id044
+  id: gauze_3c9089c9d4ae
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gauze
+- entry: ಬೆಣಚುಕಲ್ಲು
+  defs:
+  - &id045
+    entry: Granite
+    type: Noun
+  id: granite_b844d7363e18
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Granite
+- entry: ಅಭ್ರಕ
+  defs:
+  - *id045
+  id: granite_baa0361c0bb6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Granite
+- entry: ಗ್ರಾನೈಟ್
+  defs:
+  - *id045
+  id: granite_7080255e3b5d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Granite
+- entry: ಗ್ರಾವೆಲ್
+  defs:
+  - entry: Gravel
+    type: Noun
+  id: gravel_772a5031a7b3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gravel
+- entry: ತೋಡುಗಳು
+  defs:
+  - &id046
+    entry: Grooves
+    type: Noun
+  id: grooves_2699b38021bc
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Grooves
+- entry: ರಂಧ್ರಗಳು
+  defs:
+  - *id046
+  id: grooves_3e0e6ab608d8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Grooves
+- entry: ಗ್ರೂವ್ಸ್
+  defs:
+  - *id046
+  id: grooves_e93f2034d188
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Grooves
+- entry: ಗಲ್ಲಿ ಟ್ರಾಪ್
+  defs:
+  - entry: Gully trap
+    type: Noun
+  id: gullytrap_2401580aac80
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gully trap
+- entry: ಗಟ್ಟಿ ಮಣ್ಣು
+  defs:
+  - &id047
+    entry: Hard soil
+    type: Noun
+  id: hardsoil_73bd8615c005
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hard soil
+- entry: ಗಡುಸು ಮಣ್ಣು
+  defs:
+  - *id047
+  id: hardsoil_f42ccaca6ae9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hard soil
+- entry: ಹಾರ್ಡ್‌ ಸಾಯಿಲ್
+  defs:
+  - *id047
+  id: hardsoil_201fecdc82e4
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hard soil
+- entry: ಗಟ್ಟಿ ಕಲ್ಲು
+  defs:
+  - &id048
+    entry: Hard rock
+    type: Noun
+  id: hardrock_e43edc0984a8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hard rock
+- entry: ಗಡುಸು ಕಲ್ಲು ಹಾರ್ಡ್‌ ರಾಕ್
+  defs:
+  - *id048
+  id: hardrock_514e6da1a759
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hard rock
+- entry: ಹಿಡಿಕಂಬಿ
+  defs:
+  - &id049
+    entry: Hand railing
+    type: Noun
+  id: handrailin_c17d67b112ed
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hand railing
+- entry: ಹ್ಯಾಂಡ್‌ ರೈಲಿಂಗ್
+  defs:
+  - *id049
+  id: handrailin_3ae4a1caddaf
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hand railing
+- entry: ತಿರುಗಣೆಗಳು
+  defs:
+  - &id050
+    entry: Hinges
+    type: Noun
+  id: hinges_c14104864c37
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hinges
+- entry: ಕೀಲುಗಳು
+  defs:
+  - *id050
+  id: hinges_2c157319ef1a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hinges
+- entry: ಹಿಂಜಸ್
+  defs:
+  - *id050
+  id: hinges_17aa204f04df
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hinges
+- entry: ಹೊನ್ನೆಮರ
+  defs:
+  - entry: Honne Wood
+    type: Noun
+  id: honnewood_ed28e058acfe
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Honne Wood
+- entry: ಕೊಕ್ಕೆ ಹಾಕುವುದು
+  defs:
+  - &id051
+    entry: Hooking
+    type: Noun
+  id: hooking_3cbbfac7f618
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hooking
+- entry: ತಗಲುಹಾಕುವುದು
+  defs:
+  - *id051
+  id: hooking_68b06343010e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hooking
+- entry: ಹುಕಿಂಗ್
+  defs:
+  - *id051
+  id: hooking_74d224381a56
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hooking
+- entry: ತನಿಖಾ ಕೊಠಡಿ
+  defs:
+  - entry: Inspection Chamber
+    type: Noun
+  id: inspection_0bcfffbc7510
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Inspection Chamber
+- entry: ಕಬ್ಬಿಣ
+  defs:
+  - entry: Iron
+    type: Noun
+  id: iron_f9387bbc5202
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Iron
+- entry: ಜೆಲ್ಲಿ
+  defs:
+  - entry: Jelly
+    type: Noun
+  id: jelly_e7ce6888e9f6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Jelly
+- entry: ಪದರ
+  defs:
+  - &id052
+    entry: Layer
+    type: Noun
+  id: layer_ce501155007c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Layer
+- entry: ಸ್ತರ
+  defs:
+  - *id052
+  id: layer_0e1dc8177c89
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Layer
+- entry: ಲೇಯರ್
+  defs:
+  - *id052
+  id: layer_c6bc1717afd1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Layer
+- entry: ಹಾಕುವುದು
+  defs:
+  - &id053
+    entry: Laying
+    type: Noun
+  id: laying_6a8593ab4e4f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Laying
+- entry: ಅಳವಡಿಸುವುದು
+  defs:
+  - *id053
+  id: laying_df15d104b0e6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Laying
+- entry: ಜೋಡಿಸುವುದು
+  defs:
+  - *id053
+  id: laying_e4da72fcb2f5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Laying
+- entry: ಚಾಚುವುದು
+  defs:
+  - &id054
+    entry: Lapping
+    type: Noun
+  id: lapping_c350ad42e703
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lapping
+- entry: ಹಾಸುವುದು
+  defs:
+  - *id054
+  id: lapping_cfc5a49a864e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lapping
+- entry: ಸುರುಳಿ
+  defs:
+  - *id054
+  id: lapping_1d1868d68f55
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lapping
+- entry: ಕೂಡಿಸುವುದು
+  defs:
+  - *id054
+  id: lapping_e579932070c0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lapping
+- entry: ಕೂಲಿ
+  defs:
+  - &id055
+    entry: Labour
+    type: Noun
+  id: labour_ae8310d68da0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Labour
+- entry: ಕೆಲಸ
+  defs:
+  - *id055
+  id: labour_685b651aa53d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Labour
+- entry: ಕಾರ್ಯ
+  defs:
+  - *id055
+  id: labour_37ad909ed0da
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Labour
+- entry: ಶ್ರಮ
+  defs:
+  - *id055
+  id: labour_753b3d14032d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Labour
+- entry: ಉದ್ದರಣಾ
+  defs:
+  - entry: Lead & Lift
+    type: Noun
+  id: leadlift_3aca629248a8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lead & Lift
+- entry: ಮಟ್ಟಮಾಡುವುದು
+  defs:
+  - &id056
+    entry: Levelling
+    type: Noun
+  id: levelling_230be51cd0a6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Levelling
+- entry: ಸಮತಲಗೊಳಿಸುವುದು
+  defs:
+  - *id056
+  id: levelling_2a4312cf5ad8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Levelling
+- entry: ಸುಣ್ಣದ ಕಲ್ಲು
+  defs:
+  - &id057
+    entry: Lime stone
+    type: Noun
+  id: limestone_f651d42d5ae9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lime stone
+- entry: ಲೈಮ್‌ಸ್ಟೋನ್
+  defs:
+  - *id057
+  id: limestone_7424ea469eff
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lime stone
+- entry: ಸುಟ್ಟ
+  defs:
+  - &id058
+    entry: Lime
+    type: Noun
+  id: lime_38218da42e6b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lime
+- entry: ಸುಣ್ಣ
+  defs:
+  - *id058
+  id: lime_f71a13fe6de1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lime
+- entry: ಲೈನಿಂಗ್
+  defs:
+  - entry: Lining
+    type: Noun
+  id: lining_2dcb2004013e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lining
+- entry: ಮೇಲಕ್ಕೆತ್ತು
+  defs:
+  - &id059
+    entry: Lifting
+    type: Noun
+  id: lifting_bc4a728fd97b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lifting
+- entry: ಎತ್ತರಿಸು
+  defs:
+  - *id059
+  id: lifting_2e4b932d6357
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lifting
+- entry: ಎತ್ತುವುದು
+  defs:
+  - *id059
+  id: lifting_d6d750db88bc
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lifting
+- entry: ಲಿಫ್ಟಿಂಗ್
+  defs:
+  - *id059
+  id: lifting_c04b65e3c1b1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lifting
+- entry: ಹಾಸುಗಲ್ಲು
+  defs:
+  - &id060
+    entry: Lintels
+    type: Noun
+  id: lintels_dd2532e984cb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lintels
+- entry: ಹಾಸುಮರ
+  defs:
+  - *id060
+  id: lintels_8cff01ce0a20
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lintels
+- entry: ಲಿಂಟೆಲ್‌ಗಳು
+  defs:
+  - *id060
+  id: lintels_9433e10bca23
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lintels
+- entry: ಭಾರ
+  defs:
+  - &id061
+    entry: Load
+    type: Noun
+  id: load_e5ad7ddd5011
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Load
+- entry: ಹೇರು
+  defs:
+  - *id061
+  id: load_752292c90d83
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Load
+- entry: ಹೊರೆ
+  defs:
+  - *id061
+  id: load_08e983e1cc71
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Load
+- entry: ಅಟ್ಟ
+  defs:
+  - &id062
+    entry: Loft
+    type: Noun
+  id: loft_9c936338d3ec
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Loft
+- entry: ಚಾಚುಪೀಠ ಪಂಕ್ತಿ
+  defs:
+  - *id062
+  id: loft_a5796a8b7536
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Loft
+- entry: ಲಾಫ್ಟ್
+  defs:
+  - *id062
+  id: loft_fe80f2bbafb7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Loft
+- entry: ತುಂಬುವುದು
+  defs:
+  - &id063
+    entry: Loading
+    type: Noun
+  id: loading_298568eab95d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Loading
+- entry: ಭರ್ತಿ ಮಾಡುವುದು
+  defs:
+  - *id063
+  id: loading_5b6bc370931b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Loading
+- entry: ಲೋಡಿಂಗ್
+  defs:
+  - *id063
+  id: loading_aa8e8edfcfaf
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Loading
+- entry: ಕೆಳಕ್ಕಿಳಿಸು
+  defs:
+  - &id064
+    entry: Lowering
+    type: Noun
+  id: lowering_ea086de41062
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lowering
+- entry: ಇಳಿಸು
+  defs:
+  - *id064
+  id: lowering_3455dab9cd77
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lowering
+- entry: ತಗ್ಗಿಸು
+  defs:
+  - *id064
+  id: lowering_e92762d9c9a8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lowering
+- entry: ಆಳುಗಂಡಿ
+  defs:
+  - &id065
+    entry: Manhole
+    type: Noun
+  id: manhole_9e2772ddf16c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Manhole
+- entry: ಮ್ಯಾನ್ ಹೋಲ್
+  defs:
+  - *id065
+  id: manhole_08f87e0d640b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Manhole
+- entry: ಗಾರೆ ಕೆಲಸದವನು
+  defs:
+  - &id066
+    entry: Mason
+    type: Noun
+  id: mason_0970e286953d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mason
+- entry: ಕಲ್ಲು ಕುಟಿಗ
+  defs:
+  - *id066
+  id: mason_2a7477d2024c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mason
+- entry: ಮೇಸನ್
+  defs:
+  - *id066
+  id: mason_f581ca6a2b5f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mason
+- entry: ಮತ್ತಿ ಮರ
+  defs:
+  - entry: Mathi
+    type: Noun
+  id: mathi_71b1cf4579f2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mathi
+- entry: ಅದರ ಪದರವಾಗಿ ಹಾಕಿ ತಯಾರಿಸಿದೆ
+  defs:
+  - &id067
+    entry: Macadam
+    type: Noun
+  id: macadam_dc47d5d58835
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Macadam
+- entry: ಮಕಾಡಂ
+  defs:
+  - *id067
+  id: macadam_58d50615dd65
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Macadam
+- entry: ಲೋಹ
+  defs:
+  - &id068
+    entry: Metal
+    type: Noun
+  id: metal_7e86f9ba95c5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Metal
+- entry: ಜಲ್ಲಿಕಲ್ಲು
+  defs:
+  - *id068
+  id: metal_62cef979c82c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Metal
+- entry: ಬಲೆ-ಬಲೆಯಂಥ ರಚನೆ
+  defs:
+  - &id069
+    entry: Mesh
+    type: Noun
+  id: mesh_f5ee37369389
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mesh
+- entry: ಮೆಶ್
+  defs:
+  - *id069
+  id: mesh_157fe39ae1a3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mesh
+- entry: ಮಿಶ್ರಗೊಳಿಸುವುದು
+  defs:
+  - &id070
+    entry: Mixing
+    type: Noun
+  id: mixing_04b34ec1f8fc
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mixing
+- entry: ಬೆರಸುವುದು
+  defs:
+  - *id070
+  id: mixing_e98a0e56b657
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mixing
+- entry: ಮಿಕ್ಸಿಂಗ್
+  defs:
+  - *id070
+  id: mixing_f46e62ae83e6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mixing
+- entry: ಮೊಸಾಯಿಕ್
+  defs:
+  - entry: Mosaic
+    type: Noun
+  id: mosaic_0a8b0baf9fd6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mosaic
+- entry: ಅಚ್ಚುಹಾಕುವುದು
+  defs:
+  - &id071
+    entry: Moulding
+    type: Noun
+  id: moulding_fb60e921b4d8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Moulding
+- entry: ಮೌಲ್ಡ್‌ ಮಾಡುವುದು
+  defs:
+  - *id071
+  id: moulding_045ff8064e0a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Moulding
+- entry: ಎಂ.ಎಸ್‌. ರಾಡ್
+  defs:
+  - entry: M.S. rod
+    type: Noun
+  id: msrod_52c498700991
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: M.S. rod
+- entry: ಮಣ್ಣು ಕೆಸರು
+  defs:
+  - entry: Mud
+    type: Noun
+  id: mud_d264b9fa6c22
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mud
+- entry: ಮಾಡ್ಯುಲರ್
+  defs:
+  - entry: Modular
+    type: Noun
+  id: modular_dd41392de6e4
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Modular
+- entry: ನಂದಿ ಮರ
+  defs:
+  - entry: Nandi Wood
+    type: Noun
+  id: nandiwood_ce0c1500ce85
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Nandi Wood
+- entry: ಸಾಮಾನ್ಯ ಮಣ್ಣು
+  defs:
+  - entry: Ordinary soil
+    type: Noun
+  id: ordinaryso_7a6774ec1f3f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ordinary soil
+- entry: ಸಾಮಾನ್ಯ ಕಲ್ಲು
+  defs:
+  - &id072
+    entry: Ordinary rock
+    type: Noun
+  id: ordinaryro_4696bdcf24fe
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ordinary rock
+- entry: ಬಂಡೆ ಶಿಲೆ
+  defs:
+  - *id072
+  id: ordinaryro_3e218fab8f10
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ordinary rock
+- entry: ಮೇಲು ಎತ್ತರದ ತೊಟ್ಟಿ
+  defs:
+  - &id073
+    entry: Overhead tank
+    type: Noun
+  id: overheadta_ab649b46ab8b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Overhead tank
+- entry: ಮೇಲುಮಹಡಿಯಲ್ಲಿ ಮಾಡಿರುವ ತೊಟ್ಟಿ
+  defs:
+  - *id073
+  id: overheadta_c91b5166a816
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Overhead tank
+- entry: ಕೈಪಿಡಿಗೊಡೆ
+  defs:
+  - &id074
+    entry: Parapet
+    type: Noun
+  id: parapet_0189daf8fd9d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Parapet
+- entry: ಪಾಗಾರ
+  defs:
+  - *id074
+  id: parapet_0336d6646fa9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Parapet
+- entry: ಪ್ಯಾರಾಪಟ್
+  defs:
+  - *id074
+  id: parapet_1d5ceb3c7ede
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Parapet
+- entry: ಹಾಸುವುದು
+  defs:
+  - &id075
+    entry: Paving
+    type: Noun
+  id: paving_79659dbc1ae2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paving
+- entry: ನೆಲಗಟ್ಟು ಮಾಡುವುದು
+  defs:
+  - *id075
+  id: paving_7cf10c0b2895
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paving
+- entry: ಹದಿಸುವುದು
+  defs:
+  - *id075
+  id: paving_452bf4ca9689
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paving
+- entry: ಚಿಲಕ
+  defs:
+  - &id076
+    entry: Padlock
+    type: Noun
+  id: padlock_6b3bbb78df8f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Padlock
+- entry: ಪ್ಯಾಡ್ ಲಾಕ್
+  defs:
+  - *id076
+  id: padlock_40ddbdb872f6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Padlock
+- entry: ಅಂಕಣ
+  defs:
+  - &id077
+    entry: Panels
+    type: Noun
+  id: panels_29520426b0f7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Panels
+- entry: ಪ್ಯಾನಲ್ಸ್
+  defs:
+  - *id077
+  id: panels_5fff72f8835b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Panels
+- entry: ಮಾದರಿ
+  defs:
+  - &id078
+    entry: Pattern
+    type: Noun
+  id: pattern_6c91f5421583
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pattern
+- entry: ನಮೂನೆ
+  defs:
+  - *id078
+  id: pattern_e48664495233
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pattern
+- entry: ರೂಪಿಕೆ
+  defs:
+  - *id078
+  id: pattern_74e31c9497a0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pattern
+- entry: ಪ್ಯಾಟ್ರನ್
+  defs:
+  - *id078
+  id: pattern_137ee2f4b138
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pattern
+- entry: ಬಣ್ಣ
+  defs:
+  - &id079
+    entry: Paint
+    type: Noun
+  id: paint_c74f3c11607f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paint
+- entry: ವರ್ಣ
+  defs:
+  - *id079
+  id: paint_fbd674a90fff
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paint
+- entry: ಸಮಗೊಳಿಸುವುದು
+  defs:
+  - &id080
+    entry: Patti
+    type: Noun
+  id: patti_d0648498984b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Patti
+- entry: ಪಟ್ಟಿ ಮಾಡುವುದು
+  defs:
+  - *id080
+  id: patti_22fa41b40b07
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Patti
+- entry: ಕಂಬಗಳು
+  defs:
+  - &id081
+    entry: Pillars
+    type: Noun
+  id: pillars_1a77d1fcea67
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pillars
+- entry: ಸ್ತಂಬಗಳು
+  defs:
+  - *id081
+  id: pillars_08062f869e4c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pillars
+- entry: ಕೊಳವೆಮಾರ್ಗ
+  defs:
+  - &id082
+    entry: Pipeline
+    type: Noun
+  id: pipeline_dc54905ade23
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pipeline
+- entry: ಪೈಪ್‌ಲೈನ್
+  defs:
+  - *id082
+  id: pipeline_0508d39d37c9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pipeline
+- entry: ಮರದ ಹಲಗೆ
+  defs:
+  - &id083
+    entry: Plank
+    type: Noun
+  id: plank_a8e108a0eada
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plank
+- entry: ಫಲಕ
+  defs:
+  - *id083
+  id: plank_25ddca8dbaec
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plank
+- entry: ಮೆತ್ತು
+  defs:
+  - &id084
+    entry: Plastering
+    type: Noun
+  id: plastering_8817cc73d4dc
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plastering
+- entry: ಗಾರೆ ಮಾಡುವುದು
+  defs:
+  - *id084
+  id: plastering_c48e8a6dba93
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plastering
+- entry: ಮಡ್ಡಿ ಮಾಡುವುದು
+  defs:
+  - *id084
+  id: plastering_a615b52fbc7e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plastering
+- entry: ನಯ
+  defs:
+  - &id085
+    entry: Polish
+    type: Noun
+  id: polish_3ee5f99777e4
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Polish
+- entry: ಮೆರುಗು
+  defs:
+  - *id085
+  id: polish_2d0a54298a65
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Polish
+- entry: ಹೊಳಪು
+  defs:
+  - *id085
+  id: polish_06f241f7ddb4
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Polish
+- entry: ಚೂಪು ಮಾಡುವುದು
+  defs:
+  - &id086
+    entry: Pointing
+    type: Noun
+  id: pointing_2cb183442de1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pointing
+- entry: ಸಂದುಗಾರೆ ಮಾಡುವುದು
+  defs:
+  - *id086
+  id: pointing_28d3251c4ddf
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pointing
+- entry: ಒದಗಿಸುವುದು ಸರಬರಾಜು ಮಾಡುವುದು
+  defs:
+  - &id087
+    entry: Providing
+    type: Noun
+  id: providing_18069ef38af6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Providing
+- entry: ಏರ್ಪಾಟು ಮಾಡುವುದು
+  defs:
+  - *id087
+  id: providing_feeaa6ab1c74
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Providing
+- entry: ಮೊದಲ ಲೇಪ
+  defs:
+  - &id088
+    entry: Primer
+    type: Noun
+  id: primer_89efade4be02
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Primer
+- entry: ಪ್ರೈಮರ್
+  defs:
+  - *id088
+  id: primer_ebe69ca13dd1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Primer
+- entry: ಕಲ್ಲುಗಣಿ
+  defs:
+  - &id089
+    entry: Quarry
+    type: Noun
+  id: quarry_0f29a063c95a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quarry
+- entry: ಕ್ವಾರಿ
+  defs:
+  - *id089
+  id: quarry_fff4dfa713b3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quarry
+- entry: ಕಂಬಿಗಳು
+  defs:
+  - &id090
+    entry: Rails
+    type: Noun
+  id: rails_73b320b6c1ea
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rails
+- entry: ರೇಲ್ಸ್
+  defs:
+  - *id090
+  id: rails_b00c386c6256
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rails
+- entry: ತಲೊಟ್ಟಿಲು
+  defs:
+  - &id091
+    entry: Raft
+    type: Noun
+  id: raft_b9d9766241ed
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Raft
+- entry: ತೆಪ್ಪ
+  defs:
+  - *id091
+  id: raft_19a6f683b97c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Raft
+- entry: ಕಟ್ಟುಮರ
+  defs:
+  - *id091
+  id: raft_73c1cafb6de2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Raft
+- entry: ರ‍್ಯಾಕಿಂಗ್
+  defs:
+  - entry: Racking
+    type: Noun
+  id: racking_8499bd2bdd2b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Racking
+- entry: ಭದ್ರಪಡಿಸಿದ ಜಲ್ಲಿಗಾರೆ
+  defs:
+  - &id092
+    entry: Reinforcement
+    type: Noun
+  id: reinforcem_1254b7f63d26
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reinforcement
+- entry: ಭದ್ರಗಾರೆ
+  defs:
+  - *id092
+  id: reinforcem_8db1bc889f71
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reinforcement
+- entry: ರೆಡ್‌ ಆಕ್ಸೈಡ್
+  defs:
+  - entry: Red oxide
+    type: Noun
+  id: redoxide_05a50e47d532
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Red oxide
+- entry: ರೀಪರುಗಳು
+  defs:
+  - entry: Reapers
+    type: Noun
+  id: reapers_0535ac4987f8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reapers
+- entry: ತೆಗೆದುಹಾಕು
+  defs:
+  - &id093
+    entry: Removing
+    type: Noun
+  id: removing_72d99e0667fb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Removing
+- entry: ಸಾಗಿಸು
+  defs:
+  - *id093
+  id: removing_440f0d222054
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Removing
+- entry: ಬದಲಾಯಿಸು
+  defs:
+  - *id093
+  id: removing_1753693a186e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Removing
+- entry: ಒಯ್ಯುವುದು
+  defs:
+  - *id093
+  id: removing_a853c323900b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Removing
+- entry: ಭದ್ರಗಾರೆ
+  defs:
+  - &id094
+    entry: Reinforced Cement
+    type: Noun
+  id: reinforced_c97298331e38
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reinforced Cement
+- entry: ಭದ್ರಪಡಿಸಿದ ಗಾರೆ
+  defs:
+  - *id094
+  id: reinforced_0c024b0f5497
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reinforced Cement
+- entry: ಕೋಲು
+  defs:
+  - &id095
+    entry: Rod
+    type: Noun
+  id: rod_b8fbb82dad2c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rod
+- entry: ದಂಡ
+  defs:
+  - *id095
+  id: rod_4d7d759ebdb8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rod
+- entry: ಸಲಾಕೆ
+  defs:
+  - *id095
+  id: rod_c5be46ab9833
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rod
+- entry: ರಾಡ್
+  defs:
+  - *id095
+  id: rod_54af8652ec0f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rod
+- entry: ಛಾವಣಿ ಹಾಕುವುದು
+  defs:
+  - &id096
+    entry: Roofing
+    type: Noun
+  id: roofing_c388f126b0a0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Roofing
+- entry: ರೂಫಿಂಗ್
+  defs:
+  - *id096
+  id: roofing_07a767e65bc6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Roofing
+- entry: ಉರುಳೆ
+  defs:
+  - entry: Roller
+    type: Noun
+  id: roller_24de33ab679d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Roller
+- entry: ಮೇಲ್ಛಾವಣಿ ಚಪ್ಪಡಿ
+  defs:
+  - &id097
+    entry: Roof slab
+    type: Noun
+  id: roofslab_6fb598bae070
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Roof slab
+- entry: ಹಾಸುಗಲ್ಲು
+  defs:
+  - *id097
+  id: roofslab_5dbd797d555f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Roof slab
+- entry: ರೂಫ್‌ ಸ್ಲ್ಯಾಬ್
+  defs:
+  - *id097
+  id: roofslab_f52600fcc62d
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Roof slab
+- entry: ಮರಳು
+  defs:
+  - entry: Sand
+    type: Noun
+  id: sand_bc55aa842772
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sand
+- entry: ಮರಳುಗಲ್ಲು
+  defs:
+  - &id098
+    entry: Sand stone
+    type: Noun
+  id: sandstone_4c35fec7b8de
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sand stone
+- entry: ಕೆಮ್ಮರಳು ಶಿಲೆ
+  defs:
+  - *id098
+  id: sandstone_62f5fecfcf4f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sand stone
+- entry: ಅಟ್ಟ
+  defs:
+  - &id099
+    entry: Scaffolding
+    type: Noun
+  id: scaffoldin_624ff0bfa796
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Scaffolding
+- entry: ಅಟ್ಟಣೆ ಸಾರುವೆ ಕಟ್ಟು
+  defs:
+  - *id099
+  id: scaffoldin_8da3498dd5df
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Scaffolding
+- entry: ಮಲನಾಶಕ ಕೊಳ
+  defs:
+  - &id100
+    entry: Septic tank
+    type: Noun
+  id: septictank_e87b383562e4
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Septic tank
+- entry: ಸೆಪ್ಟಿಕ್‌ ಟ್ಯಾಂಕ್
+  defs:
+  - *id100
+  id: septictank_47014acbf43c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Septic tank
+- entry: ಊರೆಕೊಡುವುದು
+  defs:
+  - &id101
+    entry: Shoring
+    type: Noun
+  id: shoring_af60264022c6
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Shoring
+- entry: ಊರೆಗಳು
+  defs:
+  - *id101
+  id: shoring_36d7a116c4c2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Shoring
+- entry: ಕಿಟಕಿಯ ಕದ
+  defs:
+  - &id102
+    entry: Shutters
+    type: Noun
+  id: shutters_84d20ce61315
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Shutters
+- entry: ಕವಾಟ
+  defs:
+  - *id102
+  id: shutters_554cab9a60c3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Shutters
+- entry: ಷಟರುಗಳು
+  defs:
+  - *id102
+  id: shutters_506ac04bea6c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Shutters
+- entry: ಬಚ್ಚಲು ಗುಂಡಿ
+  defs:
+  - &id103
+    entry: Sinks
+    type: Noun
+  id: sinks_d3f0dcda1c0b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sinks
+- entry: ರೊಚ್ಚುಗುಂಡಿ
+  defs:
+  - *id103
+  id: sinks_076ec453031f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sinks
+- entry: ಸಿಂಕುಗಳು
+  defs:
+  - *id103
+  id: sinks_b18a59d97d96
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sinks
+- entry: ಸೈಜು ಕಲ್ಲಿನ ಕೆಲಸ
+  defs:
+  - &id104
+    entry: Size Stone Masonry (S.S.M.)
+    type: Noun
+  id: sizestonem_b33f486d56fc
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Size Stone Masonry (S.S.M.)
+- entry: ಕಟ್ಟುವುದು
+  defs:
+  - *id104
+  id: sizestonem_820318d07c7e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Size Stone Masonry (S.S.M.)
+- entry: ನೀರು ಹೀರಿಕೊಳ್ಳುವ ಗುಂಡಿ
+  defs:
+  - &id105
+    entry: Soak Pit
+    type: Noun
+  id: soakpit_59c56fbcf548
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Soak Pit
+- entry: ನೀರು ಹೀರುವ ಗುಂಡಿ
+  defs:
+  - *id105
+  id: soakpit_a55f601f82a2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Soak Pit
+- entry: ಹರಡುವುದು
+  defs:
+  - &id106
+    entry: Spreading
+    type: Noun
+  id: spreading_7e94137c05c1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Spreading
+- entry: ವಿಸ್ತರಿಸುವುದು
+  defs:
+  - *id106
+  id: spreading_5adba0dea7a9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Spreading
+- entry: ಹಾಸುವುದು
+  defs:
+  - *id106
+  id: spreading_1bc8fde65a19
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Spreading
+- entry: ಮೆಟ್ಟಿಲು ಸಾಲು
+  defs:
+  - &id107
+    entry: Stair case
+    type: Noun
+  id: staircase_44ff77f40a28
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stair case
+- entry: ಸ್ಟೇರ್‌ ಕೇಸ್
+  defs:
+  - *id107
+  id: staircase_1ae6a93039ea
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stair case
+- entry: ಉಕ್ಕು
+  defs:
+  - &id108
+    entry: Steel
+    type: Noun
+  id: steel_283fd42d48a5
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Steel
+- entry: ಸ್ಟೀಲು
+  defs:
+  - *id108
+  id: steel_9a84bdeac460
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Steel
+- entry: ಕಲ್ಲು ಕಟ್ಟಡ
+  defs:
+  - entry: Stone masonry
+    type: Noun
+  id: stonemason_8d6e9417fb15
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stone masonry
+- entry: ನೆಟ್ಟಗೆ ಮಾಡುವುದು
+  defs:
+  - &id109
+    entry: Straightening
+    type: Noun
+  id: straighten_798f57858adb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Straightening
+- entry: ನೇರಗೊಳಿಸುವುದು
+  defs:
+  - *id109
+  id: straighten_582a6847020b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Straightening
+- entry: ಸರಿ ಮಾಡುವುದು
+  defs:
+  - *id109
+  id: straighten_3e7b35ffae98
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Straightening
+- entry: ಮರ
+  defs:
+  - &id110
+    entry: Strutting
+    type: Noun
+  id: strutting_0f1a48bda43f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Strutting
+- entry: ಮೂಲೆ ಮರದಿಂದ ಭದ್ರಪಡಿಸುವುದು ಸ್ಟ್ರಟ್ಟಿಂಗ್
+  defs:
+  - *id110
+  id: strutting_9be2cb24ef5a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Strutting
+- entry: ಕಲ್ಲು
+  defs:
+  - &id111
+    entry: Stone
+    type: Noun
+  id: stone_f681f93bf699
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stone
+- entry: ಶಿಲೆ
+  defs:
+  - *id111
+  id: stone_3e870263d4ac
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stone
+- entry: ಬೆಣಚು ಕಲ್ಲು ಕೊಳವೆ
+  defs:
+  - entry: Stoneware pipe
+    type: Noun
+  id: stonewarep_8966b8bbcf91
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stoneware pipe
+- entry: ರಚನೆ
+  defs:
+  - &id112
+    entry: Structure
+    type: Noun
+  id: structure_be25eaf0b7a2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Structure
+- entry: ಕಟ್ಟಿರುವ ರೀತಿ
+  defs:
+  - *id112
+  id: structure_7adb6d064e60
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Structure
+- entry: ವಿನ್ಯಾಸ
+  defs:
+  - *id112
+  id: structure_03f25193ce41
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Structure
+- entry: ಬಂಧ
+  defs:
+  - *id112
+  id: structure_806d523c6090
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Structure
+- entry: ಸ್ಟ್ರಕ್ಚರ್
+  defs:
+  - *id112
+  id: structure_cb6b61a8d3f0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Structure
+- entry: ನೆಲದೊಳಗೆ ಮಾಡಿದ ತೊಟ್ಟಿ
+  defs:
+  - &id113
+    entry: Sump tank
+    type: Noun
+  id: sumptank_f1de19bf69ce
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sump tank
+- entry: ಸಂಪ್ ಟ್ಯಾಂಕ್
+  defs:
+  - *id113
+  id: sumptank_6815d6aa959c
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sump tank
+- entry: ಮೇಲ್ ಕಟ್ಟಡ
+  defs:
+  - &id114
+    entry: Super structure
+    type: Noun
+  id: superstruc_aaf772b1b2f8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Super structure
+- entry: ಮೇಲೆ ಕಟ್ಟಿದ ಕಟ್ಟಡ
+  defs:
+  - *id114
+  id: superstruc_9e14bc1ded6a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Super structure
+- entry: ಸೂಪರ್ ಸ್ಟ್ರಕ್ಚರ್
+  defs:
+  - *id114
+  id: superstruc_e63776f7bcd1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Super structure
+- entry: ಮುಚ್ಚುವುದು
+  defs:
+  - &id115
+    entry: Tamping
+    type: Noun
+  id: tamping_6cf9d9652fb7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tamping
+- entry: ದಮಸ್ಸು ಮಾಡುವುದು
+  defs:
+  - *id115
+  id: tamping_63c349ad1e13
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tamping
+- entry: ಟ್ಯಾಂಪಿಂಗ್
+  defs:
+  - *id115
+  id: tamping_f0da27243afa
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tamping
+- entry: ತೇಗದ ಮರ
+  defs:
+  - &id116
+    entry: Teak
+    type: Noun
+  id: teak_3807b2191726
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Teak
+- entry: ಟೀಕ್
+  defs:
+  - *id116
+  id: teak_6699c42c29e1
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Teak
+- entry: ಟೀಗಳು
+  defs:
+  - entry: Tees
+    type: Noun
+  id: tees_c96dffe686f9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tees
+- entry: ಕಟ್ಟುವುದು
+  defs:
+  - &id117
+    entry: Tieing
+    type: Noun
+  id: tieing_bf2fa3668c56
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tieing
+- entry: ಬಿಗಿಯುವುದು
+  defs:
+  - *id117
+  id: tieing_fba9bb0a53f0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tieing
+- entry: ಟೈಯಿಂಗ್
+  defs:
+  - *id117
+  id: tieing_158bbc4d3fe8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tieing
+- entry: ಕಂದಕ
+  defs:
+  - &id118
+    entry: Trenches
+    type: Noun
+  id: trenches_5073dbd800a4
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trenches
+- entry: ಹಳ್ಳ
+  defs:
+  - *id118
+  id: trenches_aa38685288c7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trenches
+- entry: ಕಾಲುವೆ
+  defs:
+  - *id118
+  id: trenches_b4a0d0a678ca
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trenches
+- entry: ಗುಂಡಿ
+  defs:
+  - *id118
+  id: trenches_70c44ab4af59
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trenches
+- entry: ಟ್ರೆಂಚುಗಳು
+  defs:
+  - *id118
+  id: trenches_b658957e9942
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trenches
+- entry: ಮೂತ್ರಾಲಯಗಳು
+  defs:
+  - &id119
+    entry: Urinals
+    type: Noun
+  id: urinals_6cf94019c687
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Urinals
+- entry: ಮೂತ್ರಿಗಳು
+  defs:
+  - *id119
+  id: urinals_6fafdcf004d8
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Urinals
+- entry: ಭಾರ ಇಳಿಸುವುದು
+  defs:
+  - &id120
+    entry: Unloading
+    type: Noun
+  id: unloading_43ac44dc0ebb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Unloading
+- entry: ಸರಕು ಖಾಲಿ ಮಾಡುವುದು
+  defs:
+  - *id120
+  id: unloading_d40248f465a9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Unloading
+- entry: ಸರಕು ಇಳಿಸುವುದು
+  defs:
+  - *id120
+  id: unloading_2406aa25fd85
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Unloading
+- entry: ಮೆರುಗೆಣ್ಣೆ
+  defs:
+  - &id121
+    entry: Varnish
+    type: Noun
+  id: varnish_bde62e15d80f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Varnish
+- entry: ವಾರ್ನಿಷ್
+  defs:
+  - *id121
+  id: varnish_960d90e113ff
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Varnish
+- entry: ಗಾಳಿ ಕಂಡಿಗಳು
+  defs:
+  - &id122
+    entry: Ventilators
+    type: Noun
+  id: ventilator_36d622f36a65
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ventilators
+- entry: ವಾತಾಯನಗಳು
+  defs:
+  - *id122
+  id: ventilator_659758dcdf0f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ventilators
+- entry: ಅದುರುವುದು
+  defs:
+  - &id123
+    entry: Vibrating
+    type: Noun
+  id: vibrating_4521cf2031cd
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vibrating
+- entry: ಕಂಪನ ಗೊಳ್ಳುವುದು
+  defs:
+  - *id123
+  id: vibrating_5505e1488232
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vibrating
+- entry: ವೈಬ್ರೇಟಿಂಗ್
+  defs:
+  - *id123
+  id: vibrating_d843db78a695
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vibrating
+- entry: ಅಂದೋಲಕ
+  defs:
+  - &id124
+    entry: Vibrator
+    type: Noun
+  id: vibrator_41ce4d4df58f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vibrator
+- entry: ಕಂಪಕ
+  defs:
+  - *id124
+  id: vibrator_21be009c0733
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vibrator
+- entry: ವೈಬ್ರೇಟರ್
+  defs:
+  - *id124
+  id: vibrator_9e9833951908
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vibrator
+- entry: ಗೋಡೆಯ ಅಂತಸ್ತು ಹಲಗೆ
+  defs:
+  - &id125
+    entry: Wall shelves
+    type: Noun
+  id: wallshelve_ac05a1d68fab
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wall shelves
+- entry: ಬಡು
+  defs:
+  - *id125
+  id: wallshelve_2d787926106b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wall shelves
+- entry: ಗೋಡೆಯ ಮರದ ಹಲಗೆಗಳು
+  defs:
+  - *id125
+  id: wallshelve_7bdc054dc7fb
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wall shelves
+- entry: ಗೋಡೆ
+  defs:
+  - &id126
+    entry: Wall
+    type: Noun
+  id: wall_e64cf73b9d79
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wall
+- entry: ಭಿತ್ತಿ
+  defs:
+  - *id126
+  id: wall_a038631bfd9f
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wall
+- entry: ಪ್ರಾಕಾರ
+  defs:
+  - *id126
+  id: wall_d4b9577f55f9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wall
+- entry: ಕೈತೊಳೆಯುವ ಬೋಗುಣಿ
+  defs:
+  - &id127
+    entry: Wash basin
+    type: Noun
+  id: washbasin_f0a979357ded
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wash basin
+- entry: ತೊಟ್ಟಿ
+  defs:
+  - *id127
+  id: washbasin_176b0cd49123
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wash basin
+- entry: ನೀರಿನ ಎಲ್ಲೆ
+  defs:
+  - &id128
+    entry: Water bound
+    type: Noun
+  id: waterbound_d6dd775fafa3
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Water bound
+- entry: ಜಲಬಂಧಿತ
+  defs:
+  - *id128
+  id: waterbound_e922b0332136
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Water bound
+- entry: ನೀರುಹಾಕುವುದು
+  defs:
+  - &id129
+    entry: Watering
+    type: Noun
+  id: watering_5ea3d55f9b03
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Watering
+- entry: ವಾಟರಿಂಗ್
+  defs:
+  - *id129
+  id: watering_614d56ebf197
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Watering
+- entry: ಹರಿನೀರು ಕಕ್ಕಸು
+  defs:
+  - entry: Water closet
+    type: Noun
+  id: waterclose_ec8f82d45c2b
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Water closet
+- entry: ಬಣೆಹೊಡೆಯುವುದು
+  defs:
+  - &id130
+    entry: Wedging
+    type: Noun
+  id: wedging_029c73b837d7
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wedging
+- entry: ತುರುಕುವುದು
+  defs:
+  - *id130
+  id: wedging_8c6a06167da9
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wedging
+- entry: ವೆಡ್ಜಿಂಗ್
+  defs:
+  - *id130
+  id: wedging_9ea68636c45e
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wedging
+- entry: ಬೆಸೆಯುವುದು
+  defs:
+  - &id131
+    entry: Welding
+    type: Noun
+  id: welding_a734ec72ad9a
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Welding
+- entry: ವೆಲ್ಡ್‌ ಮಾಡುವುದು
+  defs:
+  - *id131
+  id: welding_c7772f96f1fd
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Welding
+- entry: ಕಿಟಕಿ
+  defs:
+  - &id132
+    entry: Window
+    type: Noun
+  id: window_6708119959a2
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Window
+- entry: ಕಂಡಿ
+  defs:
+  - *id132
+  id: window_49d40b59d564
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Window
+- entry: ಮರ
+  defs:
+  - entry: Wood
+    type: Noun
+  id: wood_c85275a35dc0
+  source: ಕಮಗಾರ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Wood

@@ -1,0 +1,132 @@
+- entry: ದುಷ್ಪ್ರೇರಿಸು
+  defs:
+  - &id001
+    entry: Abet
+    type: Noun
+  id: abet_442bba2cb255
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abet
+- entry: ಕೆಟ್ಟ ಕೆಲಸಕ್ಕೆ ನೆರವಾಗು
+  defs:
+  - *id001
+  id: abet_96fa0ef65ae4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abet
+- entry: ರದ್ದುಮಾಡು
+  defs:
+  - &id002
+    entry: Abrogate
+    type: Noun
+  id: abrogate_4905bbf215a8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abrogate
+- entry: ಕಿತ್ತುಹಾಕು
+  defs:
+  - *id002
+  id: abrogate_9ee0a5770e5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abrogate
+- entry: ಗೋಷ್ವಾರೆ
+  defs:
+  - &id003
+    entry: Abstract
+    type: Noun
+  id: abstract_7e06726ae99e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abstract
+- entry: ಸಾರಾಂಶ
+  defs:
+  - *id003
+  id: abstract_632041686cca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abstract
+- entry: ಭಾವವಾಚಕ
+  defs:
+  - *id003
+  id: abstract_b1ec92d687f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Abstract
+- entry: ಒಪ್ಪಿಗೆ
+  defs:
+  - &id004
+    entry: Acceptance
+    type: Noun
+  id: acceptance_7bc5569ded9c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Acceptance
+- entry: ಅಂಗೀಕಾರ
+  defs:
+  - *id004
+  id: acceptance_76e19a56a2f6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Acceptance
+- entry: ಅಪಘಾತ
+  defs:
+  - &id005
+    entry: Accident
+    type: Noun
+  id: accident_7f965f0d4998
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accident
+- entry: ಆಕಸ್ಮಿಕ
+  defs:
+  - *id005
+  id: accident_b9e21ebe6d38
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accident
+- entry: ಲೆಕ್ಕ
+  defs:
+  - &id006
+    entry: Account
+    type: Noun
+  id: account_6477e3b1d160
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Account
+- entry: ಖಾತೆ
+  defs:
+  - *id006
+  id: account_c9b1cf7b2f67
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Account
+- entry: ಕಾರಣ ಕೊಡು
+  defs:
+  - entry: Account for
+    type: Noun
+  id: accountfor_86c16ceafaaf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Account for
+- entry: ಲೆಕ್ಕಪತ್ರ
+  defs:
+  - entry: Accounts
+    type: Noun
+  id: accounts_81922ea0fe81
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accounts
+- entry: ಕೂಡಿಬರು
+  defs:
+  - &id007
+    entry: Accrue
+    type: Noun
+  id: accrue_c5036018c3b3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accrue
+- entry: ಪ್ರಾಪ್ತವಾಗು
+  defs:
+  - *id007
+  id: accrue_16000b013e2f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accrue
+- entry: ಒಟ್ಟುಗೂಡಿದ
+  defs:
+  - &id008
+    entry: Accumulated
+    type: Noun
+  id: accumulate_ed2a1999b5f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accumulated
+- entry: ಸಂಚಿತ
+  defs:
+  - *id008
+  id: accumulate_71a423636888
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ನದಣ_ಮತ್ತು_ಮದರಕಗಳ_ಇಲಾಖೆ
+  head: Accumulated

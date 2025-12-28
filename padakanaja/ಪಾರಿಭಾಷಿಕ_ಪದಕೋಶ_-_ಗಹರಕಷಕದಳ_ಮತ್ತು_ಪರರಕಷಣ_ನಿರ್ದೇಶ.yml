@@ -1,0 +1,6982 @@
+- entry: ಹೊಟ್ಟೆ
+  defs:
+  - &id001
+    entry: Abdomen
+    type: Noun
+  id: abdomen_4607dc081cd8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Abdomen
+- entry: ಉದರ
+  defs:
+  - *id001
+  id: abdomen_160c5b304a25
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Abdomen
+- entry: ಸಂಕ್ಷಿಪ್ತ
+  defs:
+  - &id002
+    entry: Abridged
+    type: Noun
+  id: abridged_51999dac7df8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Abridged
+- entry: ಸಂಕ್ಷೇಪಗೊಳಿಸಿರುವ
+  defs:
+  - *id002
+  id: abridged_dc2359b5990a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Abridged
+- entry: 1. ಸಂಪೂರ್ಣ
+  defs:
+  - &id003
+    entry: Absolute
+    type: Noun
+  id: absolute_e78c85ce1797
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Absolute
+- entry: ಪರಮ 2. ನಿಚ್ಚಳ
+  defs:
+  - *id003
+  id: absolute_5bb87825e9dd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Absolute
+- entry: ಹೀರುವ
+  defs:
+  - &id004
+    entry: Absorbent
+    type: Noun
+  id: absorbent_5ed020a1edbd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Absorbent
+- entry: ಹೀರಿಕೊಳ್ಳುವ
+  defs:
+  - *id004
+  id: absorbent_f5cb972781b8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Absorbent
+- entry: ಹೀರುವ ಹತ್ತಿ
+  defs:
+  - &id005
+    entry: Absorbent cotton
+    type: Noun
+  id: absorbentc_5200ad76f0e2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Absorbent cotton
+- entry: ಗಾಯಕ್ಕೆ ಹಾಕುವ ಶುದ್ಧಿಗೊಳಿಸಿದ ಹತ್ತಿ
+  defs:
+  - *id005
+  id: absorbentc_58fc99585ca1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Absorbent cotton
+- entry: ಊರೆ
+  defs:
+  - &id006
+    entry: Abutment
+    type: Noun
+  id: abutment_ee921bec3e43
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Abutment
+- entry: ಆಧಾರ
+  defs:
+  - *id006
+  id: abutment_6ff482f58192
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Abutment
+- entry: 1. ಪ್ರವೇಶಕ್ಕೆ
+  defs:
+  - &id007
+    entry: Access
+    type: Noun
+  id: access_f2e5c6bc817e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Access
+- entry: ತಲುಪುವುದಕ್ಕೆ ದಾರಿ
+  defs:
+  - *id007
+  id: access_1c9db29dd2f6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Access
+- entry: ಮಾರ್ಗ 2. ಪ್ರವೇಶಾಧಿಕಾರ
+  defs:
+  - *id007
+  id: access_ba5c43565712
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Access
+- entry: ಪರಿಕರಗಳು
+  defs:
+  - &id008
+    entry: Accessories
+    type: Noun
+  id: accessorie_7db9e58645ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Accessories
+- entry: ಉಪಸಾಮಗ್ರಿ
+  defs:
+  - *id008
+  id: accessorie_6907f8629dad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Accessories
+- entry: 1. ಅಪಘಾತ 2. ಆಕಸ್ಮಿಕ
+  defs:
+  - entry: Accident
+    type: Noun
+  id: accident_438733ccfd33
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Accident
+- entry: ವಸತಿ
+  defs:
+  - &id009
+    entry: Accommodation
+    type: Noun
+  id: accommodat_5c950e1a8855
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Accommodation
+- entry: ಸ್ಥಳಾವಕಾಶ
+  defs:
+  - *id009
+  id: accommodat_d1b37c938011
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Accommodation
+- entry: ಉಡಿಗೆ ತೊಡಿಗೆ
+  defs:
+  - entry: Accoutrements
+    type: Noun
+  id: accoutreme_40f179ec3886
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Accoutrements
+- entry: ಅಸಿಟಲೀನ್‌ ಅನಿಲದ ಸಹಾಯದಿಂದ ಕತ್ತರಿಸುವ ಸಾಧನ ಸಾಮಗ್ರಿ
+  defs:
+  - entry: Acetylene cutting outfit
+    type: Noun
+  id: acetylenec_291f72845c74
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Acetylene cutting outfit
+- entry: ಆಮ್ಲ
+  defs:
+  - entry: Acid
+    type: Noun
+  id: acid_a125d57ba62d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Acid
+- entry: ಪರಿಚಯ ಮಾಡಿಕೊ
+  defs:
+  - &id010
+    entry: Acquaint
+    type: Noun
+  id: acquaint_3620766a19ed
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Acquaint
+- entry: ತಿಳಿದುಕೊಂಡಿರು
+  defs:
+  - *id010
+  id: acquaint_cf3e2ea4d0fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Acquaint
+- entry: 1. ಕೆಲಸ
+  defs:
+  - &id011
+    entry: Action
+    type: Noun
+  id: action_c33ec8d6fde3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Action
+- entry: ಕಾರ್ಯ 2. ಕ್ರಮ
+  defs:
+  - *id011
+  id: action_4b716d0d5f4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Action
+- entry: ಕ್ರಮ ಕೈಕೊಳ್ಳುವ ಸೂಚನೆ ಯಾ ಎಚ್ಚರಿಕೆ
+  defs:
+  - entry: Action warning
+    type: Noun
+  id: actionwarn_bc5c957baff7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Action warning
+- entry: ಚಟುವಟಿಕೆಗಳು
+  defs:
+  - &id012
+    entry: Activities
+    type: Noun
+  id: activities_ac52bda16651
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Activities
+- entry: ಕಾರ್ಯ ಕಲಾಪಗಳು
+  defs:
+  - *id012
+  id: activities_cd9213611c67
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Activities
+- entry: ಚಟುವಟಿಕೆ
+  defs:
+  - &id013
+    entry: Activity
+    type: Noun
+  id: activity_a9648bc5b8ed
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Activity
+- entry: ಚುರುಕು
+  defs:
+  - *id013
+  id: activity_8df00069091d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Activity
+- entry: ಪಕ್ಕದ
+  defs:
+  - &id014
+    entry: Adjoining
+    type: Noun
+  id: adjoining_bf07dc9ec3e9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Adjoining
+- entry: ನೆರೆಯ
+  defs:
+  - *id014
+  id: adjoining_5fe071521f8f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Adjoining
+- entry: ಲಗತ್ತಾಗಿರುವ
+  defs:
+  - *id014
+  id: adjoining_5fba5e44d65a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Adjoining
+- entry: ಔಷಧ
+  defs:
+  - &id015
+    entry: Administer
+    type: Noun
+  id: administer_9f6ceba2aa5f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administer
+- entry: ಮುಲಾಮು
+  defs:
+  - *id015
+  id: administer_aa80dbee2602
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administer
+- entry: ಮೊ.ವನ್ನು ಕೊಡು
+  defs:
+  - *id015
+  id: administer_683e2ccd84ad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administer
+- entry: ಹಚ್ಚು
+  defs:
+  - *id015
+  id: administer_0df335e2025f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administer
+- entry: ಆಡಳಿತ
+  defs:
+  - entry: Administration
+    type: Noun
+  id: administra_637a43250f6b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administration
+- entry: ಆಡಳಿತಗಾರ
+  defs:
+  - &id016
+    entry: Administrator
+    type: Noun
+  id: administra_d23c66690cf9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administrator
+- entry: ಆಡಳಿತಾಧಿಕಾರಿ
+  defs:
+  - *id016
+  id: administra_0c0b67df9d83
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Administrator
+- entry: 1. ಕಲಬೆರಕೆ ಮಾಡು 2. ಕಲಬೆರಕೆಯ
+  defs:
+  - entry: Adulterate
+    type: Noun
+  id: adulterate_ffbd3bf0530e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Adulterate
+- entry: ಕಲಬೆರಕೆ
+  defs:
+  - entry: Adulteration
+    type: Noun
+  id: adulterati_9d22c6a3624d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Adulteration
+- entry: 1. ಮುಂದೆ ಸಾಗು 2. ಮುಂದೆ ಸಾಗುವುದು 3. ಮುಂಚಿನ
+  defs:
+  - entry: Advance
+    type: Noun
+  id: advance_a66b8ae63d04
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Advance
+- entry: ಸಾಹಸ
+  defs:
+  - entry: Adventure
+    type: Noun
+  id: adventure_1f7e8403be15
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Adventure
+- entry: ಸಲಹಾಸಮಿತಿ
+  defs:
+  - entry: Advisory committee
+    type: Noun
+  id: advisoryco_2c0102c9b2c1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Advisory committee
+- entry: ವಿಮಾನಯಾನ
+  defs:
+  - entry: Aerial navigation
+    type: Noun
+  id: aerialnavi_8cd74108883a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aerial navigation
+- entry: ವಿಮಾನ ನಿಲ್ದಾಣ
+  defs:
+  - entry: Aerodrome
+    type: Noun
+  id: aerodrome_63880b22563f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aerodrome
+- entry: ಪ್ರಕರಣ
+  defs:
+  - &id017
+    entry: Affair
+    type: Noun
+  id: affair_998d1fc463bf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Affair
+- entry: ವ್ಯವಹಾರ
+  defs:
+  - *id017
+  id: affair_72ebb54ccb35
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Affair
+- entry: ದೃಢೀಕರಣ
+  defs:
+  - entry: Affirmation
+    type: Noun
+  id: affirmatio_9f3b38040153
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Affirmation
+- entry: 1. ಒದಗಿಸು 2. ಸಮರ್ಥನಾಗಿರು
+  defs:
+  - entry: Afford
+    type: Noun
+  id: afford_1ceba53201ae
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Afford
+- entry: ಬಾಧಿತನಾದ
+  defs:
+  - &id018
+    entry: Aggrieved
+    type: Noun
+  id: aggrieved_6cf8c42feeba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aggrieved
+- entry: ತೊಂದರೆಗೀಡಾದ
+  defs:
+  - *id018
+  id: aggrieved_c733bc6ab896
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aggrieved
+- entry: 1. ನೆರವು ಕೊಡು
+  defs:
+  - &id019
+    entry: Aid
+    type: Noun
+  id: aid_72d73ba152b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aid
+- entry: ಸಹಾಯ ಮಾಡು 2. ನೆರವು
+  defs:
+  - *id019
+  id: aid_a14fda262183
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aid
+- entry: ಸಹಾಯ
+  defs:
+  - *id019
+  id: aid_9aebdc9ccf86
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aid
+- entry: ಸಹಾಯ ಮತ್ತು ಸಲಹೆ
+  defs:
+  - entry: Aid and advice
+    type: Noun
+  id: aidandadvi_2b3538d7ff89
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aid and advice
+- entry: ಗಾಳಿಯಲ್ಲಿ ಸ್ಫೋಟವಾಗುವುದು
+  defs:
+  - entry: Air burst
+    type: Noun
+  id: airburst_80c83fc6e21f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Air burst
+- entry: ವಾಯುಕೋಶ
+  defs:
+  - &id020
+    entry: Aircell
+    type: Noun
+  id: aircell_6fad3e45a21f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aircell
+- entry: ಗಾಳಿಯ ಗೂಡು
+  defs:
+  - *id020
+  id: aircell_08cab8de8bff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aircell
+- entry: ವಿಮಾನ
+  defs:
+  - entry: Aircraft
+    type: Noun
+  id: aircraft_dae9f2b3118c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aircraft
+- entry: ವಾಯು ಮಾರ್ಗ
+  defs:
+  - entry: Air passage
+    type: Noun
+  id: airpassage_57b07586af8e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Air passage
+- entry: ವಿಮಾನ ದಾಳಿ
+  defs:
+  - entry: Air raid
+    type: Noun
+  id: airraid_45d210dd71d6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Air raid
+- entry: ವಾಯು ಪ್ರದೇಶ
+  defs:
+  - entry: Airspace
+    type: Noun
+  id: airspace_5b4e92920480
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Airspace
+- entry: 1. ಅಪಾಯ ಸೂಚಕ ದ್ವನಿ 2. ಅಪಾಯದ ಎಚ್ಚರಿಕೆ
+  defs:
+  - entry: Alarm
+    type: Noun
+  id: alarm_2360962a7e61
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alarm
+- entry: ಆಲ್ಕೋಹಾಲ್
+  defs:
+  - &id021
+    entry: Alcohol
+    type: Noun
+  id: alcohol_b38dbfe13bf3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alcohol
+- entry: ಮದ್ಯಸಾರ
+  defs:
+  - *id021
+  id: alcohol_b1df55d37b32
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alcohol
+- entry: ಮದ್ಯಸಾರದ ಉತ್ತೇಜಕ
+  defs:
+  - entry: Alcoholic stimulant
+    type: Noun
+  id: alcoholics_4c2e1f57e30c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alcoholic stimulant
+- entry: ಇಳಿ
+  defs:
+  - entry: Alight
+    type: Noun
+  id: alight_d7b46d6a3218
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alight
+- entry: ಅನ್ನನಾಳ
+  defs:
+  - entry: Alimentary canal
+    type: Noun
+  id: alimentary_44ff141c4958
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alimentary canal
+- entry: ಕ್ಷಾರ
+  defs:
+  - entry: Alkali
+    type: Noun
+  id: alkali_5ac5ece2b68d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alkali
+- entry: ಅಖಿಲ ಭಾರತೀಯ ಸೇವೆ ಬದಲಾಯಿಸು
+  defs:
+  - &id022
+    entry: All India Service alter
+    type: Noun
+  id: allindiase_e4aabad6304f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: All India Service alter
+- entry: ಪರಿವರ್ತಿಸು
+  defs:
+  - *id022
+  id: allindiase_7ac5bac1d974
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: All India Service alter
+- entry: ಮಾರ್ಪಡಿಸು
+  defs:
+  - *id022
+  id: allindiase_4afb92813356
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: All India Service alter
+- entry: ಬದಲಾಯಿಸು
+  defs:
+  - &id023
+    entry: Alter
+    type: Noun
+  id: alter_051768803959
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alter
+- entry: ಪರಿವರ್ತಿಸು
+  defs:
+  - *id023
+  id: alter_ca932ee99f27
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alter
+- entry: ಮಾರ್ಪಡಿಸು
+  defs:
+  - *id023
+  id: alter_f3fc920117d2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Alter
+- entry: ಮದ್ದುಗುಂಡು
+  defs:
+  - entry: Ammunition
+    type: Noun
+  id: ammunition_da23e39af4d3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ammunition
+- entry: 1. ಶರೀರ ರಚನಾಶಾಸ್ತ್ರ 2. ಶರೀರ ರಚನೆ
+  defs:
+  - entry: Anatomy
+    type: Noun
+  id: anatomy_719fd0b11070
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Anatomy
+- entry: 1. ಲಂಗರು ಹಾಕು 2. ಲಂಗರು
+  defs:
+  - entry: Anchor
+    type: Noun
+  id: anchor_ce07b4929683
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Anchor
+- entry: ಲಂಗರು ಹಾಕುವುದು
+  defs:
+  - entry: Anchorage
+    type: Noun
+  id: anchorage_ba0e690c8500
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Anchorage
+- entry: ಕೋನ
+  defs:
+  - entry: Angle
+    type: Noun
+  id: angle_ad269331dec8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Angle
+- entry: ಕೋನಾಕಾರದ ಗಡಸು ಪಟ್ಟಿ
+  defs:
+  - &id024
+    entry: Angular splint
+    type: Noun
+  id: angularspl_8baf18b3cad6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Angular splint
+- entry: ದಬ್ಬೆ
+  defs:
+  - *id024
+  id: angularspl_72d8a8b2ef00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Angular splint
+- entry: ಪ್ರಾಣಿ
+  defs:
+  - &id025
+    entry: Animal
+    type: Noun
+  id: animal_c3f9a383bc3a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Animal
+- entry: ಮೃಗ
+  defs:
+  - *id025
+  id: animal_d11b3c6f872e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Animal
+- entry: ಚೇತನಗೊಳಿಸುವಿಕೆ
+  defs:
+  - entry: Animation
+    type: Noun
+  id: animation_c6b5426a4b41
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Animation
+- entry: ಕಾಲಿನ ಹರಡು
+  defs:
+  - entry: Ankle
+    type: Noun
+  id: ankle_2e01b434c62f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ankle
+- entry: ಕಾಲು ಹರಡಿನ ಮೂಳೆ
+  defs:
+  - entry: Ankle bone
+    type: Noun
+  id: anklebone_f03e6aa7889f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ankle bone
+- entry: ಕಾಲು ಹರಡಿನ ಕೀಲು
+  defs:
+  - entry: Ankle joint
+    type: Noun
+  id: anklejoint_5918c7126443
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ankle joint
+- entry: ಕಾನೂನು ಪದ್ದತಿ
+  defs:
+  - &id026
+    entry: Annulment
+    type: Noun
+  id: annulment_9703fcdaa3e4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Annulment
+- entry: ವಿವಾಹ ಮೊ.ಗಳ ರದ್ಧತಿ
+  defs:
+  - *id026
+  id: annulment_386f22dd4794
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Annulment
+- entry: ಮೊಣಕಾಲಿನ ಮುಂಭಾಗದ ಅಪಧಮನಿ
+  defs:
+  - entry: Anterior tibial artery
+    type: Noun
+  id: anteriorti_532a01f487eb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Anterior tibial artery
+- entry: ಸೈನಿಕರ ವಿರುದ್ಧ ಬಳಸುವ ಬಾಂಬುಗಳು
+  defs:
+  - entry: Anti-personnel bombs
+    type: Noun
+  id: antiperson_cbf785885a33
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Anti-personnel bombs
+- entry: ಮಹಾಪಧಮನಿ
+  defs:
+  - &id027
+    entry: Aorta
+    type: Noun
+  id: aorta_0c174f1ce8ba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aorta
+- entry: ಪ್ರಧಾನ ಶುದ್ಧ ರಕ್ತನಾಳ
+  defs:
+  - *id027
+  id: aorta_5986fdee1524
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Aorta
+- entry: ಕ್ಷಿಪ್ರಸನ್ನಿ
+  defs:
+  - entry: Apuplexy
+    type: Noun
+  id: apuplexy_afe628630751
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Apuplexy
+- entry: ಉಪಕರಣ ಸಮೂಹ
+  defs:
+  - entry: Apparatus
+    type: Noun
+  id: apparatus_f340e44c0de3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Apparatus
+- entry: 1. ಅಪೀಲು ಮಾಡು
+  defs:
+  - &id028
+    entry: Appeal
+    type: Noun
+  id: appeal_dae025e6ddc7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appeal
+- entry: ಮೇಲಿನ ನ್ಯಾಯಸ್ಥಾನಕ್ಕೆ ಮನವಿ ಮಾಡು
+  defs:
+  - *id028
+  id: appeal_01cdcdf52b41
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appeal
+- entry: ಮೇಲರ್ಜಿ ಮಾಡು 2. ಅಪೀಲು
+  defs:
+  - *id028
+  id: appeal_8509c26660d1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appeal
+- entry: ಮೇಲ್ಮನವಿ
+  defs:
+  - *id028
+  id: appeal_d954bb543dad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appeal
+- entry: ಮೇಲರ್ಜಿ
+  defs:
+  - *id028
+  id: appeal_0180ba577316
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appeal
+- entry: ಸಲಕರಣೆಗಳು
+  defs:
+  - &id029
+    entry: Appliances
+    type: Noun
+  id: appliances_6c6ba4e0d69d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appliances
+- entry: ಸಾಮಗ್ರಿಗಳು
+  defs:
+  - *id029
+  id: appliances_a1f5834373f7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Appliances
+- entry: 1. ದಸ್ತಗಿರಿ ಮಾಡು
+  defs:
+  - &id030
+    entry: Apprehend
+    type: Noun
+  id: apprehend_c1822c2aa338
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Apprehend
+- entry: ಬಂಧಿಸು 2. ಶಂಕಿಸು
+  defs:
+  - *id030
+  id: apprehend_596619355a9e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Apprehend
+- entry: ಏಪ್ರನ್
+  defs:
+  - &id031
+    entry: Apron
+    type: Noun
+  id: apron_9bf0524d6079
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Apron
+- entry: ಕೆಲಸ ಮಾಡುವಾಗ ಬಟ್ಟೆ ಕೊಳೆಯಾಗದಿರಲು ಯಾ ಅಪಾಯ ಸಂಭವಿಸದಿರಲು ದೇಹದ ಮುಂದುಗಡೆ ಕಟ್ಟಿಕೊಳ್ಳುವ ಉಡಿಗೆ
+  defs:
+  - *id031
+  id: apron_7c62af4b79d2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Apron
+- entry: ಕಮಾನು
+  defs:
+  - &id032
+    entry: Arch
+    type: Noun
+  id: arch_71f9ec914f97
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arch
+- entry: ಬಿಲ್ಲು
+  defs:
+  - *id032
+  id: arch_c023e346b2af
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arch
+- entry: ಪ್ರದೇಶ
+  defs:
+  - &id033
+    entry: Area
+    type: Noun
+  id: area_e7f346944e41
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Area
+- entry: ಕ್ಷೇತ್ರ
+  defs:
+  - *id033
+  id: area_78e53f5b37e4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Area
+- entry: ತೋಳು
+  defs:
+  - &id034
+    entry: Arm
+    type: Noun
+  id: arm_d030e43fcd84
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arm
+- entry: ರಟ್ಟೆ
+  defs:
+  - *id034
+  id: arm_5f2606e555db
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arm
+- entry: ತೋಳೆಲುಬು
+  defs:
+  - entry: Arm bone
+    type: Noun
+  id: armbone_c9c7fdbf3cd3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arm bone
+- entry: ತೋಳುಗಳ ಸಹಾಯದಿಂದ ಒಯ್ಯುವುದು
+  defs:
+  - entry: Arm carry
+    type: Noun
+  id: armcarry_2966ec4a7329
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arm carry
+- entry: ಕವಚಯುಕ್ತ ಹೀರ್ಕೊಳವೆ
+  defs:
+  - entry: Armoured suction hose
+    type: Noun
+  id: armouredsu_37c85805ac8f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Armoured suction hose
+- entry: ಆಯುಧಗಳು
+  defs:
+  - &id035
+    entry: Arms
+    type: Noun
+  id: arms_c26806dc511d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arms
+- entry: ಶಸ್ತ್ರಾಸ್ತ್ರ
+  defs:
+  - *id035
+  id: arms_ab1870f14f17
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arms
+- entry: ಇಲಿ ಪಾಷಾಣ
+  defs:
+  - &id036
+    entry: Arsenic
+    type: Noun
+  id: arsenic_da69ad06f2d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arsenic
+- entry: ಶಂಖ ಪಾಷಾಣ
+  defs:
+  - *id036
+  id: arsenic_f7188e6d89b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arsenic
+- entry: ಅಪಧಮನಿ ರಕ್ತ
+  defs:
+  - &id037
+    entry: Arterial blood
+    type: Noun
+  id: arterialbl_8590fb636991
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arterial blood
+- entry: ಶುದ್ಧರಕ್ತ
+  defs:
+  - *id037
+  id: arterialbl_c79488063233
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Arterial blood
+- entry: ಅಪಧಮನಿ
+  defs:
+  - entry: Artery
+    type: Noun
+  id: artery_908d36cda158
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Artery
+- entry: 1. ಸರಕು
+  defs:
+  - &id038
+    entry: Article
+    type: Noun
+  id: article_52ae6e2a798b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Article
+- entry: ವಸ್ತು 2. ಲೇಖನ 3. ಅನುಚ್ಛೇದ
+  defs:
+  - *id038
+  id: article_b6b8258ea570
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Article
+- entry: ಕೃತಕ ಉಸಿರಾಟ
+  defs:
+  - entry: Artificial respiration
+    type: Noun
+  id: artificial_dd6d74663ca9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Artificial respiration
+- entry: ಫಿರಂಗಿ ಸಿಡಿಗುಂಡು
+  defs:
+  - entry: Artillery shell
+    type: Noun
+  id: artillerys_4f9769863a90
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Artillery shell
+- entry: ಕಲ್ನಾರು
+  defs:
+  - entry: Asbestos
+    type: Noun
+  id: asbestos_4e62a9897c11
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Asbestos
+- entry: ಉಸಿರು ಕಟ್ಟುವಿಕೆ
+  defs:
+  - entry: Asphyxia
+    type: Noun
+  id: asphyxia_38d5274ed1e6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Asphyxia
+- entry: 1. ಕೆಲಸಕ್ಕಾಗಿ ನೇಮಿಸು
+  defs:
+  - &id039
+    entry: Assign
+    type: Noun
+  id: assign_3cc211f16abe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Assign
+- entry: ಗೊತ್ತುಮಾಡು 2. ಕೆಲಸವನ್ನು ವಹಿಸು
+  defs:
+  - *id039
+  id: assign_4338b875ee5b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Assign
+- entry: ನೀಡು 3. ಕಾರಣವನ್ನು ಕೊಡು
+  defs:
+  - *id039
+  id: assign_af5ca40f1071
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Assign
+- entry: ಸಹಾಯಕ
+  defs:
+  - entry: Assistant
+    type: Noun
+  id: assistant_8526d857ff18
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Assistant
+- entry: 1. ಒಡನಾಟ
+  defs:
+  - &id040
+    entry: Association
+    type: Noun
+  id: associatio_539063ec6a2b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Association
+- entry: ಸಹವಾಸ 2. ಸಂಘ
+  defs:
+  - *id040
+  id: associatio_cb436d7e7a1c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Association
+- entry: ಸಂಸ್ಥೆ
+  defs:
+  - *id040
+  id: associatio_a6cf809067d2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Association
+- entry: ತರಹೆವಾರು
+  defs:
+  - &id041
+    entry: Assorted
+    type: Noun
+  id: assorted_1f741bdd98df
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Assorted
+- entry: ವಿವಿಧ ರೀತಿಯ
+  defs:
+  - *id041
+  id: assorted_3100fd2893ad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Assorted
+- entry: ಅಗ್ರ ಕಶೇರು
+  defs:
+  - &id042
+    entry: Atlas
+    type: Noun
+  id: atlas_53a95d2eb196
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Atlas
+- entry: ತಲೆಚಿಪ್ಪಿಗೆ ಆಧಾರವಾಗಿರುವ ಎಲುಬು
+  defs:
+  - *id042
+  id: atlas_0a84405fb373
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Atlas
+- entry: 1. ಮೇಲೆ ಬೀಳು
+  defs:
+  - &id043
+    entry: Attack
+    type: Noun
+  id: attack_f3562008c1ec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attack
+- entry: ಆಕ್ರಮಣ ಮಾಡು 2. ಮೇಲೆ ಬೀಳುವಿಕೆ
+  defs:
+  - *id043
+  id: attack_31d5d5fdcd81
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attack
+- entry: ಆಕ್ರಮಣ
+  defs:
+  - *id043
+  id: attack_25683631b6bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attack
+- entry: ದಾಳಿ
+  defs:
+  - *id043
+  id: attack_7d36f78cf008
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attack
+- entry: ಹಲ್ಲೆ
+  defs:
+  - *id043
+  id: attack_f7b108f5d2b4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attack
+- entry: ಉಪಚಾರಕ
+  defs:
+  - &id044
+    entry: Attendant
+    type: Noun
+  id: attendant_040a333553db
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attendant
+- entry: ಪರಿಚಾರಕ
+  defs:
+  - *id044
+  id: attendant_1a8ad0d15c9d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attendant
+- entry: ಸೇವಕ
+  defs:
+  - *id044
+  id: attendant_8730a1c31e1f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attendant
+- entry: 1. ಗಮನ
+  defs:
+  - &id045
+    entry: Attention
+    type: Noun
+  id: attention_183b4e42b566
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attention
+- entry: ಲಕ್ಷ್ಯ 2. ಎಚ್ಚರಿಕೆ
+  defs:
+  - *id045
+  id: attention_28cf57edf70e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attention
+- entry: ಜಾಗರೂಕತೆ 3. ಕವಾಯಿತು ಸಾವಧಾನ
+  defs:
+  - *id045
+  id: attention_2a2c727664e3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attention
+- entry: ಸಿದ್ಧತೆಯ ನೆಟ್ಟನೆ ನಿಲುವು
+  defs:
+  - *id045
+  id: attention_6703147f1d03
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Attention
+- entry: 1. ಕಿವಿಹಾಲೆ 2. ಹೃತೃರ್ಣ
+  defs:
+  - &id046
+    entry: Auricle
+    type: Noun
+  id: auricle_81b12c81706f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Auricle
+- entry: ಹೃದಯದ ಮೇಲು ಕುಹರಗಳಲ್ಲಿ ಒಂದು
+  defs:
+  - *id046
+  id: auricle_9754fe905af6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Auricle
+- entry: ಅಧಿಕೃತ
+  defs:
+  - entry: Authorised
+    type: Noun
+  id: authorised_fa036fd9f342
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Authorised
+- entry: 1. ಅಧಿಕಾರ 2. ಅಧಿಕಾರಿ 3. ಪ್ರಾಧಿಕಾರ
+  defs:
+  - entry: Authority
+    type: Noun
+  id: authority_72f3bdad71ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Authority
+- entry: ಸ್ವಾಯತ್ತ
+  defs:
+  - entry: Autonomous
+    type: Noun
+  id: autonomous_b2c53307cd27
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Autonomous
+- entry: ಸಹಾಯಕ ಪಡೆ
+  defs:
+  - entry: Auxiliary force
+    type: Noun
+  id: auxiliaryf_2dbeab9b7186
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Auxiliary force
+- entry: ಸಹಾಯಕ ಸೇವೆ
+  defs:
+  - entry: Auxiliary service
+    type: Noun
+  id: auxiliarys_b5ee12699129
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Auxiliary service
+- entry: ಸಹಾಯಕ ದಳ
+  defs:
+  - entry: Auxiliary troop
+    type: Noun
+  id: auxiliaryt_4deb959df90e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Auxiliary troop
+- entry: 1. ಉಪವೃತ್ತಿ
+  defs:
+  - &id047
+    entry: Avocation
+    type: Noun
+  id: avocation_cea8504c5055
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Avocation
+- entry: ಉಪಕಸುಬು 2. ವೃತ್ತಿ
+  defs:
+  - *id047
+  id: avocation_b92dbcc70a00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Avocation
+- entry: ಕಸುಬು
+  defs:
+  - *id047
+  id: avocation_72f284e22564
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Avocation
+- entry: ಜೀವನೋಪಾಯ
+  defs:
+  - *id047
+  id: avocation_870c306d84b0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Avocation
+- entry: ಕಂಕುಳಿನ ಅಪಧಮನಿ
+  defs:
+  - entry: Axillary artery
+    type: Noun
+  id: axillaryar_5ca0b15953d7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Axillary artery
+- entry: ಅಕ್ಷ
+  defs:
+  - entry: Axis
+    type: Noun
+  id: axis_b9c136e8a017
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Axis
+- entry: ಅಕ್ಷದಂಡ
+  defs:
+  - &id048
+    entry: Axle
+    type: Noun
+  id: axle_82c01ecdde87
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Axle
+- entry: ಅಚ್ಚುಗಂಬಿ
+  defs:
+  - *id048
+  id: axle_e78ceffd5ac6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Axle
+- entry: ದೂರಿ
+  defs:
+  - *id048
+  id: axle_3ec26a446f0b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Axle
+- entry: 1. ಪ್ರತಿಬಂಧಕ
+  defs:
+  - &id049
+    entry: Backset
+    type: Noun
+  id: backset_65686b8d9c15
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backset
+- entry: ತಡೆ 2. ಮರಳುವಿಕೆ
+  defs:
+  - *id049
+  id: backset_2ab9b1305bd3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backset
+- entry: ಹಿನ್ನಡೆ 3
+  defs:
+  - *id049
+  id: backset_26ffec0294fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backset
+- entry: ನೀರಿನಸುಳಿ
+  defs:
+  - *id049
+  id: backset_edc05effb3d5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backset
+- entry: ಆವರ್ತ 4. ನೀರಿನ ಎದುರುಹೊನಲು
+  defs:
+  - *id049
+  id: backset_00f2431e1ada
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backset
+- entry: ಪ್ರತಿಪ್ರವಾಹ
+  defs:
+  - *id049
+  id: backset_1cebd4eb03a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backset
+- entry: ಬೆಂಬಲ
+  defs:
+  - entry: Backing
+    type: Noun
+  id: backing_5d082069bec3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Backing
+- entry: ಬ್ಯಾಜ್
+  defs:
+  - &id050
+    entry: Badge
+    type: Noun
+  id: badge_fc00f943eb19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Badge
+- entry: ಬಿಲ್ಲೆ
+  defs:
+  - *id050
+  id: badge_f038dab338f9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Badge
+- entry: ಲಾಂಛನ
+  defs:
+  - *id050
+  id: badge_e7a5f8d8c078
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Badge
+- entry: ಗಂಟು ಮೂಟೆ
+  defs:
+  - &id051
+    entry: Baggage
+    type: Noun
+  id: baggage_fc2b58b7783f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Baggage
+- entry: ಸಾಮಾನು ಸರಂಜಾಮು
+  defs:
+  - *id051
+  id: baggage_1b541ffc24b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Baggage
+- entry: ಅಡುಗೆ ಸೋಡ
+  defs:
+  - entry: Baking soda
+    type: Noun
+  id: bakingsoda_8ddd59891eff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Baking soda
+- entry: ಒರಳು ಗುಂಡುಕೀಲು
+  defs:
+  - &id052
+    entry: Ball-and-socket joint
+    type: Noun
+  id: ballandsoc_235d50025f7a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ball-and-socket joint
+- entry: ಗುಳಿಯಲ್ಲಿ ಗುಂಡನೆಯ ತುದಿ ಇರುವ
+  defs:
+  - *id052
+  id: ballandsoc_458e85e5fc01
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ball-and-socket joint
+- entry: ಎಲ್ಲ ಕಡೆಗಳಲ್ಲಿಯೂ ಚಲನೆಗೆ ಅವಕಾಶ ಕೊಡುವ ಕೀಲು
+  defs:
+  - *id052
+  id: ballandsoc_40d6cf971221
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ball-and-socket joint
+- entry: ತೋಟಾ ಇಟ್ಟುಗುಂಡು ಹಾರಿಸುವುದು
+  defs:
+  - entry: Ball-firing
+    type: Noun
+  id: ballfiring_ffe98004f4cc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ball-firing
+- entry: ಬೊಂಬು
+  defs:
+  - &id053
+    entry: Bamboo
+    type: Noun
+  id: bamboo_04e5c089e986
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bamboo
+- entry: ಬಿದಿರುಗಳು
+  defs:
+  - *id053
+  id: bamboo_b06d8eecc31c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bamboo
+- entry: ಬೊಂಬಿನ
+  defs:
+  - &id054
+    entry: Bamboo-raft
+    type: Noun
+  id: bambooraft_faf7a2730075
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bamboo-raft
+- entry: ಬಿದುರಿನ ತೆಪ್ಪ
+  defs:
+  - *id054
+  id: bambooraft_f6f2c7761407
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bamboo-raft
+- entry: 1. ಬಹಿಷ್ಕರಿಸು
+  defs:
+  - &id055
+    entry: Ban
+    type: Noun
+  id: ban_056609d23dfe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ban
+- entry: ನಿಷೇಧಿಸು 2. ಬಹಿಷ್ಕಾರ
+  defs:
+  - *id055
+  id: ban_b703944e6c89
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ban
+- entry: ನಿಷೇಧ
+  defs:
+  - *id055
+  id: ban_78afc87e52d4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ban
+- entry: 1. ಪಟ್ಟಿ ಬಿಗಿ 2. ಪಟ್ಟಿ 3. ತಂಡ 4. ಬ್ಯಾಂಡು
+  defs:
+  - &id056
+    entry: Band
+    type: Noun
+  id: band_75c4c27952cb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Band
+- entry: ವಾದ್ಯ ಸಮೂಹ
+  defs:
+  - *id056
+  id: band_428d02856177
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Band
+- entry: 1. ಬ್ಯಾಂಡೇಜು ಕಟ್ಟು 2. ಬ್ಯಾಂಡೇಜು
+  defs:
+  - &id057
+    entry: Bandage
+    type: Noun
+  id: bandage_ad05a17d48be
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bandage
+- entry: ಗಾಯದ ಪಟ್ಟಿ
+  defs:
+  - *id057
+  id: bandage_6094bc1a7ccd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bandage
+- entry: 'ಕುಚ್ಚಿನ ಪಟ್ಟಿ: ಕುಚ್ಚಿನ ಬಂಧಕಟ್ಟು'
+  defs:
+  - entry: Bandages many tailed
+    type: Noun
+  id: bandagesma_97c831701012
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bandages many tailed
+- entry: ಸಲಾಕೆ
+  defs:
+  - &id058
+    entry: Bar
+    type: Noun
+  id: bar_9a6042f3449e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bar
+- entry: ಕಂಬಿ
+  defs:
+  - *id058
+  id: bar_cdff7073733c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bar
+- entry: ಬಾರ್ಲಿನೀರು
+  defs:
+  - entry: Barley water
+    type: Noun
+  id: barleywate_5836bdccd7d7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Barley water
+- entry: 1. ಅಡ್ಡಗಟ್ಟಿ 2. ಫಿರಂಗಿ ತಡೆ
+  defs:
+  - &id059
+    entry: Barrage
+    type: Noun
+  id: barrage_9717ce3d939b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Barrage
+- entry: 'ಶತ್ರುಗಳ: ಮುನ್ನಡೆಯ ತಡೆ:'
+  defs:
+  - *id059
+  id: barrage_56fc04666f59
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Barrage
+- entry: ಪೀಪಾಯಿ
+  defs:
+  - entry: Barrel
+    type: Noun
+  id: barrel_82511fcd476e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Barrel
+- entry: ಪೀಪಾಯಿ ತೆಪ್ಪ
+  defs:
+  - entry: Barrel rafts
+    type: Noun
+  id: barrelraft_ce1c54ad78bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Barrel rafts
+- entry: ತಳ
+  defs:
+  - &id060
+    entry: Base
+    type: Noun
+  id: base_211def921c46
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Base
+- entry: ಬುಡ
+  defs:
+  - *id060
+  id: base_6d1ec309a60d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Base
+- entry: ಅಡಿ
+  defs:
+  - *id060
+  id: base_19cb1d129087
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Base
+- entry: 'ಬೇಸಿನ್‌ : 1. ಬೋಗುಣಿ 2. ಜಲಾನಯನ ಪ್ರದೇಶ'
+  defs:
+  - entry: Basin
+    type: Noun
+  id: basin_4c7507295c59
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basin
+- entry: ಹಗುರವಾದ ಉಕ್ಕಿನ ಟೊಪ್ಪಿಗೆ
+  defs:
+  - &id061
+    entry: Basinet
+    type: Noun
+  id: basinet_f1942c8f47d3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basinet
+- entry: ಶಿರಸ್ತ್ರಾಣದ ಕೆಳಗೆ ಹಾಕಿಕೊಳ್ಳುವ ಟೊಪ್ಪಿಗೆ
+  defs:
+  - *id061
+  id: basinet_112861619c56
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basinet
+- entry: ಬುಟ್ಟಿ
+  defs:
+  - &id062
+    entry: Basket
+    type: Noun
+  id: basket_db958c4e9683
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basket
+- entry: ಮಕರಿ
+  defs:
+  - *id062
+  id: basket_add0aaf4d550
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basket
+- entry: ಗೂಡೆ
+  defs:
+  - *id062
+  id: basket_69065b267281
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basket
+- entry: ಬಿದಿರಿನ ಸೋಸಿಗೆ
+  defs:
+  - &id063
+    entry: Basket strainer
+    type: Noun
+  id: basketstra_acab868451db
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basket strainer
+- entry: ಬಿದಿರಿನ ಜರಡಿ
+  defs:
+  - *id063
+  id: basketstra_be9284859659
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Basket strainer
+- entry: 1. ತಡೆದಿಮ್ಮಿ 2. ಅಡ್ಡತೊಲೆ
+  defs:
+  - entry: Bauk
+    type: Noun
+  id: bauk_a11fef2ea91b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bauk
+- entry: 1. ಜವಾನ
+  defs:
+  - &id064
+    entry: Bearer
+    type: Noun
+  id: bearer_086ddd36f228
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bearer
+- entry: ಸೇವಕ 2. ಶವವಾಹಕ
+  defs:
+  - *id064
+  id: bearer_f6bf6cb8201c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bearer
+- entry: ಹೆಣ ಹೊರುವವನು
+  defs:
+  - *id064
+  id: bearer_9fde7b5b5df6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bearer
+- entry: 1. ಹೃದಯ
+  defs:
+  - &id065
+    entry: Beat
+    type: Noun
+  id: beat_020796f69342
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beat
+- entry: ನಾಡಿ ಮೊ.ಗಳಬಡಿತ 2. ಗಸ್ತು
+  defs:
+  - *id065
+  id: beat_0d70c6a4774d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beat
+- entry: ಪಹರೆ
+  defs:
+  - *id065
+  id: beat_7063424678f3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beat
+- entry: ಸುತ್ತು
+  defs:
+  - *id065
+  id: beat_5e70f4efcdc2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beat
+- entry: ತಿದಿ
+  defs:
+  - &id066
+    entry: Bellows
+    type: Noun
+  id: bellows_745dfe3eed79
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bellows
+- entry: ಬೆಂಕಿಗೆ ಗಾಳಿಯೂದುವ ಸಲಕರಣೆ
+  defs:
+  - *id066
+  id: bellows_fc547de88b4e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bellows
+- entry: ಗಂಟೆ ಹಗ್ಗ
+  defs:
+  - entry: Bell-pull
+    type: Noun
+  id: bellpull_37cc1b74881e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bell-pull
+- entry: ಬೆಲ್ಟ್
+  defs:
+  - &id067
+    entry: Belt
+    type: Noun
+  id: belt_a31ac8cea94a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Belt
+- entry: ನಡುಪಟ್ಟಿ
+  defs:
+  - *id067
+  id: belt_684f7994799b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Belt
+- entry: ಬೆರಿ
+  defs:
+  - &id068
+    entry: Beret
+    type: Noun
+  id: beret_74d9bbba4f05
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beret
+- entry: ಉಣ್ಣೆಯಾ ಹತ್ತಿ ಬಟ್ಟಿಯಿಂದ ಮಾಡಿದ
+  defs:
+  - *id068
+  id: beret_e07f6364ea4a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beret
+- entry: ಚಪ್ಪಟಿಯಾದ ದುಂಡು ಟೋಪಿ
+  defs:
+  - *id068
+  id: beret_74186f13f381
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Beret
+- entry: ಬೈಸೆಪ್ಸ್
+  defs:
+  - &id069
+    entry: Biceps
+    type: Noun
+  id: biceps_f61667e5e81a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Biceps
+- entry: ಮೇಲ್ತೋಳಿನ‌ ಮುಂಭಾಗದ ಯಾ ತೊಡೆಯ ಹಿಂಭಾಗದ ಸ್ನಾಯು
+  defs:
+  - *id069
+  id: biceps_08427ffda940
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Biceps
+- entry: ವಸತಿ ನಿರ್ದೇಶನ
+  defs:
+  - &id070
+    entry: Billeting
+    type: Noun
+  id: billeting_2c33574239fa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Billeting
+- entry: ಪುನರ್ವಸತಿ
+  defs:
+  - *id070
+  id: billeting_04a72f311a9b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Billeting
+- entry: ವಸತಿಯ ಏರ್ಪಾಡು ಮಾಡುವುದು
+  defs:
+  - *id070
+  id: billeting_02077b04fb3a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Billeting
+- entry: ರೋಗಾಣು ಯುದ್ಧ
+  defs:
+  - entry: Biological warfare
+    type: Noun
+  id: biological_56b7bcab1874
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Biological warfare
+- entry: ಪೆಟ್ಟಿನಿಂದ ಕಪ್ಪುಗಟ್ಟಿದ ಕಣ್ಣು
+  defs:
+  - &id071
+    entry: Black eye
+    type: Noun
+  id: blackeye_45a4ed8876e2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Black eye
+- entry: ಕರಿಗಣ್ಣು
+  defs:
+  - *id071
+  id: blackeye_101f51476e5a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Black eye
+- entry: ಬ್ಲ್ಯಾಕ್‌ಔಟ್
+  defs:
+  - &id072
+    entry: Black-out
+    type: Noun
+  id: blackout_82c412169f33
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Black-out
+- entry: ವಿಮಾನ ದಾಳಿಯ ವಿರುದ್ಧ ಮುನ್ನೆಚ್ಚರಿಕೆಯಾಗಿ ಎಲ್ಲ ದೀಪಗಳನ್ನೂ ನಂದಿಸುವುದು ಯಾ ಮರೆಮಾಡುವುದು
+  defs:
+  - *id072
+  id: blackout_31c46bddc9a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Black-out
+- entry: ಮನುಷ್ಯ ಮತ್ತು ಇತರ ಪ್ರಾಣಿಗಳ ದೇಹದಲ್ಲಿ ಮೂತ್ರ
+  defs:
+  - &id073
+    entry: Bladder
+    type: Noun
+  id: bladder_2e5f7ca88255
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bladder
+- entry: ಪಿತ್ತ
+  defs:
+  - *id073
+  id: bladder_050e2368af75
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bladder
+- entry: ಗಾಳಿ ಮೊ.ಗಳನ್ನು ಹೊಂದಿರುವ ಒಳ ಚರ್ಮದ ಚೀಲ
+  defs:
+  - *id073
+  id: bladder_9b2d81286c4b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bladder
+- entry: ಕೋಶ ಮು.ಮೂತ್ರಕೋಶ
+  defs:
+  - *id073
+  id: bladder_3c43941de300
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bladder
+- entry: ಖಾಲಿ ಕೇಪು
+  defs:
+  - &id074
+    entry: Blank cap
+    type: Noun
+  id: blankcap_36db379fcb39
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blank cap
+- entry: ಸಿಡಿಗುಂಡಿನ ಲೋಹದ ಖಾಲಿ ಟೊಪ್ಪಿಗೆ
+  defs:
+  - *id074
+  id: blankcap_b4db73933d65
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blank cap
+- entry: ಕಂಬಳಿ
+  defs:
+  - entry: Blanket
+    type: Noun
+  id: blanket_0928fc1ff86e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blanket
+- entry: ಸ್ಫೋಟನೆಯಿಂದ ಚೂರು ಚೂರಾಗಿ ಒಡೆಯುವುದು
+  defs:
+  - entry: Blast fragmentation
+    type: Noun
+  id: blastfragm_f61c877a1398
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blast fragmentation
+- entry: ಬೊಬ್ಬೆ
+  defs:
+  - &id075
+    entry: Blister
+    type: Noun
+  id: blister_6e6f12118227
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blister
+- entry: ಗುಳ್ಳೆ
+  defs:
+  - *id075
+  id: blister_bb0bbf31536d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blister
+- entry: ಹೊಪ್ಪಳೆ
+  defs:
+  - *id075
+  id: blister_53154f84fb7b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blister
+- entry: ರಕ್ತ
+  defs:
+  - entry: Blood
+    type: Noun
+  id: blood_16f26edcd6bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blood
+- entry: 'ರಕ್ತದ ಕರಣಿ: ಗೆಡ್ಡೆ'
+  defs:
+  - entry: Blood clot
+    type: Noun
+  id: bloodclot_fed988ccd9f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blood clot
+- entry: ರಕ್ತ ರಂಜಿತ ನೇತ್ರ
+  defs:
+  - &id076
+    entry: Bloodshot eye
+    type: Noun
+  id: bloodshote_7ad344b48ddb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bloodshot eye
+- entry: ರಕ್ತದಿಂದ ಕೆಂಪಾದ ಕಣ್ಣು
+  defs:
+  - *id076
+  id: bloodshote_99ff1f34860d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bloodshot eye
+- entry: ರಕ್ತನಾಳ
+  defs:
+  - entry: Blood vessel
+    type: Noun
+  id: bloodvesse_7d984d6895fa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blood vessel
+- entry: ನೀಲಿ
+  defs:
+  - entry: Blue
+    type: Noun
+  id: blue_6d4272c5d7ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Blue
+- entry: ದಬ್ಬಳ
+  defs:
+  - &id077
+    entry: Bodkin
+    type: Noun
+  id: bodkin_b959b7f9bbc8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bodkin
+- entry: ಡಬ್ಬಣ
+  defs:
+  - *id077
+  id: bodkin_36adacd824d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bodkin
+- entry: ದೇಹ
+  defs:
+  - &id078
+    entry: Body
+    type: Noun
+  id: body_cd9c0279f5a6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Body
+- entry: ಶರೀರ
+  defs:
+  - *id078
+  id: body_3f90ba668a9a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Body
+- entry: ಅಂಗ ರಕ್ಷಕ
+  defs:
+  - entry: Body guard
+    type: Noun
+  id: bodyguard_38f8d2b37f67
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Body guard
+- entry: ಬಾಂಬು ಮತ್ತು ಸಿಡಿ ಮದ್ದುಗಳು
+  defs:
+  - entry: Bomb and explosives
+    type: Noun
+  id: bombandexp_93542bd5958f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bomb and explosives
+- entry: ಬಾಂಬು ಸಿಡಿತದಿಂದುಂಟಾದ ಸಿಬುರುಗಳು ಯಾ ಚೂರುಗಳು
+  defs:
+  - entry: Bomb splinters
+    type: Noun
+  id: bombsplint_89b0b245f5f4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bomb splinters
+- entry: ಎಲುಬಿನ ರಚನೆ
+  defs:
+  - entry: Bony frame work
+    type: Noun
+  id: bonyframew_1b49ab5439f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bony frame work
+- entry: ಎಲುಬಿನ ಘರ್ಷಣ ಧ್ವನಿ
+  defs:
+  - entry: Bony grating
+    type: Noun
+  id: bonygratin_18693a69a209
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bony grating
+- entry: ಬೂಟು
+  defs:
+  - entry: Boot
+    type: Noun
+  id: boot_4235b24f7b7b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Boot
+- entry: ಬಿಳಿಗಾರ ಲೇಪಿತ ಜಾಲರಿ ಬಟ್ಟಿ
+  defs:
+  - entry: Boracic gauze
+    type: Noun
+  id: boracicgau_4f6bae24a1df
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Boracic gauze
+- entry: ಸೋರೆಕಾಯಿ
+  defs:
+  - &id079
+    entry: Bottle gourd
+    type: Noun
+  id: bottlegour_db62e025d004
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bottle gourd
+- entry: ಸೋರಕಾಯಿ ಬುರುಡೆ
+  defs:
+  - *id079
+  id: bottlegour_b0163279cfc6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bottle gourd
+- entry: ಬೋಲೈನ್
+  defs:
+  - &id080
+    entry: Bowline
+    type: Noun
+  id: bowline_75dca29ef018
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bowline
+- entry: ಹಗ್ಗದ
+  defs:
+  - *id080
+  id: bowline_3346e4008198
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bowline
+- entry: ತುದಿಯಲ್ಲಿ ನಾವಿಕರು ಹಾಕುವ ಸರಳವಾದ ಬಿಗಿಗಂಟು
+  defs:
+  - *id080
+  id: bowline_d1db87848997
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bowline
+- entry: ನೋಡಿ - bowline
+  defs:
+  - entry: Bowline knot
+    type: Noun
+  id: bowlinekno_045d2274a18a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bowline knot
+- entry: ಬೋಲ್ಬಿನ್‌ ಆನ್‌ ಬೈಟ್
+  defs:
+  - &id081
+    entry: Bowline on bight
+    type: Noun
+  id: bowlineonb_b7ea41b270d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bowline on bight
+- entry: ಹಗ್ಗದ ತುದಿಯಲ್ಲಿ ನಾವಿಕರು ಹಾಕುವ ಸರಳವಾದ ಬಿಗಿ ಗಂಟಿನ ಕುಣಿಕೆ
+  defs:
+  - *id081
+  id: bowlineonb_8841e92538e8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bowline on bight
+- entry: ಬಂಧನಿ
+  defs:
+  - &id082
+    entry: Brace
+    type: Noun
+  id: brace_b75a1f4987e5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brace
+- entry: ಬಿಗಿಪಟ್ಟಿ
+  defs:
+  - *id082
+  id: brace_fac97ad7711b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brace
+- entry: ತೋಳಿನ
+  defs:
+  - &id083
+    entry: Brachial artery
+    type: Noun
+  id: brachialar_da0cc281e830
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brachial artery
+- entry: ರಟ್ಟೆಯ ಅಪಧಮನಿ
+  defs:
+  - *id083
+  id: brachialar_7c31d81f8a71
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brachial artery
+- entry: ಮಿದುಳು
+  defs:
+  - entry: Brain
+    type: Noun
+  id: brain_c398f06c8df5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brain
+- entry: ಕವಲು ಕೊಳವೆ
+  defs:
+  - entry: Branch pipe
+    type: Noun
+  id: branchpipe_dcf7cf175931
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Branch pipe
+- entry: ಹಿತ್ತಾಳೆ ಬಿಂದಿಗೆ
+  defs:
+  - entry: Brass pet
+    type: Noun
+  id: brasspet_ad9047f47169
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brass pet
+- entry: ಬಿರುಕು ಮಾಡುವ ತುಂಡು
+  defs:
+  - entry: Breaching piece
+    type: Noun
+  id: breachingp_8b883269bd9a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Breaching piece
+- entry: ಎದೆಯ ಎಲುಬು
+  defs:
+  - entry: Breast-bone
+    type: Noun
+  id: breastbone_0b9177b0a040
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Breast-bone
+- entry: ನೀರಿನಲ್ಲಿ ಬಿದ್ದವರನ್ನೂ ಪ್ರವಾಹದಲ್ಲಿ ಸಿಕ್ಕಿಕೊಂಡವರನ್ನೂ ರಕ್ಷಿಸುವುದಕ್ಕಾಗಿ ಎದೆಯ ಮಟ್ಟದಲ್ಲಿ ಎಸೆಯುವ ಹಗ್ಗ
+  defs:
+  - entry: Breast line
+    type: Noun
+  id: breastline_d359d36dad48
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Breast line
+- entry: ಉಸಿರಾಟ
+  defs:
+  - entry: Breathing
+    type: Noun
+  id: breathing_5e3dc0eaa143
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Breathing
+- entry: ಉಸಿರಾಟದ ಸಾಧನ
+  defs:
+  - entry: Breathing appartus
+    type: Noun
+  id: breathinga_44225cd32321
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Breathing appartus
+- entry: ಸೇತುವೆ
+  defs:
+  - entry: Bridge
+    type: Noun
+  id: bridge_ec9e0fe5476f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bridge
+- entry: ಅಂಚು
+  defs:
+  - entry: Brim
+    type: Noun
+  id: brim_b9ac38ac986c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brim
+- entry: ವಸ್ತಿ ಕುಹರದ ಅಂಚು
+  defs:
+  - entry: Brim of pelvis
+    type: Noun
+  id: brimofpelv_218c52cf5fac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brim of pelvis
+- entry: ಅಗಲವಾದ ಬ್ಯಾಂಡೇಜು
+  defs:
+  - entry: Broad bandage
+    type: Noun
+  id: broadbanda_c5a731293e36
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Broad bandage
+- entry: ಶ್ವಾಸನಾಳ
+  defs:
+  - entry: Bronchial tube
+    type: Noun
+  id: bronchialt_807d70ade0ff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bronchial tube
+- entry: ಪಕ್ಕೆಲುಬು
+  defs:
+  - entry: Brooch-bone
+    type: Noun
+  id: broochbone_badfa8d45a18
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brooch-bone
+- entry: ಪೊರಕೆ ಕೋಲು
+  defs:
+  - entry: Broom-stick
+    type: Noun
+  id: broomstick_9098090f59e4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Broom-stick
+- entry: 1. ಮೂಗೇಟು ಹಾಕು 2. ಮೂಗೇಟು
+  defs:
+  - entry: Bruise
+    type: Noun
+  id: bruise_c4cb53c9d824
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bruise
+- entry: 1. ಕುಂಚ 2. ತರಚು
+  defs:
+  - &id084
+    entry: Brush
+    type: Noun
+  id: brush_5c1361ba45b0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brush
+- entry: ಉಜ್ಜು ಗಾಯ
+  defs:
+  - *id084
+  id: brush_643de0929e1c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brush
+- entry: ನೋಡಿ - brush
+  defs:
+  - entry: Brush bum
+    type: Noun
+  id: brushbum_a4904f7d5dcc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Brush bum
+- entry: ಬಕೆಟ್
+  defs:
+  - entry: Bucket
+    type: Noun
+  id: bucket_53ffdaf6829a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bucket
+- entry: ಬಕಲ್
+  defs:
+  - &id085
+    entry: Buckle
+    type: Noun
+  id: buckle_10c4ba070544
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buckle
+- entry: ಕೊಂಡಿ
+  defs:
+  - *id085
+  id: buckle_c381cd93e6bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buckle
+- entry: ಕೊಕ್ಕೆ
+  defs:
+  - *id085
+  id: buckle_32e351e8a20f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buckle
+- entry: ಕಟ್ಟಡ
+  defs:
+  - entry: Building
+    type: Noun
+  id: building_827d2ce00fba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Building
+- entry: ಗುಂಡು
+  defs:
+  - entry: Bullet
+    type: Noun
+  id: bullet_43ec44d39423
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bullet
+- entry: ಹಡಗಿಗೆ ಮಾರ್ಗ ತೋರಿಸುವ
+  defs:
+  - &id086
+    entry: Buoy
+    type: Noun
+  id: buoy_283209429f77
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buoy
+- entry: ಮುಳುಗಿರುವ ಬಂಡೆ ಮೊ.ವನ್ನು ಸೂಚಿಸುವ
+  defs:
+  - *id086
+  id: buoy_301ecaa01dc0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buoy
+- entry: ಲಂಗರು ಹಾಕಿ ಇಳಿಯ ಬಿಟ್ಟತೇಲುಬುರುಡೆ
+  defs:
+  - *id086
+  id: buoy_2ae811e4cd89
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buoy
+- entry: 1. ತೇಲಿಸುವ ಶಕ್ತಿ 2. ತೇಲುವ ಶಕ್ತಿ
+  defs:
+  - entry: Buoyancy
+    type: Noun
+  id: buoyancy_09fca11cc3d4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buoyancy
+- entry: 1. ಸುಡು 2. ಸುಟ್ಟಗಾಯ
+  defs:
+  - entry: Bum
+    type: Noun
+  id: bum_12e280633a4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Bum
+- entry: ಕುಂಡಿ
+  defs:
+  - &id087
+    entry: Buttock
+    type: Noun
+  id: buttock_2e8d4d8d4f3a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buttock
+- entry: ಪೃಷ್ಠ
+  defs:
+  - *id087
+  id: buttock_5a8c0daa4e16
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buttock
+- entry: ಅಂಡು
+  defs:
+  - *id087
+  id: buttock_9eea97e30178
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Buttock
+- entry: 'ಕೇಬಲ್‌: 1. ಸಣಬಿನ ಯಾ ತಂತಿಯ ಬಲವಾದ ದಪ್ಪ ಹಗ್ಗ 2. ನೀರಿನ ಯಾ ನೆಲದ ಅಡಿಯಲ್ಲಿ ಹಾಕಿರುವ ಸುದ್ದಿ ಸಮಾಚಾರಗಳ ತಂತಿ 3. ಕಡಲ ತಂತಿ ಸಮಾಚಾರ'
+  defs:
+  - entry: Cable
+    type: Noun
+  id: cable_b5edc822935b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cable
+- entry: ಕಡಲತಂತಿ ಮಾರ್ಗ
+  defs:
+  - entry: Cable way
+    type: Noun
+  id: cableway_e1c971e9bee7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cable way
+- entry: ಆಪತ್ತು
+  defs:
+  - &id088
+    entry: Calamity
+    type: Noun
+  id: calamity_e0c9052b4406
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calamity
+- entry: ವಿಪತ್ತು
+  defs:
+  - *id088
+  id: calamity_ace488d9829e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calamity
+- entry: 1. ಲೆಕ್ಕ ಮಾಡು 2. ಲೆಕ್ಕ
+  defs:
+  - &id089
+    entry: Calculate
+    type: Noun
+  id: calculate_57305fd48805
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calculate
+- entry: ಯೋಜನೆ ಹಾಕು
+  defs:
+  - *id089
+  id: calculate_b1a8954d64a4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calculate
+- entry: ಮೀನಖಂಡ
+  defs:
+  - &id090
+    entry: Calf
+    type: Noun
+  id: calf_0a9091832a13
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calf
+- entry: ಕಣಕಾಲಿನ ಹಿಂಭಾಗ
+  defs:
+  - *id090
+  id: calf_ec2f62a2f45e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calf
+- entry: ಬಿಳಿಯ ಬಟ್ಟೆ
+  defs:
+  - entry: Calico
+    type: Noun
+  id: calico_76648896dc10
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Calico
+- entry: 1. ಮರೆಮಾಡು 2. ಮರೆಮಾಡುವಿಕೆ
+  defs:
+  - entry: Camouflage
+    type: Noun
+  id: camouflage_afbb775272f1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Camouflage
+- entry: 'ಕ್ಯಾಂಪ್‌: 1. ಶಿಬಿರ ಹೂಡು 2. ಶಿಬಿರ'
+  defs:
+  - entry: Camp
+    type: Noun
+  id: camp_e973849868b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Camp
+- entry: ಆಂದೋಲನ
+  defs:
+  - entry: Campaign
+    type: Noun
+  id: campaign_88ffdec8578d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Campaign
+- entry: ಕಾಲುವೆ
+  defs:
+  - &id091
+    entry: Canal
+    type: Noun
+  id: canal_c93f4316852c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Canal
+- entry: ನಾಲೆ
+  defs:
+  - *id091
+  id: canal_452ada3cec8b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Canal
+- entry: ಅಪಾಯದ ಎಚ್ಚರಿಕೆಯ ರದ್ದತಿ
+  defs:
+  - entry: Cancel caution
+    type: Noun
+  id: cancelcaut_aecfe4f392c8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cancel caution
+- entry: ಬೆತ್ತ
+  defs:
+  - entry: Cane
+    type: Noun
+  id: cane_ab31656248fe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cane
+- entry: ಮನುಷ್ಯನ ಬಾಯಿಹುಣ್ಣು
+  defs:
+  - entry: Canker
+    type: Noun
+  id: canker_5503ccaa7e52
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Canker
+- entry: ಕ್ಯಾನ್ವಾಸ್‌ ರಟ್ಟುಬಟ್ಟಿ
+  defs:
+  - entry: Canvas
+    type: Noun
+  id: canvas_9605e2278c76
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Canvas
+- entry: ಕ್ಯಾನ್ವಾಸ್‌ ಬಟ್ಟಿಯ ನೀರುತೊಟ್ಟಿ
+  defs:
+  - entry: Canvas dam
+    type: Noun
+  id: canvasdam_3eb4be22ba60
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Canvas dam
+- entry: ಟೋಪಿ
+  defs:
+  - &id092
+    entry: Cap
+    type: Noun
+  id: cap_342f2e069422
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cap
+- entry: ಟೊಪ್ಪಿಗೆ
+  defs:
+  - *id092
+  id: cap_f657af18acf0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cap
+- entry: ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Capacity
+    type: Noun
+  id: capacity_4d5de0237297
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Capacity
+- entry: ಕೂದಲಂತಿರುವ
+  defs:
+  - entry: Capillary
+    type: Noun
+  id: capillary_76c728e412c5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Capillary
+- entry: ಕ್ಯಾಪ್‌ಸೂಲ್
+  defs:
+  - &id093
+    entry: Capsule
+    type: Noun
+  id: capsule_c75214ebdba0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Capsule
+- entry: ಔಷಧವನ್ನು ಆವರಿಸಿರುವ ಜಿಲೆಟಿನ್‌ ಹೊದಿಕೆ
+  defs:
+  - *id093
+  id: capsule_e9c438151a2e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Capsule
+- entry: ಕೋಶ
+  defs:
+  - *id093
+  id: capsule_204e9ee96045
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Capsule
+- entry: ಕ್ಯಾಪ್ಟನ್
+  defs:
+  - &id094
+    entry: Captain
+    type: Noun
+  id: captain_157b6acead71
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Captain
+- entry: ಕಪ್ತಾನ
+  defs:
+  - *id094
+  id: captain_51c32ab7ba02
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Captain
+- entry: ನಾಯಕ
+  defs:
+  - *id094
+  id: captain_bc3ccbfb0e5e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Captain
+- entry: ಇಂಗಾಲಾಮ್ಲ ಅನಿಲ
+  defs:
+  - entry: Carbonic acid gas
+    type: Noun
+  id: carbonicac_60632756af74
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carbonic acid gas
+- entry: ಕಾರ್ಬನ್ಷ್ ಟೆಟ್ರಿಕ್ಲೋರೈಡ್
+  defs:
+  - &id095
+    entry: Carbon tetrachloride (C.T.C.)
+    type: Noun
+  id: carbontetr_f11b25bfae9e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carbon tetrachloride (C.T.C.)
+- entry: ಅಗ್ನಿ ಶಾಮಕದಲ್ಲಿಕಾಟಿಕ್ಲೊ ಬಳಸುವ ಬಣ್ಣವಿಲ್ಲದ ದ್ರವ
+  defs:
+  - *id095
+  id: carbontetr_02c0f2b5a4fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carbon tetrachloride (C.T.C.)
+- entry: 1. ಪ್ರಾಣಿ ಯಾ ಪಕ್ಷಿಯ ಹೆಣ
+  defs:
+  - &id096
+    entry: Carcass
+    type: Noun
+  id: carcass_af110b5c38fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carcass
+- entry: ಶವ 2. ನಿಕೃಷ್ಟಾರ್ಥದಲ್ಲಿ
+  defs:
+  - *id096
+  id: carcass_d1b6a9f284bd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carcass
+- entry: ಮನುಷ್ಯನ ಹೆಣ
+  defs:
+  - *id096
+  id: carcass_f41be1be4d30
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carcass
+- entry: ಶವ
+  defs:
+  - *id096
+  id: carcass_f7bd63b6cbc2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carcass
+- entry: ಕಂಠ ಅಪಧಮನಿ
+  defs:
+  - entry: Carotid artery
+    type: Noun
+  id: carotidart_002b1fd8382f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carotid artery
+- entry: ಮಣಿಕಟ್ಟು
+  defs:
+  - &id097
+    entry: Carpus
+    type: Noun
+  id: carpus_7b5d706de468
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carpus
+- entry: ಮಣಿಬಂಧ
+  defs:
+  - *id097
+  id: carpus_3e91aa699acb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Carpus
+- entry: ಮೃದುಎಲುಬು
+  defs:
+  - &id098
+    entry: Cartilage
+    type: Noun
+  id: cartilage_d3b71f3db0a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cartilage
+- entry: ಎಳೆ ಎಲುಬು
+  defs:
+  - *id098
+  id: cartilage_139d6a668639
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cartilage
+- entry: 1. ಅಪಘಾತ 2. ಅಪಘಾತದ ವ್ಯಕ್ತಿ
+  defs:
+  - &id099
+    entry: Casualty
+    type: Noun
+  id: casualty_d7ed55aeacad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Casualty
+- entry: ಅಪಘಾತದಲ್ಲಿ ಗಾಯಗೊಂಡ ಯಾ ಸತ್ತವ್ಯಕ್ತಿ
+  defs:
+  - *id099
+  id: casualty_c3ac904d8279
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Casualty
+- entry: ಅಪಘಾತ ವಾರ್ಡು
+  defs:
+  - &id100
+    entry: Casualty ward
+    type: Noun
+  id: casualtywa_a92de4619988
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Casualty ward
+- entry: ಅಪಘಾತಗಳಲ್ಲಿ ತೀವ್ರ ಗಾಯಗೊಂಡವರಿಗೆ ಚಿಕಿತ್ಸೆನೀಡುವ ಆಸ್ಪತ್ರೆಯ ವಿಭಾಗ
+  defs:
+  - *id100
+  id: casualtywa_7e930dc66a47
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Casualty ward
+- entry: ಕಾಸ್‌ವೇ
+  defs:
+  - &id101
+    entry: Causeway
+    type: Noun
+  id: causeway_00aec2211ef7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Causeway
+- entry: ಒಡ್ಡು
+  defs:
+  - *id101
+  id: causeway_32e11b9c9eb2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Causeway
+- entry: ಬದುದಾರಿ
+  defs:
+  - *id101
+  id: causeway_2769e451c645
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Causeway
+- entry: ದಾಹಕ
+  defs:
+  - &id102
+    entry: Caustic
+    type: Noun
+  id: caustic_5341b88f992f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Caustic
+- entry: ಸುಡುವ
+  defs:
+  - *id102
+  id: caustic_13193be1b087
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Caustic
+- entry: 1. ಎಚ್ಚರಿಕೆ ಕೊಡು 2. ಎಚ್ಚರಿಕೆ
+  defs:
+  - &id103
+    entry: Caution
+    type: Noun
+  id: caution_cc332ab1c5c9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Caution
+- entry: ಮುಂಜಾಗ್ರತೆ
+  defs:
+  - *id103
+  id: caution_f4b493feb62f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Caution
+- entry: ಕುಳಿ
+  defs:
+  - &id104
+    entry: Cavity
+    type: Noun
+  id: cavity_853ee3b391b3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cavity
+- entry: ಪೊಳ್ಳು
+  defs:
+  - *id104
+  id: cavity_aebe5335fdf4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cavity
+- entry: ಬಿಲ
+  defs:
+  - *id104
+  id: cavity_136291124b9f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cavity
+- entry: ಛಾವಣಿ ಕೊಂಡಿ
+  defs:
+  - entry: Ceiling hook
+    type: Noun
+  id: ceilinghoo_b48fadaaa9eb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ceiling hook
+- entry: ಶ್ಮಶಾನ
+  defs:
+  - &id105
+    entry: Cemetery
+    type: Noun
+  id: cemetery_f4046c45293f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cemetery
+- entry: ಹೂಳುಗಾಡು
+  defs:
+  - *id105
+  id: cemetery_059f60f86543
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cemetery
+- entry: ಸುಡುಗಾಡು
+  defs:
+  - *id105
+  id: cemetery_1a8fd8e97067
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cemetery
+- entry: ಮಧ್ಯಪಟಲ
+  defs:
+  - &id106
+    entry: Central partition
+    type: Noun
+  id: centralpar_c0476d2ff490
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Central partition
+- entry: ಮಧ್ಯೆ ವಿಭಾಗಿಸಲ್ಪಟ್ಟ
+  defs:
+  - *id106
+  id: centralpar_c299e02c377b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Central partition
+- entry: ಮೆದುಳಿನ ಬೆನ್ನುಹುರಿ
+  defs:
+  - &id107
+    entry: Cerebro-spinal
+    type: Noun
+  id: cerebrospi_d1c9bc385703
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cerebro-spinal
+- entry: ಮಿದುಳು ಮತ್ತು ಮಿದುಳು ಬಳ್ಳಿಯ
+  defs:
+  - *id107
+  id: cerebrospi_535937997b39
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cerebro-spinal
+- entry: ಸಮಾರಂಭದ ಕವಾಯತು ವಿಧಾನ
+  defs:
+  - entry: Ceremonial drill procedure
+    type: Noun
+  id: ceremonial_8516772a07e4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ceremonial drill procedure
+- entry: ಪ್ರಮಾಣಪತ್ರ
+  defs:
+  - entry: Certificate
+    type: Noun
+  id: certificat_ba4eb620be4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Certificate
+- entry: ನಿಲುಗಡೆ
+  defs:
+  - &id108
+    entry: Cessation
+    type: Noun
+  id: cessation_9aa736706c4a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cessation
+- entry: ಸಮಾಪ್ತಿ
+  defs:
+  - *id108
+  id: cessation_0bd935de001f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cessation
+- entry: ಸರಪಳಿ
+  defs:
+  - entry: Chain
+    type: Noun
+  id: chain_b4c35679398a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chain
+- entry: ಸರಪಳಿಯ ಎತ್ತುವ ಯಂತ್ರ
+  defs:
+  - entry: Chain tackle
+    type: Noun
+  id: chaintackl_306bc51a9c97
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chain tackle
+- entry: ಚೇರ್‌ನಾಟ್
+  defs:
+  - &id109
+    entry: Chair knot
+    type: Noun
+  id: chairknot_f667fa8c85e5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chair knot
+- entry: ಖುರ್ಚಿಗಂಟು
+  defs:
+  - *id109
+  id: chairknot_8d5cd0d89a00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chair knot
+- entry: ರಕ್ಷಣಾ ಕಾರ್ಯಾಚರಣೆಯಲ್ಲಿ ಖುರ್ಚಿಯೋಪಾದಿಯಲ್ಲಿ ಹಾಕುವ ಹಗ್ಗದ ಗಂಟು
+  defs:
+  - *id109
+  id: chairknot_f9dea2c52a36
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chair knot
+- entry: ಚಾರ್‌ಪಾಯ್
+  defs:
+  - &id110
+    entry: Charpoy
+    type: Noun
+  id: charpoy_ce6dfec4551c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Charpoy
+- entry: ಹುರಿಮಂಚ
+  defs:
+  - *id110
+  id: charpoy_7d4e203c72c7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Charpoy
+- entry: ಹಗ್ಗದ ಮಂಚ
+  defs:
+  - *id110
+  id: charpoy_2103a666d001
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Charpoy
+- entry: ಹೊರಸು
+  defs:
+  - *id110
+  id: charpoy_fb9f3d09935d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Charpoy
+- entry: ಚಾರ್‌ಪಾಯ್‌ ತೆಪ್ಪ
+  defs:
+  - entry: Charpoy raft
+    type: Noun
+  id: charpoyraf_cf0f32ce1b2f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Charpoy raft
+- entry: ನಕ್ಷೆ
+  defs:
+  - &id111
+    entry: Chart
+    type: Noun
+  id: chart_5f618849ecbb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chart
+- entry: ರೇಖಾಪಟ
+  defs:
+  - *id111
+  id: chart_d60181fc3b83
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chart
+- entry: ಜಾಗರೂಕತೆಯುಳ್ಳ
+  defs:
+  - &id112
+    entry: Chary
+    type: Noun
+  id: chary_fb6ae1f2bd4e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chary
+- entry: ಎಚ್ಚರಿಕೆಯುಳ್ಳ
+  defs:
+  - *id112
+  id: chary_f27422022e95
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chary
+- entry: ರಾಸಾಯನಿಕ
+  defs:
+  - entry: Chemical
+    type: Noun
+  id: chemical_66457415b3f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chemical
+- entry: ಎದೆ
+  defs:
+  - entry: Chest
+    type: Noun
+  id: chest_9631e115f365
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chest
+- entry: ಎದೆಯ ಎಲುಬು
+  defs:
+  - entry: Chest bone
+    type: Noun
+  id: chestbone_d3e471f29171
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chest bone
+- entry: 1. ನಾಯಕ
+  defs:
+  - &id113
+    entry: Chief
+    type: Noun
+  id: chief_04258e1aa333
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chief
+- entry: ಮುಂದಾಳು 2. ಮುಖ್ಯ
+  defs:
+  - *id113
+  id: chief_7589739e0ba4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chief
+- entry: ಪ್ರಧಾನ
+  defs:
+  - *id113
+  id: chief_89f4c540d395
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chief
+- entry: ಮುಖ್ಯ ರಕ್ಷಣಾಧಿಕಾರಿ
+  defs:
+  - entry: Chief security officer
+    type: Noun
+  id: chiefsecur_735de5c656ab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chief security officer
+- entry: ಗದ್ದ.
+  defs:
+  - &id114
+    entry: Chin
+    type: Noun
+  id: chin_a9750227d9de
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chin
+- entry: ತುಟಿಯ ಕೆಳಭಾಗ
+  defs:
+  - *id114
+  id: chin_ee6ecdb2977c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Chin
+- entry: ಉಸಿರುಕಟ್ಟುವುದು
+  defs:
+  - entry: Choking
+    type: Noun
+  id: choking_adbf0cbf9ba8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Choking
+- entry: 1. ಪ್ರದಕ್ಷಿಣೆ 2. ವಿದ್ಯುದ್ವಲಯ
+  defs:
+  - entry: Circuit
+    type: Noun
+  id: circuit_c506d511ec2d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Circuit
+- entry: 1. ರಕ್ತ ಪರಿಚಲನೆ 2. ಚಲಾವಣೆಯಲ್ಲಿರುವ ಹಣ
+  defs:
+  - entry: Circulation
+    type: Noun
+  id: circulatio_5867d297b1e1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Circulation
+- entry: ಪೌರರಕ್ಷಣೆ
+  defs:
+  - entry: Civil defence
+    type: Noun
+  id: civildefen_7dc5a9e67530
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Civil defence
+- entry: ಅ೦ಟ೦ಟಾಗಿರುವ
+  defs:
+  - &id115
+    entry: Clammy
+    type: Noun
+  id: clammy_54eb2d9d412a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clammy
+- entry: ಲೋಳೆ ಲೋಳೆಯಾಗಿರುವ
+  defs:
+  - *id115
+  id: clammy_c545c43e687e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clammy
+- entry: ಮಡಿಚುಚಾಕು
+  defs:
+  - &id116
+    entry: Clasp-knife
+    type: Noun
+  id: claspknife_cc7d3e7b8cab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clasp-knife
+- entry: ಮಡಿಚಿ- ಜೇಬಿನಲ್ಲಿಟ್ಟು ಕೊಳ್ಳಬಹುದಾದ ಚಾಕು
+  defs:
+  - *id116
+  id: claspknife_88468bc8f643
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clasp-knife
+- entry: ಖಂಡ
+  defs:
+  - &id117
+    entry: Clause
+    type: Noun
+  id: clause_27a82e3d6229
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clause
+- entry: ಕಲಮು
+  defs:
+  - *id117
+  id: clause_d012a0160228
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clause
+- entry: ವಿಧಿ
+  defs:
+  - *id117
+  id: clause_3584d422cbae
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clause
+- entry: ಕೊರಳೆಲುಬು
+  defs:
+  - &id118
+    entry: Clavicle
+    type: Noun
+  id: clavicle_f4bb71bf8db5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clavicle
+- entry: ಕತ್ತಿನ ಮೂಳೆ
+  defs:
+  - *id118
+  id: clavicle_8777f2be92ef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clavicle
+- entry: 1. ಗಡ್ಡೆಗಟ್ಟು
+  defs:
+  - &id119
+    entry: Clot
+    type: Noun
+  id: clot_99c4dc094eac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clot
+- entry: ಹೆಪ್ಪುಗಟ್ಟು 2. ಗಡ್ಡೆ
+  defs:
+  - *id119
+  id: clot_36bbd86a769a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clot
+- entry: ಹೆಪ್ಪು
+  defs:
+  - *id119
+  id: clot_279ccd073f31
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clot
+- entry: ಬಟ್ಟೆಬರೆ
+  defs:
+  - &id120
+    entry: Clothing
+    type: Noun
+  id: clothing_d9e4858688a0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clothing
+- entry: ಉಡುಪು
+  defs:
+  - *id120
+  id: clothing_9d5b62a38803
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clothing
+- entry: ಜೀರ್ಗುಣಿಕೆ
+  defs:
+  - &id121
+    entry: Clove hitch
+    type: Noun
+  id: clovehitch_e741914bfa9e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clove hitch
+- entry: ಎಳೆದೆಳೆದಂತೆ ಮತ್ತೂ ಬಿಗಿದುಕೊಳ್ಳುವ ಒಂದು ವಿಧವಾದ ಗಂಟು
+  defs:
+  - *id121
+  id: clovehitch_b46638fd6301
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clove hitch
+- entry: ಕ್ಲಸ್ಟರ್‌ ಅಂಡ್‌ ಕಂಟೇನರ್
+  defs:
+  - &id122
+    entry: Clusters and containers
+    type: Noun
+  id: clustersan_0d027777dfe4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clusters and containers
+- entry: ಬಾಂಬ್‌ ಆಗಿ ಪರಿವರ್ತನೆಗೊಳ್ಳುವ ಸ್ಫೋಟಕ ವಸ್ತುಗಳ ಸಮೂಹ ಮತ್ತು ಭೀಕರ ಸ್ಫೋಟಕಗಳ ಧಾರಕ
+  defs:
+  - *id122
+  id: clustersan_6fb3dac5a718
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Clusters and containers
+- entry: ಕಲ್ಲಿದ್ದಲಿನ ಅನಿಲ
+  defs:
+  - entry: Coalgas
+    type: Noun
+  id: coalgas_f26d6c777f2e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coalgas
+- entry: ಕಾಕ್ಸಿಕ್ಸ್
+  defs:
+  - &id123
+    entry: Coccyx
+    type: Noun
+  id: coccyx_96a78e5f839a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coccyx
+- entry: ಮನುಷ್ಯನ ಬೆನ್ನುಹುರಿಯ ಬುಡದಲ್ಲಿರುವ ಮುಮ್ಮೂಲೆ ಮೂಳೆ
+  defs:
+  - *id123
+  id: coccyx_377bb0c86c3f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coccyx
+- entry: ಕಾಫಿಗಸಿ
+  defs:
+  - &id124
+    entry: Coffee ground
+    type: Noun
+  id: coffeegrou_9e1ac813e710
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coffee ground
+- entry: ಕಾಫಿ ಡಿಕಾಕ್ಶನ್
+  defs:
+  - *id124
+  id: coffeegrou_15eb3df366fa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coffee ground
+- entry: ಅರಿವು
+  defs:
+  - &id125
+    entry: Cognisance
+    type: Noun
+  id: cognisance_eeaf50a37a94
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cognisance
+- entry: ತಿಳಿವಳಿಕೆ
+  defs:
+  - *id125
+  id: cognisance_e41cd85c0a2c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cognisance
+- entry: ತೆಂಗಿನನಾರು
+  defs:
+  - &id126
+    entry: Coir
+    type: Noun
+  id: coir_94b6313aa5b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coir
+- entry: ಕಡಬೆ
+  defs:
+  - *id126
+  id: coir_e2b28d556e59
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coir
+- entry: ಕಾತಿ
+  defs:
+  - *id126
+  id: coir_d76f525e40ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coir
+- entry: 1. ಕುಸಿದು ಬೀಳುವ 2. ಮುದುಡಿಕೊಳ್ಳುವ
+  defs:
+  - entry: Collapsible
+    type: Noun
+  id: collapsibl_f16de73a3c56
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Collapsible
+- entry: ಕೊರಳೆಲುಬು
+  defs:
+  - &id127
+    entry: Collar-bone
+    type: Noun
+  id: collarbone_c87722e10ae1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Collar-bone
+- entry: ಕತ್ತಿನ .ಮೂಳೆ
+  defs:
+  - *id127
+  id: collarbone_dcaf5ecdb47d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Collar-bone
+- entry: ಸಂಗ್ರಹಣ ಕೇಂದ್ರ
+  defs:
+  - entry: Collecting head
+    type: Noun
+  id: collecting_1bd830a370ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Collecting head
+- entry: 1. ಯುದ್ಧ
+  defs:
+  - &id128
+    entry: Combat
+    type: Noun
+  id: combat_d56181801083
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Combat
+- entry: ಕಾಳಗಮಾಡು
+  defs:
+  - *id128
+  id: combat_962854dc0679
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Combat
+- entry: ಹೋರಾಡು 2. ಯುದ್ಧ
+  defs:
+  - *id128
+  id: combat_0810fe884342
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Combat
+- entry: ಕಾಳಗ
+  defs:
+  - *id128
+  id: combat_eb1055e1fbdd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Combat
+- entry: ಹೋರಾಟ
+  defs:
+  - *id128
+  id: combat_cbc1d255409e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Combat
+- entry: 1. ಅಪ್ಪಣೆ ಮಾಡು
+  defs:
+  - &id129
+    entry: Command
+    type: Noun
+  id: command_92820b60d3de
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Command
+- entry: ಆಜ್ಞಾಪಿಸು 2. ಅಪ್ಪಣೆ
+  defs:
+  - *id129
+  id: command_fc95b5b2601c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Command
+- entry: ಆಜ್ಞಾಪನೆ
+  defs:
+  - *id129
+  id: command_09da903b920d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Command
+- entry: ಕಮಾಂಡೆಂಟ್
+  defs:
+  - &id130
+    entry: Commandant
+    type: Noun
+  id: commandant_6e5d91eb4f4d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commandant
+- entry: ಸಮಾದೇಶಕ
+  defs:
+  - *id130
+  id: commandant_d3c2b54bf9dd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commandant
+- entry: ಸಮಾದೇಷ್ಟ
+  defs:
+  - *id130
+  id: commandant_1037a96531a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commandant
+- entry: ಗೃಹ ರಕ್ಷಕದಳದ ಮಹಾಸಮಾದೇಶಕ
+  defs:
+  - entry: Commandant general home guards
+    type: Noun
+  id: commandant_55204b175ca2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commandant general home guards
+- entry: ಕಮಾಂಡರ್
+  defs:
+  - &id131
+    entry: Commander
+    type: Noun
+  id: commander_59fa1f6d1e73
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commander
+- entry: ನಾಯಕ
+  defs:
+  - *id131
+  id: commander_70027280bb5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commander
+- entry: ದಳಪತಿ
+  defs:
+  - *id131
+  id: commander_be7c4ed62087
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commander
+- entry: ಸರಕು
+  defs:
+  - &id132
+    entry: Commodity
+    type: Noun
+  id: commodity_72a275e3ed28
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commodity
+- entry: ಪದಾರ್ಥ
+  defs:
+  - *id132
+  id: commodity_2248ac5bddaa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commodity
+- entry: ದಿನಸಿ
+  defs:
+  - *id132
+  id: commodity_f338d2c457c1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commodity
+- entry: ಗಲಭೆ
+  defs:
+  - &id133
+    entry: Commotion
+    type: Noun
+  id: commotion_5ca5e5928de4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commotion
+- entry: ಗಲಾಟೆ
+  defs:
+  - *id133
+  id: commotion_7068411f58a4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commotion
+- entry: ಗದ್ದಲ
+  defs:
+  - *id133
+  id: commotion_fa28c92a85eb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Commotion
+- entry: ಸಂದೇಶ
+  defs:
+  - &id134
+    entry: Communication
+    type: Noun
+  id: communicat_e9db07292c4c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Communication
+- entry: ಸುದ್ದಿ
+  defs:
+  - *id134
+  id: communicat_480fdadd5c3b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Communication
+- entry: ಸಮಾಚಾರ
+  defs:
+  - *id134
+  id: communicat_e67171eb66fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Communication
+- entry: ಸಮುದಾಯ
+  defs:
+  - &id135
+    entry: Community
+    type: Noun
+  id: community_749cd63c1853
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Community
+- entry: ಸಮಾಜ
+  defs:
+  - *id135
+  id: community_96400e713ec9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Community
+- entry: ಕನಿಕರ
+  defs:
+  - &id136
+    entry: Compassion
+    type: Noun
+  id: compassion_fe314d708f08
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compassion
+- entry: ಅನುಕಂಪ
+  defs:
+  - *id136
+  id: compassion_45c97a36a8ae
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compassion
+- entry: ನಷ್ಟಪರಿಹಾರ
+  defs:
+  - entry: Compensation
+    type: Noun
+  id: compensati_da316ac68d2d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compensation
+- entry: ದೂರು
+  defs:
+  - &id137
+    entry: Complaint
+    type: Noun
+  id: complaint_b1276df80661
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Complaint
+- entry: ಫಿರ್ಯಾದು
+  defs:
+  - *id137
+  id: complaint_5311247ad8b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Complaint
+- entry: ಈಡೇರಿಕೆ
+  defs:
+  - &id138
+    entry: Compliance
+    type: Noun
+  id: compliance_c5b656ec4a0b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compliance
+- entry: ಪಾಲನೆ
+  defs:
+  - *id138
+  id: compliance_e8596fe86c8f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compliance
+- entry: ಸಂಮಿಶ್ರ ಮೂಳೆಮುರಿತ
+  defs:
+  - entry: Complicated fracture
+    type: Noun
+  id: complicate_cfd50850da46
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Complicated fracture
+- entry: ಸಂಯೋಜಿತ ಸೇತುವೆ
+  defs:
+  - entry: Composite bridge
+    type: Noun
+  id: compositeb_84254146921d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Composite bridge
+- entry: ಸಂಯುಕ್ತ ಮೂಳೆಮುರಿತ
+  defs:
+  - entry: Compound fracture
+    type: Noun
+  id: compoundfr_77b44fa88df0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compound fracture
+- entry: ಅಡಕಗೊಳಿಸುವಿಕೆ
+  defs:
+  - &id139
+    entry: Compression
+    type: Noun
+  id: compressio_b70761f95be9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compression
+- entry: ಕುಗ್ಗಿಸುವಿಕೆ
+  defs:
+  - *id139
+  id: compressio_3fc70b863605
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compression
+- entry: ಕಡ್ಡಾಯದ
+  defs:
+  - &id140
+    entry: Compulsory
+    type: Noun
+  id: compulsory_ac60d2f6cf31
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compulsory
+- entry: ನಿರ್ಬಂಧಕ
+  defs:
+  - *id140
+  id: compulsory_ed4a1cb024aa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Compulsory
+- entry: ಜೋರಾದ ಏಟು
+  defs:
+  - &id141
+    entry: Concussion
+    type: Noun
+  id: concussion_b8247fa63aa8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Concussion
+- entry: ಕುಲುಕಾಟ
+  defs:
+  - *id141
+  id: concussion_75b8a3b37238
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Concussion
+- entry: ಮೊ. ಗಳಿಂದ ಮೆದುಳಿಗೆ ಉ೦ಟಾಗುವ ಆಘಾತ
+  defs:
+  - *id141
+  id: concussion_3c10c07a578a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Concussion
+- entry: 1. ನಡೆಸು
+  defs:
+  - &id142
+    entry: Conduct
+    type: Noun
+  id: conduct_9c9994b7870f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conduct
+- entry: ನಿರ್ವಹಿಸು 2. ದಾರಿ ತೋರು
+  defs:
+  - *id142
+  id: conduct_13948347445a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conduct
+- entry: ಮಾರ್ಗದರ್ಶನ ಮಾಡು 3. ವರ್ತಿಸು
+  defs:
+  - *id142
+  id: conduct_c6b5cc394910
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conduct
+- entry: ನಡೆದುಕೊ 4. ನಡೆಸುವಿಕೆ
+  defs:
+  - *id142
+  id: conduct_7c5c46894970
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conduct
+- entry: ನಿರ್ವಹಣೆ 5. ವರ್ತನೆ
+  defs:
+  - *id142
+  id: conduct_e5003a8cb5b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conduct
+- entry: ನಡತೆ
+  defs:
+  - *id142
+  id: conduct_75521b0532ec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conduct
+- entry: 1. ವಾಹಕ 2. ನಿರ್ವಾಹಕ
+  defs:
+  - entry: Conductor
+    type: Noun
+  id: conductor_7ee056115934
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conductor
+- entry: 1. ರಕ್ತಗಟ್ಟಿದ 2. ಒತ್ತೊತ್ತಾದ
+  defs:
+  - &id143
+    entry: Congested
+    type: Noun
+  id: congested_2cd8b524d89a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Congested
+- entry: ಕಿಕ್ಕಿರಿದ
+  defs:
+  - *id143
+  id: congested_7d3f61158a3b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Congested
+- entry: ಸ್ಥಿರೀಕರಿಸು
+  defs:
+  - &id144
+    entry: Confirm
+    type: Noun
+  id: confirm_518f7ceaeaf0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Confirm
+- entry: ಸ್ಥಿರಪಡಿಸು
+  defs:
+  - *id144
+  id: confirm_ab5b69e22d66
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Confirm
+- entry: ಸ್ಥಿರೀಕರಣ
+  defs:
+  - entry: Confirmation
+    type: Noun
+  id: confirmati_31afa50fb8a9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Confirmation
+- entry: ಜೋಡಿಸು
+  defs:
+  - &id145
+    entry: Connect
+    type: Noun
+  id: connect_dc87db309d2b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Connect
+- entry: ಸೇರಿಸು
+  defs:
+  - *id145
+  id: connect_f1551e9557ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Connect
+- entry: ಕೂಡಿಸು
+  defs:
+  - *id145
+  id: connect_a8b566e8215f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Connect
+- entry: ಚೇತನವುಳ್ಳ
+  defs:
+  - &id146
+    entry: Conscious
+    type: Noun
+  id: conscious_e9ab6fcd2190
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conscious
+- entry: ಪ್ರಜ್ಞೆಯುಳ್ಳ
+  defs:
+  - *id146
+  id: conscious_09ca005d1ad4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Conscious
+- entry: ಸಂಚಿತನಿಧಿ
+  defs:
+  - entry: Consolidated fund
+    type: Noun
+  id: consolidat_dc63e81ad7ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Consolidated fund
+- entry: ಸಂವಿಧಾನ
+  defs:
+  - entry: Constitution
+    type: Noun
+  id: constituti_c24ac1654ef3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Constitution
+- entry: ಅರ್ಥೈಸು
+  defs:
+  - &id147
+    entry: Construe
+    type: Noun
+  id: construe_2e4a8bfc4584
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Construe
+- entry: ವ್ಯಾಖ್ಯಾನಿಸು
+  defs:
+  - *id147
+  id: construe_4d06f7b5aa6f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Construe
+- entry: ಅಂಟುವ
+  defs:
+  - &id148
+    entry: Contagious
+    type: Noun
+  id: contagious_71063650101c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contagious
+- entry: ಸೋಂಕುವ
+  defs:
+  - *id148
+  id: contagious_93d74f1c0ba3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contagious
+- entry: ಧಾರಕ
+  defs:
+  - entry: Container
+    type: Noun
+  id: container_8d04da743262
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Container
+- entry: 1. ಕಲುಷಿತಗೊಳಿಸುವುದು 2. ಕಲುಷಿತ ಸ್ಥಿತಿ
+  defs:
+  - &id149
+    entry: Contamination
+    type: Noun
+  id: contaminat_ca191448be1d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contamination
+- entry: ಮಾಲಿನ್ಯ
+  defs:
+  - *id149
+  id: contaminat_ee0d941b6e27
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contamination
+- entry: ಸಂಕೋಚನ
+  defs:
+  - &id150
+    entry: Contraction
+    type: Noun
+  id: contractio_22369bf90ce6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contraction
+- entry: ಕುಗ್ಗುವುದು
+  defs:
+  - *id150
+  id: contractio_c77a7ecbc064
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contraction
+- entry: ಸಂಕೋಚಕ ಮಾಂಸ ಖಂಡಗಳು
+  defs:
+  - entry: Contractile muscles
+    type: Noun
+  id: contractil_75d65fcb1a5b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contractile muscles
+- entry: ಉಲ್ಲಂಘಿಸು
+  defs:
+  - &id151
+    entry: Contravene
+    type: Noun
+  id: contravene_1dd566934fd4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contravene
+- entry: ಮೀರು
+  defs:
+  - *id151
+  id: contravene_8ec25be925b1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contravene
+- entry: ಉಲ್ಲಂಘನೆ
+  defs:
+  - entry: Contravention
+    type: Noun
+  id: contravent_21f406872925
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contravention
+- entry: 1. ಕೊಡುಗೆ
+  defs:
+  - &id152
+    entry: Contribution
+    type: Noun
+  id: contributi_66b0ca9244bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contribution
+- entry: ದಾನ 2. ಚಂದಾ
+  defs:
+  - *id152
+  id: contributi_f29dcd323752
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contribution
+- entry: ವಂತಿಗೆ
+  defs:
+  - *id152
+  id: contributi_e3b0cf87f726
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Contribution
+- entry: 1. ನಿಯಂತ್ರಿಸು
+  defs:
+  - &id153
+    entry: Control
+    type: Noun
+  id: control_e9792d53af6d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Control
+- entry: ಹತೋಟಿಯಲ್ಲಿಡು 2. ನಿಯಂತ್ರಣ
+  defs:
+  - *id153
+  id: control_c803688886b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Control
+- entry: ಹತೋಟಿ.
+  defs:
+  - *id153
+  id: control_38fa6fdb9610
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Control
+- entry: ಬೆಳಕು ಮತ್ತು ದ್ವನಿ ನಿಯಂತ್ರಣ
+  defs:
+  - entry: Control of light and sound
+    type: Noun
+  id: controlofl_eaefc0afb9a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Control of light and sound
+- entry: ಪರಿವರ್ತಿಸು
+  defs:
+  - &id154
+    entry: Convert
+    type: Noun
+  id: convert_68a59673b439
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Convert
+- entry: ಮಾರ್ಪಡಿಸು
+  defs:
+  - *id154
+  id: convert_e6fa1fd9b060
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Convert
+- entry: 1. ಬೆಂಗಾವಲು ರಕ್ಷಣೆ 2. ಬೆಂಗಾವಲು ದಳ
+  defs:
+  - entry: Convoy
+    type: Noun
+  id: convoy_de9d0333268a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Convoy
+- entry: ಸೆಳವು
+  defs:
+  - &id155
+    entry: Convulsion
+    type: Noun
+  id: convulsion_c2c1ceecbb0d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Convulsion
+- entry: ಸೆಟಿತ
+  defs:
+  - *id155
+  id: convulsion_2ec167eb11d3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Convulsion
+- entry: ಸಮನ್ವಯ
+  defs:
+  - &id156
+    entry: Cotordinate
+    type: Noun
+  id: cotordinat_3eb07e590577
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cotordinate
+- entry: ಹೊಂದಾಣಿಕೆ ಮಾಡು
+  defs:
+  - *id156
+  id: cotordinat_2e5943c52a0c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cotordinate
+- entry: ತಾಮ್ರದ ಸೋಸಿಗೆ
+  defs:
+  - entry: Copper strainer
+    type: Noun
+  id: copperstra_228f9162c475
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Copper strainer
+- entry: ಹಡಗಿನ ಹಗ್ಗ
+  defs:
+  - &id157
+    entry: Cordage
+    type: Noun
+  id: cordage_7c697f60a0c1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordage
+- entry: ಹುರಿಗಳು
+  defs:
+  - *id157
+  id: cordage_6697ecd3b2b2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordage
+- entry: 1. ಹೃದಯದ
+  defs:
+  - &id158
+    entry: Cordial
+    type: Noun
+  id: cordial_d85fb58bb5fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordial
+- entry: ಗುಂಡಿಗೆಯ 2. ಸೌಹಾರ್ದದ
+  defs:
+  - *id158
+  id: cordial_5282e75a64e2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordial
+- entry: ವಿಶ್ವಾಸಪೂರ್ವಕ
+  defs:
+  - *id158
+  id: cordial_d355b7d9fb51
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordial
+- entry: ಧೂಮರಹಿತ ಸ್ಫೋಟಕ
+  defs:
+  - &id159
+    entry: Cordite
+    type: Noun
+  id: cordite_4d2ed50617f1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordite
+- entry: ಹೊಗೆ ಹೊರಡದ ಒಂದು ಸಿಡಿಮದ್ದು
+  defs:
+  - *id159
+  id: cordite_5cd2d5187f3e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cordite
+- entry: ಬಿರಡೆ
+  defs:
+  - &id160
+    entry: Cork-screw
+    type: Noun
+  id: corkscrew_9287f4167858
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cork-screw
+- entry: ತಿರುಪು
+  defs:
+  - *id160
+  id: corkscrew_f4f244ed86aa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cork-screw
+- entry: ಪೌರಹಕ್ಕುಳ್ಳ ಪಟ್ಟಣ
+  defs:
+  - entry: Corporate town
+    type: Noun
+  id: corporatet_be39fd6eb4fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corporate town
+- entry: ದಳ
+  defs:
+  - entry: Corps
+    type: Noun
+  id: corps_a3cb9bb0db72
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corps
+- entry: ಶವ
+  defs:
+  - &id161
+    entry: Corpse
+    type: Noun
+  id: corpse_bc8c56e662a0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corpse
+- entry: ಹೆಣ
+  defs:
+  - *id161
+  id: corpse_f3cc12addaf6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corpse
+- entry: ತುಕ್ಕುಹಿಡಿಸುವ
+  defs:
+  - &id162
+    entry: Corrosive
+    type: Noun
+  id: corrosive_74e00e0c4fa6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corrosive
+- entry: ನಾಶಕಾರಿ
+  defs:
+  - *id162
+  id: corrosive_98f942160254
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corrosive
+- entry: ನಾಶಕಾರಿ ಕ್ಷಾರ
+  defs:
+  - entry: Corrosive alkali
+    type: Noun
+  id: corrosivea_85a0d85fadff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corrosive alkali
+- entry: ನಾಶಕಾರಿ ವಿಷ
+  defs:
+  - entry: Corrosive poison
+    type: Noun
+  id: corrosivep_6f97dd2f9005
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corrosive poison
+- entry: ತೀಕ್ಷ್ಣ ವಿಷಪದಾರ್ಥವಾದ
+  defs:
+  - &id163
+    entry: Corrosive sublimate
+    type: Noun
+  id: corrosives_0da459dc6740
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corrosive sublimate
+- entry: ಶಿಲೀಂಧ್ರನಾಶಕವಾಗಿ ಬಳಸುವ ಮರ್ಕ್ಯುರಿಕ್ ಕ್ಲೋರೈಡ್
+  defs:
+  - *id163
+  id: corrosives_48f7c36aa442
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corrosive sublimate
+- entry: ಒಳಗವಚ
+  defs:
+  - &id164
+    entry: Corset
+    type: Noun
+  id: corset_706786f3bc98
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corset
+- entry: ಬೆನ್ನುಮೂಳೆ
+  defs:
+  - *id164
+  id: corset_b1209a75a2e2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corset
+- entry: ಎದೆ ಗೂಡುಗಳ ದೋಷ ಸರಿಪಡಿಸಲು ಹಾಕುವ ಆಸರೆ
+  defs:
+  - *id164
+  id: corset_0304ff609f16
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Corset
+- entry: ಸ೦ಯೋಜಕ
+  defs:
+  - &id165
+    entry: Coupling
+    type: Noun
+  id: coupling_fccd4d1b2592
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coupling
+- entry: ಜೋಡಣೆಯ ಸಲಕರಣೆ
+  defs:
+  - *id165
+  id: coupling_6b948ca8bcd3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Coupling
+- entry: ತೊಟ್ಟಿಲು
+  defs:
+  - entry: Cradle
+    type: Noun
+  id: cradle_0974353d4538
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cradle
+- entry: ಮಾಂಸಖಂಡದ ಹಿಡಿತ
+  defs:
+  - &id166
+    entry: Cramp
+    type: Noun
+  id: cramp_f8c378def5ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cramp
+- entry: ಸೆಡೆತ
+  defs:
+  - *id166
+  id: cramp_1082825a50a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cramp
+- entry: ವಟ್ಟಿ
+  defs:
+  - *id166
+  id: cramp_61a52a1c1a8a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cramp
+- entry: ಬಾಗಿದ ಅಚ್ಚು
+  defs:
+  - entry: Cranked axle
+    type: Noun
+  id: crankedaxl_e7b644d5f95b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cranked axle
+- entry: ದಿಢೀರ್‌ ಬ್ಲ್ಯಾಕ್‌ಔಟ್
+  defs:
+  - entry: Crash black out
+    type: Noun
+  id: crashblack_d5a987f71ab3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crash black out
+- entry: ಕ್ರೇಟರ್ಸ್ ಅಂಡ್‌ ಕ್ಯಾಮುಷ್ಲೆಟ್ಸ್
+  defs:
+  - &id167
+    entry: Craters and camouflets
+    type: Noun
+  id: cratersand_0bced3c8a6ab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Craters and camouflets
+- entry: ಭೂಮಿಯ ಮೇಲೆ ಮತ್ತು ಒಳಗೆ ಸ್ಫೋಟಗೊಂಡ ಬಾಂಬುಗಳಿಂದಾದ ಕುಳಿಗಳು
+  defs:
+  - *id167
+  id: cratersand_f55daf41de02
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Craters and camouflets
+- entry: ಕೆನೆ
+  defs:
+  - entry: Cream
+    type: Noun
+  id: cream_7c1e927e029f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cream
+- entry: ಶವದಹನ
+  defs:
+  - entry: Cremation
+    type: Noun
+  id: cremation_790841c88d17
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cremation
+- entry: ಚಿಟಚಿಟ ಸದ್ದುಮಾಡು
+  defs:
+  - entry: Crepitate
+    type: Noun
+  id: crepitate_58420b0c2c39
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crepitate
+- entry: ಮುರಿದ ಮೂಳೆಗಳ ತುದಿಗಳು ಒಂದಕ್ಕೊಂದು ತಾಗಿ ಉಂಟು ಮಾಡುವ ಚಟಪಟಿಕೆ
+  defs:
+  - entry: Crepitus
+    type: Noun
+  id: crepitus_b169423a1893
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crepitus
+- entry: ದಾಟು
+  defs:
+  - entry: Cross
+    type: Noun
+  id: cross_8aeb93c859dd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cross
+- entry: ಹಾರೆ
+  defs:
+  - &id168
+    entry: Crowbar
+    type: Noun
+  id: crowbar_25bcfd0a4a60
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crowbar
+- entry: ಗಡಾರಿ
+  defs:
+  - *id168
+  id: crowbar_e0349266c2fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crowbar
+- entry: ಘಸಿ
+  defs:
+  - *id168
+  id: crowbar_2f0a3c0700e2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crowbar
+- entry: ಸಮೂಹ ನಿಯಂತ್ರಣ ಮತ್ತು ಲಾಠಿ ಕವಾಯತು
+  defs:
+  - entry: Crowd control and lathi drill
+    type: Noun
+  id: crowdcontr_ce6266e6bc01
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crowd control and lathi drill
+- entry: ಜಜ್ಜಿದ ಪಾದ
+  defs:
+  - entry: Crushed foot
+    type: Noun
+  id: crushedfoo_baee964815aa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crushed foot
+- entry: ಜಜ್ಜಿದ ಹಸ್ತ
+  defs:
+  - entry: Crushed hand
+    type: Noun
+  id: crushedhan_e3a7debb75c7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Crushed hand
+- entry: ಸಿ.ಟಿ.ಸಿ. ಶಾಮಕ
+  defs:
+  - entry: C.T.C. extinguisher
+    type: Noun
+  id: ctcextingu_1410d7a47797
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: C.T.C. extinguisher
+- entry: ಘನ ಅಂಗುಲ
+  defs:
+  - entry: Cubicinch
+    type: Noun
+  id: cubicinch_8df7e8a86de5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cubicinch
+- entry: 1. ಜಲ ಯಾ ವಿದ್ಯುತ್‌ ಪ್ರವಾಹ 2. ಚಾಲ್ತಿ
+  defs:
+  - &id169
+    entry: Current
+    type: Noun
+  id: current_f720d7aed12c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Current
+- entry: ಬಳಕೆಯಲ್ಲಿರುವ
+  defs:
+  - *id169
+  id: current_3ab4d67e054f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Current
+- entry: ಅಭಿರಕ್ಷೆ
+  defs:
+  - &id170
+    entry: Custody
+    type: Noun
+  id: custody_561369af60fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Custody
+- entry: ವಶ
+  defs:
+  - *id170
+  id: custody_d69ca8c6e757
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Custody
+- entry: ಕತ್ತರಿಸುವ ಸಾಧನ
+  defs:
+  - entry: Cutting edge
+    type: Noun
+  id: cuttingedg_7128317b7ea0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Cutting edge
+- entry: ಹಾನಿ
+  defs:
+  - &id171
+    entry: Damage
+    type: Noun
+  id: damage_abc1f6f515c1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Damage
+- entry: ನಷ್ಟ
+  defs:
+  - *id171
+  id: damage_608003864888
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Damage
+- entry: ಅಪಾಯ
+  defs:
+  - entry: Danger
+    type: Noun
+  id: danger_01a3fe774636
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Danger
+- entry: ಅಪಾಯಕರ ಪರಿಸ್ಥಿತಿ
+  defs:
+  - entry: Dangerous situation
+    type: Noun
+  id: dangerouss_cc4c8cfe80b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dangerous situation
+- entry: ಕಡುಗೆಂಪು
+  defs:
+  - entry: Dark red
+    type: Noun
+  id: darkred_37709a1325f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dark red
+- entry: ಪೂರ್ತಿಪ್ರಜ್ಞೆ ತಪ್ಪಿದ
+  defs:
+  - entry: Dead faint
+    type: Noun
+  id: deadfaint_d500cab16a2c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dead faint
+- entry: ಶವಾಗಾರ
+  defs:
+  - &id172
+    entry: Dead house
+    type: Noun
+  id: deadhouse_b791a13ff1e9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dead house
+- entry: ಹೆಣದ ಮನೆ
+  defs:
+  - *id172
+  id: deadhouse_dd060723f6dc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dead house
+- entry: 1. ಹುಸಿದಡ
+  defs:
+  - &id173
+    entry: Dead shore
+    type: Noun
+  id: deadshore_0c94e083eaf3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dead shore
+- entry: ದಂಡೆ 2. ದಡದ ಕೊನೆ
+  defs:
+  - *id173
+  id: deadshore_943f7b38e552
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dead shore
+- entry: 1. ವ್ಯವಹರಿಸು 2. ವ್ಯವಹಾರ
+  defs:
+  - entry: Deal
+    type: Noun
+  id: deal_7c2ccc5c5442
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deal
+- entry: ಭಗ್ನಾವಶೇಷ
+  defs:
+  - &id174
+    entry: Debris
+    type: Noun
+  id: debris_5e8fa526fec4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Debris
+- entry: ಮುರುಕಲುಗುಪ್ಪೆ
+  defs:
+  - *id174
+  id: debris_a61097c93b4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Debris
+- entry: 1. ನಾಶವಾಗು
+  defs:
+  - &id175
+    entry: Decay
+    type: Noun
+  id: decay_1988d9a18e78
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Decay
+- entry: ಹಾಳಾಗು 2. ನಾಶ
+  defs:
+  - *id175
+  id: decay_ce1c6fbe1b66
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Decay
+- entry: ಹಾಳು
+  defs:
+  - *id175
+  id: decay_00e6fe5556a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Decay
+- entry: ಮೋಸಗೊಳಿಸು
+  defs:
+  - entry: Deceive
+    type: Noun
+  id: deceive_2cbbe0499a33
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deceive
+- entry: ಅರ್ಪಿಸು
+  defs:
+  - &id176
+    entry: Dedicate
+    type: Noun
+  id: dedicate_952f4ec033a3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dedicate
+- entry: ನಿವೇದಿಸು
+  defs:
+  - *id176
+  id: dedicate_5c566eb18f18
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dedicate
+- entry: ಪರಿಗಣಿತ
+  defs:
+  - &id177
+    entry: Deemed
+    type: Noun
+  id: deemed_aba6e24cca3e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deemed
+- entry: ಭಾವಿಸಿದ
+  defs:
+  - *id177
+  id: deemed_918e619e3adb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deemed
+- entry: ದೀರ್ಘಶ್ವಾಸ
+  defs:
+  - &id178
+    entry: Deep breath
+    type: Noun
+  id: deepbreath_cb7f6ddb01ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deep breath
+- entry: ಆಳವಾದ ಉಸಿರು
+  defs:
+  - *id178
+  id: deepbreath_ade4af9c1e4d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deep breath
+- entry: ರಕ್ಷಣೆ
+  defs:
+  - entry: Defence
+    type: Noun
+  id: defence_3eec064ad520
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Defence
+- entry: 1. ನಿರೂಪಿಸು 2. ನಿರ್ಧರಿಸು
+  defs:
+  - entry: Define
+    type: Noun
+  id: define_ec6a2f6b8156
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Define
+- entry: ವಿರೂಪತೆ
+  defs:
+  - &id179
+    entry: Deformity
+    type: Noun
+  id: deformity_b8ec1388a093
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deformity
+- entry: ವಿಕಾರ
+  defs:
+  - *id179
+  id: deformity_57f90aa008fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deformity
+- entry: ಸನ್ನಿ
+  defs:
+  - &id180
+    entry: Delirium
+    type: Noun
+  id: delirium_7461dac7f7ef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Delirium
+- entry: ಕಾಯಿಲೆಯಿಂದ ಬುದ್ಧಿ ವಿಕಲ್ಪವಾಗಿ ಅಸಂಬದ್ಧವಾಗಿ ಮಾತಾಡುವಿಕೆ
+  defs:
+  - *id180
+  id: delirium_765c35131244
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Delirium
+- entry: ನೀರು ಹೊರಬಿಡುವ ಮಾರ್ಗ
+  defs:
+  - entry: Delivery outlet
+    type: Noun
+  id: deliveryou_616ae4cdac42
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Delivery outlet
+- entry: 1. ತಗಾದೆ ಮಾಡು 2. ತಗಾದೆ 3. ಬೇಡಿಕೆ
+  defs:
+  - &id181
+    entry: Demand
+    type: Noun
+  id: demand_38783a6830bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demand
+- entry: ಕೋರಿಕೆ
+  defs:
+  - *id181
+  id: demand_d4d1fa3095e2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demand
+- entry: ಕೆಡುಹುವಿಕೆ
+  defs:
+  - &id182
+    entry: Demolition
+    type: Noun
+  id: demolition_eb12b6776bb0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demolition
+- entry: ನೆಲಸಮ ಮಾಡುವಿಕೆ
+  defs:
+  - *id182
+  id: demolition_39cda9a9a382
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demolition
+- entry: 1. ಪ್ರದರ್ಶನ 2. ಪ್ರಾತ್ಯಕ್ಷಿಕೆ
+  defs:
+  - entry: Demonstration
+    type: Noun
+  id: demonstrat_4821d2b68e48
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demonstration
+- entry: ಶಾಮಕಪೇಯ
+  defs:
+  - &id183
+    entry: Demulcent drink
+    type: Noun
+  id: demulcentd_0249c59756d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demulcent drink
+- entry: ಔಷದದ ವಿ. ಉಪಶಮನ ಮಾಡುವ ಪಾನೀಯ
+  defs:
+  - *id183
+  id: demulcentd_c8b519dd32b3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Demulcent drink
+- entry: ಮಳಿಗೆ
+  defs:
+  - entry: Depot
+    type: Noun
+  id: depot_bde0fa6285d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Depot
+- entry: ಅಪಹರಿಸು
+  defs:
+  - &id184
+    entry: Deprive
+    type: Noun
+  id: deprive_3f78df1345c2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deprive
+- entry: ಕಿತ್ತುಕೊ
+  defs:
+  - *id184
+  id: deprive_58fc30450786
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Deprive
+- entry: ತೇವ ತೆಗೆಯುವ ವ್ಯಕ್ತಿ ಯಾ ಸಾಧನ
+  defs:
+  - entry: Desiccator
+    type: Noun
+  id: desiccator_38d092af11d6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Desiccator
+- entry: ಡೆಸೆರ್ಟ್‌ಸ್ಟೂನ್
+  defs:
+  - &id185
+    entry: Dessert-spoon
+    type: Noun
+  id: dessertspo_773fb2923a19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dessert-spoon
+- entry: ಟೇಬಲ್‌ ಸ್ಪೂನಿಗಿಂತ ಸಣ್ಣದೂ ಟೀ ಸ್ಪೂನಿಗಿಂತ ದೊಡ್ಡದೂ ಆದ ಚಮಚ
+  defs:
+  - *id185
+  id: dessertspo_ef67e8e0c8b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dessert-spoon
+- entry: ನಾಶ
+  defs:
+  - &id186
+    entry: Destruction
+    type: Noun
+  id: destructio_a2b91f384c3e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Destruction
+- entry: ಅಳಿವು
+  defs:
+  - *id186
+  id: destructio_46c191bc8c7d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Destruction
+- entry: ಬಿಡಿಸಬಲ್ಲ
+  defs:
+  - &id187
+    entry: Detachable
+    type: Noun
+  id: detachable_2da5a7fbcc0e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Detachable
+- entry: ಪ್ರತ್ಯೇಕಿಸಬಲ್ಲ
+  defs:
+  - *id187
+  id: detachable_9c7b6f5a53bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Detachable
+- entry: ಪತ್ತೆ ಹಚ್ಚುವುದು
+  defs:
+  - entry: Detection
+    type: Noun
+  id: detection_fa2c0c6b369d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Detection
+- entry: ಡಯಾಗೊನಲ್‌ ಲ್ಯಾಶಿಂಗ್‌ ಕರ್ಣೀಯ ಕಟ್ಟು
+  defs:
+  - entry: Diagonal lashing
+    type: Noun
+  id: diagonalla_17f87d2689a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diagonal lashing
+- entry: 1. ವಪೆ
+  defs:
+  - &id188
+    entry: Diaphragm
+    type: Noun
+  id: diaphragm_32df3cd2a2af
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diaphragm
+- entry: ಸಸ್ತನಿಗಳಲ್ಲಿ ಎದೆಯ ಭಾಗಕ್ಕೂ ಹೊಟ್ಟೆಯ ಭಾಗಕ್ಕೂ ನಡುವಿನ ವಿಭಾಜಕಾಂಗ 2. ಪೊರೆ
+  defs:
+  - *id188
+  id: diaphragm_96eb15d48372
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diaphragm
+- entry: ಶ್ರವಣ ಮೊ.ಗಳಿಗೆ ಬಳಸುವ ಉಪಕರಣಗಳಲ್ಲಿನ ಸರಂಧ್ರ ಫಲಕ
+  defs:
+  - *id188
+  id: diaphragm_814b23c420c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diaphragm
+- entry: ಡೈರಿ
+  defs:
+  - &id189
+    entry: Diary
+    type: Noun
+  id: diary_42c8b38a7fcb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diary
+- entry: ದಿನಚರಿ
+  defs:
+  - *id189
+  id: diary_c5e3476a786e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diary
+- entry: ಜೀರ್ಣಾಂಗ ಗ್ರಂಥಿ
+  defs:
+  - entry: Digestive gland
+    type: Noun
+  id: digestiveg_8276d4c5fb8b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Digestive gland
+- entry: ಬೆರಳುಗಳ ಒತ್ತಡ
+  defs:
+  - entry: Digital pressure
+    type: Noun
+  id: digitalpre_8fa6a027e2b0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Digital pressure
+- entry: ಶ್ರದ್ಧೆ
+  defs:
+  - &id190
+    entry: Diligence
+    type: Noun
+  id: diligence_3a0911cb48c2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diligence
+- entry: ಕಾರ್ಯತತ್ಪರತೆ
+  defs:
+  - *id190
+  id: diligence_a265e0f67d00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Diligence
+- entry: 1. ನಿರ್ದೇಶಿಸು 2. ಸಾಕ್ಷಾತ್‌ 3. ನೇರ
+  defs:
+  - entry: Direct
+    type: Noun
+  id: direct_d22ee03a39ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Direct
+- entry: ನೇರ ಮೂಳೆ ಮುರಿತ
+  defs:
+  - entry: Direct fracture
+    type: Noun
+  id: directfrac_773239658a42
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Direct fracture
+- entry: ವಿಪತ್ತು ನಿಯಂತ್ರಣ
+  defs:
+  - entry: Disaster control
+    type: Noun
+  id: disasterco_d41558289657
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Disaster control
+- entry: 1. ಬಿಡುಗಡೆ ಮಾಡು 2. ನಿರ್ವಹಿಸು 3. ಬಿಡುಗಡೆ 4. ನಿರ್ವಹಣೆ
+  defs:
+  - entry: Discharge
+    type: Noun
+  id: discharge_f1bff132b549
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Discharge
+- entry: ವಿಸರ್ಜನ ನಳಿಕೆ
+  defs:
+  - entry: Discharge tube
+    type: Noun
+  id: discharget_81e4cde36067
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Discharge tube
+- entry: ಶಿಸ್ತು
+  defs:
+  - entry: Discipline
+    type: Noun
+  id: discipline_57f4066a6dec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Discipline
+- entry: ವಿವರ್ಣನ
+  defs:
+  - &id191
+    entry: Discoloration
+    type: Noun
+  id: discolorat_02d709c9aad7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Discoloration
+- entry: ಬಣ್ಣಗೆಡಿಸುವಿಕೆ
+  defs:
+  - *id191
+  id: discolorat_a98af21017ba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Discoloration
+- entry: ವಿವೇಚನೆ
+  defs:
+  - entry: Discretion
+    type: Noun
+  id: discretion_720e3239332a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Discretion
+- entry: ಸೋಂಕು ನಿವಾರಣೆ
+  defs:
+  - entry: Disinfection
+    type: Noun
+  id: disinfecti_b33d14021ea3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Disinfection
+- entry: 1. ಸ್ಥಾನಪಲ್ಲಟ 2. ಕೀಲು ತಪ್ಪಿಸುವುದು 3. ಕೀಲು ತಪ್ಪುವುದು
+  defs:
+  - entry: Dislocation
+    type: Noun
+  id: dislocatio_71d18307c34d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dislocation
+- entry: ಔಷಧಾಲಯ
+  defs:
+  - &id192
+    entry: Dispensary
+    type: Noun
+  id: dispensary_0d51b791a2ad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dispensary
+- entry: ದವಾಖಾನೆ
+  defs:
+  - *id192
+  id: dispensary_caf12a53652f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dispensary
+- entry: 1. ವಿಲೇವಾರಿ 2. ಇತ್ಯರ್ಥ
+  defs:
+  - entry: Disposal
+    type: Noun
+  id: disposal_e756ffb8b96b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Disposal
+- entry: ಕಸದ ವಿಲೇವಾರಿ
+  defs:
+  - &id193
+    entry: Disposal of refuse
+    type: Noun
+  id: disposalof_2bfe23b95fb6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Disposal of refuse
+- entry: ಕಸವನ್ನು ಹೊರಸಾಗಿಸುವುದು
+  defs:
+  - *id193
+  id: disposalof_ed839b71cbd1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Disposal of refuse
+- entry: ಪ್ರಸಾರ ಮಾಡು
+  defs:
+  - entry: Disseminate
+    type: Noun
+  id: disseminat_b7f11f4ee3fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Disseminate
+- entry: ಅಗಳು
+  defs:
+  - &id194
+    entry: Ditch
+    type: Noun
+  id: ditch_971656f8fbd1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ditch
+- entry: ಕಂದಕ
+  defs:
+  - *id194
+  id: ditch_f3a0f5e42e19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ditch
+- entry: ವಿಭಜಿಸು
+  defs:
+  - &id195
+    entry: Divide
+    type: Noun
+  id: divide_94aef0d0db95
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Divide
+- entry: ಪಾಲುಮಾಡು
+  defs:
+  - *id195
+  id: divide_0ead693e2c0a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Divide
+- entry: ನೌಕಾಂಗಣ
+  defs:
+  - &id196
+    entry: Dockyard
+    type: Noun
+  id: dockyard_f266add55315
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dockyard
+- entry: ಹಡಗು ಕಟ್ಟಿಯ ಪ್ರದೇಶ
+  defs:
+  - *id196
+  id: dockyard_8341430b5f24
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dockyard
+- entry: ಡಾಕ್ಟರ್‌ ವೈದ್ಯ
+  defs:
+  - entry: Doctor
+    type: Noun
+  id: doctor_bd1de61fbe6b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Doctor
+- entry: ದಸ್ತಾವೇಜು
+  defs:
+  - entry: Document
+    type: Noun
+  id: document_e2eb7bd7a5a9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Document
+- entry: ದೇಣಿಗೆ
+  defs:
+  - entry: Donation
+    type: Noun
+  id: donation_2b4670d69aa6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Donation
+- entry: ಬೆನ್ನಿನ ಅಪಧಮನಿ
+  defs:
+  - entry: Dorsal artery
+    type: Noun
+  id: dorsalarte_8792485f15e8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dorsal artery
+- entry: ಎರಡು ಕುಡಿಕೆಯ ಒಂದು ಗಂಟು
+  defs:
+  - entry: Double sheet bend
+    type: Noun
+  id: doubleshee_e6bc679a2aec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Double sheet bend
+- entry: ರೇಖಾಚಿತ್ರ
+  defs:
+  - entry: Drawing
+    type: Noun
+  id: drawing_d375d42ac5ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Drawing
+- entry: ಜಾರುಗಂಟು
+  defs:
+  - entry: Draw hitch
+    type: Noun
+  id: drawhitch_2e1d7d985482
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Draw hitch
+- entry: ಎಳೆಯುವ ಹಚ್ಚಡ
+  defs:
+  - &id197
+    entry: Draw sheet
+    type: Noun
+  id: drawsheet_dacfe7394d43
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Draw sheet
+- entry: ಸಾ. ಆಸ್ಪತ್ರೆಗಳಲ್ಲಿ ಮಲಗಿರುವ ರೋಗಿಯ ಅಡಿಯಿಂದ ಎಳೆಯಬಹುದಾದ ಹಚ್ಚಡ
+  defs:
+  - *id197
+  id: drawsheet_4ab4b5a6e536
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Draw sheet
+- entry: ಮುಳುಗುವಿಕೆ
+  defs:
+  - entry: Drowning
+    type: Noun
+  id: drowning_8f28b76a8b44
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Drowning
+- entry: ಒಣಗಿದ ಮರದ ತುಂಡು
+  defs:
+  - entry: Dried stump
+    type: Noun
+  id: driedstump_387e73d5010c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dried stump
+- entry: ಜಮಖಾನ
+  defs:
+  - entry: Durrie
+    type: Noun
+  id: durrie_06edfcbee5c3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Durrie
+- entry: ಕಸದ ತೊಟ್ಟಿ
+  defs:
+  - entry: Dust-bin
+    type: Noun
+  id: dustbin_adfd11e205d5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dust-bin
+- entry: ಕರ್ತವ್ಯ
+  defs:
+  - &id198
+    entry: Duty
+    type: Noun
+  id: duty_b30fa4265da9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Duty
+- entry: ಕೆಲಸ
+  defs:
+  - *id198
+  id: duty_5c4f5ca3e31f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Duty
+- entry: ಡೈನಮೊ
+  defs:
+  - &id199
+    entry: Dynamo
+    type: Noun
+  id: dynamo_b626eb6c5007
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dynamo
+- entry: ಯಾಂತ್ರಿಕ ಶಕ್ತಿಯನ್ನು ವಿದ್ಯುಚ್ಛಕ್ತಿಯನ್ನಾಗಿ ಮಾರ್ಪಡಿಸುವ ಸಾಧನ
+  defs:
+  - *id199
+  id: dynamo_226ccc81251d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Dynamo
+- entry: ತೆಗೆದಿಡು
+  defs:
+  - &id200
+    entry: Earmark
+    type: Noun
+  id: earmark_186ef0b5ab29
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Earmark
+- entry: ಮೀಸಲಿಡು
+  defs:
+  - *id200
+  id: earmark_cfae6b02ef68
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Earmark
+- entry: ಉಚ್ಚಾಟಿಸು
+  defs:
+  - &id201
+    entry: Eject
+    type: Noun
+  id: eject_c542a2f13a9c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Eject
+- entry: ಹೊರದೂಡು
+  defs:
+  - *id201
+  id: eject_37528b5ba56a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Eject
+- entry: ಸ್ಥಿತಿಸ್ಥಾಪಕ
+  defs:
+  - entry: Elastic
+    type: Noun
+  id: elastic_00f3df440f41
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Elastic
+- entry: ಮೊಣಕೈ
+  defs:
+  - entry: Elbow
+    type: Noun
+  id: elbow_5f411e168821
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Elbow
+- entry: ವಿದ್ಯುಚ್ಛಕ್ತಿ
+  defs:
+  - entry: Electricity
+    type: Noun
+  id: electricit_d11d531f79bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Electricity
+- entry: ವಿದ್ಯುತ್‌ ಪ್ರವಾಹ
+  defs:
+  - entry: Electric current
+    type: Noun
+  id: electriccu_4d27b4b59883
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Electric current
+- entry: ವಿದ್ಯುತ್ತಿನ ಆಘಾತ
+  defs:
+  - entry: Electric shock
+    type: Noun
+  id: electricsh_af6fbe6c5d65
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Electric shock
+- entry: ವಿದ್ಯುತ್‌ ಟಾರ್ಚ್
+  defs:
+  - entry: Electric torch
+    type: Noun
+  id: electricto_e6d1db2757fa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Electric torch
+- entry: ಅರ್ಹತೆ
+  defs:
+  - entry: Eligibility
+    type: Noun
+  id: eligibilit_c1e4c3a582f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Eligibility
+- entry: ತುರ್ತುಪರಿಸ್ಥಿತಿಯ ವ್ಯವಸ್ಥೆಗಳು
+  defs:
+  - entry: Emergency provisions
+    type: Noun
+  id: emergencyp_7291e2cc489c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Emergency provisions
+- entry: ಹೊರಸೂಸುವುದು
+  defs:
+  - entry: Emission
+    type: Noun
+  id: emission_2dc97fcf49b2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Emission
+- entry: ಅಧಿನಿಯಮ
+  defs:
+  - &id202
+    entry: Enactment
+    type: Noun
+  id: enactment_3359f5173858
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Enactment
+- entry: ಕಾನೂನು ಮಾಡುವುದು
+  defs:
+  - *id202
+  id: enactment_c84d6431a4b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Enactment
+- entry: 1. ಮೊಕ್ಕಾಮು ಮಾಡು 2. ಶಿಬಿರ ಹೂಡು
+  defs:
+  - &id203
+    entry: Encamp
+    type: Noun
+  id: encamp_408008f214f0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Encamp
+- entry: ಡೇರೆ ಹಾಕು
+  defs:
+  - *id203
+  id: encamp_107c5e45721e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Encamp
+- entry: ಅಪಾಯವುಂಟು ಮಾಡು
+  defs:
+  - &id204
+    entry: Endanger
+    type: Noun
+  id: endanger_3f1dbbb7cc08
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Endanger
+- entry: ಅಪಾಯಕ್ಕೆ ಸಿಕ್ಕಿಸು
+  defs:
+  - *id204
+  id: endanger_e8e7e1232116
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Endanger
+- entry: ನಾಮಲೇಖನ
+  defs:
+  - &id205
+    entry: Enrolment
+    type: Noun
+  id: enrolment_c2d7c32cdce6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Enrolment
+- entry: ಹೆಸರು ಸೇರಿಸುವುದು
+  defs:
+  - *id205
+  id: enrolment_d488e9944145
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Enrolment
+- entry: ಭರವಸೆ ಕೊಡು
+  defs:
+  - entry: Ensure
+    type: Noun
+  id: ensure_7d96a84e4a78
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ensure
+- entry: ಟೈಫಾಯಿಡ್
+  defs:
+  - &id206
+    entry: Enteric fever
+    type: Noun
+  id: entericfev_9f496e406e1d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Enteric fever
+- entry: ವಿಷಮ ಶೀತಜ್ವರ
+  defs:
+  - *id206
+  id: entericfev_84f92c0ada2b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Enteric fever
+- entry: ವಹಿಸಿಕೊಡು
+  defs:
+  - entry: Entrust
+    type: Noun
+  id: entrust_3ba83e2f9c25
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Entrust
+- entry: ಸುತ್ತುಮುತ್ತು
+  defs:
+  - &id207
+    entry: Environs
+    type: Noun
+  id: environs_1eb1118ed4da
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Environs
+- entry: ಪರಿಸರ
+  defs:
+  - *id207
+  id: environs_97e33dcff3f0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Environs
+- entry: ಸಾ೦ಕ್ರಾಮಿಕ ರೋಗ
+  defs:
+  - entry: Epidemic
+    type: Noun
+  id: epidemic_69ae9848a426
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Epidemic
+- entry: ಅಪಸ್ಮಾರ
+  defs:
+  - &id208
+    entry: Epilepsy
+    type: Noun
+  id: epilepsy_48715a4f0f87
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Epilepsy
+- entry: ಮೂರ್ಛೆರೋಗ
+  defs:
+  - *id208
+  id: epilepsy_d13021c80ef6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Epilepsy
+- entry: ಮಲರೋಗ
+  defs:
+  - *id208
+  id: epilepsy_7c127f8042aa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Epilepsy
+- entry: ಸಾಧನ ಸಾಮಗ್ರಿ
+  defs:
+  - entry: Equipment
+    type: Noun
+  id: equipment_89c71cde1185
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Equipment
+- entry: ಸಂಘ ಬುದ್ಧಿ
+  defs:
+  - entry: Esprit-de-corps
+    type: Noun
+  id: espritdeco_f44027064600
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Esprit-de-corps
+- entry: ಖಾಲಿ. ಮಾಡುವುದು
+  defs:
+  - entry: Evacuation
+    type: Noun
+  id: evacuation_44639c6b8022
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Evacuation
+- entry: ಒಳ ಹೊರಗು ಮಾಡು
+  defs:
+  - entry: Evert
+    type: Noun
+  id: evert_a51b350284c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Evert
+- entry: ಪರೀಕ್ಷಿಸು
+  defs:
+  - entry: Examine
+    type: Noun
+  id: examine_1d6558c980c8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Examine
+- entry: 1. ಕ್ಷಮಿಸು 2. ಕ್ಷಮೆ 3. ನೆಪ
+  defs:
+  - entry: Excuse
+    type: Noun
+  id: excuse_bbf387110490
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Excuse
+- entry: ವಿನಾಯಿತಿ
+  defs:
+  - entry: Exemption
+    type: Noun
+  id: exemption_a2a2b7d33ee4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Exemption
+- entry: 1. ವ್ಯಾಯಾಮ ಮಾಡು 2. ಚಲಾಯಿಸು 3. ವ್ಯಾಯಾಮ 4. ಚಲಾವಣೆ
+  defs:
+  - entry: Exercise
+    type: Noun
+  id: exercise_063675b359cd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Exercise
+- entry: ಅಸ್ತಿತ್ವ
+  defs:
+  - &id209
+    entry: Existence
+    type: Noun
+  id: existence_864007801e5f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Existence
+- entry: ಇರುವಿಕೆ
+  defs:
+  - *id209
+  id: existence_4c146ace56df
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Existence
+- entry: ಯುಕ್ತ
+  defs:
+  - &id210
+    entry: Expedient
+    type: Noun
+  id: expedient_174fe0aa92ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Expedient
+- entry: ಸಮಯೋಚಿತ
+  defs:
+  - *id210
+  id: expedient_2f23ba8f2033
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Expedient
+- entry: ವಿಹಿತ
+  defs:
+  - *id210
+  id: expedient_2915050482a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Expedient
+- entry: 1. ಪ್ರಯೋಗ ಮಾಡು 2. ಪ್ರಯೋಗ
+  defs:
+  - entry: Experiment
+    type: Noun
+  id: experiment_8cd4f34c5fb6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Experiment
+- entry: ನಿಶ್ವಾಸ
+  defs:
+  - &id211
+    entry: Expiration
+    type: Noun
+  id: expiration_ed43d2f2e613
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Expiration
+- entry: ಉಸಿರು ಬಿಡುವುದು
+  defs:
+  - *id211
+  id: expiration_fe9e0cc81fe9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Expiration
+- entry: ಅನ್ವೇಷಣೆ
+  defs:
+  - &id212
+    entry: Exploration
+    type: Noun
+  id: exploratio_7e9c80de5dc0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Exploration
+- entry: ಹುಡುಕುವುದು
+  defs:
+  - *id212
+  id: exploratio_e93d65ace510
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Exploration
+- entry: ಸಿಡಿಮದ್ದು
+  defs:
+  - &id213
+    entry: Explosive
+    type: Noun
+  id: explosive_8bc84734c351
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Explosive
+- entry: ಸ್ಫೋಟಕ
+  defs:
+  - *id213
+  id: explosive_c18d52b3c025
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Explosive
+- entry: ವಿಸ್ತರಣ ಏಣಿ
+  defs:
+  - &id214
+    entry: Extension ladder
+    type: Noun
+  id: extensionl_d768a81d56a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extension ladder
+- entry: ಸಂದರ್ಭೋಚಿತವಾಗಿ ಎತ್ತರಿಸಬಹುದಾದ ನಿಚ್ಚಣಿಕೆ
+  defs:
+  - *id214
+  id: extensionl_8d5b0aa52af1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extension ladder
+- entry: ಬಾಹ್ಯ
+  defs:
+  - &id215
+    entry: 'External aggression:'
+    type: Noun
+  id: externalag_b8776bafabd3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: 'External aggression:'
+- entry: ಪರದೇಶದ ಆಕ್ರಮಣ
+  defs:
+  - *id215
+  id: externalag_bf60f65d91b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: 'External aggression:'
+- entry: ಹೊರಕಂಠ ಅಪಧಮನಿ
+  defs:
+  - &id216
+    entry: External carotid artery
+    type: Noun
+  id: externalca_b5337ec0638b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: External carotid artery
+- entry: ಕಂಠದ ಹೊರಭಾಗದ ಅಪಧಮನಿ
+  defs:
+  - *id216
+  id: externalca_4fc15f68cad6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: External carotid artery
+- entry: ಆರಿಸುವುದು
+  defs:
+  - &id217
+    entry: Extinction
+    type: Noun
+  id: extinction_583122790aa1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extinction
+- entry: ನಂದಿಸುವುದು
+  defs:
+  - *id217
+  id: extinction_5205d60571b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extinction
+- entry: ಶಾಮಕ
+  defs:
+  - &id218
+    entry: Extinguisher
+    type: Noun
+  id: extinguish_5d12fd602a63
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extinguisher
+- entry: ನಂದಿಗೆ
+  defs:
+  - *id218
+  id: extinguish_1ff22a441c73
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extinguisher
+- entry: 1. ರಸ
+  defs:
+  - &id219
+    entry: Extract
+    type: Noun
+  id: extract_32e5a60e870c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extract
+- entry: ಮೊ.ವನ್ನು ಹಿಂಡಿ ತೆಗೆ 2. ಕಿತ್ತುಕೊಳ್ಳು 3. ಉದ್ಧೃತ ಭಾಗ
+  defs:
+  - *id219
+  id: extract_29c1d965d5ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Extract
+- entry: ಕಣ್ಣುಗುಡ್ಡೆ
+  defs:
+  - entry: Eye-ball
+    type: Noun
+  id: eyeball_6caafcffd58d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Eye-ball
+- entry: 1. ಎದುರಿಸು 2. ಮುಖ
+  defs:
+  - &id220
+    entry: Face
+    type: Noun
+  id: face_d5b74a4b5f2b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Face
+- entry: ಮೋರೆ
+  defs:
+  - *id220
+  id: face_bb185d047337
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Face
+- entry: ಮುಖದ ಅಪಧಮನಿ
+  defs:
+  - entry: Facial artery
+    type: Noun
+  id: facialarte_8dda89129e98
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Facial artery
+- entry: ಸೌಲಭ್ಯ
+  defs:
+  - entry: Facility
+    type: Noun
+  id: facility_70be2dcd0ca0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Facility
+- entry: ಕಾರ್ಖಾನೆ
+  defs:
+  - entry: Factory
+    type: Noun
+  id: factory_299f1a05d3b1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Factory
+- entry: 1. ದಣಿ
+  defs:
+  - &id221
+    entry: Fag
+    type: Noun
+  id: fag_df882c0f5ef6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fag
+- entry: ಆಯಾಸಪಡು 2. ದಣಿಸು
+  defs:
+  - *id221
+  id: fag_b73746dbdfc5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fag
+- entry: ಆಯಾಸಪಡಿಸು
+  defs:
+  - *id221
+  id: fag_9fa839fb34d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fag
+- entry: ಫೇಲ್
+  defs:
+  - &id222
+    entry: Fail
+    type: Noun
+  id: fail_2b7d40efd2f7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fail
+- entry: 1. ತೇರ್ಗಡೆಯಾಗದಿರುವುದು 2. ತಪ್ಪು
+  defs:
+  - *id222
+  id: fail_99af6d49e753
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fail
+- entry: ವಿಫಲನಾಗು
+  defs:
+  - *id222
+  id: fail_ec28cb2ce6d5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fail
+- entry: 1. ಮೂರ್ಛೆ ಹೋಗು
+  defs:
+  - &id223
+    entry: Fainting
+    type: Noun
+  id: fainting_3a2089f54431
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fainting
+- entry: ಪ್ರಜ್ಞೆತಪ್ಪು 2. ಮೂರ್ಛೆ
+  defs:
+  - *id223
+  id: fainting_15a540263632
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fainting
+- entry: ಫಾಲ್‌ಇನ್
+  defs:
+  - &id224
+    entry: Fall in
+    type: Noun
+  id: fallin_ab7161212cca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fall in
+- entry: ಕವಾಯತು
+  defs:
+  - *id224
+  id: fallin_c79c1b01e2cc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fall in
+- entry: ಮೊ.ಗಳಲ್ಲಿ ಸಾಲಾಗಿ ಸಾವಧಾನ ಸ್ಥಿತಿಯಲ್ಲಿ ನಿಲ್ಲಲು ಕೊಡುವ ಆಜ್ಞೆ
+  defs:
+  - *id224
+  id: fallin_6306d6cb14eb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fall in
+- entry: ಫಾಲ್‌ಔಟ್
+  defs:
+  - &id225
+    entry: Fall out
+    type: Noun
+  id: fallout_8e5b66f77096
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fall out
+- entry: 1. ಕವಾಯತು
+  defs:
+  - *id225
+  id: fallout_d7ce84b019c9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fall out
+- entry: ಮೊ.ಗಳಲ್ಲಿ ಸಾಲು ಬಿಟ್ಟುಹೋಗಲು ಕೊಡುವ ಆಜ್ಞೆ 2. ನ್ಯೂಕ್ಲಿಯರ್‌ ಅಣುಬಾಂಬು ಸ್ಫೋಟದಿಂದ ಉಂಟಾಗುವ ಅಣು ಕಿರಣದ ಪ್ರಸರಣ
+  defs:
+  - *id225
+  id: fallout_5523f257c736
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fall out
+- entry: ಹುಸಿಹಲ್ಲು
+  defs:
+  - &id226
+    entry: False tooth
+    type: Noun
+  id: falsetooth_646883fb32b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: False tooth
+- entry: ಕಟ್ಟಿಸಿದ ಹಲ್ಲು
+  defs:
+  - *id226
+  id: falsetooth_4cbb8ba02929
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: False tooth
+- entry: ಕೃತಕ ಹಲ್ಲು
+  defs:
+  - *id226
+  id: falsetooth_cb67d372d838
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: False tooth
+- entry: ಎದೆಮೂಳೆಗೆ ಸೇರಿಕೊಂಡಿಲ್ಲದ ಪಕ್ಕೆಲುಬು
+  defs:
+  - entry: False rib
+    type: Noun
+  id: falserib_f7b49fe54d0d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: False rib
+- entry: ರೈತ
+  defs:
+  - &id227
+    entry: Farmer
+    type: Noun
+  id: farmer_4392f6bc16f5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Farmer
+- entry: ವ್ಯವಸಾಯಗಾರ
+  defs:
+  - *id227
+  id: farmer_111b17d4cbd9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Farmer
+- entry: ತೊಡೆಯ ಅಪಧಮನಿ
+  defs:
+  - entry: Femoral artery
+    type: Noun
+  id: femoralart_9171f1ba9b22
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Femoral artery
+- entry: 1. ದೋಣಿಯಲ್ಲಿ ಸಾಗು ಯಾ ಸಾಗಿಸು 2. ಹಾಯ್ಗಡ
+  defs:
+  - &id228
+    entry: Ferry
+    type: Noun
+  id: ferry_b10eabf8d2e8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ferry
+- entry: ನೀರನ್ನು ಹರಿಗೋಲಿನಲ್ಲಿ ದಾಟುವ ಸ್ಥಳ
+  defs:
+  - *id228
+  id: ferry_f8dd00bb1bbb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ferry
+- entry: ಕೀತುಕೊಂಡ ಗಾಯ
+  defs:
+  - entry: Festering wound
+    type: Noun
+  id: festeringw_c53ce619630d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Festering wound
+- entry: ನಾರು
+  defs:
+  - &id229
+    entry: Fibre
+    type: Noun
+  id: fibre_eb9558f6da30
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fibre
+- entry: ದಾರ
+  defs:
+  - *id229
+  id: fibre_ba719c0416ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fibre
+- entry: ಎಳೆ
+  defs:
+  - *id229
+  id: fibre_ed2450664585
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fibre
+- entry: ನಾರಿನ ಹಗ್ಗ
+  defs:
+  - entry: Fibre rope
+    type: Noun
+  id: fibrerope_a3ad6975fb41
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fibre rope
+- entry: ಕಣಕಾಲಿನ ಹೊರಗಿನ ಎಲುಬು
+  defs:
+  - entry: Fibula
+    type: Noun
+  id: fibula_7470da0283a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fibula
+- entry: ಎ೦ಟು8 ಅಂಕಿಯಾಕಾರದ ಗಂಟು
+  defs:
+  - entry: 'Figure of eight knot :'
+    type: Noun
+  id: figureofei_517cb6525ca1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: 'Figure of eight knot :'
+- entry: ಚಲನಚಿತ್ರ ಪಟ್ಟಿ
+  defs:
+  - entry: Film strip
+    type: Noun
+  id: filmstrip_e045885cdecc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Film strip
+- entry: ಬೆಂಕಿ
+  defs:
+  - entry: Fire
+    type: Noun
+  id: fire_1376898377d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fire
+- entry: ಅಗ್ನಿಶಾಮಕ ದಳ
+  defs:
+  - entry: Fire brigade
+    type: Noun
+  id: firebrigad_9d2d4d54458e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fire brigade
+- entry: ಅಗ್ನಿಶಮನ
+  defs:
+  - entry: Firefighting
+    type: Noun
+  id: firefighti_749641908093
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Firefighting
+- entry: ಬೆಂಕಿ ತಡೆ
+  defs:
+  - entry: Fire-guard
+    type: Noun
+  id: fireguard_5b522a390569
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fire-guard
+- entry: ಫೈರ್‌ಮನ್
+  defs:
+  - &id230
+    entry: Fireman
+    type: Noun
+  id: fireman_f2213660c4b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fireman
+- entry: ಬೆಂಕಿ ಆರಿಸುವವನು
+  defs:
+  - *id230
+  id: fireman_e6497bd3d416
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fireman
+- entry: 'ಫೈರ್‌ಮನ್ಸ್‌ ಲಿಫ್ಟ್‌: ಬೆಂಕಿ ಆರಿಸುವವನು ಆಪತ್ತಿಗೆ ಒಳಗಾದವರನ್ನು ಎತ್ತಿ ಒಯ್ಯುವ ರೀತಿ'
+  defs:
+  - entry: Fireman's lift
+    type: Noun
+  id: firemansli_97a1e591d59b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fireman's lift
+- entry: ಅಗ್ನಿನಿರೋಧಕ
+  defs:
+  - &id231
+    entry: Fireproof
+    type: Noun
+  id: fireproof_24bac9ed118d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fireproof
+- entry: ಬೆಂಕಿಯನ್ನು ತಡೆಯುವ
+  defs:
+  - *id231
+  id: fireproof_7c2f68a47217
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fireproof
+- entry: ಸುಡದ
+  defs:
+  - *id231
+  id: fireproof_ec063d8a1680
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fireproof
+- entry: ಅಗ್ನಿಶಾಮಕ ಸೇವೆಗಳು
+  defs:
+  - entry: Fire services
+    type: Noun
+  id: fireservic_fa0bf2cf8d43
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fire services
+- entry: ಪ್ರಥಮ ಚಿಕಿತ್ಸೆ
+  defs:
+  - entry: First aid
+    type: Noun
+  id: firstaid_2fa4c11aab3c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: First aid
+- entry: ಪ್ರಥಮ ಚಿಕಿತ್ಸೆ ಪೆಟ್ಟಿಗೆ
+  defs:
+  - entry: First aid box
+    type: Noun
+  id: firstaidbo_7b9049b783f5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: First aid box
+- entry: ಪ್ರಥಮ ಚಿಕಿತ್ಸೆ ಮಾಡುವವನು
+  defs:
+  - entry: First aider
+    type: Noun
+  id: firstaider_c9896f62f554
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: First aider
+- entry: ಪ್ರಥಮ ಚಿಕಿತ್ಸೆ ಸಾಮಗ್ರಿ ಚೀಲ
+  defs:
+  - entry: First aid pouch
+    type: Noun
+  id: firstaidpo_ced253857a7c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: First aid pouch
+- entry: ಸಿದ್ಧಮಾಡಿದ ಔಷಧಯುಕ್ತ ಪಟ್ಟಿ
+  defs:
+  - entry: First field dressing
+    type: Noun
+  id: firstfield_ace3a7069761
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: First field dressing
+- entry: ಪ್ರಥಮ ಮಾಹಿತಿ ವರದಿ ಪ್ರಮಾವ
+  defs:
+  - entry: First information report (FIR)
+    type: Noun
+  id: firstinfor_54a0f9a07b53
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: First information report (FIR)
+- entry: ಬೆಸ್ತನ ಕುಣಿಕೆ
+  defs:
+  - entry: Fisherman's bend
+    type: Noun
+  id: fishermans_f59819cbbea5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fisherman's bend
+- entry: 'ಫಿಶ್‌ ಹುಕ್‌: 1. ಮೀನುಗಾಳದ ಕೊಕ್ಕೆ 2. ಲಂಗರನ್ನು ಎತ್ತುವ ಸಲಕರಣೆಯ ಕೊಕ್ಕೆ'
+  defs:
+  - entry: Fish hook
+    type: Noun
+  id: fishhook_16688983a771
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fish hook
+- entry: ಯೋಗ್ಯ
+  defs:
+  - &id232
+    entry: Fit
+    type: Noun
+  id: fit_de2a818beb7b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fit
+- entry: ಅರ್ಹ
+  defs:
+  - *id232
+  id: fit_796835cf4587
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fit
+- entry: ಪೀಠ ಸಾಮಗ್ರಿ
+  defs:
+  - &id233
+    entry: Fitments
+    type: Noun
+  id: fitments_1965fc26153a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fitments
+- entry: ಸಜ್ಜು
+  defs:
+  - *id233
+  id: fitments_b65cb748ba19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fitments
+- entry: ಅರ್ಹತಾ ಪ್ರಮಾಣಪತ್ರ
+  defs:
+  - entry: Fitness certificate
+    type: Noun
+  id: fitnesscer_57ce756b4a26
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fitness certificate
+- entry: ಧ್ವಜ
+  defs:
+  - &id234
+    entry: Flag
+    type: Noun
+  id: flag_11d539a851ac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flag
+- entry: ಬಾವುಟ
+  defs:
+  - *id234
+  id: flag_981b86db106e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flag
+- entry: ಜ್ವಾಲೆ
+  defs:
+  - &id235
+    entry: Flame
+    type: Noun
+  id: flame_a92565771198
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flame
+- entry: ಹುರಿ
+  defs:
+  - *id235
+  id: flame_85d4de066187
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flame
+- entry: 1. ಬಾಗು
+  defs:
+  - &id236
+    entry: Flexion
+    type: Noun
+  id: flexion_f14f5b0c5156
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flexion
+- entry: ಡೊಂಕು 2. ಮು. ಕೈಕಾಲಿನ
+  defs:
+  - *id236
+  id: flexion_7780f18a3df7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flexion
+- entry: ಕೀಲಿನ ಬಾಗಿದ ಸ್ಥಿತಿ
+  defs:
+  - *id236
+  id: flexion_3c79cbedb118
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flexion
+- entry: ಪ್ರವಾಹ ನಿಯಂತ್ರಣ
+  defs:
+  - entry: Flood control
+    type: Noun
+  id: floodcontr_d273531c92a4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flood control
+- entry: ಚಲಿಸುವ ಪಕ್ಕೆಲುಬು
+  defs:
+  - entry: Floating rib
+    type: Noun
+  id: floatingri_cd6770db10a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Floating rib
+- entry: ದ್ರವ
+  defs:
+  - entry: Fluid
+    type: Noun
+  id: fluid_d794134bd08a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fluid
+- entry: ಪ್ಲೈಯಿಂಗ್‌ಫಾಕ್ಸ್
+  defs:
+  - &id237
+    entry: Flying fox
+    type: Noun
+  id: flyingfox_93a2b9c6620d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flying fox
+- entry: ಗಾಯಾಳುಗಳನ್ನು ಒಂದು ಹಗ್ಗದ ಮೂಲಕ ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ಇಳಿಸುವ ವಿಧಾನ
+  defs:
+  - *id237
+  id: flyingfox_b8c2db51be75
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flying fox
+- entry: ವೇಗಗಾಮಿ ದಳ
+  defs:
+  - entry: Flying squad
+    type: Noun
+  id: flyingsqua_f35da743ad24
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Flying squad
+- entry: ನೊರೆ
+  defs:
+  - &id238
+    entry: Foam
+    type: Noun
+  id: foam_f090599f2ac0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foam
+- entry: ಬುರುಗು
+  defs:
+  - *id238
+  id: foam_4a535c7e008d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foam
+- entry: ಮಡಿಚುದೋಣಿ
+  defs:
+  - &id239
+    entry: Folding boat
+    type: Noun
+  id: foldingboa_f9038c156af4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Folding boat
+- entry: ಮಡಿಚಿಕೊಂಡು ಒಯ್ಯಬಹುದಾದ ದೋಣಿ
+  defs:
+  - *id239
+  id: foldingboa_95ecf158aac3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Folding boat
+- entry: ಅಹಾರ ನೈರ್ಮಲ್ಯ ರಕ್ಷಣೆ
+  defs:
+  - entry: Food-sanitation
+    type: Noun
+  id: foodsanita_5963ea50a9e0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Food-sanitation
+- entry: ಪಾದ
+  defs:
+  - &id240
+    entry: Foot
+    type: Noun
+  id: foot_e0c449fb7f4b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foot
+- entry: ಅಡಿ
+  defs:
+  - *id240
+  id: foot_dfe8bff4ae5f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foot
+- entry: ಫ್ರುಟ್‌ಗಿಯರ್
+  defs:
+  - &id241
+    entry: Foot gear
+    type: Noun
+  id: footgear_0bf2868411d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foot gear
+- entry: ಕಾಲಿಗೆ ಹಾಕಿಕೊಳ್ಳುವ
+  defs:
+  - *id241
+  id: footgear_6a11104113b1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foot gear
+- entry: ತೊಡುವ ವಸ್ತುಗಳು ಪಾದರಕ್ಷೆ
+  defs:
+  - *id241
+  id: footgear_c0602783b731
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foot gear
+- entry: ಕಾಲ್ಚೀಲ ಮೊ.
+  defs:
+  - *id241
+  id: footgear_62fef1fa728b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foot gear
+- entry: 1. ಒತ್ತಾಯ
+  defs:
+  - &id242
+    entry: Force
+    type: Noun
+  id: force_0fad125195fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Force
+- entry: ಬಲಾತ್ಕಾರ ಮಾಡು 2. ಒತ್ತಾಯ
+  defs:
+  - *id242
+  id: force_8e662d28aed9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Force
+- entry: ಬಲಾತ್ಕಾರ 3. ದಳ
+  defs:
+  - *id242
+  id: force_265ad4541b31
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Force
+- entry: ಬಲ
+  defs:
+  - *id242
+  id: force_b64db0148de8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Force
+- entry: ಫೋರ್‌ ಅಂಡ್‌ ಆಫ್ಟ್ ಮೆತಡ್
+  defs:
+  - &id243
+    entry: Fore and aft method
+    type: Noun
+  id: foreandaft_22b8aa418f78
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fore and aft method
+- entry: ಅಪಘಾತಕ್ಕೆ ಒಳಗಾದವರನ್ನು ಡೋಲಿಯ ರೀತಿಯಲ್ಲಿ ಒಯ್ಯುವುದು
+  defs:
+  - *id243
+  id: foreandaft_c1e6c2103852
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fore and aft method
+- entry: 1. ಮೊದಲೇ ಶಸ್ತ್ರ ಸಜ್ಜಿತನಾಗು 2. ಮುಂಗೈ
+  defs:
+  - &id244
+    entry: Forearm
+    type: Noun
+  id: forearm_47fde5981cb3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Forearm
+- entry: ಮು೦ದೋಳು
+  defs:
+  - *id244
+  id: forearm_592792b1d689
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Forearm
+- entry: ತೋರುಬೆರಳು
+  defs:
+  - entry: Forefinger
+    type: Noun
+  id: forefinger_5529ccb15be7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Forefinger
+- entry: ಮೊದಲೇ ಹೇಳಿದ
+  defs:
+  - entry: Foregoing
+    type: Noun
+  id: foregoing_4def9077945c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foregoing
+- entry: ಹಣೆ
+  defs:
+  - entry: Forehead
+    type: Noun
+  id: forehead_67210ee8f4ed
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Forehead
+- entry: ಮು. ಅಂಗಾಶಗಳಲ್ಲಿ ಹೊರವಸ್ತು
+  defs:
+  - &id245
+    entry: Foreign body
+    type: Noun
+  id: foreignbod_58d9c2a79111
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foreign body
+- entry: ಬಾಹ್ಯಪದಾರ್ಥ
+  defs:
+  - *id245
+  id: foreignbod_ac8f57f2f308
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foreign body
+- entry: 1. ಮುಟ್ಟುಗೋಲು ಹಾಕು 2. ಕಳೆದುಕೊ
+  defs:
+  - entry: Forfeit
+    type: Noun
+  id: forfeit_b22491de48ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Forfeit
+- entry: 1. ರೂಪಿಸು 2. ನಮೂನೆ
+  defs:
+  - entry: Form
+    type: Noun
+  id: form_999dd74b7c00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Form
+- entry: ಕೊಳಕಾದ
+  defs:
+  - &id246
+    entry: Foul
+    type: Noun
+  id: foul_b5576b90ac54
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foul
+- entry: ಮಲಿನವಾದ
+  defs:
+  - *id246
+  id: foul_551ceb317246
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Foul
+- entry: ಫೋರ್‌ಹ್ಯಾಂಡೆಡ್ ಸೀಟ್
+  defs:
+  - &id247
+    entry: Four handed seat
+    type: Noun
+  id: fourhanded_2a7aac41f5fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Four handed seat
+- entry: ನಾಲ್ಗೈಯಾಸನ
+  defs:
+  - *id247
+  id: fourhanded_50707dcf1e4e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Four handed seat
+- entry: ಅಪಘಾತಕ್ಕೊಳಗಾದವರನ್ನು ಕೊಂಡೊಯ್ಯಲು ಇಬ್ಬರು ತಮ್ಮ ತೋಳುಗಳನ್ನು ಸೇರಿಸಿ ಮಾಡುವ ಆಸನ
+  defs:
+  - *id247
+  id: fourhanded_7e9f285bed58
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Four handed seat
+- entry: ಫೋರ್‌ಪಾಯಿಂಟ್‌ ಸಸ್ಪೆನ್ಶನ್‌ ಮೆತಡ್
+  defs:
+  - &id248
+    entry: Four point suspension method
+    type: Noun
+  id: fourpoints_49a02bbb9380
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Four point suspension method
+- entry: ಅಪಘಾತಕ್ಕೊಳಗಾದವರನ್ನು ಸ್ಟ್ರೆಚರ್‌ ಮುಖಾಂತರ ಮೇಲಿನಿಂದ ಕೆಳಗೆ ಇಳಿಸುವಾಗ ಎರಡು ಭಿನ್ನ ಮೂಲೆಗಳಿಗೆ ಹಗ್ಗ ಕಟ್ಟಿ ಇಳಿಸುವ ಒಂದು ರಕ್ಷಣಾ
+    ವಿಧಾನ.
+  defs:
+  - *id248
+  id: fourpoints_8c3c230ff8eb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Four point suspension method
+- entry: ಮೂಳೆಮುರಿತ
+  defs:
+  - entry: Fracture
+    type: Noun
+  id: fracture_05919aceea32
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fracture
+- entry: 1. ರಚಿಸು
+  defs:
+  - &id249
+    entry: Frame
+    type: Noun
+  id: frame_cc195a7b4126
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frame
+- entry: ರೂಪಿಸು 2. ಚೌಕಟ್ಟು
+  defs:
+  - *id249
+  id: frame_d68e0d99140a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frame
+- entry: ಕಟ್ಟು
+  defs:
+  - *id249
+  id: frame_17593ce771ac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frame
+- entry: ಘರ್ಷಣೆ
+  defs:
+  - &id250
+    entry: Friction
+    type: Noun
+  id: friction_848945f0f2db
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Friction
+- entry: ತಿಕ್ಕಾಟ
+  defs:
+  - *id250
+  id: friction_115c48fa5bb0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Friction
+- entry: ಕಪ್ಪೆನಡಿಗೆ
+  defs:
+  - entry: Frog's march
+    type: Noun
+  id: frogsmarch_04c777b667d5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frog's march
+- entry: ಹಿಮವ್ರಣ
+  defs:
+  - &id251
+    entry: Frost bite
+    type: Noun
+  id: frostbite_ac1df930bb40
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frost bite
+- entry: ವಿಪರೀತ ಚಳಿಯಿಂದ ಚರ್ಮದ ತಳದಲ್ಲಾದ ಊತ
+  defs:
+  - *id251
+  id: frostbite_57cf1f89c71a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frost bite
+- entry: ಕೊಳೆಯುವ ವ್ರಣ
+  defs:
+  - *id251
+  id: frostbite_ccb082b0c130
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Frost bite
+- entry: ಕೀಲಕ
+  defs:
+  - &id252
+    entry: Fulcrum
+    type: Noun
+  id: fulcrum_198ac62b7911
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fulcrum
+- entry: ಸನ್ನೆಗೋಲು ತಿರುಗುವ ಆಧಾರ ಬಿಂದು
+  defs:
+  - *id252
+  id: fulcrum_c8a87a3fc57d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fulcrum
+- entry: 1. ಕೆಲಸಮಾಡು 2. ಕೆಲಸ 3. ಸಮಾರಂಭ
+  defs:
+  - entry: Function
+    type: Noun
+  id: function_38c60d54c9f7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Function
+- entry: ಉತ್ತರಕ್ರಿಯೆ ಕವಾಯತು ರೀತಿ
+  defs:
+  - entry: Funeral drill procedure
+    type: Noun
+  id: funeraldri_89db40a111b9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Funeral drill procedure
+- entry: ಶಿಲೀಂಧ್ರ
+  defs:
+  - &id253
+    entry: Fungi
+    type: Noun
+  id: fungi_e503dd0c1807
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fungi
+- entry: ಬೂಷ್ಟು ಮೂ.
+  defs:
+  - *id253
+  id: fungi_7b805491f223
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fungi
+- entry: ಫ್ಯೂಜ್
+  defs:
+  - &id254
+    entry: Fuse
+    type: Noun
+  id: fuse_575b4c6bb8ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: '1. ಜಾವಿಗೆಬತ್ತಿ: ಸಿಡಿಗುಂಡಿಗೂ ಬಂಡೆ'
+  defs:
+  - *id254
+  id: fuse_820e331da54c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಮೊ.ವನ್ನು
+  defs:
+  - *id254
+  id: fuse_80ca94fb837c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಒಡೆಯುವ ಸಿಡಿಮದ್ದು ಮೊ.ಗಳಿಗೂ ಬೆಂಕಿಯಿಡುವುದಕ್ಕಾಗಿ ಮಾಡಿರುವ ದಾಹ್ಯ ವಸ್ತುಗಳನ್ನೊಳಗೊಂಡ ಕೊಳವೆ
+  defs:
+  - *id254
+  id: fuse_33be608bb9dd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಬತ್ತಿ ಮೊ. 2. ರಕ್ಷಾತಂತು
+  defs:
+  - *id254
+  id: fuse_8b212dff3355
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ವಿದ್ಯುತ್ಪ್ರವಾಹವು ನಿರಪಾಯದ ಮಿತಿಯನ್ನು
+  defs:
+  - *id254
+  id: fuse_0f14cb93363d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಮೀರಿದಾಗ
+  defs:
+  - *id254
+  id: fuse_74420fa11a6d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಆ ಶಾಖದಿಂದ ಕರಗಿ ಪ್ರವಾಹವಿಚ್ಛಿತ್ತಿ ಮಾಡಲು ಪ್ರವಾಹ ಮಾರ್ಗದಲ್ಲಿ ಸೇರಿಸಿರುವ ತಂತಿ
+  defs:
+  - *id254
+  id: fuse_9637fa15dc2c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಕಂಬಿ
+  defs:
+  - *id254
+  id: fuse_d32b000bb120
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ತಗಡು
+  defs:
+  - *id254
+  id: fuse_36859144e1f5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ಮೊ.
+  defs:
+  - *id254
+  id: fuse_fb3ed65b9913
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fuse
+- entry: ದಪ್ಪತಲೆಯ ಬೆಂಕಿಕಡ್ಡಿ
+  defs:
+  - entry: Fusee
+    type: Noun
+  id: fusee_3c11ca72d86f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Fusee
+- entry: ಗಾರ್ಟ್‌ರ್
+  defs:
+  - &id255
+    entry: Garter
+    type: Noun
+  id: garter_69256615dcf5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Garter
+- entry: ಕಾಲುಚೀಲದ ಬಿಗಿಪಟ್ಟಿ
+  defs:
+  - *id255
+  id: garter_0934a6352336
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Garter
+- entry: ಅನಿಲ
+  defs:
+  - entry: Gas
+    type: Noun
+  id: gas_0f82cef95ae9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gas
+- entry: ಗೇಟ್
+  defs:
+  - &id256
+    entry: Gate
+    type: Noun
+  id: gate_93451ca67e29
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gate
+- entry: ಹೆಬ್ಬಾಗಿಲು
+  defs:
+  - *id256
+  id: gate_928dc099c76d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gate
+- entry: ಮಹಾದ್ವಾರ
+  defs:
+  - *id256
+  id: gate_01f3468a93a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gate
+- entry: ನವಿರುಜಾಲರಿ
+  defs:
+  - &id257
+    entry: Gauze
+    type: Noun
+  id: gauze_f9eda85029f3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gauze
+- entry: '"ರೇಷ್ಮೆ ನೂಲು'
+  defs:
+  - *id257
+  id: gauze_c02b8097182b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gauze
+- entry: ತಂತಿ ಮೊ. ಗಳಿಂದ ಮಾಡಿದ
+  defs:
+  - *id257
+  id: gauze_7f4acdace787
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gauze
+- entry: ನವಿರಾದ ಪಾರದರ್ಶಕವಾದ ನೇಯ್ಗೆ
+  defs:
+  - *id257
+  id: gauze_b4beb98857cd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gauze
+- entry: ಸಾಮಾನ್ಯತೆ
+  defs:
+  - &id258
+    entry: Generality
+    type: Noun
+  id: generality_2b7d3627dd19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Generality
+- entry: ವ್ಯಾಪಕತೆ
+  defs:
+  - *id258
+  id: generality_319164ad490a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Generality
+- entry: ಸಾಮಾನ್ಯ ವಂದನೆ ಮತ್ತು ವರದಿ ಮಾಡುವುದು
+  defs:
+  - entry: General salute and Teporting
+    type: Noun
+  id: generalsal_5607e8ddd395
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: General salute and Teporting
+- entry: ತುಪ್ಪದ ಡಬ್ಬದ ತೆಪ್ಪ
+  defs:
+  - entry: Ghee tin raft
+    type: Noun
+  id: gheetinraf_ae3dc4af4a5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ghee tin raft
+- entry: ತಲೆತಿರುಗುವಿಕೆ
+  defs:
+  - entry: Giddiness
+    type: Noun
+  id: giddiness_4f7d6c04e5bd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Giddiness
+- entry: ಗ್ರಂಥಿ ತಿರುಪು
+  defs:
+  - entry: Gland nut
+    type: Noun
+  id: glandnut_1ad37ce85ed4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gland nut
+- entry: 1. ಹೊಳೆ
+  defs:
+  - &id259
+    entry: Glare
+    type: Noun
+  id: glare_71d6a8d778a4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Glare
+- entry: ಪ್ರಕಾಶಿಸು 2. ಅತಿ ತೀಕ್ಷ್ಣಪ್ರಭೆ
+  defs:
+  - *id259
+  id: glare_12b354f6a9fa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Glare
+- entry: 1. ಆಳು
+  defs:
+  - &id260
+    entry: Govern
+    type: Noun
+  id: govern_0ade45d60a7e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Govern
+- entry: ಅಧಿಕಾರ ನಡೆಸು 2. ನಿಯಂತ್ರಿಸು
+  defs:
+  - *id260
+  id: govern_c6b228669047
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Govern
+- entry: ಕ್ರಮಕ್ರಮವಾದ
+  defs:
+  - &id261
+    entry: Gradual
+    type: Noun
+  id: gradual_6a0311ddd3b3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gradual
+- entry: ಕ್ರಮೇಣ ಮುಂದುವರಿಯುವ
+  defs:
+  - *id261
+  id: gradual_16c0f473b068
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gradual
+- entry: ಸಹಾಯಾನುದಾನ
+  defs:
+  - entry: Grant-in-aid
+    type: Noun
+  id: grantinaid_34b2d88fbb2b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grant-in-aid
+- entry: 1. ಮೇಯುವಿಕೆ 2. ಮೇಯಿಸುವಿಕೆ 3. ಹುಲ್ಲುಗಾವಲು
+  defs:
+  - entry: Grazing
+    type: Noun
+  id: grazing_6082ba981f7e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grazing
+- entry: ಹಸಿರು
+  defs:
+  - entry: Green
+    type: Noun
+  id: green_5bc92f479cec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Green
+- entry: ಗ್ರೀನ್‌ಸ್ಟಿಕ್‌ ಫ್ರ್ಯಾಕ್ಟರ್
+  defs:
+  - &id262
+    entry: Greenstick fracture
+    type: Noun
+  id: greenstick_7bdea0d59458
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Greenstick fracture
+- entry: ಮು. ಮಕ್ಕಳಲ್ಲಿ ಒಂದು ಕಡೆ ಮುರಿದು ಮತ್ತೊಂದು ಕಡೆ ಕೇವಲ ಬಾಗಿ ಕೊಂಡಿರುವ ಮೂಳೆ ಮುರಿತ
+  defs:
+  - *id262
+  id: greenstick_c25c185613a9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Greenstick fracture
+- entry: ಗ್ರೆನೇಡ್
+  defs:
+  - &id263
+    entry: Grenade
+    type: Noun
+  id: grenade_31e202a34a66
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grenade
+- entry: ಕೈಯಿಂದ ಎಸೆಯುವ ಯಾ ಬಂದೂಕಿನಿಂದ ಹಾರಿಸುವ ಒಂದು ಸಣ್ಣಸಿಡಿಗುಂಡು
+  defs:
+  - *id263
+  id: grenade_046a3181c0b2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grenade
+- entry: ಅಸಮಾಧಾನಕಾರಣ
+  defs:
+  - &id264
+    entry: Grievance
+    type: Noun
+  id: grievance_ad64fb06cc57
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grievance
+- entry: ದೂರು
+  defs:
+  - *id264
+  id: grievance_054a4a09ff9c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grievance
+- entry: ಕು೦ದುಕೊರತೆ
+  defs:
+  - *id264
+  id: grievance_e0b2a812888f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grievance
+- entry: ತೀವ್ರಗಾಯ
+  defs:
+  - entry: Grievous injury
+    type: Noun
+  id: grievousin_c10420fc5e1f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Grievous injury
+- entry: ಮೆಲ್ಲೆಲುಬು
+  defs:
+  - &id265
+    entry: Gnistle
+    type: Noun
+  id: gnistle_379e0fece4f2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gnistle
+- entry: ಮೃದ್ವಸ್ಥಿ
+  defs:
+  - *id265
+  id: gnistle_c0768d70d64d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gnistle
+- entry: ತೊಡೆಸಂದು
+  defs:
+  - &id266
+    entry: Groin
+    type: Noun
+  id: groin_7da03c1306a9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Groin
+- entry: ಗೆಜ್ಜೆ
+  defs:
+  - *id266
+  id: groin_76d1272a7f70
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Groin
+- entry: ಭೂಸ್ಫೋಟನೆ
+  defs:
+  - &id267
+    entry: Ground burst
+    type: Noun
+  id: groundburs_fad49ba08373
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ground burst
+- entry: ಭೂಮಿಯಲ್ಲಿ ಸ್ಫೋಟಸುವುದು
+  defs:
+  - *id267
+  id: groundburs_537ccac54787
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Ground burst
+- entry: ಗಂಜಿ
+  defs:
+  - &id268
+    entry: Gruel
+    type: Noun
+  id: gruel_4074b4ad6282
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gruel
+- entry: ಅಂಬಲಿ
+  defs:
+  - *id268
+  id: gruel_f9c67bb32846
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gruel
+- entry: 'ಗಾರ್ಡ್‌: 1. ರಕ್ಷಿಸು'
+  defs:
+  - &id269
+    entry: Guard
+    type: Noun
+  id: guard_0a39f0a10577
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard
+- entry: ಕಾವಲಿರು 2. ರಕ್ಷಕ
+  defs:
+  - *id269
+  id: guard_b0e7ba720006
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard
+- entry: ಕಾವಲುಗಾರ 3. ರಕ್ಷೆ
+  defs:
+  - *id269
+  id: guard_9b3a7624956b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard
+- entry: ಕಾವಲು
+  defs:
+  - *id269
+  id: guard_b7a808693b84
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard
+- entry: ರಕ್ಷಾಕಡತ
+  defs:
+  - entry: Guard file
+    type: Noun
+  id: guardfile_95f5dde29b2a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard file
+- entry: ಕಾಪಿನ
+  defs:
+  - &id270
+    entry: Guard-house
+    type: Noun
+  id: guardhouse_6e742f3c18ab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard-house
+- entry: ಪಹರೆಯ ಮನೆ
+  defs:
+  - *id270
+  id: guardhouse_81c7f2f5e4b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard-house
+- entry: ಪಹರೆ ನಿಲ್ಲಿಸುವ ವಿಧಾನ
+  defs:
+  - entry: Guard mounting procedure
+    type: Noun
+  id: guardmount_2c3d69c0132a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard mounting procedure
+- entry: ಗೌರವರಕ್ಷೆ
+  defs:
+  - entry: Guard of honour
+    type: Noun
+  id: guardofhon_dd415cfa0c4a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard of honour
+- entry: ಕಾಪಿನ
+  defs:
+  - &id271
+    entry: Guard-room
+    type: Noun
+  id: guardroom_05975fdf36b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard-room
+- entry: ಪಹರೆಯ ಕೋಣೆ
+  defs:
+  - *id271
+  id: guardroom_257ce2b24ad9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard-room
+- entry: ಕಾಪಿನದಳದ
+  defs:
+  - &id272
+    entry: Guardsman
+    type: Noun
+  id: guardsman_b701abbe01ba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guardsman
+- entry: ಪಹರೆಯ ಸಿಪಾಯಿ
+  defs:
+  - *id272
+  id: guardsman_d637e4509aef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guardsman
+- entry: ಕಾಪಿನ
+  defs:
+  - &id273
+    entry: Guard-tent
+    type: Noun
+  id: guardtent_c57447c44c48
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard-tent
+- entry: ಪಹರೆಯ ಡೇರೆ
+  defs:
+  - *id273
+  id: guardtent_345bc01c4805
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guard-tent
+- entry: ಪೋಷಕ
+  defs:
+  - &id274
+    entry: Guardian
+    type: Noun
+  id: guardian_ce99081d8d54
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guardian
+- entry: ಪಾಲಕ
+  defs:
+  - *id274
+  id: guardian_0fdf12fd44ea
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guardian
+- entry: ಅತಿಥಿಗೃಹ
+  defs:
+  - entry: Guest house
+    type: Noun
+  id: guesthouse_1628f11711a8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guest house
+- entry: 1. ಮಾರ್ಗದರ್ಶನ ಮಾಡು 2. ಮಾರ್ಗದರ್ಶಕ
+  defs:
+  - &id275
+    entry: Guide
+    type: Noun
+  id: guide_92c2dce07fc0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guide
+- entry: ಮಾರ್ಗದರ್ಶಿ 3. ಕೈಪಿಡಿ
+  defs:
+  - *id275
+  id: guide_51dadbb0adab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guide
+- entry: 1. ದೋಷಯುಕ್ತ 2. ತಪ್ಪಿತಸ್ಥ
+  defs:
+  - &id276
+    entry: Guilty
+    type: Noun
+  id: guilty_407454ced4d5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guilty
+- entry: ಅಪರಾಧಿ
+  defs:
+  - *id276
+  id: guilty_5b1f49d22650
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guilty
+- entry: ದೋಷಯುಕ್ತ ಉದ್ದೇಶ
+  defs:
+  - entry: Guilty intention
+    type: Noun
+  id: guiltyinte_b38b0e8e1082
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guilty intention
+- entry: ವಿಳಂಬದ ತಪ್ಪಿತಸ್ಥ
+  defs:
+  - entry: Guilty of delay
+    type: Noun
+  id: guiltyofde_283b53fdd480
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guilty of delay
+- entry: 1. ಒಸಡುಮಾಂಸ 2. ಗೋಂದು
+  defs:
+  - &id277
+    entry: Gum
+    type: Noun
+  id: gum_d496f963a814
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gum
+- entry: ಅಂಟು
+  defs:
+  - *id277
+  id: gum_07c1f86cb8b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gum
+- entry: ಗಮ್‌ಬೂಟು
+  defs:
+  - &id278
+    entry: Gum boot
+    type: Noun
+  id: gumboot_3fc262755e2d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gum boot
+- entry: ಮೊಳಕಾಲಿನವರೆಗೆ ಬರುವ ರಬ್ಬರು ಲೇಪಿಸಿ ತಯಾರಿಸಿದ ಒಂದು ಬಗೆಯ ಬೂಟು
+  defs:
+  - *id278
+  id: gumboot_6b06c7f54874
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gum boot
+- entry: 1. ಬಂದೂಕು
+  defs:
+  - &id279
+    entry: Gun
+    type: Noun
+  id: gun_dc3080b3938c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gun
+- entry: ಕೋವಿ
+  defs:
+  - *id279
+  id: gun_5ce5532957a3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gun
+- entry: ತುಪಾಕಿ 2. ಫಿರಂಗಿ
+  defs:
+  - *id279
+  id: gun_85a8ecf00d2d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gun
+- entry: ತೋಪು
+  defs:
+  - *id279
+  id: gun_0fc0faf2dedd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gun
+- entry: ಗೋಣಿಗಂಟು
+  defs:
+  - &id280
+    entry: Gunny knot
+    type: Noun
+  id: gunnyknot_65c3142a7f91
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gunny knot
+- entry: ಗೋಣೆದಾರದ ಗಂಟು
+  defs:
+  - *id280
+  id: gunnyknot_34e84e88295d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gunny knot
+- entry: ಬಂದೂಕಿನ ಹೊಡೆತ
+  defs:
+  - entry: Gunshot
+    type: Noun
+  id: gunshot_0e4c9c5973d5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gunshot
+- entry: ಜಿನ್‌ ಲ್ಯಾಶಿಂಗ್
+  defs:
+  - &id281
+    entry: Gyne lashing
+    type: Noun
+  id: gynelashin_2ab26180d186
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gyne lashing
+- entry: ಮೂರು ಕುಣಿಕೆಯ ಕಟ್ಟು
+  defs:
+  - *id281
+  id: gynelashin_1ac8fc5e6cfa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Gyne lashing
+- entry: 'ಗೈ: ಡೇರೆ'
+  defs:
+  - &id282
+    entry: Guy
+    type: Noun
+  id: guy_398bdb286826
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guy
+- entry: ಮೊ.ವನ್ನು ಅದರ ಸ್ಥಳದಲ್ಲಿರುವಂತೆ ಭದ್ರಪಡಿಸಲು ಕಟ್ಟುವ ಹಗ್ಗ
+  defs:
+  - *id282
+  id: guy_e65981f3761f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guy
+- entry: ಸರಪಳಿ ಮೊ.
+  defs:
+  - *id282
+  id: guy_798a00356127
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Guy
+- entry: ರಕ್ತಸ್ರಾವ
+  defs:
+  - entry: Haemorrhage
+    type: Noun
+  id: haemorrhag_0af50cf7026f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Haemorrhage
+- entry: ಅರೆಸುತ್ತಿನ ಅರ
+  defs:
+  - &id283
+    entry: Half round file
+    type: Noun
+  id: halfroundf_d180c4af469c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Half round file
+- entry: ಒಂದು ಮಗ್ಗುಲು ಚಪ್ಪಟಿಯಾಗಿ ಮತ್ತೊಂದು ಮಗ್ಗುಲು ಉಬ್ಬಿರುವ ಅರ
+  defs:
+  - *id283
+  id: halfroundf_c5ec3ac94004
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Half round file
+- entry: ನಡುಮನೆ
+  defs:
+  - &id284
+    entry: Hall
+    type: Noun
+  id: hall_c5f9271e6b63
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hall
+- entry: ಹಜಾರ
+  defs:
+  - *id284
+  id: hall_036bea69e4c6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hall
+- entry: 1. ನಿಲ್ಲು 2. ನಿಲ್ಲಿಸು 3. ನಿಲ್ಲುವುದು
+  defs:
+  - entry: Halt
+    type: Noun
+  id: halt_f4e41642940d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Halt
+- entry: ಸುತ್ತಿಗೆ
+  defs:
+  - entry: Hammer
+    type: Noun
+  id: hammer_3562a24b18e9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hammer
+- entry: ಹಸ್ತ
+  defs:
+  - &id285
+    entry: Hand
+    type: Noun
+  id: hand_8de8cd6c2521
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hand
+- entry: ಕರ
+  defs:
+  - *id285
+  id: hand_8b1d86c79a95
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hand
+- entry: ಕೈ
+  defs:
+  - *id285
+  id: hand_d320ff8552bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hand
+- entry: ಕೈಗೊಡಲಿ
+  defs:
+  - entry: Hand axe
+    type: Noun
+  id: handaxe_47412dc969f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hand axe
+- entry: ಹ್ಯಾಂಡ್‌ ಗ್ರೆನೇಡ್
+  defs:
+  - &id286
+    entry: Hand grenade
+    type: Noun
+  id: handgrenad_d8beaa89d1f3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hand grenade
+- entry: ಕೈಯಿಂದ ಎಸೆಯುವ ಗ್ರಾನೇಡು
+  defs:
+  - *id286
+  id: handgrenad_18b228547515
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hand grenade
+- entry: ಅನನುಕೂಲ
+  defs:
+  - &id287
+    entry: Handicap
+    type: Noun
+  id: handicap_9096e812c799
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Handicap
+- entry: ಅಡ್ಡಿ
+  defs:
+  - *id287
+  id: handicap_20dfd18fe407
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Handicap
+- entry: ಕರವಸ್ತ್ರ ಕೈಚೌಕ
+  defs:
+  - entry: Handkerchief
+    type: Noun
+  id: handkerchi_1d4d9fcce972
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Handkerchief
+- entry: ಕೈ ಪಂಪು
+  defs:
+  - entry: Handpump
+    type: Noun
+  id: handpump_27dce0269c1f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Handpump
+- entry: ಕೈಗರಗಸ
+  defs:
+  - &id288
+    entry: Handsaw
+    type: Noun
+  id: handsaw_eee94dc8b186
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Handsaw
+- entry: ರಂಪ
+  defs:
+  - *id288
+  id: handsaw_8d3939c289cc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Handsaw
+- entry: ತೊಡೆಯಿಂದ ಸೊಂಟದ ಮಧ್ಯದ ಎಲುಬು
+  defs:
+  - entry: Haunch bone
+    type: Noun
+  id: haunchbone_0645b6840e83
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Haunch bone
+- entry: ಹೆಗಲ ಚೀಲ
+  defs:
+  - &id289
+    entry: Haversack
+    type: Noun
+  id: haversack_673d96c95002
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Haversack
+- entry: ಚಿನ್ನು ಚೀಲ
+  defs:
+  - *id289
+  id: haversack_21c9d3d35015
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Haversack
+- entry: ತಲೆ
+  defs:
+  - &id290
+    entry: Head
+    type: Noun
+  id: head_298f1f89ed01
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Head
+- entry: ಮಂಡೆ
+  defs:
+  - *id290
+  id: head_7b65b7406cdb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Head
+- entry: ಹೃದಯ
+  defs:
+  - entry: Heart
+    type: Noun
+  id: heart_adcf99015543
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Heart
+- entry: ಉಷ್ಣಾಘಾತ
+  defs:
+  - &id291
+    entry: Heat stroke
+    type: Noun
+  id: heatstroke_84780d718921
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Heat stroke
+- entry: ಝಳದ ಹೊಡೆತ
+  defs:
+  - *id291
+  id: heatstroke_54877c31ce64
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Heat stroke
+- entry: ಭಾರವಾದ ಕೊಡಲಿ
+  defs:
+  - entry: Heavy axe
+    type: Noun
+  id: heavyaxe_b8bf24a4344f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Heavy axe
+- entry: ಕೀಲಕದ ಭಾರಿ ರಾಟಿ
+  defs:
+  - entry: Heavy block for fulcrum
+    type: Noun
+  id: heavyblock_aa5a6d3c83c0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Heavy block for fulcrum
+- entry: ಹಿಮ್ಮಡಿ ಎಲುಬು
+  defs:
+  - entry: Heel bone
+    type: Noun
+  id: heelbone_3c4cbd1886d6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Heel bone
+- entry: ಹೆಲ್ಮೆಟ್
+  defs:
+  - &id292
+    entry: Helmet
+    type: Noun
+  id: helmet_23250c75c7da
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Helmet
+- entry: ಶಿರಸ್ತ್ರಾಣ
+  defs:
+  - *id292
+  id: helmet_faed354d7d79
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Helmet
+- entry: ಅ೦ಚುಕಟ್ಟು
+  defs:
+  - entry: Hem
+    type: Noun
+  id: hem_e5ea3d405ea4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hem
+- entry: ಹರ್ನಿಯ
+  defs:
+  - &id293
+    entry: Hernia
+    type: Noun
+  id: hernia_7eda1e5263a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hernia
+- entry: ಅಂತ್ರವೃದ್ಧಿ
+  defs:
+  - *id293
+  id: hernia_7b17e45a6efc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hernia
+- entry: ಅತಿಸ್ಫೋಟಕ ಕ್ಷಿಪಣಿ
+  defs:
+  - entry: High explosive missile
+    type: Noun
+  id: highexplos_0de7eec8c1b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: High explosive missile
+- entry: ತಿರುಗಣಿ ಕೀಲು
+  defs:
+  - entry: Hinge joint
+    type: Noun
+  id: hingejoint_d8b526d6c2ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hinge joint
+- entry: ಹಿಂಜ್‌ ಲ್ಯಾಡರ್‌ ಮೆತಡ್
+  defs:
+  - &id294
+    entry: Hinge ladder method
+    type: Noun
+  id: hingeladde_fac6271bc134
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hinge ladder method
+- entry: ತಿರುಗಣಿ ಏಣಿ ವಿಧಾನ
+  defs:
+  - *id294
+  id: hingeladde_8ac189b92153
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hinge ladder method
+- entry: ಕಟ್ಟಡಗಳ ಅಪಘಾತಗಳಲ್ಲಿ ಸಿಕ್ಕಿ ಗಾಯಗೊಂಡವರನ್ನು ತಿರುಗಣಿ ಏಣಿ ಸಹಾಯದಿಂದ ಪಾರುಮಾಡುವ ವಿಧಾನ
+  defs:
+  - *id294
+  id: hingeladde_1b93306d90cb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hinge ladder method
+- entry: ಚಪ್ಪೆ
+  defs:
+  - &id295
+    entry: Hip
+    type: Noun
+  id: hip_905d85b0fbc7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hip
+- entry: ತೊಡೆಯ ಹೊರಭಾಗ
+  defs:
+  - *id295
+  id: hip_3779a2d89dc6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hip
+- entry: ಚಪ್ಪೆ ಕೀಲು
+  defs:
+  - entry: Hip-joint
+    type: Noun
+  id: hipjoint_e7169bfd81d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hip-joint
+- entry: ವೃತ್ತಾಂತ
+  defs:
+  - entry: History
+    type: Noun
+  id: history_0e9fafd78c67
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: History
+- entry: ಹೋಲ್ಡ್ ಫಾಸ್ಟ್
+  defs:
+  - &id296
+    entry: Holdfast
+    type: Noun
+  id: holdfast_8a882f919fdf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Holdfast
+- entry: ಬಂಧನಿ
+  defs:
+  - *id296
+  id: holdfast_67b750a18341
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Holdfast
+- entry: ಭದ್ರವಾಗಿ ಹಿಡಿದುಕೊಳ್ಳುವ ಸಾಧನ ಯಾ ವಿಧಾನ
+  defs:
+  - *id296
+  id: holdfast_c9c6dfa977a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Holdfast
+- entry: ಹೆಗಲುಗುಣಿ
+  defs:
+  - entry: Hollow of the shoulder
+    type: Noun
+  id: hollowofth_a81880c275d3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hollow of the shoulder
+- entry: ಪೊಳ್ಳುಕಂಬಿ
+  defs:
+  - entry: Hollow rod
+    type: Noun
+  id: hollowrod_d8819ea2af29
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hollow rod
+- entry: ಮುಸುಕು
+  defs:
+  - &id297
+    entry: Hood
+    type: Noun
+  id: hood_af456563445e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hood
+- entry: ಮೇಲ್ಗವಸು
+  defs:
+  - *id297
+  id: hood_c44dd939390c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hood
+- entry: ಕಬ್ಬಿಣದ ಬಳೆ
+  defs:
+  - entry: Hoop
+    type: Noun
+  id: hoop_2800ba2a5cb1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಗಹರಕಷಕದಳ_ಮತ್ತು_ಪರರಕಷಣ_ನಿರ್ದೇಶ
+  head: Hoop

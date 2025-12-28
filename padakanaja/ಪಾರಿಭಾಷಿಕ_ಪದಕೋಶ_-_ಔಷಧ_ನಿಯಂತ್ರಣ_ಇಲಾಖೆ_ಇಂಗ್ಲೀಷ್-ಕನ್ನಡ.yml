@@ -1,0 +1,5584 @@
+- entry: ಸಂಕ್ಷೇಪಣೆ
+  defs:
+  - &id001
+    entry: Abbreviation
+    type: Noun
+  id: abbreviati_273bdd59cf23
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abbreviation
+- entry: ಸಂಕ್ಷೇಪ ಮಾಡುವುದು
+  defs:
+  - *id001
+  id: abbreviati_025422cba356
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abbreviation
+- entry: ಸಂಕ್ಷೇಪ
+  defs:
+  - *id001
+  id: abbreviati_dddd2c12003a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abbreviation
+- entry: ಸಂಕ್ಷಿಪ್ತ ರೂಪ
+  defs:
+  - *id001
+  id: abbreviati_2bd9239e155c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abbreviation
+- entry: ದಾರಿತಪ್ಪಿದ ನಿರೀಕ್ಷಣೆ
+  defs:
+  - &id002
+    entry: Aberrant Observation
+    type: Noun
+  id: aberrantob_7009d4058fa1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aberrant Observation
+- entry: ಅಭಿಪ್ರಾಯ
+  defs:
+  - *id002
+  id: aberrantob_6d6f402e19f4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aberrant Observation
+- entry: ದುಷ್ಪ್ರೇರಣೆ
+  defs:
+  - entry: Abetment
+    type: Noun
+  id: abetment_e88944fc4d5e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abetment
+- entry: ಅಸಮಾನ್ಯ
+  defs:
+  - &id003
+    entry: Abnormal
+    type: Noun
+  id: abnormal_c549be407c79
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abnormal
+- entry: ಅತಿರೇಕ
+  defs:
+  - *id003
+  id: abnormal_55299abbd964
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abnormal
+- entry: ಅಸಮಾನ್ಯ ವಿಷತ್ವ
+  defs:
+  - entry: Abnormal toxicity
+    type: Noun
+  id: abnormalto_399ae011500a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abnormal toxicity
+- entry: ಗರ್ಭಸ್ರಾವಕ
+  defs:
+  - entry: Abortifacient
+    type: Noun
+  id: abortifaci_bcdf9a8446d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abortifacient
+- entry: ತರಚಿಕ
+  defs:
+  - entry: Abrasion
+    type: Noun
+  id: abrasion_bd7e9630f295
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abrasion
+- entry: ಮೂಲಿಕೆ ಅಥವಾ ಸಾರ
+  defs:
+  - entry: Absinth (e)
+    type: Noun
+  id: absinthe_1ee705d58fc6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Absinth (e)
+- entry: ಪರಮಶೂನ್ಯ ಉಷ್ಣಾಂಶ ಮಾನ
+  defs:
+  - entry: Absolute temperature scale
+    type: Noun
+  id: absolutete_6258b652b693
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Absolute temperature scale
+- entry: ಹೀರಿಕೊಳ್ಳುವ
+  defs:
+  - &id004
+    entry: Absorbent
+    type: Noun
+  id: absorbent_f2fcd53bb2d6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Absorbent
+- entry: ಹೀರಿಕೊಳ್ಳುವ ವಸ್ತು
+  defs:
+  - *id004
+  id: absorbent_d774e295dbb5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Absorbent
+- entry: ಹೀರಿಕೆ
+  defs:
+  - entry: Absorption
+    type: Noun
+  id: absorption_34dc4b58c7b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Absorption
+- entry: ವರ್ಜಿಸು
+  defs:
+  - entry: Abstain
+    type: Noun
+  id: abstain_dac7b2204729
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abstain
+- entry: ವಿರೇಚನ
+  defs:
+  - &id005
+    entry: Abstersion
+    type: Noun
+  id: abstersion_ea1af6274d25
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abstersion
+- entry: ವಿರೇಚಕ
+  defs:
+  - *id005
+  id: abstersion_7ff0f14061c6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abstersion
+- entry: ವರ್ಜನೆ
+  defs:
+  - entry: Abstinence
+    type: Noun
+  id: abstinence_cd96ec34ed37
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abstinence
+- entry: ವೇಗವರ್ಧಕ
+  defs:
+  - entry: Accelerator
+    type: Noun
+  id: accelerato_c45e137e72b8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accelerator
+- entry: ಒಪ್ಪು
+  defs:
+  - &id006
+    entry: Accept
+    type: Noun
+  id: accept_7202676d74c5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accept
+- entry: ಸ್ವೀಕರಿಸು
+  defs:
+  - *id006
+  id: accept_63e9635c026a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accept
+- entry: ಪ್ರವೇಶಾವಕಾಶ
+  defs:
+  - &id007
+    entry: Access
+    type: Noun
+  id: access_67c95c72818e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Access
+- entry: ಬಳಸುವ ಅವಕಾಶ
+  defs:
+  - *id007
+  id: access_22bf99d33c53
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Access
+- entry: ಸಹಾಯಕ ಉಪಕರಣಗಳು
+  defs:
+  - entry: Accessories
+    type: Noun
+  id: accessorie_2abc80b48a37
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accessories
+- entry: ಜೊತೆಗಿರು
+  defs:
+  - entry: Accompany
+    type: Noun
+  id: accompany_f622d1b483f2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accompany
+- entry: ಅಧಿಕೃತ
+  defs:
+  - &id008
+    entry: Accredited
+    type: Noun
+  id: accredited_a83db427c98d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accredited
+- entry: ಮಾನ್ಯ
+  defs:
+  - *id008
+  id: accredited_b2edccf48fc0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accredited
+- entry: ನಿಖರತೆ
+  defs:
+  - entry: Accuracy
+    type: Noun
+  id: accuracy_86470a39a53c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accuracy
+- entry: ಆಮ್ಲೀಯಕಾರಕ ಲವಣ
+  defs:
+  - entry: Acidifying salt
+    type: Noun
+  id: acidifying_8568a5faba4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acidifying salt
+- entry: ಆಮ್ಲದಲ್ಲಿ ಕರಗದಿರುವ ಬೂದಿ
+  defs:
+  - entry: Acid insoluble ash
+    type: Noun
+  id: acidinsolu_27418f531ea3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acid insoluble ash
+- entry: ಮೂತ್ರ ರಕ್ತಾಮ್ಲತೆ
+  defs:
+  - entry: Acidosis
+    type: Noun
+  id: acidosis_ba5c4e3dd047
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acidosis
+- entry: ಆಮ್ಲ ಮೌಲ್ಯ
+  defs:
+  - entry: Acid value
+    type: Noun
+  id: acidvalue_3b27f100cebb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acid value
+- entry: ಗಳಿಸು
+  defs:
+  - &id009
+    entry: Acquire
+    type: Noun
+  id: acquire_1502992a9ff6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acquire
+- entry: ಸ್ವಾಧೀನಪಡಿಸಿಕೊಳ್ಳು
+  defs:
+  - *id009
+  id: acquire_0a3ffa5631dc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acquire
+- entry: ಕ್ರಿಯೆ
+  defs:
+  - &id010
+    entry: Action
+    type: Noun
+  id: action_f8198a3733ad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Action
+- entry: ಕ್ರಮ
+  defs:
+  - *id010
+  id: action_a12c39a298fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Action
+- entry: ಕ್ರಿಯೆ ಮತ್ತು ಉಪಯೋಗ
+  defs:
+  - entry: Action and use
+    type: Noun
+  id: actionandu_0f268c64359a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Action and use
+- entry: ಸಕ್ರಿಯ ನಿರ್ದೇಶನಗಳು
+  defs:
+  - entry: Active directions
+    type: Noun
+  id: activedire_428ea3f4b5f1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Active directions
+- entry: ಸಕ್ರಿಯ ಘಟಕಾಂಶ
+  defs:
+  - entry: Active ingredient
+    type: Noun
+  id: activeingr_92fecc596189
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Active ingredient
+- entry: ಸಕ್ರಿಯ ಅಭಿಸರಣ
+  defs:
+  - entry: Active transport
+    type: Noun
+  id: activetran_d8c8e46bb2ac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Active transport
+- entry: ತೀವ್ರ ವಿಷ ಪರಿಣಾಮಗಳು
+  defs:
+  - entry: Acute toxic effects
+    type: Noun
+  id: acutetoxic_475e34c348a8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Acute toxic effects
+- entry: ಹೊಂದಾಣಿಕೆ
+  defs:
+  - &id011
+    entry: Adaptation
+    type: Noun
+  id: adaptation_975205f46d99
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adaptation
+- entry: ಅಳವಡಿಕೆ
+  defs:
+  - *id011
+  id: adaptation_7dedaf66fd42
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adaptation
+- entry: ಚಟಕ್ಕೆ ಬೀಳು
+  defs:
+  - &id012
+    entry: Addict
+    type: Noun
+  id: addict_eca7d5530eca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addict
+- entry: ಚಟಗಾರ
+  defs:
+  - *id012
+  id: addict_ae220a07c805
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addict
+- entry: ವ್ಯಸನಿ
+  defs:
+  - *id012
+  id: addict_06dee3d72b65
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addict
+- entry: ಚಟ
+  defs:
+  - &id013
+    entry: Addiction
+    type: Noun
+  id: addiction_54296254781f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addiction
+- entry: ವ್ಯಸನ
+  defs:
+  - *id013
+  id: addiction_9071fdc9b57a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addiction
+- entry: ಚಟಕಾರಕ ವೇದನಹಾರಿ
+  defs:
+  - entry: Addiction Analgesic
+    type: Noun
+  id: addictiona_8fbcc8ed797d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addiction Analgesic
+- entry: ಆಡಿಸನ್ನನ ರೋಗ
+  defs:
+  - &id014
+    entry: Addison’s disease
+    type: Noun
+  id: addisonsdi_3b7a313a29de
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addison’s disease
+- entry: ರಕ್ತಹೀನತೆ ಹೆಚ್ಚುತ್ತ ಹೋಗುವ ಒಂದು ರೋಗ
+  defs:
+  - *id014
+  id: addisonsdi_ab652d8d8fe1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addison’s disease
+- entry: ಸೇರಿಸುವುದು
+  defs:
+  - &id015
+    entry: Addition
+    type: Noun
+  id: addition_107a80ea05ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addition
+- entry: ಸೇರಿಕೆ
+  defs:
+  - *id015
+  id: addition_75fbc7701c5b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Addition
+- entry: ಸೇರಿಕೆ ಪರಿಣಾಮ
+  defs:
+  - entry: Additive effect
+    type: Noun
+  id: additiveef_b8282dcd242d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Additive effect
+- entry: ಸಾಕ್ಷ್ಯ ಒದಗಿಸು
+  defs:
+  - entry: Adduce
+    type: Noun
+  id: adduce_e7a29abb73c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adduce
+- entry: ಸಾದರಪಡಿಸುವುದು
+  defs:
+  - &id016
+    entry: Adducing
+    type: Noun
+  id: adducing_c6f41827de7d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adducing
+- entry: ಮುಂದಿಡುವುದು
+  defs:
+  - *id016
+  id: adducing_dc942b51a6a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adducing
+- entry: ಸಾಕಷ್ಟು
+  defs:
+  - entry: Adequate
+    type: Noun
+  id: adequate_d9fe0e3d6fdc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adequate
+- entry: ಅಂಟು ದ್ರವ
+  defs:
+  - entry: Adherent Fluid
+    type: Noun
+  id: adherentfl_82bf060abdb9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adherent Fluid
+- entry: ಅಂಟು ಶಕ್ತಿ
+  defs:
+  - entry: Adhesional force
+    type: Noun
+  id: adhesional_719ee61dd67f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesional force
+- entry: ಅಂಟುಗುಣವುಳ್ಳ
+  defs:
+  - &id017
+    entry: Adhesive
+    type: Noun
+  id: adhesive_639c927099e8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesive
+- entry: ಅಂಟು ಪದಾರ್ಥ
+  defs:
+  - *id017
+  id: adhesive_26b0039794b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesive
+- entry: ಅಂಟುಪಟ್ಟಿ
+  defs:
+  - entry: Adhesive bandage
+    type: Noun
+  id: adhesiveba_bda03d84a2a3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesive bandage
+- entry: ಜಿಗಂಟುತನ
+  defs:
+  - &id018
+    entry: Adhesiveness
+    type: Noun
+  id: adhesivene_8a1bd20c6305
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesiveness
+- entry: ಅಂಟುತನ
+  defs:
+  - *id018
+  id: adhesivene_9fd3202e9788
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesiveness
+- entry: ಅಂಟು ಪ್ಲಾಸ್ಟರು
+  defs:
+  - entry: Adhesive plaster
+    type: Noun
+  id: adhesivepl_8dcf0686895d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesive plaster
+- entry: ಅಂಟು ಪ್ರತಿಕ್ರಿಯೆ
+  defs:
+  - entry: Adhesive reaction
+    type: Noun
+  id: adhesivere_30748fdeb54e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesive reaction
+- entry: ಅಂಟುಪಟ್ಟಿ
+  defs:
+  - entry: Adhesive tape
+    type: Noun
+  id: adhesiveta_935d7aff9459
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhesive tape
+- entry: ಔಷಧಿ ಕುಡಿಸುವುದು
+  defs:
+  - entry: Adhibition
+    type: Noun
+  id: adhibition_ef90e32984c2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adhibition
+- entry: ಸಂಮಿಶ್ರಣ
+  defs:
+  - &id019
+    entry: Admixture
+    type: Noun
+  id: admixture_1752a2bd304d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Admixture
+- entry: ಮಿಶ್ರಣ
+  defs:
+  - *id019
+  id: admixture_82dfcb724afc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Admixture
+- entry: ಅಂಗೀಕರಿಸು
+  defs:
+  - entry: Adopt
+    type: Noun
+  id: adopt_2bb2b84e7c5b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adopt
+- entry: ಆಡ್ರಿನಲ್ ಗ್ರಂಥಿಯ
+  defs:
+  - &id020
+    entry: Adrenal
+    type: Noun
+  id: adrenal_03d588af4ef7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adrenal
+- entry: ಮೂತ್ರಜನಕಾಂಗಗಳಿಗೆ ಅಂಟಿಕೊಂಡಿರುವ ನಿರ್ನಾಳ ಗ್ರಂಥಿ
+  defs:
+  - *id020
+  id: adrenal_7e802dbb385e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adrenal
+- entry: ಆಡ್ರಿನಲ್ ಚೋದಕ ಅಂತಃಸ್ರಾವ
+  defs:
+  - entry: Adrenaline
+    type: Noun
+  id: adrenaline_c503d495c77f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adrenaline
+- entry: ಆಡ್ರಿನಲಿನ್ ಚೋದನ ತಡೆ
+  defs:
+  - entry: Adrenergic blockade
+    type: Noun
+  id: adrenergic_9c2d2887a538
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adrenergic blockade
+- entry: ಆಡ್ರಿನಲಿನ್ ದಮನಕ
+  defs:
+  - entry: Adrenolytic
+    type: Noun
+  id: adrenolyti_20d80bfebbb4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adrenolytic
+- entry: ಮೇಲ್ಮೈಯಲ್ಲಿ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವ ವಸ್ತು
+  defs:
+  - entry: Adsorbent
+    type: Noun
+  id: adsorbent_baafa8bfe9ea
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adsorbent
+- entry: ವರ್ಣಗಳ ಆಧಾರದ ಮೇಲೆ ಮಿಶ್ರಣದಲ್ಲಿರುವ ನಿಕಟ ವಸ್ತುಗಳನ್ನು ಮೇಲ್ಮೈಯಲ್ಲಿ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವುದರಿಂದ ಪ್ರತ್ಯೇಕಿಸುವ ಕಾರ್ಯ ವಿಧಾನ
+  defs:
+  - entry: Adsorption chromatography
+    type: Noun
+  id: adsorption_54df307c5e9d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adsorption chromatography
+- entry: ಕಲಬೆರಕೆಯಾದ
+  defs:
+  - &id021
+    entry: Adulterated
+    type: Noun
+  id: adulterate_fa4fcdba199d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adulterated
+- entry: ಕಲಬೆರಕೆ ಮಾಡಿದ
+  defs:
+  - *id021
+  id: adulterate_9657fcab688f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adulterated
+- entry: ಕಲಬೆರಕೆ ಔಷಧಿಗಳು
+  defs:
+  - entry: Adulterated drugs
+    type: Noun
+  id: adulterate_7aec71cdb7f6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adulterated drugs
+- entry: ಪ್ರತಿಕೂಲ ಪರಿಣಾಮ
+  defs:
+  - entry: Adverse drug reaction
+    type: Noun
+  id: adversedru_f55e11abe927
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adverse drug reaction
+- entry: ಸಲಹಾತ್ಮಕ
+  defs:
+  - entry: Advisory
+    type: Noun
+  id: advisory_f22371b8c755
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Advisory
+- entry: ಸಲಹಾ ಸಮಿತಿ
+  defs:
+  - entry: Advisory committee
+    type: Noun
+  id: advisoryco_85de99787f56
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Advisory committee
+- entry: ಸತ್ತ್ವಹೀನತೆ
+  defs:
+  - &id022
+    entry: Adynamia
+    type: Noun
+  id: adynamia_ac56af6504fe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adynamia
+- entry: ನಿತ್ರಾಣ
+  defs:
+  - *id022
+  id: adynamia_3046edaf683b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adynamia
+- entry: ಬೇರೂರಿದ ವ್ಯಾಧಿ
+  defs:
+  - entry: Aeipathy
+    type: Noun
+  id: aeipathy_03a94bcd1185
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aeipathy
+- entry: ವಾತಾಣುಜೀವಿ
+  defs:
+  - entry: Aerobe
+    type: Noun
+  id: aerobe_ac327cc49117
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aerobe
+- entry: ವಾತಾಪೇಕ್ಷಿ
+  defs:
+  - entry: Aerobic
+    type: Noun
+  id: aerobic_db9010926714
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aerobic
+- entry: 'ಏರೋಸಾಲ್: ಒತ್ತಡ ಧಾರಕದಿಂದ ಪ್ರಯೋಗಿಸುವ ಔಷಧ ಅಥವಾ ಕಾಂತಿವರ್ಧಕ'
+  defs:
+  - entry: Aerosol
+    type: Noun
+  id: aerosol_70f7f18ae2b9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aerosol
+- entry: ಏರೋಸಾಲ್‌ ಚಿಕಿತ್ಸೆ
+  defs:
+  - entry: Aerosol therapy
+    type: Noun
+  id: aerosolthe_b6634958b1b0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aerosol therapy
+- entry: ಬಾಧಿಸು
+  defs:
+  - entry: Affect
+    type: Noun
+  id: affect_739ad3da919e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Affect
+- entry: ಸಂಯೋಜನೆ
+  defs:
+  - entry: Affiliation
+    type: Noun
+  id: affiliatio_de17d8e39eb4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Affiliation
+- entry: ನಿಕಟ ಸಂಬಂಧವುಳ್ಳ ದ್ರಾವಣವನ್ನು ರಾಸಾಯನಿಕ ಸಂಯೋಜನ ವಿಧಾನದಿಂದ ಪ್ರತ್ಯೇಕಿಸುವ ಕ್ರಿಯೆ
+  defs:
+  - entry: Affinity chromatography
+    type: Noun
+  id: affinitych_afbd897fd62f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Affinity chromatography
+- entry: ಜಲಸೇಚನೆ ಜ್ವರರೋಗಿಗಳ ಮೈಮೇಲೆ ತಣ್ಣೀರನ್ನು ಸುರಿಯುವುದು
+  defs:
+  - entry: Affusion
+    type: Noun
+  id: affusion_32766788ae42
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Affusion
+- entry: ಏಜೆಂಟ್
+  defs:
+  - &id023
+    entry: Agent
+    type: Noun
+  id: agent_44821216810f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agent
+- entry: ಪ್ರತಿನಿಧಿ
+  defs:
+  - *id023
+  id: agent_3061f6f9193c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agent
+- entry: ಕಾರಕ
+  defs:
+  - *id023
+  id: agent_ba9f53d968da
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agent
+- entry: ಅಂಟಿಸು
+  defs:
+  - &id024
+    entry: Agglutinate
+    type: Noun
+  id: agglutinat_544fd2335076
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agglutinate
+- entry: ಸಂಯುಕ್ತಗೊಳಿಸು
+  defs:
+  - *id024
+  id: agglutinat_a2880471e6a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agglutinate
+- entry: ಪ್ರತಿಲಸಿಕೆ
+  defs:
+  - entry: Agglutinim
+    type: Noun
+  id: agglutinim_9462d805cf7e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agglutinim
+- entry: ಸಂಯುಕ್ತಕಾರಕ ಜನಕ ವಸ್ತು ಪರೀಕ್ಷಣ
+  defs:
+  - entry: Agglutinogen test
+    type: Noun
+  id: agglutinog_84544473a397
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agglutinogen test
+- entry: ಬಾಧಿತ
+  defs:
+  - &id025
+    entry: Aggreived
+    type: Noun
+  id: aggreived_751afa28b4c5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aggreived
+- entry: ತೊಂದರೆಗೊಳಗಾದ
+  defs:
+  - *id025
+  id: aggreived_b737e46462ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aggreived
+- entry: ಔಷಧಗಳ ಹಳತಾಗುವಿಕೆ
+  defs:
+  - entry: Aging of drugs
+    type: Noun
+  id: agingofdru_5d7df110bcea
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aging of drugs
+- entry: ಉಗುರುಸುತ್ತು
+  defs:
+  - entry: Agnail
+    type: Noun
+  id: agnail_480456de52dc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agnail
+- entry: 'ಎಗನಿಸ್ಟ್: ಸ್ನಾಯುಸಂಕೋಚನವನ್ನು ಏಕಕಾಲಕ್ಕೆ ಪ್ರತಿಸ್ನಾಯು ಸಂಕೋಚನವು ತಡೆಯುವುದು ಮತ್ತು ನಿಯಂತ್ರಿಸುವುದು'
+  defs:
+  - entry: Agonist
+    type: Noun
+  id: agonist_c611e2dde5e6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agonist
+- entry: ಕಣ ಜೀವದ್ರವ್ಯದ ಕೋಶನಾಶಕ ಸ್ಥಿತಿ
+  defs:
+  - entry: Agranulocytosis
+    type: Noun
+  id: agranulocy_aa44c6aec71a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agranulocytosis
+- entry: ಒಪ್ಪಂದ
+  defs:
+  - entry: Agreement
+    type: Noun
+  id: agreement_a74449ab7b6a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agreement
+- entry: ನಿದ್ರಾನಿರೋಧಿ
+  defs:
+  - entry: Agrypnotic
+    type: Noun
+  id: agrypnotic_5456b73b048b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Agrypnotic
+- entry: ಚಳಿಜ್ವರ
+  defs:
+  - &id026
+    entry: Ague
+    type: Noun
+  id: ague_5e43170a93af
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ague
+- entry: ಮಲೇರಿಯಾ ಜ್ವರ
+  defs:
+  - *id026
+  id: ague_d246b6749589
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ague
+- entry: ವ್ಯಾಧಿ
+  defs:
+  - &id027
+    entry: Ailment
+    type: Noun
+  id: ailment_3156decbbcad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ailment
+- entry: ಕಾಯಿಲೆ
+  defs:
+  - *id027
+  id: ailment_54d84bf6221f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ailment
+- entry: ಗಾಳಿ ಊದುಕ ಯಂತ್ರ
+  defs:
+  - entry: Air blower
+    type: Noun
+  id: airblower_f4c4acd0984b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Air blower
+- entry: ಗಾಳಿ ಉಲ್ಬಣ ಪರೀಕ್ಷಣ
+  defs:
+  - entry: Air inflation test
+    type: Noun
+  id: airinflati_9c8a8b389402
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Air inflation test
+- entry: ಗಾಳಿ ತೂರದ
+  defs:
+  - entry: Airtight
+    type: Noun
+  id: airtight_22ef17a5c806
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Airtight
+- entry: ಆಲ್ಕೋಹಾಲ್
+  defs:
+  - &id028
+    entry: Alcohol
+    type: Noun
+  id: alcohol_cd373b8bcad5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alcohol
+- entry: ಮದ್ಯಸಾರ
+  defs:
+  - *id028
+  id: alcohol_4d901555d733
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alcohol
+- entry: ಮದ್ಯವ್ಯಸನ
+  defs:
+  - &id029
+    entry: Alchoholism
+    type: Noun
+  id: alchoholis_ec8bae565122
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alchoholism
+- entry: ಕುಡಿತದ ಚಟ
+  defs:
+  - *id029
+  id: alchoholis_9a812c2ef991
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alchoholism
+- entry: ಮದ್ಯವ್ಯಸನ ರೋಗಾವಸ್ಥೆ
+  defs:
+  - *id029
+  id: alchoholis_8a44f95ebbf8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alchoholism
+- entry: 'ಅಲೆಕ್ಸಿನ್: ರಕ್ತ ವಿಷಾಣುನಾಶಕ ಸಸಾರಜನಕ'
+  defs:
+  - entry: Alexin
+    type: Noun
+  id: alexin_d753f8518644
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alexin
+- entry: ಪ್ರತಿವಿಷ
+  defs:
+  - &id030
+    entry: Alexipharmin
+    type: Noun
+  id: alexipharm_d353f2811b9c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alexipharmin
+- entry: ವಿಷಹರ
+  defs:
+  - *id030
+  id: alexipharm_194abd492308
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alexipharmin
+- entry: ಜ್ವರಹರ
+  defs:
+  - entry: Alexipyretic
+    type: Noun
+  id: alexipyret_d992fca633fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alexipyretic
+- entry: ಅಂಟುರೋಗ ತಡೆಯುವ
+  defs:
+  - &id031
+    entry: Alexiteric
+    type: Noun
+  id: alexiteric_2755e31b7ba0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alexiteric
+- entry: ವಿಷಾಪಹಾರಕ
+  defs:
+  - *id031
+  id: alexiteric_f7e3e3746cdb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alexiteric
+- entry: ಶೀತಕಾರಕ
+  defs:
+  - &id032
+    entry: Algefacient
+    type: Noun
+  id: algefacien_6a937664d14d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Algefacient
+- entry: ತಂಪು ಮಾಡುವ
+  defs:
+  - *id032
+  id: algefacien_2318d80abcb3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Algefacient
+- entry: ಬಾಧಕ
+  defs:
+  - entry: Algetic
+    type: Noun
+  id: algetic_021e604138b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Algetic
+- entry: ಪುಷ್ಟಿಕಾರಕ
+  defs:
+  - entry: Alible
+    type: Noun
+  id: alible_063bed8774c0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alible
+- entry: ಸಸ್ಯಕ್ಷಾರ
+  defs:
+  - &id033
+    entry: Alkaloid
+    type: Noun
+  id: alkaloid_479be32c900e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alkaloid
+- entry: ಸಸಾರಜನಕ
+  defs:
+  - *id033
+  id: alkaloid_22a80f41db4a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alkaloid
+- entry: ಕ್ಷಾರದ್ರವ್ಯ
+  defs:
+  - *id033
+  id: alkaloid_4e1d41fd1813
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alkaloid
+- entry: ಕ್ಷಾರತೆ
+  defs:
+  - entry: Alkalosis
+    type: Noun
+  id: alkalosis_c58ea8947e32
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alkalosis
+- entry: ಆಪಾದಿಸಲಾದ
+  defs:
+  - entry: Alleged
+    type: Noun
+  id: alleged_cd974534fc82
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alleged
+- entry: ಅಲರ್ಜಿ ಪ್ರಚೋದಕ ವಸ್ತು
+  defs:
+  - entry: Allergen
+    type: Noun
+  id: allergen_bfd7fa2d468a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allergen
+- entry: ಅಲರ್ಜಿ ಪ್ರಚೋದಕ ವಸ್ತುಸಾರ
+  defs:
+  - entry: Allergenic extract
+    type: Noun
+  id: allergenic_1d9a74ac6b36
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allergenic extract
+- entry: ಅಲರ್ಜಿ ಸಂಪರ್ಕ ಚರ್ಮರೋಗ
+  defs:
+  - entry: Allergic contact dermatitis
+    type: Noun
+  id: allergicco_60c58186e180
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allergic contact dermatitis
+- entry: 'ಅಲರ್ಜಿ: ಅತಿಪ್ರತಿಕ್ರಿಯೆ'
+  defs:
+  - entry: Allergy
+    type: Noun
+  id: allergy_809fb8be21c9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allergy
+- entry: ಉಪಶಮನ ಮಾಡು
+  defs:
+  - &id034
+    entry: Alleviate
+    type: Noun
+  id: alleviate_f9230ba6d51d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alleviate
+- entry: ತಗ್ಗಿಸು
+  defs:
+  - *id034
+  id: alleviate_5b3c21097bda
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alleviate
+- entry: ಅಲೋಪತಿ
+  defs:
+  - &id035
+    entry: Allopathy
+    type: Noun
+  id: allopathy_36546d8ad589
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allopathy
+- entry: ಆಂಗ್ಲ ವೈದ್ಯ ಪದ್ಧತಿ
+  defs:
+  - *id035
+  id: allopathy_5644b1c61148
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allopathy
+- entry: ಲೋಳಿಸರ
+  defs:
+  - &id036
+    entry: Aloe
+    type: Noun
+  id: aloe_2136aecc16de
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aloe
+- entry: ಲೋಳಿಸರದ ಭೇದಿ ಔಷಧ
+  defs:
+  - *id036
+  id: aloe_e9a7f9117901
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aloe
+- entry: ಕೂದಲು ಉದುರುವಿಕೆ
+  defs:
+  - &id037
+    entry: Alopecia
+    type: Noun
+  id: alopecia_6c9c8f069d67
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alopecia
+- entry: ಬೊಕ್ಕ ತಲೆ
+  defs:
+  - *id037
+  id: alopecia_e853b1a499c2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alopecia
+- entry: ಆಲ್ಫ ಕಣಗಳು
+  defs:
+  - entry: Alpha particles
+    type: Noun
+  id: alphaparti_5a0b936778fe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alpha particles
+- entry: ಆಲ್ಫ ವಿಕಿರಣ
+  defs:
+  - entry: Alpha radiation
+    type: Noun
+  id: alpharadia_f67c5e1613a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alpha radiation
+- entry: ಬದಲಾಯಿಸು
+  defs:
+  - entry: Alter
+    type: Noun
+  id: alter_b11dff875b9f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alter
+- entry: ರೋಗಸುಧಾರಕ ಔಷಧ
+  defs:
+  - entry: Alterative
+    type: Noun
+  id: alterative_f302849fe932
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alterative
+- entry: ಸುತ್ತಲಿನ
+  defs:
+  - &id038
+    entry: Ambient
+    type: Noun
+  id: ambient_27776d7f4376
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambient
+- entry: ಪರಿಸರದ
+  defs:
+  - *id038
+  id: ambient_7bdf0a52043d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambient
+- entry: ಪರಿಸರದ ಉಷ್ಣಾಂಶ
+  defs:
+  - entry: Ambient temperature
+    type: Noun
+  id: ambienttem_54e628b9fda2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambient temperature
+- entry: ಗರ್ಭಸ್ರಾವಕ ಔಷಧ
+  defs:
+  - entry: Amblotic
+    type: Noun
+  id: amblotic_1bfb4c7d3c48
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amblotic
+- entry: ಆಂಬ್ಯೂಲನ್ಸ್
+  defs:
+  - &id039
+    entry: Ambulance
+    type: Noun
+  id: ambulance_32c950f34129
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambulance
+- entry: ರೋಗಿವಾಹನ
+  defs:
+  - *id039
+  id: ambulance_303d9f5a52ef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambulance
+- entry: ಚಲಿಸುವ
+  defs:
+  - &id040
+    entry: Ambulatory
+    type: Noun
+  id: ambulatory_521615911326
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambulatory
+- entry: ನಡೆದಾಡುವ ಸ್ಥಿತಿಯಲ್ಲಿರುವ
+  defs:
+  - *id040
+  id: ambulatory_101a4c015e03
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambulatory
+- entry: ತಿದ್ದುಪಡಿ ಮಾಡು
+  defs:
+  - entry: Amend
+    type: Noun
+  id: amend_7667b7d2b8a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amend
+- entry: ತಿದ್ದುಪಡಿ
+  defs:
+  - entry: Amendment
+    type: Noun
+  id: amendment_546d544d1fa1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amendment
+- entry: ಮರೆವು ರೋಗ
+  defs:
+  - entry: Amnesia
+    type: Noun
+  id: amnesia_73d49138e56b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amnesia
+- entry: ಅಮೀಬ
+  defs:
+  - &id041
+    entry: Amoeba
+    type: Noun
+  id: amoeba_c6282319310d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amoeba
+- entry: ಜಲಜೀವಾಣು
+  defs:
+  - *id041
+  id: amoeba_90a40ba969a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amoeba
+- entry: ಅಮೀಬನಾಶಕ
+  defs:
+  - entry: Amoebicides
+    type: Noun
+  id: amoebicide_4634b869a709
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amoebicides
+- entry: ಅಂಪೋಲ್ ಒಂದು ಡೋಸ್ ಚುಚ್ಚುಮದ್ದಿನ ಔಷಧಿಯುಳ್ಳ ಮುಚ್ಚುನಳಿಕೆ
+  defs:
+  - entry: Ampoule
+    type: Noun
+  id: ampoule_ff662269fa68
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ampoule
+- entry: ಅಂಗಚ್ಛೇದನ
+  defs:
+  - entry: Amputation
+    type: Noun
+  id: amputation_f9b8f0923318
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amputation
+- entry: ರಕ್ತಹೀನತೆ
+  defs:
+  - entry: Anaemia
+    type: Noun
+  id: anaemia_63f575336d5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaemia
+- entry: ನಿರ್ವಾತಾಣುಜೀವಿ
+  defs:
+  - entry: Anaerobe
+    type: Noun
+  id: anaerobe_2ec6a763424f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaerobe
+- entry: ವಾತನಿರಪೇಕ್ಷಿ
+  defs:
+  - entry: Anaerobic
+    type: Noun
+  id: anaerobic_f69ac2de3ec5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaerobic
+- entry: ಸಂವೇದನಹರಣ
+  defs:
+  - &id042
+    entry: Ansesthesia
+    type: Noun
+  id: ansesthesi_9b263e787e09
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ansesthesia
+- entry: ಅರಿವಳಿಕೆ
+  defs:
+  - *id042
+  id: ansesthesi_21214e61d76c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ansesthesia
+- entry: ಸಂವೇದನಹಾರಕ
+  defs:
+  - &id043
+    entry: Anaesthetic
+    type: Noun
+  id: anaestheti_0b04a59aa27d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaesthetic
+- entry: ಅರಿವಳಿಕೆ
+  defs:
+  - *id043
+  id: anaestheti_eafa437af53e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaesthetic
+- entry: ಪುನರುಜ್ಜೀವಕ ಔಷಧ
+  defs:
+  - &id044
+    entry: Analeptic
+    type: Noun
+  id: analeptic_bf0ecc3669d7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analeptic
+- entry: ಶಕ್ತಿವರ್ಧಕ ಔಷಧ
+  defs:
+  - *id044
+  id: analeptic_a2d14f407346
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analeptic
+- entry: ವೇದನಹಾರಕ
+  defs:
+  - &id045
+    entry: Analgesic
+    type: Noun
+  id: analgesic_07e9b2b77516
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analgesic
+- entry: ನೋವಳಿಕ
+  defs:
+  - *id045
+  id: analgesic_f169262bfaed
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analgesic
+- entry: ಸದೃಶ ವಸ್ತು
+  defs:
+  - entry: Analogous product
+    type: Noun
+  id: analogousp_ebd63dbf833f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analogous product
+- entry: ವಿಶ್ಲೇಷಣೆ
+  defs:
+  - entry: Analysis
+    type: Noun
+  id: analysis_f1fcb7b0553b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analysis
+- entry: ವಿಶ್ಲೇಷಣ ತೋಲನ ಯಂತ್ರ
+  defs:
+  - entry: Analytical Balance
+    type: Noun
+  id: analytical_b31d985961b9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Analytical Balance
+- entry: ಅತಿಸಂವೇದನ ಪ್ರತಿಕ್ರಿಯೆ
+  defs:
+  - &id046
+    entry: Anaphylactic shock
+    type: Noun
+  id: anaphylact_bf0d3ac1b4af
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaphylactic shock
+- entry: ಆಘಾತ
+  defs:
+  - *id046
+  id: anaphylact_cd5d18bd317d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaphylactic shock
+- entry: ಅತಿ ಸಂವೇದನಶೀಲತೆ
+  defs:
+  - entry: Anaphylaxis
+    type: Noun
+  id: anaphylaxi_eedf9a54dcec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anaphylaxis
+- entry: ಜಲೋದರ ರೋಗ
+  defs:
+  - &id047
+    entry: Anasarca
+    type: Noun
+  id: anasarca_17d599e6094a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anasarca
+- entry: ಸೋಬೆರೋಗ
+  defs:
+  - *id047
+  id: anasarca_fca049122630
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anasarca
+- entry: ದೃಷ್ಟಿಮಾಂದ್ಯ
+  defs:
+  - entry: Amblyopia
+    type: Noun
+  id: amblyopia_8263ca037294
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Amblyopia
+- entry: ಸಂಧಿವಾತ
+  defs:
+  - entry: Anchylosis
+    type: Noun
+  id: anchylosis_36f96a486969
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anchylosis
+- entry: ಸೆರೆಬಿಗಿತ ನೋವು
+  defs:
+  - &id048
+    entry: Angina
+    type: Noun
+  id: angina_73eb5f4e0909
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Angina
+- entry: ಗಂಟಲು ಊತ
+  defs:
+  - *id048
+  id: angina_d3750336fff3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Angina
+- entry: ಎದೆಚಳುಕು
+  defs:
+  - entry: Angina pectoris
+    type: Noun
+  id: anginapect_919139070f9d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Angina pectoris
+- entry: ನಿರ್ಜಲ
+  defs:
+  - entry: Anhydrous
+    type: Noun
+  id: anhydrous_774a7fa5ae8f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anhydrous
+- entry: ಪ್ರಾಣಿ ಉತ್ಪನ್ನಗಳು
+  defs:
+  - entry: Animal products
+    type: Noun
+  id: animalprod_e0764566be35
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Animal products
+- entry: ಋಣ ಐಯಾನಿನ ಕಾರಕ
+  defs:
+  - entry: Anionic agent
+    type: Noun
+  id: anionicage_60fae2539590
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anionic agent
+- entry: ವಾರ್ಷಿಕ ಪುರವಣಿ
+  defs:
+  - entry: Annual Supplement
+    type: Noun
+  id: annualsupp_2748db66b431
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Annual Supplement
+- entry: ರದ್ದತಿ
+  defs:
+  - entry: Annulment
+    type: Noun
+  id: annulment_b715f52281d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Annulment
+- entry: ನೋವು ನಿವಾರಕ
+  defs:
+  - entry: Anodyne
+    type: Noun
+  id: anodyne_092befb3cc13
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anodyne
+- entry: ಲೇಪಿಸು
+  defs:
+  - entry: Anoint
+    type: Noun
+  id: anoint_4c1d42b00b26
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anoint
+- entry: ಪ್ರತ್ಯಾಮ್ಲ
+  defs:
+  - entry: Antacid
+    type: Noun
+  id: antacid_6129b7dd6bda
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antacid
+- entry: ವಿರೋಧ
+  defs:
+  - entry: Antagonism
+    type: Noun
+  id: antagonism_af7765b7cb69
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antagonism
+- entry: ಪ್ರತಿರೋಧಕ
+  defs:
+  - entry: Antagonist
+    type: Noun
+  id: antagonist_ce26f65d23ff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antagonist
+- entry: ವೇದನಹಾರಿ
+  defs:
+  - entry: Antalgic
+    type: Noun
+  id: antalgic_d63dc79003fe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antalgic
+- entry: ವಾತರೋಗ ನಿವಾರಕ
+  defs:
+  - entry: Antarthritic
+    type: Noun
+  id: antarthrit_951de1348793
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antarthritic
+- entry: ಅಸ್ತಮ ನಿರೋಧಕ
+  defs:
+  - entry: Antasthmatic
+    type: Noun
+  id: antasthmat_cdba39ed7586
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antasthmatic
+- entry: ಕ್ಷೀಣತಾನಿರೋಧಿ
+  defs:
+  - entry: Antatrophic
+    type: Noun
+  id: antatrophi_53d23d2d2979
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antatrophic
+- entry: ಅವಯವದ ಮುಂಭಾಗ
+  defs:
+  - entry: Anterior lobe
+    type: Noun
+  id: anteriorlo_09fc240fbd29
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anterior lobe
+- entry: ಕರುಳು ಜಂತುನಾಶಕ
+  defs:
+  - entry: Anthelmintic
+    type: Noun
+  id: anthelmint_fd4fdf0682a6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anthelmintic
+- entry: ದನಕರುಗಳಿಂದ ಮನುಷ್ಯರಿಗೆ ಬರುವ ಕೆಟ್ಟ ಕುರು
+  defs:
+  - entry: Anthrax
+    type: Noun
+  id: anthrax_e4027057d2ce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anthrax
+- entry: ಕಳವಳ ವಿರೋಧಿ
+  defs:
+  - entry: Antianxiety
+    type: Noun
+  id: antianxiet_f30bbfa6fa64
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antianxiety
+- entry: ಕ್ರಮರಹಿತ ಹೃದಯ ಬಡಿತ ನಿರೋಧಕ ಔಷಧ
+  defs:
+  - entry: Antiarrhythmic drug
+    type: Noun
+  id: antiarrhyt_eaac8f8fd15c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiarrhythmic drug
+- entry: ಅಸ್ತಮಾ
+  defs:
+  - &id049
+    entry: Anti Asthamatics
+    type: Noun
+  id: antiastham_de75d9c1a275
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti Asthamatics
+- entry: ಗೂರಲು ನಿರೋಧಕ
+  defs:
+  - *id049
+  id: antiastham_4e77c0b895ef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti Asthamatics
+- entry: ಪಿತ್ತನಾಶಕ
+  defs:
+  - entry: Antioilicus
+    type: Noun
+  id: antioilicu_3e221ca69dfa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antioilicus
+- entry: ಪ್ರತಿಜೈವಿಕ ವಸ್ತು
+  defs:
+  - entry: Antibiotics
+    type: Noun
+  id: antibiotic_10300418c25b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antibiotics
+- entry: ಪ್ರತಿವಿಷ ವಸ್ತು
+  defs:
+  - entry: Antibody
+    type: Noun
+  id: antibody_0944e4fb814a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antibody
+- entry: ಹೆಪ್ಪುಗಟ್ಟು ನಿರೋಧಕ
+  defs:
+  - entry: Anti Co-agulant
+    type: Noun
+  id: anticoagul_db5a4a82e7aa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti Co-agulant
+- entry: ಸೆಳೆತ ನಿರೋಧಕ
+  defs:
+  - entry: Anti Convulsant
+    type: Noun
+  id: anticonvul_97e2ec8b02f2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti Convulsant
+- entry: ಖಿನ್ನತಾ ನಿರೋಧಕ
+  defs:
+  - entry: Anti depressant
+    type: Noun
+  id: antidepres_0c983fe5d3a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti depressant
+- entry: ವಿಷಹಾರಿ ಔಷಧ
+  defs:
+  - entry: Antidote
+    type: Noun
+  id: antidote_0dbe8c7beee4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antidote
+- entry: ವಾಂತಿ ನಿರೋಧಕ
+  defs:
+  - entry: Anti emetics
+    type: Noun
+  id: antiemetic_1a5bd1164860
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti emetics
+- entry: ಅಪಸ್ಮಾರ ನಿರೋಧಕ
+  defs:
+  - entry: Anti epileptic
+    type: Noun
+  id: antiepilep_2be1ce7a31ef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti epileptic
+- entry: ಶಿಲೀಂಧ್ರ ನಿರೋಧಕ
+  defs:
+  - entry: Anti fungal
+    type: Noun
+  id: antifungal_de5b63628d1d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti fungal
+- entry: ಪ್ರತಿವಿಷಜನಕ
+  defs:
+  - entry: Antigen
+    type: Noun
+  id: antigen_e7f25500f2f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antigen
+- entry: ಪ್ರತಿವಸ್ತುಜನಕತ್ವ ಶಕ್ತಿ
+  defs:
+  - entry: Antigenicity
+    type: Noun
+  id: antigenici_a774c6bb88f3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antigenicity
+- entry: ಮೂತ್ರಾಶ್ಮ ನಿರೋಧಕ
+  defs:
+  - &id050
+    entry: Antilithic
+    type: Noun
+  id: antilithic_edbd919f315d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antilithic
+- entry: ಮೂತ್ರಕೋಶದಲ್ಲಿಯ ಕಲ್ಲನ್ನು ಕರಗಿಸುವ ಔಷಧ
+  defs:
+  - *id050
+  id: antilithic_11a7bccbe81e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antilithic
+- entry: ಪ್ರತಿಲಘಂಗಣಕ
+  defs:
+  - entry: Anti logarithm
+    type: Noun
+  id: antilogari_692871da2832
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anti logarithm
+- entry: ಪ್ರತಿಭಸ್ಮಕಾರಕ ಆಮ್ಲಜನಕ ಸಂಯೋಜನ ವಿರೋಧಿ
+  defs:
+  - entry: Antioxidant
+    type: Noun
+  id: antioxidan_6c92e7e1f0b9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antioxidant
+- entry: ಊತದ ಉರಿಶಾಮಕ
+  defs:
+  - entry: Antiphlogistine
+    type: Noun
+  id: antiphlogi_ded6c6fb90cf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiphlogistine
+- entry: ಪ್ರೊಟೋಝೋವಾ ನಿರೋಧಕ
+  defs:
+  - entry: Antiprotozoal
+    type: Noun
+  id: antiprotoz_e0a0e6ea328a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiprotozoal
+- entry: ಜ್ವರನಿವಾರಕ
+  defs:
+  - entry: Antipyretic
+    type: Noun
+  id: antipyreti_dfe3bc2b8206
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antipyretic
+- entry: ಹುಚ್ಚನಾಯಿ ಕಡಿತ ರೋಗ ನಿರೋಧಕ ಲಸಿಕೆ
+  defs:
+  - entry: Antirabic vaccine
+    type: Noun
+  id: antirabicv_75b17937be5b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antirabic vaccine
+- entry: ರಕ್ತ ಪಿತ್ತ ನಿರೋಧಕ
+  defs:
+  - entry: Antiscorbutic
+    type: Noun
+  id: antiscorbu_0e37eddbef2c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiscorbutic
+- entry: ಪೂತಿನಿರೋಧನ
+  defs:
+  - &id051
+    entry: Antiseptic
+    type: Noun
+  id: antiseptic_e25e80184934
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiseptic
+- entry: ಪೂತಿನಾಶಕ
+  defs:
+  - *id051
+  id: antiseptic_b877d8f9907b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiseptic
+- entry: ಪ್ರತಿಲಸಿಕೆ
+  defs:
+  - entry: Antiserum
+    type: Noun
+  id: antiserum_b0bb0150527c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antiserum
+- entry: ಸೆಳೆವುರೋಗ ನಿರೋಧಕ
+  defs:
+  - entry: Antispasmodic
+    type: Noun
+  id: antispasmo_75b1c18e0b96
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antispasmodic
+- entry: ಪ್ರತಿವಿಷ
+  defs:
+  - &id052
+    entry: Antitoxin
+    type: Noun
+  id: antitoxin_0cdd06175693
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antitoxin
+- entry: ವಿಷಹಾರಿ
+  defs:
+  - *id052
+  id: antitoxin_1f547ab9dbfb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antitoxin
+- entry: ಸರ್ಪ ವಿಷಹಾರಿ
+  defs:
+  - entry: Antivenene
+    type: Noun
+  id: antivenene_af1bcba16333
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antivenene
+- entry: ಮನೋರೋಗ ನಿರೋಧಕ
+  defs:
+  - entry: Antipsychotic
+    type: Noun
+  id: antipsycho_aeabf371cbcb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Antipsychotic
+- entry: ಕಳವಳ
+  defs:
+  - &id053
+    entry: Anxiety
+    type: Noun
+  id: anxiety_4b4d904c89c5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anxiety
+- entry: ಕಾತರ
+  defs:
+  - *id053
+  id: anxiety_25c1e8822a86
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Anxiety
+- entry: ಅಗ್ನಿಮಾಂದ್ಯ
+  defs:
+  - entry: Apepsy
+    type: Noun
+  id: apepsy_220cc2a66d12
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apepsy
+- entry: ಸುಖ ವಿರೇಚಕ
+  defs:
+  - entry: Aperient
+    type: Noun
+  id: aperient_63cf39374525
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aperient
+- entry: ಮೆದುಳು ರಕ್ತಾಘಾತದಿಂದ ತಟ್ಟನೆ ಪ್ರಜ್ಞೆ ತಪ್ಪುವುದು
+  defs:
+  - entry: Apoplexy
+    type: Noun
+  id: apoplexy_f739ef63c3f0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apoplexy
+- entry: ಔಷಧ ರಸಾಯನಜ್ಞ
+  defs:
+  - &id054
+    entry: Apothecary
+    type: Noun
+  id: apothecary_eecf04d1ed03
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apothecary
+- entry: ಔಷಧಿಗಾರ
+  defs:
+  - *id054
+  id: apothecary_07a601274570
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apothecary
+- entry: ಔಷಧಾಲಯ ತೂಕ ಪದ್ಧತಿ
+  defs:
+  - entry: Apothecary system of weights
+    type: Noun
+  id: apothecary_477cf89b657b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apothecary system of weights
+- entry: ಉಪಕರಣ
+  defs:
+  - entry: Apparatus
+    type: Noun
+  id: apparatus_7c213abc0459
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apparatus
+- entry: ಅಪೀಲು
+  defs:
+  - entry: Appeal
+    type: Noun
+  id: appeal_0a209fbe22d7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appeal
+- entry: ಕಾಣಿಸು
+  defs:
+  - &id055
+    entry: Appear
+    type: Noun
+  id: appear_3db6d1c15acc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appear
+- entry: ಹಾಜರಾಗು
+  defs:
+  - *id055
+  id: appear_0261ed46e2de
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appear
+- entry: ತೋರಿಕೆ
+  defs:
+  - &id056
+    entry: Appearance
+    type: Noun
+  id: appearance_e1bd10d246cf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appearance
+- entry: ಚರ್ಯೆನ್ಯಾಯಾಲಯದಲ್ಲಿ ಹಾಜರಾತಿ
+  defs:
+  - *id056
+  id: appearance_c0b3c963ee21
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appearance
+- entry: ಕ್ಷುಧಾವರ್ಧಕ
+  defs:
+  - entry: Appetizor
+    type: Noun
+  id: appetizor_f0c43ab145a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appetizor
+- entry: ಅಪೀಲುದಾರ
+  defs:
+  - entry: Appellant
+    type: Noun
+  id: appellant_2b9b11b9ad5e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appellant
+- entry: ಅಪೀಲಿನ
+  defs:
+  - &id057
+    entry: Appellate
+    type: Noun
+  id: appellate_6acfcfc27157
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appellate
+- entry: ಮೇಲ್ಮನವಿಯ
+  defs:
+  - *id057
+  id: appellate_419ad96834b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appellate
+- entry: ಕುರುಳುಬಾಲ ರೋಗ
+  defs:
+  - entry: Appendicitis
+    type: Noun
+  id: appendicit_920b7afe69d4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appendicitis
+- entry: ಸಲಕರಣೆ
+  defs:
+  - entry: Appliance
+    type: Noun
+  id: appliance_361235551a11
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appliance
+- entry: ಅರ್ಜಿ
+  defs:
+  - &id058
+    entry: Application
+    type: Noun
+  id: applicatio_9665799f64f7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Application
+- entry: ಲೇಪನ
+  defs:
+  - *id058
+  id: applicatio_d568b7361ec1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Application
+- entry: ಅನ್ವಯಿಸು
+  defs:
+  - &id059
+    entry: Apply
+    type: Noun
+  id: apply_8b3cc9dcf0f6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apply
+- entry: ಲೇಪಿಸು
+  defs:
+  - *id059
+  id: apply_8c7d222dc1a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apply
+- entry: ನೇಮಿಸು
+  defs:
+  - entry: Appoint
+    type: Noun
+  id: appoint_e81827e383bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appoint
+- entry: ಅನುಮೋದನೆ
+  defs:
+  - entry: Approval
+    type: Noun
+  id: approval_dde5a3154728
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Approval
+- entry: ಅನುಮೋದಿತವೈದ್ಯ ವೃತ್ತಿಗಾರ
+  defs:
+  - entry: Approved practitioner
+    type: Noun
+  id: approvedpr_135b1d2e7787
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Approved practitioner
+- entry: ಸಮೀಪೀಕರಣ
+  defs:
+  - entry: Approximation
+    type: Noun
+  id: approximat_fb2265f2aa23
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Approximation
+- entry: ಕ್ಷೇತ್ರ
+  defs:
+  - entry: Area
+    type: Noun
+  id: area_20c574e77544
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Area
+- entry: ಸುಗಂಧಯುಕ್ತ
+  defs:
+  - entry: Aromatic
+    type: Noun
+  id: aromatic_47f99909738b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aromatic
+- entry: ಸುಗಂಧಿತ
+  defs:
+  - entry: Aromaticity
+    type: Noun
+  id: aromaticit_c4830ca1896b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aromaticity
+- entry: ಪನ್ನೀರು
+  defs:
+  - entry: Aromatic water
+    type: Noun
+  id: aromaticwa_ff15db10119d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aromatic water
+- entry: ಪಾಷಾಣ
+  defs:
+  - &id060
+    entry: Arsenic
+    type: Noun
+  id: arsenic_64dafc737380
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arsenic
+- entry: ಶಂಖಪಾಷಾಣ
+  defs:
+  - *id060
+  id: arsenic_cbe99d44eda8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arsenic
+- entry: ಅಪಧಮನೀ ಪೆಡಸಣೆ
+  defs:
+  - entry: Arteriosclerosis
+    type: Noun
+  id: arterioscl_b3830f1056ee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arteriosclerosis
+- entry: ಸಂಧಿವಾತ
+  defs:
+  - &id061
+    entry: Arthritis
+    type: Noun
+  id: arthritis_cdc88e81ed88
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arthritis
+- entry: ವಾತರೋಗ
+  defs:
+  - *id061
+  id: arthritis_3e2e67b34f28
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arthritis
+- entry: ಕೀಲುರೋಗ
+  defs:
+  - entry: Arthropathy
+    type: Noun
+  id: arthropath_8305d4b8653a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arthropathy
+- entry: ವಸ್ತು
+  defs:
+  - &id062
+    entry: Article
+    type: Noun
+  id: article_a7e1569091fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Article
+- entry: ಪದಾರ್ಥ
+  defs:
+  - *id062
+  id: article_293117857f0c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Article
+- entry: ಅನುಚ್ಛೇದ
+  defs:
+  - *id062
+  id: article_86223fff5ff2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Article
+- entry: ಲೇಖನ
+  defs:
+  - *id062
+  id: article_ba6dfb4361bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Article
+- entry: ಖಚಿತಪಡಿಸಿಕೊಳ್ಳು
+  defs:
+  - &id063
+    entry: Ascertain
+    type: Noun
+  id: ascertain_ea54240bbf6c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ascertain
+- entry: ವಿಚಾರಿಸಿ ತಿಳಿದುಕೊಳ್ಳು
+  defs:
+  - *id063
+  id: ascertain_a6c5b858d833
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ascertain
+- entry: ಕಿಬ್ಬೊಟ್ಟೆ ಜಲರೋಗ
+  defs:
+  - entry: Ascites
+    type: Noun
+  id: ascites_eb4b196ad39f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ascites
+- entry: ವಿಷಾಣುರಹಿತ ಸ್ಥಿತಿ
+  defs:
+  - entry: Asepsis
+    type: Noun
+  id: asepsis_183f33e9749d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Asepsis
+- entry: ವಿಷಾಣುರಹಿತ ಪ್ರಯೋಗಾಲಯ
+  defs:
+  - entry: Asepsis laboratory
+    type: Noun
+  id: asepsislab_a8ac2fe3fe6a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Asepsis laboratory
+- entry: ವಿಷಾಣುರಹಿತ
+  defs:
+  - entry: Aseptic
+    type: Noun
+  id: aseptic_91132e7a5f51
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aseptic
+- entry: ವಿಷಾಣುರಹಿತ ತಂತ್ರ
+  defs:
+  - entry: Aseptic technic
+    type: Noun
+  id: aseptictec_3004267c4dea
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Aseptic technic
+- entry: ಭಸ್ಮ
+  defs:
+  - &id064
+    entry: Ash
+    type: Noun
+  id: ash_b48f9ed609bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ash
+- entry: ಬೂದಿ
+  defs:
+  - *id064
+  id: ash_dcdf690572c8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ash
+- entry: ಗಂಧಕೀಕೃತ ಭಸ್ಮ
+  defs:
+  - entry: Ash, sulphated
+    type: Noun
+  id: ashsulphat_719b3b6738cf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ash, sulphated
+- entry: ನೀರಿನಲ್ಲಿ ಕರಗುವ ಬೂದಿ
+  defs:
+  - entry: Ash, water soluble
+    type: Noun
+  id: ashwaterso_dddef4e29f1e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ash, water soluble
+- entry: ಒರೆ
+  defs:
+  - &id065
+    entry: Assay
+    type: Noun
+  id: assay_3f106a23f6ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assay
+- entry: ನಿಷ್ಕರ್ಷೆ
+  defs:
+  - *id065
+  id: assay_fa50ef4e91b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assay
+- entry: ವಿಶ್ಲೇಷಣೆ
+  defs:
+  - *id065
+  id: assay_9f9aa6853b05
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assay
+- entry: ಸಮ್ಮತಿ
+  defs:
+  - &id066
+    entry: Assent
+    type: Noun
+  id: assent_f5b4f9f87f6c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assent
+- entry: ಅನುಮತಿ
+  defs:
+  - *id066
+  id: assent_1478780f6251
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assent
+- entry: ಸಹಾಯಕ
+  defs:
+  - entry: Assistant
+    type: Noun
+  id: assistant_9411247d51ff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assistant
+- entry: ಬಂಧಕ ಔಷಧ
+  defs:
+  - entry: Astringent
+    type: Noun
+  id: astringent_63ed1aa3e33d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Astringent
+- entry: ವಾತಾವರಣ ಮಾಲಿನ್ಯ ಮೂಲ
+  defs:
+  - entry: Atmosphere contamination source
+    type: Noun
+  id: atmosphere_0f2021223123
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atmosphere contamination source
+- entry: ಪರಮಾಣು
+  defs:
+  - entry: Atom
+    type: Noun
+  id: atom_1a851c4ad858
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atom
+- entry: ಪರಮಾಣು ತೂಕ
+  defs:
+  - entry: Atomic weight
+    type: Noun
+  id: atomicweig_719ea00760ba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atomic weight
+- entry: ಅಣುಕಾರಕ
+  defs:
+  - &id067
+    entry: Atomiser
+    type: Noun
+  id: atomiser_134ff9c248ab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atomiser
+- entry: ತುಂತುರಿಕ
+  defs:
+  - *id067
+  id: atomiser_23d1ee47a65b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atomiser
+- entry: ಆನುವಂಶಿಕ ಅಲರ್ಜಿ ಚರ್ಮರೋಗ
+  defs:
+  - entry: Atopic dermatitis
+    type: Noun
+  id: atopicderm_28b967289fb9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atopic dermatitis
+- entry: ಕ್ಷೀಣತೆ
+  defs:
+  - entry: Atrophy
+    type: Noun
+  id: atrophy_6f4e7272386f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Atrophy
+- entry: ಆಕರ್ಷಿಸು
+  defs:
+  - &id068
+    entry: Attract
+    type: Noun
+  id: attract_1763b078c196
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Attract
+- entry: ಗಮನಸೆಳೆ
+  defs:
+  - *id068
+  id: attract_73582a27cde2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Attract
+- entry: ಶ್ರವಣ ದೃಶ್ಯ
+  defs:
+  - entry: Audiovisual
+    type: Noun
+  id: audiovisua_9480a5684b37
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Audiovisual
+- entry: ಅಧಿಕಾರ ನೀಡಿಕೆ
+  defs:
+  - entry: Authorisation
+    type: Noun
+  id: authorisat_85bed5244192
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Authorisation
+- entry: ಅಧಿಕಾರಯುಕ್ತ
+  defs:
+  - &id069
+    entry: Authoritative
+    type: Noun
+  id: authoritat_40d2a374f70b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Authoritative
+- entry: ಆಧಾರ ಪೂರ್ವಕ
+  defs:
+  - *id069
+  id: authoritat_eef25902645d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Authoritative
+- entry: ಅಧಿಕಾರ
+  defs:
+  - &id070
+    entry: Authority
+    type: Noun
+  id: authority_501e12d61f89
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Authority
+- entry: ರಿ
+  defs:
+  - *id070
+  id: authority_028933a363fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Authority
+- entry: ಸ್ವಯಂ ವಿಶ್ಲೇಷಕ
+  defs:
+  - entry: Auto analyser
+    type: Noun
+  id: autoanalys_b6e90d1c1270
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auto analyser
+- entry: ಸ್ವಯಂ ರೋಗ ಪ್ರತಿಕಾರಕ
+  defs:
+  - entry: Auto anti body
+    type: Noun
+  id: autoantibo_20aea2885abc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auto anti body
+- entry: ಸೂಕ್ಷ್ಮ ರೋಗಾಣುನಾಶಕ ಕ್ರಿಯೆಗಾಗಿ ಬಳಸುವ ಅಧಿಕೋಷ್ಣ ಹಬೆಯೊತ್ತಡ ಪಾತ್ರೆ
+  defs:
+  - entry: Autoclave
+    type: Noun
+  id: autoclave_943a465c6601
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Autoclave
+- entry: ಸ್ವಯಂ ರಕ್ತಕೋಶ ಮಾಪಕ
+  defs:
+  - entry: Auto cytometre
+    type: Noun
+  id: autocytome_470a92afc31f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auto cytometre
+- entry: ಸ್ವಯಂ ಅಗೋಚರ ಕಿರಣದರ್ಶಕ
+  defs:
+  - &id071
+    entry: Auto fluoroscope
+    type: Noun
+  id: autofluoro_8fb93d32fb69
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auto fluoroscope
+- entry: ರಾಂಟ್‌ಜನ್ ಕಿರಣ ಪರಿಣಾಮದರ್ಶಕ ಸಲಕರಣೆ
+  defs:
+  - *id071
+  id: autofluoro_0cd285526d85
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auto fluoroscope
+- entry: ಸ್ವಾಯತ್ತ
+  defs:
+  - &id072
+    entry: Autonomic
+    type: Noun
+  id: autonomic_fb23ed503f75
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Autonomic
+- entry: ಸ್ವಯಂ ಅಧಿಕಾರವುಳ್ಳ
+  defs:
+  - *id072
+  id: autonomic_7e32a919faf8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Autonomic
+- entry: ಸ್ವಯಂ ಭಸ್ಮೀಕರಣ
+  defs:
+  - entry: Autooxidation
+    type: Noun
+  id: autooxidat_e169c687ee48
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Autooxidation
+- entry: ಸ್ವ ಅಂಗಾಂಶ ಕಸಿ
+  defs:
+  - entry: Auto plasty
+    type: Noun
+  id: autoplasty_e23307dd51d9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auto plasty
+- entry: ಸ್ವಜನೀ ವಿಷ
+  defs:
+  - &id073
+    entry: Autotoxin
+    type: Noun
+  id: autotoxin_f962963cd565
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Autotoxin
+- entry: ದೇಹದಲ್ಲಿ ಉಂಟಾಗುವ ವ್ಯತ್ಯಾಸಗಳಿಂದ ಹುಟ್ಟುವ ವಿಷ ಪದಾರ್ಥ
+  defs:
+  - *id073
+  id: autotoxin_a0107157c553
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Autotoxin
+- entry: ಆಯುರ್ವೇದದ
+  defs:
+  - entry: Ayurvedic
+    type: Noun
+  id: ayurvedic_22a91980b6eb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ayurvedic
+- entry: ಬ್ಯಾಕ್ಟೀರಿಯ
+  defs:
+  - &id074
+    entry: Bacteria
+    type: Noun
+  id: bacteria_359d818790a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bacteria
+- entry: ಸೂಕ್ಷ್ಮಾಣುಜೀವಿ
+  defs:
+  - *id074
+  id: bacteria_60d68978ef86
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bacteria
+- entry: ಸೂಕ್ಷ್ಮಾಣುಜೀವಿ ವಸಾಹತು
+  defs:
+  - entry: Bacterial colony
+    type: Noun
+  id: bacterialc_a75798257966
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bacterial colony
+- entry: ಸೂಕ್ಷ್ಮಾಣುಜೀವಿ ನಾಶಕ
+  defs:
+  - entry: Bactericidal
+    type: Noun
+  id: bactericid_262ab2f5208b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bactericidal
+- entry: ಸೂಕ್ಷ್ಮಾಣುಜೀವಿ ವಿಜ್ಞಾನ
+  defs:
+  - entry: Bacteriology
+    type: Noun
+  id: bacteriolo_9dd1cb133677
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bacteriology
+- entry: ಸೂಕ್ಷ್ಮಾಣುಜೀವಿ ಭಕ್ಷಕ
+  defs:
+  - entry: Bacteriophages
+    type: Noun
+  id: bacterioph_5574cb50b9d4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bacteriophages
+- entry: ಸೂಕ್ಷ್ಮಾಣುಜೀವಿ ಸ್ತಂಭಕ
+  defs:
+  - entry: Bacteriostatic
+    type: Noun
+  id: bacteriost_e8cbe097c352
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bacteriostatic
+- entry: ಬ್ಯಾಂಡೇಜು ಗಾಯದ ಪಟ್ಟಿ
+  defs:
+  - entry: Bandage
+    type: Noun
+  id: bandage_1bf3ef81d6c9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bandage
+- entry: ತಡೆಗೆನೆ ಅಪಾಯ
+  defs:
+  - &id075
+    entry: Barrier cream
+    type: Noun
+  id: barriercre_18717581e0f0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Barrier cream
+- entry: ರೋಗ ಮುಂತಾದವುಗಳಿಂದ ಚರ್ಮವನ್ನು ರಕ್ಷಿಸುವುದು
+  defs:
+  - *id075
+  id: barriercre_ad168401f38d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Barrier cream
+- entry: ಮೂಲ ಅರಿವಳಿಕೆ
+  defs:
+  - entry: Basal Anaesthesia
+    type: Noun
+  id: basalanaes_4bcfe0141e21
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Basal Anaesthesia
+- entry: ವಿಶ್ರಾಂತ ಸ್ಥಿತಿಯ ಉಷ್ಣಾಂಶ
+  defs:
+  - entry: Basal temperature
+    type: Noun
+  id: basaltempe_67dccbb3ada2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Basal temperature
+- entry: ಗುಂಪು
+  defs:
+  - &id076
+    entry: Batch
+    type: Noun
+  id: batch_943a1f2d43bf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Batch
+- entry: ತಂಡ
+  defs:
+  - *id076
+  id: batch_0c1882d603f6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Batch
+- entry: ಸ್ನಾನಗೃಹ ಸಂರಕ್ಷಣೋಪಕರಣಗಳು
+  defs:
+  - entry: Bathroom safety aids
+    type: Noun
+  id: bathroomsa_7cecccec2c27
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bathroom safety aids
+- entry: ಕೊಕ್ಕು ಪಾತ್ರೆ
+  defs:
+  - entry: Beaker
+    type: Noun
+  id: beaker_a20c1676d3f9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beaker
+- entry: ಅಂದಗೊಳಿಸು
+  defs:
+  - entry: Beautify
+    type: Noun
+  id: beautify_36cd8949f7ed
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beautify
+- entry: ಬೆಡ್‌ಪ್ಯಾನ್
+  defs:
+  - &id077
+    entry: Bedpan
+    type: Noun
+  id: bedpan_1f658166e6ea
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bedpan
+- entry: ಹಾಸಿಗೆಯ ಮಲಪಾತ್ರೆ
+  defs:
+  - *id077
+  id: bedpan_0c08dd7ef60c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bedpan
+- entry: ವರ್ತನೆ
+  defs:
+  - entry: Behaviour
+    type: Noun
+  id: behaviour_545236950ee5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Behaviour
+- entry: ಬೆರಿಬೆರಿ ರೋಗ
+  defs:
+  - entry: Beriberi
+    type: Noun
+  id: beriberi_95d978c507ff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beriberi
+- entry: ಬೀಟಾಹೀರಿಕೆ
+  defs:
+  - entry: Beta abosorption
+    type: Noun
+  id: betaabosor_7e671e9e7b3e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beta abosorption
+- entry: ಬೀಟಾತಪ್ಪು
+  defs:
+  - entry: Beta error
+    type: Noun
+  id: betaerror_0c335c3dbc7f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beta error
+- entry: ಬೀಟಾ ವಿಕಿರಣ
+  defs:
+  - entry: Beta radiation
+    type: Noun
+  id: betaradiat_535dfeb39d9b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beta radiation
+- entry: ಬೀಟಾಗ್ರಾಹಿ
+  defs:
+  - entry: Beta receptor
+    type: Noun
+  id: betarecept_e1c7622b4dac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beta receptor
+- entry: ಒಲವು
+  defs:
+  - &id078
+    entry: Bias
+    type: Noun
+  id: bias_535e6a229abd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bias
+- entry: ಪಕ್ಷಪಾತ
+  defs:
+  - *id078
+  id: bias_ef8d329cd243
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bias
+- entry: ಮೂತ್ರದಲ್ಲಿಯ ಪಿತ್ತಕ್ಷಾರ ಸ್ಥಿತಿ
+  defs:
+  - entry: Biliuria
+    type: Noun
+  id: biliuria_a7b6f90d8f7b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Biliuria
+- entry: ಬಂಧಕ ಶಕ್ತಿಗಳು
+  defs:
+  - entry: Binding forces
+    type: Noun
+  id: bindingfor_16e54d82e646
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Binding forces
+- entry: ಜೈವಿಕ ಕ್ರಿಯಾನಿಷ್ಕರ್ಷೆ
+  defs:
+  - entry: Bio-assay
+    type: Noun
+  id: bioassay_03a9209f89dd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-assay
+- entry: ಜೀವಲಭ್ಯತೆ
+  defs:
+  - entry: Bio-avaliability
+    type: Noun
+  id: bioavaliab_2fb865910a25
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-avaliability
+- entry: ಜೀವರಸಾಯನ ವಿಜ್ಞಾನಿ
+  defs:
+  - entry: Bio-chemist
+    type: Noun
+  id: biochemist_b41066abfd25
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-chemist
+- entry: ಜೀವರಸಾಯನ ವಿಜ್ಞಾನ
+  defs:
+  - entry: Bio-chemistry
+    type: Noun
+  id: biochemist_34a4fae95d48
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-chemistry
+- entry: ಜೀವಸಮಾನತ್ವ
+  defs:
+  - entry: Bio equivalence
+    type: Noun
+  id: bioequival_71636aee23e8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio equivalence
+- entry: ಜೈವಿಕ
+  defs:
+  - entry: Biological
+    type: Noun
+  id: biological_4b77a720084b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Biological
+- entry: ಜೈವಿಕ ಸಾರಾಂಶ
+  defs:
+  - entry: Biological-abstract
+    type: Noun
+  id: biological_8ffdccccbc20
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Biological-abstract
+- entry: ಜೈವಿಕ ಅರ್ಧಾಯುಷ್ಯ
+  defs:
+  - entry: Biological half life
+    type: Noun
+  id: biological_f976898ce921
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Biological half life
+- entry: ಜೈವಿಕ ವಸ್ತು
+  defs:
+  - entry: Biological product
+    type: Noun
+  id: biological_ec4592b95c3f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Biological product
+- entry: ಜೀವ ಸಂಗತಿ ಗಣಿತ ಜೀವ ಸಂಬಂಧವಾದ ಸಂಗತಿಗಳಲ್ಲಿ ಲೆಕ್ಕಾಚಾರದ ಪದ್ಧತಿಯನ್ನು ಉಪಯೋಗಿಸುವ ವಿಜ್ಞಾನ
+  defs:
+  - entry: Bio-métrics
+    type: Noun
+  id: biométrics_830b5a34e785
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-métrics
+- entry: ಜೀವೌಷಧೀಯ ವಿಜ್ಞಾನ ಅಂಗಾಂಶ ಸೂಕ್ಷ್ಮ ಪರೀಕ್ಷೆ ಅಂಗಾಂಶವನ್ನು ತೆಗೆದು ರೋಗ ನಿರ್ಣಯ ಮಾಡಲು ಸಾಮಾನ್ಯವಾಗಿ ಸೂಕ್ಷ್ಮದರ್ಶಕದಿಂದ ಮಾಡುವ ಪರೀಕ್ಷೆ
+  defs:
+  - entry: Bio-pharmaceutics Biopsy
+    type: Noun
+  id: biopharmac_225bdb7d842f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-pharmaceutics Biopsy
+- entry: ಜೈವಿಕ ವಸ್ತು ವಹನಿ ವಿಜ್ಞಾನ
+  defs:
+  - entry: Bio-rheolcgy
+    type: Noun
+  id: biorheolcg_07f9d9ebcd71
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-rheolcgy
+- entry: ಜೈವಿಕ ಸಂಖ್ಯಾಶಾಸ್ತ್ರ
+  defs:
+  - entry: Bio-statistics
+    type: Noun
+  id: biostatist_1cff1d005357
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-statistics
+- entry: ಜೀವಿಜನ್ಯ ವಿಷವಸ್ತು
+  defs:
+  - entry: Bijo-toxin
+    type: Noun
+  id: bijotoxin_34857e4c559a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bijo-toxin
+- entry: ಜೈವಿಕ ಪರಿವರ್ತನೆ
+  defs:
+  - entry: Bio-transformation
+    type: Noun
+  id: biotransfo_f3d052b4818c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bio-transformation
+- entry: ದ್ವಿಧ್ರುವ ಕುಗ್ಗುವಿಕೆ
+  defs:
+  - entry: Bipolar depression
+    type: Noun
+  id: bipolardep_e21905514f97
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bipolar depression
+- entry: ಪ್ಲೇಗು ವ್ಯಾಧಿ
+  defs:
+  - entry: Black-death
+    type: Noun
+  id: blackdeath_d04a0eb6cac1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Black-death
+- entry: ಭೇದಿ ಔಷಧ
+  defs:
+  - &id079
+    entry: Black-draught
+    type: Noun
+  id: blackdraug_0fbfebe41e47
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Black-draught
+- entry: ಸುಖವಿರೇಚಕ
+  defs:
+  - *id079
+  id: blackdraug_5ce6ce2afa2a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Black-draught
+- entry: ಚರ್ಮದ ಮೇಲಿನ ಒಂದು ತರದ ಮೊಡವೆ
+  defs:
+  - entry: Black head
+    type: Noun
+  id: blackhead_2278b1c11c2f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Black head
+- entry: ಪೊರೆಚೀಲ
+  defs:
+  - entry: Bladder
+    type: Noun
+  id: bladder_91470ab113f1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bladder
+- entry: ಕೀವುಗುಳ್ಳೆ
+  defs:
+  - &id080
+    entry: Blain
+    type: Noun
+  id: blain_0021b561333b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blain
+- entry: ಬೊಬ್ಬೆ
+  defs:
+  - *id080
+  id: blain_681f250e0e0c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blain
+- entry: ಮಿಶ್ರಣ
+  defs:
+  - &id081
+    entry: Blend
+    type: Noun
+  id: blend_bc3c65333fd7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blend
+- entry: ಮಿಶ್ರಣ ಮಾಡು
+  defs:
+  - *id081
+  id: blend_166a7c7c0e19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blend
+- entry: ಮಿಶ್ರಕ
+  defs:
+  - entry: Blender
+    type: Noun
+  id: blender_cf58a5ff3cc7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blender
+- entry: ರಕ್ತಸ್ರಾವ
+  defs:
+  - entry: Bleeding
+    type: Noun
+  id: bleeding_6b670a14c8d3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bleeding
+- entry: ರಕ್ತಸ್ರಾವ ಕಾಲ
+  defs:
+  - entry: Bleeding time
+    type: Noun
+  id: bleedingti_ae2b8c9fd28a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bleeding time
+- entry: ಕುರುಡು
+  defs:
+  - &id082
+    entry: Blindness
+    type: Noun
+  id: blindness_d60097b2d4f1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blindness
+- entry: ಅಂಧತ್ವ
+  defs:
+  - *id082
+  id: blindness_0523da0add7f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blindness
+- entry: ವಿವೇಚನಾರಹಿತ ಪರೀಕ್ಷೆ
+  defs:
+  - entry: Blind screening
+    type: Noun
+  id: blindscree_390eecb0a5b0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blind screening
+- entry: ಬೊಬ್ಬೆ
+  defs:
+  - &id083
+    entry: Blister
+    type: Noun
+  id: blister_e99a955bc69b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blister
+- entry: ಹೊಪ್ಪಳೆ
+  defs:
+  - *id083
+  id: blister_a9a4fc659caf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blister
+- entry: ಪ್ರತಿರೋಧಕ ಕಾರಕಗಳು
+  defs:
+  - entry: Blocking agents
+    type: Noun
+  id: blockingag_680c77b2e68d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blocking agents
+- entry: ರಕ್ತ ಮಿದುಳು ತಡೆ
+  defs:
+  - entry: Blood brain barrier
+    type: Noun
+  id: bloodbrain_075f1adad243
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blood brain barrier
+- entry: ರಕ್ತಹೀನ
+  defs:
+  - &id084
+    entry: Bloodless
+    type: Noun
+  id: bloodless_aba104b78e9b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bloodless
+- entry: ರಕ್ತರಹಿತ
+  defs:
+  - *id084
+  id: bloodless_f30fe61f5f3b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bloodless
+- entry: ಬಿಳಚಿಕೊಂಡಿರುವ
+  defs:
+  - *id084
+  id: bloodless_44dcd318f329
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bloodless
+- entry: ರಕ್ತ ವಿಷ
+  defs:
+  - &id085
+    entry: Blood poisoning
+    type: Noun
+  id: bloodpoiso_d8f43b209408
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blood poisoning
+- entry: ನೆತ್ತರ ನಂಜು
+  defs:
+  - *id085
+  id: bloodpoiso_a873ff09510b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blood poisoning
+- entry: ರಕ್ತದ ಒತ್ತಡ
+  defs:
+  - entry: Blood pressure
+    type: Noun
+  id: bloodpress_bce941605c62
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blood pressure
+- entry: ನೀಲಿಮಾತ್ರೆ
+  defs:
+  - &id086
+    entry: Blu pill
+    type: Noun
+  id: blupill_01c6cb7c71ef
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blu pill
+- entry: ಪಿತ್ತಹರವಾದ ರಸಮಿಶ್ರಿತ ಔಷಧದ ಮಾತ್ರೆ
+  defs:
+  - *id086
+  id: blupill_82e4c891b950
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Blu pill
+- entry: ಮಂಡಲಿ
+  defs:
+  - entry: Board
+    type: Noun
+  id: board_8f83bb64cc7f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Board
+- entry: ನಿಗಮಿತ ನಿಕಾಯ
+  defs:
+  - entry: Body corporate
+    type: Noun
+  id: bodycorpor_995c4c182769
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Body corporate
+- entry: ಪ್ರಾಮಾಣಿಕ
+  defs:
+  - &id087
+    entry: Bonafide
+    type: Noun
+  id: bonafide_0ebbb1579d1b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bonafide
+- entry: ನಿಜವಾದ
+  defs:
+  - *id087
+  id: bonafide_5e939128029b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bonafide
+- entry: ನಿಷ್ಕಪಟ
+  defs:
+  - *id087
+  id: bonafide_7c75b76a7b5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bonafide
+- entry: ವಾಸ್ತವಿಕ
+  defs:
+  - *id087
+  id: bonafide_a56d95f506c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bonafide
+- entry: ಬಂಧಪತ್ರ
+  defs:
+  - &id088
+    entry: Bond
+    type: Noun
+  id: bond_ca916c11fa3b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bond
+- entry: ಮುಚ್ಚಳಿಕೆ
+  defs:
+  - *id088
+  id: bond_41fae44df4e5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bond
+- entry: ಸುಂಕಬದ್ಧ ಸರಕುಗಳು
+  defs:
+  - entry: Bonded goods
+    type: Noun
+  id: bondedgood_0dc0124618ae
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bonded goods
+- entry: ಮೂಳೆ ಕೂಡಿಸುವವನು
+  defs:
+  - entry: Bone-setter
+    type: Noun
+  id: bonesetter_49dae02d5c54
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bone-setter
+- entry: ಸಂಕೇತ ನಾಮ
+  defs:
+  - entry: Brand name
+    type: Noun
+  id: brandname_4dddd2cc441f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Brand name
+- entry: ಬ್ರಾಂದಿ
+  defs:
+  - entry: Brandy
+    type: Noun
+  id: brandy_cd4cf5ec41b6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Brandy
+- entry: ಒಡೆತ
+  defs:
+  - &id089
+    entry: Breakage
+    type: Noun
+  id: breakage_5b1eaa4ed4ed
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Breakage
+- entry: ಒಡಕು
+  defs:
+  - *id089
+  id: breakage_a49875051d42
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Breakage
+- entry: ಒಡೆತದಿಂದಾದ ನಷ್ಟ
+  defs:
+  - *id089
+  id: breakage_6c95b1888ed0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Breakage
+- entry: ವಿಭಜಿಸುವುದು
+  defs:
+  - entry: Breaking
+    type: Noun
+  id: breaking_fae0ecd7195c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Breaking
+- entry: ಎದೆಶೂಲೆ
+  defs:
+  - entry: Breast pang
+    type: Noun
+  id: breastpang_9cc065ecbae8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Breast pang
+- entry: ಉಸಿರಾಟಯಂತ್ರ
+  defs:
+  - entry: Breathing machine
+    type: Noun
+  id: breathingm_7936fcd7f1b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Breathing machine
+- entry: ಬ್ರೈಟ್ ನ ರೋಗ
+  defs:
+  - &id090
+    entry: Bright's Disease
+    type: Noun
+  id: brightsdis_2029eafc44d1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bright's Disease
+- entry: ಮೂತ್ರಪಿಂಡಗಳ ತೀವ್ರವಾದ ಒಂದು ದೀರ್ಘವ್ಯಾಧಿ
+  defs:
+  - *id090
+  id: brightsdis_f682e5d5cfcc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bright's Disease
+- entry: ಗಂಧಕ
+  defs:
+  - entry: Brimstone
+    type: Noun
+  id: brimstone_2bc46f1dbfc9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Brimstone
+- entry: ಬ್ರಿಟಿಷ್ ಶಾಖ ಘಟಕ
+  defs:
+  - entry: Bvitish thermal unit
+    type: Noun
+  id: bvitishthe_267b7066e688
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bvitish thermal unit
+- entry: ಶ್ವಾಸನಾಳ ಉರಿಯೂತ
+  defs:
+  - entry: Bronchitis
+    type: Noun
+  id: bronchitis_7b895cefafce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bronchitis
+- entry: ಶ್ವಾಸನಾಳದ ಹಿಗ್ಗು
+  defs:
+  - entry: Bronchocele
+    type: Noun
+  id: bronchocel_941225c92e47
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bronchocele
+- entry: ಶ್ವಾಶನಾಳ ಸಂಕೋಚನ
+  defs:
+  - entry: Broncho constriction
+    type: Noun
+  id: bronchocon_eaa114f322a3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Broncho constriction
+- entry: ಶ್ವಾಸನಾಳ ಹಿಗ್ಗುವಿಕೆ
+  defs:
+  - entry: Broncho-dilation dilatation
+    type: Noun
+  id: bronchodil_82a054631513
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Broncho-dilation dilatation
+- entry: 'ಬ್ರಾಥ್: ಸೂಕ್ಷ್ಮಾಣು ಜೀವಿವೃದ್ಧಿ ಮಾಧ್ಯಮ ದ್ರವ'
+  defs:
+  - entry: Broth
+    type: Noun
+  id: broth_6b218450dcb0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Broth
+- entry: ಬ್ರೌನೀಯ ಚಲನೆ
+  defs:
+  - entry: Brownian movement
+    type: Noun
+  id: brownianmo_221f27f9be8a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Brownian movement
+- entry: ಗುಳ್ಳೆ ಒತ್ತಡ
+  defs:
+  - entry: Bubble pressure
+    type: Noun
+  id: bubblepres_8658e7c13a9b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bubble pressure
+- entry: ಗುಳ್ಳೆಕ
+  defs:
+  - &id091
+    entry: Bubbler
+    type: Noun
+  id: bubbler_507f21d0e891
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bubbler
+- entry: ದ್ರಾವಣದಲ್ಲಿ ಗುಳ್ಳೆ ಎಬ್ಬಿಸುವ ಸಾಧನ
+  defs:
+  - *id091
+  id: bubbler_dd97b472a21b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bubbler
+- entry: ಉಡುಚು ತೊಡೆಯಲ್ಲಿ ಅಥವಾ ಕಂಕುಳಲ್ಲಿ ಆಗುವ ಗಡ್ಡೆ
+  defs:
+  - entry: Bubo
+    type: Noun
+  id: bubo_1dd7438e1bab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bubo
+- entry: ಬಾಯಿಯ ಮಾತ್ರೆ
+  defs:
+  - entry: Buccal tablets
+    type: Noun
+  id: buccaltabl_a508ec4ec3d4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Buccal tablets
+- entry: ತಟಸ್ಥೀಕರಣ ದ್ರಾವಣ
+  defs:
+  - entry: Buffer solution
+    type: Noun
+  id: buffersolu_043492163ceb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Buffer solution
+- entry: ಬಲ್ಬು ಪಿಚಕಾರಿ
+  defs:
+  - entry: Bulb syringes
+    type: Noun
+  id: bulbsyring_0a2debfe018f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulb syringes
+- entry: ಹಸಿವು ರೋಗ
+  defs:
+  - entry: Bulimia
+    type: Noun
+  id: bulimia_34f4a071845a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulimia
+- entry: ಒಟ್ಟು
+  defs:
+  - &id092
+    entry: Bulk
+    type: Noun
+  id: bulk_baa37fa0326f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulk
+- entry: ರಾಶಿ
+  defs:
+  - *id092
+  id: bulk_772df60de7b4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulk
+- entry: ಸಗಟು
+  defs:
+  - *id092
+  id: bulk_e1c981346902
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulk
+- entry: ಗಾತ್ರಕಾರಕ ವಿರೇಚಕ
+  defs:
+  - entry: Bulk forming Purgatives
+    type: Noun
+  id: bulkformin_3d313fda95f7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulk forming Purgatives
+- entry: ದೊಡ್ಡ ಕಟ್ಟು
+  defs:
+  - entry: Bulk packing
+    type: Noun
+  id: bulkpackin_3b7ac78fbb5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulk packing
+- entry: ಸಗಟು ಖರೀದಿ
+  defs:
+  - entry: Bulk purchase
+    type: Noun
+  id: bulkpurcha_cb28f0cd2402
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bulk purchase
+- entry: ಬೆಣೆ
+  defs:
+  - entry: Bung
+    type: Noun
+  id: bung_19066393ea3a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bung
+- entry: ಸುಟ್ಟಗಾಯ
+  defs:
+  - entry: Burn
+    type: Noun
+  id: burn_7982f9007af1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Burn
+- entry: ಬರ್ನರ್
+  defs:
+  - &id093
+    entry: Burner
+    type: Noun
+  id: burner_fe67a03d88b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Burner
+- entry: ಜ್ವಾಲಕ
+  defs:
+  - *id093
+  id: burner_837e961ebc02
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Burner
+- entry: ಬೈಲಾ
+  defs:
+  - &id094
+    entry: By-law
+    type: Noun
+  id: bylaw_05e1377978af
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: By-law
+- entry: ಉಪವಿಧಿ
+  defs:
+  - *id094
+  id: bylaw_d5816b81cbee
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: By-law
+- entry: ಉಪದಾರಿ
+  defs:
+  - entry: By-pass
+    type: Noun
+  id: bypass_4936cbfcd90a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: By-pass
+- entry: ಕಾಷೆ
+  defs:
+  - &id095
+    entry: Cachet
+    type: Noun
+  id: cachet_d4a4fe689099
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cachet
+- entry: ಔಷಧಿ ಕೋಶ
+  defs:
+  - *id095
+  id: cachet_186b3c07a267
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cachet
+- entry: ಕ್ಯಾಲ್ಸಿಯಂ
+  defs:
+  - entry: Calcium
+    type: Noun
+  id: calcium_738f44434a3d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calcium
+- entry: ಅಶ್ಮರಿ
+  defs:
+  - &id096
+    entry: Calculus
+    type: Noun
+  id: calculus_5deffa5f8974
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calculus
+- entry: ಮೂತ್ರಕೋಶ ಪಿಂಡಗಳಲ್ಲಿಯ ಕಲ್ಲು
+  defs:
+  - *id096
+  id: calculus_23df14f348fa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calculus
+- entry: ಶಾಖಸಂವೇದನ ಜನಕ
+  defs:
+  - entry: Calefacient
+    type: Noun
+  id: calefacien_05bbfe4333c8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calefacient
+- entry: ಶಮನಕಾರಿ
+  defs:
+  - &id097
+    entry: Calmative
+    type: Noun
+  id: calmative_f2a249e3fb4b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calmative
+- entry: ಶಾಮಕ ಔಷಧ
+  defs:
+  - *id097
+  id: calmative_64312acb75c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calmative
+- entry: ರಸಕರ್ಪೂರ
+  defs:
+  - &id098
+    entry: Calomel
+    type: Noun
+  id: calomel_78777db0061c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calomel
+- entry: ರಸವಿರೇಚಕ
+  defs:
+  - *id098
+  id: calomel_9bd542bb644d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calomel
+- entry: ಉಷ್ಣಮಾನ ಮಾಪಕ
+  defs:
+  - entry: Calorimeter
+    type: Noun
+  id: calorimete_5bac2ec5dd97
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calorimeter
+- entry: ಕ್ಯಾಲೊರಿ
+  defs:
+  - &id099
+    entry: Calory
+    type: Noun
+  id: calory_e4a430f30e2c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calory
+- entry: ಉಪ್ಣಮಾನ
+  defs:
+  - *id099
+  id: calory_2d57eabb04c5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Calory
+- entry: ಕ್ಯಾನ್ಸರ್
+  defs:
+  - &id100
+    entry: Cancer
+    type: Noun
+  id: cancer_f0b684789c14
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cancer
+- entry: ಅರ್ಬುದ ರೋಗ
+  defs:
+  - *id100
+  id: cancer_e50bd260d3cb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cancer
+- entry: ದೇಹದೊಳಗೆ ಸೇರಿಸುವ ಲಾಳಗೊಳವೆ
+  defs:
+  - entry: Cannula
+    type: Noun
+  id: cannula_66f527966a1f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cannula
+- entry: ಲೋಮನಾಳ
+  defs:
+  - entry: Capillary
+    type: Noun
+  id: capillary_626b3b30c490
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Capillary
+- entry: ಕ್ಯಾಪ್‌ಸೂಲ್
+  defs:
+  - &id101
+    entry: Capsule
+    type: Noun
+  id: capsule_6c02cc68a35d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Capsule
+- entry: ಔಷಧ ಕೋಶ
+  defs:
+  - *id101
+  id: capsule_e35e267fd440
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Capsule
+- entry: ಕಾರ್ಬಾಲಿಕ್ ಆಮ್ಲ
+  defs:
+  - entry: Carbolic acid
+    type: Noun
+  id: carbolicac_55107c049620
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Carbolic acid
+- entry: ದೊಡ್ಡಕುರು
+  defs:
+  - entry: Carbuncle
+    type: Noun
+  id: carbuncle_e6fc5688bde7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Carbuncle
+- entry: ಪ್ರಾಣಿಯ ಹೆಣ
+  defs:
+  - &id102
+    entry: Carcass
+    type: Noun
+  id: carcass_f17a12e65671
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Carcass
+- entry: ಸತ್ತಪ್ರಾಣಿಯ ದೇಹ
+  defs:
+  - *id102
+  id: carcass_9d2a3dadbead
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Carcass
+- entry: ಹೃದ್ರೋಗದ ಲಕ್ಷಣಗಳು
+  defs:
+  - entry: Cardiac symptoms
+    type: Noun
+  id: cardiacsym_63816ebc28ec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cardiac symptoms
+- entry: ಹೃದಯ ವಿಜ್ಞಾನ
+  defs:
+  - entry: Cardiology
+    type: Noun
+  id: cardiology_408a1e8f37f9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cardiology
+- entry: ವಾತಹರ ಔಷಧವಸ್ತು
+  defs:
+  - entry: Carminative
+    type: Noun
+  id: carminativ_05574275c3c0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Carminative
+- entry: ಕೇಸು
+  defs:
+  - &id103
+    entry: Case
+    type: Noun
+  id: case_7af2cdbda8f9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Case
+- entry: ಮೊಕದ್ದಮೆ
+  defs:
+  - *id103
+  id: case_c446486e02fd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Case
+- entry: ಪೆಟ್ಟಿಗೆ
+  defs:
+  - *id103
+  id: case_cc1d571c5f88
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Case
+- entry: ಪ್ರಚೋದನ
+  defs:
+  - entry: Catalysis
+    type: Noun
+  id: catalysis_1573175ac51e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Catalysis
+- entry: ಪ್ರಚೋದಕ
+  defs:
+  - &id104
+    entry: Catalyst
+    type: Noun
+  id: catalyst_96c0c62f6835
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Catalyst
+- entry: ವೇಗವರ್ಧಕ
+  defs:
+  - *id104
+  id: catalyst_e13107419134
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Catalyst
+- entry: ಕಣ್ಣುಪೊರೆ
+  defs:
+  - &id105
+    entry: Cataract
+    type: Noun
+  id: cataract_c3ee8c6f3ae2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cataract
+- entry: ಮೋತಿಬಿಂದು
+  defs:
+  - *id105
+  id: cataract_f9549dfb95cf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cataract
+- entry: ವಿರೇಚಕ
+  defs:
+  - entry: Cathartic
+    type: Noun
+  id: cathartic_bd217bbe0faa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cathartic
+- entry: ತೂರುನಳಿಕೆ
+  defs:
+  - entry: Catheter
+    type: Noun
+  id: catheter_f668fe18f3aa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Catheter
+- entry: ಸರ್ವರೋಗ ನಿವಾರಕ
+  defs:
+  - entry: Catholicon
+    type: Noun
+  id: catholicon_05bbd1b223c0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Catholicon
+- entry: ಧನ ಐಯಾನಿನ ಕಾರಕ
+  defs:
+  - entry: Cationic agent
+    type: Noun
+  id: cationicag_5452cb6e68ec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cationic agent
+- entry: ಕೇಂದ್ರ ಪರಿಷತ್ತು
+  defs:
+  - entry: Central council
+    type: Noun
+  id: centralcou_c624370667f5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Central council
+- entry: ಕೇಂದ್ರ ಔಷಧ ಪ್ರಯೋಗಾಲಯ
+  defs:
+  - entry: Central drugs laboratory
+    type: Noun
+  id: centraldru_77c77389b3bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Central drugs laboratory
+- entry: ಕೇಂದ್ರಾಪಗಾಮಿ ಬಲ
+  defs:
+  - entry: Centrifugal force
+    type: Noun
+  id: centrifuga_4f9d00111fa8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Centrifugal force
+- entry: ಕೇಂದ್ರಾಪಗಮನೀಕರಣ
+  defs:
+  - entry: Centrifugation
+    type: Noun
+  id: centrifuga_6bc733cf4908
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Centrifugation
+- entry: ಕೇಂದ್ರಾಪಗಾಮಿ ಯಂತ್ರ
+  defs:
+  - entry: Centrifuge
+    type: Noun
+  id: centrifuge_9c5125813a07
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Centrifuge
+- entry: ನೋಂದಣಿ ಪ್ರಮಾಣಪತ್ರ
+  defs:
+  - entry: Certificate of Registration
+    type: Noun
+  id: certificat_a5d2489b59b7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Certificate of Registration
+- entry: ಪ್ರಮಾಣಿತ ಬಣ್ಣಗಳು
+  defs:
+  - entry: Certified colours
+    type: Noun
+  id: certifiedc_4a58ae9b3a7d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Certified colours
+- entry: ರಾಸಾಯನಿಕ ಸಂಯೋಗ
+  defs:
+  - entry: Chemical combination
+    type: Noun
+  id: chemicalco_dfb8219ce0a8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemical combination
+- entry: ರಾಸಾಯನಿಕ ಪರೀಕ್ಷಕ
+  defs:
+  - entry: Chemical examiner
+    type: Noun
+  id: chemicalex_90a9c799ad26
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemical examiner
+- entry: ರಾಸಾಯನಿಕ ಸೂತ್ರ
+  defs:
+  - entry: Chemical formula
+    type: Noun
+  id: chemicalfo_62f406a1a0a9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemical formula
+- entry: ರಾಸಾಯನಿಕ ನಾಮ
+  defs:
+  - entry: Chemical name
+    type: Noun
+  id: chemicalna_2dae018709c7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemical name
+- entry: ರಸಾಯನಜ್ಞ
+  defs:
+  - entry: Chemist
+    type: Noun
+  id: chemist_bac799ab4d15
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemist
+- entry: ರಸಾಯನಜ್ಞ ಮತ್ತು ಔಷಧ ವ್ಯಾಪಾರಿ
+  defs:
+  - entry: Chemists and Druggists
+    type: Noun
+  id: chemistsan_22e6a6695185
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemists and Druggists
+- entry: ಕೆಮೊ ಚಿಕಿತ್ಸೆ
+  defs:
+  - &id106
+    entry: Chemotheraphy
+    type: Noun
+  id: chemothera_d8801939739a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemotheraphy
+- entry: ರಸಾಯನ ರೋಗ ಚಿಕಿತ್ಸೆ
+  defs:
+  - *id106
+  id: chemothera_ba090b3ea11d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chemotheraphy
+- entry: ಅಗಿಮಾತ್ರೆ
+  defs:
+  - entry: Chewable tablet
+    type: Noun
+  id: chewableta_45e46e7a44e9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chewable tablet
+- entry: ಮುಖ್ಯ ರಸಾಯನಜ್ಞ
+  defs:
+  - entry: Chief Chemist
+    type: Noun
+  id: chiefchemi_fb60de1fece9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chief Chemist
+- entry: 'ಕ್ರೊಮೆಟೊಗ್ರಾಮ್: ರಾಸಾಯನಿಕ ವಿಶ್ಲೇಷಣ ಪದ್ಧತಿಯಿಂದ ಬೇರ್ಪಡಿಸಿದ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವ ಮಾಧ್ಯಮದಲ್ಲಿ ಆಗುವ ಮಾದರಿ'
+  defs:
+  - entry: Chromatogram
+    type: Noun
+  id: chromatogr_dfb0001dc1ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chromatogram
+- entry: 'ಕ್ರೊಮ್ಯಾಟೊಗ್ರಫಿ: ವರ್ಣಗಳ ಆಧಾರದ ಮೇಲೆ ರಾಸಾಯನಿಕ ವಿಶ್ಲೇಷಣ ಪದ್ಧತಿ'
+  defs:
+  - entry: Chromatography
+    type: Noun
+  id: chromatogr_37bcd8b6ce7e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chromatography
+- entry: ದೀರ್ಘಕಾಲೀನ ರೋಗ
+  defs:
+  - entry: Chronic complaint
+    type: Noun
+  id: chroniccom_084be1cb1e76
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chronic complaint
+- entry: ಸ್ಪಷ್ಟೀಕರಣ
+  defs:
+  - &id107
+    entry: Clarification
+    type: Noun
+  id: clarificat_ef4afd469be8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Clarification
+- entry: ನಿರ್ಮಲೀಕರಣ ರೋಗ
+  defs:
+  - *id107
+  id: clarificat_1df0a1c17fab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Clarification
+- entry: ಶುಚಿಕಾರಕ
+  defs:
+  - entry: Cleansing
+    type: Noun
+  id: cleansing_e746c1f80d4b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cleansing
+- entry: ಕ್ಲಿನಿಕ್
+  defs:
+  - &id108
+    entry: Clinic
+    type: Noun
+  id: clinic_33b54ad51cbb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Clinic
+- entry: ಚಿಕಿತ್ಸಾಲಯ
+  defs:
+  - *id108
+  id: clinic_cb1fb74fa942
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Clinic
+- entry: ದವಾಖಾನೆ
+  defs:
+  - *id108
+  id: clinic_78e59667a5de
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Clinic
+- entry: ರೋಗ ವಿಷಯಕ ವಿಶ್ಲೇಷಣೆ
+  defs:
+  - entry: Clinical Analysis
+    type: Noun
+  id: clinicalan_f19ebba8fbec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Clinical Analysis
+- entry: ಹೆಪ್ಪುಗಟ್ಟುವಿಕೆ
+  defs:
+  - entry: Coagulation
+    type: Noun
+  id: coagulatio_8c505fc5b8fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Coagulation
+- entry: ಟಾರೆಣ್ಣೆ ಬಣ್ಣಗಳು
+  defs:
+  - entry: Coal-tar colours
+    type: Noun
+  id: coaltarcol_1914aea9c806
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Coal-tar colours
+- entry: ಲೇಪಿತ
+  defs:
+  - entry: Coated
+    type: Noun
+  id: coated_5b3f4667d260
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Coated
+- entry: ಲೇಪ
+  defs:
+  - &id109
+    entry: Coating
+    type: Noun
+  id: coating_c430ec31d1b2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Coating
+- entry: ಲೇಪನ
+  defs:
+  - *id109
+  id: coating_11fd6bafbceb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Coating
+- entry: ಕೊಕೆಯ್ನ್
+  defs:
+  - entry: Cocaine
+    type: Noun
+  id: cocaine_7ce0476a2fdf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cocaine
+- entry: ಸಂಜ್ಞೇಯತೆ
+  defs:
+  - entry: Cognizance
+    type: Noun
+  id: cognizance_5ac4370c317e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cognizance
+- entry: ಶೀತ
+  defs:
+  - &id110
+    entry: Cold
+    type: Noun
+  id: cold_d74fa4438391
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cold
+- entry: ನೆಗಡಿ
+  defs:
+  - *id110
+  id: cold_7b025ae5edf9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cold
+- entry: ತಂಪು ಕೆನೆ
+  defs:
+  - entry: Cold cream
+    type: Noun
+  id: coldcream_bfeb40e915cd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cold cream
+- entry: ಹೊಟ್ಟೆಶೂಲೆ
+  defs:
+  - &id111
+    entry: Colic
+    type: Noun
+  id: colic_0c85497fbb28
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colic
+- entry: ನುಲಿತ
+  defs:
+  - *id111
+  id: colic_2de440298e88
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colic
+- entry: ದೊಡ್ಡ ಕರುಳಿನ ಊತ
+  defs:
+  - entry: Colitis
+    type: Noun
+  id: colitis_71e900fc17b3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colitis
+- entry: ನುಸಿ ನಳಿಕೆ
+  defs:
+  - entry: Collapsible tube
+    type: Noun
+  id: collapsibl_0ea32af78e83
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Collapsible tube
+- entry: ದ್ರಾವಣ ಮಿಶ್ರಣ ಸ್ಥಿತಿ
+  defs:
+  - &id112
+    entry: Colloid
+    type: Noun
+  id: colloid_fca3c819c23e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colloid
+- entry: ದ್ರವ ಮಾಧ್ಯಮದಲ್ಲಿ ಪಸರಿಸಿದ ವಸ್ತುವಿನ ಸ್ಥಿತಿ
+  defs:
+  - *id112
+  id: colloid_b6109edd764c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colloid
+- entry: ಕಣೌಷಧ
+  defs:
+  - entry: Collyrium
+    type: Noun
+  id: collyrium_e63f38fd97f2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Collyrium
+- entry: ವರ್ಣತೀವ್ರತಾಮಾಪಕ
+  defs:
+  - entry: Colorimeter
+    type: Noun
+  id: colorimete_4f0046a0d686
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colorimeter
+- entry: ಬಣ್ಣ ಹಾಕುವುದು
+  defs:
+  - &id113
+    entry: Colouration
+    type: Noun
+  id: colouratio_9bdae07e7bf4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colouration
+- entry: ಬಣ್ಣ ಹಾಕಿದ ಸ್ಥಿತಿ
+  defs:
+  - *id113
+  id: colouratio_415052b30f84
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colouration
+- entry: ಬಣ್ಣ ಹಾಕುವ ಸಾಧನ
+  defs:
+  - entry: Colouring agent
+    type: Noun
+  id: colouringa_c5a563de98e0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Colouring agent
+- entry: ಸಹಜೀವಿ
+  defs:
+  - entry: Commensal
+    type: Noun
+  id: commensal_5abbe862701d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Commensal
+- entry: ಒಟ್ಟಿಗೆ ಬೆರೆಸು
+  defs:
+  - &id114
+    entry: Commingle
+    type: Noun
+  id: commingle_0f27966a8513
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Commingle
+- entry: ಬೆರೆತು ಹೋಗು
+  defs:
+  - *id114
+  id: commingle_d068ae9dcecd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Commingle
+- entry: ಚೂರ್ಣ ಮಾಡು
+  defs:
+  - &id115
+    entry: Comminute
+    type: Noun
+  id: comminute_373a0221c22a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Comminute
+- entry: ಪುಡಿ ಮಾಡು
+  defs:
+  - *id115
+  id: comminute_c00123acd9dc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Comminute
+- entry: ಚೂರ್ಣನ
+  defs:
+  - &id116
+    entry: Comminution
+    type: Noun
+  id: comminutio_8134c4a098a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Comminution
+- entry: ಪುಡಿ ಮಾಡುವಿಕೆ
+  defs:
+  - *id116
+  id: comminutio_bea1a630af44
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Comminution
+- entry: ವಿಚಾರಣಾ ಆಯೋಗ
+  defs:
+  - entry: Commission of enquiry
+    type: Noun
+  id: commission_efee0bd7592a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Commission of enquiry
+- entry: ಸಮಿತಿ
+  defs:
+  - entry: Core committee
+    type: Noun
+  id: corecommit_edfba62a9576
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Core committee
+- entry: ಕಂಪನಿ
+  defs:
+  - &id117
+    entry: Company
+    type: Noun
+  id: company_b92ee036b33e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Company
+- entry: ಸಂಸ್ಥೆ
+  defs:
+  - *id117
+  id: company_a412ec6ac6ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Company
+- entry: ತುಲನಸಾಧನ
+  defs:
+  - entry: Comparator
+    type: Noun
+  id: comparator_79f317392484
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Comparator
+- entry: ಸಂಕ್ಷೇಪ
+  defs:
+  - &id118
+    entry: Compendium
+    type: Noun
+  id: compendium_ef45bfe9289a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compendium
+- entry: ಸಾರಸಂಗ್ರಹ
+  defs:
+  - *id118
+  id: compendium_cc5155a246c7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compendium
+- entry: ಸಕ್ಷಮ
+  defs:
+  - entry: Competent
+    type: Noun
+  id: competent_08f5b8d56e4b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Competent
+- entry: ಸಕ್ಷಮ ಅಧಿಕಾರಿ
+  defs:
+  - entry: Competent Authority
+    type: Noun
+  id: competenta_e06b9009c9b8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Competent Authority
+- entry: ಸಂಯುಕ್ತ ಸಂಕೀರ್ಣ ಮಾಪಕ
+  defs:
+  - entry: Complexo metric
+    type: Noun
+  id: complexome_4b2a86a5531c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Complexo metric
+- entry: ಸಂಕೀರ್ಣಸಾರ ಮಾಪನಪದ್ಧತಿ
+  defs:
+  - entry: Complexometrictitration
+    type: Noun
+  id: complexome_30e825e7c0ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Complexometrictitration
+- entry: ಪಾಲಿಸು
+  defs:
+  - entry: Comply
+    type: Noun
+  id: comply_bc132799e90a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Comply
+- entry: ಅಂಗ
+  defs:
+  - &id119
+    entry: Component
+    type: Noun
+  id: component_6d1339e8ea36
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Component
+- entry: ಭಾಗ
+  defs:
+  - *id119
+  id: component_17c8c686ae27
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Component
+- entry: ಸಂಯೋಜನೆ
+  defs:
+  - entry: Composition
+    type: Noun
+  id: compositio_087509b0b6b2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Composition
+- entry: ಸಂಯುಕ್ತ
+  defs:
+  - entry: Compound
+    type: Noun
+  id: compound_e47a43c68fe2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compound
+- entry: ಮಿಶ್ರಣಗೊಳಿಸುವಿಕೆ
+  defs:
+  - entry: Compounding
+    type: Noun
+  id: compoundin_4c9b413d4098
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compounding
+- entry: ಔಷಧಿಗಳ ಮಿಶ್ರಣಗೊಳಿಸುವಿಕೆ
+  defs:
+  - entry: Compounding of drugs
+    type: Noun
+  id: compoundin_2f85b13c1afa
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compounding of drugs
+- entry: ಸಂಕೋಚಿತ
+  defs:
+  - entry: Compressed
+    type: Noun
+  id: compressed_8be535fa2f00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compressed
+- entry: ಸಂಕೋಚನ
+  defs:
+  - entry: Compression
+    type: Noun
+  id: compressio_cfb29b4b440d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Compression
+- entry: ಬಚ್ಚಿಡು
+  defs:
+  - &id120
+    entry: Conceal
+    type: Noun
+  id: conceal_4c28df01af00
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conceal
+- entry: ಮರೆಮಾಚು
+  defs:
+  - *id120
+  id: conceal_b95faaba1fc9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conceal
+- entry: ಸಾಂದ್ರೀಕರಣ
+  defs:
+  - &id121
+    entry: Concentration
+    type: Noun
+  id: concentrat_319c912af620
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Concentration
+- entry: ಕೇಂದ್ರೀಕರಣ
+  defs:
+  - *id121
+  id: concentrat_1288ac6e442f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Concentration
+- entry: ಘನೀಭವನ
+  defs:
+  - entry: Condensation
+    type: Noun
+  id: condensati_d1e069f2c437
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Condensation
+- entry: ಘನೀಕರಿಸು
+  defs:
+  - entry: Condense
+    type: Noun
+  id: condense_f52e03ed3fc9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Condense
+- entry: ಘನೀಕೃತ
+  defs:
+  - entry: Condensed
+    type: Noun
+  id: condensed_974cb77223ae
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Condensed
+- entry: ನಿರೋಧ
+  defs:
+  - entry: Condom
+    type: Noun
+  id: condom_ddaafa7df333
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Condom
+- entry: ವಿದ್ಯುತ್‌ವಾಹಕತ್ವ
+  defs:
+  - entry: Conductance
+    type: Noun
+  id: conductanc_22c962e2fdb6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conductance
+- entry: ವಾಹಕತ್ವ
+  defs:
+  - entry: Conductivity
+    type: Noun
+  id: conductivi_8d82d7c275ae
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conductivity
+- entry: ವಿನ್ಯಾಸ
+  defs:
+  - &id122
+    entry: Configuration
+    type: Noun
+  id: configurat_511351b18957
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Configuration
+- entry: ರಚನೆ
+  defs:
+  - *id122
+  id: configurat_da7726937d28
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Configuration
+- entry: ಸ್ಥಿರೀಕರಿಸು
+  defs:
+  - &id123
+    entry: Confirm
+    type: Noun
+  id: confirm_1f0eac46063f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Confirm
+- entry: ಕಾಯಂಗೊಳಿಸು
+  defs:
+  - *id123
+  id: confirm_22134c981851
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Confirm
+- entry: ಸ್ಥಿರೀಕರಣ
+  defs:
+  - &id124
+    entry: Confirmation
+    type: Noun
+  id: confirmati_b516718b451b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Confirmation
+- entry: ಕಾಯಂಗೊಳಿಸುವಿಕೆ
+  defs:
+  - *id124
+  id: confirmati_35bc0f7d3651
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Confirmation
+- entry: ಮುಟ್ಟುಗೋಲು ಹಾಕು
+  defs:
+  - entry: Confiscate
+    type: Noun
+  id: confiscate_6a203b1052f5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Confiscate
+- entry: ಅನುವರ್ತಿಸು
+  defs:
+  - &id125
+    entry: Conform
+    type: Noun
+  id: conform_96943a2e8c9d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conform
+- entry: ಅನುಸರಿಸು
+  defs:
+  - *id125
+  id: conform_82b679912bd3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conform
+- entry: ಒಟ್ಟಿಗೆ
+  defs:
+  - &id126
+    entry: Conjointly
+    type: Noun
+  id: conjointly_434c4b5b76c7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conjointly
+- entry: ಜೊತೆಗೂಡಿ
+  defs:
+  - *id126
+  id: conjointly_024f80ee359b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conjointly
+- entry: ಸಂಯೋಜನೆ
+  defs:
+  - entry: Conjugation
+    type: Noun
+  id: conjugatio_4cb04b7f0224
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conjugation
+- entry: ತತ್ಪರಿಣಾಮವಾದ
+  defs:
+  - entry: Consequential
+    type: Noun
+  id: consequent_a8fcae890613
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consequential
+- entry: ಕ್ರಮಾನುಗತ ಪ್ರತಿಕ್ರಿಯೆಗಳು
+  defs:
+  - entry: Consequtive reactions
+    type: Noun
+  id: consequtiv_6ddd66649d80
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consequtive reactions
+- entry: ಸರಕು ಪಡೆಯುವವನು
+  defs:
+  - entry: Consignee
+    type: Noun
+  id: consignee_c08e21775fe7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consignee
+- entry: ರವಾನೆ
+  defs:
+  - &id127
+    entry: Consignment
+    type: Noun
+  id: consignmen_929420057eff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consignment
+- entry: ರವಾನಿಸಿದ ಸರಕು
+  defs:
+  - *id127
+  id: consignmen_40cca1608276
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consignment
+- entry: ಸರಕು ರವಾನೆದಾರ
+  defs:
+  - entry: Consignor
+    type: Noun
+  id: consignor_9e4c6a461162
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consignor
+- entry: ಸಾಂದ್ರತೆ
+  defs:
+  - &id128
+    entry: Consistency
+    type: Noun
+  id: consistenc_ad369eb5d2ab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consistency
+- entry: ಸ್ಥಿರತೆ
+  defs:
+  - *id128
+  id: consistenc_8007f78e8476
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consistency
+- entry: ಎದ್ದು ಕಾಣುವ
+  defs:
+  - &id129
+    entry: Conspicuous
+    type: Noun
+  id: conspicuou_08271ccaae53
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conspicuous
+- entry: ಗಮನ ಸೆಳೆಯುವ
+  defs:
+  - *id129
+  id: conspicuou_f7e9d7315377
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conspicuous
+- entry: ಮಲಬದ್ಧತೆ
+  defs:
+  - entry: Constipation
+    type: Noun
+  id: constipati_dde8cc79cfc2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Constipation
+- entry: ಘಟಕಾಂಗ
+  defs:
+  - entry: Constituent
+    type: Noun
+  id: constituen_5b81b84ccc64
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Constituent
+- entry: ಅರ್ಥಯಿಸು
+  defs:
+  - entry: Construe
+    type: Noun
+  id: construe_677ecddfe7d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Construe
+- entry: ಸಮಾಲೋಚಕ
+  defs:
+  - entry: Consultant
+    type: Noun
+  id: consultant_ffa35c044b36
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consultant
+- entry: ಸಮಾಲೋಚನೆ
+  defs:
+  - entry: Consultation
+    type: Noun
+  id: consultati_e98b8a4b8e60
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consultation
+- entry: ಬಳಕೆದಾರ
+  defs:
+  - entry: Consumer
+    type: Noun
+  id: consumer_d467ddeb2c3b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consumer
+- entry: ಬಳಕೆ
+  defs:
+  - entry: Consumption
+    type: Noun
+  id: consumptio_7c2aa0dc6e73
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Consumption
+- entry: ಅಂಟುವ
+  defs:
+  - &id130
+    entry: Contagious
+    type: Noun
+  id: contagious_9a1ff63ab3a5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Contagious
+- entry: ಸಾಂಸರ್ಗಿಕ
+  defs:
+  - *id130
+  id: contagious_80ef21d3111d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Contagious
+- entry: ಧಾರಕ
+  defs:
+  - entry: Container
+    type: Noun
+  id: container_95a46076a2c2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Container
+- entry: ಮಾಲಿನ್ಯ
+  defs:
+  - entry: Contamination
+    type: Noun
+  id: contaminat_da5157963964
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Contamination
+- entry: ಒಳಾಂಶ
+  defs:
+  - entry: Content
+    type: Noun
+  id: content_1e0e4f3e5828
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Content
+- entry: ಒಳಾಂಶ ಏಕರೂಪತೆ
+  defs:
+  - entry: Content uniformity
+    type: Noun
+  id: contentuni_5839437776d3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Content uniformity
+- entry: ಗರ್ಭನಿರೋಧಕ
+  defs:
+  - entry: Contraceptive
+    type: Noun
+  id: contracept_9532e899834f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Contraceptive
+- entry: ವೈದೃಶ್ಯ ಮಾಧ್ಯಮಗಳು
+  defs:
+  - entry: Contrast media
+    type: Noun
+  id: contrastme_3bc852482c77
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Contrast media
+- entry: ಉಲ್ಲಂಘಿಸು
+  defs:
+  - entry: Contravene
+    type: Noun
+  id: contravene_f499a8c3679a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Contravene
+- entry: ನಿಯಂತ್ರಿತ ಬಿಡುಗಡೆ
+  defs:
+  - entry: Controlled release
+    type: Noun
+  id: controlled_71278ad85ba4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Controlled release
+- entry: ವಾದಗ್ರಸ್ತ
+  defs:
+  - entry: Controversial
+    type: Noun
+  id: controvers_94e863ad9eb0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Controversial
+- entry: ವಿವಾದ
+  defs:
+  - entry: Controversy
+    type: Noun
+  id: controvers_29eed92982e1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Controversy
+- entry: ಪರಿವರ್ತನೆ
+  defs:
+  - entry: Conversion
+    type: Noun
+  id: conversion_e935106e04f8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conversion
+- entry: ವಾಹನ ಸಾಗಣೆ
+  defs:
+  - entry: Conveyance
+    type: Noun
+  id: conveyance_ad690877ef4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conveyance
+- entry: ಸಾಗು ಪದ್ಧತಿ
+  defs:
+  - entry: Conveyor system
+    type: Noun
+  id: conveyorsy_d67a71c40f7a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conveyor system
+- entry: ನಿರ್ಣೀತ ಅಪರಾಧಿ
+  defs:
+  - &id131
+    entry: Convict
+    type: Noun
+  id: convict_a175769ae8bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Convict
+- entry: ಅಪರಾಧಿ ಎಂದು ನಿರ್ಣಯಿಸು
+  defs:
+  - *id131
+  id: convict_18362873283c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Convict
+- entry: ಅಪರಾಧ ನಿರ್ಣಯ
+  defs:
+  - &id132
+    entry: Conviction
+    type: Noun
+  id: conviction_6e7c69292822
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conviction
+- entry: ನಿಶ್ಚಿತ ಅಭಿಪ್ರಾಯ
+  defs:
+  - *id132
+  id: conviction_628d355a747d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Conviction
+- entry: ಸ್ನಾಯುಗಳ ಅನೈಚ್ಛಿಕ ಸಂಕೋಚನ
+  defs:
+  - &id133
+    entry: Convulsion
+    type: Noun
+  id: convulsion_588a8f1fa492
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Convulsion
+- entry: ಸೆಳವು
+  defs:
+  - *id133
+  id: convulsion_27c1f88b2473
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Convulsion
+- entry: ಎಳವು
+  defs:
+  - *id133
+  id: convulsion_a3b935b83533
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Convulsion
+- entry: ಸೆಳೆತಮಾಪಕ
+  defs:
+  - entry: Convulsion meter
+    type: Noun
+  id: convulsion_e899f98069da
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Convulsion meter
+- entry: ಹೃದಯೋತ್ತೇಜಕ ಔಷಧ
+  defs:
+  - &id134
+    entry: Cordial
+    type: Noun
+  id: cordial_456062a8838d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cordial
+- entry: ಸೌಹಾರ್ದ
+  defs:
+  - *id134
+  id: cordial_3c34d73e6740
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cordial
+- entry: ದೈಹಿಕ
+  defs:
+  - entry: Corporal
+    type: Noun
+  id: corporal_36bde459b287
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Corporal
+- entry: ನಿಗಮಿತ ನಿಕಾಯ
+  defs:
+  - entry: Corporate body
+    type: Noun
+  id: corporateb_0773a3468dc8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Corporate body
+- entry: ತುಕ್ಕು ಹಿಡಿಯುವ
+  defs:
+  - &id135
+    entry: Corrosive
+    type: Noun
+  id: corrosive_eaf74278fb40
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Corrosive
+- entry: ತಿಂದು ಹಾಕುವ
+  defs:
+  - *id135
+  id: corrosive_8bf590d7e6ad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Corrosive
+- entry: ಅಂಗರಾಗ
+  defs:
+  - &id136
+    entry: Cosmetics
+    type: Noun
+  id: cosmetics_fcb3d96f505b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cosmetics
+- entry: ಕಾಂತಿವರ್ಧಕ
+  defs:
+  - *id136
+  id: cosmetics_706e4dca4a02
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cosmetics
+- entry: ಕೆಮ್ಮು
+  defs:
+  - entry: Cough
+    type: Noun
+  id: cough_7cf4ecd7416d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cough
+- entry: ಪ್ರತ್ಯುದ್ರೇಕಿ
+  defs:
+  - entry: Counter irritant
+    type: Noun
+  id: counterirr_d1ebd74af366
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Counter irritant
+- entry: ಮುಚ್ಚುಕ
+  defs:
+  - entry: Covering
+    type: Noun
+  id: covering_737cfaa45eb8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Covering
+- entry: ಕೆನೆ
+  defs:
+  - entry: Cream
+    type: Noun
+  id: cream_a92801dffefe
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cream
+- entry: ಬಿರುಕು
+  defs:
+  - entry: Crevice
+    type: Noun
+  id: crevice_a05c15e15c58
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Crevice
+- entry: ಕಚ್ಚಾ
+  defs:
+  - entry: Crude
+    type: Noun
+  id: crude_121e31477343
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Crude
+- entry: ಕಚ್ಚಾ ಔಷಧಿಗಳು
+  defs:
+  - entry: Crude drugs
+    type: Noun
+  id: crudedrugs_5e86befa35ba
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Crude drugs
+- entry: ಸ್ಫಟಿಕೀಕರಣ
+  defs:
+  - entry: Crystallization
+    type: Noun
+  id: crystalliz_b177e203fc35
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Crystallization
+- entry: ಕೃಷಿ
+  defs:
+  - entry: Culture
+    type: Noun
+  id: culture_249367219300
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Culture
+- entry: ಕೃಷಿ ಮಾಧ್ಯಮ
+  defs:
+  - entry: Culture medium
+    type: Noun
+  id: culturemed_2dad4108d9d7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Culture medium
+- entry: ರೋಗಜನಿ ಜೀವಾಣುಗಳ ಕೃಷಿ
+  defs:
+  - entry: Culture of Pathogenic
+    type: Noun
+  id: cultureofp_f5e628422789
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Culture of Pathogenic
+- entry: ಕ್ಯುರಾರೆ ಒಂದು ಬಗೆಯ ಸಸ್ಯ ವಿಷ ಔಷಧ
+  defs:
+  - entry: Curare
+    type: Noun
+  id: curare_171cea031c5c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Curare
+- entry: ರೋಗ ನಿವಾರಕ
+  defs:
+  - &id137
+    entry: Cure
+    type: Noun
+  id: cure_ddf8ba8fa7fc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cure
+- entry: ವಾಸಿ ಮಾಡು
+  defs:
+  - *id137
+  id: cure_655167c573ec
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cure
+- entry: ರಕ್ತದಲ್ಲಿ ಆಮ್ಲಜನಕದ ಕೊರತೆಯಿಂದ ದೇಹ ನೀಲಿಗಟ್ಟುವ ಸ್ಥಿತಿ
+  defs:
+  - entry: Cyanosis
+    type: Noun
+  id: cyanosis_78d49b276a92
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cyanosis
+- entry: ಅಪಾಯಕಾರಿ ಔಷಧ
+  defs:
+  - entry: Dangerous Drug
+    type: Noun
+  id: dangerousd_61030162be19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dangerous Drug
+- entry: ಅಪಾಯಕಾರಿ ಔಷಧಿಗಳ ಅಧಿನಿಯಮ
+  defs:
+  - entry: Dangerous Drugs Act
+    type: Noun
+  id: dangerousd_a0ba9e1eadfb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dangerous Drugs Act
+- entry: ವಾಯಿದೆ ಮೀರಿಕೆ ದಿನಾಂಕ
+  defs:
+  - entry: Date of Expiry
+    type: Noun
+  id: dateofexpi_7934dac15446
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Date of Expiry
+- entry: ತಯಾರಿಕಾ ದಿನಾಂಕ
+  defs:
+  - entry: Date of Manufacture
+    type: Noun
+  id: dateofmanu_74a2dcab0c9c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Date of Manufacture
+- entry: ವ್ಯಾಪಾರಿ
+  defs:
+  - entry: Dealer
+    type: Noun
+  id: dealer_3ed6d4187df2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dealer
+- entry: ನಿತ್ರಾಣ
+  defs:
+  - &id138
+    entry: Debility
+    type: Noun
+  id: debility_c42c61b5da57
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Debility
+- entry: ನಿಶ್ಯಕ್ತಿ
+  defs:
+  - *id138
+  id: debility_b23d93c522ac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Debility
+- entry: ತಿಳಿಬಸಿತ
+  defs:
+  - entry: Decantation
+    type: Noun
+  id: decantatio_1b51ee162752
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decantation
+- entry: ಕ್ಷೀಣತೆ
+  defs:
+  - &id139
+    entry: Decay
+    type: Noun
+  id: decay_2567a531006c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decay
+- entry: ಕೊಳೆತ
+  defs:
+  - *id139
+  id: decay_b8551c659167
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decay
+- entry: ಕ್ಷೀಣಿಸು
+  defs:
+  - *id139
+  id: decay_66d5c71973f3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decay
+- entry: ಕೊಳೆ
+  defs:
+  - *id139
+  id: decay_e6dc020f138f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decay
+- entry: ಕಷಾಯ
+  defs:
+  - entry: Decoction
+    type: Noun
+  id: decoction_578d2bbd0622
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decoction
+- entry: ನಿರ್ವರ್ಣೀಕರಣ
+  defs:
+  - &id140
+    entry: Decolouration
+    type: Noun
+  id: decolourat_ad2a558c112b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decolouration
+- entry: ಬಣ್ಣಗಳೆಯುವುದು
+  defs:
+  - *id140
+  id: decolourat_ca53f5b180a2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decolouration
+- entry: ವಿವರ್ಣನ
+  defs:
+  - &id141
+    entry: De-colourising
+    type: Noun
+  id: decolouris_27563a030a8e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: De-colourising
+- entry: ಬಣ್ಣ ಕಳೆಯುವಿಕೆ
+  defs:
+  - *id141
+  id: decolouris_b9645e757799
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: De-colourising
+- entry: ವಿಘಟನೆ
+  defs:
+  - &id142
+    entry: Decomposition
+    type: Noun
+  id: decomposit_334813b61775
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decomposition
+- entry: ಕೊಳೆತ
+  defs:
+  - *id142
+  id: decomposit_af1d76d686d4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Decomposition
+- entry: ವಿರೂಪಿತ
+  defs:
+  - entry: Defaced
+    type: Noun
+  id: defaced_0090aa277f6f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defaced
+- entry: 'ತಪ್ಪಿತ: ಕರ್ತವ್ಯಲೋಪ'
+  defs:
+  - &id143
+    entry: Default
+    type: Noun
+  id: default_9f5b0daf2985
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Default
+- entry: ತಪ್ಪು. ತಪ್ಪು
+  defs:
+  - *id143
+  id: default_df9fe8162da1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Default
+- entry: ತಪ್ಪಿಸು.
+  defs:
+  - *id143
+  id: default_1bbb43bfa147
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Default
+- entry: ತಪ್ಪುಗಾರ
+  defs:
+  - &id144
+    entry: Defaulter
+    type: Noun
+  id: defaulter_1b40ce4528da
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defaulter
+- entry: ಬಾಕಿದಾರ
+  defs:
+  - *id144
+  id: defaulter_4c4e6409c14e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defaulter
+- entry: ಸುಸ್ತಿಗಾರ
+  defs:
+  - *id144
+  id: defaulter_e965570a4a51
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defaulter
+- entry: ದೋಷ
+  defs:
+  - entry: Defect
+    type: Noun
+  id: defect_e91c92b67901
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defect
+- entry: ವ್ಯಾಖ್ಯೆ
+  defs:
+  - entry: Definition
+    type: Noun
+  id: definition_d83372c9d47f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Definition
+- entry: ಕೊರತೆ
+  defs:
+  - &id145
+    entry: Deficiency
+    type: Noun
+  id: deficiency_e9b0d188c1f9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deficiency
+- entry: ನ್ಯೂನತೆ
+  defs:
+  - *id145
+  id: deficiency_10adc6e1e06a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deficiency
+- entry: ಎಲೆಗಳೆಕ
+  defs:
+  - &id146
+    entry: Defoliant
+    type: Noun
+  id: defoliant_f1857bcf4b79
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defoliant
+- entry: ಎಲೆಯುದುರಿಸಿದ ರಾಸಾಯನಿಕ
+  defs:
+  - *id146
+  id: defoliant_fa26618442bb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Defoliant
+- entry: ವಿರೂಪತೆ
+  defs:
+  - entry: Deformity
+    type: Noun
+  id: deformity_2859c9e3b9e0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deformity
+- entry: ಗುಣಾವನತಿ
+  defs:
+  - &id147
+    entry: Degeneration
+    type: Noun
+  id: degenerati_1f13145d40a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Degeneration
+- entry: ಕ್ಷೀಣತೆ
+  defs:
+  - *id147
+  id: degenerati_3ce73c49a175
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Degeneration
+- entry: ಅಂಗಾಂಶ ಕ್ಷೀಣತೆ
+  defs:
+  - *id147
+  id: degenerati_a3aa45147153
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Degeneration
+- entry: ಗುಣಾವನತಿ
+  defs:
+  - &id148
+    entry: Degradation
+    type: Noun
+  id: degradatio_a3017aaf2c4d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Degradation
+- entry: ಪದಾವನತಿ
+  defs:
+  - *id148
+  id: degradatio_0d4e291d5155
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Degradation
+- entry: ತೇವ ತಗ್ಗಿಸುವಿಕೆ
+  defs:
+  - entry: Dehumidification
+    type: Noun
+  id: dehumidifi_7671f9788264
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dehumidification
+- entry: ನಿರ್ಜಲಿಸು
+  defs:
+  - &id149
+    entry: Dehydrate
+    type: Noun
+  id: dehydrate_ad633fe2cb45
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dehydrate
+- entry: ಒಂದು ಪದಾರ್ಥದಲ್ಲಿಯ ಜಲಾಂಶವನ್ನು ಕಳೆ
+  defs:
+  - *id149
+  id: dehydrate_af4f6a3fddc0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dehydrate
+- entry: ನಿರ್ಜಲೀಕರಣ
+  defs:
+  - &id150
+    entry: Dehydration
+    type: Noun
+  id: dehydratio_b61406243b0c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dehydration
+- entry: ನಿರ್ಜಲನ
+  defs:
+  - *id150
+  id: dehydratio_6b0e7ed52ada
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dehydration
+- entry: ವಿಲಂಬಿತ ಅತಿ ಸಂವೇದನ ಪ್ರತಿಕ್ರಿಯೆಗಳು
+  defs:
+  - entry: Delayed hyper sensitivity responses
+    type: Noun
+  id: delayedhyp_c66ce6cc51b1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Delayed hyper sensitivity responses
+- entry: ಹಾನಿಕರ ಪದಾರ್ಥ
+  defs:
+  - entry: Deleterious substance
+    type: Noun
+  id: deleteriou_97b3a923c251
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deleterious substance
+- entry: ಕರಗುವುದು
+  defs:
+  - &id151
+    entry: Deliquescence
+    type: Noun
+  id: deliquesce_4257a65bea65
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deliquescence
+- entry: ಕರಗುವ ಸ್ಥಿತಿ
+  defs:
+  - *id151
+  id: deliquesce_11b255cb3f59
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deliquescence
+- entry: ಕರಗುವ ಗುಣವುಳ್ಳ
+  defs:
+  - entry: Deliquescent
+    type: Noun
+  id: deliquesce_607984b29055
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deliquescent
+- entry: ಶಾಮಕ
+  defs:
+  - &id152
+    entry: Demulcent
+    type: Noun
+  id: demulcent_2d3f279de56e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Demulcent
+- entry: ಶಮನಕಾರಿ ಔಷಧಿ
+  defs:
+  - *id152
+  id: demulcent_6d5de3ab80df
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Demulcent
+- entry: ಗುಣಗೆಡಿಸಿದ
+  defs:
+  - entry: Denatured
+    type: Noun
+  id: denatured_ed9b34e085d6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Denatured
+- entry: ಹಲ್ಲುಜ್ಜುಕ
+  defs:
+  - entry: Dental Abrasive
+    type: Noun
+  id: dentalabra_a2b7628eb7a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dental Abrasive
+- entry: ಹಲ್ಲುಜ್ಜುವಪುಡಿ
+  defs:
+  - &id153
+    entry: Dentifrice
+    type: Noun
+  id: dentifrice_8f1722f23a65
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dentifrice
+- entry: ಪೇಸ್ಟು
+  defs:
+  - *id153
+  id: dentifrice_103d4983f0cf
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dentifrice
+- entry: ದಂತವೈದ್ಯ
+  defs:
+  - entry: Dentist
+    type: Noun
+  id: dentist_5f446b0e9e93
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dentist
+- entry: ವಾಸನೆ ನಿವಾರಕ ವಸ್ತು
+  defs:
+  - entry: De-odourant
+    type: Noun
+  id: deodourant_5fd2bdf36b0e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: De-odourant
+- entry: ಕೇಶನಾಶಕ
+  defs:
+  - entry: Depilatory
+    type: Noun
+  id: depilatory_8473846b0f0c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depilatory
+- entry: ಡಿಪೊ
+  defs:
+  - &id154
+    entry: Depot
+    type: Noun
+  id: depot_d4defdc86b3e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depot
+- entry: ಉಗ್ರಾಣ
+  defs:
+  - *id154
+  id: depot_f787d563e277
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depot
+- entry: ಮಳಿಗೆ
+  defs:
+  - *id154
+  id: depot_8c12cf380fe3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depot
+- entry: ಇಳಿತಾಯ
+  defs:
+  - &id155
+    entry: Depreciation
+    type: Noun
+  id: depreciati_8592b2c65143
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depreciation
+- entry: ಸವಕಳಿ
+  defs:
+  - *id155
+  id: depreciati_6d82c0895309
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depreciation
+- entry: ಮಾಂದ್ಯಕಾರಕ
+  defs:
+  - entry: Depressant
+    type: Noun
+  id: depressant_0f29afd2e52c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depressant
+- entry: ಮಾಂದ್ಯಕಾರಕ ವಸ್ತು ಪರೀಕ್ಷಣ
+  defs:
+  - entry: Depressor substance test
+    type: Noun
+  id: depressors_5e19606d1c4a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Depressor substance test
+- entry: ನಿಷ್ಪನ್ನ
+  defs:
+  - &id156
+    entry: Derivative
+    type: Noun
+  id: derivative_d52190a71e47
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Derivative
+- entry: ಒಂದು ರಾಸಾಯನಿಕ ವಸ್ತುವಿನಿಂದ ಹುಟ್ಟಿದ ಇನ್ನೊಂದು ರಾಸಾಯನಿಕ ವಸ್ತು
+  defs:
+  - *id156
+  id: derivative_be1deb5874f5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Derivative
+- entry: ಚರ್ಮದ ಉರಿಯೂತ
+  defs:
+  - entry: Dermatitis
+    type: Noun
+  id: dermatitis_3fe8d21a70a4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dermatitis
+- entry: ಶುಷ್ಕತಾ ರಕ್ಷಕ
+  defs:
+  - &id157
+    entry: Desiccant
+    type: Noun
+  id: desiccant_8779341196b1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Desiccant
+- entry: ಶುಷ್ಕತೆಯನ್ನು ಕಾಪಾಡುವ ಪದಾರ್ಥ
+  defs:
+  - *id157
+  id: desiccant_8cd0de6cbb9d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Desiccant
+- entry: ತೇವಾಂಶ ನಿವಾರಕ ಉಪಕರಣ
+  defs:
+  - entry: Desiccator
+    type: Noun
+  id: desiccator_b0005169aaab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Desiccator
+- entry: ನಕ್ಷೆ
+  defs:
+  - &id158
+    entry: Design
+    type: Noun
+  id: design_334b8df35ed5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Design
+- entry: ವಿನ್ಯಾಸ
+  defs:
+  - *id158
+  id: design_613ec0417493
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Design
+- entry: ಗಮ್ಯಸ್ಥಾನ
+  defs:
+  - entry: Destination
+    type: Noun
+  id: destinatio_1e35c987e7a6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Destination
+- entry: ಅಳಿವು
+  defs:
+  - &id159
+    entry: Destruction
+    type: Noun
+  id: destructio_ff6b3a88a66e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Destruction
+- entry: ನಾಶ
+  defs:
+  - *id159
+  id: destructio_78e34505cd49
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Destruction
+- entry: ಪತ್ತೆ
+  defs:
+  - entry: Detection
+    type: Noun
+  id: detection_970e751b6f03
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Detection
+- entry: ಸ್ವಚ್ಛಕಾರಕ
+  defs:
+  - entry: Detergent
+    type: Noun
+  id: detergent_3a5f883ead36
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Detergent
+- entry: ಕೆಡುವಿಕೆ
+  defs:
+  - &id160
+    entry: Deterioration
+    type: Noun
+  id: deteriorat_7e537d1bb86a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deterioration
+- entry: ಕ್ಷೀಣತೆ
+  defs:
+  - *id160
+  id: deteriorat_bf0821aa5298
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Deterioration
+- entry: ನಿರ್ಧಾರ
+  defs:
+  - &id161
+    entry: Determination
+    type: Noun
+  id: determinat_6e767fe2eb69
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Determination
+- entry: ನಿಷ್ಕರ್ಷೆ
+  defs:
+  - *id161
+  id: determinat_37ed046fd88b
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Determination
+- entry: ನಂಜು
+  defs:
+  - &id162
+    entry: Detoxication
+    type: Noun
+  id: detoxicati_d1169c067a33
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Detoxication
+- entry: ಕಳೆತ
+  defs:
+  - *id162
+  id: detoxicati_49b655401078
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Detoxication
+- entry: ಸಾಧನ
+  defs:
+  - &id163
+    entry: Device
+    type: Noun
+  id: device_12b187238698
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Device
+- entry: ಉಪಾಯ
+  defs:
+  - *id163
+  id: device_3cad95705c12
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Device
+- entry: ಮಧುಮೇಹ
+  defs:
+  - &id164
+    entry: Diabetes
+    type: Noun
+  id: diabetes_194aece58408
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diabetes
+- entry: ಸಕ್ಕರೆ ಕಾಯಿಲೆ
+  defs:
+  - *id164
+  id: diabetes_369b966965a8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diabetes
+- entry: ರೋಗ ನಿದಾನ
+  defs:
+  - entry: Diognoisis
+    type: Noun
+  id: diognoisis_3e4182458f5a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diognoisis
+- entry: ರೋಗ ನಿದಾನಕ ಸಿದ್ಧತೆಗಳು
+  defs:
+  - entry: Diagnostic Preparations
+    type: Noun
+  id: diagnostic_6bfde4f0f278
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diagnostic Preparations
+- entry: ಅತಿಭೇದಿ
+  defs:
+  - &id165
+    entry: Diarihoea
+    type: Noun
+  id: diarihoea_34f866504d31
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diarihoea
+- entry: ಅತಿಸಾರ
+  defs:
+  - *id165
+  id: diarihoea_ad08f2cb04d8
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diarihoea
+- entry: ಪಥ್ಯ
+  defs:
+  - &id166
+    entry: Diet
+    type: Noun
+  id: diet_9805ada31175
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diet
+- entry: ಗೊತ್ತು ಮಾಡಿದ ಆಹಾರ
+  defs:
+  - *id166
+  id: diet_2c92e20d9d3d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diet
+- entry: ಪಥ್ಯ ವಿಜ್ಞಾನ
+  defs:
+  - entry: Dieteties
+    type: Noun
+  id: dieteties_2c3df6358453
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dieteties
+- entry: ಹರಡುವಿಕೆ
+  defs:
+  - &id167
+    entry: Diffusion
+    type: Noun
+  id: diffusion_41e09b503b46
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diffusion
+- entry: ವ್ಯಾಪನೆ
+  defs:
+  - *id167
+  id: diffusion_a0c8f9af2611
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diffusion
+- entry: ಜೀರ್ಣಶಕ್ತಿ
+  defs:
+  - &id168
+    entry: Digestion
+    type: Noun
+  id: digestion_b6048f357d1c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Digestion
+- entry: ಪಚನ
+  defs:
+  - *id168
+  id: digestion_b5f9078fe955
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Digestion
+- entry: ಜೀರ್ಣಕಾರಿ
+  defs:
+  - entry: Digestive
+    type: Noun
+  id: digestive_f7a5fab15ce9
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Digestive
+- entry: ಕಾರ್ಯತತ್ಪರತೆ
+  defs:
+  - entry: Diligence
+    type: Noun
+  id: diligence_f3d07e2ef500
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diligence
+- entry: ತೆಳುಕಾರಕ
+  defs:
+  - &id169
+    entry: Diluent
+    type: Noun
+  id: diluent_f5834007e472
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diluent
+- entry: ನಿರ್ದಿಷ್ಟ ಪ್ರಮಾಣ ಪೂರಕ ವಸ್ತು
+  defs:
+  - *id169
+  id: diluent_d56f376c6fad
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diluent
+- entry: ತೆಳ್ಳಗೆ ಮಾಡುವುದು
+  defs:
+  - entry: Dilution
+    type: Noun
+  id: dilution_b22190ba6854
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dilution
+- entry: ಡಿಪ್ತೀರಿಯ
+  defs:
+  - &id170
+    entry: Diphtheria
+    type: Noun
+  id: diphtheria_dda29d849d38
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diphtheria
+- entry: ಗಳಗಂಡ
+  defs:
+  - *id170
+  id: diphtheria_2deec39e8179
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diphtheria
+- entry: ಡಿಪ್ಲೋಮ
+  defs:
+  - entry: Diploma
+    type: Noun
+  id: diploma_2882b9165199
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diploma
+- entry: ಅಸಂಗತ ಫಲಿತಾಂಶಗಳು
+  defs:
+  - entry: Discordant results
+    type: Noun
+  id: discordant_a91f2166f466
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Discordant results
+- entry: ರೋಗ
+  defs:
+  - entry: Disease
+    type: Noun
+  id: disease_0cdb0eb438ea
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disease
+- entry: ಸೋಂಕುನಾಶಕ
+  defs:
+  - entry: Disinfectant
+    type: Noun
+  id: disinfecta_68c69f4272b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disinfectant
+- entry: ಛಿದ್ರಕ
+  defs:
+  - &id171
+    entry: Disintegrant
+    type: Noun
+  id: disintegra_794dfd7a9146
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disintegrant
+- entry: ವಿಘಟಕ
+  defs:
+  - *id171
+  id: disintegra_481e64d207ac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disintegrant
+- entry: ವಿಘಟನೆ
+  defs:
+  - &id172
+    entry: Disintegration
+    type: Noun
+  id: disintegra_225e87a73c6f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disintegration
+- entry: ಛಿದ್ರ ಛಿದ್ರವಾಗುವುದು
+  defs:
+  - *id172
+  id: disintegra_3a0affe29619
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disintegration
+- entry: ವಿಘಟನ ಪರೀಕ್ಷಣ
+  defs:
+  - entry: Disintegration test
+    type: Noun
+  id: disintegra_cb71aa1278fb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disintegration test
+- entry: ಔಷಧಾಲಯ
+  defs:
+  - &id173
+    entry: Dispensary
+    type: Noun
+  id: dispensary_2cb3102ffd90
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispensary
+- entry: ದವಾಖಾನೆ
+  defs:
+  - *id173
+  id: dispensary_faa46fb1adf1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispensary
+- entry: ಔಷಧಿ ಕೈಪಿಡಿ
+  defs:
+  - entry: Dispensatory
+    type: Noun
+  id: dispensato_43e95b1b9bc1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispensatory
+- entry: ಔಷಧ ತಯಾರಿಸಿಕೊಡು
+  defs:
+  - entry: Dispense
+    type: Noun
+  id: dispense_5069b350ff98
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispense
+- entry: ಔಷಧ ತಯಾರಿಸಿಕೊಡುವವನು
+  defs:
+  - entry: Dispenser
+    type: Noun
+  id: dispenser_af630e27aef2
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispenser
+- entry: ಔಷಧ ತಯಾರಿಸಿಕೊಡುವುದು
+  defs:
+  - entry: Dispensing
+    type: Noun
+  id: dispensing_6ec921a2cc6e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispensing
+- entry: ಔಷಧ ತಯಾರಿಸಿಕೊಡುವ ರಸಾಯನಜ್ಞ
+  defs:
+  - entry: Dispensing Chemist
+    type: Noun
+  id: dispensing_b049a432602d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispensing Chemist
+- entry: ಸಲಹಾ ಚೀಟಿ ಪ್ರಕಾರ ಔಷಧ ಕೊಡುವುದು
+  defs:
+  - entry: Dispensing Prescription
+    type: Noun
+  id: dispensing_8ce4104d8619
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispensing Prescription
+- entry: ಪ್ರಸರಣ ಶಕ್ತಿಗಳು
+  defs:
+  - entry: Dispersion forces
+    type: Noun
+  id: dispersion_f2d67678dd99
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dispersion forces
+- entry: ಸ್ಥಾನಚ್ಯುತಿ ಮೌಲ್ಯ
+  defs:
+  - entry: Displacement value
+    type: Noun
+  id: displaceme_fefd09f7e0a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Displacement value
+- entry: ವಿಲೇವಾರಿ
+  defs:
+  - entry: Disposal
+    type: Noun
+  id: disposal_416cea17b85d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disposal
+- entry: ಒಲವು
+  defs:
+  - &id174
+    entry: Disposition
+    type: Noun
+  id: dispositio_2a20c717212a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disposition
+- entry: ಪ್ರವೃತ್ತಿ
+  defs:
+  - *id174
+  id: dispositio_53e0a7b9903f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Disposition
+- entry: ವಿಸರ್ಜನೆ
+  defs:
+  - &id175
+    entry: Dissolutions
+    type: Noun
+  id: dissolutio_f8a45cfa5261
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dissolutions
+- entry: ವಿಘಟನೆ
+  defs:
+  - *id175
+  id: dissolutio_c0bf71cde242
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dissolutions
+- entry: ವಿಘಟನ ಪತ್ರ
+  defs:
+  - entry: Dissolution deed
+    type: Noun
+  id: dissolutio_f1023a11f12c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dissolution deed
+- entry: ಬಟ್ಟಿ ಇಳಿಸು
+  defs:
+  - entry: Distil
+    type: Noun
+  id: distil_e97993811ff7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distil
+- entry: ಬಟ್ಟಿ ಇಳಿಸಿದ್ದು
+  defs:
+  - &id176
+    entry: Distillate
+    type: Noun
+  id: distillate_bf2ebfff6af0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distillate
+- entry: ಬಟ್ಟಿ
+  defs:
+  - *id176
+  id: distillate_65db489e3af0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distillate
+- entry: ಬಟ್ಟಿಯಿಳಿಸುವಿಕೆ
+  defs:
+  - entry: Distillation
+    type: Noun
+  id: distillati_7cb9aa2e458e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distillation
+- entry: ಬಟ್ಟಿಯಿಳಿಕೆ ಅಂತರ
+  defs:
+  - entry: Distillation range
+    type: Noun
+  id: distillati_f7f210062605
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distillation range
+- entry: ವಿತರಣೆ
+  defs:
+  - entry: Distribution
+    type: Noun
+  id: distributi_0a4e26354dac
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distribution
+- entry: ವಿತರಕ
+  defs:
+  - entry: Distributor
+    type: Noun
+  id: distributo_402c19dfb240
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Distributor
+- entry: ಮೂತ್ರವರ್ಧಕದ
+  defs:
+  - entry: Diuretic
+    type: Noun
+  id: diuretic_0e9d24a1aaf3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Diuretic
+- entry: ಡಾಕ್ಟರು
+  defs:
+  - &id177
+    entry: Doctor
+    type: Noun
+  id: doctor_57bc56a7e1a0
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Doctor
+- entry: ವೈದ್ಯ
+  defs:
+  - *id177
+  id: doctor_9414381e19c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Doctor
+- entry: ಒಂದು ಸಲದ ಔಷಧ ಪ್ರಮಾಣ
+  defs:
+  - entry: Dosage
+    type: Noun
+  id: dosage_9b9e4e7eee6a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dosage
+- entry: ಡೋಸು
+  defs:
+  - &id178
+    entry: Dose
+    type: Noun
+  id: dose_d22b29458775
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dose
+- entry: ಒಂದು ಔಷಧ ಪ್ರಮಾಣ
+  defs:
+  - *id178
+  id: dose_b05782f9272e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dose
+- entry: ಡೋಸು ಪ್ರಮಾಣ
+  defs:
+  - entry: Dose ratio
+    type: Noun
+  id: doseratio_14c1d1fdeb21
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dose ratio
+- entry: ಡೋಸ್ ಪ್ರತಿಕ್ರಿಯಾ ಪರಿಣಾಮ ರೇಖೆ
+  defs:
+  - entry: Dose response curves
+    type: Noun
+  id: doserespon_d8103b2b0e19
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Dose response curves
+- entry: ಉಭಯಾಂಧ ಪರೀಕ್ಷಣಗಳು
+  defs:
+  - entry: Double Blind Trials
+    type: Noun
+  id: doubleblin_f0b3d1e19447
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Double Blind Trials
+- entry: ಗುಟುಕು
+  defs:
+  - entry: Draught
+    type: Noun
+  id: draught_f9cce9c50628
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಔಷಧ_ನಿಯಂತ್ರಣ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Draught

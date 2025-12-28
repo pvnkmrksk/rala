@@ -1,0 +1,1632 @@
+- entry: ಎ.ಬಿ.ಸಿ. ವರ್ಗೀಕರಣ
+  defs:
+  - entry: ABC Classification
+    type: Noun
+  id: abcclassif_2ca6f8dca6ae
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: ABC Classification
+- entry: ಅಂಗೀಕೃತ ಪ್ರಮಾಣ
+  defs:
+  - entry: Accepted Quantity
+    type: Noun
+  id: acceptedqu_d6ee09c9f8a3
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Accepted Quantity
+- entry: ಲೆಕ್ಕದ ಘಟಕ
+  defs:
+  - entry: Accounting Unit
+    type: Noun
+  id: accounting_f446e3ed273c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Accounting Unit
+- entry: ಮುಂಗಡ ಕೋರಿಕೆ
+  defs:
+  - entry: Advance Requisition
+    type: Noun
+  id: advancereq_b7955e95ff61
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Advance Requisition
+- entry: ಸಹಾಯಕ ಘಟಕಗಳು
+  defs:
+  - entry: Ancillary Units
+    type: Noun
+  id: ancillaryu_442469da8976
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ancillary Units
+- entry: ವಾರ್ಷಿಕ ಸರಾಸರಿ ವಹಿವಾಟು
+  defs:
+  - entry: Annual Average Turnover
+    type: Noun
+  id: annualaver_fe2f3903f3e6
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Annual Average Turnover
+- entry: ಅರ್ಜಿ ನಮೂನೆ
+  defs:
+  - entry: Application form
+    type: Noun
+  id: applicatio_4f984f8c3ac4
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Application form
+- entry: ಅಸಂಬ್ಲಿ ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Assembly Cards
+    type: Noun
+  id: assemblyca_5b3ca024289a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Assembly Cards
+- entry: ಸಹಾಯಕ ಉಗ್ರಾಣ ಪಾಲಕ
+  defs:
+  - entry: Assistant Stores Keeper
+    type: Noun
+  id: assistants_77b9a5e40e2e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Assistant Stores Keeper
+- entry: ಸಹಾಯಕ ಉಗ್ರಾಣ ಅಧಿಕಾರಿ
+  defs:
+  - entry: Assistant Stores Officer
+    type: Noun
+  id: assistants_a31552cfa1bb
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Assistant Stores Officer
+- entry: ಹರಾಜು
+  defs:
+  - entry: Auction
+    type: Noun
+  id: auction_afa1b2b9fa35
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Auction
+- entry: ಮೋಟಾರು ವಾಹನ
+  defs:
+  - entry: Automobile
+    type: Noun
+  id: automobile_b63fe0b041aa
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Automobile
+- entry: ಜಮಾ ಖರ್ಚುಪಟ್ಟಿ
+  defs:
+  - &id001
+    entry: Balance sheet
+    type: Noun
+  id: balanceshe_89ff9db234c1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Balance sheet
+- entry: ಆಯವ್ಯಯ ಪಟ್ಟಿ
+  defs:
+  - *id001
+  id: balanceshe_9b990ff4cc5b
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Balance sheet
+- entry: ಬ್ಯಾಂಕಿನ ಕಮಿಷನ್
+  defs:
+  - entry: Bank Commission
+    type: Noun
+  id: bankcommis_87381fe4bf77
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bank Commission
+- entry: ಬ್ಯಾಂಕ್‌ ತಿಳಿವಳಿಕೆ
+  defs:
+  - entry: Bank Intimation
+    type: Noun
+  id: bankintima_5abc59eb7c0c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bank Intimation
+- entry: ಬ್ಯಾಟರಿ ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Battery Cards
+    type: Noun
+  id: batterycar_b816e868eaab
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Battery Cards
+- entry: ಹರಾಜು
+  defs:
+  - entry: Bid
+    type: Noun
+  id: bid_a5e1bdbfa474
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bid
+- entry: ತೊಟ್ಟಿ
+  defs:
+  - &id002
+    entry: Bin
+    type: Noun
+  id: bin_61026f44a7bd
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bin
+- entry: ಪಾತ್ರೆ
+  defs:
+  - *id002
+  id: bin_cf9e6203d878
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bin
+- entry: ಬಿನ್‌ ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Bin Cards
+    type: Noun
+  id: bincards_19c64a088528
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bin Cards
+- entry: ಒಡೆದ
+  defs:
+  - entry: Broken
+    type: Noun
+  id: broken_dab4d6e6f91e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Broken
+- entry: ಆಯವ್ಯಯ
+  defs:
+  - &id003
+    entry: Budget
+    type: Noun
+  id: budget_91e08fef1e66
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Budget
+- entry: ಬಜೆಟ್
+  defs:
+  - *id003
+  id: budget_5b62e636553b
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Budget
+- entry: ಆಯವ್ಯಯ ನಿಯಂತ್ರಣ ಪುಸ್ತಕ
+  defs:
+  - entry: Budget Control Register
+    type: Noun
+  id: budgetcont_1627e3d89b86
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Budget Control Register
+- entry: ಸಗಟು ಆದೇಶ
+  defs:
+  - &id004
+    entry: Bulk Order
+    type: Noun
+  id: bulkorder_ac8215fc3720
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bulk Order
+- entry: ಸಗಟು ಕೋರಿಕೆ
+  defs:
+  - *id004
+  id: bulkorder_6288a29f843f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bulk Order
+- entry: ಸಗಟು ಸರಬರಾಜು ಕೋರಿಕೆ ಪತ್ರ
+  defs:
+  - entry: Bulk Provisioning Indent
+    type: Noun
+  id: bulkprovis_f84d32e29636
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Bulk Provisioning Indent
+- entry: ಕೋರಿಕೆ ವಿವರಪಟ್ಟಿ
+  defs:
+  - entry: Calendar of Indent
+    type: Noun
+  id: calendarof_19a2ae83a6f3
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Calendar of Indent
+- entry: ಅಂಕಶೋಧನಾ ಚಾರ್ಟ್
+  defs:
+  - &id005
+    entry: Calibration Chart
+    type: Noun
+  id: calibratio_e87c48b4aef7
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Calibration Chart
+- entry: ಕ್ಯಾಲಿಬ್ರೇಷನ್‌ ಚಾರ್ಟ್
+  defs:
+  - *id005
+  id: calibratio_bb38ebb648ad
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Calibration Chart
+- entry: ಮೂಲ ಸರಕು
+  defs:
+  - entry: Capital Goods
+    type: Noun
+  id: capitalgoo_226049436647
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Capital Goods
+- entry: ಗಾಡಿ ಏಜೆಂಟ್
+  defs:
+  - entry: Carting Agent
+    type: Noun
+  id: cartingage_7587f5328153
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Carting Agent
+- entry: ನಗದು ಸೋಡಿ
+  defs:
+  - entry: Cash Discount
+    type: Noun
+  id: cashdiscou_cbcff847af8d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cash Discount
+- entry: ಕೇಂದ್ರ ಖರೀದಿ ಸಮಿತಿ
+  defs:
+  - entry: Central Purchase Committee
+    type: Noun
+  id: centralpur_4e7ecf3679b8
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Central Purchase Committee
+- entry: ಕೇಂದ್ರ ಖರೀದಿ ಉಪಸಮಿತಿ
+  defs:
+  - entry: Central Purchase Sub Committee
+    type: Noun
+  id: centralpur_2c061a638601
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Central Purchase Sub Committee
+- entry: ಕೇಂದ್ರ ಮಾರಾಟ ತೆರಿಗೆ
+  defs:
+  - entry: Central Sales Tax
+    type: Noun
+  id: centralsal_d8596ee86993
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Central Sales Tax
+- entry: ಪ್ರಮಾಣ ಪತ್ರ
+  defs:
+  - entry: Certificate
+    type: Noun
+  id: certificat_8ab1f712a559
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Certificate
+- entry: ಸನ್ನದು ಲೆಕ್ಕಿಗ
+  defs:
+  - &id006
+    entry: Charted Accountant
+    type: Noun
+  id: chartedacc_68c53ed8a4f4
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Charted Accountant
+- entry: ಚಾರ್ಟರ್ಡ್‌ ಅಕೌಂಟೆಂಟ್
+  defs:
+  - *id006
+  id: chartedacc_8ff443fcdb7a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Charted Accountant
+- entry: ದರ ಪ್ರಸ್ತಾವನೆ
+  defs:
+  - entry: Commercial Offer
+    type: Noun
+  id: commercial_0417e1ce187a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Commercial Offer
+- entry: ತುಲನಾತ್ಮಕ ಚಾರ್ಟ್
+  defs:
+  - entry: Comparative Chart
+    type: Noun
+  id: comparativ_7a6c5c2cd309
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Comparative Chart
+- entry: ಸ್ಪರ್ಧಾತ್ಮಕ ದರಗಳು
+  defs:
+  - entry: Competitive rates
+    type: Noun
+  id: competitiv_ee64f4e7ad17
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Competitive rates
+- entry: ಸ್ಥಿರೀಕರಣದ ಆದೇಶ
+  defs:
+  - entry: Confirmed Order
+    type: Noun
+  id: confirmedo_5de902080c52
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Confirmed Order
+- entry: ಸರಕು ಪಡೆಯುವವ
+  defs:
+  - entry: Consignee
+    type: Noun
+  id: consignee_5b1659152ff9
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Consignee
+- entry: ರವಾನೆ
+  defs:
+  - &id007
+    entry: Consignment
+    type: Noun
+  id: consignmen_a8633170f479
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Consignment
+- entry: ರವಾನಿಸಿದ ಸರಕು
+  defs:
+  - *id007
+  id: consignmen_d28e712725ed
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Consignment
+- entry: ಸರಕು ರವಾನೆಗಾರ
+  defs:
+  - entry: Consignor
+    type: Noun
+  id: consignor_853f37b7a448
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Consignor
+- entry: ಬಳಕೆ ಅವಧಿ
+  defs:
+  - entry: Consumption period
+    type: Noun
+  id: consumptio_c668bce9922a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Consumption period
+- entry: ಸರಕು ಮತ್ತು ಖರೀದಿ ನಿಯಂತ್ರಕ
+  defs:
+  - entry: Controller of Stores and Purchases
+    type: Noun
+  id: controller_3d2b8522927d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Controller of Stores and Purchases
+- entry: ಸಾಗಣೆ ಬಾಡಿಗೆ ಆಧಾರದ ಮೇಲೆ ವಿಮಾ ವೆಚ್ಚ
+  defs:
+  - entry: Cost Insurance Freight basis
+    type: Noun
+  id: costinsura_0513e4296ca4
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cost Insurance Freight basis
+- entry: ಕೊರಿಯರ್
+  defs:
+  - entry: Courier
+    type: Noun
+  id: courier_28e066819159
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Courier
+- entry: ಸಾಲ
+  defs:
+  - &id008
+    entry: Credit
+    type: Noun
+  id: credit_99ebdf99e1ae
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Credit
+- entry: ಜಮೆ
+  defs:
+  - *id008
+  id: credit_898d4daf3b61
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Credit
+- entry: ವಿಶ್ವಾಸಾರ್ಹತೆ
+  defs:
+  - *id008
+  id: credit_0049badda1e5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Credit
+- entry: ಸ್ಥಳ ನಿಯುಕ್ತಿ ದಿನಾಂಕ
+  defs:
+  - entry: Date of posting
+    type: Noun
+  id: dateofpost_b96096f76c22
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Date of posting
+- entry: ಸುರಿ
+  defs:
+  - &id009
+    entry: Decanting
+    type: Noun
+  id: decanting_0dc1ec78da52
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Decanting
+- entry: ಬಗ್ಗಿಸು
+  defs:
+  - *id009
+  id: decanting_21316ad7f4b3
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Decanting
+- entry: ದ್ರವಬಸಿ
+  defs:
+  - *id009
+  id: decanting_f49a6fcdcaad
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Decanting
+- entry: ತಿಳಿಬಗ್ಗಿಸು
+  defs:
+  - *id009
+  id: decanting_76fa392ded53
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Decanting
+- entry: ಬಟವಾಡೆ
+  defs:
+  - &id010
+    entry: Delivery
+    type: Noun
+  id: delivery_a3582377cdd5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Delivery
+- entry: ಒಪ್ಪಿಸುವುದು
+  defs:
+  - *id010
+  id: delivery_9fc2affd7480
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Delivery
+- entry: ಸಾಂದ್ರತೆ
+  defs:
+  - entry: Density
+    type: Noun
+  id: density_34949237cb59
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Density
+- entry: ಘಟಕ ಉಗ್ರಾಣ
+  defs:
+  - entry: Depot Stores
+    type: Noun
+  id: depotstore_f310272c7983
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Depot Stores
+- entry: ಸರಕು ಮತ್ತು ಖರೀದಿ ಉಪ ನಿಯಂತ್ರಕರು
+  defs:
+  - entry: Deputy Controller of Stores and Purchases
+    type: Noun
+  id: deputycont_a6baa4f94c72
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Deputy Controller of Stores and Purchases
+- entry: ತಲುಪಬೇಕಾದ ಸ್ಥಳ
+  defs:
+  - &id011
+    entry: Destination
+    type: Noun
+  id: destinatio_ad555d620325
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Destination
+- entry: ಗಮ್ಯ ಸ್ಥಾನ
+  defs:
+  - *id011
+  id: destinatio_6f912985220d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Destination
+- entry: ರವಾನಿಸು
+  defs:
+  - &id012
+    entry: Dispatch
+    type: Noun
+  id: dispatch_189d21530bb4
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Dispatch
+- entry: ರವಾನೆ
+  defs:
+  - *id012
+  id: dispatch_05f660325510
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Dispatch
+- entry: ಅದ್ದುವ ಸಲಾಕೆ
+  defs:
+  - &id013
+    entry: Dip Rod
+    type: Noun
+  id: diprod_184eff2b53b5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Dip Rod
+- entry: ಡಿಪ್‌ರಾಡ್
+  defs:
+  - *id013
+  id: diprod_c4a3f6e9482f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Dip Rod
+- entry: ಬಟವಾಡೆ
+  defs:
+  - entry: Disbursement
+    type: Noun
+  id: disburseme_17152ee887ef
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Disbursement
+- entry: ವ್ಯತ್ಯಾಸ ವರದಿ
+  defs:
+  - &id014
+    entry: Discrepancy Report
+    type: Noun
+  id: discrepanc_a76068259cfe
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Discrepancy Report
+- entry: ಅಸಂಬದ್ಧ ವರದಿ
+  defs:
+  - *id014
+  id: discrepanc_e572f18424e2
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Discrepancy Report
+- entry: ಭಿನ್ನ ವರದಿ
+  defs:
+  - *id014
+  id: discrepanc_d51a2cad1b7b
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Discrepancy Report
+- entry: ವಿಲೆ
+  defs:
+  - &id015
+    entry: Disposal
+    type: Noun
+  id: disposal_c613b40995c1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Disposal
+- entry: ಹಸ್ತಾಂತರ
+  defs:
+  - *id015
+  id: disposal_2231021bb424
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Disposal
+- entry: ಅನರ್ಹಗೊಳಿಸು
+  defs:
+  - entry: Disqualify
+    type: Noun
+  id: disqualify_c4a6a6843db0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Disqualify
+- entry: ವಿತರಣಾ ಪಟ್ಟಿ
+  defs:
+  - entry: Distribution Chart
+    type: Noun
+  id: distributi_dbf7f3241d3f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Distribution Chart
+- entry: ಜಿಲ್ಲಾಟೆಂಡರ್‌ ಪ್ರಕಟಣೆ
+  defs:
+  - entry: District Tender Bulletin
+    type: Noun
+  id: districtte_ae6301081899
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: District Tender Bulletin
+- entry: ವಿಭಾಗಿಯ ದಾಸ್ತಾನು ಮಳೆಗೆ
+  defs:
+  - entry: Divisional Stores
+    type: Noun
+  id: divisional_5dfa8e1b06e6
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Divisional Stores
+- entry: ಮುಂಗಡ ಠೇವಣಿ ಮೊತ್ತ
+  defs:
+  - entry: Earnest Money Deposit
+    type: Noun
+  id: earnestmon_85d4fa57ab91
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Earnest Money Deposit
+- entry: ಅರ್ಹ
+  defs:
+  - &id016
+    entry: Eligible/ eligibility
+    type: Noun
+  id: eligibleel_a6ac7b473774
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Eligible/ eligibility
+- entry: ಅರ್ಹತೆ
+  defs:
+  - *id016
+  id: eligibleel_a65f38f63d5c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Eligible/ eligibility
+- entry: ಅಂತಿಮ ದರ
+  defs:
+  - &id017
+    entry: End rate
+    type: Noun
+  id: endrate_338e4b6decc1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: End rate
+- entry: ಕೊನೆ ದರ
+  defs:
+  - *id017
+  id: endrate_0b50425ae12d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: End rate
+- entry: ಮೌಲ್ಯ ಮಾಪನ ಮಾನದಂಡ
+  defs:
+  - entry: Evaluation criteria
+    type: Noun
+  id: evaluation_abff56b321b0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Evaluation criteria
+- entry: ಅಬಕಾರಿ ಸುಂಕ
+  defs:
+  - entry: Excise Duty
+    type: Noun
+  id: exciseduty_06a51891f696
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Excise Duty
+- entry: ಮಳಿಗೆ
+  defs:
+  - entry: Ex-godown
+    type: Noun
+  id: exgodown_39e44ba8f24d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ex-godown
+- entry: ಫ್ಯಾಕ್ಸ್
+  defs:
+  - entry: Fax
+    type: Noun
+  id: fax_7be5d143d627
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fax
+- entry: ಫರ್ಮುಗಳು
+  defs:
+  - entry: Firms
+    type: Noun
+  id: firms_d4c86d0dd44e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Firms
+- entry: ನಿಗದಿತ ಆಸ್ತಿಗಳು
+  defs:
+  - &id018
+    entry: Fixed Assets
+    type: Noun
+  id: fixedasset_1013e4f91d37
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixed Assets
+- entry: ಸ್ವತ್ತುಗಳು
+  defs:
+  - *id018
+  id: fixedasset_e5297cc0cd1f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixed Assets
+- entry: ಸ್ಥಿರಾಸ್ತಿಗಳು
+  defs:
+  - *id018
+  id: fixedasset_204c6038aef0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fixed Assets
+- entry: ಹಡಗಿನಲ್ಲಿ ವೆಚ್ಚವಿಲ್ಲದೆ ಸಾಗುವ
+  defs:
+  - entry: Free on Board
+    type: Noun
+  id: freeonboar_9e63bdb47c3e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Free on Board
+- entry: ರಸ್ತೆಯಲ್ಲಿ ವೆಚ್ಚವಿಲ್ಲದೆ ಸಾಗುವ
+  defs:
+  - entry: Free on road
+    type: Noun
+  id: freeonroad_91c8cf9d858e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Free on road
+- entry: ವೆಚ್ಚವಿಲ್ಲದ ಬದಲಾವಣೆ
+  defs:
+  - entry: Free replacement
+    type: Noun
+  id: freereplac_e6ef68ac3ffd
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Free replacement
+- entry: ಸಾಗಣೆ ಬಾಡಿಗೆ
+  defs:
+  - entry: Freight
+    type: Noun
+  id: freight_88a2712910e4
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Freight
+- entry: ನೆಲ ಬಾಡಿಗೆ
+  defs:
+  - entry: Ground rent
+    type: Noun
+  id: groundrent_163975594094
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ground rent
+- entry: ಗ್ಯಾರಂಟಿ
+  defs:
+  - &id019
+    entry: Guarantee
+    type: Noun
+  id: guarantee_3ad2352e9df0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Guarantee
+- entry: ಖಾತರಿ
+  defs:
+  - *id019
+  id: guarantee_b0cb1ea74823
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Guarantee
+- entry: ಅರ್ಧ ವರ್ಷ
+  defs:
+  - entry: Half year
+    type: Noun
+  id: halfyear_5938063b7b94
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Half year
+- entry: ನಿರ್ವಹಣಾ ಶುಲ್ಕಗಳು
+  defs:
+  - entry: Handling Charges
+    type: Noun
+  id: handlingch_b06498347328
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Handling Charges
+- entry: ಕೋರಿಕೆ ಸಲ್ಲಿಸುವುದು
+  defs:
+  - &id020
+    entry: Indenting
+    type: Noun
+  id: indenting_db1c87a9bb17
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Indenting
+- entry: ಬೇಡಿಕೆ ಸಲ್ಲಿಸುವುದು
+  defs:
+  - *id020
+  id: indenting_1d3f8dbfa2e1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Indenting
+- entry: ತಪಾಸಣಾ ವರದಿ
+  defs:
+  - entry: Inspection report
+    type: Noun
+  id: inspection_30e9f298c95c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Inspection report
+- entry: ವಿಮೆ
+  defs:
+  - entry: Insurance
+    type: Noun
+  id: insurance_169628b99469
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Insurance
+- entry: ವಿವರಣಾ ಪಟ್ಟಿ
+  defs:
+  - entry: Inventory
+    type: Noun
+  id: inventory_517d26a96ebd
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Inventory
+- entry: ಖರೀದಿ ಪಟ್ಟಿ
+  defs:
+  - entry: Invoice
+    type: Noun
+  id: invoice_d7eca52b0eac
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Invoice
+- entry: ಆಹ್ವಾನಿಸು
+  defs:
+  - &id021
+    entry: Invoke
+    type: Noun
+  id: invoke_a6178976c357
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Invoke
+- entry: ಅನ್ವಯಿಸು
+  defs:
+  - *id021
+  id: invoke_983b46c7be9b
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Invoke
+- entry: ನೀಡಿಕೆ ವೋಚರ್
+  defs:
+  - entry: Issue Voucher
+    type: Noun
+  id: issuevouch_5f37bd417250
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Issue Voucher
+- entry: ಬಾಬ್ತಿನ ಗೌಪ್ಯ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Item Code Number
+    type: Noun
+  id: itemcodenu_159d4c8bdcdc
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Item Code Number
+- entry: ಕಿರಿಯ ಸಹಾಯಕ
+  defs:
+  - entry: Junior Assistant
+    type: Noun
+  id: juniorassi_46c42a88c22c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Junior Assistant
+- entry: ಕರ್ನಾಟಕ ಸಾರ್ವಜನಿಕ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಪಾರದರ್ಶಕತೆ ಅಧಿನಿಯಮ
+  defs:
+  - entry: Karnataka Transparency in Public Procurement Act
+    type: Noun
+  id: karnatakat_fa7cd7660705
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Karnataka Transparency in Public Procurement Act
+- entry: ಬೃಹತ್ ಪ್ರಮಾಣದ ಕೈಗಾರಿಕೆಗಳು
+  defs:
+  - entry: Large Scale Industries
+    type: Noun
+  id: largescale_af0a48b44815
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Large Scale Industries
+- entry: ಉದ್ದೇಶಪತ್ರ
+  defs:
+  - entry: Letter of Intent
+    type: Noun
+  id: letterofin_36c2fa6e783a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Letter of Intent
+- entry: ಸ್ಥಳೀಯ ಖರೀದಿ
+  defs:
+  - entry: Local Purchase
+    type: Noun
+  id: localpurch_d2a68bfaa051
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Local Purchase
+- entry: ಸ್ಥಳೀಯ ಖರೀದಿ ಸಮಿತಿ
+  defs:
+  - entry: Local purchase Committee
+    type: Noun
+  id: localpurch_c45042d0f11d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Local purchase Committee
+- entry: ದೊಡ್ಡ ಜೋಡಣೆಗಳು
+  defs:
+  - entry: Major Assemblies
+    type: Noun
+  id: majorassem_248dce409067
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Major Assemblies
+- entry: ತಯಾರಿಕೆ
+  defs:
+  - &id022
+    entry: Make/ Brand
+    type: Noun
+  id: makebrand_06dc32fbde75
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Make/ Brand
+- entry: ಬ್ರಾಂಡ್
+  defs:
+  - *id022
+  id: makebrand_95f47268db82
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Make/ Brand
+- entry: ತಯಾರಿಕರ ಭಾಗ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Manufacturers Part Number
+    type: Noun
+  id: manufactur_cfcdcf90227c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Manufacturers Part Number
+- entry: ಮುಖ್ಯ ನಿಯಂತ್ರಣ ರಿಜಿಸ್ಟರು
+  defs:
+  - entry: Master Control Register
+    type: Noun
+  id: mastercont_a1533646d6f9
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Master Control Register
+- entry: ಮಧ್ಯಮ ಪ್ರಮಾಣದ ಕೈಗಾರಿಕೆಗಳು.
+  defs:
+  - entry: Medium scale Industries
+    type: Noun
+  id: mediumscal_d3142587d5f2
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Medium scale Industries
+- entry: ಸಣ್ಣ ಜೋಡಣೆಗಳು
+  defs:
+  - entry: Minor Assemblies
+    type: Noun
+  id: minorassem_1885bf0c9cf3
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Minor Assemblies
+- entry: ಮಾತುಕತೆ
+  defs:
+  - &id023
+    entry: Negotiations
+    type: Noun
+  id: negotiatio_ee8547beead5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Negotiations
+- entry: ಸಂಧಾನಗಳು
+  defs:
+  - *id023
+  id: negotiatio_c9b7ede355c0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Negotiations
+- entry: ನಾಮಾವಳಿ
+  defs:
+  - entry: Nomenclature
+    type: Noun
+  id: nomenclatu_6526efcb098e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Nomenclature
+- entry: ಕಾರ್ಯಾಚರಣೆ ಗುರಿ
+  defs:
+  - entry: Operational target
+    type: Noun
+  id: operationa_b6060bb69900
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Operational target
+- entry: ಆದೇಶದ ಹಂತ
+  defs:
+  - &id024
+    entry: Order level
+    type: Noun
+  id: orderlevel_1d5258c76084
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Order level
+- entry: ಕೋರಿಕೆಯ ಹಂತ
+  defs:
+  - *id024
+  id: orderlevel_c62594aa5aca
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Order level
+- entry: ಮೂಲ ಉಪಕರಣ ತಯಾರಕರು
+  defs:
+  - entry: Original Equipment Manufacturers
+    type: Noun
+  id: originaleq_f8fa0ec95ca1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Original Equipment Manufacturers
+- entry: ಪ್ಯಾಕಿಂಗ್‌ ಮತ್ತು ರವಾನೆ
+  defs:
+  - entry: Packing and Forwarding
+    type: Noun
+  id: packingand_dba6201ef83d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Packing and Forwarding
+- entry: ಶುಲ್ಕಗಳು
+  defs:
+  - entry: Charges
+    type: Noun
+  id: charges_d8d0ae722e5e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Charges
+- entry: ಸಂದಾಯ
+  defs:
+  - entry: Payment
+    type: Noun
+  id: payment_aaebdbd31937
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Payment
+- entry: ಯೋಜನೆ
+  defs:
+  - entry: Planning
+    type: Noun
+  id: planning_4391b1bd0e52
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Planning
+- entry: ಕಳಪೆ ಗುಣಮಟ್ಟ
+  defs:
+  - entry: Poor Quality
+    type: Noun
+  id: poorqualit_2bc7f3346303
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Poor Quality
+- entry: ಅಕಾಲಿಕ ವಿಫಲತೆಗಳು
+  defs:
+  - entry: Premature failures
+    type: Noun
+  id: prematuref_98918aee4d46
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Premature failures
+- entry: ಪೂರ್ವಾರ್ಹತೆ ಆಹ್ವಾನ
+  defs:
+  - &id025
+    entry: Prequalification Offer
+    type: Noun
+  id: prequalifi_5043e5a59179
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prequalification Offer
+- entry: ಕೋರಿಕೆ
+  defs:
+  - *id025
+  id: prequalifi_e57be8e02a03
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prequalification Offer
+- entry: ಬೆಲೆ ವ್ಯತ್ಯಾಸ ಖಂಡ
+  defs:
+  - entry: Price variation clause
+    type: Noun
+  id: pricevaria_ee17e6b18aaf
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Price variation clause
+- entry: ಬೆಲೆಗಳು
+  defs:
+  - entry: Prices
+    type: Noun
+  id: prices_96fffb3072f3
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prices
+- entry: ಸಂಗ್ರಹಣೆ
+  defs:
+  - &id026
+    entry: Procurement
+    type: Noun
+  id: procuremen_396dc741982f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Procurement
+- entry: ಪಡೆಯುವುದು
+  defs:
+  - *id026
+  id: procuremen_3b7eb9a8c1ae
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Procurement
+- entry: ದೊರಕಿಸುವುದು
+  defs:
+  - *id026
+  id: procuremen_27367a49728d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Procurement
+- entry: ದಾಮಾಷಾ ವಸೂಲಾತಿ
+  defs:
+  - entry: Prorata recovery
+    type: Noun
+  id: proratarec_793d98987207
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Prorata recovery
+- entry: ಖರೀದಿ ಆದೇಶ
+  defs:
+  - &id027
+    entry: Purchase Order
+    type: Noun
+  id: purchaseor_a9b1d7cb0f3f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Purchase Order
+- entry: ಕೋರಿಕೆ
+  defs:
+  - *id027
+  id: purchaseor_2b02d5bec701
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Purchase Order
+- entry: ಖರೀದಿ ನೀತಿ
+  defs:
+  - entry: Purchase Policy
+    type: Noun
+  id: purchasepo_1a40e4fff76d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Purchase Policy
+- entry: ಅರ್ಹವಾಗು
+  defs:
+  - entry: Qualify
+    type: Noun
+  id: qualify_3203d00edf4b
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Qualify
+- entry: ಗುಣ ಮಟ್ಟ
+  defs:
+  - entry: Quality
+    type: Noun
+  id: quality_bcb03c0c73e6
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quality
+- entry: ಪ್ರಮಾಣ
+  defs:
+  - entry: Quantity
+    type: Noun
+  id: quantity_1e1dab93ceca
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quantity
+- entry: ತ್ರೈಮಾಸಿಕ
+  defs:
+  - entry: Quarter
+    type: Noun
+  id: quarter_4ea6fcc7d0b8
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quarter
+- entry: ಉದ್ದರಣೆ
+  defs:
+  - &id028
+    entry: Quotation
+    type: Noun
+  id: quotation_9f0526cf69e4
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quotation
+- entry: ಕೊಟೇಶನ್
+  defs:
+  - *id028
+  id: quotation_b52a7179951a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quotation
+- entry: ಉದ್ಧರಿತ ದರಗಳು
+  defs:
+  - entry: Quoted rates
+    type: Noun
+  id: quotedrate_b4b15bff2ca0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Quoted rates
+- entry: ರ‍್ಯಾಕ್
+  defs:
+  - entry: Rack
+    type: Noun
+  id: rack_53aab70c0d01
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rack
+- entry: ರೈಲ್ವೆ ರಸೀತಿ
+  defs:
+  - &id029
+    entry: Railway receipt
+    type: Noun
+  id: railwayrec_8dd2afb207a8
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Railway receipt
+- entry: ರೈಲ್ವೆ ಸ್ವೀಕೃತಿ
+  defs:
+  - *id029
+  id: railwayrec_f705f77a1cdc
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Railway receipt
+- entry: ದರ ಕರಾರು
+  defs:
+  - &id030
+    entry: Rate Contract
+    type: Noun
+  id: ratecontra_dd2dda551a91
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rate Contract
+- entry: ದರ ಒಪ್ಪಂದ
+  defs:
+  - *id030
+  id: ratecontra_34b35b4b0957
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rate Contract
+- entry: ದರಗಳು
+  defs:
+  - entry: Rates
+    type: Noun
+  id: rates_7b765557e994
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rates
+- entry: ಸ್ವೀಕೃತಿ ನಿಯಂತ್ರಣ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Receipt Control number
+    type: Noun
+  id: receiptcon_ca982a7016be
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Receipt Control number
+- entry: ಸ್ವೀಕೃತಿ ವೋಚರ್
+  defs:
+  - entry: Receipt Voucher
+    type: Noun
+  id: receiptvou_bc339470bdb8
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Receipt Voucher
+- entry: ಕೋರಿಕೆ ಪತ್ರಗಳ ದಾಖಲೆಗಳು
+  defs:
+  - entry: Record of indents
+    type: Noun
+  id: recordofin_57e8fc50ccd1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Record of indents
+- entry: ನಿರ್ಣಯ
+  defs:
+  - &id031
+    entry: Resolution
+    type: Noun
+  id: resolution_580373d3a7a9
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Resolution
+- entry: ಠರಾವು
+  defs:
+  - *id031
+  id: resolution_f05000487ebf
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Resolution
+- entry: ದಾಖಲೆಗಳ ವಿಮುಕ್ತಿ
+  defs:
+  - &id032
+    entry: Retirement of documents
+    type: Noun
+  id: retirement_4b16564bdfec
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Retirement of documents
+- entry: ದಸ್ತಾವೇಜುಗಳನ್ನು ಚಲಾವಣೆಯಿಂದ ಹಿಂತೆಗೆದುಕೊಳ್ಳುವುದು
+  defs:
+  - *id032
+  id: retirement_cde1aa91da94
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Retirement of documents
+- entry: ಹೊಣೆ ಖರೀದಿ ಖಂಡ
+  defs:
+  - entry: Risk purchase clause
+    type: Noun
+  id: riskpurcha_be902024ae5f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Risk purchase clause
+- entry: ಮಾರಾಟಗಳು
+  defs:
+  - entry: Sales
+    type: Noun
+  id: sales_a7918017f91c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sales
+- entry: ಮಾರಾಟ ತೆರಿಗೆ
+  defs:
+  - entry: Sales Tax
+    type: Noun
+  id: salestax_660e49116360
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sales Tax
+- entry: ಚೂರುಪಾರು ನಿರ್ವಹಣೆ
+  defs:
+  - entry: Scrap Management
+    type: Noun
+  id: scrapmanag_fbfa56f59f1e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Scrap Management
+- entry: ಭದ್ರತಾ ಠೇವಣಿ
+  defs:
+  - entry: Security Deposit
+    type: Noun
+  id: securityde_d4d04fca4c76
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Security Deposit
+- entry: ಸಣ್ಣ ಪ್ರಮಾಣದ ಕೈಗಾರಿಕೆಗಳು
+  defs:
+  - entry: Small Scale Industries
+    type: Noun
+  id: smallscale_4b015963aedc
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Small Scale Industries
+- entry: ಬಿಡಿ
+  defs:
+  - &id033
+    entry: Spares/spare parts
+    type: Noun
+  id: sparesspar_6a0f56a8e3ad
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Spares/spare parts
+- entry: ಬಿಡಿಭಾಗಗಳು
+  defs:
+  - *id033
+  id: sparesspar_1fcf041c632b
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Spares/spare parts
+- entry: ನಮೂದು ಮಾಡುವುದು
+  defs:
+  - &id034
+    entry: Specification
+    type: Noun
+  id: specificat_d4f0ac241591
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Specification
+- entry: ವಿಶಿಷ್ಟ ವಿವರಣೆ
+  defs:
+  - *id034
+  id: specificat_0cdd33cb3be5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Specification
+- entry: ತಪಶೀಲು
+  defs:
+  - *id034
+  id: specificat_01eb3bebde13
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Specification
+- entry: ನಿರ್ದಿಷ್ಟತೆ
+  defs:
+  - *id034
+  id: specificat_23704d13fc0f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Specification
+- entry: ರಾಜ್ಯ ಟೆಂಡರು ಪ್ರಕಟಣೆ
+  defs:
+  - entry: State Tender Bulletin
+    type: Noun
+  id: statetende_2a7cdbc3e6ff
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: State Tender Bulletin
+- entry: ಸ್ಥಾನಮಾನ
+  defs:
+  - &id035
+    entry: Status
+    type: Noun
+  id: status_da562f9dd1f6
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Status
+- entry: ವಸ್ತುಸ್ಥಿತಿ
+  defs:
+  - *id035
+  id: status_eecc84f74e37
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Status
+- entry: ದಾಸ್ತಾನು ಪರಿಶೀಲನೆ
+  defs:
+  - entry: Stock Verification
+    type: Noun
+  id: stockverif_573176092fbb
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stock Verification
+- entry: ಸರಕು ಮಾರಾಟ ಸ್ಮಳ
+  defs:
+  - &id036
+    entry: Stores
+    type: Noun
+  id: stores_33a41b954e35
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores
+- entry: ಸ್ಟೋರ್ಸ್
+  defs:
+  - *id036
+  id: stores_6f212ccab5c6
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores
+- entry: ಸಂಗ್ರಹ ಸ್ಥಳ
+  defs:
+  - *id036
+  id: stores_9639de6a2aba
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores
+- entry: ಉಗ್ರಾಣ ಪಾಲಕ
+  defs:
+  - entry: Stores Keeper
+    type: Noun
+  id: storeskeep_7d377e79b995
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores Keeper
+- entry: ಉಗ್ರಾಣ ಅಧಿಕಾರಿ
+  defs:
+  - entry: Stores Officer
+    type: Noun
+  id: storesoffi_3b5021205e7a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores Officer
+- entry: ಉಗ್ರಾಣ ಅಧೀಕ್ಷಕ
+  defs:
+  - &id037
+    entry: Stores Superintendent
+    type: Noun
+  id: storessupe_ff5ffd52640a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores Superintendent
+- entry: ಸ್ಟೋರ್ಸ್‌ ಸೂಪರಿಂಟೆಂಡೆಂಟ್
+  defs:
+  - *id037
+  id: storessupe_1330a5d289c8
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stores Superintendent
+- entry: ಸರಬರಾಜುದಾರರು
+  defs:
+  - entry: Suppliers
+    type: Noun
+  id: suppliers_daaa0d33d1a2
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Suppliers
+- entry: ಸರಬರಾಜು ಸಾಮರ್ಥ್ಯ
+  defs:
+  - entry: Supply capacity
+    type: Noun
+  id: supplycapa_d2be07e0cdad
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Supply capacity
+- entry: ಸರಬರಾಜು ಪ್ರಮಾಣ
+  defs:
+  - entry: Supply Quantity
+    type: Noun
+  id: supplyquan_c28fb38aa493
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Supply Quantity
+- entry: ಅಧಿಭಾರ
+  defs:
+  - &id038
+    entry: Surcharge
+    type: Noun
+  id: surcharge_e96a176f48c3
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Surcharge
+- entry: ಸರ್‌ಚಾರ್ಜ್
+  defs:
+  - *id038
+  id: surcharge_0a1df0fae0b1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Surcharge
+- entry: ಮೇಲ್‌ ತೆರಿಗೆ
+  defs:
+  - *id038
+  id: surcharge_76e50920cd56
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Surcharge
+- entry: ದರ
+  defs:
+  - &id039
+    entry: Tariff
+    type: Noun
+  id: tariff_2429e20b56a7
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tariff
+- entry: ಬೆಲೆ
+  defs:
+  - *id039
+  id: tariff_8b712e9cc76c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tariff
+- entry: ಆಮದು ರಫ್ತು ಸುಂಕ
+  defs:
+  - *id039
+  id: tariff_9a56bf24eb1d
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tariff
+- entry: ಉಷ್ಣಾಂಶ
+  defs:
+  - entry: Temperature
+    type: Noun
+  id: temperatur_2e6f891f7d54
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Temperature
+- entry: ಟೆಂಡರು
+  defs:
+  - entry: Tender
+    type: Noun
+  id: tender_cc7a76701880
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender
+- entry: ಟೆಂಡರು ಅಂಗೀಕರಿಸುವ ಪ್ರಾಧಿಕಾರ
+  defs:
+  - entry: Tender accepting Authority
+    type: Noun
+  id: tenderacce_bd464677a63c
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender accepting Authority
+- entry: ಟೆಂಡರು ಪೆಟ್ಟಿಗೆ
+  defs:
+  - entry: Tender Box
+    type: Noun
+  id: tenderbox_ad7fcbb3e8b5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender Box
+- entry: ಟೆಂಡರು ದಾಖಲೆ
+  defs:
+  - entry: Tender Document
+    type: Noun
+  id: tenderdocu_c7d25c7a5b9e
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender Document
+- entry: ಟೆಂಡರು ವಿಚಾರಣೆ
+  defs:
+  - entry: Tender Enquiry
+    type: Noun
+  id: tenderenqu_8e3a495e7357
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender Enquiry
+- entry: ಟೆಂಡರು ಅಧಿಸೂಚನೆ
+  defs:
+  - entry: Tender Notification
+    type: Noun
+  id: tendernoti_7a1220852548
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender Notification
+- entry: ಟೆಂಡರು ಪರಿಶೀಲನಾ ಸಮಿತಿ
+  defs:
+  - entry: Tender Scrutiny Committee
+    type: Noun
+  id: tenderscru_3b0127962359
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tender Scrutiny Committee
+- entry: ನಿಬಂಧನೆಗಳು ಮತ್ತು ಷರತ್ತುಗಳು
+  defs:
+  - entry: Terms and Conditions
+    type: Noun
+  id: termsandco_f2980e744df0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Terms and Conditions
+- entry: ತಾಂತ್ರಿಕ ವಿಶಿಷ್ಟ ವಿವರಣೆ
+  defs:
+  - &id040
+    entry: Technical Specification
+    type: Noun
+  id: technicals_a82e30e97247
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Technical Specification
+- entry: ತಪಶೀಲು ತಾಂತ್ರಿಕ ನಿರ್ದಿಷ್ಟಾಂಶಗಳು
+  defs:
+  - *id040
+  id: technicals_08ebbc744b41
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Technical Specification
+- entry: ದಾರಿ
+  defs:
+  - &id041
+    entry: Tracking
+    type: Noun
+  id: tracking_c158b81fdbe1
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tracking
+- entry: ಮಾರ್ಗ
+  defs:
+  - *id041
+  id: tracking_b9978e193b5a
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tracking
+- entry: ಪಥ
+  defs:
+  - *id041
+  id: tracking_2d3ffffde0ca
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tracking
+- entry: ಜಾಡು
+  defs:
+  - *id041
+  id: tracking_dd6958d4d327
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tracking
+- entry: ಉತ್ಕ್ರಮಣ
+  defs:
+  - &id042
+    entry: Transgression
+    type: Noun
+  id: transgress_63d0662ed157
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Transgression
+- entry: ಉಲ್ಲಂಘಿಸು
+  defs:
+  - *id042
+  id: transgress_80dfefab4194
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Transgression
+- entry: ಸಾಗಣೆ
+  defs:
+  - entry: Transit
+    type: Noun
+  id: transit_d5265ddfdbd0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Transit
+- entry: ಸಾಗಣೆ ಶುಲ್ಕಗಳು
+  defs:
+  - entry: Transportation Charges
+    type: Noun
+  id: transporta_be3b2ec957dc
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Transportation Charges
+- entry: ಸಾಗಣೆದಾರರ ಬಿಲ್ಲು
+  defs:
+  - entry: Transporters Bill
+    type: Noun
+  id: transporte_f42f2660822f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Transporters Bill
+- entry: ಅಧಿವಿಚಾರಣೆ ದರ ಕರಾರು
+  defs:
+  - entry: Trial Rate Contract
+    type: Noun
+  id: trialratec_06cdcf93e44f
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trial Rate Contract
+- entry: ವಹಿವಾಟು
+  defs:
+  - entry: Turnover
+    type: Noun
+  id: turnover_e78eac16e966
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Turnover
+- entry: ಟೈರು ಕಾರ್ಡುಗಳು
+  defs:
+  - entry: Tyre Cards
+    type: Noun
+  id: tyrecards_25bb1e7004e0
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tyre Cards
+- entry: ಟೈರಿಗೆ ಸಂಬಂಧಿಸಿದ ಮುಖ್ಯ ರಿಜಿಸ್ಟರು
+  defs:
+  - entry: Tyre Master register
+    type: Noun
+  id: tyremaster_de795dbedbee
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tyre Master register
+- entry: ಸಿಂಧುತ್ವ
+  defs:
+  - entry: Validity
+    type: Noun
+  id: validity_eb6dd88174be
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Validity
+- entry: ಸತ್ಯಾಪನೆ
+  defs:
+  - &id043
+    entry: Verification
+    type: Noun
+  id: verificati_b37adaddb700
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Verification
+- entry: ಪರಿಶೀಲನೆ
+  defs:
+  - *id043
+  id: verificati_0e82108824ca
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Verification
+- entry: ಅನುಮೋದನೆ
+  defs:
+  - &id044
+    entry: Vetting
+    type: Noun
+  id: vetting_258e424accbc
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vetting
+- entry: ಒಪ್ಪಿಗೆ ಕೊಡುವುದು
+  defs:
+  - *id044
+  id: vetting_72b59167abee
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Vetting
+- entry: ಪರಿಮಾಣ ಸೋಡಿ
+  defs:
+  - entry: Volume Discount
+    type: Noun
+  id: volumedisc_9237f391fc87
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Volume Discount
+- entry: ಭರವಸೆ
+  defs:
+  - &id045
+    entry: Warranty
+    type: Noun
+  id: warranty_c7071b95bab2
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Warranty
+- entry: ವಾರಂಟಿ
+  defs:
+  - *id045
+  id: warranty_4a2027abf740
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Warranty
+- entry: ಮನ್ನಾ ಮಾಡು
+  defs:
+  - entry: Write off
+    type: Noun
+  id: writeoff_0b895d5b3ab5
+  source: ಉಗ್ರಾಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Write off

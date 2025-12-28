@@ -1,0 +1,91 @@
+- entry: ನಟಿಸು
+  defs:
+  - &id001
+    entry: Act
+    type: Noun
+  id: act_b1b576ce455d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Act
+- entry: ಅಭಿನಯಿಸು
+  defs:
+  - *id001
+  id: act_fc96023bc075
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Act
+- entry: ಅಭಿನಯ
+  defs:
+  - &id002
+    entry: Acting
+    type: Noun
+  id: acting_9bdd179a7901
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Acting
+- entry: ಅಭಿನಯಿಸುವುದು
+  defs:
+  - *id002
+  id: acting_b672a8964b97
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Acting
+- entry: 'ಅಭಿನಯ : ಕ್ರಿಯೆ'
+  defs:
+  - entry: Action
+    type: Noun
+  id: action_8664ef62f474
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Action
+- entry: ನಟ
+  defs:
+  - entry: Actor
+    type: Noun
+  id: actor_9234810935ca
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Actor
+- entry: ನಟಿ
+  defs:
+  - entry: Actress
+    type: Noun
+  id: actress_7e506305f682
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Actress
+- entry: ವಾಸ್ತವಿಕ
+  defs:
+  - entry: Actual
+    type: Noun
+  id: actual_74512abc518f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Actual
+- entry: ಅಳವಡಿಕೆ
+  defs:
+  - entry: Adaptation
+    type: Noun
+  id: adaptation_fa5b5a6439c1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Adaptation
+- entry: ನಿಪುಣ
+  defs:
+  - entry: Adept
+    type: Noun
+  id: adept_228cd5ed1336
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Adept
+- entry: ಶೃಂಗಾರ
+  defs:
+  - &id003
+    entry: Adornment
+    type: Noun
+  id: adornment_6568b29f376a
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Adornment
+- entry: ಅಲಂಕಾರ
+  defs:
+  - *id003
+  id: adornment_1f39eccd986d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Adornment
+- entry: ಜಾಹೀರಾತು
+  defs:
+  - entry: Advertisement
+    type: Noun
+  id: advertisem_a7f57f7abc6c
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಚಲನಚಿತ್ರ_ಅಭಿವೃದ್ಧಿ_ನಿಗಮ_ಇಂಗ್ಲೀಷ್
+  head: Advertisement

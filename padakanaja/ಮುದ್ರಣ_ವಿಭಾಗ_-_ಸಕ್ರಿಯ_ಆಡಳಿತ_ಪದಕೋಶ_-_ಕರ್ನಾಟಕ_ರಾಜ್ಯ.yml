@@ -1,0 +1,1452 @@
+- entry: ಏರ್‌ ಸಕ್ಕರ್ಸ್
+  defs:
+  - entry: Air Succures
+    type: Noun
+  id: airsuccure_56f1237ea09a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Air Succures
+- entry: ಬೈಂಡ್‌ ಮಾಡುವುದು
+  defs:
+  - &id001
+    entry: Binding
+    type: Noun
+  id: binding_1f128b47acc6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Binding
+- entry: ರಟ್ಟುಹಾಕುವುದು
+  defs:
+  - *id001
+  id: binding_eb24368a5fe1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Binding
+- entry: ಪಡಿಯಚ್ಚು ಬ್ಲಾಕ್
+  defs:
+  - entry: Block
+    type: Noun
+  id: block_8586d29aafaf
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Block
+- entry: ಅಂಚು
+  defs:
+  - &id002
+    entry: Borders
+    type: Noun
+  id: borders_7dc352609e32
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Borders
+- entry: ಸೆರಗು
+  defs:
+  - *id002
+  id: borders_9f2260d53f7d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Borders
+- entry: ಬಾರ್ಡರ್ಸ್
+  defs:
+  - *id002
+  id: borders_390361f2b694
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Borders
+- entry: ಬೋರ್ಡ್
+  defs:
+  - &id003
+    entry: Board
+    type: Noun
+  id: board_57aeda372576
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Board
+- entry: ಹಲಗೆ
+  defs:
+  - *id003
+  id: board_2e5eafc52088
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Board
+- entry: ಮಣೆ
+  defs:
+  - *id003
+  id: board_534a2ae0668b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Board
+- entry: ಸ್ಪಚ್ಛಗೊಳಿಸುವುದು
+  defs:
+  - &id004
+    entry: Cleaning
+    type: Noun
+  id: cleaning_ea2da3a5b1bc
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cleaning
+- entry: ಶುಭ್ರಗೊಳಿಸುವುದು
+  defs:
+  - *id004
+  id: cleaning_a9f768fe15f9
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cleaning
+- entry: ಕ್ಲೀನಿಂಗ್
+  defs:
+  - *id004
+  id: cleaning_0432cd9df22b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cleaning
+- entry: ಲೇಪನ
+  defs:
+  - entry: Coating
+    type: Noun
+  id: coating_9507725ab908
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Coating
+- entry: ಅಚ್ಚುಮೊಳೆ
+  defs:
+  - entry: Composing
+    type: Noun
+  id: composing_75409ec21167
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Composing
+- entry: ಕಂಪ್ರೆಸ್ಸಿಂಗ್
+  defs:
+  - &id005
+    entry: Compressing
+    type: Noun
+  id: compressin_74c7b1b2b14f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compressing
+- entry: ಸಂಪೀಡನ
+  defs:
+  - *id005
+  id: compressin_af1f6e4ad9a1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compressing
+- entry: ಅಡಕಗೊಳಿಸುವುದು
+  defs:
+  - *id005
+  id: compressin_28b278c1fb7f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compressing
+- entry: ಕುಗ್ಗಿಸುವುದು
+  defs:
+  - *id005
+  id: compressin_9dcff8ee23a7
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Compressing
+- entry: ತಿರುಗಿಸುವುದು
+  defs:
+  - &id006
+    entry: Conversion
+    type: Noun
+  id: conversion_0b2b52b4a26a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Conversion
+- entry: ತಿರುಗುವುದು
+  defs:
+  - *id006
+  id: conversion_9f9b31fe6027
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Conversion
+- entry: ಪರಿವರ್ತನೆ
+  defs:
+  - *id006
+  id: conversion_db4ddb41abe2
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Conversion
+- entry: ಸರಿಸ್ಪರ್ಶ
+  defs:
+  - &id007
+    entry: Contacting
+    type: Noun
+  id: contacting_6a7256964c6a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Contacting
+- entry: ತಗುಲಿಕೆ
+  defs:
+  - *id007
+  id: contacting_aafde5a5c6c1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Contacting
+- entry: ತಾಗು
+  defs:
+  - *id007
+  id: contacting_525fc1f31155
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Contacting
+- entry: ಸೇರಿಕೆ
+  defs:
+  - *id007
+  id: contacting_2beefd9cf3ec
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Contacting
+- entry: ಕಾಂಟ್ಯಾಂಕ್ಟಿಂಗ್
+  defs:
+  - *id007
+  id: contacting_d196618505fa
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Contacting
+- entry: ಕ್ರೀಸಿಂಗ್
+  defs:
+  - &id008
+    entry: Creasing
+    type: Noun
+  id: creasing_b3de5065c6a5
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Creasing
+- entry: ಮಡಿಕೆ
+  defs:
+  - *id008
+  id: creasing_1aeec553c690
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Creasing
+- entry: ನಿರಿಗೆ
+  defs:
+  - *id008
+  id: creasing_144053d7b251
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Creasing
+- entry: ಸುಕ್ಕು ಆಗುವುದು
+  defs:
+  - *id008
+  id: creasing_db31a13f32e8
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Creasing
+- entry: ಕಟ್‌ ಅಂಡ್‌ ಪೇಸ್ಟ್
+  defs:
+  - &id009
+    entry: Cut and Paste
+    type: Noun
+  id: cutandpast_aa6a526f92c5
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cut and Paste
+- entry: ಒಂದು ಕಡೆಯಿಂದ ತಂದು ಇನ್ನೊಂದು ಕಡೆ ಅಳವಡಿಸುವುದು
+  defs:
+  - *id009
+  id: cutandpast_fc8441f5e79a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cut and Paste
+- entry: ಸಿಲಿಂಡರಿಂಗ್
+  defs:
+  - entry: Cylindering
+    type: Noun
+  id: cylinderin_a9a94a3a9c4d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cylindering
+- entry: ಸಿಲಿಂಡರ್
+  defs:
+  - entry: Cylinder
+    type: Noun
+  id: cylinder_8f1557416073
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Cylinder
+- entry: ತೇವತಟ್ಟುವುದು
+  defs:
+  - &id010
+    entry: Dampening
+    type: Noun
+  id: dampening_ef0de3acc1e6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Dampening
+- entry: ಆರ್ದ್ರತೆ
+  defs:
+  - *id010
+  id: dampening_7bc898730c1b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Dampening
+- entry: ಕೆಟ್ಟು ಹೋಗುವುದು
+  defs:
+  - &id011
+    entry: Damage
+    type: Noun
+  id: damage_419b35c9f587
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Damage
+- entry: ಹಾನಿಹೊಂದು
+  defs:
+  - *id011
+  id: damage_11c52513c772
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Damage
+- entry: ಮುರಿ
+  defs:
+  - *id011
+  id: damage_77a8df1ddb1c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Damage
+- entry: ವಿನ್ಯಾಸ
+  defs:
+  - entry: Designing
+    type: Noun
+  id: designing_8953820d52a7
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Designing
+- entry: ಡೆವಲಪಿಂಗ್
+  defs:
+  - &id012
+    entry: Developing
+    type: Noun
+  id: developing_a094ba958bf2
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Developing
+- entry: ಸ್ಫುಟಗೊಳಿಸು
+  defs:
+  - *id012
+  id: developing_a4a4e79b1f85
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Developing
+- entry: ವರ್ಧಿಸು
+  defs:
+  - *id012
+  id: developing_c4affc169b90
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Developing
+- entry: ಡಿಜಿಟಲ್
+  defs:
+  - entry: Digital
+    type: Noun
+  id: digital_e0d1142481f0
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Digital
+- entry: ಹಾಲಿನ ರಚನೆವುಳ್ಳ ಎಮಲ್ಷನ್
+  defs:
+  - entry: Emulsion
+    type: Noun
+  id: emulsion_0287216554de
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Emulsion
+- entry: ವಿಸ್ತಾರಗೊಳಿಸುವುದು
+  defs:
+  - &id013
+    entry: Enlarging
+    type: Noun
+  id: enlarging_c0044d259d26
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Enlarging
+- entry: ವಿಸ್ತರಣೆ
+  defs:
+  - *id013
+  id: enlarging_7a179d63eb3f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Enlarging
+- entry: ದೊಡ್ಡದು ಮಾಡುವುದು
+  defs:
+  - *id013
+  id: enlarging_2ad9eb390ad6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Enlarging
+- entry: ನಕಾಸೆ ಕೆತ್ತು
+  defs:
+  - &id014
+    entry: Engraving
+    type: Noun
+  id: engraving_eb9746766bb6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Engraving
+- entry: ರೇಖಿಸು
+  defs:
+  - *id014
+  id: engraving_ec87d54b2a1a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Engraving
+- entry: ಎಂಗ್ರೇವಿಂಗ್
+  defs:
+  - *id014
+  id: engraving_3d05ffb5fca8
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Engraving
+- entry: ಕೊರೆಯುವುದು
+  defs:
+  - &id015
+    entry: Etching
+    type: Noun
+  id: etching_3fe5b6b13dd8
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Etching
+- entry: ಕೆತ್ತುವುದು
+  defs:
+  - *id015
+  id: etching_a0cea58ea6f4
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Etching
+- entry: ಪ್ರತಿರೂಪ ತಯಾರಿಸು
+  defs:
+  - *id015
+  id: etching_71752e170afe
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Etching
+- entry: ಎಚಿಂಗ್
+  defs:
+  - *id015
+  id: etching_1e50f9cce536
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Etching
+- entry: ಎಕ್ಸ್ ಪೋಸಿಂಗ್
+  defs:
+  - &id016
+    entry: Exposing
+    type: Noun
+  id: exposing_596554d29996
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Exposing
+- entry: ಬೆಳಕಿಗೆ ಒಡ್ಡು
+  defs:
+  - *id016
+  id: exposing_32bee9c9d97b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Exposing
+- entry: ಬಹಿರಂಗಪಡಿಸು
+  defs:
+  - *id016
+  id: exposing_af004b27d5d6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Exposing
+- entry: ಪೂರ್ಣಗೊಳಿಸು
+  defs:
+  - &id017
+    entry: Finishing
+    type: Noun
+  id: finishing_e08cbad835da
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Finishing
+- entry: ಓರಣಗೊಳಿಸು
+  defs:
+  - *id017
+  id: finishing_908adfb8fdbb
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Finishing
+- entry: ಫಿನಿಷಿಂಗ್
+  defs:
+  - *id017
+  id: finishing_fb0b63cac7da
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Finishing
+- entry: ಆಚ್ಚುಮೊಳೆ
+  defs:
+  - &id018
+    entry: Fonts
+    type: Noun
+  id: fonts_68164fe34ace
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fonts
+- entry: ಫಾಂಟುಗಳು
+  defs:
+  - *id018
+  id: fonts_43f8458b5d4a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fonts
+- entry: ನಮೂನೆಗಳು
+  defs:
+  - entry: Forms
+    type: Noun
+  id: forms_d141f1628f40
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Forms
+- entry: ಹಿ೦ಬಳಿತ ಬೆನ್ನುಲೇಪ
+  defs:
+  - &id019
+    entry: Foiling
+    type: Noun
+  id: foiling_5d35c8143514
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Foiling
+- entry: ತಗಡು ಹೊದಿಸು
+  defs:
+  - *id019
+  id: foiling_297559325a22
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Foiling
+- entry: ಮಡಚುವುದು
+  defs:
+  - entry: Folding
+    type: Noun
+  id: folding_f94554973ace
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Folding
+- entry: ಮಸಿಕೊಳವೆ
+  defs:
+  - &id020
+    entry: Fountaining
+    type: Noun
+  id: fountainin_ac7e1645b88d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fountaining
+- entry: ಬುಡ್ಡಿ ನೀರು ಬುಗ್ಗೆ
+  defs:
+  - *id020
+  id: fountainin_12bfddd0dd4d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fountaining
+- entry: ಚಿಲುಮೆ
+  defs:
+  - *id020
+  id: fountainin_94aa86c3612a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fountaining
+- entry: ಫೌಂಟೇನ್
+  defs:
+  - *id020
+  id: fountainin_f71722585eb1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Fountaining
+- entry: ಗ್ರೇಸ್ಕೇಲ್
+  defs:
+  - entry: Gray Scale
+    type: Noun
+  id: grayscale_da4c68b6a8d0
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gray Scale
+- entry: ಗ್ರವ್ಯುರ್
+  defs:
+  - entry: Gravure
+    type: Noun
+  id: gravure_908764baed72
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Gravure
+- entry: ತೂಗುಹಾಕುವುದು
+  defs:
+  - &id021
+    entry: Hanging
+    type: Noun
+  id: hanging_950fee95eab4
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hanging
+- entry: ತಗಲುಹಾಕುವುದು
+  defs:
+  - *id021
+  id: hanging_7bab28aaa9b5
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hanging
+- entry: ಇಳಿಬಿದ್ದಿರುವುದು
+  defs:
+  - *id021
+  id: hanging_28e0001e7308
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Hanging
+- entry: ಗಂಟುಹಾಕುವುದು
+  defs:
+  - &id022
+    entry: Knoting
+    type: Noun
+  id: knoting_c8b430a357a7
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Knoting
+- entry: ನಾಟಿಂಗ್
+  defs:
+  - *id022
+  id: knoting_5381198cd36d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Knoting
+- entry: ಮುದ್ರೆಗಳು
+  defs:
+  - entry: Impressions
+    type: Noun
+  id: impression_80b3c1a56a14
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Impressions
+- entry: ಚಿತ್ರ
+  defs:
+  - &id023
+    entry: Image mixing
+    type: Noun
+  id: imagemixin_792722166e16
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Image mixing
+- entry: ದೃಶ್ಯಮಿಶ್ರಣ
+  defs:
+  - *id023
+  id: imagemixin_c5baf97ace47
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Image mixing
+- entry: ಇಮೇಜ್‌ ಸೆಟರ್
+  defs:
+  - entry: image setter
+    type: Noun
+  id: imagesette_9c7132d5fa96
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: image setter
+- entry: ಚಿತ್ರಗಳು
+  defs:
+  - &id024
+    entry: Images
+    type: Noun
+  id: images_6ff423ba3911
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Images
+- entry: ಸಂಕೇತ
+  defs:
+  - *id024
+  id: images_4cb7831cc790
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Images
+- entry: ಬಿಂಬ
+  defs:
+  - *id024
+  id: images_97de26a680ef
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Images
+- entry: ದೃಶ್ಯ
+  defs:
+  - *id024
+  id: images_eabdfb4d0a72
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Images
+- entry: ಪುಟವಿನ್ಯಾಸ
+  defs:
+  - entry: Imposing
+    type: Noun
+  id: imposing_95f4aaf0521c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Imposing
+- entry: ಇಂಕ್‌ಡಕ್ಟ್
+  defs:
+  - entry: Ink duct
+    type: Noun
+  id: inkduct_de88c153d9ac
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ink duct
+- entry: ಶಾಯಿ
+  defs:
+  - &id025
+    entry: Ink
+    type: Noun
+  id: ink_2a197e976bf1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ink
+- entry: ಮಸಿ
+  defs:
+  - *id025
+  id: ink_983d394c5b98
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ink
+- entry: ಇಂಕ್
+  defs:
+  - *id025
+  id: ink_f3ac821087d0
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ink
+- entry: ಇಂಚಿಂಗ್
+  defs:
+  - entry: Inching
+    type: Noun
+  id: inching_92b788ea8a3a
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Inching
+- entry: ಆಹ್ವಾನ
+  defs:
+  - &id026
+    entry: Invitation
+    type: Noun
+  id: invitation_45cefd412341
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Invitation
+- entry: ಕೋರಿಕೆ
+  defs:
+  - *id026
+  id: invitation_dfad6978d6c8
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Invitation
+- entry: ಜಾಗಿಂಗ್
+  defs:
+  - entry: Jogging
+    type: Noun
+  id: jogging_c6c929cc3742
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Jogging
+- entry: ಗುರುತುಚೀಟಿ
+  defs:
+  - &id027
+    entry: Labels
+    type: Noun
+  id: labels_7957d024f48e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Labels
+- entry: ಲೇಬಲ್
+  defs:
+  - *id027
+  id: labels_c3f73b2235bb
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Labels
+- entry: ವಿನ್ಯಾಸ
+  defs:
+  - &id028
+    entry: Layout
+    type: Noun
+  id: layout_bbe312b2683f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Layout
+- entry: ಲೇಔಟ್
+  defs:
+  - *id028
+  id: layout_00b1572c5eee
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Layout
+- entry: ಪದರ ರಚನೆ
+  defs:
+  - &id029
+    entry: Lamination
+    type: Noun
+  id: lamination_49bedfeffa47
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lamination
+- entry: ಪ್ಲಾಸ್ಟಿಕ್‌ ಹೊದಿಕೆ
+  defs:
+  - *id029
+  id: lamination_134d2ccf2239
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lamination
+- entry: ಲ್ಯಾಮಿನೇಷನ್
+  defs:
+  - *id029
+  id: lamination_6a12e034437e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lamination
+- entry: ಅಚ್ಚುಮೊಳೆಗಳು
+  defs:
+  - &id030
+    entry: Letters
+    type: Noun
+  id: letters_c4cb2dd4226e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Letters
+- entry: ಅಕ್ಷರಗಳು
+  defs:
+  - *id030
+  id: letters_90723ab6c92f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Letters
+- entry: ಪತ್ರಗಳು
+  defs:
+  - *id030
+  id: letters_60fd19e3f03f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Letters
+- entry: ಲೆಟರ್ ಪ್ರೆಸ್
+  defs:
+  - entry: Letter press
+    type: Noun
+  id: letterpres_4bc8de5b5a51
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Letter press
+- entry: ಎತ್ತುವುದು
+  defs:
+  - &id031
+    entry: Lifting
+    type: Noun
+  id: lifting_e437e8b8004c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lifting
+- entry: ಮೇಲಕ್ಕೆತ್ತುವುದು
+  defs:
+  - *id031
+  id: lifting_d745a040c70d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lifting
+- entry: ಶಿಲಾಮುದ್ರಣ
+  defs:
+  - entry: Lithography
+    type: Noun
+  id: lithograph_c5301c894e4b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Lithography
+- entry: ಅಂಚು
+  defs:
+  - &id032
+    entry: Margin
+    type: Noun
+  id: margin_dfcc85b51f47
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Margin
+- entry: ಸೀಮೆ
+  defs:
+  - *id032
+  id: margin_b97a3c633abd
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Margin
+- entry: ಮೇಕ್ ರೆಡಿ
+  defs:
+  - entry: Make ready
+    type: Noun
+  id: makeready_fbc7a12796bf
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Make ready
+- entry: ಮಾನ
+  defs:
+  - &id033
+    entry: Measurement
+    type: Noun
+  id: measuremen_12e9cf466e71
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Measurement
+- entry: ಪರಿಮಾಣ
+  defs:
+  - *id033
+  id: measuremen_7041860e8810
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Measurement
+- entry: ಅಳತೆ
+  defs:
+  - *id033
+  id: measuremen_6cfd0061464d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Measurement
+- entry: ಮಾಧ್ಯಮ
+  defs:
+  - &id034
+    entry: Medium
+    type: Noun
+  id: medium_2b6fd6dbaa3e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Medium
+- entry: ವಾಹಕ ಸಾಧನ
+  defs:
+  - *id034
+  id: medium_72fbbc1e1b18
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Medium
+- entry: ಮಿಶ್ರಣ ಬೆರೆಸುವುದು
+  defs:
+  - &id035
+    entry: Mixing
+    type: Noun
+  id: mixing_e3faf4ea098d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mixing
+- entry: ಮಿಕ್ಸಿಂಗ್
+  defs:
+  - *id035
+  id: mixing_d9fbabb89dfa
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Mixing
+- entry: ಮಬ್ಬಾದ
+  defs:
+  - &id036
+    entry: Opaque
+    type: Noun
+  id: opaque_b6f6d5bda2d7
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Opaque
+- entry: ಮಸುಕಾದ
+  defs:
+  - *id036
+  id: opaque_71e67922714e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Opaque
+- entry: ಅಪಾರದರ್ಶಕ
+  defs:
+  - *id036
+  id: opaque_261f4a3374f4
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Opaque
+- entry: ಆಫ್ಸೆಟ್
+  defs:
+  - &id037
+    entry: Offset
+    type: Noun
+  id: offset_6d0ae5f75748
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Offset
+- entry: ಪ್ರತಿ
+  defs:
+  - *id037
+  id: offset_959b97f5cedb
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Offset
+- entry: ಮುದ್ರಣ
+  defs:
+  - *id037
+  id: offset_85dcc7e27e11
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Offset
+- entry: ಕಟ್ಟುವುದು
+  defs:
+  - &id038
+    entry: Packing
+    type: Noun
+  id: packing_fde552269a25
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Packing
+- entry: ಪ್ಯಾಕ್ ಮಾಡುವುದು
+  defs:
+  - *id038
+  id: packing_85285f21fa35
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Packing
+- entry: ಕಾಗದ
+  defs:
+  - entry: Paper
+    type: Noun
+  id: paper_1fb4ef841133
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paper
+- entry: ಪುಟಗಳು
+  defs:
+  - entry: Pages
+    type: Noun
+  id: pages_615baffd3c32
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pages
+- entry: ಪೇಸ್ಟ್ ಅಪ್
+  defs:
+  - entry: Paste-up
+    type: Noun
+  id: pasteup_de8ee6f0c831
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Paste-up
+- entry: ಸುಲಿಯುವುದು
+  defs:
+  - &id039
+    entry: Peeling
+    type: Noun
+  id: peeling_ab2466cd11e4
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Peeling
+- entry: ತೆಗೆದುಹಾಕುವುದು
+  defs:
+  - *id039
+  id: peeling_cf93e332e340
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Peeling
+- entry: ಗಟ್ಟಿ ಮಾಡಿದ
+  defs:
+  - &id040
+    entry: Perfect
+    type: Noun
+  id: perfect_5daf39f7bced
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Perfect
+- entry: ಶುದ್ಧ
+  defs:
+  - *id040
+  id: perfect_13819397965b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Perfect
+- entry: ಪರ್‌ಫೆಕ್ಟ್
+  defs:
+  - *id040
+  id: perfect_9029df4e8eef
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Perfect
+- entry: ಹಲಗೆಗಳು
+  defs:
+  - &id041
+    entry: Plates
+    type: Noun
+  id: plates_f4465a54cc33
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plates
+- entry: ಫಲಕಗಳು
+  defs:
+  - *id041
+  id: plates_581a5cad2dbd
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plates
+- entry: ಪ್ಲೇಟುಗಳು
+  defs:
+  - *id041
+  id: plates_1aba334de012
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Plates
+- entry: ಪಾಸಿಟಿವ್ಸ್
+  defs:
+  - entry: Positives
+    type: Noun
+  id: positives_313a2cd3404f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Positives
+- entry: ಪೂರ್ವ ಮುದ್ರಣ
+  defs:
+  - &id042
+    entry: Pre-printed
+    type: Noun
+  id: preprinted_6bb0ab21631b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pre-printed
+- entry: ಮೊದಲೇ ಮುದ್ರಿಸಿದ
+  defs:
+  - *id042
+  id: preprinted_30367f6effb1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pre-printed
+- entry: ಉತ್ಪತ್ತಿ
+  defs:
+  - &id043
+    entry: Production
+    type: Noun
+  id: production_c502a5eff98f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Production
+- entry: ಉತ್ಪನ್ನ
+  defs:
+  - *id043
+  id: production_dadce3227a43
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Production
+- entry: ಪ್ರೊಡಕ್ಷನ್
+  defs:
+  - *id043
+  id: production_bb87e61c70ef
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Production
+- entry: ಪ್ರೆಸ್ಸಿಂಗ್
+  defs:
+  - &id044
+    entry: Pressing
+    type: Noun
+  id: pressing_443fcf7ce23b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pressing
+- entry: ಒತ್ತುವುದು
+  defs:
+  - *id044
+  id: pressing_1bd9eb5c37d6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pressing
+- entry: ಅಚ್ಚೊತ್ತುವುದು
+  defs:
+  - *id044
+  id: pressing_b97920f96e0f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Pressing
+- entry: ಪ್ರೊಸೆಸಿಂಗ್
+  defs:
+  - &id045
+    entry: Processing
+    type: Noun
+  id: processing_28e65f6005a2
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Processing
+- entry: ಮಂಡಿಸುವುದು
+  defs:
+  - *id045
+  id: processing_69b93173dc31
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Processing
+- entry: ಪ್ರೊಸೆಸರ್
+  defs:
+  - &id046
+    entry: Processor
+    type: Noun
+  id: processor_8e35cc93d93d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Processor
+- entry: ಮಂಡಿಸುವವ
+  defs:
+  - *id046
+  id: processor_6081b9e6185c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Processor
+- entry: ಕರಡಚ್ಚು
+  defs:
+  - &id047
+    entry: Proofing
+    type: Noun
+  id: proofing_f1143036c514
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Proofing
+- entry: ಪ್ರೂಫಿಂಗ್
+  defs:
+  - *id047
+  id: proofing_37aac84fb18c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Proofing
+- entry: ಖರೀದಿ ಕೋರಿಕೆ
+  defs:
+  - entry: Purchase order
+    type: Noun
+  id: purchaseor_a7d5f79617c6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Purchase order
+- entry: ಪಂಚ್‌ ಮಾಡುವುದು
+  defs:
+  - &id048
+    entry: Punching
+    type: Noun
+  id: punching_9f2f74c5074e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Punching
+- entry: ರಂಧ್ರ ಮಾಡುವುದು
+  defs:
+  - *id048
+  id: punching_1a0a168ea747
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Punching
+- entry: ಕಚ್ಚಾ ವಸ್ತುಗಳು
+  defs:
+  - &id049
+    entry: Raw materials
+    type: Noun
+  id: rawmateria_f5973ada1fe8
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Raw materials
+- entry: ಸಾಮಗ್ರಿಗಳು
+  defs:
+  - *id049
+  id: rawmateria_f34f0ae04d6c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Raw materials
+- entry: ಅಚ್ಚಿನ ಹೊಂದಿಕೆ ಗುರುತು
+  defs:
+  - &id050
+    entry: Register mark
+    type: Noun
+  id: registerma_624a40ba6137
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Register mark
+- entry: ಹೊಂದಾವಣೆ ಗುರುತು
+  defs:
+  - *id050
+  id: registerma_7100c9402af8
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Register mark
+- entry: ರಿಜಿಸ್ಟರ್‌ ಮಾರ್ಕ್
+  defs:
+  - *id050
+  id: registerma_d4f7c720023e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Register mark
+- entry: ಇಳಿಕೆ
+  defs:
+  - &id051
+    entry: Reduction
+    type: Noun
+  id: reduction_7ce69c13c900
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reduction
+- entry: ಕಡಿತ
+  defs:
+  - *id051
+  id: reduction_4a90c652a922
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Reduction
+- entry: ಪುನರ್‌ ಮುದ್ರಣ
+  defs:
+  - entry: Re-printing
+    type: Noun
+  id: reprinting_64be002e676d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Re-printing
+- entry: ತಿರುಗುವುದು
+  defs:
+  - &id052
+    entry: Rotating
+    type: Noun
+  id: rotating_2ad4a9a6aa30
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotating
+- entry: ಆವರ್ತ
+  defs:
+  - *id052
+  id: rotating_1a4c8580336d
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotating
+- entry: ಸರದಿ
+  defs:
+  - *id052
+  id: rotating_0456a6f6fceb
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotating
+- entry: ರೊಟೇಟಿಂಗ್‌ ಪೀಲಿಂಗ್
+  defs:
+  - *id052
+  id: rotating_605ce8920f17
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotating
+- entry: ಉರುಳೆಯಂತ್ರ
+  defs:
+  - &id053
+    entry: Rotary
+    type: Noun
+  id: rotary_f1165e6ee3ad
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotary
+- entry: ಆವರ್ತಕ
+  defs:
+  - *id053
+  id: rotary_4a1dc84a70cb
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotary
+- entry: ರೋಟರಿ
+  defs:
+  - *id053
+  id: rotary_cf25cee47f38
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Rotary
+- entry: ಗೆರೆಹಾಕುವುದು
+  defs:
+  - &id054
+    entry: Ruling
+    type: Noun
+  id: ruling_820715146c3e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ruling
+- entry: ರೂಲಿಂಗ್
+  defs:
+  - *id054
+  id: ruling_018ffcd96e5b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Ruling
+- entry: ತೆರೆ
+  defs:
+  - &id055
+    entry: Screen
+    type: Noun
+  id: screen_cf3ac6cbc7ad
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Screen
+- entry: ಫಲಕ
+  defs:
+  - *id055
+  id: screen_6c77fb7f4e83
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Screen
+- entry: ಪರದೆ
+  defs:
+  - *id055
+  id: screen_213d14bab8c0
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Screen
+- entry: ಸ್ಕ್ರೀನ್
+  defs:
+  - *id055
+  id: screen_99eacb9ce8da
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Screen
+- entry: ಸ್ಕ್ರೀನಿಂಗ್
+  defs:
+  - entry: Screening
+    type: Noun
+  id: screening_e844b4f6c6e4
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Screening
+- entry: ಅಳತೆ ಪಟ್ಟಿ
+  defs:
+  - &id056
+    entry: Scale
+    type: Noun
+  id: scale_2ea2e0590a41
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Scale
+- entry: ಸ್ಕೇಲ್
+  defs:
+  - *id056
+  id: scale_e6fc5ab279d1
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Scale
+- entry: ಸೂಕ್ಷ್ಮ ಗ್ರಾಹಿ
+  defs:
+  - &id057
+    entry: Sensitive
+    type: Noun
+  id: sensitive_357e70f5f11c
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sensitive
+- entry: ಸೂಕ್ಷ್ಮ
+  defs:
+  - *id057
+  id: sensitive_6d5e4edf7576
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sensitive
+- entry: ವಿಭಾಗ
+  defs:
+  - &id058
+    entry: Sections
+    type: Noun
+  id: sections_b364411a8cd3
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sections
+- entry: ಖಂಡ
+  defs:
+  - *id058
+  id: sections_4c9b03e174e5
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sections
+- entry: ಸೆಕ್ಷನ್ಸ್
+  defs:
+  - *id058
+  id: sections_1288e7036f9f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sections
+- entry: ಚೂಪು
+  defs:
+  - &id059
+    entry: Sharp
+    type: Noun
+  id: sharp_f5e51251d529
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sharp
+- entry: ಮೊನಚು
+  defs:
+  - *id059
+  id: sharp_93ac0bf749b6
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sharp
+- entry: ಹಾಳೆಗಳು
+  defs:
+  - &id060
+    entry: Sheets
+    type: Noun
+  id: sheets_b45d53d05f59
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sheets
+- entry: ತಗಡು
+  defs:
+  - *id060
+  id: sheets_194955b4fd2e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Sheets
+- entry: ವೇಗ
+  defs:
+  - &id061
+    entry: Speed
+    type: Noun
+  id: speed_6204b1aad825
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Speed
+- entry: ರಭಸ
+  defs:
+  - *id061
+  id: speed_16dcd470f235
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Speed
+- entry: ಶೀಘ್ರತೆ
+  defs:
+  - *id061
+  id: speed_e5fc09e28931
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Speed
+- entry: ಸ್ಟೆಪ್‌ ಆಂಡ್‌ ರಿಪೀಟ್
+  defs:
+  - entry: Step and repeat
+    type: Noun
+  id: stepandrep_aafecd67ab04
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Step and repeat
+- entry: ಲೇಖನ ಸಾಮಗ್ರಿ
+  defs:
+  - entry: Stationery
+    type: Noun
+  id: stationery_78398d907268
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stationery
+- entry: ಹೊಲಿಯುವುದು
+  defs:
+  - entry: Stitching
+    type: Noun
+  id: stitching_160a2b8e2df2
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Stitching
+- entry: ಸುಂದರ ಪುಟ ವಿನ್ಯಾಸ
+  defs:
+  - entry: Super Imposing
+    type: Noun
+  id: superimpos_b04054d42c5e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Super Imposing
+- entry: ಹೊರಭಾಗ
+  defs:
+  - &id062
+    entry: Surface
+    type: Noun
+  id: surface_9fdcb1f26d8e
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Surface
+- entry: ಮೇಲ್ಮೈ
+  defs:
+  - *id062
+  id: surface_3c14612f018b
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Surface
+- entry: ಫಲಕ
+  defs:
+  - *id062
+  id: surface_025cfd2af357
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Surface
+- entry: ಸರಬರಾಜು ಕೋರಿಕೆ
+  defs:
+  - entry: Supply order
+    type: Noun
+  id: supplyorde_cdced87bdcad
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Supply order
+- entry: ಟಾರ್ಗೆಟ್‌ ಮಾಸ್ಕ್
+  defs:
+  - entry: Target mask
+    type: Noun
+  id: targetmask_47869e6088af
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Target mask
+- entry: ಕಟ್ಟುವುದು
+  defs:
+  - &id063
+    entry: Tieing
+    type: Noun
+  id: tieing_534fa068d7c9
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tieing
+- entry: ಬಿಗಿಯುವುದು ಭದ್ರಪಡಿಸುವುದು
+  defs:
+  - *id063
+  id: tieing_9e5cb69b4374
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tieing
+- entry: ಟೈಯಿಂಗ್
+  defs:
+  - *id063
+  id: tieing_2d036cc35d84
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Tieing
+- entry: ಟ್ರಿಮ್ಮಿಂಗ್
+  defs:
+  - entry: Trimming
+    type: Noun
+  id: trimming_3e390b95d466
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Trimming
+- entry: ಅಚ್ಚುಮೊಳೆ
+  defs:
+  - &id064
+    entry: Types
+    type: Noun
+  id: types_c3321a640fee
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Types
+- entry: ಟೈಪು
+  defs:
+  - *id064
+  id: types_304ca8b4f6c4
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Types
+- entry: ಕಾರ್ಯಾದೇಶ
+  defs:
+  - &id065
+    entry: Work order
+    type: Noun
+  id: workorder_32fb80427835
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Work order
+- entry: ಕೆಲಸ ಮಾಡಲು
+  defs:
+  - *id065
+  id: workorder_a3fb226f4abd
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Work order
+- entry: ಜಾಲ
+  defs:
+  - &id066
+    entry: Web
+    type: Noun
+  id: web_00309d09602f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Web
+- entry: ಬಲೆ
+  defs:
+  - *id066
+  id: web_b2fff9cc4f8f
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Web
+- entry: ಪೊರೆ
+  defs:
+  - *id066
+  id: web_3254f9fa5e76
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Web
+- entry: ವೆಬ್
+  defs:
+  - *id066
+  id: web_04b77b5b44ac
+  source: ಮುದ್ರಣ_ವಿಭಾಗ_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ_ರಾಜ್ಯ
+  head: Web

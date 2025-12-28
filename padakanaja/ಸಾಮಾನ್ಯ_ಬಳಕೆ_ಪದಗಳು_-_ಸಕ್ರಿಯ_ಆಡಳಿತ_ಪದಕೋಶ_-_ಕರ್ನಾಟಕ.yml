@@ -1,0 +1,643 @@
+- entry: ಒಪ್ಪಲಾದ
+  defs:
+  - &id001
+    entry: Accorded
+    type: Noun
+  id: accorded_f6fb9860641e
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Accorded
+- entry: ಕೊಡಲಾದ
+  defs:
+  - *id001
+  id: accorded_8e6a4127479d
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Accorded
+- entry: ನೀಡಲಾದ
+  defs:
+  - *id001
+  id: accorded_fa9c088ddebe
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Accorded
+- entry: ಅನುಮತಿಸಲಾದ
+  defs:
+  - *id001
+  id: accorded_7d520e38a7d9
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Accorded
+- entry: ಕ್ರಮ ಕೈಗೊಳ್ಳಲಾದ
+  defs:
+  - &id002
+    entry: Action taken
+    type: Noun
+  id: actiontake_78106ba1f1f7
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Action taken
+- entry: ಕ್ರಮಕೈಗೊಂಡ
+  defs:
+  - *id002
+  id: actiontake_3ca319b92251
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Action taken
+- entry: ಕೈಗೊಂಡ ಕ್ರಮ
+  defs:
+  - *id002
+  id: actiontake_03e7d12348d7
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Action taken
+- entry: ಕಾರ್ಯಸೂಚಿ
+  defs:
+  - entry: Agenda
+    type: Noun
+  id: agenda_5f805f3eb0b4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Agenda
+- entry: ಬಾಧಿತನಾದ
+  defs:
+  - &id003
+    entry: Aggrieved
+    type: Noun
+  id: aggrieved_578b603b2b97
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Aggrieved
+- entry: ತೊಂದರೆಗೊಳಗಾದ
+  defs:
+  - *id003
+  id: aggrieved_c5fb74e4e7d4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Aggrieved
+- entry: ಮೆಚ್ಚುಗೆ
+  defs:
+  - &id004
+    entry: Appreciation
+    type: Noun
+  id: appreciati_797c6ba3eac6
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Appreciation
+- entry: ಗುಣಾವಗುಣ
+  defs:
+  - *id004
+  id: appreciati_d7835f361dc7
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Appreciation
+- entry: ವಿವೇಚನೆ
+  defs:
+  - *id004
+  id: appreciati_89ff1303e458
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Appreciation
+- entry: ಬೆಲೆ ಹೆಚ್ಚಳ
+  defs:
+  - *id004
+  id: appreciati_d6625541e73f
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Appreciation
+- entry: ಅನುಮೋದನೆ
+  defs:
+  - entry: Approval
+    type: Noun
+  id: approval_1f8f16d03ffe
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Approval
+- entry: ಮಂಡಳಿ ಸಭೆ
+  defs:
+  - entry: Board Meeting
+    type: Noun
+  id: boardmeeti_2e9c32bfc355
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Board Meeting
+- entry: ಮಂಡಳಿ ಟಿಪ್ಪಣಿ
+  defs:
+  - entry: Board Note
+    type: Noun
+  id: boardnote_ea9501b2ff9e
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Board Note
+- entry: ಮಂಡಳಿ ನಿರ್ಣಯ
+  defs:
+  - &id005
+    entry: Board Resolution
+    type: Noun
+  id: boardresol_cd5bc97f343b
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Board Resolution
+- entry: ಠರಾವು
+  defs:
+  - *id005
+  id: boardresol_5620bd48a8b0
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Board Resolution
+- entry: ಮಂಡಳಿ ಕಾರ್ಯದರ್ಶಿ
+  defs:
+  - entry: Board Secretary
+    type: Noun
+  id: boardsecre_3942f975143f
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Board Secretary
+- entry: ಚಿಂತನ ಗೋಷ್ಠಿ
+  defs:
+  - &id006
+    entry: Brainstorming
+    type: Noun
+  id: brainstorm_8f824e5ff007
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Brainstorming
+- entry: ಭಾವೋದ್ರೇಕದ ಚರ್ಚೆ
+  defs:
+  - *id006
+  id: brainstorm_0b301909bd9c
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Brainstorming
+- entry: ಬಿರುಸಿನ ಸಭೆ
+  defs:
+  - *id006
+  id: brainstorm_fa07931fbbc1
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Brainstorming
+- entry: ಚರ್ಚಾತ್ಮಕ ಸಭೆ
+  defs:
+  - *id006
+  id: brainstorm_d7014990a2c4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Brainstorming
+- entry: ಚರ್ಚೆ
+  defs:
+  - *id006
+  id: brainstorm_6963dcee126d
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Brainstorming
+- entry: ಸುತ್ತೋಲೆ
+  defs:
+  - entry: Circular
+    type: Noun
+  id: circular_41a366c3a268
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Circular
+- entry: ಸಹಮತಿಸು- ಸಹಮತಿಸಲಾದ - ಸಹಮತಿ
+  defs:
+  - entry: Concur-Concurred-Concurrance
+    type: Noun
+  id: concurconc_01d6979452a1
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Concur-Concurred-Concurrance
+- entry: ಸ್ಥಿರೀಕರಣ
+  defs:
+  - &id007
+    entry: Confirmation
+    type: Noun
+  id: confirmati_823e6594c09a
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Confirmation
+- entry: ಖಾಯಂಗೊಳಿಸುವುದು
+  defs:
+  - *id007
+  id: confirmati_1d5f1e32c5f5
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Confirmation
+- entry: ಸಮವ್ಯಾಪಿ
+  defs:
+  - &id008
+    entry: Co-Terminus
+    type: Noun
+  id: coterminus_0568b178f8b3
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Co-Terminus
+- entry: ಸಮಾನಾಂತ
+  defs:
+  - *id008
+  id: coterminus_779eb72150fa
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Co-Terminus
+- entry: ಎರಡರ ಅವಧಿ ಒಂದೇ ಆಗುವಂಥ
+  defs:
+  - *id008
+  id: coterminus_37e64f303b06
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Co-Terminus
+- entry: ಸುಸಂಗತ
+  defs:
+  - &id009
+    entry: Consistency
+    type: Noun
+  id: consistenc_e2acdbe4f02a
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Consistency
+- entry: ಸಮಂಜಸ
+  defs:
+  - *id009
+  id: consistenc_5aed2fb4c461
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Consistency
+- entry: ದೃಢತೆ
+  defs:
+  - *id009
+  id: consistenc_03b231cdc00a
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Consistency
+- entry: ತೀರ್ಮಾನ
+  defs:
+  - entry: Decision
+    type: Noun
+  id: decision_70d80883eaed
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Decision
+- entry: ಚರ್ಚೆ
+  defs:
+  - entry: Deliberation
+    type: Noun
+  id: deliberati_355b5c675c3d
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Deliberation
+- entry: ನಿರ್ದೇಶಕ
+  defs:
+  - entry: Director
+    type: Noun
+  id: director_fb585e9993dc
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Director
+- entry: ಹಡಗನ್ನು ಹತ್ತು
+  defs:
+  - &id010
+    entry: Embarking
+    type: Noun
+  id: embarking_92776a016e8b
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Embarking
+- entry: ಪ್ರಾರಂಭಿಸು
+  defs:
+  - *id010
+  id: embarking_1d375fc77289
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Embarking
+- entry: ಹೂಡು
+  defs:
+  - *id010
+  id: embarking_9e27f42d66d4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Embarking
+- entry: ಹತ್ತುವುದು
+  defs:
+  - *id010
+  id: embarking_c4bb45020558
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Embarking
+- entry: ಭಾವಿಸು
+  defs:
+  - &id011
+    entry: Envisage
+    type: Noun
+  id: envisage_ce4c1e11413c
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Envisage
+- entry: ಯೋಜಿಸು ಒಳಗೊಂಡಿರುವ
+  defs:
+  - *id011
+  id: envisage_28fe02d05f37
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Envisage
+- entry: ರೂಪಿಸು
+  defs:
+  - *id011
+  id: envisage_ab50ca99fc30
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Envisage
+- entry: ಆಲೋಚಿಸು
+  defs:
+  - *id011
+  id: envisage_37708d569b16
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Envisage
+- entry: ಪೂರ್ವಾಧಿ
+  defs:
+  - &id012
+    entry: Encumbrance
+    type: Noun
+  id: encumbranc_96a45d764bdc
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Encumbrance
+- entry: ಋಣಭಾರ
+  defs:
+  - *id012
+  id: encumbranc_159cc03a96fa
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Encumbrance
+- entry: ಸಮಗ್ರ ಪ್ರಯತ್ನ
+  defs:
+  - &id013
+    entry: Holistic Approcach
+    type: Noun
+  id: holisticap_f12733d997e4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Holistic Approcach
+- entry: ಸಮಗ್ರತಾ ದೃಷ್ಟಿ
+  defs:
+  - *id013
+  id: holisticap_6081e2913511
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Holistic Approcach
+- entry: ಆಹ್ವಾನಿತ
+  defs:
+  - entry: Invitee
+    type: Noun
+  id: invitee_f153d63cff1d
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Invitee
+- entry: ಪರಸ್ಪರ
+  defs:
+  - &id014
+    entry: Interse
+    type: Noun
+  id: interse_c9a7d7f0b67f
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Interse
+- entry: ತಮ್ಮ ತಮ್ಮೊಳಗೆ
+  defs:
+  - *id014
+  id: interse_8949855cbe96
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Interse
+- entry: ಗೈರುಹಾಜರಿಗೆ ಅನುಮತಿ
+  defs:
+  - &id015
+    entry: Leave of absence
+    type: Noun
+  id: leaveofabs_df05b3de1563
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Leave of absence
+- entry: ಅನುಮತಿ ಪಡೆದ ರಜೆ
+  defs:
+  - *id015
+  id: leaveofabs_8d3517eed323
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Leave of absence
+- entry: ಮಾರ್ಪಡಿಸು - ಮಾರ್ಪಡಿಸಿದ
+  defs:
+  - entry: Modify-Modified
+    type: Noun
+  id: modifymodi_c26d99967e78
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Modify-Modified
+- entry: ಅಧಿಕಾರೇತರ ನಿರ್ದೇಶಕ
+  defs:
+  - entry: Non-Official Director
+    type: Noun
+  id: nonofficia_0b26b4fd8db4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Non-Official Director
+- entry: ಗಮನಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Noted
+    type: Noun
+  id: noted_afdc9e1942ca
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Noted
+- entry: ಕಾಲ್ಪನಿಕ
+  defs:
+  - &id016
+    entry: Notional
+    type: Noun
+  id: notional_1faf33c6631d
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Notional
+- entry: ಅಭಿಪ್ರಾಯ
+  defs:
+  - *id016
+  id: notional_c678403670e1
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Notional
+- entry: ಅಧಿಕೃತ ನಿರ್ದೇಶಕ
+  defs:
+  - entry: Official Director
+    type: Noun
+  id: officialdi_6dc2e3b92ef7
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Official Director
+- entry: ಹೊರಗುತ್ತಿಗೆ
+  defs:
+  - &id017
+    entry: Out Sourcing
+    type: Noun
+  id: outsourcin_1ccadfff9391
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Out Sourcing
+- entry: ಗುತ್ತಿಗೆ ನೀಡಿ ಪ್ರಯೋಜನ ಪಡೆಯುವುದು
+  defs:
+  - *id017
+  id: outsourcin_1c48c381eda7
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Out Sourcing
+- entry: ಯಥಾ ದೃಷ್ಟಿಯ
+  defs:
+  - &id018
+    entry: Perspective
+    type: Noun
+  id: perspectiv_28ec8a0be10e
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Perspective
+- entry: ಯಥಾದೃಷ್ಟ ರೂಪಣ
+  defs:
+  - *id018
+  id: perspectiv_377ade0dfa34
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Perspective
+- entry: ಅವತರಣಿಕೆ
+  defs:
+  - &id019
+    entry: Preamble
+    type: Noun
+  id: preamble_7e0dbbcf4b2e
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Preamble
+- entry: ಪೀಠಿಕೆ
+  defs:
+  - *id019
+  id: preamble_36e5cbd3e5a9
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Preamble
+- entry: ಪ್ರಸ್ತಾವನೆ
+  defs:
+  - *id019
+  id: preamble_5f6ec78e5647
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Preamble
+- entry: ವ್ಯವಹರಣಿಗಳು-ನಡೆವಳಿಗಳು
+  defs:
+  - entry: Proceedings
+    type: Noun
+  id: proceeding_9ceecab36fd7
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Proceedings
+- entry: ಪ್ರಸ್ತಾವನೆ
+  defs:
+  - &id020
+    entry: Proposal
+    type: Noun
+  id: proposal_7a923620e9c9
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Proposal
+- entry: ಪ್ರಸ್ತಾಪ
+  defs:
+  - *id020
+  id: proposal_290497b09b38
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Proposal
+- entry: ಉದ್ದೇಶಿತ ಕ್ರಮ
+  defs:
+  - *id020
+  id: proposal_278752bc1a96
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Proposal
+- entry: ಸೂಚನೆ
+  defs:
+  - *id020
+  id: proposal_464e93442040
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Proposal
+- entry: ಸಭೆಗೆ ಅವಶ್ಶಕವಾದ ಸದಸ್ಯರ ಸಂಖ್ಯೆ
+  defs:
+  - entry: Quorum
+    type: Noun
+  id: quorum_08aa94c86a53
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Quorum
+- entry: ಅನುಸಮರ್ಥಿಸು
+  defs:
+  - &id021
+    entry: Ratify-Ratification
+    type: Noun
+  id: ratifyrati_5408a59175b4
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Ratify-Ratification
+- entry: ಅನುಸಮರ್ಥನೆ ಸ್ಥೀರಿಕರಿಸು
+  defs:
+  - *id021
+  id: ratifyrati_4b2b2b79c32e
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Ratify-Ratification
+- entry: ಓದಲಾಗಿದೆ ಮತ್ತು ದಾಖಲಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Read & Record
+    type: Noun
+  id: readrecord_d6a0ad0edde2
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Read & Record
+- entry: ದಾಖಲೆ
+  defs:
+  - &id022
+    entry: Record-Recorded
+    type: Noun
+  id: recordreco_2c4bc3ed6d06
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Record-Recorded
+- entry: ನಮೂದು ಮಾಡು - ದಾಖಲೆ ಮಾಡಲಾಗಿದೆ
+  defs:
+  - *id022
+  id: recordreco_1d3efb6e5727
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Record-Recorded
+- entry: ನಮೂದಿಸಲಾಗಿದೆ
+  defs:
+  - *id022
+  id: recordreco_7459053b615a
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Record-Recorded
+- entry: ನಿರ್ಣಯ- ನಿರ್ಣಯಿಸಲಾಗಿದೆ
+  defs:
+  - entry: Resolve-Resolved
+    type: Noun
+  id: resolveres_99469f77e34f
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Resolve-Resolved
+- entry: ಜವಾಬು ಕೊಡು
+  defs:
+  - &id023
+    entry: Responding
+    type: Noun
+  id: responding_0c3d7e8f7688
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Responding
+- entry: ಪ್ರತಿಕ್ರಿಯಿಸು
+  defs:
+  - *id023
+  id: responding_4b5bf12bbe2c
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Responding
+- entry: ಪ್ರತಿಕ್ರಿಯೆಕೊಡು
+  defs:
+  - *id023
+  id: responding_31e717c3dc66
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Responding
+- entry: ಉಪವೇಶನ ಫೀಜು
+  defs:
+  - &id024
+    entry: Sitting Fees
+    type: Noun
+  id: sittingfee_c2530d58cc97
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Sitting Fees
+- entry: ಉಪವೇಶನ ಸಂಭಾವನೆ
+  defs:
+  - *id024
+  id: sittingfee_db49b1baf38c
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Sitting Fees
+- entry: ವೇತನವನ್ನು ಮೇಲಕ್ಕೇರಿಸು
+  defs:
+  - &id025
+    entry: Stepping up of pay
+    type: Noun
+  id: steppingup_a546bf322680
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Stepping up of pay
+- entry: ವೇತನ ಹೆಚ್ಚಿಸುವಿಕೆ
+  defs:
+  - *id025
+  id: steppingup_088d8c659734
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Stepping up of pay
+- entry: ಏಕರೂಪಗೊಳಿಸು
+  defs:
+  - &id026
+    entry: Streamline
+    type: Noun
+  id: streamline_00997fbb2385
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Streamline
+- entry: ಸರಿಪಡಿಸು
+  defs:
+  - *id026
+  id: streamline_c3eed0341e99
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Streamline
+- entry: ಪರಿಷ್ಕರಿಸು
+  defs:
+  - *id026
+  id: streamline_2f45f29a0845
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Streamline
+- entry: ಸಮಗ್ರ ಬದಲಾವಣೆ
+  defs:
+  - *id026
+  id: streamline_b6a704b150a0
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Streamline
+- entry: ವಂದನಾರ್ಪಣೆ
+  defs:
+  - &id027
+    entry: Vote of Thanks
+    type: Noun
+  id: voteofthan_369ddfb5c997
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Vote of Thanks
+- entry: ಧನ್ಯವಾದಗಳನ್ನು ಅರ್ಪಿಸುವುದು
+  defs:
+  - *id027
+  id: voteofthan_de0fd04c15aa
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Vote of Thanks
+- entry: ಅಭಾರ ಮನ್ನಣೆ
+  defs:
+  - *id027
+  id: voteofthan_56a1a900c5fa
+  source: ಸಾಮಾನ್ಯ_ಬಳಕೆ_ಪದಗಳು_-_ಸಕ್ರಿಯ_ಆಡಳಿತ_ಪದಕೋಶ_-_ಕರ್ನಾಟಕ
+  head: Vote of Thanks
