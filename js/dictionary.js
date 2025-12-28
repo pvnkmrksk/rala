@@ -266,7 +266,7 @@ async function fetchAndCacheDictionary() {
             const showProgressIfNeeded = () => {
                 if (!progressShown) {
                     createProgressIndicator();
-                    updateProgressIndicator(0, null, 0, 'Loading Additional Dictionaries...');
+                    updateProgressIndicator(0, PADAKANAJA_COMBINED_FILES.length, 0, 'Loading Additional Dictionaries...');
                     progressShown = true;
                 }
             };
@@ -274,51 +274,91 @@ async function fetchAndCacheDictionary() {
             // Delay showing progress to avoid UI clutter if loading is fast
             const progressTimeout = setTimeout(showProgressIfNeeded, 2000);
             
-            const padakanajaSource = { url: PADAKANAJA_COMBINED_FILE, type: 'local' };
-            fetchDictionaryFile(
-                padakanajaSource,
-                (loaded, total, percent) => {
-                    if (!progressShown) {
-                        clearTimeout(progressTimeout);
-                        showProgressIfNeeded();
-                    }
-                    // Percent is already capped at 100% in fetchDictionaryFile
-                    updateProgressIndicator(loaded, total, percent, 'Loading Additional Dictionaries...');
-                }
-            ).then(padakanajaEntries => {
-                clearTimeout(progressTimeout);
-                if (padakanajaEntries && Array.isArray(padakanajaEntries)) {
-                    dictionary.push(...padakanajaEntries);
-                    console.log(`✓ Loaded ${padakanajaEntries.length} entries from combined padakanaja dictionary`);
-                    
-                    // Rebuild reverse index with all entries (incrementally, non-blocking)
-                    // Use requestIdleCallback or chunk the work to avoid blocking
-                    if ('requestIdleCallback' in window) {
-                        requestIdleCallback(() => {
-                            addToReverseIndex(padakanajaEntries);
-                            updateCache();
-                        }, { timeout: 5000 });
+            // Load all chunks sequentially
+            let allPadakanajaEntries = [];
+            let loadedChunks = 0;
+            
+            const loadNextChunk = async (chunkIndex) => {
+                if (chunkIndex >= PADAKANAJA_COMBINED_FILES.length) {
+                    // All chunks loaded
+                    clearTimeout(progressTimeout);
+                    if (allPadakanajaEntries.length > 0) {
+                        dictionary.push(...allPadakanajaEntries);
+                        console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
+
+                        // Rebuild reverse index with all entries (incrementally, non-blocking)
+                        if ('requestIdleCallback' in window) {
+                            requestIdleCallback(() => {
+                                addToReverseIndex(allPadakanajaEntries);
+                                updateCache();
+                            }, { timeout: 5000 });
+                        } else {
+                            // Fallback: chunk the work
+                            setTimeout(() => {
+                                addToReverseIndex(allPadakanajaEntries);
+                                updateCache();
+                            }, 100);
+                        }
+
+                        if (progressShown) {
+                            updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
+                        }
+                        console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
                     } else {
-                        // Fallback: chunk the work
-                        setTimeout(() => {
-                            addToReverseIndex(padakanajaEntries);
-                            updateCache();
-                        }, 100);
+                        console.warn(`⚠ Failed to load padakanaja dictionary chunks`);
+                        if (progressShown) {
+                            updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+                        }
                     }
-                    
-                    if (progressShown) {
-                        updateProgressIndicator(1, 1, 100, 'All Dictionaries Loaded');
-                    }
-                    console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
-                } else {
-                    console.warn(`⚠ Failed to load combined padakanaja dictionary`);
-                    if (progressShown) {
-                        updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
-                    }
+                    return;
                 }
-            }).catch(error => {
+                
+                const chunkFile = PADAKANAJA_COMBINED_FILES[chunkIndex];
+                const padakanajaSource = { url: chunkFile, type: 'local' };
+                
+                try {
+                    const chunkEntries = await fetchDictionaryFile(
+                        padakanajaSource,
+                        (loaded, total, percent) => {
+                            if (!progressShown) {
+                                clearTimeout(progressTimeout);
+                                showProgressIfNeeded();
+                            }
+                            // Calculate overall progress across all chunks
+                            const chunkProgress = (chunkIndex + (percent / 100)) / PADAKANAJA_COMBINED_FILES.length;
+                            const overallPercent = Math.round(chunkProgress * 100);
+                            updateProgressIndicator(
+                                chunkIndex + (percent / 100),
+                                PADAKANAJA_COMBINED_FILES.length,
+                                overallPercent,
+                                `Loading Additional Dictionaries... (${chunkIndex + 1}/${PADAKANAJA_COMBINED_FILES.length})`
+                            );
+                        }
+                    );
+                    
+                    if (chunkEntries && Array.isArray(chunkEntries)) {
+                        allPadakanajaEntries.push(...chunkEntries);
+                        loadedChunks++;
+                        console.log(`✓ Loaded chunk ${chunkIndex + 1}/${PADAKANAJA_COMBINED_FILES.length}: ${chunkEntries.length} entries`);
+                        
+                        // Load next chunk
+                        await loadNextChunk(chunkIndex + 1);
+                    } else {
+                        console.warn(`⚠ Failed to load chunk ${chunkIndex + 1}: ${chunkFile}`);
+                        // Continue with next chunk even if this one failed
+                        await loadNextChunk(chunkIndex + 1);
+                    }
+                } catch (error) {
+                    console.error(`Error loading chunk ${chunkIndex + 1}:`, error);
+                    // Continue with next chunk even if this one failed
+                    await loadNextChunk(chunkIndex + 1);
+                }
+            };
+            
+            // Start loading chunks
+            loadNextChunk(0).catch(error => {
                 clearTimeout(progressTimeout);
-                console.error('Error loading padakanaja dictionary:', error);
+                console.error('Error loading padakanaja dictionary chunks:', error);
                 if (progressShown) {
                     updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
                 }
