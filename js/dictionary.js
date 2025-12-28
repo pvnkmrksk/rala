@@ -244,8 +244,17 @@ async function fetchAndCacheDictionary() {
         dictionary = primaryEntries;
         console.log(`✓ Loaded ${primaryEntries.length} entries from ${PRIMARY_DICTIONARY.name}`);
         
-        // Build reverse index immediately so search works
-        buildReverseIndex();
+        // Load pre-built Alar reverse index instead of building it client-side
+        console.log('Loading pre-built Alar reverse index...');
+        try {
+            await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
+            console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
+        } catch (error) {
+            console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
+            // Fallback: build from entries if pre-built index fails
+            buildReverseIndex();
+            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
+        }
         
         // Hide progress indicator immediately - Alar is ready for search
         const progressEl = document.getElementById('dict-progress');
@@ -287,10 +296,10 @@ async function fetchAndCacheDictionary() {
                         dictionary = dictionary.concat(allPadakanajaEntries);
                         console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
 
-                        // Load pre-built reverse index instead of building it client-side
+                        // Load pre-built padakanaja reverse index instead of building it client-side
                         // This is much faster than building it from scratch
-                        console.log('Loading pre-built reverse index...');
-                        loadPreBuiltReverseIndex().then(() => {
+                        console.log('Loading pre-built padakanaja reverse index...');
+                        loadPreBuiltReverseIndex(PADAKANAJA_REVERSE_INDEX_FILES, PADAKANAJA_REVERSE_INDEX_METADATA, 'Padakanaja').then(() => {
                             console.log(`✓ Reverse index loaded. Total words: ${reverseIndex.size}`);
                             
                             // Update cache asynchronously (non-blocking)
@@ -433,19 +442,21 @@ async function fetchAndCacheDictionary() {
 }
 
 // Load pre-built reverse index from JSON chunks
-async function loadPreBuiltReverseIndex() {
+async function loadPreBuiltReverseIndex(indexFiles, metadataFile, sourceName = '') {
     try {
         // Load metadata first
-        const metadataResponse = await fetch(REVERSE_INDEX_METADATA);
+        const metadataResponse = await fetch(metadataFile);
         if (!metadataResponse.ok) {
             throw new Error(`Failed to load reverse index metadata: ${metadataResponse.status}`);
         }
         const metadata = await metadataResponse.json();
         
-        console.log(`Loading reverse index (${metadata.totalParts} parts, ${metadata.totalWords.toLocaleString()} words)...`);
+        const parts = metadata.totalParts || indexFiles.length;
+        const words = metadata.totalWords || 0;
+        console.log(`Loading ${sourceName} reverse index (${parts} parts, ${words.toLocaleString()} words)...`);
         
         // Load all chunks in parallel
-        const chunkPromises = REVERSE_INDEX_FILES.map(async (file, index) => {
+        const chunkPromises = indexFiles.map(async (file, index) => {
             const response = await fetch(file);
             if (!response.ok) {
                 throw new Error(`Failed to load reverse index chunk ${index + 1}: ${response.status}`);

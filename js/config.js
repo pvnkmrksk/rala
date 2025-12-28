@@ -32,14 +32,26 @@ const PADAKANAJA_COMBINED_FILES = [
     'padakanaja/combined_dictionaries_part4.yml'
 ];
 
-// Pre-built reverse index (split into chunks for faster loading)
-const REVERSE_INDEX_FILES = [
+// Pre-built reverse index for Alar (split into chunks for faster loading)
+const ALAR_REVERSE_INDEX_FILES = [
+    'padakanaja/alar_reverse_index_part1.json',
+    'padakanaja/alar_reverse_index_part2.json',
+    'padakanaja/alar_reverse_index_part3.json',
+    'padakanaja/alar_reverse_index_part4.json',
+    'padakanaja/alar_reverse_index_part5.json',
+    'padakanaja/alar_reverse_index_part6.json',
+    'padakanaja/alar_reverse_index_part7.json'
+];
+const ALAR_REVERSE_INDEX_METADATA = 'padakanaja/alar_reverse_index_metadata.json';
+
+// Pre-built reverse index for padakanaja (split into chunks for faster loading)
+const PADAKANAJA_REVERSE_INDEX_FILES = [
     'padakanaja/reverse_index_part1.json',
     'padakanaja/reverse_index_part2.json',
     'padakanaja/reverse_index_part3.json',
     'padakanaja/reverse_index_part4.json'
 ];
-const REVERSE_INDEX_METADATA = 'padakanaja/reverse_index_metadata.json';
+const PADAKANAJA_REVERSE_INDEX_METADATA = 'padakanaja/reverse_index_metadata.json';
 
 // Global state
 let dictionary = [];
