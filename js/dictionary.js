@@ -164,10 +164,10 @@ async function fetchDictionaryFile(source, onProgress = null) {
         
         // Stream the response for progress tracking
         // On mobile, yield to main thread periodically to prevent blocking
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         const reader = response.body.getReader();
         const decoder = new TextDecoder();
         let text = '';
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         let chunkCount = 0;
         
         while (true) {
@@ -197,7 +197,6 @@ async function fetchDictionaryFile(source, onProgress = null) {
         
         // Detect format: JSON or YAML
         // On mobile, parse large JSON files in idle time to prevent blocking
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         let data;
         
         if (url.endsWith('.json')) {
@@ -453,14 +452,14 @@ async function fetchAndCacheDictionary() {
         
         // Use requestIdleCallback if available, otherwise setTimeout with delay
         // On mobile, use longer delays to prevent blocking
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        const delay = isMobile ? 3000 : 2000; // Longer delay on mobile
+        const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const delay = isMobileDevice ? 3000 : 2000; // Longer delay on mobile
         
         if ('requestIdleCallback' in window) {
             requestIdleCallback(loadPadakanajaAsync, { timeout: delay });
         } else {
             // Fallback: delay longer on mobile
-            setTimeout(loadPadakanajaAsync, isMobile ? 1000 : 500);
+            setTimeout(loadPadakanajaAsync, isMobileDevice ? 1000 : 500);
         }
         
         // Cache function (called separately)
