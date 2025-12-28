@@ -48,7 +48,7 @@ function renderApp(initialQuery = '') {
         </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
-            ${dictionary.length.toLocaleString()} Kannada entries | 
+            ${dictionary.length.toLocaleString()} total entries | 
             ${reverseIndex.size.toLocaleString()} unique English words indexed
         </div>
     `;

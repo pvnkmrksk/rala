@@ -30,8 +30,8 @@ async function loadDictionary() {
                     }
                     dictionaryReady = true;
                     console.log(`✓ Loaded ${dictionary.length} entries from IndexedDB cache`);
-                    console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
-                    return; // Use cache, don't fetch from network
+                console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
+                return; // Use cache, don't fetch from network
                 }
             }
             console.log('No valid cache found in IndexedDB, fetching from network');
@@ -352,10 +352,12 @@ async function fetchAndCacheDictionary() {
             }, 300);
         }
         
-        // Step 2: Load combined padakanaja dictionary in background (truly async, non-blocking)
-        // Use requestIdleCallback or setTimeout to ensure it doesn't block UI
-        // Delay loading to ensure Alar is fully ready and UI is responsive
-        // On mobile, delay even more to ensure smooth initial experience
+        // Step 2: Load combined padakanaja dictionary in background (temporarily disabled)
+        if (PADAKANAJA_COMBINED_FILES.length === 0) {
+            console.log('Padakanaja dictionaries disabled');
+            return;
+        }
+        
         console.log(`Loading additional dictionaries in background (non-blocking)...`);
         
         const loadPadakanajaAsync = () => {
