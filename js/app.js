@@ -222,9 +222,18 @@ function renderApp(initialQuery = '') {
     
     searchInput.addEventListener('input', (e) => {
         clearTimeout(debounceTimer);
+        const query = e.target.value.trim();
+        
+        // If empty, clear immediately
+        if (!query) {
+            performSearch('', false);
+            return;
+        }
+        
+        // Debounce search by 400ms to prevent input lag during typing
         debounceTimer = setTimeout(() => {
             performSearch(e.target.value, false);
-        }, 300);
+        }, 400);
     });
     
     searchInput.addEventListener('keydown', (e) => {
