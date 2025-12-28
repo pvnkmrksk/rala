@@ -286,16 +286,19 @@ async function fetchAndCacheDictionary() {
                         dictionary.push(...allPadakanajaEntries);
                         console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
 
-                        // Rebuild reverse index with all entries (incrementally, non-blocking)
+                        // Build reverse index IMMEDIATELY (synchronously) so search works
+                        // This is critical - search needs the reverse index to be ready
+                        console.log('Building reverse index for padakanaja entries...');
+                        addToReverseIndex(allPadakanajaEntries);
+                        console.log(`✓ Reverse index updated. Total words: ${reverseIndex.size}`);
+
+                        // Update cache asynchronously (non-blocking)
                         if ('requestIdleCallback' in window) {
                             requestIdleCallback(() => {
-                                addToReverseIndex(allPadakanajaEntries);
                                 updateCache();
                             }, { timeout: 5000 });
                         } else {
-                            // Fallback: chunk the work
                             setTimeout(() => {
-                                addToReverseIndex(allPadakanajaEntries);
                                 updateCache();
                             }, 100);
                         }
