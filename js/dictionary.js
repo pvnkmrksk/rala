@@ -149,9 +149,26 @@ async function fetchDictionaryFile(source, onProgress = null) {
         text += decoder.decode();
         
         // Detect format: JSON or YAML
+        // On mobile, parse in chunks to prevent blocking
         let entries;
         if (url.endsWith('.json')) {
-            entries = JSON.parse(text);
+            // Use requestIdleCallback for JSON parsing on mobile to prevent blocking
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            if (isMobile && 'requestIdleCallback' in window) {
+                // Parse in idle time on mobile
+                return new Promise((resolve) => {
+                    requestIdleCallback(() => {
+                        try {
+                            entries = JSON.parse(text);
+                            resolve(normalizeEntryTypes(entries));
+                        } catch (error) {
+                            throw error;
+                        }
+                    }, { timeout: 100 });
+                });
+            } else {
+                entries = JSON.parse(text);
+            }
         } else {
             entries = jsyaml.load(text);
         }
@@ -274,6 +291,7 @@ async function fetchAndCacheDictionary() {
         // Step 2: Load combined padakanaja dictionary in background (truly async, non-blocking)
         // Use requestIdleCallback or setTimeout to ensure it doesn't block UI
         // Delay loading to ensure Alar is fully ready and UI is responsive
+        // On mobile, delay even more to ensure smooth initial experience
         console.log(`Loading additional dictionaries in background (non-blocking)...`);
         
         const loadPadakanajaAsync = () => {
