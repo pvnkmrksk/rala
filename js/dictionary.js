@@ -267,6 +267,7 @@ async function fetchAndCacheDictionary() {
         
         // Step 2: Load combined padakanaja dictionary in background (truly async, non-blocking)
         // Use requestIdleCallback or setTimeout to ensure it doesn't block UI
+        // Delay loading to ensure Alar is fully ready and UI is responsive
         console.log(`Loading additional dictionaries in background (non-blocking)...`);
         
         const loadPadakanajaAsync = () => {
@@ -420,8 +421,17 @@ async function fetchAndCacheDictionary() {
         }
         }
         
-        // Cache Alar dictionary immediately (will update with full dictionary later)
-        updateCache();
+        // Cache Alar dictionary asynchronously (non-blocking) - will update with full dictionary later
+        // Use requestIdleCallback to avoid blocking UI
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => {
+                updateCache();
+            }, { timeout: 1000 });
+        } else {
+            setTimeout(() => {
+                updateCache();
+            }, 100);
+        }
     } catch (error) {
         // If network fetch fails and we have cached data, use it
         if (dictionary.length === 0) {

@@ -753,6 +753,9 @@ body.dark-mode .dict-progress {
     transition: opacity 0.2s;
     text-decoration: none;
     user-select: none;
+    white-space: nowrap; /* Prevent line breaks */
+    display: inline-block; /* Allow width control */
+    min-width: 60px; /* Make it wider to reduce line breaks */
 }
 
 .dict-source:hover {

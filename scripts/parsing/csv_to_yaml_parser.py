@@ -210,6 +210,10 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
                     # Skip if we have no Kannada representation
                     continue
             
+            # Remove numbered prefixes (1. 2. 3. etc.) and split into multiple entries
+            # Pattern: matches "1." or "2." or "10." etc. at the start, optionally followed by space
+            kannada_word_raw = re.sub(r'^\d+\.\s*', '', kannada_word_raw)
+            
             # Split Kannada words by semicolon, comma, or slash to handle synonyms
             # Split by semicolon first, then comma, then slash, and clean each
             # Space is NOT a delimiter - only ; , / are delimiters
@@ -219,10 +223,12 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
                     for slash_part in comma_part.split('/'):
                         # Strip all whitespace including Unicode spaces (non-breaking spaces, etc.)
                         cleaned = slash_part.strip().strip('\u200B\u200C\u200D\uFEFF\u00A0')
+                        # Remove any remaining numbered prefixes that might be in the middle
+                        cleaned = re.sub(r'^\d+\.\s*', '', cleaned)
                         if cleaned:
                             kannada_words.append(cleaned)
             
-            # If no valid words after splitting, use original
+            # If no valid words after splitting, use original (with number prefix removed)
             if not kannada_words:
                 kannada_words = [kannada_word_raw]
             

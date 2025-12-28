@@ -183,7 +183,11 @@ async function checkAudioExists(entryId) {
 
 async function checkAndUpdateAudioButtons(results) {
     // Collect all unique entry IDs from results that we haven't checked yet
-    const entryIds = [...new Set(results.map(r => r.id).filter(id => id && !audioExistenceCache.has(id)))];
+    // Skip non-Alar sources as they don't have audio files
+    const entryIds = [...new Set(results
+        .filter(r => r.id && r.source === 'alar')
+        .map(r => r.id)
+        .filter(id => !audioExistenceCache.has(id)))];
     
     if (entryIds.length === 0) return; // All already checked
     
@@ -223,8 +227,9 @@ function renderResultCard(result, query, isSynonym = false) {
     
     // Check cache first - if we know it doesn't exist, don't show button
     // If unknown, show it and check asynchronously
+    // Skip audio for non-Alar sources (they don't have audio files)
     let showButton = false;
-    if (audioUrl && result.id) {
+    if (audioUrl && result.id && result.source === 'alar') {
         const cached = audioExistenceCache.get(result.id);
         if (cached === true) {
             showButton = true; // We know it exists

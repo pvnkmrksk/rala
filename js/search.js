@@ -61,8 +61,9 @@ function isExactDefinition(definition) {
     return /;\s*(a|an)\s+[^;]+\.\s*$/i.test(lastPart);
 }
 
-function getDefinitionPriority(definition, searchWord) {
+function getDefinitionPriority(definition, searchWord, kannadaEntry = '') {
     // Higher priority = comes first (lower number = higher priority)
+    // Priority 0: Exact full-word match (definition is exactly the search word, nothing else)
     // Priority 1: Search term fully between ";" and "." at the end (e.g., "; a test." or "; north-east.")
     // Priority 2: Search term at the end (before the final period)
     // Priority 3: Other definitions
@@ -75,19 +76,26 @@ function getDefinitionPriority(definition, searchWord) {
     // Escape special regex characters in search word
     const escapedSearch = searchLower.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
     
+    // Priority 0: Exact full-word match - definition is exactly the search word (case-insensitive)
+    // Remove trailing period if present for comparison
+    const trimmedNoPeriod = trimmed.replace(/\.\s*$/, '').trim();
+    if (trimmedNoPeriod.toLowerCase() === searchLower) {
+        return 0; // Absolute highest priority
+    }
+    
     // Priority 1: Check if search term is fully between ";" and "." at the end
     // Pattern: "; ... searchWord." - the search term must be between a semicolon and the final period
     // We want to match: "; [anything] searchWord." where there's a semicolon before and period after
     const betweenSemicolonAndPeriod = new RegExp(`;\\s+[^;]*?${escapedSearch}\\s*\\.\\s*$`, 'i');
     if (betweenSemicolonAndPeriod.test(trimmed)) {
-        return 1; // Highest priority
+        return 1; // Second highest priority
     }
     
     // Priority 2: Check if search term is at the end (before final period, but not necessarily after semicolon)
     // Pattern: "... searchWord." or "... searchWord ."
     const atEndPattern = new RegExp(`${escapedSearch}\\s*\\.\\s*$`, 'i');
     if (atEndPattern.test(trimmed)) {
-        return 2; // Second priority
+        return 2; // Third priority
     }
     
     return 3; // Lowest priority
@@ -181,8 +189,8 @@ function searchDirect(query) {
         
         // Sort by priority, then alphabetically, then by length (long phrases at bottom)
         results.sort((a, b) => {
-            const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-            const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+            const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
+            const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
             if (aPriority !== bPriority) {
                 return aPriority - bPriority;
             }
@@ -369,8 +377,8 @@ function searchDirect(query) {
         
         // Sort each section by priority, then alphabetically, then by length (long phrases at bottom)
         const sortWithLength = (a, b) => {
-            const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-            const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+            const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
+            const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
             if (aPriority !== bPriority) {
                 return aPriority - bPriority;
             }
@@ -412,8 +420,8 @@ function searchDirect(query) {
         // Sort results: prioritize by position in definition, then alphabetically, then by length
         anyWordResults.sort((a, b) => {
             // Get priority for each result (using the matched word as search term)
-            const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-            const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+            const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
+            const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
             
             // Lower priority number = higher priority (comes first)
             if (aPriority !== bPriority) {
@@ -539,8 +547,8 @@ async function searchWithSynonyms(query) {
     
     results.sort((a, b) => {
         // Get priority for each result (using the matched word as search term)
-        const aPriority = getDefinitionPriority(a.definition, a.matchedWord);
-        const bPriority = getDefinitionPriority(b.definition, b.matchedWord);
+        const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
+        const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
         
         // Lower priority number = higher priority (comes first)
         if (aPriority !== bPriority) {
