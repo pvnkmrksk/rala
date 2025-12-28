@@ -303,37 +303,25 @@ async function fetchAndCacheDictionary() {
                         dictionary = dictionary.concat(allPadakanajaEntries);
                         console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
 
-                        // Load pre-built padakanaja reverse index instead of building it client-side
-                        // This is much faster than building it from scratch
-                        console.log('Loading pre-built padakanaja reverse index...');
-                        loadPreBuiltReverseIndex(PADAKANAJA_REVERSE_INDEX_FILES, PADAKANAJA_REVERSE_INDEX_METADATA, 'Padakanaja').then(() => {
-                            console.log(`✓ Reverse index loaded. Total words: ${reverseIndex.size}`);
-                            
-                            // Update cache asynchronously (non-blocking)
-                            if ('requestIdleCallback' in window) {
-                                requestIdleCallback(() => {
-                                    updateCache();
-                                }, { timeout: 5000 });
-                            } else {
-                                setTimeout(() => {
-                                    updateCache();
-                                }, 100);
-                            }
+                        // Padakanaja entries are English->Kannada, so we search directly (no reverse index needed)
+                        // Reverse index is only for Alar (Kannada->English)
+                        console.log('✓ Padakanaja entries loaded - will search directly (no reverse index needed)');
+                        
+                        // Update cache asynchronously (non-blocking)
+                        if ('requestIdleCallback' in window) {
+                            requestIdleCallback(() => {
+                                updateCache();
+                            }, { timeout: 5000 });
+                        } else {
+                            setTimeout(() => {
+                                updateCache();
+                            }, 100);
+                        }
 
-                            if (progressShown) {
-                                updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
-                            }
-                            console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
-                        }).catch(error => {
-                            console.error('Failed to load pre-built reverse index, building from entries:', error);
-                            // Fallback: build from entries if pre-built index fails
-                            addToReverseIndex(allPadakanajaEntries);
-                            console.log(`✓ Reverse index built from entries. Total words: ${reverseIndex.size}`);
-                            
-                            if (progressShown) {
-                                updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
-                            }
-                        });
+                        if (progressShown) {
+                            updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
+                        }
+                        console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
                     } else {
                         console.warn(`⚠ Failed to load padakanaja dictionary chunks`);
                         if (progressShown) {
