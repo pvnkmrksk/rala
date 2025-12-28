@@ -32,3 +32,4 @@ python csv_to_yaml_parser.py ../padakanaja/file.csv
 python batch_parse_padakanaja.py
 ```
 
+

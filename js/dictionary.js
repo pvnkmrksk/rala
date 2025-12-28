@@ -136,7 +136,7 @@ async function fetchDictionaryFile(source) {
 // Progress tracking for background dictionary loading
 let backgroundLoadProgress = {
     current: 0,
-    total: PADAKANAJA_DICTIONARIES.length,
+    total: 1, // Now just one combined file
     isActive: false
 };
 
@@ -171,7 +171,7 @@ function updateProgressIndicator(loaded, total, currentFile = '') {
 // Fetch dictionary from network and cache it in IndexedDB
 async function fetchAndCacheDictionary() {
     try {
-        console.log('=== MULTI-DICTIONARY LOADER v1.2 ===');
+        console.log('=== MULTI-DICTIONARY LOADER v1.6 (Combined File) ===');
         
         // Step 1: Load primary dictionary first
         console.log(`Loading primary dictionary: ${PRIMARY_DICTIONARY.name}`);
@@ -194,35 +194,26 @@ async function fetchAndCacheDictionary() {
         // Build reverse index immediately so search works
         buildReverseIndex();
         
-        // Step 2: Load additional dictionaries in background (sequentially)
-        if (PADAKANAJA_DICTIONARIES.length > 0) {
-            console.log(`Loading ${PADAKANAJA_DICTIONARIES.length} additional dictionaries in background...`);
+        // Step 2: Load combined padakanaja dictionary (single file)
+        console.log(`Loading combined padakanaja dictionary...`);
+        createProgressIndicator();
+        updateProgressIndicator(0, 1, 'Loading combined dictionary...');
+        
+        const padakanajaSource = { url: PADAKANAJA_COMBINED_FILE, type: 'local' };
+        const padakanajaEntries = await fetchDictionaryFile(padakanajaSource);
+        
+        if (padakanajaEntries && Array.isArray(padakanajaEntries)) {
+            dictionary.push(...padakanajaEntries);
+            console.log(`✓ Loaded ${padakanajaEntries.length} entries from combined padakanaja dictionary`);
             
-            // Create progress indicator
-            createProgressIndicator();
+            // Rebuild reverse index with all entries
+            addToReverseIndex(padakanajaEntries);
             
-            // Load sequentially
-            for (let i = 0; i < PADAKANAJA_DICTIONARIES.length; i++) {
-                const filePath = PADAKANAJA_DICTIONARIES[i];
-                const source = { url: filePath, type: 'local' };
-                
-                updateProgressIndicator(i, PADAKANAJA_DICTIONARIES.length, filePath);
-                
-                const entries = await fetchDictionaryFile(source);
-                if (entries && Array.isArray(entries)) {
-                    // Preserve source info from YAML entries
-                    dictionary.push(...entries);
-                    console.log(`✓ Loaded ${entries.length} entries from ${filePath} (${i + 1}/${PADAKANAJA_DICTIONARIES.length})`);
-                    
-                    // Rebuild reverse index incrementally
-                    addToReverseIndex(entries);
-                } else {
-                    console.warn(`⚠ Skipped ${filePath} (failed to load or empty)`);
-                }
-            }
-            
-            updateProgressIndicator(PADAKANAJA_DICTIONARIES.length, PADAKANAJA_DICTIONARIES.length);
-            console.log(`✓ Total loaded: ${dictionary.length} entries from ${1 + PADAKANAJA_DICTIONARIES.length} sources`);
+            updateProgressIndicator(1, 1);
+            console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
+        } else {
+            console.warn(`⚠ Failed to load combined padakanaja dictionary`);
+            updateProgressIndicator(1, 1);
         }
         
         // Cache the complete dictionary in IndexedDB
