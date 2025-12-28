@@ -96,8 +96,19 @@ def combine_all_dictionaries(
         print(f"\nSplitting into chunks (target: {chunk_size_mb}MB per chunk)...")
         split_combined_dictionary(str(output_path), chunk_size_mb, str(output_path.parent))
         
+        # Generate reverse index
+        print(f"\nGenerating reverse index...")
+        from scripts.parsing.generate_reverse_index import generate_reverse_index
+        generate_reverse_index(str(output_path.parent), str(output_path.parent / 'reverse_index.json'))
+        
+        # Split reverse index into chunks
+        print(f"\nSplitting reverse index into chunks...")
+        from scripts.parsing.split_reverse_index import split_reverse_index
+        split_reverse_index(str(output_path.parent / 'reverse_index.json'), chunk_size_mb, str(output_path.parent))
+        
         print(f"\n✓ Combined dictionary ready: {output_path}")
         print(f"  (Also split into chunks for git compatibility)")
+        print(f"  (Reverse index generated and split into chunks)")
     else:
         print(f"\nSaving combined dictionary to: {output_path}")
         with open(output_path, 'w', encoding='utf-8') as f:
