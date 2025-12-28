@@ -76,17 +76,36 @@ def combine_all_dictionaries(
     
     print(f"✓ Combined {len(all_entries):,} entries from {len(yaml_files)} padakanaja dictionaries")
     
-    # Save combined file
+    # Save combined file (and optionally split into chunks)
     output_path = Path(output_file)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
-    print(f"\nSaving combined dictionary to: {output_path}")
-    with open(output_path, 'w', encoding='utf-8') as f:
-        yaml.dump(all_entries, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
-    
-    file_size = output_path.stat().st_size / (1024 * 1024)  # MB
-    print(f"✓ Saved {len(all_entries):,} entries ({file_size:.2f} MB)")
-    print(f"\n✓ Combined dictionary ready: {output_path}")
+    if split_into_chunks:
+        # Import split function
+        from scripts.parsing.split_combined_dictionary import split_combined_dictionary
+        
+        # First save the combined file temporarily
+        print(f"\nSaving combined dictionary to: {output_path}")
+        with open(output_path, 'w', encoding='utf-8') as f:
+            yaml.dump(all_entries, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+        
+        file_size = output_path.stat().st_size / (1024 * 1024)  # MB
+        print(f"✓ Saved {len(all_entries):,} entries ({file_size:.2f} MB)")
+        
+        # Now split into chunks
+        print(f"\nSplitting into chunks (target: {chunk_size_mb}MB per chunk)...")
+        split_combined_dictionary(str(output_path), chunk_size_mb, str(output_path.parent))
+        
+        print(f"\n✓ Combined dictionary ready: {output_path}")
+        print(f"  (Also split into chunks for git compatibility)")
+    else:
+        print(f"\nSaving combined dictionary to: {output_path}")
+        with open(output_path, 'w', encoding='utf-8') as f:
+            yaml.dump(all_entries, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+        
+        file_size = output_path.stat().st_size / (1024 * 1024)  # MB
+        print(f"✓ Saved {len(all_entries):,} entries ({file_size:.2f} MB)")
+        print(f"\n✓ Combined dictionary ready: {output_path}")
 
 
 if __name__ == '__main__':
