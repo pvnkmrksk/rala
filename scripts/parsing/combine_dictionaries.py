@@ -33,7 +33,9 @@ def load_yaml_file(file_path: Path) -> List[Dict[str, Any]]:
 def combine_all_dictionaries(
     padakanaja_dir: str = 'padakanaja',
     alar_url: str = 'https://raw.githubusercontent.com/alar-dict/data/master/alar.yml',
-    output_file: str = 'padakanaja/combined_dictionaries.yml'
+    output_file: str = 'padakanaja/combined_dictionaries.yml',
+    split_into_chunks: bool = True,
+    chunk_size_mb: float = 70.0
 ):
     """
     Combine all padakanaja YAML files and optionally fetch Alar dictionary.
