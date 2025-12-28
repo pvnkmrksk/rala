@@ -68,25 +68,31 @@
   id: absconder_ba14b0aea90d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Absconder
-- entry: 1. ಗೈರುಹಾಜರಾಗು
+- entry: ಗೈರುಹಾಜರಾಗು
   defs:
   - &id005
     entry: Absent
     type: Noun
-  id: absent_4f033d5c6705
+  id: absent_db345cb1774c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Absent
-- entry: ಇಲ್ಲದಿರು 2. ಗೈರುಹಾಜರಾದ
+- entry: ಇಲ್ಲದಿರು
   defs:
   - *id005
-  id: absent_2faa8b4f8f25
+  id: absent_514a59ac9a11
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Absent
+- entry: ಗೈರುಹಾಜರಾದ
+  defs:
+  - *id005
+  id: absent_8dc4e83dbdc1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Absent
 - entry: ರಜ ಪಡೆಯದೆ ಗೈರುಹಾಜರಾದ
   defs:
   - entry: Absent without leave
     type: Noun
-  id: absentwith_b5ca3cebe373
+  id: absentwith_4ea166396c97
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Absent without leave
 - entry: ಗೋಶ್ವಾರೆ ಸಾರಾಂಶ
@@ -94,47 +100,65 @@
   - &id006
     entry: Abstract
     type: Noun
-  id: abstract_a540b17319fe
+  id: abstract_4f4c8df4958b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abstract
 - entry: ಸಂಕ್ಷಿಪ್ತ
   defs:
   - *id006
-  id: abstract_de730af361a3
+  id: abstract_1546d10f1128
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abstract
 - entry: ಸಂಕ್ಷಿಪ್ತ ಸಾದಿಲ್ವಾರು ಬಿಲ್ಲು
   defs:
   - entry: Abstract contingent bill
     type: Noun
-  id: abstractco_fda86a7dd22f
+  id: abstractco_263d23c78357
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abstract contingent bill
 - entry: ಸಂಕ್ಟಿಪ್ತ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Abstract register
     type: Noun
-  id: abstractre_2d4dd0b43f2d
+  id: abstractre_9953468b78d7
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abstract register
-- entry: 1. ದುರುಪಯೋಗ ಮಾಡು 2. ಬಯ್ಯು
+- entry: ದುರುಪಯೋಗ ಮಾಡು
   defs:
   - &id007
     entry: Abuse
     type: Noun
-  id: abuse_b58269cc773b
+  id: abuse_f35b0c5a341e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abuse
-- entry: ನಿಂದಿಸು 3. ದುರುಪಯೋಗ 4. ಬೈಗುಳು
+- entry: ಬಯ್ಯು
   defs:
   - *id007
-  id: abuse_be084528d0bb
+  id: abuse_64de8558eec7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abuse
+- entry: ನಿಂದಿಸು
+  defs:
+  - *id007
+  id: abuse_aff3427870dd
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abuse
+- entry: ದುರುಪಯೋಗ
+  defs:
+  - *id007
+  id: abuse_030a017e1c4f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Abuse
+- entry: ಬೈಗುಳು
+  defs:
+  - *id007
+  id: abuse_d1e29c0aa3da
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abuse
 - entry: ನಿಂದನೆ
   defs:
   - *id007
-  id: abuse_728bc25fda7d
+  id: abuse_8018f807afcc
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Abuse
 - entry: ಉಪಸಾಧನ
@@ -142,2077 +166,2284 @@
   - &id008
     entry: Accessory
     type: Noun
-  id: accessory_f70c96e4e416
+  id: accessory_4c4dd271e832
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accessory
 - entry: ಪರಿಕರ
   defs:
   - *id008
-  id: accessory_a714ab4530a9
+  id: accessory_fed5b25c6459
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accessory
-- entry: 1 ಅಪಘಾತ 2. ಆಕಸ್ಮಿಕ
-  defs:
-  - entry: Accident
-    type: Noun
-  id: accident_b386a6ae488b
-  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
-  head: Accident
-- entry: 1. ವಸತಿ 2. ಸ್ಥಳಾವಕಾಶ
-  defs:
-  - entry: Accommodation
-    type: Noun
-  id: accommodat_f3f7e269eb42
-  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
-  head: Accommodation
-- entry: 1. ಲೆಕ್ಕಕೊಡು 2. ಲೆಕ್ಕ
+- entry: 1 ಅಪಘಾತ
   defs:
   - &id009
+    entry: Accident
+    type: Noun
+  id: accident_d0c0a2e417c4
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accident
+- entry: ಆಕಸ್ಮಿಕ
+  defs:
+  - *id009
+  id: accident_b8ff286bc0b5
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accident
+- entry: ವಸತಿ
+  defs:
+  - &id010
+    entry: Accommodation
+    type: Noun
+  id: accommodat_5e2afc47cf91
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accommodation
+- entry: ಸ್ಥಳಾವಕಾಶ
+  defs:
+  - *id010
+  id: accommodat_8e6b88398ceb
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Accommodation
+- entry: ಲೆಕ್ಕಕೊಡು
+  defs:
+  - &id011
     entry: Account
     type: Noun
-  id: account_6c30f635cf21
+  id: account_867ae4c9c9a3
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Account
+- entry: ಲೆಕ್ಕ
+  defs:
+  - *id011
+  id: account_0dd332c8210d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
 - entry: ಖಾತೆ
   defs:
-  - *id009
-  id: account_7029cf9c8665
+  - *id011
+  id: account_ac744bef596c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
 - entry: ಲೆಕ್ಕಗಳು
   defs:
-  - &id010
+  - &id012
     entry: Accounts
     type: Noun
-  id: accounts_a145e52d0065
+  id: accounts_c798f4ff8341
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accounts
 - entry: ಲೆಕ್ಕಪತ್ರಗಳು
   defs:
-  - *id010
-  id: accounts_a4f568093b97
+  - *id012
+  id: accounts_1f327e33c19f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accounts
 - entry: ಕರಾರುವಾಕ್ಕಾಗಿ
   defs:
-  - &id011
+  - &id013
     entry: Accurately
     type: Noun
-  id: accurately_93566fc5f5d4
+  id: accurately_241357a6e090
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accurately
 - entry: ನಿಖರವಾಗಿ
   defs:
-  - *id011
-  id: accurately_06b566370b58
+  - *id013
+  id: accurately_8187e20b0f2d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accurately
 - entry: ಆಪಾದಿಸು
   defs:
-  - &id012
+  - &id014
     entry: Accuse
     type: Noun
-  id: accuse_74309715bed6
+  id: accuse_37ef36bfcfde
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accuse
 - entry: ಆರೋಪಿಸು
   defs:
-  - *id012
-  id: accuse_48fe7aecab5f
+  - *id014
+  id: accuse_6fc2aebccc64
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accuse
 - entry: ಆಪಾದಿತ
   defs:
-  - &id013
+  - &id015
     entry: Accused
     type: Noun
-  id: accused_9ba5498c6e70
+  id: accused_34fda136f38f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accused
 - entry: ಆರೋಪಿ
   defs:
-  - *id013
-  id: accused_c84e32c8c477
+  - *id015
+  id: accused_a990c3ae22b1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Accused
 - entry: ಭೂಸ್ವಾಧಿನತೆ
   defs:
   - entry: Acquisition of lands
     type: Noun
-  id: acquisitio_51805df97ad5
+  id: acquisitio_1df4b81a86c2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Acquisition of lands
 - entry: ಖುಲಾಸೆಮಾಡು
   defs:
-  - &id014
+  - &id016
     entry: Acquit
     type: Noun
-  id: acquit_4dbbc506af30
+  id: acquit_92ad4b7ae12a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Acquit
 - entry: ನಿರ್ದೋಷಿಯೆಂದು ನಿರ್ಣಯಿಸು
   defs:
-  - *id014
-  id: acquit_4ac2605b225b
+  - *id016
+  id: acquit_aa0e27ac670f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Acquit
 - entry: ಖುಲಾಸೆ
   defs:
-  - &id015
+  - &id017
     entry: Acquittal
     type: Noun
-  id: acquittal_05fb7ac834cd
+  id: acquittal_4dfe961e4577
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Acquittal
 - entry: ನಿರ್ದೋಷಿಯೆಂಬ ನಿರ್ಣಯ
   defs:
-  - *id015
-  id: acquittal_54a31c23e91b
+  - *id017
+  id: acquittal_238382c396ba
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Acquittal
-- entry: 1. ನಟನೆ ಮಾಡು 2. ಕೆಲಸ
+- entry: ನಟನೆ ಮಾಡು
   defs:
-  - &id016
+  - &id018
     entry: Act
     type: Noun
-  id: act_d3f48a585d5e
+  id: act_438f070637d5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Act
-- entry: ಕಾರ್ಯ 3. ಅಧಿನಿಯಮ
+- entry: ಕೆಲಸ
   defs:
-  - *id016
-  id: act_56c8ee1e148f
+  - *id018
+  id: act_b96116f6fc8e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Act
+- entry: ಕಾರ್ಯ
+  defs:
+  - *id018
+  id: act_a66d264c6897
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Act
+- entry: ಅಧಿನಿಯಮ
+  defs:
+  - *id018
+  id: act_edfe7ae92197
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Act
 - entry: ವ್ಯಸನಿ
   defs:
-  - &id017
+  - &id019
     entry: Addict
     type: Noun
-  id: addict_925db8366bc2
+  id: addict_bcdd26e85150
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Addict
 - entry: ದುಶ್ಚಟಗಳ ಗುಲಾಮ
   defs:
-  - *id017
-  id: addict_6dfb9ef225ea
+  - *id019
+  id: addict_7dfa8299e673
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Addict
 - entry: ಹೆಚ್ಚುವರಿ ಬಜೆಟ್‌ ಅನುದಾನಗಳು
   defs:
   - entry: Additional budget grants
     type: Noun
-  id: additional_7d980dded846
+  id: additional_9c837b76613f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Additional budget grants
 - entry: ಅಡ್‌ಹಾಕ್‌ ಕಮಿಟಿ
   defs:
-  - &id018
+  - &id020
     entry: Adhoc committee
     type: Noun
-  id: adhoccommi_8f00e04b8aba
+  id: adhoccommi_1363bc561878
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Adhoc committee
 - entry: ತತ್ಪೂರ್ತ ಸಮಿತಿ
   defs:
-  - *id018
-  id: adhoccommi_9e851420b91f
+  - *id020
+  id: adhoccommi_8b28e09628a3
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Adhoc committee
-- entry: 1. ಮುಂದೂಡಿಕೆ 2. ನಿಲುವಳಿ
+- entry: ಮುಂದೂಡಿಕೆ
   defs:
-  - entry: Adjournment
+  - &id021
+    entry: Adjournment
     type: Noun
-  id: adjournmen_aee7eead0cff
+  id: adjournmen_13a7c88e35d1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Adjournment
+- entry: ನಿಲುವಳಿ
+  defs:
+  - *id021
+  id: adjournmen_775c32ea4564
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Adjournment
 - entry: ಆಡಳಿತ ವರದಿ
   defs:
   - entry: Administration report
     type: Noun
-  id: administra_4b721f46ae83
+  id: administra_1040053c2d19
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Administration report
 - entry: ಕಾರಾಗೃಹಕ್ಕೆ ಸೇರಿಸಿಕೊಳ್ಳುವುದು
   defs:
   - entry: Admission into prison
     type: Noun
-  id: admissioni_ba8d068d9b39
+  id: admissioni_eff493015b1a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Admission into prison
 - entry: ವಾಗ್ದಂಡನೆ
   defs:
   - entry: Admonition
     type: Noun
-  id: admonition_b14fe0a7cf6c
+  id: admonition_07997c5bb5f5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Admonition
 - entry: ವಯಸ್ಕ
   defs:
   - entry: Adult
     type: Noun
-  id: adult_69dd15c35dcc
+  id: adult_2e1b857df385
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Adult
 - entry: ಮುಂಗಡ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Advance register
     type: Noun
-  id: advancereg_d0458f85d277
+  id: advancereg_6f0ac8a9bfb7
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Advance register
 - entry: ಪ್ರತಿಕೂಲ ಶರಾ
   defs:
   - entry: Adverse remarks
     type: Noun
-  id: adverserem_4bd14ba5b1eb
+  id: adverserem_9907a0ea977a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Adverse remarks
 - entry: ಜಾಹೀರಾತು
   defs:
   - entry: Advertisement
     type: Noun
-  id: advertisem_89692f85eb3d
+  id: advertisem_b0bd73fb41f8
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Advertisement
 - entry: ಸಲಹಾ ಮಂಡಲಿ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Advisory board register
     type: Noun
-  id: advisorybo_4b58d68f2972
+  id: advisorybo_f143a29b1485
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Advisory board register
 - entry: ಆಡ್ಜೋಕೇಟ್‌ ವಕೀಲ
   defs:
-  - &id019
+  - &id022
     entry: Advocate
     type: Noun
-  id: advocate_9c0e00811b0d
+  id: advocate_b0fe751084ed
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Advocate
 - entry: ನ್ಯಾಯವಾದಿ
   defs:
-  - *id019
-  id: advocate_837d88ceb790
+  - *id022
+  id: advocate_8a95a6826064
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Advocate
 - entry: ಅಫಿಡವಿಟ್
   defs:
-  - &id020
+  - &id023
     entry: Affidavit
     type: Noun
-  id: affidavit_07c09b311112
+  id: affidavit_dc3f69fcc095
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Affidavit
 - entry: ಶಪಥಪತ್ರ
   defs:
-  - *id020
-  id: affidavit_1d8b0a4ae1a5
+  - *id023
+  id: affidavit_0a65015e12d9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Affidavit
 - entry: ದೃಢೀಕರಿಸು
   defs:
   - entry: Affirm
     type: Noun
-  id: affirm_bbad92de7831
+  id: affirm_20a41235444f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Affirm
 - entry: ಬೀದಿ ಜಗಳ
   defs:
-  - &id021
+  - &id024
     entry: Affray
     type: Noun
-  id: affray_ddfd76b2355d
+  id: affray_38858a29aa74
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Affray
 - entry: ದೊಂಬಿ
   defs:
-  - *id021
-  id: affray_865880048b84
+  - *id024
+  id: affray_d5ae3e721cb2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Affray
 - entry: ಅಜೆಂಡಾ
   defs:
-  - &id022
+  - &id025
     entry: Agenda
     type: Noun
-  id: agenda_039f6068e105
+  id: agenda_c012d42c1882
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agenda
 - entry: ಕಾರ್ಯಸೂಚಿ
   defs:
-  - *id022
-  id: agenda_2a3406672193
+  - *id025
+  id: agenda_0b53e7b06439
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agenda
 - entry: ಹೆಚ್ಚಿಸು
   defs:
-  - &id023
+  - &id026
     entry: Aggravate
     type: Noun
-  id: aggravate_58f96a9a729d
+  id: aggravate_b4d8407ba16e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Aggravate
 - entry: ತೀವ್ರಗೊಳಿಸು
   defs:
-  - *id023
-  id: aggravate_0b87f005907d
+  - *id026
+  id: aggravate_5329d6199da7
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Aggravate
 - entry: ಉಲ್ಬಣಗೊಳಿಸು
   defs:
-  - *id023
-  id: aggravate_85da57f20779
+  - *id026
+  id: aggravate_0508a9c87b96
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Aggravate
 - entry: ಆಂದೋಲನ
   defs:
-  - &id024
+  - &id027
     entry: Agitate
     type: Noun
-  id: agitate_8220a68f719a
+  id: agitate_e86d29071f9c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agitate
 - entry: ಚಳವಳಿ ಮಾಡು
   defs:
-  - *id024
-  id: agitate_a1f16781e52d
+  - *id027
+  id: agitate_e0a8a554d531
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agitate
 - entry: ಆಂದೋಲನ
   defs:
-  - &id025
+  - &id028
     entry: Agitation
     type: Noun
-  id: agitation_7e8e2b7d80ab
+  id: agitation_13729997533f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agitation
 - entry: ಚಳುವಳಿ
   defs:
-  - *id025
-  id: agitation_cc596ae85082
+  - *id028
+  id: agitation_fa65bfbb114d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agitation
 - entry: ಒಪ್ಪಂದ
   defs:
-  - &id026
+  - &id029
     entry: Agreement
     type: Noun
-  id: agreement_ce0f9b77545c
+  id: agreement_d8c7ae200004
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agreement
 - entry: ಒಡಂಬಡಿಕೆ
   defs:
-  - *id026
-  id: agreement_c021f126be1a
+  - *id029
+  id: agreement_64cb721bbe7c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agreement
 - entry: ಒಪ್ಪಿಗೆ
   defs:
-  - *id026
-  id: agreement_f4e4da62a028
+  - *id029
+  id: agreement_dee9c7d8368b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agreement
 - entry: ಕರಾರು
   defs:
-  - *id026
-  id: agreement_cbb62f72fabb
+  - *id029
+  id: agreement_1013bcccbcdd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Agreement
 - entry: ಕಾಯಿಲೆ
   defs:
-  - &id027
+  - &id030
     entry: Ailment
     type: Noun
-  id: ailment_78c38048e2e1
+  id: ailment_b4d84c014237
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ailment
 - entry: ಜಡ್ಡು
   defs:
-  - *id027
-  id: ailment_9669233972e8
+  - *id030
+  id: ailment_1c7a1ca63c18
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ailment
 - entry: ಛೀಮಾರಿ
   defs:
-  - *id027
-  id: ailment_f153ce2363c2
+  - *id030
+  id: ailment_e67a4d4ccd44
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ailment
-- entry: 1. ಅಪಾಯ ಸೂಚಕ 2. ಅಪಾಯದ ಎಚ್ಚರಿಕೆ
+- entry: ಅಪಾಯ ಸೂಚಕ
   defs:
-  - entry: Alarm
+  - &id031
+    entry: Alarm
     type: Noun
-  id: alarm_e4d716bc120c
+  id: alarm_9f80d4d22b15
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Alarm
+- entry: ಅಪಾಯದ ಎಚ್ಚರಿಕೆ
+  defs:
+  - *id031
+  id: alarm_3772cd5324d4
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Alarm
 - entry: ಆಪಾದನೆ
   defs:
-  - &id028
+  - &id032
     entry: Allegation
     type: Noun
-  id: allegation_864fa984d411
+  id: allegation_c540ae72db01
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allegation
 - entry: ಆರೋಪ
   defs:
-  - *id028
-  id: allegation_c1c0153989b8
+  - *id032
+  id: allegation_c978f4cdbb76
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allegation
 - entry: ಆಪಾದಿಸು
   defs:
-  - &id029
+  - &id033
     entry: Allege
     type: Noun
-  id: allege_38a79130dd7b
+  id: allege_8b824864f0df
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allege
 - entry: ಆರೋಪಿಸು
   defs:
-  - *id029
-  id: allege_a4c1cc7e9992
+  - *id033
+  id: allege_abe756a7c99b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allege
 - entry: ಹಂಚಿಕೆ ವಿವರಣಾಪತ್ರ.
   defs:
   - entry: Allocation statement
     type: Noun
-  id: allocation_0298003198d7
+  id: allocation_a218fd65fd20
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allocation statement
 - entry: ಹಣದ ಹಂಚಿಕೆ
   defs:
   - entry: Allotment of funds
     type: Noun
-  id: allotmento_463b56f12475
+  id: allotmento_b51602037276
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allotment of funds
-- entry: 1. ಭತ್ಯೆ 2.ರಿಯಾಯಿತಿ
+- entry: ಭತ್ಯೆ
   defs:
-  - entry: Allowance
+  - &id034
+    entry: Allowance
     type: Noun
-  id: allowance_d06e73ab4a6a
+  id: allowance_f0498d003209
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Allowance
+- entry: ರಿಯಾಯಿತಿ
+  defs:
+  - *id034
+  id: allowance_6ef5a3079154
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Allowance
 - entry: ಅಲ್ಯೂಮಿನಿಯಂ ಪಾತ್ರೆ
   defs:
   - entry: Alluminium vessel
     type: Noun
-  id: alluminium_6dac703aa27d
+  id: alluminium_bd3303af4534
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Alluminium vessel
 - entry: ಬದಲಾಯಿಸು
   defs:
-  - &id030
+  - &id035
     entry: Alter
     type: Noun
-  id: alter_fe98e9fc0b32
+  id: alter_9dff4fd90d9c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Alter
 - entry: ಮಾರ್ಪಡಿಸು
   defs:
-  - *id030
-  id: alter_630d89f588bc
+  - *id035
+  id: alter_e94f17077157
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Alter
 - entry: ಪರ್ಯಾಯ ವ್ಯವಸ್ಥೆ ಗಳು
   defs:
-  - &id031
+  - &id036
     entry: Alternate arrangements
     type: Noun
-  id: alternatea_58998a3362d1
+  id: alternatea_288f7310dd4d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Alternate arrangements
 - entry: ಬದಲಿ ಏರ್ಪಾಡುಗಳು
   defs:
-  - *id031
-  id: alternatea_af9cfa1e188a
+  - *id036
+  id: alternatea_f01c9df18d24
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Alternate arrangements
 - entry: ನವಸಾಗರ
   defs:
   - entry: Aluminium chloride
     type: Noun
-  id: aluminiumc_e412c6d8199d
+  id: aluminiumc_a45b6a147b9c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Aluminium chloride
 - entry: ಆಂಬ್ಯುಲೆನ್ಸ್
   defs:
-  - &id032
+  - &id037
     entry: Ambulance
     type: Noun
-  id: ambulance_39577fd06218
+  id: ambulance_fd2929757ca9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ambulance
 - entry: ರೋಗಿವಾಹನ
   defs:
-  - *id032
-  id: ambulance_7a432d43803f
+  - *id037
+  id: ambulance_5678124fd2f4
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ambulance
-- entry: 1. ಹೊಂಚುಹಾಕಿ ದಾಳಿಮಾಡು 2. ಹೊಂಚುದಾಳಿ
+- entry: ಹೊಂಚುಹಾಕಿ ದಾಳಿಮಾಡು
   defs:
-  - entry: Ambush
+  - &id038
+    entry: Ambush
     type: Noun
-  id: ambush_cc6c2c92b115
+  id: ambush_3c2df5751f0f
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ambush
+- entry: ಹೊಂಚುದಾಳಿ
+  defs:
+  - *id038
+  id: ambush_497669cf2222
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ambush
 - entry: ತಿದ್ದುಪಡಿ
   defs:
   - entry: Amendment
     type: Noun
-  id: amendment_553bd3ba6f0b
+  id: amendment_f08d8af01132
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Amendment
-- entry: 1. ಮದ್ದುಗುಂಡು 2.ಯುದ್ಧಸಾಮಗ್ರಿ
+- entry: ಮದ್ದುಗುಂಡು
   defs:
-  - entry: Ammunition
+  - &id039
+    entry: Ammunition
     type: Noun
-  id: ammunition_ccfd680a17c9
+  id: ammunition_9600900278a7
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ammunition
+- entry: ಯುದ್ಧಸಾಮಗ್ರಿ
+  defs:
+  - *id039
+  id: ammunition_26d711b0e442
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ammunition
 - entry: ಮದ್ದು ಗುಂಡಿನ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Ammunition register
     type: Noun
-  id: ammunition_3f5b42f5a602
+  id: ammunition_d4647c6fe273
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ammunition register
 - entry: ಅಂಗಚ್ಛೇದ ಮಾಡು
   defs:
-  - &id033
+  - &id040
     entry: Amputate
     type: Noun
-  id: amputate_036e9a4ac8b4
+  id: amputate_109e54539fd8
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Amputate
 - entry: ಕೊಯ್ದುಹಾಕು
   defs:
-  - *id033
-  id: amputate_76cca353f5a9
+  - *id040
+  id: amputate_886656a2f56a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Amputate
 - entry: ಕತ್ತರಿಸಿಹಾಕು
   defs:
-  - *id033
-  id: amputate_87a19ecbf4ba
+  - *id040
+  id: amputate_dd9553133354
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Amputate
 - entry: ಬದ್ಧವೈರಿ
   defs:
-  - &id034
+  - &id041
     entry: Animosity
     type: Noun
-  id: animosity_b0ffd2a7c381
+  id: animosity_596525c0f59d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Animosity
 - entry: ದ್ವೇಷ
   defs:
-  - *id034
-  id: animosity_53438791d310
+  - *id041
+  id: animosity_1f891fb4aae5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Animosity
 - entry: ಕಾಲಿನ ಹರಡು
   defs:
   - entry: Ankle
     type: Noun
-  id: ankle_10584086305d
+  id: ankle_4cfdff9e8303
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ankle
 - entry: ಕಾಲಿನ ಬಳೆ
   defs:
   - entry: Ankle ring
     type: Noun
-  id: anklering_098a3a365ea6
+  id: anklering_229863250264
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ankle ring
 - entry: ವಾರ್ಷಿಕ ಆಡಳಿತ ವರದಿ
   defs:
   - entry: Annual administration report
     type: Noun
-  id: annualadmi_8ddabde7f224
+  id: annualadmi_43139de2e86d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Annual administration report
 - entry: ವಾರ್ಷಿಕ ಅಂಕ ಅಂಶಗಳ ವಿವರ ಪಟ್ಟಿಕೆ
   defs:
   - entry: Annual statistical return
     type: Noun
-  id: annualstat_ea8781278145
+  id: annualstat_8ca6927f9a1a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Annual statistical return
 - entry: ವಾರ್ಷಿಕ ಪರಿಶೀಲನೆ
   defs:
   - entry: Annual verification
     type: Noun
-  id: annualveri_5c3cbe72cbbb
+  id: annualveri_2aea5a769a53
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Annual verification
 - entry: ವೈರಿ
   defs:
-  - &id035
+  - &id042
     entry: Antagonism
     type: Noun
-  id: antagonism_43b7ed1a6d07
+  id: antagonism_443872be5779
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Antagonism
 - entry: ವಿರೋಧ
   defs:
-  - *id035
-  id: antagonism_73fcf42ccb56
+  - *id042
+  id: antagonism_62a50678e87f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Antagonism
 - entry: ವೈಷಮ್ಯ
   defs:
-  - *id035
-  id: antagonism_7b549116214f
+  - *id042
+  id: antagonism_601b5dba643a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Antagonism
 - entry: ಪೂರ್ವಚರಿತ್ರೆ
   defs:
-  - &id036
+  - &id043
     entry: Antecedents
     type: Noun
-  id: antecedent_fae520f87149
+  id: antecedent_b03b03e19883
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Antecedents
 - entry: ಹಿಂದಿನ ನಡತೆ
   defs:
-  - *id036
-  id: antecedent_3f6d8067837f
+  - *id043
+  id: antecedent_c89c8df44608
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Antecedents
-- entry: 1. ಅಪೀಲು
+- entry: ಅಪೀಲು
   defs:
-  - &id037
+  - &id044
     entry: Appeal
     type: Noun
-  id: appeal_98c51c8e7862
+  id: appeal_3fd534eb8ddf
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appeal
-- entry: ಮೇಲ್ಮನವಿ ಮಾಡು 2. ಅಪೀಲು
+- entry: ಮೇಲ್ಮನವಿ ಮಾಡು
   defs:
-  - *id037
-  id: appeal_b5e30e81dbab
+  - *id044
+  id: appeal_537c7eee4cce
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Appeal
+- entry: ಅಪೀಲು
+  defs:
+  - *id044
+  id: appeal_94b891bce65d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appeal
 - entry: ಮೇಲ್ಮನವಿ
   defs:
-  - *id037
-  id: appeal_88314c38b6d1
+  - *id044
+  id: appeal_882d8b27d224
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appeal
 - entry: ನಿರ್ಣೀತಾಪರಾಧಿಗಳ ಅಪೀಲು ಅರ್ಜಿ
   defs:
   - entry: Appeal petition convicts
     type: Noun
-  id: appealpeti_9f83c6289364
+  id: appealpeti_a09226d78f95
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appeal petition convicts
 - entry: ಅಪೀಲು ರೆಜಿಸ್ಟರ್‌ ನಮೂನೆ ಸಂ. 132
   defs:
   - entry: Appeal registers form No. 132
     type: Noun
-  id: appealregi_2310f590f684
+  id: appealregi_70d7f56edb7b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appeal registers form No. 132
 - entry: ಅಪೀಲುದಾರ
   defs:
   - entry: Appellant
     type: Noun
-  id: appellant_c619ef0b78e4
+  id: appellant_0f98d3aebea6
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appellant
 - entry: ಅಪೀಲು ನ್ಯಾಯಾಲಯ
   defs:
   - entry: Appellate court
     type: Noun
-  id: appellatec_f3275da950f6
+  id: appellatec_0154d7139dc2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Appellate court
-- entry: 1. ಬಂದಿಸು
+- entry: ಬಂದಿಸು
   defs:
-  - &id038
+  - &id045
     entry: Apprehend
     type: Noun
-  id: apprehend_9a69f2934f28
+  id: apprehend_6dc02cfe222a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehend
-- entry: ದಸ್ತಗಿರಿ ಮಾಡು 2. ಹೆದರು
+- entry: ದಸ್ತಗಿರಿ ಮಾಡು
   defs:
-  - *id038
-  id: apprehend_a83e7c46889a
+  - *id045
+  id: apprehend_39c0cd821b73
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apprehend
+- entry: ಹೆದರು
+  defs:
+  - *id045
+  id: apprehend_79c72b087cd9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehend
 - entry: ಶಂಕಿಸು
   defs:
-  - *id038
-  id: apprehend_7f5f416efaf3
+  - *id045
+  id: apprehend_30643df04d85
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehend
-- entry: 1. ಬಂಧನ
+- entry: ಬಂಧನ
   defs:
-  - &id039
+  - &id046
     entry: Apprehension
     type: Noun
-  id: apprehensi_29699f30f15b
+  id: apprehensi_d6f7ebfd7d6c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehension
-- entry: ದಸ್ತಗಿರಿ 2. ಹೆದರಿಕೆ
+- entry: ದಸ್ತಗಿರಿ
   defs:
-  - *id039
-  id: apprehensi_0c1a6ff53bcc
+  - *id046
+  id: apprehensi_80ce49d77d39
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Apprehension
+- entry: ಹೆದರಿಕೆ
+  defs:
+  - *id046
+  id: apprehensi_353c466f7aa2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehension
 - entry: ಶಂಕೆ
   defs:
-  - *id039
-  id: apprehensi_d6e69b6a827f
+  - *id046
+  id: apprehensi_02dc6ab69161
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehension
 - entry: ಗುಮಾನಿ
   defs:
-  - *id039
-  id: apprehensi_9e65454260e7
+  - *id046
+  id: apprehensi_183b6f5ee1ad
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apprehension
 - entry: ಅಪ್ರೂವರ್
   defs:
-  - &id040
+  - &id047
     entry: Approver
     type: Noun
-  id: approver_9da1b22ac6be
+  id: approver_67f973fe8c36
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Approver
 - entry: ಮಾಫೀ ಸಾಕ್ಷಿದಾರ
   defs:
-  - *id040
-  id: approver_c37472e1d3f7
+  - *id047
+  id: approver_c7c9c342930a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Approver
 - entry: ಏಪ್ರನ್
   defs:
-  - &id041
+  - &id048
     entry: Apron
     type: Noun
-  id: apron_662047ac7719
+  id: apron_351b31b0c956
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apron
 - entry: ಕೆಲಸ ಮಾಡುವಾಗ ಬಟ್ಟೆ ಕೊಳೆಯಾಗದಿರಲು ದೇಹದ ಮುಂದುಗಡೆ ಕಟ್ಟಿಕೊಳ್ಳುವ ಉಡಿಗೆ
   defs:
-  - *id041
-  id: apron_1594fa0da815
+  - *id048
+  id: apron_ea2349974dbf
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Apron
 - entry: ಚಾಪಬೆಸುಗೆ
   defs:
-  - &id042
+  - &id049
     entry: Arc welding
     type: Noun
-  id: arcwelding_2736f4d386f8
+  id: arcwelding_3f18b2dc592c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arc welding
 - entry: ವಿದ್ಯುತ್ತಿನಿಂದ ಮಾಡುವ ಒಂದು ವಿಧದ ಬೆಸುಗೆ
   defs:
-  - *id042
-  id: arcwelding_1d086624034f
+  - *id049
+  id: arcwelding_78490007d3ac
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arc welding
 - entry: ವಾದಿಸು
   defs:
   - entry: Argue
     type: Noun
-  id: argue_e785294ffaa4
+  id: argue_70de2adbe0b8
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Argue
 - entry: ವಾದ
   defs:
   - entry: Argument
     type: Noun
-  id: argument_1768280a8f6b
+  id: argument_683813c88a0c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Argument
 - entry: ಸಶಸ್ತ್ರ ಗಾರ್ಡುಗಳು
   defs:
   - entry: Armed guards
     type: Noun
-  id: armedguard_816b54169440
+  id: armedguard_03d279d358a4
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Armed guards
 - entry: ಸಶಸ್ತ್ರ ಮೀಸಲು ಪಡೆ
   defs:
   - entry: Armed reserve
     type: Noun
-  id: armedreser_c091fae7aae5
+  id: armedreser_ff9d7266f37f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Armed reserve
 - entry: ಶಸ್ತ್ರಗಳು
   defs:
   - entry: Arms
     type: Noun
-  id: arms_1514d92f523a
+  id: arms_a1f56597edde
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arms
-- entry: 1. ಬಂಧಿಸು
+- entry: ಬಂಧಿಸು
   defs:
-  - &id043
+  - &id050
     entry: Arrest
     type: Noun
-  id: arrest_6d77b5ec8d51
+  id: arrest_6e2c22f4fa5d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arrest
-- entry: ದಸ್ತಗಿರಿ ಮಾಡು 2. ಬಂಧನ
+- entry: ದಸ್ತಗಿರಿ ಮಾಡು
   defs:
-  - *id043
-  id: arrest_61a10d2f5c52
+  - *id050
+  id: arrest_e32d92e64cab
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Arrest
+- entry: ಬಂಧನ
+  defs:
+  - *id050
+  id: arrest_796c76ea049b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arrest
 - entry: ದಸ್ತಗಿರಿ
   defs:
-  - *id043
-  id: arrest_11648e22cfdb
+  - *id050
+  id: arrest_d0b61cd55153
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arrest
 - entry: ಶಸ್ತ್ರಾಗಾರ
   defs:
   - entry: Armoury
     type: Noun
-  id: armoury_5ce315d7aea4
+  id: armoury_1e8f267bf61a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Armoury
 - entry: ಬೆಂಕಿ ಹಚ್ಚುವುದು
   defs:
   - entry: Arson
     type: Noun
-  id: arson_e71e429b648b
+  id: arson_6804def456e2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Arson
 - entry: ಕಲೆ
   defs:
-  - &id044
+  - &id051
     entry: Art
     type: Noun
-  id: art_afb43a86c246
+  id: art_f134605e8130
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Art
 - entry: ಕೌಶಲ
   defs:
-  - *id044
-  id: art_923f6b9f2ce5
+  - *id051
+  id: art_21f662cf5623
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Art
 - entry: ಚತುರತೆ
   defs:
-  - *id044
-  id: art_f0f0bb0589a3
+  - *id051
+  id: art_ed0f2f79c6b1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Art
 - entry: ಹತ್ಯೆ
   defs:
-  - &id045
+  - &id052
     entry: Assassination
     type: Noun
-  id: assassinat_c31ecdc5016c
+  id: assassinat_4dbee10c3ac7
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assassination
 - entry: ಕೊಲೆ
   defs:
-  - *id045
-  id: assassinat_430607f2c49b
+  - *id052
+  id: assassinat_4ab9dd2dec11
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assassination
-- entry: 1. ಹಲ್ಲೆಮಾಡು
+- entry: ಹಲ್ಲೆಮಾಡು
   defs:
-  - &id046
+  - &id053
     entry: Assault
     type: Noun
-  id: assault_9d596070c801
+  id: assault_c6c79d163daf
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assault
 - entry: ಆಕ್ರಮಣ ಮಾಡು
   defs:
-  - *id046
-  id: assault_cd4e993a9a10
+  - *id053
+  id: assault_5f82e489dbaf
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assault
-- entry: ಮೇಲೆ ಬೀಳು 2. ಹಲ್ಲೆ
+- entry: ಮೇಲೆ ಬೀಳು
   defs:
-  - *id046
-  id: assault_84440515138a
+  - *id053
+  id: assault_132d7135a9d6
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assault
+- entry: ಹಲ್ಲೆ
+  defs:
+  - *id053
+  id: assault_03f5eb0d027e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assault
 - entry: ಆಕ್ರಮಣ ಮೇಲೆ ಬೀಳುವಿಕೆ
   defs:
-  - *id046
-  id: assault_be23a0edfcef
+  - *id053
+  id: assault_b409ded14d7c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assault
-- entry: 1. ಕೂಟ 2. ಸಭೆ 3. ವಿಧಾನ ಸಭೆ
+- entry: ಕೂಟ
   defs:
-  - entry: Assembly
+  - &id054
+    entry: Assembly
     type: Noun
-  id: assembly_7eb0abfb7fca
+  id: assembly_ec02fdb3a7ff
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assembly
+- entry: ಸಭೆ
+  defs:
+  - *id054
+  id: assembly_898b89c8b378
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Assembly
+- entry: ವಿಧಾನ ಸಭೆ
+  defs:
+  - *id054
+  id: assembly_90bef905e2f2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assembly
 - entry: ಸಹಾಯಕ ಅಧೀಕ್ಷಕ
   defs:
   - entry: Assistant superintendent
     type: Noun
-  id: assistants_e37f04c0c157
+  id: assistants_a6025de6ad0f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Assistant superintendent
 - entry: ಜಪ್ತಿಮಾಡು
   defs:
   - entry: Attach
     type: Noun
-  id: attach_85150b722a37
+  id: attach_62bcbbb8f230
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Attach
 - entry: ಜಪ್ತಿ
   defs:
   - entry: Attachment
     type: Noun
-  id: attachment_9096e41c7a7d
+  id: attachment_d6c0060b64c6
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Attachment
-- entry: 1. ಪ್ರಯತ್ನಿಸು 2. ಪ್ರಯತ್ನ
+- entry: ಪ್ರಯತ್ನಿಸು
   defs:
-  - entry: Attempt
+  - &id055
+    entry: Attempt
     type: Noun
-  id: attempt_b20293805a41
+  id: attempt_1760fec2eb05
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Attempt
+- entry: ಪ್ರಯತ್ನ
+  defs:
+  - *id055
+  id: attempt_8f48c3e4cb65
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Attempt
 - entry: ಕೊಲೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸು
   defs:
   - entry: Attempt to commit murder
     type: Noun
-  id: attempttoc_79db06f694bd
+  id: attempttoc_1d4f6c9dc27f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Attempt to commit murder
 - entry: ಆತ್ಮಹತ್ಯೆ ಮಾಡಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸು
   defs:
   - entry: Attempt to commit suicide
     type: Noun
-  id: attempttoc_4c997400edd5
+  id: attempttoc_b156c1a874a2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Attempt to commit suicide
 - entry: ಪರಾರಿಯಾಗಲು ಪ್ರಯತ್ನಿಸು
   defs:
   - entry: Attempt to escape
     type: Noun
-  id: attempttoe_809d012fc585
+  id: attempttoe_2886759e0088
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Attempt to escape
-- entry: 1. ಹರಾಜು ಹಾಕು
+- entry: ಹರಾಜು ಹಾಕು
   defs:
-  - &id047
+  - &id056
     entry: Auction
     type: Noun
-  id: auction_21f80f5febd8
+  id: auction_2aed83f850d1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Auction
-- entry: ಲಿಲಾವು ಮಾಡು 2. ಹರಾಜು
+- entry: ಲಿಲಾವು ಮಾಡು
   defs:
-  - *id047
-  id: auction_a0c3b7c09ef1
+  - *id056
+  id: auction_55a4d0a83688
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Auction
+- entry: ಹರಾಜು
+  defs:
+  - *id056
+  id: auction_a1619edf47bd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Auction
 - entry: ಲಿಲಾವು
   defs:
-  - *id047
-  id: auction_39513f86a893
+  - *id056
+  id: auction_ed023e9657e9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Auction
 - entry: ಏಲಂ.
   defs:
-  - *id047
-  id: auction_d133fb11ed31
+  - *id056
+  id: auction_67339d4a320c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Auction
 - entry: ಅನುಪಯುಕ್ತ ವಸ್ತುಗಳ ಹರಾಜು
   defs:
   - entry: Auction of unserviceable articles
     type: Noun
-  id: auctionofu_a5e288dcb03a
+  id: auctionofu_214d254393f7
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Auction of unserviceable articles
 - entry: ಶವಪರೀಕ್ಷೆ
   defs:
   - entry: Autopsy
     type: Noun
-  id: autopsy_5900d3d45a6d
+  id: autopsy_8b8c91195629
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Autopsy
 - entry: ಸೇಡು ತೀರಿಸು
   defs:
   - entry: Avenge
     type: Noun
-  id: avenge_9d6db7c7e31b
+  id: avenge_d611861353ce
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Avenge
 - entry: ವೃತ್ತಿ
   defs:
-  - &id048
+  - &id057
     entry: Avocation
     type: Noun
-  id: avocation_9f184aa6727f
+  id: avocation_d8a10e2673a3
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Avocation
 - entry: ಉಪವೃತ್ತಿ
   defs:
-  - *id048
-  id: avocation_87a1e439d419
+  - *id057
+  id: avocation_90b7af23cb72
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Avocation
-- entry: 1. ಕೊಡು 2. ಐತೀರ್ಪು 3. ಪ್ರಶಸ್ತಿ
+- entry: ಕೊಡು
   defs:
-  - entry: Award
+  - &id058
+    entry: Award
     type: Noun
-  id: award_3be90347096e
+  id: award_8b96f9d2d4a1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Award
+- entry: ಐತೀರ್ಪು
+  defs:
+  - *id058
+  id: award_909ab012e9bc
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Award
+- entry: ಪ್ರಶಸ್ತಿ
+  defs:
+  - *id058
+  id: award_749607c08197
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Award
 - entry: ಕೊಡಲಿ
   defs:
   - entry: Axe
     type: Noun
-  id: axe_79ce469fd38b
+  id: axe_1a42a5083017
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Axe
 - entry: ಹಿನ್ನೆಲೆ
   defs:
   - entry: Background
     type: Noun
-  id: background_20bf1a2fc60f
+  id: background_fc5ab5ff4003
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Background
-- entry: 1.ಕೆಟ್ಟನಡತೆ 2. ಕೆಟ್ಟವ್ಯಕ್ತಿ
+- entry: ಕೆಟ್ಟನಡತೆ
   defs:
-  - entry: Bad character
+  - &id059
+    entry: Bad character
     type: Noun
-  id: badcharact_065505919c05
+  id: badcharact_68a3a1991a02
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bad character
+- entry: ಕೆಟ್ಟವ್ಯಕ್ತಿ
+  defs:
+  - *id059
+  id: badcharact_59882d12f1f1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bad character
 - entry: ಬ್ಯಾಡ್ಜ್
   defs:
-  - &id049
+  - &id060
     entry: Badge
     type: Noun
-  id: badge_030a8a88793a
+  id: badge_d2a9137c060a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Badge
 - entry: ಬಿಲ್ಲೆ
   defs:
-  - *id049
-  id: badge_eb648f90dba6
+  - *id060
+  id: badge_7aadf406351f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Badge
 - entry: ನಿರ್ಣೀತಾಪರಾಧಿ ಅಧಿಕಾರಿಯ ಬಿಲ್ಲೆ
   defs:
   - entry: Badge of convict-officer
     type: Noun
-  id: badgeofcon_24b5de4e7902
+  id: badgeofcon_e11d930e78fb
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Badge of convict-officer
 - entry: ಜಾಮೀನು
   defs:
   - entry: Bail
     type: Noun
-  id: bail_af8c2b3fd5b9
+  id: bail_9eb2377008ef
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bail
 - entry: ಜಾಮೀನುಪತ್ರ
   defs:
   - entry: Bail bond
     type: Noun
-  id: bailbond_c0e56231ddd0
+  id: bailbond_c52ee98f82bd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bail bond
 - entry: ಬೇಲಿಫ್
   defs:
-  - &id050
+  - &id061
     entry: Bailiff
     type: Noun
-  id: bailiff_4c854e8ed2b7
+  id: bailiff_99e78405b426
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bailiff
 - entry: ಅಮೀನ
   defs:
-  - *id050
-  id: bailiff_b26d4cf75e6c
+  - *id061
+  id: bailiff_4de2cbaa4575
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bailiff
 - entry: ಬೇಲ್
   defs:
-  - &id051
+  - &id062
     entry: Bale
     type: Noun
-  id: bale_c66f7e6b2dd8
+  id: bale_67f4c0fa24e1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bale
 - entry: ಗಂಟು
   defs:
-  - *id051
-  id: bale_7c415cb24323
+  - *id062
+  id: bale_5fbdeb87af8f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bale
 - entry: ಪಿಂಡಿ
   defs:
-  - *id051
-  id: bale_a0746ba44c76
+  - *id062
+  id: bale_d638161edcbd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bale
 - entry: ಅಂಡಿಗೆ
   defs:
-  - *id051
-  id: bale_73916cfbae41
+  - *id062
+  id: bale_fd5d875cf7ba
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bale
 - entry: ಗೋಲಿಬಾರು ಅಭ್ಯಾಸದ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Ball practice registers
     type: Noun
-  id: ballpracti_4eb5a92e1310
+  id: ballpracti_fb8dd244fcdc
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ball practice registers
-- entry: 1. ನಿಷೇಧಿಸು 2. ನಿಷೇಧ
+- entry: ನಿಷೇಧಿಸು
   defs:
-  - entry: Ban
+  - &id063
+    entry: Ban
     type: Noun
-  id: ban_88ae49a38cb9
+  id: ban_8c97a7454477
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ban
-- entry: 1. ಬ್ಯಾಂಡೇಜು
+- entry: ನಿಷೇಧ
   defs:
-  - &id052
+  - *id063
+  id: ban_02f09a569d10
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Ban
+- entry: ಬ್ಯಾಂಡೇಜು
+  defs:
+  - &id064
     entry: Bandage
     type: Noun
-  id: bandage_8d8d3c9f6bb5
+  id: bandage_431ccc6e697b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bandage
-- entry: ಪಟ್ಟಿಕಟ್ಟು 2. ಬ್ಯಾಂಡೇಜು
+- entry: ಪಟ್ಟಿಕಟ್ಟು
   defs:
-  - *id052
-  id: bandage_a0277e3365fa
+  - *id064
+  id: bandage_6581ceab6e9e
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bandage
+- entry: ಬ್ಯಾಂಡೇಜು
+  defs:
+  - *id064
+  id: bandage_1014989ea13e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bandage
 - entry: ಪಟ್ಟಿ
   defs:
-  - *id052
-  id: bandage_e2dd3ce0d090
+  - *id064
+  id: bandage_3f7e3db830a5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bandage
 - entry: ದಾರಿಗಳ್ಳ
   defs:
   - entry: Bandit
     type: Noun
-  id: bandit_821edfa457c0
+  id: bandit_2f30eff41d05
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bandit
 - entry: ಪಟ್ಟಿ ಗರಗಸದ ಆಲಗು.
   defs:
   - entry: Band-saw blade
     type: Noun
-  id: bandsawbla_22748253f4bd
+  id: bandsawbla_4c4f8ae6ba51
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Band-saw blade
 - entry: ಗಡೀಪಾರು ಮಾಡು
   defs:
   - entry: Banish
     type: Noun
-  id: banish_34f705f77a38
+  id: banish_5cf19014c269
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Banish
 - entry: ಬ್ಯಾರಕ್
   defs:
-  - &id053
+  - &id065
     entry: Barrack
     type: Noun
-  id: barrack_7d95e116a7ff
+  id: barrack_9c140fe5b0af
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Barrack
 - entry: ಬಂದಿಗಳು ವಾಸಿಸುವ ವಿಶಾಲವಾದ ಕೋಣೆ
   defs:
-  - *id053
-  id: barrack_34ff61ebd240
+  - *id065
+  id: barrack_db3d3388b542
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Barrack
 - entry: ಬ್ಯಾಟನ್
   defs:
-  - &id054
+  - &id066
     entry: Baton
     type: Noun
-  id: baton_0d0eb46d3402
+  id: baton_25195e9c0532
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Baton
 - entry: ಪೊಲೀಸ್‌ ಪೇದೆಯ ಸೋಟ
   defs:
-  - *id054
-  id: baton_19ffe40a100b
+  - *id066
+  id: baton_42237d138b3e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Baton
 - entry: ಮೋಟುದೊಡ್ಣೆ
   defs:
-  - *id054
-  id: baton_53f905e9a148
+  - *id066
+  id: baton_693954a5cabb
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Baton
 - entry: ಬ್ಯಾಟ
   defs:
-  - &id055
+  - &id067
     entry: Batta
     type: Noun
-  id: batta_8550f696376f
+  id: batta_733648a338ff
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Batta
 - entry: ಸಾಕ್ಷಿ ಕೈದಿ ಮೊ.ವರಿಗೆ ಜೀವನೋಪಾಯಕ್ಕಾಗಿ ಕೊಡುವ ಭತ್ಯ
   defs:
-  - *id055
-  id: batta_b35ffb4df165
+  - *id067
+  id: batta_91733384401e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Batta
 - entry: ಬೆಟಾಲಿಯನ್
   defs:
-  - &id056
+  - &id068
     entry: Battalion
     type: Noun
-  id: battalion_8b244c7eac61
+  id: battalion_84a2eba9ef41
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Battalion
 - entry: ಸೈನ್ಯತುಕಡಿ
   defs:
-  - *id056
-  id: battalion_6fcf1d3688c8
+  - *id068
+  id: battalion_bdf73a8a53c1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Battalion
 - entry: ಬಯಾನೆಟ್
   defs:
-  - &id057
+  - &id069
     entry: Bayonet
     type: Noun
-  id: bayonet_5e397bafdbe0
+  id: bayonet_da83eb2a05d0
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bayonet
 - entry: ಸನೀನು
   defs:
-  - *id057
-  id: bayonet_f0d872ee5f68
+  - *id069
+  id: bayonet_00e28955e5cc
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bayonet
-- entry: 1. ಹೊಡೆ‌ 2. ಗಸ್ತು
+- entry: ಹೊಡೆ
   defs:
-  - entry: Beat
+  - &id070
+    entry: Beat
     type: Noun
-  id: beat_3b3f7cb12dec
+  id: beat_3a818184ee4d
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Beat
+- entry: ಗಸ್ತು
+  defs:
+  - *id070
+  id: beat_62be7e38bd95
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Beat
 - entry: ಹಾಸಿಗೆ ಸಾಮಾನು
   defs:
-  - &id058
+  - &id071
     entry: Bedding
     type: Noun
-  id: bedding_dfb35bddbdb2
+  id: bedding_b56b1d850c8a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bedding
 - entry: ಹಾಸಿಗೆಗೆ ಬೇಕಾದ ಮತ್ತೆ
   defs:
-  - *id058
-  id: bedding_d57896ab59ad
+  - *id071
+  id: bedding_3b88f424db81
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bedding
 - entry: ದಿಂಬು
   defs:
-  - *id058
-  id: bedding_e443bd8df415
+  - *id071
+  id: bedding_44f383a9d010
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bedding
 - entry: ಹೊದಿಕೆ ಮೊ.ವು
   defs:
-  - *id058
-  id: bedding_d6392f194e43
+  - *id071
+  id: bedding_5776ba36398b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bedding
 - entry: ಬೆಡ್‌ ಶೀಟು
   defs:
-  - &id059
+  - &id072
     entry: Bed sheet
     type: Noun
-  id: bedsheet_fc38687866b1
+  id: bedsheet_9d89ce29146e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bed sheet
 - entry: ಮೇಲುಹಾಸು
   defs:
-  - *id059
-  id: bedsheet_c92bb0569bfa
+  - *id072
+  id: bedsheet_b462a975b988
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bed sheet
 - entry: ಮಗ್ಗುಲು ಹಾಸಿಗೆ
   defs:
-  - *id059
-  id: bedsheet_70fc09e59303
+  - *id072
+  id: bedsheet_fb1655cec77f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bed sheet
 - entry: ಹಾಸಿಗೆ ಟಿಕೆಟು
   defs:
   - entry: Bed side ticket
     type: Noun
-  id: bedsidetic_2e5e1ad3b497
+  id: bedsidetic_c63415a038ed
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bed side ticket
 - entry: ಜೇನುಮೇಣ
   defs:
   - entry: Bees wax
     type: Noun
-  id: beeswax_3d57b3662217
+  id: beeswax_1aff09333b69
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bees wax
 - entry: ತಲೆಕಡಿ
   defs:
-  - &id060
+  - &id073
     entry: Behead
     type: Noun
-  id: behead_3ff2861f1aa5
+  id: behead_17fb4045a4bf
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Behead
 - entry: ಶಿರಶ್ಫೇದನ ಮಾಡು
   defs:
-  - *id060
-  id: behead_e8a7e7517b96
+  - *id073
+  id: behead_8aab126d8e03
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Behead
 - entry: ಬೆಲ್ಟ್
   defs:
-  - &id061
+  - &id074
     entry: Belt
     type: Noun
-  id: belt_637f6f2dec4b
+  id: belt_dc3d6fb57ad6
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Belt
 - entry: ನಡುಪಟ್ಟಿ
   defs:
-  - *id061
-  id: belt_126045188c72
+  - *id074
+  id: belt_e79b1f6dda38
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Belt
 - entry: ದ್ವಿಪತ್ನೀತ್ವ ಯಾ ದ್ವಿಪತಿತ್ವ
   defs:
-  - &id062
+  - &id075
     entry: Bigamy
     type: Noun
-  id: bigamy_7c8331def678
+  id: bigamy_b8e6fedcddec
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bigamy
 - entry: ಏಕಕಾಲದಲ್ಲಿ ಇಬ್ಬರು ಹೆಂಡತಿಯರು ಯಾ ಇಬ್ಬರು ಗಂಡಂದಿರು ಇರುವ ಸ್ಥಿತಿ
   defs:
-  - *id062
-  id: bigamy_922acaa4d388
+  - *id075
+  id: bigamy_4ffb9d25dcbd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bigamy
 - entry: ಬ್ಲ್ಯಾಕ್‌ ಮೇಲ್
   defs:
-  - &id063
+  - &id076
     entry: Black mail
     type: Noun
-  id: blackmail_f200f9d2ac0f
+  id: blackmail_ba85d5e01309
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Black mail
-- entry: 1. ಬೆದರಿಸಿ ಹಣ ಕಿತ್ತುಕೊ 2. ಬೆದರಿಸಿ ಯಾವುದೇ ಕೆಲಸವನ್ನು ಮಾಡಲು ಬಲಾತ್ಕರಿಸು 3. ಬೆದರಿಸಿ ಹಣ ಕಿತ್ತುಕೊಳ್ಳುವುದು 4
+- entry: ಬೆದರಿಸಿ ಹಣ ಕಿತ್ತುಕೊ
   defs:
-  - *id063
-  id: blackmail_1949baa5d5eb
+  - *id076
+  id: blackmail_baf0c9af4420
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Black mail
+- entry: ಬೆದರಿಸಿ ಯಾವುದೇ ಕೆಲಸವನ್ನು ಮಾಡಲು ಬಲಾತ್ಕರಿಸು
+  defs:
+  - *id076
+  id: blackmail_5d810f97fc40
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Black mail
+- entry: ಬೆದರಿಸಿ ಹಣ ಕಿತ್ತುಕೊಳ್ಳುವುದು 4
+  defs:
+  - *id076
+  id: blackmail_c47ae90c8ae3
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Black mail
 - entry: ಬೆದರಿಸಿ ಯಾವುದೇ ಕೆಲಸವನ್ನು ಮಾಡಲು ಬಲಾತ್ಕರಿಸುವುದು
   defs:
-  - *id063
-  id: blackmail_47f8ee8bdf96
+  - *id076
+  id: blackmail_9426e9e0636f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Black mail
 - entry: ಕಮ್ಮಾರ
   defs:
   - entry: Blacksmith
     type: Noun
-  id: blacksmith_787828bb914f
+  id: blacksmith_03a058da3f49
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Blacksmith
 - entry: ಕಂಬಳಿ
   defs:
   - entry: Blanket
     type: Noun
-  id: blanket_02d77ebe8cf7
+  id: blanket_48ce171db5af
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Blanket
 - entry: ಕಂಬಳಿ ತಯಾರಿಕೆ
   defs:
   - entry: Blanket manufacturing
     type: Noun
-  id: blanketman_e9da9d75e9f0
+  id: blanketman_7f818c439537
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Blanket manufacturing
 - entry: ಚೆಲುವೆ ಪುಡಿ
   defs:
   - entry: Bleaching powder
     type: Noun
-  id: bleachingp_fc6175ad0b06
+  id: bleachingp_ab3886770a32
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bleaching powder
 - entry: ಕಂಡಿಕೆ
   defs:
-  - &id064
+  - &id077
     entry: Bobbin
     type: Noun
-  id: bobbin_dd861cb057e0
+  id: bobbin_74e6d941a874
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bobbin
 - entry: ಉರುಳೆ
   defs:
-  - *id064
-  id: bobbin_3a145cd055e8
+  - *id077
+  id: bobbin_3852516ced16
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bobbin
-- entry: 1. ಬಾಂಬು ಹಾಕು 2. ಬಾಂಬು
+- entry: ಬಾಂಬು ಹಾಕು
   defs:
-  - &id065
+  - &id078
     entry: Bomb
     type: Noun
-  id: bomb_6f2329223da1
+  id: bomb_9c9472e39776
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bomb
+- entry: ಬಾಂಬು
+  defs:
+  - *id078
+  id: bomb_1e4caa158ca4
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bomb
 - entry: ಸಿಡಿಗುಂಡು
   defs:
-  - *id065
-  id: bomb_81751ddd23cc
+  - *id078
+  id: bomb_cf2b4f8f89db
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bomb
 - entry: ಬುಕ್‌ ಬೈಂಡಿಗ್
   defs:
-  - &id066
+  - &id079
     entry: Book binding
     type: Noun
-  id: bookbindin_e83feb9131f1
+  id: bookbindin_30c1abd62625
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Book binding
 - entry: ಪುಸ್ತಕಗಳಿಗೆ ರಟ್ಟು ಹಾಕಿ ಒಪ್ಪವಾಗಿ ಹೊಲಿಯುವುದು
   defs:
-  - *id066
-  id: bookbindin_dc124e819637
+  - *id079
+  id: bookbindin_e4f802161bcb
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Book binding
 - entry: ಕೊಳ್ಳೆ
   defs:
-  - &id067
+  - &id080
     entry: Booty
     type: Noun
-  id: booty_e6f0e1a849e7
+  id: booty_3a7713fd7002
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Booty
 - entry: ಲೂಟಿ
   defs:
-  - *id067
-  id: booty_4d14c56d803f
+  - *id080
+  id: booty_50b835c1afb4
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Booty
 - entry: ಸೂರೆ
   defs:
-  - *id067
-  id: booty_0ca7778ef8c5
+  - *id080
+  id: booty_498315cd431e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Booty
 - entry: ಬಾರ್ಸ್ಬಲ್‌ ಲ್ಯಾಡ್
   defs:
-  - &id068
+  - &id081
     entry: Borstal lad
     type: Noun
-  id: borstallad_4a8ba988c0ff
+  id: borstallad_fb13c686d3af
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Borstal lad
 - entry: ಬಾಲಾಪರಾಧಿ ಶಾಲೆಯ ಹುಡುಗ
   defs:
-  - *id068
-  id: borstallad_6f880cfef072
+  - *id081
+  id: borstallad_fc7009357842
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Borstal lad
 - entry: ಬಾರ್ಸ್ವಲ್‌ ಸ್ಕೂಲ್
   defs:
-  - &id069
+  - &id082
     entry: Borstal school
     type: Noun
-  id: borstalsch_86db673508dd
+  id: borstalsch_2f88e66fa41e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Borstal school
 - entry: ಬಾಲಾಪರಾಧಿಗಳನ್ನು ತಕ್ಕ ಶಿಕ್ಷಣದಿಂದ ತಿದ್ದುವ ಶಾಲೆ
   defs:
-  - *id069
-  id: borstalsch_f3eee38e8833
+  - *id082
+  id: borstalsch_ea06de7ffa52
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Borstal school
-- entry: 1. ಬಹಿಷ್ಕರಿಸು 2. ಬಹಿಷ್ಕಾರ
+- entry: ಬಹಿಷ್ಕರಿಸು
   defs:
-  - entry: Boycott
+  - &id083
+    entry: Boycott
     type: Noun
-  id: boycott_d633552571b0
+  id: boycott_1a16cf28c630
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Boycott
+- entry: ಬಹಿಷ್ಕಾರ
+  defs:
+  - *id083
+  id: boycott_79efaf82fd3f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Boycott
 - entry: ಹಿತ್ತಾಳೆ ಪಾತ್ರೆ
   defs:
   - entry: Brass vessel
     type: Noun
-  id: brassvesse_2317e8a9945b
+  id: brassvesse_e959afb651f9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Brass vessel
 - entry: ಶಾಂತಿ ಭಂಗ
   defs:
   - entry: Breach of peace
     type: Noun
-  id: breachofpe_adb0807227d7
+  id: breachofpe_b3ea323253a2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Breach of peace
 - entry: ಬ್ರೆಡ್ಡು
   defs:
-  - &id070
+  - &id084
     entry: Bread
     type: Noun
-  id: bread_ed62b0ddd85e
+  id: bread_3ebefc67acb9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bread
 - entry: ರೊಟ್ಟಿ
   defs:
-  - *id070
-  id: bread_b46a43b323bb
+  - *id084
+  id: bread_eaf68f252aa3
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bread
 - entry: ಬರಾಕುಗಳಿಂದ ಓಡಿಹೋಗು
   defs:
-  - &id071
+  - &id085
     entry: Break out of barracks
     type: Noun
-  id: breakoutof_9de4ede5fa70
+  id: breakoutof_3aa1b1ab9d38
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Break out of barracks
 - entry: 'ತಪ್ಪಿಸಿಕೊಂಡು: ಹೋಗು'
   defs:
-  - *id071
-  id: breakoutof_2b421c2c03c2
+  - *id085
+  id: breakoutof_49c8b6134482
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Break out of barracks
-- entry: 1. ಲಂಚ ಕೊಡು 2. ಲಂಚ
+- entry: ಲಂಚ ಕೊಡು
   defs:
-  - entry: Bribe
+  - &id086
+    entry: Bribe
     type: Noun
-  id: bribe_c2e5e08eec80
+  id: bribe_726a9f998172
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Bribe
+- entry: ಲಂಚ
+  defs:
+  - *id086
+  id: bribe_17869f94e991
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bribe
 - entry: ಲಂಚಗುಳಿತನ
   defs:
   - entry: Bribery
     type: Noun
-  id: bribery_37f8c37d5838
+  id: bribery_c1e30e60603e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bribery
 - entry: ಆಯವ್ಯಯ ಪತ್ರದ ರೆಜೆಸ್ಟರ್‌ ಸಿವಿಲ್‌ ಮತ್ತು ಫ್ಯಾಕ್ಟರಿ
   defs:
   - entry: Budget register (civil and factory)
     type: Noun
-  id: budgetregi_2228b2eb3e69
+  id: budgetregi_e732a6a8b487
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Budget register (civil and factory)
 - entry: ಕಹಳೆ
   defs:
-  - &id072
+  - &id087
     entry: Bugle
     type: Noun
-  id: bugle_3d8e2f9d100e
+  id: bugle_648ff94023fa
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bugle
 - entry: ಕೊಂಬು
   defs:
-  - *id072
-  id: bugle_59b641cd52ed
+  - *id087
+  id: bugle_eded3e10303d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bugle
 - entry: ಗುಂಡು
   defs:
-  - &id073
+  - &id088
     entry: Bullet
     type: Noun
-  id: bullet_2560e1c22e29
+  id: bullet_1ad043780ed3
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bullet
 - entry: ಗೋಲಿ
   defs:
-  - *id073
-  id: bullet_bc3f78616d88
+  - *id088
+  id: bullet_418cb308f34a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Bullet
 - entry: ರುಜುವಾತಿನ ಭಾರ
   defs:
-  - &id074
+  - &id089
     entry: Burden of proof
     type: Noun
-  id: burdenofpr_e0878cb99257
+  id: burdenofpr_517cd1474786
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Burden of proof
 - entry: ಹೊಣೆ
   defs:
-  - *id074
-  id: burdenofpr_c7981c17d264
+  - *id089
+  id: burdenofpr_00b4829fb412
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Burden of proof
 - entry: ಕನ್ನಹಾಕುವುದು
   defs:
   - entry: Burglary
     type: Noun
-  id: burglary_e54753f0596a
+  id: burglary_052204ccaf25
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Burglary
 - entry: ಸ್ಮಶಾನ ಸುಡುಗಾಡು
   defs:
   - entry: Burial ground
     type: Noun
-  id: burialgrou_769635d7ec06
+  id: burialgrou_65c5653961fd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Burial ground
 - entry: ಬಟ್
   defs:
-  - &id075
+  - &id090
     entry: Butt
     type: Noun
-  id: butt_3064a5e947cf
+  id: butt_0ffec29242ba
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Butt
 - entry: ಆಯುಧದ ದಪ್ಪತುದಿ
   defs:
-  - *id075
-  id: butt_fe6f4040091b
+  - *id090
+  id: butt_c10d031417e5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Butt
 - entry: ಬಟನ್
   defs:
-  - &id076
+  - &id091
     entry: Button
     type: Noun
-  id: button_a205abefba87
+  id: button_c2123d0e14b6
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Button
 - entry: ಗುಂಡಿ
   defs:
-  - *id076
-  id: button_c5d5ec2b6633
+  - *id091
+  id: button_4a58bc904916
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Button
 - entry: ಮಾಫಿ ರದ್ಧತಿ
   defs:
   - entry: Cancellation of remission
     type: Noun
-  id: cancellati_541f299aad13
+  id: cancellati_5761a09be336
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cancellation of remission
-- entry: 1. ಬೆತ್ತ 2. ಚಡಿ
+- entry: ಬೆತ್ತ
   defs:
-  - &id077
+  - &id092
     entry: Cane
     type: Noun
-  id: cane_084cd0d7dd4f
+  id: cane_08d19b89b556
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Cane
+- entry: ಚಡಿ
+  defs:
+  - *id092
+  id: cane_2ae8a0e0c656
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cane
 - entry: ಬೆತ್ತ
   defs:
-  - *id077
-  id: cane_1cd31da19d57
+  - *id092
+  id: cane_67c0f1f1da52
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cane
 - entry: ಬೆತ್ತದ ಹೆಣಿಗೆ
   defs:
   - entry: Cane weaving
     type: Noun
-  id: caneweavin_fe460540988d
+  id: caneweavin_6ecdfe4de87b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cane weaving
 - entry: ಬೆತ್ತದ ಕೆಲಸ
   defs:
   - entry: Cane work
     type: Noun
-  id: canework_50907c475ff6
+  id: canework_8676c096671a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cane work
 - entry: ಕ್ಯಾಂಟೀನ್
   defs:
-  - &id078
+  - &id093
     entry: Canteen
     type: Noun
-  id: canteen_600987967a43
+  id: canteen_c4dc989eeb21
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Canteen
 - entry: ಉಪಹಾರಗೃಹ
   defs:
-  - *id078
-  id: canteen_a3ed3e910660
+  - *id093
+  id: canteen_c5784b1cb213
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Canteen
 - entry: ಮರಣದಂಡನಾರ್ಹ ಅಪರಾಧ
   defs:
   - entry: Capital offence
     type: Noun
-  id: capitaloff_2f92dd3abf91
+  id: capitaloff_bcef34d3c50c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Capital offence
 - entry: ಮರಣದಂಡನೆ । ಫಾಸೀಶಿಕ್ಷೆ
   defs:
   - entry: Capital punishment
     type: Noun
-  id: capitalpun_4c6e07147adc
+  id: capitalpun_7c75b65e136a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Capital punishment
 - entry: ಬಂಧಿತ
   defs:
   - entry: Captive
     type: Noun
-  id: captive_da51d77773c7
+  id: captive_4ac8567222f3
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Captive
 - entry: ಬಂಧಿಸು
   defs:
-  - &id079
+  - &id094
     entry: Capture
     type: Noun
-  id: capture_a92e1e8edda4
+  id: capture_a94de0ca0b50
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Capture
 - entry: ಸೆರೆಹಿಡಿ
   defs:
-  - *id079
-  id: capture_5303f0b9da3c
+  - *id094
+  id: capture_c1d0a745b1d1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Capture
 - entry: ಬಡಗಿ
   defs:
-  - &id080
+  - &id095
     entry: Carpenter
     type: Noun
-  id: carpenter_1f6dd10ffa91
+  id: carpenter_c83bd87f677e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpenter
 - entry: ಮರಗೆಲಸಗಾರ
   defs:
-  - *id080
-  id: carpenter_d4ea3edd354d
+  - *id095
+  id: carpenter_80b3afd740f5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpenter
 - entry: ಬಡಗಿ ಕೆಲಸ
   defs:
-  - &id081
+  - &id096
     entry: Carpentry
     type: Noun
-  id: carpentry_cc2fac71cb8b
+  id: carpentry_4b74625c86fe
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpentry
 - entry: ಮರಗೆಲಸ
   defs:
-  - *id081
-  id: carpentry_978bfebc8362
+  - *id096
+  id: carpentry_f9735e55b592
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpentry
 - entry: ಜಮಖಾನೆ
   defs:
   - entry: Carpet
     type: Noun
-  id: carpet_0c97256e60dd
+  id: carpet_97d198f1c0cd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpet
 - entry: ಜಮಖಾನೆಗೆ ಬಣ್ಣ ಹಾರುವುದು
   defs:
   - entry: Carpet dying
     type: Noun
-  id: carpetdyin_49f5d4d4f2e8
+  id: carpetdyin_8068714005fb
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpet dying
 - entry: ಜಮಖಾನೆ ತಯಾರಿಕೆ
   defs:
   - entry: Carpet making
     type: Noun
-  id: carpetmaki_a3b852e25db2
+  id: carpetmaki_24e68df97097
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpet making
 - entry: ಜಮಖಾನೆ ನೇಯ್ಗೆ
   defs:
   - entry: Carpet weaving
     type: Noun
-  id: carpetweav_55b1fa023f84
+  id: carpetweav_daccafe64dd1
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Carpet weaving
 - entry: ಕಾಡತೂಸು
   defs:
-  - &id082
+  - &id097
     entry: Cartridge
     type: Noun
-  id: cartridge_ec74b965c622
+  id: cartridge_272d3b644c89
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cartridge
 - entry: ತೋಟಾ
   defs:
-  - *id082
-  id: cartridge_6bf9ab403ecb
+  - *id097
+  id: cartridge_1cf446a0be22
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cartridge
 - entry: ಕೋವಿಗುಂಡು
   defs:
-  - *id082
-  id: cartridge_36b1f24d61e4
+  - *id097
+  id: cartridge_ce1782eab19f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cartridge
 - entry: ಕೇಸ್‌ ಡೈರಿ
   defs:
-  - &id083
+  - &id098
     entry: Case diary
     type: Noun
-  id: casediary_e5339abf684c
+  id: casediary_c22fd6776f77
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Case diary
 - entry: ಪ್ರಕರಣ ದಿನಚರಿ
   defs:
-  - *id083
-  id: casediary_bc2dd86bb073
+  - *id098
+  id: casediary_96813b49218e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Case diary
 - entry: ಕೇಸ್‌ ಫೈಲ್
   defs:
-  - &id084
+  - &id099
     entry: Case file
     type: Noun
-  id: casefile_84282529ddaa
+  id: casefile_070a454c98ad
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Case file
 - entry: ಪ್ರಕರಣ ಕಡತ
   defs:
-  - *id084
-  id: casefile_31fe2897fae4
+  - *id099
+  id: casefile_0c82c920b25f
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Case file
 - entry: ಕೇಸ್‌ಶೀಟ್
   defs:
-  - &id085
+  - &id100
     entry: Case sheet
     type: Noun
-  id: casesheet_6a14df2a1600
+  id: casesheet_217356d68d02
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Case sheet
 - entry: ಪ್ರಕರಣ ಪತ್ರ
   defs:
-  - *id085
-  id: casesheet_cd576215354c
+  - *id100
+  id: casesheet_7e9c376e7009
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Case sheet
 - entry: ಹರಳೆಣ್ಣೆ
   defs:
-  - &id086
+  - &id101
     entry: Castor oil
     type: Noun
-  id: castoroil_20daaf55865d
+  id: castoroil_e7181159e35b
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Castor oil
 - entry: ಔಡಲೆಣ್ಣೆ
   defs:
-  - *id086
-  id: castoroil_ed8045f3ae8e
+  - *id101
+  id: castoroil_de441b52a37a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Castor oil
 - entry: ಸಾಂದರ್ಭಿಕ ರಜೆ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Casual leave register
     type: Noun
-  id: casualleav_1adeed0fde5b
+  id: casualleav_301bb5648113
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Casual leave register
 - entry: ಅಪಘಾತ
   defs:
-  - &id087
+  - &id102
     entry: Casualty
     type: Noun
-  id: casualty_ae2a249036e4
+  id: casualty_224ab0e8b549
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Casualty
 - entry: ದುರ್ಘಟನೆ
   defs:
-  - *id087
-  id: casualty_fe5711795f8c
+  - *id102
+  id: casualty_6f2f8dbe58e5
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Casualty
 - entry: ಕಾಸ್ಟಿಕ್‌ ಸೋಡ
   defs:
-  - &id088
+  - &id103
     entry: Caustic soda
     type: Noun
-  id: causticsod_e0c66358213e
+  id: causticsod_ee0691182962
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Caustic soda
 - entry: ಸಾಬೂನು
   defs:
-  - *id088
-  id: causticsod_2e7ad533a43e
+  - *id103
+  id: causticsod_277902f12c65
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Caustic soda
 - entry: ಚೆಲುವೆ ಮೊ.ವನ್ನು ಮಾಡಲು ಬಳಸುವ ಹರಳು ರೂಪದ ಒಂದು- ಬಿಳಿಯ ರಾಸಾಯನಿಕ ವಸ್ತು
   defs:
-  - *id088
-  id: causticsod_c1a824b0334f
+  - *id103
+  id: causticsod_1390fb7d60dd
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Caustic soda
 - entry: ಸೆಲ್
   defs:
-  - &id089
+  - &id104
     entry: Cell
     type: Noun
-  id: cell_1d3c6b09e315
+  id: cell_22253e312b75
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cell
 - entry: ಸಣ್ಣಕೋಣೆ
   defs:
-  - *id089
-  id: cell_20779787f264
+  - *id104
+  id: cell_2875ca0cdec2
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cell
 - entry: ನೆಲಮಾಳಿಗೆ
   defs:
   - entry: Cellar
     type: Noun
-  id: cellar_63a586c3088e
+  id: cellar_3c91365fdcec
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cellar
 - entry: ಸೆಲ್ಲುಗಳು ಮತ್ತು ಮಲಗುವ ವಾರ್ಡುಗಳು
   defs:
   - entry: Cells and sleeping wards
     type: Noun
-  id: cellsandsl_1d723380ab1e
+  id: cellsandsl_8aa5ab396f53
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cells and sleeping wards
 - entry: ಸ್ಮಶಾನ
   defs:
   - entry: Cemetery
     type: Noun
-  id: cemetery_14e23596b9f4
+  id: cemetery_84860d4c153a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cemetery
 - entry: ಕೇಂದ್ರ ಕಾರಾಗೃಹ
   defs:
   - entry: Central prison
     type: Noun
-  id: centralpri_cab4c57c2641
+  id: centralpri_95f62adad35a
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Central prison
 - entry: ಸಾಂಪ್ರದಾಯಿಕ ಕವಾಯಿತು
   defs:
   - entry: Ceremonial parade
     type: Noun
-  id: ceremonial_3f2beb595dc3
+  id: ceremonial_71f56daad14e
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Ceremonial parade
 - entry: ಪ್ರಮಾಣಪತ್ರ
   defs:
   - entry: Certificate
     type: Noun
-  id: certificat_fac5552c8b1d
+  id: certificat_947443d54c5d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Certificate
 - entry: ಯೋಗ್ಯತಾ ಪ್ರಮಾಣಪತ್ರ
   defs:
   - entry: Certificate of fitness
     type: Noun
-  id: certificat_e3a93097d8a2
+  id: certificat_9c6d117d1642
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Certificate of fitness
 - entry: ಪ್ರಮಾಣೀಕೃತ ಪ್ರತಿ
   defs:
   - entry: Certified copy
     type: Noun
-  id: certifiedc_8dc4ee390609
+  id: certifiedc_358cb17371b7
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Certified copy
-- entry: 1. ಸಂಕೋಲೆ
+- entry: ಸಂಕೋಲೆ
   defs:
-  - &id090
+  - &id105
     entry: Chains
     type: Noun
-  id: chains_6849d2de1bbe
+  id: chains_df2f724d7a3c
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chains
-- entry: ಬೇಡಿ 2. ಸೆರೆ
+- entry: ಬೇಡಿ
   defs:
-  - *id090
-  id: chains_97d19467b781
+  - *id105
+  id: chains_79e8ec7f2ed1
+  source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Chains
+- entry: ಸೆರೆ
+  defs:
+  - *id105
+  id: chains_c71fd55deb57
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chains
 - entry: ಬಂಧನ
   defs:
-  - *id090
-  id: chains_b6d1ffdb089e
+  - *id105
+  id: chains_ed2847d4b96d
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chains
 - entry: ಚಪ್ಪಲಿ
   defs:
-  - &id091
+  - &id106
     entry: Chappal
     type: Noun
-  id: chappal_63629fe065e5
+  id: chappal_7f7443b8a439
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chappal
 - entry: ಮಟ್ಟು
   defs:
-  - *id091
-  id: chappal_5205134d464a
+  - *id106
+  id: chappal_f6732215d973
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chappal
 - entry: ಇದ್ದಲು
   defs:
   - entry: Charcoal
     type: Noun
-  id: charcoal_c816616d5249
+  id: charcoal_4ded1cac0a46
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Charcoal
 - entry: ಆರೋಪ ಪಟ್ಟಿ
   defs:
   - entry: Charge-sheet
     type: Noun
-  id: chargeshee_e5525592af37
+  id: chargeshee_453fba0d07b9
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Charge-sheet
 - entry: ವಂಚನೆ
   defs:
-  - &id092
+  - &id107
     entry: Cheating
     type: Noun
-  id: cheating_02354097c3d3
+  id: cheating_47d41804ff11
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cheating
 - entry: ವಂಚಿಸುವುದು
   defs:
-  - *id092
-  id: cheating_6c11bf5bf06c
+  - *id107
+  id: cheating_dce034ac4444
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cheating
 - entry: ಚೆಕ್ ನಗದೀಕರಣ ರೆಜಿಸ್ಟರು
   defs:
   - entry: Cheque encashment register
     type: Noun
-  id: chequeenca_16743c5086f9
+  id: chequeenca_c5e565f02914
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Cheque encashment register
 - entry: ಚೀಪ್‌ ಜೈಲರು
   defs:
   - entry: Chief jailor
     type: Noun
-  id: chiefjailo_e5e7b76fbd03
+  id: chiefjailo_179860a3fe01
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chief jailor
 - entry: ಚೀಪ್‌ ವಾರ್ಡರ್
   defs:
   - entry: Chief warder
     type: Noun
-  id: chiefwarde_3106bdbcf246
+  id: chiefwarde_2e4a2c817a90
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chief warder
 - entry: ಗಂಟಿ ಹೊಡೆದು ಸಮಯ ಸೂಚಿಸು
   defs:
   - entry: Chime
     type: Noun
-  id: chime_e335f16b2309
+  id: chime_9d266e18a530
   source: ಪಾರಿಭಾಷಿಕ_ಪದಕೋಶ_-_ಕರಗಹಗಳ_ಇಲಾಖೆ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Chime

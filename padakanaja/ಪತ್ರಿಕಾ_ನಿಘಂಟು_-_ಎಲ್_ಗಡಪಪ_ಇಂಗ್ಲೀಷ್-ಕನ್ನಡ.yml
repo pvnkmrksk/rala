@@ -121,12 +121,12 @@
   id: account_43ba91004015
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
-- entry: 1. ಎಣಿಕೆ
+- entry: ಎಣಿಕೆ
   defs:
   - &id008
     entry: Account
     type: Noun
-  id: account_1c1f664f6fb6
+  id: account_918211b78e21
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
 - entry: ಗಣನೆ
@@ -135,16 +135,22 @@
   id: account_3c9585f1693a
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
-- entry: ಲೆಕ್ಕ 2. ಹೇಳಿಕೆ
+- entry: ಲೆಕ್ಕ
   defs:
   - *id008
-  id: account_f84ecd392924
+  id: account_92519e2f2a08
+  source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
+  head: Account
+- entry: ಹೇಳಿಕೆ
+  defs:
+  - *id008
+  id: account_bcc2657968d3
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
 - entry: ವಿವರಣೆ
   defs:
   - *id008
-  id: account_e61c058d725a
+  id: account_5223daea6f22
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account
 - entry: ಲೆಕ್ಕ ಕೊಡು
@@ -152,18 +158,18 @@
   - &id009
     entry: Account for
     type: Noun
-  id: accountfor_f7a6cef19ebf
+  id: accountfor_34148c077045
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account for
 - entry: ಸಮಾಧಾನ ಹೇಳು
   defs:
   - *id009
-  id: accountfor_10d8b2a8a45e
+  id: accountfor_cc31699c4c77
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account for
 - entry: ಕಾರಣವಾಗಿರು
   defs:
   - *id009
-  id: accountfor_31146317247a
+  id: accountfor_670982c8a51a
   source: ಪತ್ರಿಕಾ_ನಿಘಂಟು_-_ಎಲ್_ಗಡಪಪ_ಇಂಗ್ಲೀಷ್-ಕನ್ನಡ
   head: Account for

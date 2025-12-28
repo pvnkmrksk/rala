@@ -401,8 +401,10 @@ function searchDirect(query) {
         // Combine results in priority order
         return [...exactPhraseResults, ...allWordsResults, ...anyWordResults];
     } else {
-        // Single word: use original logic
+        // Single word: search both reverse index (Alar) and directly (Padakanaja)
         const word = words[0];
+        
+        // Search reverse index (Alar entries)
         if (reverseIndex.has(word)) {
             for (const entry of reverseIndex.get(word)) {
                 const key = `${entry.kannada}-${entry.definition}`;
@@ -413,6 +415,40 @@ function searchDirect(query) {
                         matchedWord: word, 
                         matchType: 'direct' 
                     });
+                }
+            }
+        }
+        
+        // Search padakanaja entries directly (English->Kannada, no reverse index)
+        for (let i = 0; i < dictionary.length; i++) {
+            const entry = dictionary[i];
+            // Skip Alar entries (they're in reverse index)
+            if (entry.source === 'alar') continue;
+            
+            if (!entry.defs) continue;
+            
+            for (const def of entry.defs) {
+                if (!def.entry) continue;
+                const defLower = def.entry.toLowerCase();
+                
+                // Check if definition contains the word
+                if (defLower.includes(word)) {
+                    const key = `${entry.entry}-${def.entry}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        anyWordResults.push({
+                            kannada: cleanKannadaEntry(entry.entry),
+                            phone: entry.phone || '',
+                            definition: def.entry,
+                            type: normalizeType(def.type || ''),
+                            head: entry.head || '',
+                            id: entry.id || '',
+                            dict_title: entry.dict_title || '',
+                            source: entry.source || '',
+                            matchedWord: word,
+                            matchType: 'direct'
+                        });
+                    }
                 }
             }
         }

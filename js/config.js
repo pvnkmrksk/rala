@@ -24,12 +24,12 @@ const PRIMARY_DICTIONARY = {
 // Padakanaja dictionary base URL
 const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 
-// Combined padakanaja dictionary (split into chunks to stay under GitHub's 100MB limit)
+// Combined padakanaja dictionary (split into chunks, JSON format - more compact than YAML)
 const PADAKANAJA_COMBINED_FILES = [
-    'padakanaja/combined_dictionaries_part1.yml',
-    'padakanaja/combined_dictionaries_part2.yml',
-    'padakanaja/combined_dictionaries_part3.yml',
-    'padakanaja/combined_dictionaries_part4.yml'
+    'padakanaja/combined_dictionaries_part1.json',
+    'padakanaja/combined_dictionaries_part2.json',
+    'padakanaja/combined_dictionaries_part3.json',
+    'padakanaja/combined_dictionaries_part4.json'
 ];
 
 // Pre-built reverse index for Alar (split into chunks for faster loading)
@@ -44,14 +44,8 @@ const ALAR_REVERSE_INDEX_FILES = [
 ];
 const ALAR_REVERSE_INDEX_METADATA = 'padakanaja/alar_reverse_index_metadata.json';
 
-// Pre-built reverse index for padakanaja (split into chunks for faster loading)
-const PADAKANAJA_REVERSE_INDEX_FILES = [
-    'padakanaja/reverse_index_part1.json',
-    'padakanaja/reverse_index_part2.json',
-    'padakanaja/reverse_index_part3.json',
-    'padakanaja/reverse_index_part4.json'
-];
-const PADAKANAJA_REVERSE_INDEX_METADATA = 'padakanaja/reverse_index_metadata.json';
+// Padakanaja entries are English->Kannada, so we search directly (no reverse index needed)
+// Reverse index is only for Alar (Kannada->English)
 
 // Global state
 let dictionary = [];

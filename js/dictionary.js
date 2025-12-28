@@ -148,7 +148,13 @@ async function fetchDictionaryFile(source, onProgress = null) {
         // Decode any remaining text
         text += decoder.decode();
         
-        const entries = jsyaml.load(text);
+        // Detect format: JSON or YAML
+        let entries;
+        if (url.endsWith('.json')) {
+            entries = JSON.parse(text);
+        } else {
+            entries = jsyaml.load(text);
+        }
         
         // Normalize types in the loaded entries
         return normalizeEntryTypes(entries);

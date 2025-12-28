@@ -5,6 +5,7 @@ This reduces HTTP requests and improves mobile performance.
 """
 
 import yaml
+import json
 from pathlib import Path
 from typing import List, Dict, Any
 import sys
@@ -84,31 +85,30 @@ def combine_all_dictionaries(
         # Import split function
         from scripts.parsing.split_combined_dictionary import split_combined_dictionary
         
-        # First save the combined file temporarily
-        print(f"\nSaving combined dictionary to: {output_path}")
-        with open(output_path, 'w', encoding='utf-8') as f:
-            yaml.dump(all_entries, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+        # Save as JSON (more compact and faster to parse than YAML)
+        # First save the combined file temporarily as JSON
+        json_output = output_path.with_suffix('.json')
+        print(f"\nSaving combined dictionary to: {json_output}")
+        with open(json_output, 'w', encoding='utf-8') as f:
+            json.dump(all_entries, f, ensure_ascii=False, indent=2)
         
-        file_size = output_path.stat().st_size / (1024 * 1024)  # MB
-        print(f"✓ Saved {len(all_entries):,} entries ({file_size:.2f} MB)")
+        file_size = json_output.stat().st_size / (1024 * 1024)  # MB
+        print(f"✓ Saved {len(all_entries):,} entries as JSON ({file_size:.2f} MB)")
         
-        # Now split into chunks
+        # Now split into chunks (JSON format)
         print(f"\nSplitting into chunks (target: {chunk_size_mb}MB per chunk)...")
-        split_combined_dictionary(str(output_path), chunk_size_mb, str(output_path.parent))
+        from scripts.parsing.split_combined_dictionary_json import split_combined_dictionary_json
+        split_combined_dictionary_json(str(json_output), chunk_size_mb, str(output_path.parent))
         
-        # Generate reverse index
-        print(f"\nGenerating reverse index...")
-        from scripts.parsing.generate_reverse_index import generate_reverse_index
-        generate_reverse_index(str(output_path.parent), str(output_path.parent / 'reverse_index.json'))
+        # Remove the large combined JSON file after splitting
+        json_output.unlink(missing_ok=True)
         
-        # Split reverse index into chunks
-        print(f"\nSplitting reverse index into chunks...")
-        from scripts.parsing.split_reverse_index import split_reverse_index
-        split_reverse_index(str(output_path.parent / 'reverse_index.json'), chunk_size_mb, str(output_path.parent))
-        
+        # Skip reverse index generation for padakanaja
+        # Padakanaja entries are already English->Kannada, so we can search directly
+        # Reverse index is only needed for Alar (Kannada->English)
         print(f"\n✓ Combined dictionary ready: {output_path}")
         print(f"  (Also split into chunks for git compatibility)")
-        print(f"  (Reverse index generated and split into chunks)")
+        print(f"  (Skipping reverse index - padakanaja entries are English->Kannada, search directly)")
     else:
         print(f"\nSaving combined dictionary to: {output_path}")
         with open(output_path, 'w', encoding='utf-8') as f:
