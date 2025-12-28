@@ -15,6 +15,9 @@ This directory contains scripts organized by function for scraping, parsing, and
   - `batch_parse_padakanaja.py` - Batch processes all CSV files in padakanaja/
   - `combine_dictionaries.py` - Combines all YAML dictionaries into a single file
   - `rename_dictionaries.py` - Renames dictionary files to canonical names (fixes typos)
+  - `generate_reverse_index.py` - Generates pre-built reverse index from YAML files
+  - `generate_alar_reverse_index.py` - Generates pre-built reverse index for Alar dictionary
+  - `split_reverse_index.py` - Splits large reverse index files into chunks
 
 ## Usage
 
@@ -104,10 +107,31 @@ python combine_dictionaries.py
 This will:
 - Load all YAML files from `padakanaja/`
 - Combine them into `padakanaja/combined_dictionaries.yml`
+- Split into chunks (all under 100MB for GitHub)
+- Generate reverse index and split it into chunks
 - Preserve source information for each entry
-- Generate a single file (~142MB) instead of 63 separate files
 
-**Output:** `padakanaja/combined_dictionaries.yml`
+**Output:** 
+- `padakanaja/combined_dictionaries_part*.yml` (4 chunks)
+- `padakanaja/reverse_index_part*.json` (4 chunks)
+
+### Step 5: Generate Alar Reverse Index
+
+Generate pre-built reverse index for Alar dictionary:
+
+```bash
+cd scripts/parsing
+python generate_alar_reverse_index.py
+```
+
+This will:
+- Download Alar dictionary from GitHub
+- Generate reverse index
+- Split into chunks if needed (all under 100MB)
+
+**Output:**
+- `padakanaja/alar_reverse_index_part*.json` (7 chunks)
+- `padakanaja/alar_reverse_index_metadata.json`
 
 ## Complete Workflow
 
@@ -132,9 +156,14 @@ cd scripts/parsing
 python batch_parse_padakanaja.py
 cd ../..
 
-# 5. Combine all YAML files
+# 5. Combine all YAML files (also generates reverse index)
 cd scripts/parsing
 python combine_dictionaries.py
+cd ../..
+
+# 6. Generate Alar reverse index
+cd scripts/parsing
+python generate_alar_reverse_index.py
 cd ../..
 ```
 
