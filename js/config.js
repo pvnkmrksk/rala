@@ -32,6 +32,15 @@ const PADAKANAJA_COMBINED_FILES = [
     'padakanaja/combined_dictionaries_part4.yml'
 ];
 
+// Pre-built reverse index (split into chunks for faster loading)
+const REVERSE_INDEX_FILES = [
+    'padakanaja/reverse_index_part1.json',
+    'padakanaja/reverse_index_part2.json',
+    'padakanaja/reverse_index_part3.json',
+    'padakanaja/reverse_index_part4.json'
+];
+const REVERSE_INDEX_METADATA = 'padakanaja/reverse_index_metadata.json';
+
 // Global state
 let dictionary = [];
 let reverseIndex = new Map();

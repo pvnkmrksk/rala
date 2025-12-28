@@ -286,27 +286,37 @@ async function fetchAndCacheDictionary() {
                         dictionary.push(...allPadakanajaEntries);
                         console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
 
-                        // Build reverse index IMMEDIATELY (synchronously) so search works
-                        // This is critical - search needs the reverse index to be ready
-                        console.log('Building reverse index for padakanaja entries...');
-                        addToReverseIndex(allPadakanajaEntries);
-                        console.log(`✓ Reverse index updated. Total words: ${reverseIndex.size}`);
+                        // Load pre-built reverse index instead of building it client-side
+                        // This is much faster than building it from scratch
+                        console.log('Loading pre-built reverse index...');
+                        loadPreBuiltReverseIndex().then(() => {
+                            console.log(`✓ Reverse index loaded. Total words: ${reverseIndex.size}`);
+                            
+                            // Update cache asynchronously (non-blocking)
+                            if ('requestIdleCallback' in window) {
+                                requestIdleCallback(() => {
+                                    updateCache();
+                                }, { timeout: 5000 });
+                            } else {
+                                setTimeout(() => {
+                                    updateCache();
+                                }, 100);
+                            }
 
-                        // Update cache asynchronously (non-blocking)
-                        if ('requestIdleCallback' in window) {
-                            requestIdleCallback(() => {
-                                updateCache();
-                            }, { timeout: 5000 });
-                        } else {
-                            setTimeout(() => {
-                                updateCache();
-                            }, 100);
-                        }
-
-                        if (progressShown) {
-                            updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
-                        }
-                        console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
+                            if (progressShown) {
+                                updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
+                            }
+                            console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
+                        }).catch(error => {
+                            console.error('Failed to load pre-built reverse index, building from entries:', error);
+                            // Fallback: build from entries if pre-built index fails
+                            addToReverseIndex(allPadakanajaEntries);
+                            console.log(`✓ Reverse index built from entries. Total words: ${reverseIndex.size}`);
+                            
+                            if (progressShown) {
+                                updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
+                            }
+                        });
                     } else {
                         console.warn(`⚠ Failed to load padakanaja dictionary chunks`);
                         if (progressShown) {
@@ -378,26 +388,26 @@ async function fetchAndCacheDictionary() {
         
         // Cache function (called separately)
         async function updateCache() {
-            try {
-                const dataSize = new Blob([JSON.stringify(dictionary)]).size;
-                const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
-                console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
-                
-                await setCachedDictionary(dictionary);
-                await setCachedVersion(CACHE_VERSION);
-                
-                // Verify cache was saved
-                const verifyCache = await getCachedDictionary();
-                if (verifyCache && verifyCache.length === dictionary.length) {
-                    console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
-                    console.log(`  Cache verification: ${verifyCache.length} entries stored`);
-                } else {
-                    console.warn('⚠ Cache verification: entry count mismatch');
-                }
-            } catch (error) {
-                console.error('✗ Failed to cache dictionary in IndexedDB:', error);
-                console.error('Dictionary will be fetched on each visit');
+        try {
+            const dataSize = new Blob([JSON.stringify(dictionary)]).size;
+            const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
+            console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
+            
+            await setCachedDictionary(dictionary);
+            await setCachedVersion(CACHE_VERSION);
+            
+            // Verify cache was saved
+            const verifyCache = await getCachedDictionary();
+            if (verifyCache && verifyCache.length === dictionary.length) {
+                console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
+                console.log(`  Cache verification: ${verifyCache.length} entries stored`);
+            } else {
+                console.warn('⚠ Cache verification: entry count mismatch');
             }
+        } catch (error) {
+            console.error('✗ Failed to cache dictionary in IndexedDB:', error);
+            console.error('Dictionary will be fetched on each visit');
+        }
         }
         
         // Cache Alar dictionary immediately (will update with full dictionary later)
