@@ -24,8 +24,13 @@ const PRIMARY_DICTIONARY = {
 // Padakanaja dictionary base URL
 const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 
-// Combined padakanaja dictionary (all 63 dictionaries in one file)
-const PADAKANAJA_COMBINED_FILE = 'padakanaja/combined_dictionaries.yml';
+// Combined padakanaja dictionary (split into chunks to stay under GitHub's 100MB limit)
+const PADAKANAJA_COMBINED_FILES = [
+    'padakanaja/combined_dictionaries_part1.yml',
+    'padakanaja/combined_dictionaries_part2.yml',
+    'padakanaja/combined_dictionaries_part3.yml',
+    'padakanaja/combined_dictionaries_part4.yml'
+];
 
 // Global state
 let dictionary = [];
