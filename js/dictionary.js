@@ -431,6 +431,52 @@ async function fetchAndCacheDictionary() {
     }
 }
 
+// Load pre-built reverse index from JSON chunks
+async function loadPreBuiltReverseIndex() {
+    try {
+        // Load metadata first
+        const metadataResponse = await fetch(REVERSE_INDEX_METADATA);
+        if (!metadataResponse.ok) {
+            throw new Error(`Failed to load reverse index metadata: ${metadataResponse.status}`);
+        }
+        const metadata = await metadataResponse.json();
+        
+        console.log(`Loading reverse index (${metadata.totalParts} parts, ${metadata.totalWords.toLocaleString()} words)...`);
+        
+        // Load all chunks in parallel
+        const chunkPromises = REVERSE_INDEX_FILES.map(async (file, index) => {
+            const response = await fetch(file);
+            if (!response.ok) {
+                throw new Error(`Failed to load reverse index chunk ${index + 1}: ${response.status}`);
+            }
+            const data = await response.json();
+            return data.reverseIndex || {};
+        });
+        
+        const chunks = await Promise.all(chunkPromises);
+        
+        // Merge all chunks into reverse index
+        for (const chunk of chunks) {
+            for (const [word, entries] of Object.entries(chunk)) {
+                if (!reverseIndex.has(word)) {
+                    reverseIndex.set(word, []);
+                }
+                reverseIndex.get(word).push(...entries);
+            }
+        }
+        
+        // Update allEnglishWords from metadata
+        if (metadata.allEnglishWords) {
+            metadata.allEnglishWords.forEach(word => allEnglishWords.add(word));
+        }
+        
+        console.log(`✓ Loaded reverse index: ${reverseIndex.size.toLocaleString()} words`);
+    } catch (error) {
+        console.error('Error loading pre-built reverse index:', error);
+        throw error;
+    }
+}
+
 // Add entries to reverse index incrementally
 function addToReverseIndex(entries) {
     for (let i = 0; i < entries.length; i++) {
