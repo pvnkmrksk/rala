@@ -211,22 +211,33 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
                     continue
             
             # Remove numbered prefixes (1. 2. 3. etc.) and split into multiple entries
-            # Pattern: matches "1." or "2." or "10." etc. at the start, optionally followed by space
-            kannada_word_raw = re.sub(r'^\d+\.\s*', '', kannada_word_raw)
+            # First, split by numbered patterns anywhere in the text (not just at start)
+            # Pattern: matches "1." or "2." or "10." etc. with optional space before/after
+            # This handles cases like "ಸ್ಪರ್ಶಾಂಗ 2. ಏರಿಯಲ್" -> ["ಸ್ಪರ್ಶಾಂಗ", "ಏರಿಯಲ್"]
             
-            # Split Kannada words by semicolon, comma, or slash to handle synonyms
-            # Split by semicolon first, then comma, then slash, and clean each
-            # Space is NOT a delimiter - only ; , / are delimiters
+            # Split by numbered patterns (e.g., " 1. ", " 2. ", "1.", "2.")
+            # Use lookahead to split but keep the delimiter context
+            parts = re.split(r'\s*\d+\.\s*', kannada_word_raw)
+            
+            # Also split by semicolon, comma, or slash to handle synonyms
+            # Space is NOT a delimiter - only ; , / and numbered patterns are delimiters
             kannada_words = []
-            for semicolon_part in kannada_word_raw.split(';'):
-                for comma_part in semicolon_part.split(','):
-                    for slash_part in comma_part.split('/'):
-                        # Strip all whitespace including Unicode spaces (non-breaking spaces, etc.)
-                        cleaned = slash_part.strip().strip('\u200B\u200C\u200D\uFEFF\u00A0')
-                        # Remove any remaining numbered prefixes that might be in the middle
-                        cleaned = re.sub(r'^\d+\.\s*', '', cleaned)
-                        if cleaned:
-                            kannada_words.append(cleaned)
+            for part in parts:
+                # Remove leading numbered prefix if still present (from start of string)
+                part = re.sub(r'^\d+\.\s*', '', part)
+                
+                # Split by semicolon, comma, or slash
+                for semicolon_part in part.split(';'):
+                    for comma_part in semicolon_part.split(','):
+                        for slash_part in comma_part.split('/'):
+                            # Strip all whitespace including Unicode spaces (non-breaking spaces, etc.)
+                            cleaned = slash_part.strip().strip('\u200B\u200C\u200D\uFEFF\u00A0')
+                            # Remove any remaining numbered prefixes
+                            cleaned = re.sub(r'^\d+\.\s*', '', cleaned)
+                            # Remove trailing numbers with dots (e.g., "word 1." -> "word")
+                            cleaned = re.sub(r'\s+\d+\.\s*$', '', cleaned)
+                            if cleaned:
+                                kannada_words.append(cleaned)
             
             # If no valid words after splitting, use original (with number prefix removed)
             if not kannada_words:
