@@ -125,9 +125,12 @@ async function fetchDictionaryFile(source, onProgress = null) {
         let loaded = 0;
         
         // Stream the response for progress tracking
+        // On mobile, yield to main thread periodically to prevent blocking
         const reader = response.body.getReader();
         const decoder = new TextDecoder();
         let text = '';
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        let chunkCount = 0;
         
         while (true) {
             const { done, value } = await reader.read();
@@ -135,6 +138,12 @@ async function fetchDictionaryFile(source, onProgress = null) {
             
             loaded += value.length;
             text += decoder.decode(value, { stream: true });
+            chunkCount++;
+            
+            // On mobile, yield to main thread every 50 chunks to prevent blocking
+            if (isMobile && chunkCount % 50 === 0) {
+                await new Promise(resolve => setTimeout(resolve, 0));
+            }
             
             // Report progress if callback provided and we have valid total
             // Only report if loaded <= total (or within 5% tolerance for compression differences)
