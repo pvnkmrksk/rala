@@ -233,43 +233,90 @@ async function fetchAndCacheDictionary() {
         // Build reverse index immediately so search works
         buildReverseIndex();
         
-        // Hide Alar progress indicator
-        updateProgressIndicator(1, 1, 100, 'Alar Dictionary Loaded');
+        // Hide progress indicator immediately - Alar is ready for search
+        const progressEl = document.getElementById('dict-progress');
+        if (progressEl) {
+            progressEl.style.opacity = '0';
+            setTimeout(() => {
+                progressEl.style.display = 'none';
+            }, 300);
+        }
         
-        // Step 2: Load combined padakanaja dictionary in background
-        console.log(`Loading additional dictionaries in background...`);
+        // Step 2: Load combined padakanaja dictionary in background (truly async, non-blocking)
+        // Use requestIdleCallback or setTimeout to ensure it doesn't block UI
+        console.log(`Loading additional dictionaries in background (non-blocking)...`);
         
-        // Update progress indicator for background loading
-        updateProgressIndicator(0, 1, 0, 'Loading Additional Dictionaries...');
+        const loadPadakanajaAsync = () => {
+            // Only show progress if user is still on page after a delay
+            let progressShown = false;
+            const showProgressIfNeeded = () => {
+                if (!progressShown) {
+                    createProgressIndicator();
+                    updateProgressIndicator(0, 1, 0, 'Loading Additional Dictionaries...');
+                    progressShown = true;
+                }
+            };
+            
+            // Delay showing progress to avoid UI clutter if loading is fast
+            const progressTimeout = setTimeout(showProgressIfNeeded, 2000);
+            
+            const padakanajaSource = { url: PADAKANAJA_COMBINED_FILE, type: 'local' };
+            fetchDictionaryFile(
+                padakanajaSource,
+                (loaded, total, percent) => {
+                    if (!progressShown) {
+                        clearTimeout(progressTimeout);
+                        showProgressIfNeeded();
+                    }
+                    updateProgressIndicator(loaded, total, percent, 'Loading Additional Dictionaries...');
+                }
+            ).then(padakanajaEntries => {
+                clearTimeout(progressTimeout);
+                if (padakanajaEntries && Array.isArray(padakanajaEntries)) {
+                    dictionary.push(...padakanajaEntries);
+                    console.log(`✓ Loaded ${padakanajaEntries.length} entries from combined padakanaja dictionary`);
+                    
+                    // Rebuild reverse index with all entries (incrementally, non-blocking)
+                    // Use requestIdleCallback or chunk the work to avoid blocking
+                    if ('requestIdleCallback' in window) {
+                        requestIdleCallback(() => {
+                            addToReverseIndex(padakanajaEntries);
+                            updateCache();
+                        }, { timeout: 5000 });
+                    } else {
+                        // Fallback: chunk the work
+                        setTimeout(() => {
+                            addToReverseIndex(padakanajaEntries);
+                            updateCache();
+                        }, 100);
+                    }
+                    
+                    if (progressShown) {
+                        updateProgressIndicator(1, 1, 100, 'All Dictionaries Loaded');
+                    }
+                    console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
+                } else {
+                    console.warn(`⚠ Failed to load combined padakanaja dictionary`);
+                    if (progressShown) {
+                        updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+                    }
+                }
+            }).catch(error => {
+                clearTimeout(progressTimeout);
+                console.error('Error loading padakanaja dictionary:', error);
+                if (progressShown) {
+                    updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+                }
+            });
+        };
         
-        // Load in background (don't block)
-        const padakanajaSource = { url: PADAKANAJA_COMBINED_FILE, type: 'local' };
-        fetchDictionaryFile(
-            padakanajaSource,
-            (loaded, total, percent) => {
-                updateProgressIndicator(loaded, total, percent, 'Loading Additional Dictionaries...');
-            }
-        ).then(padakanajaEntries => {
-            if (padakanajaEntries && Array.isArray(padakanajaEntries)) {
-                dictionary.push(...padakanajaEntries);
-                console.log(`✓ Loaded ${padakanajaEntries.length} entries from combined padakanaja dictionary`);
-                
-                // Rebuild reverse index with all entries
-                addToReverseIndex(padakanajaEntries);
-                
-                updateProgressIndicator(1, 1, 100, 'All Dictionaries Loaded');
-                console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
-                
-                // Update cache with complete dictionary
-                updateCache();
-            } else {
-                console.warn(`⚠ Failed to load combined padakanaja dictionary`);
-                updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
-            }
-        }).catch(error => {
-            console.error('Error loading padakanaja dictionary:', error);
-            updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
-        });
+        // Use requestIdleCallback if available, otherwise setTimeout with delay
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadPadakanajaAsync, { timeout: 1000 });
+        } else {
+            // Fallback: delay by 500ms to ensure UI is responsive
+            setTimeout(loadPadakanajaAsync, 500);
+        }
         
         // Cache function (called separately)
         async function updateCache() {
