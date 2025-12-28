@@ -283,7 +283,8 @@ async function fetchAndCacheDictionary() {
                     // All chunks loaded
                     clearTimeout(progressTimeout);
                     if (allPadakanajaEntries.length > 0) {
-                        dictionary.push(...allPadakanajaEntries);
+                        // Use concat instead of spread to avoid "too many arguments" error
+                        dictionary = dictionary.concat(allPadakanajaEntries);
                         console.log(`✓ Loaded ${allPadakanajaEntries.length} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
 
                         // Load pre-built reverse index instead of building it client-side
