@@ -28,8 +28,7 @@ const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 const PADAKANAJA_COMBINED_FILES = [
     'padakanaja/combined_dictionaries_part1.json',
     'padakanaja/combined_dictionaries_part2.json',
-    'padakanaja/combined_dictionaries_part3.json',
-    'padakanaja/combined_dictionaries_part4.json'
+    'padakanaja/combined_dictionaries_part3.json'
 ];
 
 // Pre-built reverse index for Alar (split into chunks for faster loading)
