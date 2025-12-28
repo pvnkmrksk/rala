@@ -86,15 +86,21 @@ def combine_all_dictionaries(
         # Import split function
         from scripts.parsing.split_combined_dictionary import split_combined_dictionary
         
-        # Save as JSON (more compact and faster to parse than YAML)
-        # First save the combined file temporarily as JSON
+        # Optimize entries for smaller file size (groups by source, compact format)
+        from scripts.parsing.optimize_dictionary_format import optimize_entries
+        print(f"\nOptimizing dictionary format (groups by source, compact arrays)...")
+        optimized_entries = optimize_entries(all_entries)
+        
+        # Save as optimized JSON (much smaller - ~65% reduction)
         json_output = output_path.with_suffix('.json')
-        print(f"\nSaving combined dictionary to: {json_output}")
+        print(f"\nSaving optimized combined dictionary to: {json_output}")
         with open(json_output, 'w', encoding='utf-8') as f:
-            json.dump(all_entries, f, ensure_ascii=False, indent=2)
+            json.dump(optimized_entries, f, ensure_ascii=False, separators=(',', ':'))  # No spaces for smaller size
         
         file_size = json_output.stat().st_size / (1024 * 1024)  # MB
-        print(f"✓ Saved {len(all_entries):,} entries as JSON ({file_size:.2f} MB)")
+        original_size = len(json.dumps(all_entries, ensure_ascii=False)) / (1024 * 1024)
+        reduction = (1 - file_size / original_size) * 100
+        print(f"✓ Saved {len(all_entries):,} entries as optimized JSON ({file_size:.2f} MB, {reduction:.1f}% reduction)")
         
         # Now split into chunks (JSON format)
         print(f"\nSplitting into chunks (target: {chunk_size_mb}MB per chunk)...")

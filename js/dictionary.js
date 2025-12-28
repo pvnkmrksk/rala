@@ -37,6 +37,44 @@ async function loadDictionary() {
     await fetchAndCacheDictionary();
 }
 
+// Expand optimized dictionary format (grouped by source) to flat array
+function expandOptimizedEntries(optimized) {
+    // If it's already an array (regular format), return as-is
+    if (Array.isArray(optimized)) {
+        return optimized;
+    }
+    
+    // Optimized format: {source: {dict_title: [[k, e, t?], ...]}}
+    const entries = [];
+    
+    for (const [source, dicts] of Object.entries(optimized)) {
+        for (const [dictTitle, entriesList] of Object.entries(dicts)) {
+            for (const entryData of entriesList) {
+                // Handle both [k, e] and [k, e, t] formats
+                let kannada, english, type;
+                if (entryData.length === 3) {
+                    [kannada, english, type] = entryData;
+                } else {
+                    [kannada, english] = entryData;
+                    type = '';
+                }
+                
+                entries.push({
+                    entry: kannada,
+                    defs: [{
+                        entry: english,
+                        type: type || 'Noun'  // Default type
+                    }],
+                    source: source,
+                    dict_title: dictTitle
+                });
+            }
+        }
+    }
+    
+    return entries;
+}
+
 // Clean Kannada entry text - remove brackets, parentheses, and other non-text characters
 function cleanKannadaEntry(text) {
     if (!text) return '';
@@ -160,7 +198,7 @@ async function fetchDictionaryFile(source, onProgress = null) {
         // Detect format: JSON or YAML
         // On mobile, parse large JSON files in idle time to prevent blocking
         const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        let entries;
+        let data;
         
         if (url.endsWith('.json')) {
             // On mobile, parse large JSON files (>1MB) in idle time to prevent blocking
@@ -168,19 +206,22 @@ async function fetchDictionaryFile(source, onProgress = null) {
                 return new Promise((resolve, reject) => {
                     requestIdleCallback(() => {
                         try {
-                            entries = JSON.parse(text);
-                            resolve(normalizeEntryTypes(entries));
+                            data = JSON.parse(text);
+                            resolve(expandOptimizedEntries(data));
                         } catch (error) {
                             reject(error);
                         }
                     }, { timeout: 100 });
                 });
             } else {
-                entries = JSON.parse(text);
+                data = JSON.parse(text);
             }
         } else {
-            entries = jsyaml.load(text);
+            data = jsyaml.load(text);
         }
+        
+        // Check if it's optimized format (grouped by source) or regular format
+        const entries = Array.isArray(data) ? data : expandOptimizedEntries(data);
         
         // Normalize types in the loaded entries
         return normalizeEntryTypes(entries);

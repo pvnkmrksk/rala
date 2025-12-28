@@ -5,7 +5,7 @@ const YAML_URL = 'https://raw.githubusercontent.com/alar-dict/data/master/alar.y
 const DATAMUSE_API = 'https://api.datamuse.com/words';
 const CACHE_KEY = 'rala_dictionary_cache';
 const CACHE_VERSION_KEY = 'rala_cache_version';
-const CACHE_VERSION = '1.7'; // Increment this to invalidate all caches (chunked loading)
+const CACHE_VERSION = '1.9'; // Increment this to invalidate all caches (optimized format)
 const DB_NAME = 'rala_dictionary_db';
 const DB_VERSION = 1;
 const STORE_NAME = 'dictionary';
@@ -24,11 +24,10 @@ const PRIMARY_DICTIONARY = {
 // Padakanaja dictionary base URL
 const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 
-// Combined padakanaja dictionary (split into chunks, JSON format - more compact than YAML)
+// Combined padakanaja dictionary (optimized format: grouped by source, compact arrays)
+// ~67% smaller than original format - much faster on mobile
 const PADAKANAJA_COMBINED_FILES = [
-    'padakanaja/combined_dictionaries_part1.json',
-    'padakanaja/combined_dictionaries_part2.json',
-    'padakanaja/combined_dictionaries_part3.json'
+    'padakanaja/combined_dictionaries_part1.json'
 ];
 
 // Pre-built reverse index for Alar (split into chunks for faster loading)
