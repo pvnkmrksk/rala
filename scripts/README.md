@@ -14,6 +14,7 @@ This directory contains scripts organized by function for scraping, parsing, and
   - `csv_to_yaml_parser.py` - Converts CSV files to YAML format
   - `batch_parse_padakanaja.py` - Batch processes all CSV files in padakanaja/
   - `combine_dictionaries.py` - Combines all YAML dictionaries into a single file
+  - `rename_dictionaries.py` - Renames dictionary files to canonical names (fixes typos)
 
 ## Usage
 
@@ -47,7 +48,22 @@ This will:
 
 **Note:** Only run this if you need to refresh the source data. The scraped CSV files are already in the repository.
 
-### Step 2: Parsing CSV to YAML
+### Step 2: Fix Filenames (if needed)
+
+If dictionary files have typos in their names, rename them to canonical names:
+
+```bash
+cd scripts/parsing
+# Dry run (see what would be renamed)
+python rename_dictionaries.py
+
+# Actually rename files
+python rename_dictionaries.py --execute
+```
+
+This uses the canonical title mapping to ensure all filenames use correct spellings.
+
+### Step 3: Parsing CSV to YAML
 
 #### Single File
 
@@ -76,7 +92,7 @@ This will:
 - Split synonyms into separate entries
 - Normalize grammar types (e.g., "n" → "Noun")
 
-### Step 3: Combining Dictionaries
+### Step 4: Combining Dictionaries
 
 Combine all padakanaja YAML files into a single file for better mobile performance:
 
@@ -106,12 +122,17 @@ cd scripts/scraping
 python scraper_simple.py
 cd ../..
 
-# 3. Parse all CSV files to YAML
+# 3. Fix filenames (if needed - ensures canonical names)
+cd scripts/parsing
+python rename_dictionaries.py --execute
+cd ../..
+
+# 4. Parse all CSV files to YAML
 cd scripts/parsing
 python batch_parse_padakanaja.py
 cd ../..
 
-# 4. Combine all YAML files
+# 5. Combine all YAML files
 cd scripts/parsing
 python combine_dictionaries.py
 cd ../..
@@ -126,8 +147,9 @@ cd ../..
 
 ## Notes
 
-- The parser automatically filters out entries that contain only English words in Kannada columns
-- Synonyms are split into separate entries for better searchability
-- Dictionary titles are corrected using a mapping in `batch_parse_padakanaja.py`
-- Grammar types are normalized to full forms (e.g., "n" → "Noun")
-- Kannada entries are cleaned (brackets, parentheses removed)
+- **Filenames**: The scraper uses canonical title mapping to prevent typos in filenames
+- **Filtering**: The parser automatically filters out entries that contain only English words in Kannada columns
+- **Synonyms**: Synonyms are split into separate entries for better searchability
+- **Titles**: Dictionary titles are corrected using a mapping in `batch_parse_padakanaja.py`
+- **Grammar**: Grammar types are normalized to full forms (e.g., "n" → "Noun")
+- **Cleaning**: Kannada entries are cleaned (brackets, parentheses removed)
