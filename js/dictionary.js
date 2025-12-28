@@ -105,7 +105,7 @@ function normalizeEntryTypes(entries) {
 }
 
 // Fetch a single dictionary file (remote or local)
-async function fetchDictionaryFile(source) {
+async function fetchDictionaryFile(source, onProgress = null) {
     try {
         let url = source.url;
         
@@ -119,7 +119,33 @@ async function fetchDictionaryFile(source) {
         
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Failed to fetch ${url} (${response.status} ${response.statusText})`);
-        const text = await response.text();
+        
+        const contentLength = response.headers.get('content-length');
+        const total = contentLength ? parseInt(contentLength, 10) : null;
+        let loaded = 0;
+        
+        // Stream the response for progress tracking
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let text = '';
+        
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            
+            loaded += value.length;
+            text += decoder.decode(value, { stream: true });
+            
+            // Report progress if callback provided
+            if (onProgress && total) {
+                const percent = Math.round((loaded / total) * 100);
+                onProgress(loaded, total, percent);
+            }
+        }
+        
+        // Decode any remaining text
+        text += decoder.decode();
+        
         const entries = jsyaml.load(text);
         
         // Normalize types in the loaded entries
@@ -141,15 +167,20 @@ let backgroundLoadProgress = {
 };
 
 // Update progress indicator UI
-function updateProgressIndicator(loaded, total, currentFile = '') {
+function updateProgressIndicator(loaded, total, percent = null, label = '') {
     const progressEl = document.getElementById('dict-progress');
     if (!progressEl) return;
     
-    const percent = total > 0 ? Math.round((loaded / total) * 100) : 0;
-    progressEl.querySelector('.progress-percent').textContent = `${percent}%`;
-    progressEl.querySelector('.progress-bar-fill').style.width = `${percent}%`;
+    const calculatedPercent = percent !== null ? percent : (total > 0 ? Math.round((loaded / total) * 100) : 0);
+    progressEl.querySelector('.progress-percent').textContent = `${calculatedPercent}%`;
+    progressEl.querySelector('.progress-bar-fill').style.width = `${calculatedPercent}%`;
     
-    if (loaded < total) {
+    if (label) {
+        const labelEl = progressEl.querySelector('.progress-label');
+        if (labelEl) labelEl.textContent = label;
+    }
+    
+    if (calculatedPercent < 100) {
         progressEl.style.display = 'flex';
         // Trigger opacity transition
         setTimeout(() => {
@@ -171,11 +202,19 @@ function updateProgressIndicator(loaded, total, currentFile = '') {
 // Fetch dictionary from network and cache it in IndexedDB
 async function fetchAndCacheDictionary() {
     try {
-        console.log('=== MULTI-DICTIONARY LOADER v1.6 (Combined File) ===');
+        console.log('=== MULTI-DICTIONARY LOADER v1.7 (Progressive Loading) ===');
         
-        // Step 1: Load primary dictionary first
+        // Step 1: Load primary dictionary first with progress bar
         console.log(`Loading primary dictionary: ${PRIMARY_DICTIONARY.name}`);
-        const primaryEntries = await fetchDictionaryFile(PRIMARY_DICTIONARY);
+        createProgressIndicator();
+        updateProgressIndicator(0, 1, 0, 'Loading Alar Dictionary...');
+        
+        const primaryEntries = await fetchDictionaryFile(
+            PRIMARY_DICTIONARY,
+            (loaded, total, percent) => {
+                updateProgressIndicator(loaded, total, percent, 'Loading Alar Dictionary...');
+            }
+        );
         
         if (!primaryEntries || !Array.isArray(primaryEntries)) {
             throw new Error('Failed to load primary dictionary');
@@ -194,49 +233,70 @@ async function fetchAndCacheDictionary() {
         // Build reverse index immediately so search works
         buildReverseIndex();
         
-        // Step 2: Load combined padakanaja dictionary (single file)
-        console.log(`Loading combined padakanaja dictionary...`);
-        createProgressIndicator();
-        updateProgressIndicator(0, 1, 'Loading combined dictionary...');
+        // Hide Alar progress indicator
+        updateProgressIndicator(1, 1, 100, 'Alar Dictionary Loaded');
         
+        // Step 2: Load combined padakanaja dictionary in background
+        console.log(`Loading additional dictionaries in background...`);
+        
+        // Update progress indicator for background loading
+        updateProgressIndicator(0, 1, 0, 'Loading Additional Dictionaries...');
+        
+        // Load in background (don't block)
         const padakanajaSource = { url: PADAKANAJA_COMBINED_FILE, type: 'local' };
-        const padakanajaEntries = await fetchDictionaryFile(padakanajaSource);
-        
-        if (padakanajaEntries && Array.isArray(padakanajaEntries)) {
-            dictionary.push(...padakanajaEntries);
-            console.log(`✓ Loaded ${padakanajaEntries.length} entries from combined padakanaja dictionary`);
-            
-            // Rebuild reverse index with all entries
-            addToReverseIndex(padakanajaEntries);
-            
-            updateProgressIndicator(1, 1);
-            console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
-        } else {
-            console.warn(`⚠ Failed to load combined padakanaja dictionary`);
-            updateProgressIndicator(1, 1);
-        }
-        
-        // Cache the complete dictionary in IndexedDB
-        try {
-            const dataSize = new Blob([JSON.stringify(dictionary)]).size;
-            const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
-            console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
-            
-            await setCachedDictionary(dictionary);
-            await setCachedVersion(CACHE_VERSION);
-            
-            // Verify cache was saved
-            const verifyCache = await getCachedDictionary();
-            if (verifyCache && verifyCache.length === dictionary.length) {
-                console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
-                console.log(`  Cache verification: ${verifyCache.length} entries stored`);
-            } else {
-                console.warn('⚠ Cache verification: entry count mismatch');
+        fetchDictionaryFile(
+            padakanajaSource,
+            (loaded, total, percent) => {
+                updateProgressIndicator(loaded, total, percent, 'Loading Additional Dictionaries...');
             }
-        } catch (error) {
-            console.error('✗ Failed to cache dictionary in IndexedDB:', error);
-            console.error('Dictionary will be fetched on each visit');
+        ).then(padakanajaEntries => {
+            if (padakanajaEntries && Array.isArray(padakanajaEntries)) {
+                dictionary.push(...padakanajaEntries);
+                console.log(`✓ Loaded ${padakanajaEntries.length} entries from combined padakanaja dictionary`);
+                
+                // Rebuild reverse index with all entries
+                addToReverseIndex(padakanajaEntries);
+                
+                updateProgressIndicator(1, 1, 100, 'All Dictionaries Loaded');
+                console.log(`✓ Total loaded: ${dictionary.length} entries from 2 sources (Alar + Combined Padakanaja)`);
+                
+                // Update cache with complete dictionary
+                updateCache();
+            } else {
+                console.warn(`⚠ Failed to load combined padakanaja dictionary`);
+                updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+            }
+        }).catch(error => {
+            console.error('Error loading padakanaja dictionary:', error);
+            updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+        });
+        
+        // Cache function (called separately)
+        async function updateCache() {
+            try {
+                const dataSize = new Blob([JSON.stringify(dictionary)]).size;
+                const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
+                console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
+                
+                await setCachedDictionary(dictionary);
+                await setCachedVersion(CACHE_VERSION);
+                
+                // Verify cache was saved
+                const verifyCache = await getCachedDictionary();
+                if (verifyCache && verifyCache.length === dictionary.length) {
+                    console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
+                    console.log(`  Cache verification: ${verifyCache.length} entries stored`);
+                } else {
+                    console.warn('⚠ Cache verification: entry count mismatch');
+                }
+            } catch (error) {
+                console.error('✗ Failed to cache dictionary in IndexedDB:', error);
+                console.error('Dictionary will be fetched on each visit');
+            }
         }
+        
+        // Cache Alar dictionary immediately (will update with full dictionary later)
+        updateCache();
     } catch (error) {
         // If network fetch fails and we have cached data, use it
         if (dictionary.length === 0) {
