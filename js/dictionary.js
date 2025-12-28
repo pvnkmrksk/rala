@@ -171,7 +171,16 @@ function updateProgressIndicator(loaded, total, percent = null, label = '') {
     const progressEl = document.getElementById('dict-progress');
     if (!progressEl) return;
     
-    const calculatedPercent = percent !== null ? percent : (total > 0 ? Math.round((loaded / total) * 100) : 0);
+    // Calculate percent, clamping to 0-100
+    let calculatedPercent;
+    if (percent !== null) {
+        calculatedPercent = Math.max(0, Math.min(100, Math.round(percent)));
+    } else if (total > 0 && loaded > 0) {
+        calculatedPercent = Math.max(0, Math.min(100, Math.round((loaded / total) * 100)));
+    } else {
+        calculatedPercent = 0;
+    }
+    
     progressEl.querySelector('.progress-percent').textContent = `${calculatedPercent}%`;
     progressEl.querySelector('.progress-bar-fill').style.width = `${calculatedPercent}%`;
     
@@ -207,12 +216,14 @@ async function fetchAndCacheDictionary() {
         // Step 1: Load primary dictionary first with progress bar
         console.log(`Loading primary dictionary: ${PRIMARY_DICTIONARY.name}`);
         createProgressIndicator();
-        updateProgressIndicator(0, 1, 0, 'Loading Alar Dictionary...');
+        updateProgressIndicator(0, null, 0, 'Loading Alar Dictionary...');
         
         const primaryEntries = await fetchDictionaryFile(
             PRIMARY_DICTIONARY,
             (loaded, total, percent) => {
-                updateProgressIndicator(loaded, total, percent, 'Loading Alar Dictionary...');
+                // Clamp percent to 0-100
+                const clampedPercent = Math.max(0, Math.min(100, percent));
+                updateProgressIndicator(loaded, total, clampedPercent, 'Loading Alar Dictionary...');
             }
         );
         
@@ -252,7 +263,7 @@ async function fetchAndCacheDictionary() {
             const showProgressIfNeeded = () => {
                 if (!progressShown) {
                     createProgressIndicator();
-                    updateProgressIndicator(0, 1, 0, 'Loading Additional Dictionaries...');
+                    updateProgressIndicator(0, null, 0, 'Loading Additional Dictionaries...');
                     progressShown = true;
                 }
             };
@@ -268,7 +279,9 @@ async function fetchAndCacheDictionary() {
                         clearTimeout(progressTimeout);
                         showProgressIfNeeded();
                     }
-                    updateProgressIndicator(loaded, total, percent, 'Loading Additional Dictionaries...');
+                    // Clamp percent to 0-100
+                    const clampedPercent = Math.max(0, Math.min(100, percent));
+                    updateProgressIndicator(loaded, total, clampedPercent, 'Loading Additional Dictionaries...');
                 }
             ).then(padakanajaEntries => {
                 clearTimeout(progressTimeout);

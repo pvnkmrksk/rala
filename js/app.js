@@ -11,6 +11,12 @@ async function init() {
         await loadDictionary();
         buildReverseIndex();
         
+        // Remove loading message immediately
+        const loadingEl = app.querySelector('.loading');
+        if (loadingEl) {
+            loadingEl.remove();
+        }
+        
         // Check URL for initial query before rendering
         const urlQuery = getQueryFromURL();
         renderApp(urlQuery);
