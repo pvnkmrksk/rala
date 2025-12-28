@@ -473,7 +473,9 @@ async function loadPreBuiltReverseIndex(indexFiles, metadataFile, sourceName = '
                 if (!reverseIndex.has(word)) {
                     reverseIndex.set(word, []);
                 }
-                reverseIndex.get(word).push(...entries);
+                // Use concat to avoid "too many arguments" error for words with many entries
+                const existing = reverseIndex.get(word);
+                reverseIndex.set(word, existing.concat(entries));
             }
         }
         
