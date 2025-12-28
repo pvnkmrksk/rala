@@ -158,20 +158,20 @@ async function fetchDictionaryFile(source, onProgress = null) {
         text += decoder.decode();
         
         // Detect format: JSON or YAML
-        // On mobile, parse in chunks to prevent blocking
+        // On mobile, parse large JSON files in idle time to prevent blocking
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         let entries;
+        
         if (url.endsWith('.json')) {
-            // Use requestIdleCallback for JSON parsing on mobile to prevent blocking
-            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            if (isMobile && 'requestIdleCallback' in window) {
-                // Parse in idle time on mobile
-                return new Promise((resolve) => {
+            // On mobile, parse large JSON files (>1MB) in idle time to prevent blocking
+            if (isMobile && text.length > 1000000 && 'requestIdleCallback' in window) {
+                return new Promise((resolve, reject) => {
                     requestIdleCallback(() => {
                         try {
                             entries = JSON.parse(text);
                             resolve(normalizeEntryTypes(entries));
                         } catch (error) {
-                            throw error;
+                            reject(error);
                         }
                     }, { timeout: 100 });
                 });
