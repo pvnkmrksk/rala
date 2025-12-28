@@ -411,11 +411,15 @@ async function fetchAndCacheDictionary() {
         };
         
         // Use requestIdleCallback if available, otherwise setTimeout with delay
+        // On mobile, use longer delays to prevent blocking
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const delay = isMobile ? 3000 : 2000; // Longer delay on mobile
+        
         if ('requestIdleCallback' in window) {
-            requestIdleCallback(loadPadakanajaAsync, { timeout: 1000 });
+            requestIdleCallback(loadPadakanajaAsync, { timeout: delay });
         } else {
-            // Fallback: delay by 500ms to ensure UI is responsive
-            setTimeout(loadPadakanajaAsync, 500);
+            // Fallback: delay longer on mobile
+            setTimeout(loadPadakanajaAsync, isMobile ? 1000 : 500);
         }
         
         // Cache function (called separately)
