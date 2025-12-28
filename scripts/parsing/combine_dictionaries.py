@@ -54,8 +54,9 @@ def combine_all_dictionaries(
     all_entries = []
     padakanaja_path = Path(padakanaja_dir)
     
-    # Load all padakanaja YAML files
-    yaml_files = sorted(padakanaja_path.glob('*.yml'))
+    # Load all padakanaja YAML files (exclude combined files)
+    yaml_files = sorted([f for f in padakanaja_path.glob('*.yml') 
+                        if not f.name.startswith('combined_dictionaries')])
     print(f"Found {len(yaml_files)} padakanaja YAML files\n")
     
     for i, yaml_file in enumerate(yaml_files, 1):
