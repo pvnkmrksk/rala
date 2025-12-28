@@ -136,9 +136,11 @@ async function fetchDictionaryFile(source, onProgress = null) {
             loaded += value.length;
             text += decoder.decode(value, { stream: true });
             
-            // Report progress if callback provided
-            if (onProgress && total) {
-                const percent = Math.round((loaded / total) * 100);
+            // Report progress if callback provided and we have valid total
+            // Only report if loaded <= total (or within 5% tolerance for compression differences)
+            if (onProgress && total && total > 0) {
+                // Cap at 100% - if loaded exceeds total, it's likely due to compression differences
+                const percent = loaded >= total ? 100 : Math.round((loaded / total) * 100);
                 onProgress(loaded, total, percent);
             }
         }
@@ -171,12 +173,14 @@ function updateProgressIndicator(loaded, total, percent = null, label = '') {
     const progressEl = document.getElementById('dict-progress');
     if (!progressEl) return;
     
-    // Calculate percent, clamping to 0-100
+    // Calculate percent, ensuring it never exceeds 100%
+    // If loaded > total, it's likely due to compression differences, so cap at 100%
     let calculatedPercent;
     if (percent !== null) {
         calculatedPercent = Math.max(0, Math.min(100, Math.round(percent)));
     } else if (total > 0 && loaded > 0) {
-        calculatedPercent = Math.max(0, Math.min(100, Math.round((loaded / total) * 100)));
+        // Cap at 100% if loaded exceeds total (compression or header mismatch)
+        calculatedPercent = loaded >= total ? 100 : Math.max(0, Math.min(100, Math.round((loaded / total) * 100)));
     } else {
         calculatedPercent = 0;
     }
@@ -221,9 +225,8 @@ async function fetchAndCacheDictionary() {
         const primaryEntries = await fetchDictionaryFile(
             PRIMARY_DICTIONARY,
             (loaded, total, percent) => {
-                // Clamp percent to 0-100
-                const clampedPercent = Math.max(0, Math.min(100, percent));
-                updateProgressIndicator(loaded, total, clampedPercent, 'Loading Alar Dictionary...');
+                // Percent is already capped at 100% in fetchDictionaryFile
+                updateProgressIndicator(loaded, total, percent, 'Loading Alar Dictionary...');
             }
         );
         
@@ -279,9 +282,8 @@ async function fetchAndCacheDictionary() {
                         clearTimeout(progressTimeout);
                         showProgressIfNeeded();
                     }
-                    // Clamp percent to 0-100
-                    const clampedPercent = Math.max(0, Math.min(100, percent));
-                    updateProgressIndicator(loaded, total, clampedPercent, 'Loading Additional Dictionaries...');
+                    // Percent is already capped at 100% in fetchDictionaryFile
+                    updateProgressIndicator(loaded, total, percent, 'Loading Additional Dictionaries...');
                 }
             ).then(padakanajaEntries => {
                 clearTimeout(progressTimeout);
