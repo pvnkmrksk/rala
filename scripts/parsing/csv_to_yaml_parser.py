@@ -62,6 +62,49 @@ def clean_english_word(text):
     return text
 
 
+def clean_kannada_word(text):
+    """Remove brackets and other non-text characters from Kannada words."""
+    if not text:
+        return ''
+    # Remove brackets: [], (), {}, etc.
+    cleaned = text.replace('[', '').replace(']', '').replace('(', '').replace(')', '')
+    cleaned = cleaned.replace('{', '').replace('}', '').replace('【', '').replace('】', '')
+    cleaned = cleaned.replace('「', '').replace('」', '').replace('〈', '').replace('〉', '')
+    cleaned = cleaned.replace('《', '').replace('》', '').replace('『', '').replace('』', '')
+    cleaned = cleaned.replace('〔', '').replace('〕', '').replace('［', '').replace('］', '')
+    cleaned = cleaned.replace('（', '').replace('）', '').replace('｛', '').replace('｝', '')
+    # Remove multiple spaces and trim
+    cleaned = ' '.join(cleaned.split())
+    return cleaned.strip()
+
+
+def contains_kannada_characters(text):
+    """
+    Check if text contains any Kannada script characters.
+    Kannada script range: U+0C80 to U+0CFF
+    """
+    if not text:
+        return False
+    # Check for Kannada script characters (U+0C80 to U+0CFF)
+    for char in text:
+        if '\u0C80' <= char <= '\u0CFF':
+            return True
+    return False
+
+
+def is_only_english(text):
+    """
+    Check if text contains only English characters (and common punctuation/spaces).
+    Returns True if text has no Kannada characters.
+    """
+    if not text:
+        return True
+    # Remove common punctuation and whitespace to check if only English remains
+    cleaned = re.sub(r'[^\w\s\-.,;:!?()\[\]{}"\']', '', text)
+    # Check if there are any Kannada characters
+    return not contains_kannada_characters(text)
+
+
 def generate_entry_id(kannada_word, english_word, index):
     """Generate a unique entry ID."""
     # Create a simple ID based on the words and index
@@ -221,11 +264,15 @@ def parse_csv_to_yaml(csv_file_path, source_name=None, dict_title=None):
             # Create a SEPARATE YAML entry for each Kannada synonym
             # This ensures each synonym is searchable independently
             for kannada_word in kannada_words:
+                # Skip entries that contain only English words (no Kannada characters)
+                if is_only_english(kannada_word):
+                    continue
+                
                 entry_index += 1
                 
                 # Create YAML entry immediately - no grouping
                 yaml_entry = {
-                    'entry': kannada_word,
+                    'entry': clean_kannada_word(kannada_word),  # Clean Kannada entry
                     'defs': [def_entry],  # Single definition per entry
                     'id': generate_entry_id(kannada_word, english_word, entry_index),
                     'source': source_name
