@@ -436,9 +436,9 @@ async function fetchAndCacheDictionary() {
         // Step 2: Load combined padakanaja dictionary in background
         // MOBILE: Skip padakanaja entirely (only Alar loads)
         // DESKTOP: Load padakanaja into memory
-        const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const isMobileDeviceCheck = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         
-        if (isMobileDevice) {
+        if (isMobileDeviceCheck) {
             console.log('📱 Mobile device detected - skipping padakanaja (Alar only for better performance)');
             console.log('💡 Use server-side search for full dictionary access');
             return;
