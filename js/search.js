@@ -247,11 +247,13 @@ async function searchDirect(query) {
     // If Worker API is configured, use server-side search
     if (WORKER_API_URL) {
         try {
+            console.log(`🔍 Searching via Worker API: ${query}`);
             const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`);
             if (!response.ok) {
                 throw new Error(`Worker API error: ${response.status}`);
             }
             const data = await response.json();
+            console.log(`✅ Worker API returned ${data.count || data.results?.length || 0} results`);
             // Convert Worker response format to client format
             return data.results.map(result => ({
                 kannada: result.kannada,
@@ -266,7 +268,7 @@ async function searchDirect(query) {
                 matchType: result.matchType || 'direct'
             }));
         } catch (error) {
-            console.error('Worker API search failed, falling back to client-side:', error);
+            console.warn('⚠️ Worker API search failed, falling back to client-side:', error);
             // Fall through to client-side search
         }
     }
