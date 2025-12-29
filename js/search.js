@@ -268,9 +268,6 @@ async function searchDirect(query) {
         }
     }
     
-    // Debug: Log search parameters
-    console.log('searchDirect called:', { query, words, isMultiWord, dictionaryLength: dictionary.length, reverseIndexSize: reverseIndex.size, hasPadakanajaInMemory });
-    
     // If wildcards are present (but not auto-wildcard for 2 words), search all definitions directly
     if (hasWildcard && !isAutoWildcard) {
         const results = [];

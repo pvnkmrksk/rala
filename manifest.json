@@ -1,0 +1,22 @@
+{
+  "name": "Rala - English to Kannada Dictionary",
+  "short_name": "Rala",
+  "description": "English → Kannada dictionary. An amateur reversal of V. Krishna's Alar",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "reference"],
+  "lang": "en",
+  "dir": "ltr"
+}
+
