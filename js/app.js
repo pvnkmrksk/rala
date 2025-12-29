@@ -211,7 +211,7 @@ function renderApp(initialQuery = '') {
         switchTab('exact');
         
         // Step 1: Search direct matches
-        directResults = searchDirect(query);
+        directResults = await searchDirect(query);
         tabExactCount.textContent = ` (${directResults.length})`;
         tabExactSpinner.style.display = 'none';
         

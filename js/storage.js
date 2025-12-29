@@ -47,6 +47,97 @@ async function setCachedDictionary(data) {
     }
 }
 
+// Store padakanaja separately (for mobile memory optimization)
+async function setCachedPadakanaja(data) {
+    try {
+        const db = await openDB();
+        return new Promise((resolve, reject) => {
+            const transaction = db.transaction([STORE_NAME], 'readwrite');
+            const store = transaction.objectStore(STORE_NAME);
+            const request = store.put(data, 'padakanaja');
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve();
+        });
+    } catch (error) {
+        console.error('Failed to save padakanaja to IndexedDB:', error);
+        throw error;
+    }
+}
+
+// Get padakanaja from IndexedDB (for mobile on-demand search)
+async function getCachedPadakanaja() {
+    try {
+        const db = await openDB();
+        return new Promise((resolve, reject) => {
+            const transaction = db.transaction([STORE_NAME], 'readonly');
+            const store = transaction.objectStore(STORE_NAME);
+            const request = store.get('padakanaja');
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve(request.result);
+        });
+    } catch (error) {
+        console.warn('IndexedDB not available for padakanaja:', error);
+        return null;
+    }
+}
+
+// Search padakanaja entries from IndexedDB (memory-efficient for mobile)
+async function searchPadakanajaFromIndexedDB(searchWords, maxResults = 100) {
+    try {
+        const padakanajaData = await getCachedPadakanaja();
+        if (!padakanajaData) return [];
+        
+        // Expand optimized format if needed
+        const entries = expandOptimizedEntries(padakanajaData);
+        if (!Array.isArray(entries)) return [];
+        
+        const results = [];
+        const seen = new Set();
+        
+        for (const word of searchWords) {
+            const wordLower = word.toLowerCase();
+            let count = 0;
+            
+            for (let i = 0; i < entries.length && count < maxResults; i++) {
+                const entry = entries[i];
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    const defLower = def.entry.toLowerCase();
+                    
+                    if (defLower.includes(wordLower)) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            results.push({
+                                kannada: cleanKannadaEntry(entry.entry),
+                                phone: entry.phone || '',
+                                definition: def.entry,
+                                type: normalizeType(def.type || ''),
+                                head: entry.head || '',
+                                id: entry.id || '',
+                                dict_title: entry.dict_title || '',
+                                source: entry.source || '',
+                                matchedWord: word,
+                                matchType: 'direct'
+                            });
+                            count++;
+                            if (count >= maxResults) break;
+                        }
+                    }
+                }
+                if (count >= maxResults) break;
+            }
+        }
+        
+        return results;
+    } catch (error) {
+        console.error('Error searching padakanaja from IndexedDB:', error);
+        return [];
+    }
+}
+
 async function getCachedVersion() {
     try {
         const db = await openDB();

@@ -395,6 +395,10 @@ async function fetchAndCacheDictionary() {
             createProgressIndicator();
             updateProgressIndicator(0, PADAKANAJA_COMBINED_FILES.length, 0, 'Loading Additional Dictionaries...');
             
+            // On mobile, only cache padakanaja to IndexedDB (don't load into memory)
+            // On desktop, load into memory for faster searches
+            const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            
             // Load all chunks sequentially
             let allPadakanajaEntries = [];
             let loadedChunks = 0;
@@ -403,34 +407,53 @@ async function fetchAndCacheDictionary() {
                 if (chunkIndex >= PADAKANAJA_COMBINED_FILES.length) {
                     // All chunks loaded
                     if (allPadakanajaEntries.length > 0) {
-                        // Flatten all chunks and add to dictionary array (simple!)
+                        // Flatten all chunks
                         let totalPadakanajaEntries = 0;
+                        let allPadakanaja = [];
                         for (const chunk of allPadakanajaEntries) {
                             if (Array.isArray(chunk)) {
-                                dictionary = dictionary.concat(chunk);
+                                allPadakanaja = allPadakanaja.concat(chunk);
                                 totalPadakanajaEntries += chunk.length;
                             }
                         }
                         
                         console.log(`✓ Loaded ${totalPadakanajaEntries} entries from ${PADAKANAJA_COMBINED_FILES.length} padakanaja chunks`);
-                        console.log('✓ Padakanaja entries loaded - will search directly (no reverse index needed)');
                         
-                        // Mark dictionary as ready (both Alar and Padakanaja loaded)
+                        if (isMobileDevice) {
+                            // MOBILE: Cache to IndexedDB only, don't load into memory
+                            console.log('📱 Mobile device detected - caching padakanaja to IndexedDB (not loading into memory)');
+                            padakanajaInMemory = false;
+                            
+                            // Cache padakanaja separately
+                            try {
+                                await setCachedPadakanaja(allPadakanaja);
+                                console.log('✓ Padakanaja cached to IndexedDB - will search on-demand');
+                            } catch (error) {
+                                console.error('Failed to cache padakanaja:', error);
+                            }
+                        } else {
+                            // DESKTOP: Load into memory for faster searches
+                            console.log('💻 Desktop device - loading padakanaja into memory');
+                            dictionary = dictionary.concat(allPadakanaja);
+                            padakanajaInMemory = true;
+                            
+                            // Update cache asynchronously (non-blocking)
+                            if ('requestIdleCallback' in window) {
+                                requestIdleCallback(() => {
+                                    updateCache();
+                                }, { timeout: 5000 });
+                            } else {
+                                setTimeout(() => {
+                                    updateCache();
+                                }, 100);
+                            }
+                        }
+                        
+                        // Mark dictionary as ready
                         dictionaryReady = true;
                         
-                        // Update cache asynchronously (non-blocking)
-                        if ('requestIdleCallback' in window) {
-                            requestIdleCallback(() => {
-                                updateCache();
-                            }, { timeout: 5000 });
-                        } else {
-                            setTimeout(() => {
-                                updateCache();
-                            }, 100);
-                        }
-
                         updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
-                        console.log(`✓ Total loaded: ${dictionary.length} entries`);
+                        console.log(`✓ Total loaded: ${dictionary.length} entries in memory${isMobileDevice ? ' (padakanaja in IndexedDB)' : ''}`);
                         
                         // Hide progress indicator after a moment
                         setTimeout(() => {
@@ -529,6 +552,66 @@ async function fetchAndCacheDictionary() {
             // Fallback: delay longer on mobile
             setTimeout(loadPadakanajaAsync, isMobileDevice ? 1000 : 500);
         }
+        
+        // Search padakanaja entries from IndexedDB (memory-efficient for mobile)
+        async function searchPadakanajaFromIndexedDB(searchWords, maxResults = 100) {
+            try {
+                const padakanajaData = await getCachedPadakanaja();
+                if (!padakanajaData) return [];
+                
+                // Expand optimized format if needed
+                const entries = expandOptimizedEntries(padakanajaData);
+                if (!Array.isArray(entries)) return [];
+                
+                const results = [];
+                const seen = new Set();
+                
+                for (const word of searchWords) {
+                    const wordLower = word.toLowerCase();
+                    let count = 0;
+                    
+                    for (let i = 0; i < entries.length && count < maxResults; i++) {
+                        const entry = entries[i];
+                        if (!entry.defs) continue;
+                        
+                        for (const def of entry.defs) {
+                            if (!def.entry) continue;
+                            const defLower = def.entry.toLowerCase();
+                            
+                            if (defLower.includes(wordLower)) {
+                                const key = `${entry.entry}-${def.entry}`;
+                                if (!seen.has(key)) {
+                                    seen.add(key);
+                                    results.push({
+                                        kannada: cleanKannadaEntry(entry.entry),
+                                        phone: entry.phone || '',
+                                        definition: def.entry,
+                                        type: normalizeType(def.type || ''),
+                                        head: entry.head || '',
+                                        id: entry.id || '',
+                                        dict_title: entry.dict_title || '',
+                                        source: entry.source || '',
+                                        matchedWord: word,
+                                        matchType: 'direct'
+                                    });
+                                    count++;
+                                    if (count >= maxResults) break;
+                                }
+                            }
+                        }
+                        if (count >= maxResults) break;
+                    }
+                }
+                
+                return results;
+            } catch (error) {
+                console.error('Error searching padakanaja from IndexedDB:', error);
+                return [];
+            }
+        }
+        
+        // Make searchPadakanajaFromIndexedDB available globally
+        window.searchPadakanajaFromIndexedDB = searchPadakanajaFromIndexedDB;
         
         // Cache function (called separately)
         async function updateCache() {

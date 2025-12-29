@@ -243,7 +243,7 @@ function textContains(text, pattern) {
     return text.toLowerCase().includes(pattern.toLowerCase());
 }
 
-function searchDirect(query) {
+async function searchDirect(query) {
     // Auto-convert space to wildcard for exactly 2 words
     // e.g., "north east" -> "north*east" to match "north-east", "northeast", "north east"
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
@@ -258,6 +258,18 @@ function searchDirect(query) {
     const allWordsResults = [];
     const anyWordResults = [];
     const seen = new Set();
+    
+    // Check once if padakanaja is in memory (reuse this check throughout the function)
+    let hasPadakanajaInMemory = false;
+    for (let i = 0; i < dictionary.length; i++) {
+        if (dictionary[i].source && dictionary[i].source !== 'alar') {
+            hasPadakanajaInMemory = true;
+            break;
+        }
+    }
+    
+    // Debug: Log search parameters
+    console.log('searchDirect called:', { query, words, isMultiWord, dictionaryLength: dictionary.length, reverseIndexSize: reverseIndex.size, hasPadakanajaInMemory });
     
     // If wildcards are present (but not auto-wildcard for 2 words), search all definitions directly
     if (hasWildcard && !isAutoWildcard) {
@@ -408,19 +420,66 @@ function searchDirect(query) {
             }
         }
         
-        // Also search padakanaja entries directly for exact phrase
-        for (let i = 0; i < dictionary.length; i++) {
-            const entry = dictionary[i];
-            // Skip Alar entries (they're in reverse index)
-            if (entry.source === 'alar') continue;
-            
-            if (!entry.defs) continue;
-            
-            for (const def of entry.defs) {
-                if (!def.entry) continue;
-                const defLower = def.entry.toLowerCase();
+        // Also search padakanaja entries for exact phrase
+        // Check if padakanaja is in memory first, otherwise search IndexedDB
+        if (hasPadakanajaInMemory) {
+            // Padakanaja is in memory - search from memory
+            for (let i = 0; i < dictionary.length; i++) {
+                const entry = dictionary[i];
+                // Skip Alar entries (they're in reverse index)
+                if (entry.source === 'alar') continue;
                 
-                // Check if definition matches any of the search patterns
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    const defLower = def.entry.toLowerCase();
+                    
+                    // Check if definition matches any of the search patterns
+                    let matched = false;
+                    let matchedPattern = exactPhrase;
+                    for (const pattern of searchPatterns) {
+                        if (defLower.includes(pattern)) {
+                            matched = true;
+                            matchedPattern = pattern;
+                            break;
+                        }
+                    }
+                    
+                    // Also check wildcard pattern if auto-wildcard
+                    if (!matched && isAutoWildcard && wildcardPattern) {
+                        const wildcardLower = wildcardPattern.toLowerCase();
+                        if (textContains(defLower, wildcardLower)) {
+                            matched = true;
+                            matchedPattern = wildcardLower;
+                        }
+                    }
+                    
+                    if (matched) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            exactPhraseResults.push({
+                                kannada: cleanKannadaEntry(entry.entry),
+                                phone: entry.phone || '',
+                                definition: def.entry,
+                                type: normalizeType(def.type || ''),
+                                head: entry.head || '',
+                                id: entry.id || '',
+                                dict_title: entry.dict_title || '',
+                                source: entry.source || '',
+                                matchedWord: matchedPattern,
+                                matchType: 'exact-phrase'
+                            });
+                        }
+                    }
+                }
+            }
+        } else if (window.searchPadakanajaFromIndexedDB) {
+            // Padakanaja not in memory - search from IndexedDB (async, limited results)
+            const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 30);
+            for (const result of padakanajaResults) {
+                const defLower = result.definition.toLowerCase();
                 let matched = false;
                 let matchedPattern = exactPhrase;
                 for (const pattern of searchPatterns) {
@@ -430,29 +489,12 @@ function searchDirect(query) {
                         break;
                     }
                 }
-                
-                // Also check wildcard pattern if auto-wildcard
-                if (!matched && isAutoWildcard && wildcardPattern) {
-                    const wildcardLower = wildcardPattern.toLowerCase();
-                    if (textContains(defLower, wildcardLower)) {
-                        matched = true;
-                        matchedPattern = wildcardLower;
-                    }
-                }
-                
                 if (matched) {
-                    const key = `${entry.entry}-${def.entry}`;
+                    const key = `${result.kannada}-${result.definition}`;
                     if (!seen.has(key)) {
                         seen.add(key);
                         exactPhraseResults.push({
-                            kannada: cleanKannadaEntry(entry.entry),
-                            phone: entry.phone || '',
-                            definition: def.entry,
-                            type: normalizeType(def.type || ''),
-                            head: entry.head || '',
-                            id: entry.id || '',
-                            dict_title: entry.dict_title || '',
-                            source: entry.source || '',
+                            ...result,
                             matchedWord: matchedPattern,
                             matchType: 'exact-phrase'
                         });
@@ -537,39 +579,53 @@ function searchDirect(query) {
             }
         }
         
-        // Step 4: Also search padakanaja entries directly (English->Kannada, no reverse index)
+        // Step 4: Also search padakanaja entries (English->Kannada, no reverse index)
         // This is important for words that only exist in padakanaja
-        for (const word of words) {
-            for (let i = 0; i < dictionary.length; i++) {
-                const entry = dictionary[i];
-                // Skip Alar entries (they're in reverse index)
-                if (entry.source === 'alar') continue;
-                
-                if (!entry.defs) continue;
-                
-                for (const def of entry.defs) {
-                    if (!def.entry) continue;
-                    const defLower = def.entry.toLowerCase();
+        // Check if padakanaja is in memory first, otherwise search IndexedDB
+        if (hasPadakanajaInMemory) {
+            // Padakanaja is in memory - search from memory
+            for (const word of words) {
+                for (let i = 0; i < dictionary.length; i++) {
+                    const entry = dictionary[i];
+                    // Skip Alar entries (they're in reverse index)
+                    if (entry.source === 'alar') continue;
                     
-                    // Check if definition contains the word
-                    if (defLower.includes(word.toLowerCase())) {
-                        const key = `${entry.entry}-${def.entry}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            anyWordResults.push({
-                                kannada: cleanKannadaEntry(entry.entry),
-                                phone: entry.phone || '',
-                                definition: def.entry,
-                                type: normalizeType(def.type || ''),
-                                head: entry.head || '',
-                                id: entry.id || '',
-                                dict_title: entry.dict_title || '',
-                                source: entry.source || '',
-                                matchedWord: word,
-                                matchType: 'any-word'
-                            });
+                    if (!entry.defs) continue;
+                    
+                    for (const def of entry.defs) {
+                        if (!def.entry) continue;
+                        const defLower = def.entry.toLowerCase();
+                        
+                        // Check if definition contains the word
+                        if (defLower.includes(word.toLowerCase())) {
+                            const key = `${entry.entry}-${def.entry}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                anyWordResults.push({
+                                    kannada: cleanKannadaEntry(entry.entry),
+                                    phone: entry.phone || '',
+                                    definition: def.entry,
+                                    type: normalizeType(def.type || ''),
+                                    head: entry.head || '',
+                                    id: entry.id || '',
+                                    dict_title: entry.dict_title || '',
+                                    source: entry.source || '',
+                                    matchedWord: word,
+                                    matchType: 'any-word'
+                                });
+                            }
                         }
                     }
+                }
+            }
+        } else if (window.searchPadakanajaFromIndexedDB) {
+            // Padakanaja not in memory - search from IndexedDB (async, memory-efficient)
+            const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 50);
+            for (const result of padakanajaResults) {
+                const key = `${result.kannada}-${result.definition}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    anyWordResults.push(result);
                 }
             }
         }
@@ -612,37 +668,50 @@ function searchDirect(query) {
             }
         }
         
-        // Search padakanaja entries directly (English->Kannada, no reverse index)
-        // Simple: just iterate through dictionary array, skip Alar entries
-        for (let i = 0; i < dictionary.length; i++) {
-            const entry = dictionary[i];
-            // Skip Alar entries (they're in reverse index)
-            if (entry.source === 'alar') continue;
-            
-            if (!entry.defs) continue;
-            
-            for (const def of entry.defs) {
-                if (!def.entry) continue;
-                const defLower = def.entry.toLowerCase();
+        // Search padakanaja entries (English->Kannada, no reverse index)
+        // Check if padakanaja is in memory first, otherwise search IndexedDB
+        if (hasPadakanajaInMemory) {
+            // Padakanaja is in memory - search from memory
+            for (let i = 0; i < dictionary.length; i++) {
+                const entry = dictionary[i];
+                // Skip Alar entries (they're in reverse index)
+                if (entry.source === 'alar') continue;
                 
-                // Check if definition contains the word
-                if (defLower.includes(word)) {
-                    const key = `${entry.entry}-${def.entry}`;
-                    if (!seen.has(key)) {
-                        seen.add(key);
-                        anyWordResults.push({
-                            kannada: cleanKannadaEntry(entry.entry),
-                            phone: entry.phone || '',
-                            definition: def.entry,
-                            type: normalizeType(def.type || ''),
-                            head: entry.head || '',
-                            id: entry.id || '',
-                            dict_title: entry.dict_title || '',
-                            source: entry.source || '',
-                            matchedWord: word,
-                            matchType: 'direct'
-                        });
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    const defLower = def.entry.toLowerCase();
+                    
+                    // Check if definition contains the word
+                    if (defLower.includes(word)) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            anyWordResults.push({
+                                kannada: cleanKannadaEntry(entry.entry),
+                                phone: entry.phone || '',
+                                definition: def.entry,
+                                type: normalizeType(def.type || ''),
+                                head: entry.head || '',
+                                id: entry.id || '',
+                                dict_title: entry.dict_title || '',
+                                source: entry.source || '',
+                                matchedWord: word,
+                                matchType: 'direct'
+                            });
+                        }
                     }
+                }
+            }
+        } else if (window.searchPadakanajaFromIndexedDB) {
+            // Padakanaja not in memory - search from IndexedDB
+            const padakanajaResults = await window.searchPadakanajaFromIndexedDB([word], 50);
+            for (const result of padakanajaResults) {
+                const key = `${result.kannada}-${result.definition}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    anyWordResults.push(result);
                 }
             }
         }
@@ -719,41 +788,64 @@ async function searchWithSynonyms(query) {
                     }
                 }
                 
-                // Also search padakanaja entries directly (English->Kannada)
-                for (let i = 0; i < dictionary.length; i++) {
-                    const entry = dictionary[i];
-                    // Skip Alar entries (they're in reverse index)
-                    if (entry.source === 'alar') continue;
-                    
-                    if (!entry.defs) continue;
-                    
-                    for (const def of entry.defs) {
-                        if (!def.entry) continue;
-                        const defLower = def.entry.toLowerCase();
+                // Also search padakanaja entries (English->Kannada)
+                // Check if padakanaja is in memory first
+                if (hasPadakanajaInMemory) {
+                    // Padakanaja is in memory - search from memory
+                    for (let i = 0; i < dictionary.length; i++) {
+                        const entry = dictionary[i];
+                        // Skip Alar entries (they're in reverse index)
+                        if (entry.source === 'alar') continue;
                         
-                        // Check if definition contains the synonym word
-                        if (defLower.includes(relWord.toLowerCase())) {
-                            const key = `${entry.entry}-${def.entry}`;
-                            if (!seen.has(key)) {
-                                seen.add(key);
-                                if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
-                                if (!synonymsUsed[queryLower].includes(relWord)) {
-                                    synonymsUsed[queryLower].push(relWord);
+                        if (!entry.defs) continue;
+                        
+                        for (const def of entry.defs) {
+                            if (!def.entry) continue;
+                            const defLower = def.entry.toLowerCase();
+                            
+                            // Check if definition contains the synonym word
+                            if (defLower.includes(relWord.toLowerCase())) {
+                                const key = `${entry.entry}-${def.entry}`;
+                                if (!seen.has(key)) {
+                                    seen.add(key);
+                                    if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                                    if (!synonymsUsed[queryLower].includes(relWord)) {
+                                        synonymsUsed[queryLower].push(relWord);
+                                    }
+                                    results.push({
+                                        kannada: cleanKannadaEntry(entry.entry),
+                                        phone: entry.phone || '',
+                                        definition: def.entry,
+                                        type: normalizeType(def.type || ''),
+                                        head: entry.head || '',
+                                        id: entry.id || '',
+                                        dict_title: entry.dict_title || '',
+                                        source: entry.source || '',
+                                        matchedWord: relWord,
+                                        originalQuery: queryLower,
+                                        matchType: 'synonym'
+                                    });
                                 }
-                                results.push({
-                                    kannada: cleanKannadaEntry(entry.entry),
-                                    phone: entry.phone || '',
-                                    definition: def.entry,
-                                    type: normalizeType(def.type || ''),
-                                    head: entry.head || '',
-                                    id: entry.id || '',
-                                    dict_title: entry.dict_title || '',
-                                    source: entry.source || '',
-                                    matchedWord: relWord,
-                                    originalQuery: queryLower,
-                                    matchType: 'synonym'
-                                });
                             }
+                        }
+                    }
+                } else if (window.searchPadakanajaFromIndexedDB) {
+                    // Padakanaja not in memory - search from IndexedDB
+                    const padakanajaResults = await window.searchPadakanajaFromIndexedDB([relWord], 20);
+                    for (const result of padakanajaResults) {
+                        const key = `${result.kannada}-${result.definition}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                            if (!synonymsUsed[queryLower].includes(relWord)) {
+                                synonymsUsed[queryLower].push(relWord);
+                            }
+                            results.push({
+                                ...result,
+                                matchedWord: relWord,
+                                originalQuery: queryLower,
+                                matchType: 'synonym'
+                            });
                         }
                     }
                 }
@@ -820,41 +912,64 @@ async function searchWithSynonyms(query) {
                 }
             }
             
-            // Also search padakanaja entries directly (English->Kannada)
-            for (let i = 0; i < dictionary.length; i++) {
-                const entry = dictionary[i];
-                // Skip Alar entries (they're in reverse index)
-                if (entry.source === 'alar') continue;
-                
-                if (!entry.defs) continue;
-                
-                for (const def of entry.defs) {
-                    if (!def.entry) continue;
-                    const defLower = def.entry.toLowerCase();
+            // Also search padakanaja entries (English->Kannada)
+            // Check if padakanaja is in memory first
+            if (hasPadakanajaInMemory) {
+                // Padakanaja is in memory - search from memory
+                for (let i = 0; i < dictionary.length; i++) {
+                    const entry = dictionary[i];
+                    // Skip Alar entries (they're in reverse index)
+                    if (entry.source === 'alar') continue;
                     
-                    // Check if definition contains the synonym word
-                    if (defLower.includes(relWord.toLowerCase())) {
-                        const key = `${entry.entry}-${def.entry}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            if (!synonymsUsed[word]) synonymsUsed[word] = [];
-                            if (!synonymsUsed[word].includes(relWord)) {
-                                synonymsUsed[word].push(relWord);
+                    if (!entry.defs) continue;
+                    
+                    for (const def of entry.defs) {
+                        if (!def.entry) continue;
+                        const defLower = def.entry.toLowerCase();
+                        
+                        // Check if definition contains the synonym word
+                        if (defLower.includes(relWord.toLowerCase())) {
+                            const key = `${entry.entry}-${def.entry}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                if (!synonymsUsed[word]) synonymsUsed[word] = [];
+                                if (!synonymsUsed[word].includes(relWord)) {
+                                    synonymsUsed[word].push(relWord);
+                                }
+                                results.push({
+                                    kannada: cleanKannadaEntry(entry.entry),
+                                    phone: entry.phone || '',
+                                    definition: def.entry,
+                                    type: normalizeType(def.type || ''),
+                                    head: entry.head || '',
+                                    id: entry.id || '',
+                                    dict_title: entry.dict_title || '',
+                                    source: entry.source || '',
+                                    matchedWord: relWord,
+                                    originalQuery: word,
+                                    matchType: 'synonym'
+                                });
                             }
-                            results.push({
-                                kannada: cleanKannadaEntry(entry.entry),
-                                phone: entry.phone || '',
-                                definition: def.entry,
-                                type: normalizeType(def.type || ''),
-                                head: entry.head || '',
-                                id: entry.id || '',
-                                dict_title: entry.dict_title || '',
-                                source: entry.source || '',
-                                matchedWord: relWord,
-                                originalQuery: word,
-                                matchType: 'synonym'
-                            });
                         }
+                    }
+                }
+            } else if (window.searchPadakanajaFromIndexedDB) {
+                // Padakanaja not in memory - search from IndexedDB
+                const padakanajaResults = await window.searchPadakanajaFromIndexedDB([relWord], 20);
+                for (const result of padakanajaResults) {
+                    const key = `${result.kannada}-${result.definition}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        if (!synonymsUsed[word]) synonymsUsed[word] = [];
+                        if (!synonymsUsed[word].includes(relWord)) {
+                            synonymsUsed[word].push(relWord);
+                        }
+                        results.push({
+                            ...result,
+                            matchedWord: relWord,
+                            originalQuery: word,
+                            matchType: 'synonym'
+                        });
                     }
                 }
             }
