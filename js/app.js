@@ -86,8 +86,7 @@ function renderApp(initialQuery = '') {
         </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
-            ${dictionary.length.toLocaleString()} total entries | 
-            ${reverseIndex.size.toLocaleString()} unique English words indexed
+            ${WORKER_API_URL ? 'Server-side search enabled' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
         </div>
     `;
     
@@ -227,16 +226,20 @@ function renderApp(initialQuery = '') {
         tabExactSpinner.style.display = 'inline-block';
         tabSynonymSpinner.style.display = 'none';
         
-        // Show loading state for direct matches
+        // Show loading state for direct matches (don't show "0 results" message)
         resultsDiv.innerHTML = renderResults([], [], {}, query, true, false);
         switchTab('exact');
         
         // Step 1: Search direct matches
+        const startTime = performance.now();
         directResults = await searchDirect(query);
+        const searchTime = performance.now() - startTime;
+        console.log(`Search completed in ${searchTime.toFixed(0)}ms`);
+        
         tabExactCount.textContent = ` (${directResults.length})`;
         tabExactSpinner.style.display = 'none';
         
-        // Update UI with direct results
+        // Update UI with direct results (progressive: show immediately)
         resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, false);
         
         // Step 2: Load synonyms with delay (500ms) or immediately if Enter was pressed

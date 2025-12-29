@@ -17,6 +17,8 @@ function cleanKannadaEntry(text) {
 function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false) {
     let html = '';
     
+    // Only show "no results" if we're not loading and have no results
+    // Don't show it during loading state (prevents "0 results" flash)
     if (directResults.length === 0 && synonymResults.length === 0 && !loadingDirect && !loadingIndirect) {
         return `
             <div class="no-results">
@@ -24,6 +26,11 @@ function renderResults(directResults, synonymResults, synonymsUsed, query, loadi
                 <p style="font-size: 14px; margin-top: 8px;">Try a different word or check spelling</p>
             </div>
         `;
+    }
+    
+    // If loading and no results yet, show loading state (not "0 results")
+    if (loadingDirect && directResults.length === 0) {
+        // Loading state will be shown in the section below
     }
     
     // Check if multi-word query and split results by match type

@@ -788,6 +788,13 @@ async function searchDirect(query) {
 }
 
 async function searchWithSynonyms(query) {
+    // If Worker API is enabled, synonym search is not supported yet
+    // (Worker API only supports direct search for now)
+    if (WORKER_API_URL) {
+        console.log('⚠️ Synonym search not available with Worker API (using direct search only)');
+        return { results: [], synonymsUsed: {} };
+    }
+    
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
     const isMultiWord = words.length > 1;
     
