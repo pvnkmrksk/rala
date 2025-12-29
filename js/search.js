@@ -617,13 +617,19 @@ async function searchDirect(query) {
             }
         } else if (window.searchPadakanajaFromIndexedDB) {
             // Padakanaja not in memory - search from IndexedDB (async, memory-efficient)
-            const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 50);
-            for (const result of padakanajaResults) {
-                const key = `${result.kannada}-${result.definition}`;
-                if (!seen.has(key)) {
-                    seen.add(key);
-                    anyWordResults.push(result);
+            try {
+                const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 50);
+                if (padakanajaResults && Array.isArray(padakanajaResults)) {
+                    for (const result of padakanajaResults) {
+                        const key = `${result.kannada}-${result.definition}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            anyWordResults.push(result);
+                        }
+                    }
                 }
+            } catch (error) {
+                console.error('Error searching padakanaja from IndexedDB:', error);
             }
         }
         
