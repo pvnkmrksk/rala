@@ -946,7 +946,7 @@ async function searchWithSynonyms(query) {
             }
             
             // Also search padakanaja entries (English->Kannada)
-            // Check if padakanaja is in memory first
+            // Check if padakanaja is in memory first (reuse check from function start)
             if (hasPadakanajaInMemory) {
                 // Padakanaja is in memory - search from memory
                 for (let i = 0; i < dictionary.length; i++) {
