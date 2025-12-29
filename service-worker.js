@@ -1,6 +1,6 @@
 // Service Worker for Rala PWA
-const CACHE_NAME = 'rala-v2';
-const RUNTIME_CACHE = 'rala-runtime-v2';
+const CACHE_NAME = 'rala-v2.1';
+const RUNTIME_CACHE = 'rala-runtime-v2.1';
 
 // Assets to cache on install
 const STATIC_ASSETS = [
