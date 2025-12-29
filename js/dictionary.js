@@ -16,22 +16,73 @@ async function loadDictionary() {
             // Handle both old format (array) and new format (object with alar/padakanaja)
             if (cachedData) {
                 if (Array.isArray(cachedData)) {
-                    // Old format: just array of entries
+                    // Old format: just array of entries (might include padakanaja)
                     console.log(`✓ Loaded ${cachedData.length} entries from IndexedDB cache (old format)`);
                     dictionary = cachedData;
+                    
+                    // Check if mobile device - if so, separate padakanaja for IndexedDB search
+                    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                    if (isMobileDevice) {
+                        // On mobile, separate padakanaja entries and cache them separately
+                        const alarEntries = [];
+                        const padakanajaEntries = [];
+                        for (const entry of cachedData) {
+                            if (entry.source === 'alar') {
+                                alarEntries.push(entry);
+                            } else {
+                                padakanajaEntries.push(entry);
+                            }
+                        }
+                        dictionary = alarEntries;
+                        if (padakanajaEntries.length > 0) {
+                            try {
+                                await setCachedPadakanaja(padakanajaEntries);
+                                console.log(`✓ Separated and cached ${padakanajaEntries.length} padakanaja entries to IndexedDB for mobile`);
+                                padakanajaInMemory = false;
+                            } catch (error) {
+                                console.error('Failed to cache padakanaja separately:', error);
+                                // Fallback: keep in memory
+                                dictionary = cachedData;
+                                padakanajaInMemory = true;
+                            }
+                        }
+                    } else {
+                        // Desktop: keep everything in memory
+                        padakanajaInMemory = true;
+                    }
+                    
                     dictionaryReady = true;
                     return;
                 } else if (cachedData.alar && Array.isArray(cachedData.alar)) {
-                    // New format: separate alar and padakanaja - expand padakanaja
+                    // New format: separate alar and padakanaja
                     dictionary = cachedData.alar;
-                    if (cachedData.padakanaja) {
+                    
+                    // Check if mobile device - handle padakanaja accordingly
+                    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                    if (isMobileDevice && cachedData.padakanaja) {
+                        // Mobile: cache padakanaja separately for IndexedDB search
+                        try {
+                            await setCachedPadakanaja(cachedData.padakanaja);
+                            console.log('✓ Padakanaja cached separately for mobile IndexedDB search');
+                            padakanajaInMemory = false;
+                        } catch (error) {
+                            console.error('Failed to cache padakanaja separately:', error);
+                            // Fallback: expand and load into memory
+                            const expandedPadakanaja = expandOptimizedEntries(cachedData.padakanaja);
+                            dictionary = dictionary.concat(expandedPadakanaja);
+                            padakanajaInMemory = true;
+                        }
+                    } else if (cachedData.padakanaja) {
+                        // Desktop: expand and load into memory
                         const expandedPadakanaja = expandOptimizedEntries(cachedData.padakanaja);
                         dictionary = dictionary.concat(expandedPadakanaja);
+                        padakanajaInMemory = true;
                     }
+                    
                     dictionaryReady = true;
-                    console.log(`✓ Loaded ${dictionary.length} entries from IndexedDB cache`);
-                console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
-                return; // Use cache, don't fetch from network
+                    console.log(`✓ Loaded ${dictionary.length} entries from IndexedDB cache${isMobileDevice ? ' (padakanaja in IndexedDB)' : ''}`);
+                    console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
+                    return; // Use cache, don't fetch from network
                 }
             }
             console.log('No valid cache found in IndexedDB, fetching from network');

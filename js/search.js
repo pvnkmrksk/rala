@@ -761,6 +761,15 @@ async function searchWithSynonyms(query) {
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
     const isMultiWord = words.length > 1;
     
+    // Check if padakanaja is in memory (reuse this check throughout the function)
+    let hasPadakanajaInMemory = false;
+    for (let i = 0; i < dictionary.length; i++) {
+        if (dictionary[i].source && dictionary[i].source !== 'alar') {
+            hasPadakanajaInMemory = true;
+            break;
+        }
+    }
+    
     // For multi-word queries, first try to get synonyms for the whole phrase
     if (isMultiWord) {
         const queryLower = query.toLowerCase().trim();
