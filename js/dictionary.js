@@ -51,18 +51,52 @@ async function loadDictionary() {
     await fetchAndCacheDictionary();
 }
 
-// Expand optimized dictionary format (grouped by source) to flat array
+// Expand optimized dictionary format to flat array
+// Supports both old format: {source: {dict_title: [[k, e, t?], ...]}}
+// and new ultra-compact format: {source|dict_title: [[k, e, t?], ...]}
 function expandOptimizedEntries(optimized) {
     // If it's already an array (regular format), return as-is
     if (Array.isArray(optimized)) {
         return optimized;
     }
     
-    // Optimized format: {source: {dict_title: [[k, e, t?], ...]}}
     const entries = [];
     
-    for (const [source, dicts] of Object.entries(optimized)) {
-        for (const [dictTitle, entriesList] of Object.entries(dicts)) {
+    for (const [key, entriesList] of Object.entries(optimized)) {
+        // Check if it's ultra-compact format (source|dict_title) or old format
+        let source, dictTitle;
+        if (key.includes('|')) {
+            // Ultra-compact format: source|dict_title
+            [source, dictTitle] = key.split('|', 2);
+        } else {
+            // Old format: nested {source: {dict_title: entries}}
+            source = key;
+            if (typeof optimized[key] === 'object' && !Array.isArray(optimized[key])) {
+                // Old nested format
+                for (const [dt, entriesList] of Object.entries(optimized[key])) {
+                    for (const entryData of entriesList) {
+                        let kannada, english, type;
+                        if (entryData.length === 3) {
+                            [kannada, english, type] = entryData;
+                        } else {
+                            [kannada, english] = entryData;
+                            type = '';
+                        }
+                        entries.push({
+                            entry: kannada,
+                            defs: [{ entry: english, type: type || 'Noun' }],
+                            source: source,
+                            dict_title: dt
+                        });
+                    }
+                }
+                continue;
+            }
+            dictTitle = '';
+        }
+        
+        // Process entries list (ultra-compact format)
+        if (Array.isArray(entriesList)) {
             for (const entryData of entriesList) {
                 // Handle both [k, e] and [k, e, t] formats
                 let kannada, english, type;
@@ -89,13 +123,15 @@ function expandOptimizedEntries(optimized) {
     return entries;
 }
 
-// Clean Kannada entry text - remove brackets, parentheses, and other non-text characters
+// Clean Kannada entry text - remove brackets, parentheses, numbers, and other non-text characters
 function cleanKannadaEntry(text) {
     if (!text) return '';
     // Remove brackets: [], (), {}, 【】, 「」, etc.
     let cleaned = text.replace(/[\[\](){}【】「」〈〉《》『』〔〕［］（）｛｝]/g, '');
     // Remove other common punctuation that shouldn't be in dictionary keys
     cleaned = cleaned.replace(/[<>"']/g, '');
+    // Remove numbers (data entry errors) - ASCII digits and digit sequences
+    cleaned = cleaned.replace(/\d+/g, '');
     // Remove multiple spaces and trim
     cleaned = cleaned.replace(/\s+/g, ' ').trim();
     return cleaned;

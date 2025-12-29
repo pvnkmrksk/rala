@@ -24,11 +24,10 @@ const PRIMARY_DICTIONARY = {
 // Padakanaja dictionary base URL
 const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 
-// Combined padakanaja dictionary (temporarily disabled - too heavy)
-// const PADAKANAJA_COMBINED_FILES = [
-//     'padakanaja/combined_dictionaries_part1.json'
-// ];
-const PADAKANAJA_COMBINED_FILES = []; // Disabled for now
+// Combined padakanaja dictionary (ultra-compact format: duplicates removed, flattened)
+const PADAKANAJA_COMBINED_FILES = [
+    'padakanaja/combined_dictionaries_ultra.json'
+];
 
 // Pre-built reverse index for Alar (split into chunks for faster loading)
 const ALAR_REVERSE_INDEX_FILES = [

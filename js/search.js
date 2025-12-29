@@ -2,13 +2,15 @@
 // search.js - Search functions: direct search, synonym search, highlighting
 // ============================================================================
 
-// Clean Kannada entry text - remove brackets, parentheses, and other non-text characters
+// Clean Kannada entry text - remove brackets, parentheses, numbers, and other non-text characters
 function cleanKannadaEntry(text) {
     if (!text) return '';
     // Remove brackets: [], (), {}, 【】, 「」, etc.
     let cleaned = text.replace(/[\[\](){}【】「」〈〉《》『』〔〕［］（）｛｝]/g, '');
     // Remove other common punctuation that shouldn't be in dictionary keys
     cleaned = cleaned.replace(/[<>"']/g, '');
+    // Remove numbers (data entry errors) - ASCII digits and digit sequences
+    cleaned = cleaned.replace(/\d+/g, '');
     // Remove multiple spaces and trim
     cleaned = cleaned.replace(/\s+/g, ' ').trim();
     return cleaned;
@@ -25,6 +27,11 @@ function countWords(text) {
 // Check if entry is a long phrase (>4 words)
 function isLongPhrase(text) {
     return countWords(text) > 4;
+}
+
+// Check if entry is a description (more than 2 words) - these are low priority
+function isDescription(text) {
+    return countWords(text) > 2;
 }
 
 async function getSynonyms(word) {
@@ -62,43 +69,76 @@ function isExactDefinition(definition) {
 }
 
 function getDefinitionPriority(definition, searchWord, kannadaEntry = '') {
-    // Higher priority = comes first (lower number = higher priority)
-    // Priority 0: Exact full-word match (definition is exactly the search word, nothing else)
-    // Priority 1: Search term fully between ";" and "." at the end (e.g., "; a test." or "; north-east.")
-    // Priority 2: Search term at the end (before the final period)
-    // Priority 3: Other definitions
+    // Priority system (lower number = higher priority):
+    // 0: Exact match + Kannada has ≤2 words (best match)
+    // 1: Exact match + Kannada has >2 words (description, lower priority)
+    // 2: Match at end + Kannada has ≤2 words
+    // 3: Match at end + Kannada has >2 words
+    // 4: Match anywhere + Kannada has ≤2 words
+    // 5: Match anywhere + Kannada has >2 words
+    // 6: Partial word match (if multi-word query) + Kannada has ≤2 words
+    // 7: Partial word match + Kannada has >2 words
+    // 8: More than 2 words in Kannada (descriptions) - lowest priority
     
-    if (!definition) return 3;
+    if (!definition) return 8;
     const trimmed = definition.trim();
     const trimmedLower = trimmed.toLowerCase();
     const searchLower = searchWord.toLowerCase();
     
+    // Check Kannada word count
+    const kannadaWordCount = kannadaEntry ? countWords(kannadaEntry) : 0;
+    const isKannadaShort = kannadaWordCount <= 2;
+    const isKannadaDescription = kannadaWordCount > 2;
+    
+    // If Kannada has more than 2 words, it's a description - lowest priority
+    if (isKannadaDescription) {
+        // Still check match quality, but add penalty
+        const basePriority = getMatchQuality(trimmed, trimmedLower, searchLower);
+        return basePriority + 4; // Add penalty for descriptions
+    }
+    
+    // For short Kannada entries (≤2 words), use normal priority
+    return getMatchQuality(trimmed, trimmedLower, searchLower);
+}
+
+function getMatchQuality(trimmed, trimmedLower, searchLower) {
     // Escape special regex characters in search word
     const escapedSearch = searchLower.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
     
-    // Priority 0: Exact full-word match - definition is exactly the search word (case-insensitive)
-    // Remove trailing period if present for comparison
+    // Priority 0: Exact full-word match - definition is exactly the search word
     const trimmedNoPeriod = trimmed.replace(/\.\s*$/, '').trim();
     if (trimmedNoPeriod.toLowerCase() === searchLower) {
-        return 0; // Absolute highest priority
+        return 0; // Highest priority
     }
     
     // Priority 1: Check if search term is fully between ";" and "." at the end
-    // Pattern: "; ... searchWord." - the search term must be between a semicolon and the final period
-    // We want to match: "; [anything] searchWord." where there's a semicolon before and period after
     const betweenSemicolonAndPeriod = new RegExp(`;\\s+[^;]*?${escapedSearch}\\s*\\.\\s*$`, 'i');
     if (betweenSemicolonAndPeriod.test(trimmed)) {
-        return 1; // Second highest priority
+        return 1; // Second highest
     }
     
-    // Priority 2: Check if search term is at the end (before final period, but not necessarily after semicolon)
-    // Pattern: "... searchWord." or "... searchWord ."
+    // Priority 2: Check if search term is at the end (before final period)
     const atEndPattern = new RegExp(`${escapedSearch}\\s*\\.\\s*$`, 'i');
     if (atEndPattern.test(trimmed)) {
         return 2; // Third priority
     }
     
-    return 3; // Lowest priority
+    // Priority 3: Match anywhere in definition
+    if (trimmedLower.includes(searchLower)) {
+        return 3;
+    }
+    
+    // Priority 4: Partial word match (for multi-word queries)
+    const words = searchLower.split(/\s+/);
+    if (words.length > 1) {
+        for (const word of words) {
+            if (trimmedLower.includes(word)) {
+                return 4; // Partial match
+            }
+        }
+    }
+    
+    return 5; // No match (shouldn't happen if we're calling this)
 }
 
 // Convert wildcard pattern (*) to regex pattern
@@ -198,12 +238,6 @@ function searchDirect(query) {
             // Clean Kannada entries for comparison
             const aKannada = cleanKannadaEntry(a.kannada);
             const bKannada = cleanKannadaEntry(b.kannada);
-            const aIsLong = isLongPhrase(aKannada);
-            const bIsLong = isLongPhrase(bKannada);
-            // Long phrases go to bottom
-            if (aIsLong !== bIsLong) {
-                return aIsLong ? 1 : -1;
-            }
             return aKannada.localeCompare(bKannada);
         });
         
@@ -386,12 +420,6 @@ function searchDirect(query) {
             // Clean Kannada entries for comparison
             const aKannada = cleanKannadaEntry(a.kannada);
             const bKannada = cleanKannadaEntry(b.kannada);
-            const aIsLong = isLongPhrase(aKannada);
-            const bIsLong = isLongPhrase(bKannada);
-            // Long phrases go to bottom
-            if (aIsLong !== bIsLong) {
-                return aIsLong ? 1 : -1;
-            }
             return aKannada.localeCompare(bKannada);
         };
         
@@ -469,12 +497,6 @@ function searchDirect(query) {
             // Clean Kannada entries for comparison
             const aKannada = cleanKannadaEntry(a.kannada);
             const bKannada = cleanKannadaEntry(b.kannada);
-            const aIsLong = isLongPhrase(aKannada);
-            const bIsLong = isLongPhrase(bKannada);
-            // Long phrases go to bottom
-            if (aIsLong !== bIsLong) {
-                return aIsLong ? 1 : -1;
-            }
             
             // If same priority and length category, sort alphabetically by Kannada word
             return aKannada.localeCompare(bKannada);
@@ -525,16 +547,15 @@ async function searchWithSynonyms(query) {
                 }
             }
             
-            // Sort alphabetically by Kannada word, then by length (long phrases at bottom)
+            // Sort by priority first, then alphabetically
             results.sort((a, b) => {
+                const aPriority = getDefinitionPriority(a.definition, a.matchedWord || '', a.kannada);
+                const bPriority = getDefinitionPriority(b.definition, b.matchedWord || '', b.kannada);
+                if (aPriority !== bPriority) {
+                    return aPriority - bPriority;
+                }
                 const aKannada = cleanKannadaEntry(a.kannada);
                 const bKannada = cleanKannadaEntry(b.kannada);
-                const aIsLong = isLongPhrase(aKannada);
-                const bIsLong = isLongPhrase(bKannada);
-                // Long phrases go to bottom
-                if (aIsLong !== bIsLong) {
-                    return aIsLong ? 1 : -1;
-                }
                 return aKannada.localeCompare(bKannada);
             });
             return { results, synonymsUsed };
@@ -596,14 +617,8 @@ async function searchWithSynonyms(query) {
         // Clean Kannada entries for comparison
         const aKannada = cleanKannadaEntry(a.kannada);
         const bKannada = cleanKannadaEntry(b.kannada);
-        const aIsLong = isLongPhrase(aKannada);
-        const bIsLong = isLongPhrase(bKannada);
-        // Long phrases go to bottom
-        if (aIsLong !== bIsLong) {
-            return aIsLong ? 1 : -1;
-        }
         
-        // If same priority and length category, sort alphabetically by Kannada word
+        // If same priority, sort alphabetically by Kannada word
         return aKannada.localeCompare(bKannada);
     });
     
