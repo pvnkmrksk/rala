@@ -34,10 +34,10 @@ function isDescription(text) {
     return countWords(text) > 2;
 }
 
-async function getSynonyms(word) {
+// Get word forms (derived words) - e.g., "heal" -> "healer", "healing", "healed"
+async function getWordForms(word) {
     try {
-        // Get synonyms using Datamuse API
-        const response = await fetch(`${DATAMUSE_API}?rel_syn=${encodeURIComponent(word)}&max=15`);
+        const response = await fetch(`${DATAMUSE_API}?rel_der=${encodeURIComponent(word)}&max=10`);
         const data = await response.json();
         return data.map(item => item.word);
     } catch {
@@ -45,12 +45,86 @@ async function getSynonyms(word) {
     }
 }
 
+// Get proper synonyms (filter out antonyms, but keep words that are valid synonyms in other contexts)
+async function getSynonyms(word) {
+    try {
+        // Get synonyms and antonyms
+        const [synResponse, antResponse] = await Promise.all([
+            fetch(`${DATAMUSE_API}?rel_syn=${encodeURIComponent(word)}&max=20`),
+            fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`)
+        ]);
+        
+        const synonyms = await synResponse.json();
+        const antonyms = await antResponse.json();
+        
+        // Create set of antonyms to exclude (only for THIS specific word)
+        const antonymSet = new Set(antonyms.map(item => item.word.toLowerCase()));
+        
+        // Filter out antonyms for this specific word
+        // Don't globally exclude words like "quack" or "charlatan" - they might be valid synonyms elsewhere
+        const filtered = synonyms
+            .map(item => item.word)
+            .filter(w => {
+                const wLower = w.toLowerCase();
+                // Only exclude if it's an antonym for THIS word
+                if (antonymSet.has(wLower)) return false;
+                // Exclude if word contains negative prefixes (un-, non-, anti-)
+                // These are usually not synonyms
+                if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti')) {
+                    return false;
+                }
+                return true;
+            });
+        
+        return filtered.slice(0, 10); // Limit to top 10
+    } catch {
+        return [];
+    }
+}
+
+// Get words with similar meaning (very conservative - only actual synonyms)
 async function getSimilarWords(word) {
     try {
-        // Get words with similar meaning
+        // Use means-like but be very selective
         const response = await fetch(`${DATAMUSE_API}?ml=${encodeURIComponent(word)}&max=20`);
         const data = await response.json();
-        return data.map(item => item.word);
+        
+        // Get antonyms for this specific word to filter them out
+        const antResponse = await fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`);
+        const antonyms = await antResponse.json();
+        const antonymSet = new Set(antonyms.map(item => item.word.toLowerCase()));
+        
+        // Filter very aggressively:
+        // 1. Only include words with "syn" tag (actual synonyms from Datamuse)
+        // 2. Exclude antonyms for THIS specific word
+        // 3. Exclude words with negative prefixes
+        // 4. High score threshold
+        const filtered = data
+            .filter(item => {
+                // Must have high score
+                if (!item.score || item.score < 5000000) return false;
+                
+                const wLower = item.word.toLowerCase();
+                
+                // Exclude antonyms for THIS word
+                if (antonymSet.has(wLower)) return false;
+                
+                // Exclude if word contains negative prefixes
+                if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti')) {
+                    return false;
+                }
+                
+                // CRITICAL: Only include words with "syn" tag (actual synonyms)
+                // This ensures we don't get related words that aren't synonyms
+                const hasSynTag = item.tags && item.tags.includes('syn');
+                if (!hasSynTag) return false; // Reject if not a synonym
+                
+                return true;
+            })
+            .map(item => item.word)
+            .slice(0, 5); // Limit to top 5 (very conservative)
+        
+        return filtered;
     } catch {
         return [];
     }
@@ -334,6 +408,59 @@ function searchDirect(query) {
             }
         }
         
+        // Also search padakanaja entries directly for exact phrase
+        for (let i = 0; i < dictionary.length; i++) {
+            const entry = dictionary[i];
+            // Skip Alar entries (they're in reverse index)
+            if (entry.source === 'alar') continue;
+            
+            if (!entry.defs) continue;
+            
+            for (const def of entry.defs) {
+                if (!def.entry) continue;
+                const defLower = def.entry.toLowerCase();
+                
+                // Check if definition matches any of the search patterns
+                let matched = false;
+                let matchedPattern = exactPhrase;
+                for (const pattern of searchPatterns) {
+                    if (defLower.includes(pattern)) {
+                        matched = true;
+                        matchedPattern = pattern;
+                        break;
+                    }
+                }
+                
+                // Also check wildcard pattern if auto-wildcard
+                if (!matched && isAutoWildcard && wildcardPattern) {
+                    const wildcardLower = wildcardPattern.toLowerCase();
+                    if (textContains(defLower, wildcardLower)) {
+                        matched = true;
+                        matchedPattern = wildcardLower;
+                    }
+                }
+                
+                if (matched) {
+                    const key = `${entry.entry}-${def.entry}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        exactPhraseResults.push({
+                            kannada: cleanKannadaEntry(entry.entry),
+                            phone: entry.phone || '',
+                            definition: def.entry,
+                            type: normalizeType(def.type || ''),
+                            head: entry.head || '',
+                            id: entry.id || '',
+                            dict_title: entry.dict_title || '',
+                            source: entry.source || '',
+                            matchedWord: matchedPattern,
+                            matchType: 'exact-phrase'
+                        });
+                    }
+                }
+            }
+        }
+        
         // For 2-word auto-wildcard, also search all definitions for wildcard matches
         if (isAutoWildcard && wildcardPattern) {
             const wildcardLower = wildcardPattern.toLowerCase();
@@ -393,7 +520,7 @@ function searchDirect(query) {
             }
         }
         
-        // Step 3: Find definitions containing any of the words
+        // Step 3: Find definitions containing any of the words (from reverse index)
         for (const word of words) {
             if (reverseIndex.has(word)) {
                 for (const entry of reverseIndex.get(word)) {
@@ -405,6 +532,43 @@ function searchDirect(query) {
                             matchedWord: word, 
                             matchType: 'any-word' 
                         });
+                    }
+                }
+            }
+        }
+        
+        // Step 4: Also search padakanaja entries directly (English->Kannada, no reverse index)
+        // This is important for words that only exist in padakanaja
+        for (const word of words) {
+            for (let i = 0; i < dictionary.length; i++) {
+                const entry = dictionary[i];
+                // Skip Alar entries (they're in reverse index)
+                if (entry.source === 'alar') continue;
+                
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    const defLower = def.entry.toLowerCase();
+                    
+                    // Check if definition contains the word
+                    if (defLower.includes(word.toLowerCase())) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            anyWordResults.push({
+                                kannada: cleanKannadaEntry(entry.entry),
+                                phone: entry.phone || '',
+                                definition: def.entry,
+                                type: normalizeType(def.type || ''),
+                                head: entry.head || '',
+                                id: entry.id || '',
+                                dict_title: entry.dict_title || '',
+                                source: entry.source || '',
+                                matchedWord: word,
+                                matchType: 'any-word'
+                            });
+                        }
                     }
                 }
             }
@@ -513,12 +677,20 @@ async function searchWithSynonyms(query) {
     // For multi-word queries, first try to get synonyms for the whole phrase
     if (isMultiWord) {
         const queryLower = query.toLowerCase().trim();
-        const [synonyms, similar] = await Promise.all([
-            getSynonyms(queryLower),
-            getSimilarWords(queryLower)
-        ]);
-        
-        const relatedWords = [...new Set([...synonyms, ...similar])];
+            // Get word forms and synonyms first
+            const [wordForms, synonyms] = await Promise.all([
+                getWordForms(queryLower),
+                getSynonyms(queryLower)
+            ]);
+            
+            // Only use similar words if we don't have enough good synonyms
+            let relatedWords = [...new Set([...wordForms, ...synonyms])];
+            
+            // Only add similar words if we have very few results (less than 3)
+            if (relatedWords.length < 3) {
+                const similar = await getSimilarWords(queryLower);
+                relatedWords = [...new Set([...relatedWords, ...similar])];
+            }
         
         // If synonyms exist for the whole phrase, use them and return early
         if (relatedWords.length > 0) {
@@ -527,6 +699,7 @@ async function searchWithSynonyms(query) {
             const synonymsUsed = {};
             
             for (const relWord of relatedWords) {
+                // Search reverse index (Alar entries)
                 if (reverseIndex.has(relWord)) {
                     for (const entry of reverseIndex.get(relWord)) {
                         const key = `${entry.kannada}-${entry.definition}`;
@@ -542,6 +715,45 @@ async function searchWithSynonyms(query) {
                                 originalQuery: queryLower,
                                 matchType: 'synonym' 
                             });
+                        }
+                    }
+                }
+                
+                // Also search padakanaja entries directly (English->Kannada)
+                for (let i = 0; i < dictionary.length; i++) {
+                    const entry = dictionary[i];
+                    // Skip Alar entries (they're in reverse index)
+                    if (entry.source === 'alar') continue;
+                    
+                    if (!entry.defs) continue;
+                    
+                    for (const def of entry.defs) {
+                        if (!def.entry) continue;
+                        const defLower = def.entry.toLowerCase();
+                        
+                        // Check if definition contains the synonym word
+                        if (defLower.includes(relWord.toLowerCase())) {
+                            const key = `${entry.entry}-${def.entry}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                                if (!synonymsUsed[queryLower].includes(relWord)) {
+                                    synonymsUsed[queryLower].push(relWord);
+                                }
+                                results.push({
+                                    kannada: cleanKannadaEntry(entry.entry),
+                                    phone: entry.phone || '',
+                                    definition: def.entry,
+                                    type: normalizeType(def.type || ''),
+                                    head: entry.head || '',
+                                    id: entry.id || '',
+                                    dict_title: entry.dict_title || '',
+                                    source: entry.source || '',
+                                    matchedWord: relWord,
+                                    originalQuery: queryLower,
+                                    matchType: 'synonym'
+                                });
+                            }
                         }
                     }
                 }
@@ -569,16 +781,26 @@ async function searchWithSynonyms(query) {
     const seen = new Set();
     const synonymsUsed = {};
     
-    for (const word of words) {
-        // Get synonyms and similar words
-        const [synonyms, similar] = await Promise.all([
-            getSynonyms(word),
-            getSimilarWords(word)
-        ]);
-        
-        const relatedWords = [...new Set([...synonyms, ...similar])];
+        for (const word of words) {
+            // Get word forms first, then synonyms
+            const [wordForms, synonyms] = await Promise.all([
+                getWordForms(word),
+                getSynonyms(word)
+            ]);
+            
+            // Only use similar words if we don't have enough good synonyms
+            // This avoids getting bad matches from ml endpoint
+            let relatedWords = [...new Set([...wordForms, ...synonyms])];
+            
+            // Only add similar words if we have very few results (less than 3)
+            // This way we avoid bad matches like "curing", "charlatan", etc.
+            if (relatedWords.length < 3) {
+                const similar = await getSimilarWords(word);
+                relatedWords = [...new Set([...relatedWords, ...similar])];
+            }
         
         for (const relWord of relatedWords) {
+            // Search reverse index (Alar entries)
             if (reverseIndex.has(relWord)) {
                 for (const entry of reverseIndex.get(relWord)) {
                     const key = `${entry.kannada}-${entry.definition}`;
@@ -594,6 +816,45 @@ async function searchWithSynonyms(query) {
                             originalQuery: word,
                             matchType: 'synonym' 
                         });
+                    }
+                }
+            }
+            
+            // Also search padakanaja entries directly (English->Kannada)
+            for (let i = 0; i < dictionary.length; i++) {
+                const entry = dictionary[i];
+                // Skip Alar entries (they're in reverse index)
+                if (entry.source === 'alar') continue;
+                
+                if (!entry.defs) continue;
+                
+                for (const def of entry.defs) {
+                    if (!def.entry) continue;
+                    const defLower = def.entry.toLowerCase();
+                    
+                    // Check if definition contains the synonym word
+                    if (defLower.includes(relWord.toLowerCase())) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            if (!synonymsUsed[word]) synonymsUsed[word] = [];
+                            if (!synonymsUsed[word].includes(relWord)) {
+                                synonymsUsed[word].push(relWord);
+                            }
+                            results.push({
+                                kannada: cleanKannadaEntry(entry.entry),
+                                phone: entry.phone || '',
+                                definition: def.entry,
+                                type: normalizeType(def.type || ''),
+                                head: entry.head || '',
+                                id: entry.id || '',
+                                dict_title: entry.dict_title || '',
+                                source: entry.source || '',
+                                matchedWord: relWord,
+                                originalQuery: word,
+                                matchType: 'synonym'
+                            });
+                        }
                     }
                 }
             }

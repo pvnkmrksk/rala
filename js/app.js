@@ -12,10 +12,27 @@ async function init() {
         // buildReverseIndex is now only needed if pre-built index fails (handled in loadDictionary)
         // Don't call it here as it's already handled
         
-        // Remove loading message immediately
-        const loadingEl = app.querySelector('.loading');
-        if (loadingEl) {
-            loadingEl.remove();
+        // Remove loading message once Alar is ready (dictionaryReady is set when Alar loads)
+        // Check immediately and also set up a check in case it's not ready yet
+        const removeLoading = () => {
+            const loadingEl = app.querySelector('.loading');
+            if (loadingEl && dictionaryReady) {
+                loadingEl.remove();
+                return true;
+            }
+            return false;
+        };
+        
+        if (!removeLoading()) {
+            // If not ready yet, check every 100ms until ready
+            const checkInterval = setInterval(() => {
+                if (removeLoading()) {
+                    clearInterval(checkInterval);
+                }
+            }, 100);
+            
+            // Stop checking after 5 seconds (fallback)
+            setTimeout(() => clearInterval(checkInterval), 5000);
         }
         
         // Check URL for initial query before rendering

@@ -379,14 +379,8 @@ async function fetchAndCacheDictionary() {
             console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
         }
         
-        // Hide progress indicator immediately - Alar is ready for search
-        const progressEl = document.getElementById('dict-progress');
-        if (progressEl) {
-            progressEl.style.opacity = '0';
-            setTimeout(() => {
-                progressEl.style.display = 'none';
-            }, 300);
-        }
+        // Don't hide progress indicator yet - padakanaja is still loading
+        // It will be hidden when padakanaja finishes or if padakanaja is disabled
         
         // Step 2: Load combined padakanaja dictionary in background (temporarily disabled)
         if (PADAKANAJA_COMBINED_FILES.length === 0) {
@@ -397,18 +391,9 @@ async function fetchAndCacheDictionary() {
         console.log(`Loading additional dictionaries in background (non-blocking)...`);
         
         const loadPadakanajaAsync = () => {
-            // Only show progress if user is still on page after a delay
-            let progressShown = false;
-            const showProgressIfNeeded = () => {
-                if (!progressShown) {
-                    createProgressIndicator();
-                    updateProgressIndicator(0, PADAKANAJA_COMBINED_FILES.length, 0, 'Loading Additional Dictionaries...');
-                    progressShown = true;
-                }
-            };
-            
-            // Delay showing progress to avoid UI clutter if loading is fast
-            const progressTimeout = setTimeout(showProgressIfNeeded, 2000);
+            // Show progress immediately for padakanaja loading
+            createProgressIndicator();
+            updateProgressIndicator(0, PADAKANAJA_COMBINED_FILES.length, 0, 'Loading Additional Dictionaries...');
             
             // Load all chunks sequentially
             let allPadakanajaEntries = [];
@@ -417,7 +402,6 @@ async function fetchAndCacheDictionary() {
             const loadNextChunk = async (chunkIndex) => {
                 if (chunkIndex >= PADAKANAJA_COMBINED_FILES.length) {
                     // All chunks loaded
-                    clearTimeout(progressTimeout);
                     if (allPadakanajaEntries.length > 0) {
                         // Flatten all chunks and add to dictionary array (simple!)
                         let totalPadakanajaEntries = 0;
@@ -445,16 +429,34 @@ async function fetchAndCacheDictionary() {
                             }, 100);
                         }
 
-                        if (progressShown) {
-                            updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
-                        }
+                        updateProgressIndicator(PADAKANAJA_COMBINED_FILES.length, PADAKANAJA_COMBINED_FILES.length, 100, 'All Dictionaries Loaded');
                         console.log(`✓ Total loaded: ${dictionary.length} entries`);
+                        
+                        // Hide progress indicator after a moment
+                        setTimeout(() => {
+                            const progressEl = document.getElementById('dict-progress');
+                            if (progressEl) {
+                                progressEl.style.opacity = '0';
+                                setTimeout(() => {
+                                    progressEl.style.display = 'none';
+                                }, 300);
+                            }
+                        }, 500);
                     } else {
                         console.warn(`⚠ Failed to load padakanaja dictionary chunks`);
                         dictionaryReady = true; // Still mark as ready with just Alar
-                        if (progressShown) {
-                            updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
-                        }
+                        updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+                        
+                        // Hide progress indicator
+                        setTimeout(() => {
+                            const progressEl = document.getElementById('dict-progress');
+                            if (progressEl) {
+                                progressEl.style.opacity = '0';
+                                setTimeout(() => {
+                                    progressEl.style.display = 'none';
+                                }, 300);
+                            }
+                        }, 500);
                     }
                     return;
                 }
@@ -467,10 +469,6 @@ async function fetchAndCacheDictionary() {
                     const chunkEntries = await fetchDictionaryFile(
                         padakanajaSource,
                         (loaded, total, percent) => {
-                            if (!progressShown) {
-                                clearTimeout(progressTimeout);
-                                showProgressIfNeeded();
-                            }
                             // Calculate overall progress across all chunks
                             const chunkProgress = (chunkIndex + (percent / 100)) / PADAKANAJA_COMBINED_FILES.length;
                             const overallPercent = Math.round(chunkProgress * 100);
@@ -504,11 +502,19 @@ async function fetchAndCacheDictionary() {
             
             // Start loading chunks
             loadNextChunk(0).catch(error => {
-                clearTimeout(progressTimeout);
                 console.error('Error loading padakanaja dictionary chunks:', error);
-                if (progressShown) {
-                    updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
-                }
+                updateProgressIndicator(1, 1, 100, 'Alar Dictionary Ready');
+                
+                // Hide progress indicator
+                setTimeout(() => {
+                    const progressEl = document.getElementById('dict-progress');
+                    if (progressEl) {
+                        progressEl.style.opacity = '0';
+                        setTimeout(() => {
+                            progressEl.style.display = 'none';
+                        }, 300);
+                    }
+                }, 500);
             });
         };
         
