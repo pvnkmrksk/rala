@@ -1,0 +1,10 @@
+{
+  "name": "rala-dictionary",
+  "version": "1.0.0",
+  "description": "Static site - no build required",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build needed - static site'"
+  }
+}
+
