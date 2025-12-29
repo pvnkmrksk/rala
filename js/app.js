@@ -13,7 +13,7 @@ async function init() {
         // Don't call it here as it's already handled
         
         // Remove loading message once Alar is ready (dictionaryReady is set when Alar loads)
-        // Check immediately and also set up a check in case it's not ready yet
+        // On mobile, padakanaja loads async in background, so we only wait for Alar
         const removeLoading = () => {
             const loadingEl = app.querySelector('.loading');
             if (loadingEl && dictionaryReady) {
@@ -23,16 +23,25 @@ async function init() {
             return false;
         };
         
+        // Try immediately first (Alar might already be loaded from cache)
         if (!removeLoading()) {
-            // If not ready yet, check every 100ms until ready
+            // If not ready yet, check every 50ms (faster on mobile) until ready
             const checkInterval = setInterval(() => {
                 if (removeLoading()) {
                     clearInterval(checkInterval);
                 }
-            }, 100);
+            }, 50);
             
-            // Stop checking after 5 seconds (fallback)
-            setTimeout(() => clearInterval(checkInterval), 5000);
+            // Stop checking after 3 seconds (faster fallback on mobile)
+            setTimeout(() => {
+                clearInterval(checkInterval);
+                // Force remove if still there (Alar should be ready by now)
+                const loadingEl = app.querySelector('.loading');
+                if (loadingEl) {
+                    console.warn('Force removing loading spinner after timeout');
+                    loadingEl.remove();
+                }
+            }, 3000);
         }
         
         // Check URL for initial query before rendering

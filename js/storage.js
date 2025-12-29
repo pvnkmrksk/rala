@@ -81,62 +81,10 @@ async function getCachedPadakanaja() {
     }
 }
 
-// Search padakanaja entries from IndexedDB (memory-efficient for mobile)
-async function searchPadakanajaFromIndexedDB(searchWords, maxResults = 100) {
-    try {
-        const padakanajaData = await getCachedPadakanaja();
-        if (!padakanajaData) return [];
-        
-        // Expand optimized format if needed
-        const entries = expandOptimizedEntries(padakanajaData);
-        if (!Array.isArray(entries)) return [];
-        
-        const results = [];
-        const seen = new Set();
-        
-        for (const word of searchWords) {
-            const wordLower = word.toLowerCase();
-            let count = 0;
-            
-            for (let i = 0; i < entries.length && count < maxResults; i++) {
-                const entry = entries[i];
-                if (!entry.defs) continue;
-                
-                for (const def of entry.defs) {
-                    if (!def.entry) continue;
-                    const defLower = def.entry.toLowerCase();
-                    
-                    if (defLower.includes(wordLower)) {
-                        const key = `${entry.entry}-${def.entry}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            results.push({
-                                kannada: cleanKannadaEntry(entry.entry),
-                                phone: entry.phone || '',
-                                definition: def.entry,
-                                type: normalizeType(def.type || ''),
-                                head: entry.head || '',
-                                id: entry.id || '',
-                                dict_title: entry.dict_title || '',
-                                source: entry.source || '',
-                                matchedWord: word,
-                                matchType: 'direct'
-                            });
-                            count++;
-                            if (count >= maxResults) break;
-                        }
-                    }
-                }
-                if (count >= maxResults) break;
-            }
-        }
-        
-        return results;
-    } catch (error) {
-        console.error('Error searching padakanaja from IndexedDB:', error);
-        return [];
-    }
-}
+// Note: searchPadakanajaFromIndexedDB is defined in dictionary.js and exposed globally
+// as window.searchPadakanajaFromIndexedDB. It's not defined here because it needs
+// access to expandOptimizedEntries, cleanKannadaEntry, and normalizeType which are
+// defined in dictionary.js
 
 async function getCachedVersion() {
     try {

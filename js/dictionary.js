@@ -364,7 +364,7 @@ async function fetchAndCacheDictionary() {
         });
         
         dictionary = primaryEntries;
-        dictionaryReady = true; // Alar is ready for search
+        dictionaryReady = true; // Alar is ready for search - spinner can be removed now
         console.log(`✓ Loaded ${primaryEntries.length} entries from ${PRIMARY_DICTIONARY.name}`);
         
         // Load pre-built Alar reverse index instead of building it client-side

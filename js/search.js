@@ -703,14 +703,23 @@ async function searchDirect(query) {
             }
         } else if (window.searchPadakanajaFromIndexedDB) {
             // Padakanaja not in memory - search from IndexedDB
-            const padakanajaResults = await window.searchPadakanajaFromIndexedDB([word], 50);
-            for (const result of padakanajaResults) {
-                const key = `${result.kannada}-${result.definition}`;
-                if (!seen.has(key)) {
-                    seen.add(key);
-                    anyWordResults.push(result);
+            try {
+                const padakanajaResults = await window.searchPadakanajaFromIndexedDB([word], 50);
+                if (padakanajaResults && Array.isArray(padakanajaResults)) {
+                    for (const result of padakanajaResults) {
+                        const key = `${result.kannada}-${result.definition}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            anyWordResults.push(result);
+                        }
+                    }
                 }
+            } catch (error) {
+                console.error('Error searching padakanaja from IndexedDB:', error);
             }
+        } else {
+            // Padakanaja search function not yet available (might still be loading)
+            console.warn('searchPadakanajaFromIndexedDB not available - padakanaja may still be loading');
         }
         
         // Sort results: prioritize by position in definition, then alphabetically, then by length
@@ -828,22 +837,28 @@ async function searchWithSynonyms(query) {
                     }
                 } else if (window.searchPadakanajaFromIndexedDB) {
                     // Padakanaja not in memory - search from IndexedDB
-                    const padakanajaResults = await window.searchPadakanajaFromIndexedDB([relWord], 20);
-                    for (const result of padakanajaResults) {
-                        const key = `${result.kannada}-${result.definition}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
-                            if (!synonymsUsed[queryLower].includes(relWord)) {
-                                synonymsUsed[queryLower].push(relWord);
+                    try {
+                        const padakanajaResults = await window.searchPadakanajaFromIndexedDB([relWord], 20);
+                        if (padakanajaResults && Array.isArray(padakanajaResults)) {
+                            for (const result of padakanajaResults) {
+                                const key = `${result.kannada}-${result.definition}`;
+                                if (!seen.has(key)) {
+                                    seen.add(key);
+                                    if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                                    if (!synonymsUsed[queryLower].includes(relWord)) {
+                                        synonymsUsed[queryLower].push(relWord);
+                                    }
+                                    results.push({
+                                        ...result,
+                                        matchedWord: relWord,
+                                        originalQuery: queryLower,
+                                        matchType: 'synonym'
+                                    });
+                                }
                             }
-                            results.push({
-                                ...result,
-                                matchedWord: relWord,
-                                originalQuery: queryLower,
-                                matchType: 'synonym'
-                            });
                         }
+                    } catch (error) {
+                        console.error('Error searching padakanaja synonyms from IndexedDB:', error);
                     }
                 }
             }
@@ -870,7 +885,7 @@ async function searchWithSynonyms(query) {
     const seen = new Set();
     const synonymsUsed = {};
     
-        for (const word of words) {
+    for (const word of words) {
             // Get word forms first, then synonyms
             const [wordForms, synonyms] = await Promise.all([
                 getWordForms(word),
@@ -952,22 +967,28 @@ async function searchWithSynonyms(query) {
                 }
             } else if (window.searchPadakanajaFromIndexedDB) {
                 // Padakanaja not in memory - search from IndexedDB
-                const padakanajaResults = await window.searchPadakanajaFromIndexedDB([relWord], 20);
-                for (const result of padakanajaResults) {
-                    const key = `${result.kannada}-${result.definition}`;
-                    if (!seen.has(key)) {
-                        seen.add(key);
-                        if (!synonymsUsed[word]) synonymsUsed[word] = [];
-                        if (!synonymsUsed[word].includes(relWord)) {
-                            synonymsUsed[word].push(relWord);
+                try {
+                    const padakanajaResults = await window.searchPadakanajaFromIndexedDB([relWord], 20);
+                    if (padakanajaResults && Array.isArray(padakanajaResults)) {
+                        for (const result of padakanajaResults) {
+                            const key = `${result.kannada}-${result.definition}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                if (!synonymsUsed[word]) synonymsUsed[word] = [];
+                                if (!synonymsUsed[word].includes(relWord)) {
+                                    synonymsUsed[word].push(relWord);
+                                }
+                                results.push({
+                                    ...result,
+                                    matchedWord: relWord,
+                                    originalQuery: word,
+                                    matchType: 'synonym'
+                                });
+                            }
                         }
-                        results.push({
-                            ...result,
-                            matchedWord: relWord,
-                            originalQuery: word,
-                            matchType: 'synonym'
-                        });
                     }
+                } catch (error) {
+                    console.error('Error searching padakanaja synonyms from IndexedDB:', error);
                 }
             }
         }
