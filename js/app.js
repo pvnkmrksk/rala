@@ -8,9 +8,15 @@ async function init() {
         // Initialize dark mode first
         initDarkMode();
         
-        await loadDictionary();
-        // buildReverseIndex is now only needed if pre-built index fails (handled in loadDictionary)
-        // Don't call it here as it's already handled
+        // If Worker API is available, skip loading dictionaries (searches use Worker API)
+        if (!WORKER_API_URL) {
+            await loadDictionary();
+            // buildReverseIndex is now only needed if pre-built index fails (handled in loadDictionary)
+            // Don't call it here as it's already handled
+        } else {
+            console.log('🚀 Worker API enabled - skipping client-side dictionary load');
+            dictionaryReady = true; // Mark as ready so UI doesn't wait
+        }
         
         // Remove loading message once Alar is ready (dictionaryReady is set when Alar loads)
         // On mobile, padakanaja loads async in background, so we only wait for Alar
