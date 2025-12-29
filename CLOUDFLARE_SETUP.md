@@ -31,6 +31,7 @@ This will open a browser window to authenticate.
 
 ## Step 4: Create Workers KV Namespace
 
+**Option A: Using wrangler CLI**
 ```bash
 wrangler kv namespace create "DICTIONARY"
 ```
@@ -43,7 +44,16 @@ Add the following to your configuration file in your kv_namespaces array:
 { binding = "DICTIONARY", id = "abc123..." }
 ```
 
-**Save the `id` value - you'll need it!**
+**Option B: Using Cloudflare Dashboard (Easier)**
+1. Go to https://dash.cloudflare.com
+2. Select your account
+3. Go to **Workers & Pages** → **KV**
+4. Click **Create a namespace**
+5. Name it: `DICTIONARY`
+6. Click **Add**
+7. Copy the **Namespace ID** from the list
+
+**Save the `id` value - you'll need it for `wrangler.toml`!**
 
 ## Step 5: Upload Dictionary to KV
 
