@@ -18,36 +18,42 @@ async function init() {
             dictionaryReady = true; // Mark as ready so UI doesn't wait
         }
         
-        // Remove loading message once Alar is ready (dictionaryReady is set when Alar loads)
-        // On mobile, padakanaja loads async in background, so we only wait for Alar
+        // Remove loading message
+        // If Worker API is enabled, remove immediately (no dictionary loading needed)
+        // Otherwise, wait for dictionary to load
         const removeLoading = () => {
             const loadingEl = app.querySelector('.loading');
-            if (loadingEl && dictionaryReady) {
+            if (loadingEl && (WORKER_API_URL || dictionaryReady)) {
                 loadingEl.remove();
                 return true;
             }
             return false;
         };
         
-        // Try immediately first (Alar might already be loaded from cache)
-        if (!removeLoading()) {
-            // If not ready yet, check every 50ms (faster on mobile) until ready
-            const checkInterval = setInterval(() => {
-                if (removeLoading()) {
+        // If Worker API is enabled, remove loading immediately
+        if (WORKER_API_URL) {
+            removeLoading();
+        } else {
+            // Try immediately first (Alar might already be loaded from cache)
+            if (!removeLoading()) {
+                // If not ready yet, check every 50ms (faster on mobile) until ready
+                const checkInterval = setInterval(() => {
+                    if (removeLoading()) {
+                        clearInterval(checkInterval);
+                    }
+                }, 50);
+                
+                // Stop checking after 3 seconds (faster fallback on mobile)
+                setTimeout(() => {
                     clearInterval(checkInterval);
-                }
-            }, 50);
-            
-            // Stop checking after 3 seconds (faster fallback on mobile)
-            setTimeout(() => {
-                clearInterval(checkInterval);
-                // Force remove if still there (Alar should be ready by now)
-                const loadingEl = app.querySelector('.loading');
-                if (loadingEl) {
-                    console.warn('Force removing loading spinner after timeout');
-                    loadingEl.remove();
-                }
-            }, 3000);
+                    // Force remove if still there (Alar should be ready by now)
+                    const loadingEl = app.querySelector('.loading');
+                    if (loadingEl) {
+                        console.warn('Force removing loading spinner after timeout');
+                        loadingEl.remove();
+                    }
+                }, 3000);
+            }
         }
         
         // Check URL for initial query before rendering
