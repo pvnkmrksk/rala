@@ -30,9 +30,14 @@ async function init() {
             return false;
         };
         
-        // If Worker API is enabled, remove loading immediately
+        // If Worker API is enabled, update loading text and remove immediately
         if (WORKER_API_URL) {
-            removeLoading();
+            const loadingText = document.getElementById('loading-text');
+            if (loadingText) {
+                loadingText.textContent = 'Ready to search';
+            }
+            // Small delay to show "Ready" message briefly
+            setTimeout(() => removeLoading(), 300);
         } else {
             // Try immediately first (Alar might already be loaded from cache)
             if (!removeLoading()) {
