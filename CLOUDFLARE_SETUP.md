@@ -32,7 +32,7 @@ This will open a browser window to authenticate.
 ## Step 4: Create Workers KV Namespace
 
 ```bash
-wrangler kv:namespace create "DICTIONARY"
+wrangler kv namespace create "DICTIONARY"
 ```
 
 This will output something like:
@@ -83,7 +83,11 @@ The client code will be updated to call the Worker API instead of loading dictio
 ### KV Upload Fails
 - Make sure the file path is correct
 - Check that the namespace ID is correct
-- Try uploading in smaller chunks if file is too large
+- If file is too large (21MB), you have options:
+  1. **Use wrangler kv key put with --preview flag** (if available)
+  2. **Upload via Cloudflare Dashboard** (Web UI)
+  3. **Split into smaller chunks** and combine in Worker
+  4. **Use R2 storage instead** (free tier: 10GB) and fetch from Worker
 
 ### Worker Deployment Fails
 - Check that `wrangler.toml` has correct account_id
