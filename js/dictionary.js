@@ -433,7 +433,17 @@ async function fetchAndCacheDictionary() {
         // Don't hide progress indicator yet - padakanaja is still loading
         // It will be hidden when padakanaja finishes or if padakanaja is disabled
         
-        // Step 2: Load combined padakanaja dictionary in background (temporarily disabled)
+        // Step 2: Load combined padakanaja dictionary in background
+        // MOBILE: Skip padakanaja entirely (only Alar loads)
+        // DESKTOP: Load padakanaja into memory
+        const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        
+        if (isMobileDevice) {
+            console.log('📱 Mobile device detected - skipping padakanaja (Alar only for better performance)');
+            console.log('💡 Use server-side search for full dictionary access');
+            return;
+        }
+        
         if (PADAKANAJA_COMBINED_FILES.length === 0) {
             console.log('Padakanaja dictionaries disabled');
             return;
@@ -445,10 +455,6 @@ async function fetchAndCacheDictionary() {
             // Show progress immediately for padakanaja loading
             createProgressIndicator();
             updateProgressIndicator(0, PADAKANAJA_COMBINED_FILES.length, 0, 'Loading Additional Dictionaries...');
-            
-            // On mobile, only cache padakanaja to IndexedDB (don't load into memory)
-            // On desktop, load into memory for faster searches
-            const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
             
             // Load all chunks sequentially
             let allPadakanajaEntries = [];
