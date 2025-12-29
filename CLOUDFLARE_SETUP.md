@@ -108,6 +108,16 @@ The worker code will be created in `workers/` directory. The setup script will h
 
 Before deploying, you need to register a workers.dev subdomain:
 
+**Option 1: Via Wrangler CLI (Interactive)**
+When you run `wrangler deploy`, it will prompt you:
+```
+✔ Would you like to register a workers.dev subdomain now? … yes
+? What would you like your workers.dev subdomain to be? › rala-search
+```
+
+**Recommended:** Type `rala-search` (or `rala-dict` if that's taken)
+
+**Option 2: Via Cloudflare Dashboard**
 1. Go to: https://dash.cloudflare.com
 2. Navigate to **Workers & Pages** → **Overview**
 3. Click **Get started** or **Register subdomain**
