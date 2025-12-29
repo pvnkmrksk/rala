@@ -248,14 +248,17 @@ async function searchDirect(query) {
     if (WORKER_API_URL) {
         try {
             console.log(`🔍 Searching via Worker API: ${query}`);
+            const startTime = performance.now();
             const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`);
             if (!response.ok) {
                 throw new Error(`Worker API error: ${response.status}`);
             }
             const data = await response.json();
-            console.log(`✅ Worker API returned ${data.count || data.results?.length || 0} results`);
+            const searchTime = performance.now() - startTime;
+            console.log(`✅ Worker API returned ${data.count || data.results?.length || 0} results in ${searchTime.toFixed(0)}ms`);
+            
             // Convert Worker response format to client format
-            return data.results.map(result => ({
+            const results = data.results.map(result => ({
                 kannada: result.kannada,
                 phone: result.phone || '',
                 definition: result.definition,
@@ -267,6 +270,9 @@ async function searchDirect(query) {
                 matchedWord: result.matchedWord || query,
                 matchType: result.matchType || 'direct'
             }));
+            
+            // Progressive rendering: return results immediately (they're already sorted)
+            return results;
         } catch (error) {
             console.warn('⚠️ Worker API search failed, falling back to client-side:', error);
             // Fall through to client-side search
@@ -788,15 +794,73 @@ async function searchDirect(query) {
 }
 
 async function searchWithSynonyms(query) {
-    // If Worker API is enabled, synonym search is not supported yet
-    // (Worker API only supports direct search for now)
-    if (WORKER_API_URL) {
-        console.log('⚠️ Synonym search not available with Worker API (using direct search only)');
-        return { results: [], synonymsUsed: {} };
-    }
-    
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
     const isMultiWord = words.length > 1;
+    const queryLower = query.toLowerCase().trim();
+    
+    // If Worker API is enabled, use Datamuse for synonyms + Worker API for search
+    if (WORKER_API_URL) {
+        // Get word forms and synonyms
+        const [wordForms, synonyms] = await Promise.all([
+            getWordForms(queryLower),
+            getSynonyms(queryLower)
+        ]);
+        
+        let relatedWords = [...new Set([...wordForms, ...synonyms])];
+        
+        // Only add similar words if we have very few results (less than 3)
+        if (relatedWords.length < 3) {
+            const similar = await getSimilarWords(queryLower);
+            relatedWords = [...new Set([...relatedWords, ...similar])];
+        }
+        
+        if (relatedWords.length === 0) {
+            return { results: [], synonymsUsed: {} };
+        }
+        
+        // Search Worker API for each synonym word
+        const results = [];
+        const seen = new Set();
+        const synonymsUsed = {};
+        
+        for (const relWord of relatedWords) {
+            try {
+                const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    for (const result of data.results || []) {
+                        const key = `${result.kannada}-${result.definition}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                            if (!synonymsUsed[queryLower].includes(relWord)) {
+                                synonymsUsed[queryLower].push(relWord);
+                            }
+                            results.push({
+                                kannada: result.kannada,
+                                phone: result.phone || '',
+                                definition: result.definition,
+                                type: result.type || 'Noun',
+                                head: result.head || '',
+                                id: result.id || '',
+                                dict_title: result.dict_title || '',
+                                source: result.source || '',
+                                matchedWord: relWord,
+                                originalQuery: queryLower,
+                                matchType: 'synonym'
+                            });
+                        }
+                    }
+                }
+            } catch (error) {
+                console.warn(`Failed to search synonym "${relWord}":`, error);
+            }
+        }
+        
+        return { results, synonymsUsed };
+    }
+    
+    // Client-side synonym search (original logic)
     
     // Check if padakanaja is in memory (reuse this check throughout the function)
     let hasPadakanajaInMemory = false;

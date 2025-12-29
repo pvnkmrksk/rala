@@ -82,7 +82,7 @@ function renderApp(initialQuery = '') {
                     <span id="tab-exact-count"></span>
                     <span id="tab-exact-spinner" class="tab-spinner" style="display: none;"></span>
                 </button>
-                <button class="tab" id="tab-synonym" style="${WORKER_API_URL ? 'display: none;' : ''}">
+                <button class="tab" id="tab-synonym">
                     <span>Synonym Match</span>
                     <span id="tab-synonym-count"></span>
                     <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
@@ -91,7 +91,7 @@ function renderApp(initialQuery = '') {
         </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
-            ${WORKER_API_URL ? 'Server-side search enabled' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
+            ${WORKER_API_URL ? '571,783 entries | 38,746 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
         </div>
     `;
     
@@ -180,8 +180,25 @@ function renderApp(initialQuery = '') {
         tabSynonymSpinner.style.display = 'none';
         synonymSearchCompleted = true;
         
-        // Update UI with both results
+        // Update UI with both results (progressive rendering with animation)
         resultsDiv.innerHTML = renderResults(directResults, synonymResults, synonymsUsed, query, false, false);
+        
+        // Trigger CSS animation for synonym results
+        requestAnimationFrame(() => {
+            const synonymSection = document.getElementById('synonym-matches');
+            if (synonymSection) {
+                const resultCards = synonymSection.querySelectorAll('.result-card');
+                resultCards.forEach((card, index) => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(10px)';
+                    setTimeout(() => {
+                        card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 20); // Stagger animation
+                });
+            }
+        });
     }
     
     async function performSearch(query, fromEnter = false, skipURLUpdate = false) {
@@ -244,21 +261,34 @@ function renderApp(initialQuery = '') {
         tabExactCount.textContent = ` (${directResults.length})`;
         tabExactSpinner.style.display = 'none';
         
-        // Update UI with direct results (progressive: show immediately)
+        // Progressive rendering: Update UI with direct results immediately
+        // Add fade-in animation for smooth appearance
         resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, false);
         
+        // Trigger CSS animation for results
+        requestAnimationFrame(() => {
+            const resultCards = resultsDiv.querySelectorAll('.result-card');
+            resultCards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(10px)';
+                setTimeout(() => {
+                    card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 20); // Stagger animation
+            });
+        });
+        
         // Step 2: Load synonyms with delay (500ms) or immediately if Enter was pressed
-        // Skip synonym search if Worker API is enabled (not supported yet)
-        if (!WORKER_API_URL) {
-            if (fromEnter) {
-                // Load immediately if Enter was pressed
-                await loadSynonyms(query);
-            } else {
-                // Wait 500ms before loading synonyms
-                synonymSearchTimeout = setTimeout(() => {
-                    loadSynonyms(query);
-                }, 500);
-            }
+        // Synonym search now works with Worker API (uses client-side Datamuse + Worker API)
+        if (fromEnter) {
+            // Load immediately if Enter was pressed
+            await loadSynonyms(query);
+        } else {
+            // Wait 500ms before loading synonyms
+            synonymSearchTimeout = setTimeout(() => {
+                loadSynonyms(query);
+            }, 500);
         }
         
         // Hide tabs if no results at all
@@ -280,13 +310,15 @@ function renderApp(initialQuery = '') {
             return;
         }
         
-        // Debounce search by 400ms to prevent input lag during typing
+        // Debounce search: 600ms for Worker API (network delay), 400ms for client-side
+        // Industry standard: 300-500ms for instant search, 500-800ms for network calls
+        const debounceDelay = WORKER_API_URL ? 600 : 400;
         debounceTimer = setTimeout(() => {
-            // Only search if dictionary is ready
-            if (dictionaryReady) {
+            // Only search if dictionary is ready (or Worker API is enabled)
+            if (WORKER_API_URL || dictionaryReady) {
                 performSearch(e.target.value, false);
             }
-        }, 400);
+        }, debounceDelay);
     });
     
     searchInput.addEventListener('keydown', (e) => {

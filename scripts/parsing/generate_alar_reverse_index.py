@@ -143,3 +143,4 @@ def generate_alar_reverse_index(
 if __name__ == '__main__':
     generate_alar_reverse_index()
 
+
