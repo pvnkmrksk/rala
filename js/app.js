@@ -82,7 +82,7 @@ function renderApp(initialQuery = '') {
                     <span id="tab-exact-count"></span>
                     <span id="tab-exact-spinner" class="tab-spinner" style="display: none;"></span>
                 </button>
-                <button class="tab" id="tab-synonym">
+                <button class="tab" id="tab-synonym" style="${WORKER_API_URL ? 'display: none;' : ''}">
                     <span>Synonym Match</span>
                     <span id="tab-synonym-count"></span>
                     <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
