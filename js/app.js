@@ -248,14 +248,17 @@ function renderApp(initialQuery = '') {
         resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, false);
         
         // Step 2: Load synonyms with delay (500ms) or immediately if Enter was pressed
-        if (fromEnter) {
-            // Load immediately if Enter was pressed
-            await loadSynonyms(query);
-        } else {
-            // Wait 500ms before loading synonyms
-            synonymSearchTimeout = setTimeout(() => {
-                loadSynonyms(query);
-            }, 500);
+        // Skip synonym search if Worker API is enabled (not supported yet)
+        if (!WORKER_API_URL) {
+            if (fromEnter) {
+                // Load immediately if Enter was pressed
+                await loadSynonyms(query);
+            } else {
+                // Wait 500ms before loading synonyms
+                synonymSearchTimeout = setTimeout(() => {
+                    loadSynonyms(query);
+                }, 500);
+            }
         }
         
         // Hide tabs if no results at all
