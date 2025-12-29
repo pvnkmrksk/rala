@@ -81,8 +81,8 @@ async function loadDictionary() {
                     
                     dictionaryReady = true;
                     console.log(`✓ Loaded ${dictionary.length} entries from IndexedDB cache${isMobileDevice ? ' (padakanaja in IndexedDB)' : ''}`);
-                    console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
-                    return; // Use cache, don't fetch from network
+                console.log('Using cached dictionary. Add ?refresh=true to URL to force reload from network.');
+                return; // Use cache, don't fetch from network
                 }
             }
             console.log('No valid cache found in IndexedDB, fetching from network');
@@ -667,21 +667,50 @@ async function fetchAndCacheDictionary() {
         // Cache function (called separately)
         async function updateCache() {
         try {
-            // Simple: just cache the dictionary array
+            // On mobile, cache Alar and padakanaja separately
+            // On desktop, cache everything together
+            const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            
+            if (isMobileDevice && !padakanajaInMemory) {
+                // Mobile: cache Alar separately (padakanaja already cached separately)
+                const alarEntries = dictionary.filter(entry => entry.source === 'alar');
+                const dataSize = new Blob([JSON.stringify(alarEntries)]).size;
+                const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
+                console.log(`Caching ${sizeMB} MB of Alar data in IndexedDB...`);
+                
+                await setCachedDictionary({ alar: alarEntries });
+                await setCachedVersion(CACHE_VERSION);
+                
+                console.log(`✓ Alar cached successfully in IndexedDB (${sizeMB} MB)`);
+            } else {
+                // Desktop: cache everything together, or mobile fallback
             const dataSize = new Blob([JSON.stringify(dictionary)]).size;
             const sizeMB = (dataSize / 1024 / 1024).toFixed(2);
             console.log(`Caching ${sizeMB} MB of data in IndexedDB...`);
             
+                if (isMobileDevice && padakanajaInMemory) {
+                    // Mobile fallback: separate alar and padakanaja
+                    const alarEntries = dictionary.filter(entry => entry.source === 'alar');
+                    const padakanajaEntries = dictionary.filter(entry => entry.source !== 'alar');
+                    await setCachedDictionary({ alar: alarEntries, padakanaja: padakanajaEntries });
+                } else {
+                    // Desktop: cache as array (old format for compatibility)
             await setCachedDictionary(dictionary);
+                }
             await setCachedVersion(CACHE_VERSION);
             
             // Verify cache was saved
             const verifyCache = await getCachedDictionary();
-            if (verifyCache && Array.isArray(verifyCache) && verifyCache.length === dictionary.length) {
+                if (verifyCache) {
+                    const verifyCount = Array.isArray(verifyCache) ? verifyCache.length : 
+                                      (verifyCache.alar ? verifyCache.alar.length : 0);
+                    if (verifyCount === dictionary.length || (isMobileDevice && verifyCount === dictionary.filter(e => e.source === 'alar').length)) {
                 console.log(`✓ Dictionary cached successfully in IndexedDB (${sizeMB} MB)`);
-                console.log(`  Cache verification: ${verifyCache.length} entries stored`);
+                        console.log(`  Cache verification: ${verifyCount} entries stored`);
             } else {
                 console.warn('⚠ Cache verification: entry count mismatch');
+                    }
+                }
             }
         } catch (error) {
             console.error('✗ Failed to cache dictionary in IndexedDB:', error);
