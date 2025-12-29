@@ -146,6 +146,8 @@ const WORKER_API_URL = 'https://rala-search.your-subdomain.workers.dev';
 
 Replace with your actual Worker URL.
 
+**Important:** This Worker URL is only used internally by the client code. Users still visit your same GitHub Pages site (or wherever you host the frontend). The Worker API is called in the background automatically - users never see or need to know about the Worker URL.
+
 ## Step 9: Update Client Code
 
 The client code will be updated to call the Worker API instead of loading dictionaries locally.
