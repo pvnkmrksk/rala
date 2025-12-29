@@ -57,12 +57,46 @@ Add the following to your configuration file in your kv_namespaces array:
 
 ## Step 5: Upload Dictionary to KV
 
+**⚠️ Important:** The dictionary file is 21MB. The CLI may have issues with files this large. Use one of these methods:
+
+### Method 1: Cloudflare Dashboard (Recommended - Easiest)
+
+1. Go to https://dash.cloudflare.com
+2. Select your account
+3. Go to **Workers & Pages** → **KV**
+4. Click on your namespace (DICTIONARY)
+5. Click **Add entry**
+6. Key: `combined_dictionaries_ultra`
+7. Value: Copy/paste the entire JSON content from `padakanaja/combined_dictionaries_ultra.json`
+   - Open the file in a text editor
+   - Select all (Cmd+A) and copy (Cmd+C)
+   - Paste into the Value field
+8. Click **Save**
+
+### Method 2: CLI (Try this first, may fail with 21MB)
+
 ```bash
 # From the rala directory
-wrangler kv:key put "combined_dictionaries_ultra" --path=padakanaja/combined_dictionaries_ultra.json --namespace-id=YOUR_NAMESPACE_ID
+wrangler kv key put "combined_dictionaries_ultra" --path=padakanaja/combined_dictionaries_ultra.json --namespace-id=YOUR_NAMESPACE_ID
 ```
 
 Replace `YOUR_NAMESPACE_ID` with the id from Step 4.
+
+**If this fails with "file too large" error, use Method 1 (Dashboard) instead.**
+
+### Method 3: Use R2 Storage (Better for Large Files)
+
+R2 has 10GB free tier and handles large files much better:
+
+```bash
+# Create R2 bucket
+wrangler r2 bucket create dictionary-data
+
+# Upload file
+wrangler r2 object put dictionary-data/combined_dictionaries_ultra.json --file=padakanaja/combined_dictionaries_ultra.json
+```
+
+Then update `workers/src/index.js` to fetch from R2 instead of KV (I can help with this).
 
 ## Step 6: Create Worker Project
 
