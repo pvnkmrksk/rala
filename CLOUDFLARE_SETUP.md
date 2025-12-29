@@ -77,10 +77,12 @@ Add the following to your configuration file in your kv_namespaces array:
 
 ```bash
 # From the rala directory
-wrangler kv key put "combined_dictionaries_ultra" --path=padakanaja/combined_dictionaries_ultra.json --namespace-id=YOUR_NAMESPACE_ID
+wrangler kv key put "combined_dictionaries_ultra" --path=padakanaja/combined_dictionaries_ultra.json --namespace-id=YOUR_NAMESPACE_ID --remote
 ```
 
 Replace `YOUR_NAMESPACE_ID` with the id from Step 4.
+
+**⚠️ Important:** Add `--remote` flag to upload to Cloudflare, not just local storage!
 
 **If this fails with "file too large" error, use Method 1 (Dashboard) instead.**
 
