@@ -474,6 +474,7 @@ async function searchDirect(query) {
             }
         } else if (window.searchPadakanajaFromIndexedDB) {
             // Padakanaja not in memory - search from IndexedDB (async, limited results)
+            try {
                 const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 30);
                 if (padakanajaResults && Array.isArray(padakanajaResults)) {
                     for (const result of padakanajaResults) {
@@ -493,12 +494,15 @@ async function searchDirect(query) {
                                 seen.add(key);
                                 exactPhraseResults.push({
                                     ...result,
-                                matchedWord: matchedPattern, 
-                                matchType: 'exact-phrase' 
-                            });
+                                    matchedWord: matchedPattern,
+                                    matchType: 'exact-phrase'
+                                });
+                            }
                         }
                     }
                 }
+            } catch (error) {
+                console.error('Error searching padakanaja from IndexedDB:', error);
             }
         }
         
