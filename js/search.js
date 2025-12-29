@@ -82,6 +82,48 @@ async function getSynonyms(word) {
     }
 }
 
+// Get word form variants (plurals, adjectives, adverbs, etc.)
+async function getWordVariants(word) {
+    try {
+        // Get multiple word form variants in parallel
+        const [spellings, rhymes, soundsLike] = await Promise.all([
+            // Get spelling variants (plurals, past tense, etc.)
+            fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(word)}&max=10`).then(r => r.json()),
+            // Get words that rhyme (often related forms)
+            fetch(`${DATAMUSE_API}?rel_rhy=${encodeURIComponent(word)}&max=5`).then(r => r.json()),
+            // Get words that sound similar (variants)
+            fetch(`${DATAMUSE_API}?sl=${encodeURIComponent(word)}&max=5`).then(r => r.json())
+        ]);
+        
+        const variants = [];
+        
+        // Add spelling variants (plurals, verb forms, etc.)
+        for (const item of spellings) {
+            if (item.word && item.word !== word) {
+                variants.push(item.word);
+            }
+        }
+        
+        // Add rhyming words (often related forms)
+        for (const item of rhymes) {
+            if (item.word && item.word !== word && item.score > 50000) {
+                variants.push(item.word);
+            }
+        }
+        
+        // Add similar-sounding words (variants)
+        for (const item of soundsLike) {
+            if (item.word && item.word !== word && item.score > 50000) {
+                variants.push(item.word);
+            }
+        }
+        
+        return [...new Set(variants)].slice(0, 10); // Limit to top 10
+    } catch {
+        return [];
+    }
+}
+
 // Get words with similar meaning (very conservative - only actual synonyms)
 async function getSimilarWords(word) {
     try {
@@ -800,13 +842,14 @@ async function searchWithSynonyms(query) {
     
     // If Worker API is enabled, use Datamuse for synonyms + Worker API for search
     if (WORKER_API_URL) {
-        // Get word forms and synonyms
-        const [wordForms, synonyms] = await Promise.all([
+        // Get word forms (derivatives, plurals, adjectives, adverbs, etc.) and synonyms
+        const [wordForms, synonyms, wordVariants] = await Promise.all([
             getWordForms(queryLower),
-            getSynonyms(queryLower)
+            getSynonyms(queryLower),
+            getWordVariants(queryLower)  // New: Get all word form variants
         ]);
         
-        let relatedWords = [...new Set([...wordForms, ...synonyms])];
+        let relatedWords = [...new Set([...wordForms, ...synonyms, ...wordVariants])];
         
         // Only add similar words if we have very few results (less than 3)
         if (relatedWords.length < 3) {
@@ -818,16 +861,19 @@ async function searchWithSynonyms(query) {
             return { results: [], synonymsUsed: {} };
         }
         
-        // Search Worker API for each synonym word
+        // Progressive loading: Search Worker API for each synonym word
+        // Return results as they come in (via callback for progressive rendering)
         const results = [];
         const seen = new Set();
         const synonymsUsed = {};
         
-        for (const relWord of relatedWords) {
+        // Search all related words in parallel (but process results progressively)
+        const searchPromises = relatedWords.map(async (relWord) => {
             try {
                 const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`);
                 if (response.ok) {
                     const data = await response.json();
+                    const wordResults = [];
                     for (const result of data.results || []) {
                         const key = `${result.kannada}-${result.definition}`;
                         if (!seen.has(key)) {
@@ -836,7 +882,7 @@ async function searchWithSynonyms(query) {
                             if (!synonymsUsed[queryLower].includes(relWord)) {
                                 synonymsUsed[queryLower].push(relWord);
                             }
-                            results.push({
+                            wordResults.push({
                                 kannada: result.kannada,
                                 phone: result.phone || '',
                                 definition: result.definition,
@@ -851,10 +897,18 @@ async function searchWithSynonyms(query) {
                             });
                         }
                     }
+                    return wordResults;
                 }
             } catch (error) {
                 console.warn(`Failed to search synonym "${relWord}":`, error);
             }
+            return [];
+        });
+        
+        // Wait for all searches to complete
+        const allResults = await Promise.all(searchPromises);
+        for (const wordResults of allResults) {
+            results.push(...wordResults);
         }
         
         return { results, synonymsUsed };

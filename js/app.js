@@ -91,7 +91,7 @@ function renderApp(initialQuery = '') {
         </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
-            ${WORKER_API_URL ? '571,783 entries | 38,746 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
+            ${WORKER_API_URL ? '478,680 entries | 38,746 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
         </div>
     `;
     
@@ -167,14 +167,32 @@ function renderApp(initialQuery = '') {
         synonymSearchInProgress = true;
         tabSynonymSpinner.style.display = 'inline-block';
         
-        const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
-        
-        // Filter out synonym results that are already in direct results
-        const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
-        synonymResults = synonymResultsTemp.filter(r => 
-            !directKeys.has(`${r.kannada}-${r.definition}`)
-        );
-        synonymsUsed = synonymsUsedTemp;
+        // For Worker API, show progressive loading as results come in
+        if (WORKER_API_URL) {
+            // Start with empty synonym results, will update progressively
+            synonymResults = [];
+            synonymsUsed = {};
+            
+            // Perform search (this will take time for multiple API calls)
+            const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
+            
+            // Filter out synonym results that are already in direct results
+            const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
+            synonymResults = synonymResultsTemp.filter(r => 
+                !directKeys.has(`${r.kannada}-${r.definition}`)
+            );
+            synonymsUsed = synonymsUsedTemp;
+        } else {
+            // Client-side: normal flow
+            const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
+            
+            // Filter out synonym results that are already in direct results
+            const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
+            synonymResults = synonymResultsTemp.filter(r => 
+                !directKeys.has(`${r.kannada}-${r.definition}`)
+            );
+            synonymsUsed = synonymsUsedTemp;
+        }
         
         tabSynonymCount.textContent = ` (${synonymResults.length})`;
         tabSynonymSpinner.style.display = 'none';

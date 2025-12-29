@@ -1,52 +1,10 @@
 // Cloudflare Worker for Rala Dictionary Search
-// Handles server-side search to reduce client memory usage
+// Uses optimized English->Kannada reverse index with lazy chunk loading
 
-// Cache dictionary in Worker memory (stays warm between requests)
-let dictionaryCache = null;
-let cacheLoadPromise = null;
-
-// Expand optimized dictionary format (same as client-side)
-function expandOptimizedEntries(optimized) {
-    if (Array.isArray(optimized)) {
-        return optimized;
-    }
-    
-    const entries = [];
-    
-    for (const [key, entriesList] of Object.entries(optimized)) {
-        let source, dictTitle;
-        if (key.includes('|')) {
-            [source, dictTitle] = key.split('|', 2);
-        } else {
-            source = key;
-            dictTitle = '';
-        }
-        
-        if (Array.isArray(entriesList)) {
-            for (const entryData of entriesList) {
-                let kannada, english, type;
-                if (entryData.length === 3) {
-                    [kannada, english, type] = entryData;
-                } else {
-                    [kannada, english] = entryData;
-                    type = '';
-                }
-                
-                entries.push({
-                    entry: kannada,
-                    defs: [{
-                        entry: english,
-                        type: type || 'Noun'
-                    }],
-                    source: source,
-                    dict_title: dictTitle
-                });
-            }
-        }
-    }
-    
-    return entries;
-}
+// Cache for loaded chunks (keyed by chunk number)
+const chunkCache = new Map();
+let chunkIndex = null;
+let chunkCount = 21;
 
 // Clean Kannada entry (remove brackets, numbers, etc.)
 function cleanKannadaEntry(text) {
@@ -66,7 +24,7 @@ function countWords(text) {
     return words.length;
 }
 
-// Get definition priority for sorting (same logic as client)
+// Get definition priority for sorting
 function getDefinitionPriority(definition, searchWord, kannadaEntry = '') {
     if (!definition) return 9;
     const trimmed = definition.trim();
@@ -94,134 +52,171 @@ function getDefinitionPriority(definition, searchWord, kannadaEntry = '') {
         return isKannadaShort ? 4 : 5;
     }
     
-    // Priority 6/7: Partial match
-    if (trimmedLower.includes(searchLower)) {
-        return isKannadaShort ? 6 : 7;
-    }
-    
-    // Priority 8: Description
-    if (kannadaWordCount > 2) {
-        return 8;
-    }
-    
     return 9;
 }
 
-// Load dictionary from KV (with caching)
-async function loadDictionary(env) {
-    if (dictionaryCache) {
-        return dictionaryCache;
+// Load chunk index (maps word prefixes to chunk numbers)
+async function loadChunkIndex(env) {
+    if (chunkIndex) {
+        return chunkIndex;
     }
     
-    if (cacheLoadPromise) {
-        return cacheLoadPromise;
-    }
-    
-    cacheLoadPromise = (async () => {
-        try {
-            const data = await env.DICTIONARY.get('combined_dictionaries_ultra', 'json');
-            if (!data) {
-                throw new Error('Dictionary not found in KV');
-            }
-            
-            // Expand optimized format
-            dictionaryCache = expandOptimizedEntries(data);
-            console.log(`Loaded ${dictionaryCache.length} entries from KV`);
-            return dictionaryCache;
-        } catch (error) {
-            console.error('Failed to load dictionary:', error);
-            throw error;
+    try {
+        chunkIndex = await env.DICTIONARY.get('chunk_index', 'json');
+        if (!chunkIndex) {
+            // Fallback: load all chunks (slower but works)
+            chunkIndex = {};
         }
-    })();
-    
-    return cacheLoadPromise;
+        return chunkIndex;
+    } catch (error) {
+        console.error('Failed to load chunk index:', error);
+        return {};
+    }
 }
 
-// Search function (simplified version of client-side search)
-async function searchDictionary(query, dictionary) {
+// Get chunk numbers that might contain a word
+function getChunksForWord(word, chunkIndex) {
+    const wordLower = word.toLowerCase();
+    const chunks = new Set();
+    
+    // Try prefixes of length 1, 2, 3
+    for (let len = 1; len <= 3 && len <= wordLower.length; len++) {
+        const prefix = wordLower.substring(0, len);
+        if (chunkIndex[prefix]) {
+            for (const chunkNum of chunkIndex[prefix]) {
+                chunks.add(chunkNum);
+            }
+        }
+    }
+    
+    // If no chunks found, return all chunks (fallback)
+    if (chunks.size === 0) {
+        for (let i = 1; i <= chunkCount; i++) {
+            chunks.add(i);
+        }
+    }
+    
+    return Array.from(chunks);
+}
+
+// Load specific chunk(s) from KV
+async function loadChunks(chunkNumbers, env) {
+    const chunksToLoad = chunkNumbers.filter(num => !chunkCache.has(num));
+    
+    if (chunksToLoad.length === 0) {
+        return; // All chunks already cached
+    }
+    
+    // Load chunks in parallel
+    const promises = chunksToLoad.map(async (chunkNum) => {
+        try {
+            const chunk = await env.DICTIONARY.get(`english_reverse_index_part${chunkNum}`, 'json');
+            if (chunk) {
+                chunkCache.set(chunkNum, chunk);
+            }
+        } catch (error) {
+            console.error(`Failed to load chunk ${chunkNum}:`, error);
+        }
+    });
+    
+    await Promise.all(promises);
+}
+
+// Get word from cached chunks
+function getWordFromChunks(word) {
+    const wordLower = word.toLowerCase();
+    const results = [];
+    
+    for (const [chunkNum, chunk] of chunkCache.entries()) {
+        if (chunk[wordLower]) {
+            results.push(...chunk[wordLower]);
+        }
+    }
+    
+    return results;
+}
+
+// Search function using lazy-loaded chunks
+async function searchDictionary(query, env) {
     const queryLower = query.toLowerCase().trim();
     const words = queryLower.split(/\s+/).filter(w => w.length > 0);
     const isMultiWord = words.length > 1;
+    
+    // Load chunk index
+    const chunkIndex = await loadChunkIndex(env);
+    
+    // Determine which chunks to load
+    const chunksToLoad = new Set();
+    for (const word of words) {
+        const chunks = getChunksForWord(word, chunkIndex);
+        for (const chunkNum of chunks) {
+            chunksToLoad.add(chunkNum);
+        }
+    }
+    
+    // Load required chunks
+    await loadChunks(Array.from(chunksToLoad), env);
     
     const results = [];
     const seen = new Set();
     
     if (isMultiWord) {
-        // Multi-word: search for exact phrase, then all words, then any word
+        // Multi-word: search for exact phrase, then all words
         const exactPhrase = queryLower;
-        
-        // Exact phrase matches
-        for (const entry of dictionary) {
-            if (!entry.defs) continue;
-            for (const def of entry.defs) {
-                if (!def.entry) continue;
-                const defLower = def.entry.toLowerCase();
-                if (defLower.includes(exactPhrase)) {
-                    const key = `${entry.entry}-${def.entry}`;
-                    if (!seen.has(key)) {
-                        seen.add(key);
-                        results.push({
-                            kannada: cleanKannadaEntry(entry.entry),
-                            definition: def.entry,
-                            type: def.type || 'Noun',
-                            source: entry.source || '',
-                            dict_title: entry.dict_title || '',
-                            matchedWord: exactPhrase,
-                            matchType: 'exact-phrase'
-                        });
-                    }
-                }
+        const phraseResults = getWordFromChunks(exactPhrase);
+        for (const entry of phraseResults) {
+            const key = `${entry.kannada}-${entry.full_definition}`;
+            if (!seen.has(key)) {
+                seen.add(key);
+                results.push({
+                    kannada: cleanKannadaEntry(entry.kannada),
+                    definition: entry.full_definition,
+                    type: entry.type || 'Noun',
+                    source: entry.source || '',
+                    dict_title: '',
+                    matchedWord: exactPhrase,
+                    matchType: 'exact-phrase'
+                });
             }
         }
         
         // All words present
         for (const word of words) {
-            for (const entry of dictionary) {
-                if (!entry.defs) continue;
-                for (const def of entry.defs) {
-                    if (!def.entry) continue;
-                    const defLower = def.entry.toLowerCase();
-                    if (defLower.includes(word)) {
-                        const key = `${entry.entry}-${def.entry}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            results.push({
-                                kannada: cleanKannadaEntry(entry.entry),
-                                definition: def.entry,
-                                type: def.type || 'Noun',
-                                source: entry.source || '',
-                                dict_title: entry.dict_title || '',
-                                matchedWord: word,
-                                matchType: 'all-words'
-                            });
-                        }
-                    }
+            const wordResults = getWordFromChunks(word);
+            for (const entry of wordResults) {
+                const key = `${entry.kannada}-${entry.full_definition}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    results.push({
+                        kannada: cleanKannadaEntry(entry.kannada),
+                        definition: entry.full_definition,
+                        type: entry.type || 'Noun',
+                        source: entry.source || '',
+                        dict_title: '',
+                        matchedWord: word,
+                        matchType: 'all-words'
+                    });
                 }
             }
         }
     } else {
         // Single word search
         const word = words[0];
-        for (const entry of dictionary) {
-            if (!entry.defs) continue;
-            for (const def of entry.defs) {
-                if (!def.entry) continue;
-                const defLower = def.entry.toLowerCase();
-                if (defLower.includes(word)) {
-                    const key = `${entry.entry}-${def.entry}`;
-                    if (!seen.has(key)) {
-                        seen.add(key);
-                        results.push({
-                            kannada: cleanKannadaEntry(entry.entry),
-                            definition: def.entry,
-                            type: def.type || 'Noun',
-                            source: entry.source || '',
-                            dict_title: entry.dict_title || '',
-                            matchedWord: word,
-                            matchType: 'direct'
-                        });
-                    }
-                }
+        const wordResults = getWordFromChunks(word);
+        
+        for (const entry of wordResults) {
+            const key = `${entry.kannada}-${entry.full_definition}`;
+            if (!seen.has(key)) {
+                seen.add(key);
+                results.push({
+                    kannada: cleanKannadaEntry(entry.kannada),
+                    definition: entry.full_definition,
+                    type: entry.type || 'Noun',
+                    source: entry.source || '',
+                    dict_title: '',
+                    matchedWord: word,
+                    matchType: 'direct'
+                });
             }
         }
     }
@@ -282,11 +277,8 @@ export default {
                 });
             }
             
-            // Load dictionary (cached)
-            const dictionary = await loadDictionary(env);
-            
-            // Search
-            const results = await searchDictionary(query.trim(), dictionary);
+            // Search using lazy-loaded chunks
+            const results = await searchDictionary(query.trim(), env);
             
             // Return results
             return new Response(JSON.stringify({
@@ -300,7 +292,8 @@ export default {
         } catch (error) {
             console.error('Error:', error);
             return new Response(JSON.stringify({ 
-                error: error.message || 'Internal server error' 
+                error: 'Internal server error',
+                message: error.message 
             }), {
                 status: 500,
                 headers: { ...corsHeaders, 'Content-Type': 'application/json' }
@@ -308,5 +301,3 @@ export default {
         }
     }
 };
-
-
