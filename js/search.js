@@ -474,27 +474,29 @@ async function searchDirect(query) {
             }
         } else if (window.searchPadakanajaFromIndexedDB) {
             // Padakanaja not in memory - search from IndexedDB (async, limited results)
-            const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 30);
-            for (const result of padakanajaResults) {
-                const defLower = result.definition.toLowerCase();
-                let matched = false;
-                let matchedPattern = exactPhrase;
-                for (const pattern of searchPatterns) {
-                    if (defLower.includes(pattern)) {
-                        matched = true;
-                        matchedPattern = pattern;
-                        break;
-                    }
-                }
-                if (matched) {
-                    const key = `${result.kannada}-${result.definition}`;
-                    if (!seen.has(key)) {
-                        seen.add(key);
-                        exactPhraseResults.push({
-                            ...result,
-                            matchedWord: matchedPattern,
-                            matchType: 'exact-phrase'
-                        });
+                const padakanajaResults = await window.searchPadakanajaFromIndexedDB(words, 30);
+                if (padakanajaResults && Array.isArray(padakanajaResults)) {
+                    for (const result of padakanajaResults) {
+                        const defLower = result.definition.toLowerCase();
+                        let matched = false;
+                        let matchedPattern = exactPhrase;
+                        for (const pattern of searchPatterns) {
+                            if (defLower.includes(pattern)) {
+                                matched = true;
+                                matchedPattern = pattern;
+                                break;
+                            }
+                        }
+                        if (matched) {
+                            const key = `${result.kannada}-${result.definition}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                exactPhraseResults.push({
+                                    ...result,
+                                matchedWord: matchedPattern, 
+                                matchType: 'exact-phrase' 
+                            });
+                        }
                     }
                 }
             }
