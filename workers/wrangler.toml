@@ -3,12 +3,11 @@ main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 # KV Namespace binding
-# Replace YOUR_NAMESPACE_ID with the actual ID from: wrangler kv:namespace create "DICTIONARY"
 [[kv_namespaces]]
 binding = "DICTIONARY"
-id = "YOUR_NAMESPACE_ID"  # Replace this with your actual namespace ID
+id = "3c0a155119644621bd656231b4ec9063"
 
-# Limits
-[limits]
-cpu_ms = 50  # Increase CPU time for dictionary loading
+# Note: CPU limits are not available on Free plan
+# [limits]
+# cpu_ms = 50
 

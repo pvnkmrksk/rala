@@ -10,6 +10,10 @@ const DB_NAME = 'rala_dictionary_db';
 const DB_VERSION = 1;
 const STORE_NAME = 'dictionary';
 
+// Cloudflare Worker API endpoint (server-side search)
+// Set this to your Worker URL after deployment, or null to use client-side search
+const WORKER_API_URL = null; // e.g., 'https://rala-search.your-subdomain.workers.dev'
+
 // Primary dictionary (loaded first)
 const PRIMARY_DICTIONARY = { 
     url: YAML_URL, 

@@ -244,6 +244,34 @@ function textContains(text, pattern) {
 }
 
 async function searchDirect(query) {
+    // If Worker API is configured, use server-side search
+    if (WORKER_API_URL) {
+        try {
+            const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`);
+            if (!response.ok) {
+                throw new Error(`Worker API error: ${response.status}`);
+            }
+            const data = await response.json();
+            // Convert Worker response format to client format
+            return data.results.map(result => ({
+                kannada: result.kannada,
+                phone: result.phone || '',
+                definition: result.definition,
+                type: result.type || 'Noun',
+                head: result.head || '',
+                id: result.id || '',
+                dict_title: result.dict_title || '',
+                source: result.source || '',
+                matchedWord: result.matchedWord || query,
+                matchType: result.matchType || 'direct'
+            }));
+        } catch (error) {
+            console.error('Worker API search failed, falling back to client-side:', error);
+            // Fall through to client-side search
+        }
+    }
+    
+    // Client-side search (original logic)
     // Auto-convert space to wildcard for exactly 2 words
     // e.g., "north east" -> "north*east" to match "north-east", "northeast", "north east"
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);

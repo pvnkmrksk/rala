@@ -104,21 +104,47 @@ Then update `workers/src/index.js` to fetch from R2 instead of KV (I can help wi
 
 The worker code will be created in `workers/` directory. The setup script will handle this.
 
-## Step 7: Deploy Worker
+## Step 7: Register workers.dev Subdomain
 
+Before deploying, you need to register a workers.dev subdomain:
+
+1. Go to: https://dash.cloudflare.com
+2. Navigate to **Workers & Pages** → **Overview**
+3. Click **Get started** or **Register subdomain**
+4. Choose a subdomain (e.g., `rala-search`)
+5. Complete the registration
+
+**Note:** This is a one-time setup. After registration, you can deploy workers.
+
+## Step 8: Deploy Worker
+
+```bash
+cd workers
+npx wrangler deploy
+```
+
+Or if wrangler is installed globally:
 ```bash
 cd workers
 wrangler deploy
 ```
 
-## Step 8: Get Worker URL
-
-After deployment, you'll get a URL like:
+After successful deployment, you'll see a URL like:
 ```
 https://rala-search.your-subdomain.workers.dev
 ```
 
 **Save this URL - you'll need it for the client!**
+
+## Step 9: Update Client Configuration
+
+After deployment, update `js/config.js`:
+
+```javascript
+const WORKER_API_URL = 'https://rala-search.your-subdomain.workers.dev';
+```
+
+Replace with your actual Worker URL.
 
 ## Step 9: Update Client Code
 
