@@ -1006,48 +1006,79 @@ async function searchWithSynonyms(query) {
         const seen = new Set();
         const synonymsUsed = {};
         
-        // Search all related words in parallel (but process results progressively)
-        const searchPromises = relatedWords.map(async (relWord) => {
-            try {
-                const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`);
-                if (response.ok) {
-                    const data = await response.json();
-                    const wordResults = [];
-                    for (const result of data.results || []) {
-                        const key = `${result.kannada}-${result.definition}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
-                            if (!synonymsUsed[queryLower].includes(relWord)) {
-                                synonymsUsed[queryLower].push(relWord);
-                            }
-                            wordResults.push({
-                                kannada: result.kannada,
-                                phone: result.phone || '',
-                                definition: result.definition,
-                                type: result.type || 'Noun',
-                                head: result.head || '',
-                                id: result.id || '',
-                                dict_title: result.dict_title || '',
-                                source: result.source || '',
-                                matchedWord: relWord,
-                                originalQuery: queryLower,
-                                matchType: 'synonym'
-                            });
-                        }
-                    }
-                    return wordResults;
-                }
-            } catch (error) {
-                console.warn(`Failed to search synonym "${relWord}":`, error);
-            }
-            return [];
-        });
+        // Search related words with rate limiting (max 3 concurrent requests)
+        // This prevents hitting Cloudflare rate limits and CPU limits
+        const BATCH_SIZE = 3;
         
-        // Flatten results (already collected in batches)
-        for (const wordResults of searchPromises) {
-            if (Array.isArray(wordResults)) {
-                results.push(...wordResults);
+        for (let i = 0; i < relatedWords.length; i += BATCH_SIZE) {
+            const batch = relatedWords.slice(i, i + BATCH_SIZE);
+            const batchPromises = batch.map(async (relWord) => {
+                try {
+                    // Add timeout to prevent hanging requests
+                    const controller = new AbortController();
+                    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+                    
+                    const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`, {
+                        signal: controller.signal
+                    });
+                    clearTimeout(timeoutId);
+                    
+                    if (response.ok) {
+                        const data = await response.json();
+                        const wordResults = [];
+                        for (const result of data.results || []) {
+                            const key = `${result.kannada}-${result.definition}`;
+                            if (!seen.has(key)) {
+                                seen.add(key);
+                                if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                                if (!synonymsUsed[queryLower].includes(relWord)) {
+                                    synonymsUsed[queryLower].push(relWord);
+                                }
+                                wordResults.push({
+                                    kannada: result.kannada,
+                                    phone: result.phone || '',
+                                    definition: result.definition,
+                                    type: result.type || 'Noun',
+                                    head: result.head || '',
+                                    id: result.id || '',
+                                    dict_title: result.dict_title || '',
+                                    source: result.source || '',
+                                    matchedWord: relWord,
+                                    originalQuery: queryLower,
+                                    matchType: 'synonym'
+                                });
+                            }
+                        }
+                        return wordResults;
+                    } else if (response.status === 503) {
+                        // Rate limited or CPU limit - skip this synonym gracefully
+                        console.warn(`⚠️ Worker rate limited for "${relWord}" (503) - skipping`);
+                        return [];
+                    } else {
+                        console.warn(`Failed to search synonym "${relWord}": ${response.status}`);
+                        return [];
+                    }
+                } catch (error) {
+                    if (error.name === 'AbortError') {
+                        console.warn(`⚠️ Timeout searching synonym "${relWord}" - skipping`);
+                    } else {
+                        console.warn(`Failed to search synonym "${relWord}":`, error);
+                    }
+                    return [];
+                }
+            });
+            
+            // Wait for batch to complete before starting next batch
+            const batchResults = await Promise.all(batchPromises);
+            for (const wordResults of batchResults) {
+                if (Array.isArray(wordResults)) {
+                    results.push(...wordResults);
+                }
+            }
+            
+            // Small delay between batches to avoid rate limits
+            if (i + BATCH_SIZE < relatedWords.length) {
+                await new Promise(resolve => setTimeout(resolve, 200)); // 200ms delay
             }
         }
         
