@@ -34,15 +34,16 @@ function isDescription(text) {
     return countWords(text) > 2;
 }
 
-// Get word forms (derived words) - e.g., "heal" -> "healer", "healing", "healed"
-// Get word endings/stems using Datamuse API only (no custom logic)
-// Uses Datamuse's spelling pattern search to find word forms
+// Get word forms (derived words) - e.g., "escalation" -> "escalate", "escalating", "escalated"
+// Improved: Uses multiple Datamuse queries for better coverage
 async function getWordEndings(word) {
     try {
-        // Use Datamuse API to find word forms (e.g., "escalation" -> "escalate", "escalating")
-        // Search for words starting with the stem (remove common endings first)
-        const endings = ['tion', 'sion', 'ing', 'ed', 'ly', 'ment', 'ness', 'ity', 'able', 'ible', 'er', 'est', 's', 'es'];
-        let stem = word.toLowerCase();
+        const wordLower = word.toLowerCase();
+        const wordForms = new Set();
+        
+        // Strategy 1: Find stem and search for all forms
+        const endings = ['tion', 'sion', 'ing', 'ed', 'ly', 'ment', 'ness', 'ity', 'able', 'ible', 'er', 'est', 's', 'es', 'al', 'ic', 'ive'];
+        let stem = wordLower;
         let foundStem = false;
         
         for (const ending of endings) {
@@ -53,29 +54,58 @@ async function getWordEndings(word) {
             }
         }
         
-        // If we found a stem, use Datamuse API to find all word forms
+        // Strategy 2: Try multiple Datamuse queries in parallel
+        const queries = [];
+        
         if (foundStem && stem.length >= 3) {
-            const response = await fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(stem)}*&max=20`);
-            const data = await response.json();
+            // Query 1: Words starting with stem (covers most forms)
+            queries.push(fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(stem)}*&max=30`));
             
-            const wordForms = [];
-            const wordLower = word.toLowerCase();
+            // Query 2: Words that sound similar (catches variations)
+            queries.push(fetch(`${DATAMUSE_API}?sl=${encodeURIComponent(stem)}&max=20`));
             
-            for (const item of data) {
-                const itemWord = item.word.toLowerCase();
-                // Exclude the original word itself
-                if (itemWord !== wordLower && itemWord.startsWith(stem)) {
-                    // Filter out compound words and phrases
-                    if (!itemWord.includes(' ') && itemWord.length <= stem.length + 8) {
-                        wordForms.push(item.word);
-                    }
-                }
-            }
-            
-            return wordForms;
+            // Query 3: Words that rhyme (catches related forms)
+            queries.push(fetch(`${DATAMUSE_API}?rel_rhy=${encodeURIComponent(stem)}&max=15`));
         }
         
-        return [];
+        // Query 4: Direct spelling pattern for the word itself (catches plurals, verb forms)
+        queries.push(fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(wordLower)}*&max=20`));
+        
+        // Query 5: Words that follow the pattern (lc=word finds words that follow)
+        queries.push(fetch(`${DATAMUSE_API}?lc=${encodeURIComponent(wordLower)}&max=15`));
+        
+        const responses = await Promise.all(queries);
+        const allData = await Promise.all(responses.map(r => r.json()));
+        
+        // Process all results
+        for (const data of allData) {
+            for (const item of data) {
+                if (!item.word) continue;
+                const itemWord = item.word.toLowerCase();
+                
+                // Exclude the original word
+                if (itemWord === wordLower) continue;
+                
+                // Must start with stem (if we found one) or be related
+                if (foundStem && !itemWord.startsWith(stem)) {
+                    // Allow if it's a close variation (e.g., "escalate" from "escalation")
+                    const stemLen = stem.length;
+                    if (itemWord.length < stemLen - 2 || itemWord.length > stemLen + 8) continue;
+                    if (!itemWord.substring(0, Math.min(stemLen, itemWord.length)) === stem.substring(0, Math.min(stemLen, itemWord.length))) {
+                        continue;
+                    }
+                }
+                
+                // Filter out compound words, phrases, and very long words
+                if (itemWord.includes(' ') || itemWord.includes('-')) continue;
+                if (itemWord.length > wordLower.length + 10) continue;
+                
+                // Add valid word form
+                wordForms.add(item.word);
+            }
+        }
+        
+        return Array.from(wordForms).slice(0, 15); // Limit to top 15
     } catch (error) {
         console.error('Error getting word endings from API:', error);
         return [];
@@ -92,39 +122,67 @@ async function getWordForms(word) {
     }
 }
 
-// Get proper synonyms (filter out antonyms, but keep words that are valid synonyms in other contexts)
+// Get proper synonyms - improved with multiple Datamuse queries
 async function getSynonyms(word) {
     try {
-        // Get synonyms and antonyms
-        const [synResponse, antResponse] = await Promise.all([
-            fetch(`${DATAMUSE_API}?rel_syn=${encodeURIComponent(word)}&max=20`),
-            fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`)
+        const wordLower = word.toLowerCase();
+        const synonymSet = new Set();
+        
+        // Strategy 1: Direct synonyms (rel_syn)
+        const [synResponse, antResponse, mlResponse] = await Promise.all([
+            fetch(`${DATAMUSE_API}?rel_syn=${encodeURIComponent(word)}&max=25`),
+            fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`),
+            // Means-like (ml) - but filter carefully to avoid false positives
+            fetch(`${DATAMUSE_API}?ml=${encodeURIComponent(word)}&max=15`)
         ]);
         
         const synonyms = await synResponse.json();
         const antonyms = await antResponse.json();
+        const meansLike = await mlResponse.json();
         
-        // Create set of antonyms to exclude (only for THIS specific word)
+        // Create set of antonyms to exclude
         const antonymSet = new Set(antonyms.map(item => item.word.toLowerCase()));
         
-        // Filter out antonyms for this specific word
-        // Don't globally exclude words like "quack" or "charlatan" - they might be valid synonyms elsewhere
-        const filtered = synonyms
-            .map(item => item.word)
-            .filter(w => {
-                const wLower = w.toLowerCase();
-                // Only exclude if it's an antonym for THIS word
-                if (antonymSet.has(wLower)) return false;
-                // Exclude if word contains negative prefixes (un-, non-, anti-)
-                // These are usually not synonyms
-                if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti')) {
-                    return false;
-                }
-                return true;
-            });
+        // Process direct synonyms (highest quality)
+        for (const item of synonyms) {
+            if (!item.word) continue;
+            const wLower = item.word.toLowerCase();
+            
+            // Skip antonyms
+            if (antonymSet.has(wLower)) continue;
+            
+            // Skip negative prefixes
+            if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti') || wLower.startsWith('dis')) {
+                continue;
+            }
+            
+            // Skip if too different in length (likely not a good synonym)
+            if (Math.abs(wLower.length - wordLower.length) > 6) continue;
+            
+            synonymSet.add(item.word);
+        }
         
-        return filtered.slice(0, 10); // Limit to top 10
-    } catch {
+        // Process means-like (lower quality, but useful if we don't have many synonyms)
+        if (synonymSet.size < 5) {
+            for (const item of meansLike) {
+                if (!item.word) continue;
+                const wLower = item.word.toLowerCase();
+                
+                // Stricter filtering for means-like
+                if (antonymSet.has(wLower)) continue;
+                if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti') || wLower.startsWith('dis')) continue;
+                if (Math.abs(wLower.length - wordLower.length) > 4) continue;
+                
+                // Only add if it's reasonably similar
+                if (item.score && item.score > 50000) { // Higher score = more related
+                    synonymSet.add(item.word);
+                }
+            }
+        }
+        
+        return Array.from(synonymSet).slice(0, 12); // Limit to top 12
+    } catch (error) {
+        console.error('Error getting synonyms:', error);
         return [];
     }
 }
@@ -1033,92 +1091,93 @@ async function searchWithSynonyms(query, progressCallback = null) {
             return { results: [], synonymsUsed: {} };
         }
         
-        // Progressive loading: Search Worker API for each synonym word
-        // Return results as they come in (via callback for progressive rendering)
+        // Progressive loading: Search Worker API for each synonym word ONE AT A TIME
+        // Flowing like a river - results appear as each synonym completes
         const results = [];
         const seen = new Set();
         const synonymsUsed = {};
         
-        // Search related words with rate limiting (max 2 concurrent requests)
-        // Reduced from 3 to 2 to prevent CPU limits (Worker does linear search)
-        const BATCH_SIZE = 2;
+        // Sort related words: word endings first, then synonyms (better relevance)
+        const sortedWords = [];
+        const wordEndingSet = new Set(wordEndings);
+        for (const word of relatedWords) {
+            if (wordEndingSet.has(word)) {
+                sortedWords.unshift(word); // Word endings first
+            } else {
+                sortedWords.push(word); // Synonyms after
+            }
+        }
         
-        for (let i = 0; i < relatedWords.length; i += BATCH_SIZE) {
-            const batch = relatedWords.slice(i, i + BATCH_SIZE);
-            const batchPromises = batch.map(async (relWord) => {
-                try {
-                    // Add timeout to prevent hanging requests
-                    const controller = new AbortController();
-                    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+        // Process ONE word at a time for smooth flowing updates
+        for (const relWord of sortedWords) {
+            try {
+                // Add timeout to prevent hanging requests
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+                
+                const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`, {
+                    signal: controller.signal
+                });
+                clearTimeout(timeoutId);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    const newResults = [];
                     
-                    const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`, {
-                        signal: controller.signal
-                    });
-                    clearTimeout(timeoutId);
-                    
-                    if (response.ok) {
-                        const data = await response.json();
-                        const wordResults = [];
-                        for (const result of data.results || []) {
-                            const key = `${result.kannada}-${result.definition}`;
-                            if (!seen.has(key)) {
-                                seen.add(key);
-                                if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
-                                if (!synonymsUsed[queryLower].includes(relWord)) {
-                                    synonymsUsed[queryLower].push(relWord);
-                                }
-                                wordResults.push({
-                                    kannada: result.kannada,
-                                    phone: result.phone || '',
-                                    definition: result.definition,
-                                    type: result.type || 'Noun',
-                                    head: result.head || '',
-                                    id: result.id || '',
-                                    dict_title: result.dict_title || '',
-                                    source: result.source || '',
-                                    matchedWord: relWord,
-                                    originalQuery: queryLower,
-                                    matchType: 'synonym'
-                                });
+                    for (const result of data.results || []) {
+                        const key = `${result.kannada}-${result.definition}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            if (!synonymsUsed[queryLower]) synonymsUsed[queryLower] = [];
+                            if (!synonymsUsed[queryLower].includes(relWord)) {
+                                synonymsUsed[queryLower].push(relWord);
                             }
+                            const newResult = {
+                                kannada: result.kannada,
+                                phone: result.phone || '',
+                                definition: result.definition,
+                                type: result.type || 'Noun',
+                                head: result.head || '',
+                                id: result.id || '',
+                                dict_title: result.dict_title || '',
+                                source: result.source || '',
+                                matchedWord: relWord,
+                                originalQuery: queryLower,
+                                matchType: 'synonym'
+                            };
+                            newResults.push(newResult);
+                            results.push(newResult);
                         }
-                        return wordResults;
-                    } else if (response.status === 503) {
-                        // Rate limited or CPU limit - skip this synonym gracefully
-                        console.warn(`⚠️ Worker rate limited for "${relWord}" (503) - skipping`);
-                        return [];
-                    } else {
-                        console.warn(`Failed to search synonym "${relWord}": ${response.status}`);
-                        return [];
                     }
-                } catch (error) {
-                    if (error.name === 'AbortError') {
-                        console.warn(`⚠️ Timeout searching synonym "${relWord}" - skipping`);
-                    } else {
-                        console.warn(`Failed to search synonym "${relWord}":`, error);
+                    
+                    // Call progress callback immediately after each word (flowing like a river)
+                    if (progressCallback && newResults.length > 0) {
+                        // Sort results by priority before calling callback
+                        const sortedResults = [...results].sort((a, b) => {
+                            const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
+                            const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
+                            if (aPriority !== bPriority) return aPriority - bPriority;
+                            return cleanKannadaEntry(a.kannada).localeCompare(cleanKannadaEntry(b.kannada));
+                        });
+                        progressCallback(sortedResults, {...synonymsUsed});
                     }
-                    return [];
+                } else if (response.status === 503) {
+                    // Rate limited or CPU limit - skip this synonym gracefully
+                    console.warn(`⚠️ Worker rate limited for "${relWord}" (503) - skipping`);
+                } else {
+                    console.warn(`Failed to search synonym "${relWord}": ${response.status}`);
                 }
-            });
-            
-            // Wait for batch to complete before starting next batch
-            const batchResults = await Promise.all(batchPromises);
-            const newResults = [];
-            for (const wordResults of batchResults) {
-                if (Array.isArray(wordResults)) {
-                    newResults.push(...wordResults);
-                    results.push(...wordResults);
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    console.warn(`⚠️ Timeout searching synonym "${relWord}" - skipping`);
+                } else {
+                    console.warn(`Failed to search synonym "${relWord}":`, error);
                 }
             }
             
-            // Call progress callback if provided (progressive rendering)
-            if (progressCallback && newResults.length > 0) {
-                progressCallback([...results], {...synonymsUsed});
-            }
-            
-            // Longer delay between batches to avoid CPU limits (Worker needs time to process)
-            if (i + BATCH_SIZE < relatedWords.length) {
-                await new Promise(resolve => setTimeout(resolve, 500)); // 500ms delay (increased from 200ms)
+            // Small delay between words for smooth flow (like bubbles rising)
+            if (sortedWords.indexOf(relWord) < sortedWords.length - 1) {
+                await new Promise(resolve => setTimeout(resolve, 200)); // 200ms between words
             }
         }
         
