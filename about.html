@@ -130,22 +130,35 @@
             color: var(--text-color);
         }
         
-        .footer {
-            margin-top: 60px;
-            padding: 40px 20px;
-            text-align: center;
-            font-size: 13px;
-            color: var(--text-color-lighter);
-            border-top: 1px solid var(--border-color);
+        /* Ensure dark mode works - override any inline styles */
+        body.dark-mode {
+            background: var(--bg-color) !important;
+            color: var(--text-color) !important;
         }
         
-        .footer a {
-            color: var(--text-color);
-            text-decoration: underline;
+        body.dark-mode h1,
+        body.dark-mode h2,
+        body.dark-mode h3,
+        body.dark-mode p,
+        body.dark-mode li {
+            color: var(--text-color) !important;
         }
         
-        .footer a:hover {
-            text-decoration: none;
+        body.dark-mode .nav {
+            border-bottom-color: var(--border-color) !important;
+        }
+        
+        body.dark-mode .attribution-box {
+            background: var(--section-bg) !important;
+            border-left-color: var(--text-color) !important;
+        }
+        
+        body.dark-mode li {
+            color: var(--text-color) !important;
+        }
+        
+        body.dark-mode a {
+            color: var(--text-color) !important;
         }
     </style>
 </head>
@@ -285,21 +298,19 @@
         </ul>
     </div>
     
-    <div class="footer">
+    <footer class="attribution">
         <p>
-            <strong>Rala (ರಲ)</strong> = Reverse <a href="https://alar.ink" target="_blank">Alar</a> · 
-            Dictionary data from:
-            <a href="https://alar.ink" target="_blank">V. Krishna's Alar</a> (ODC-ODbL) · 
-            <a href="https://padakanaja.karnataka.gov.in" target="_blank">Karnataka Government Padakanaja</a>
+            <a href="index.html">Home</a>
         </p>
-        <div style="margin-top: 20px;">
-            <a href="index.html">Home</a> · 
-            <a href="about.html">About</a>
+        <div class="footer-links">
+            <a href="https://github.com/pvnkmrksk/rala" target="_blank"><strong>Rala (ರಲ)</strong></a>
+            <a href="https://alar.ink">Alar</a>
+            <a href="https://padakanaja.karnataka.gov.in">Padakanaja</a>
         </div>
         <div style="margin-top: 20px; font-size: 12px; color: var(--text-color-lighter);">
             Made with ❤️ by <a href="https://github.com/pvnkmrksk" target="_blank" style="color: var(--text-color); text-decoration: underline;">pvnkmrksk</a>
         </div>
-    </div>
+    </footer>
     
     <script src="js/utils.js?v=2.3"></script>
     <script>
