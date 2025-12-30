@@ -1,59 +1,84 @@
-# Dictionary Scraper
+# Rala - English to Kannada Dictionary
 
-Simple scraper for Kannada-English dictionaries from [padakanaja.karnataka.gov.in](https://padakanaja.karnataka.gov.in/dictionary).
+**ರಲ** = Reverse [Alar](https://alar.ink)
+
+A fast, offline-capable English → Kannada dictionary combining:
+- **Alar Dictionary** by V. Krishna (156,672 entries)
+- **Padakanaja Dictionaries** from Karnataka Government (322,008 entries)
+
+**Total: 478,680 entries | 103,585 unique English words**
+
+🌐 **Live Site**: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
+
+![Rala Dictionary Demo](rala-demo-test.png)
 
 ## Features
 
-- **One-page extraction**: Sets pagination to show all entries on a single page (no pagination needed!)
-- **Automatic processing**: Processes all dictionaries sequentially
-- **Progress tracking**: Shows progress bar and detailed logs
-- **Clean output**: Saves both CSV and JSON formats
+- ⚡ **Fast Search**: Hybrid architecture with Cloudflare Worker API + local caching
+- 🔍 **Smart Matching**: Whole-word matching (no false positives from substrings)
+- 🔄 **Word Forms**: Automatic detection of word endings (escalation → escalate, escalating, etc.)
+- 📱 **Offline Support**: Alar dictionary cached locally for offline use
+- 🌙 **Dark Mode**: Built-in dark mode support
+- 📱 **PWA**: Installable as a Progressive Web App
 
-## Installation
+## Architecture
+
+- **Frontend**: Static site hosted on GitHub Pages
+- **Backend**: Cloudflare Worker API for Padakanaja dictionary (322k entries)
+- **Local**: Alar dictionary (156k entries) loaded client-side for offline support
+- **Search**: Combines results from both sources in real-time
+
+## Data Sources
+
+### Alar Dictionary
+- **Source**: [V. Krishna's Alar](https://alar.ink)
+- **License**: ODC-ODbL
+- **Entries**: 156,672
+- **Format**: YAML (preserved for posterity)
+
+### Padakanaja Dictionaries
+- **Source**: [Karnataka Government Padakanaja Portal](https://padakanaja.karnataka.gov.in/dictionary)
+- **Publisher**: Government of Karnataka
+- **Entries**: 322,008 (combined from multiple specialized dictionaries)
+- **Format**: CSV/JSON (scraped and processed)
+
+## Development
+
+### Local Setup
 
 ```bash
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Start local server
+./test-local.sh
 
-# Install dependencies
-pip install -r requirements.txt
+# Or manually
+python3 -m http.server 8000
 ```
 
-## Usage
+### Cloudflare Worker Deployment
 
 ```bash
-# Process all dictionaries
-python scraper_simple.py
-
-# Process first 5 dictionaries (for testing)
-python scraper_simple.py --limit 5
-
-# Start from a specific index
-python scraper_simple.py --start-from 10
-
-# Run in headless mode (no browser window)
-python scraper_simple.py --headless
+cd workers
+npx wrangler deploy
 ```
 
-## How It Works
+### Dictionary Processing
 
-1. Navigates to the dictionary website
-2. For each dictionary:
-   - Selects the dictionary from dropdown
-   - Sets pagination to 2 million (shows all entries on one page)
-   - Extracts all entries from the single page
-   - Saves to CSV and JSON files
+See `scripts/` directory for:
+- `scraping/` - Scrapers for Padakanaja dictionaries
+- `parsing/` - Scripts to process and optimize dictionary data
 
-## Output
+## Attribution
 
-Each dictionary is saved as:
-- `{sanitized_name}.csv` - CSV format with all columns
-- `{sanitized_name}.json` - JSON format with all entries
+- **Alar Dictionary**: Dictionary data by [V. Krishna](https://alar.ink), licensed under [ODC-ODbL](https://opendatacommons.org/licenses/odbl/)
+- **Padakanaja Dictionaries**: Sourced from [Karnataka Government Padakanaja Portal](https://padakanaja.karnataka.gov.in/dictionary), maintained by Government of Karnataka
+- **Source Data**: [Alar Dictionary Data](https://github.com/alar-dict/data)
 
-## Requirements
+## License
 
-- Python 3.7+
-- Chrome browser
-- Selenium
-- webdriver-manager (optional, for automatic ChromeDriver management)
+- Alar data: ODC-ODbL
+- Padakanaja data: Public domain (Government of Karnataka)
+- Code: See repository license
+
+---
+
+Made with ❤️ by [pvnkmrksk](https://github.com/pvnkmrksk)
