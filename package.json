@@ -4,7 +4,10 @@
   "description": "Static site - no build required",
   "private": true,
   "scripts": {
-    "build": "echo 'No build needed - static site'"
+    "build": "echo 'No build needed - static site'",
+    "test": "node test/run-all-tests.js",
+    "test:ui": "node test/test-ui.js",
+    "test:search": "node test/test-search.js"
   }
 }
 
