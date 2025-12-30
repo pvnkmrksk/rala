@@ -1009,9 +1009,9 @@ async function searchWithSynonyms(query) {
         const seen = new Set();
         const synonymsUsed = {};
         
-        // Search related words with rate limiting (max 3 concurrent requests)
-        // This prevents hitting Cloudflare rate limits and CPU limits
-        const BATCH_SIZE = 3;
+        // Search related words with rate limiting (max 2 concurrent requests)
+        // Reduced from 3 to 2 to prevent CPU limits (Worker does linear search)
+        const BATCH_SIZE = 2;
         
         for (let i = 0; i < relatedWords.length; i += BATCH_SIZE) {
             const batch = relatedWords.slice(i, i + BATCH_SIZE);
