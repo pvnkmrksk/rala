@@ -175,24 +175,47 @@
         
         <h2>How It Works</h2>
         <p>
-            Rala works by building a reverse index from the Alar dictionary data:
+            Rala combines two dictionary sources to provide comprehensive English → Kannada translations:
         </p>
         <ol>
-            <li><strong>Dictionary Loading</strong>: The Kannada-English dictionary data is loaded from the Alar YAML file hosted on GitHub.</li>
-            <li><strong>Reverse Indexing</strong>: For each Kannada word, all English words in its definitions are extracted and indexed. This creates a mapping from English words to Kannada entries.</li>
-            <li><strong>Exact Matching</strong>: When you search, Rala finds all Kannada words whose definitions directly contain your search term.</li>
-            <li><strong>Synonym Matching</strong>: Using the <a href="https://www.datamuse.com/api/">Datamuse API</a>, Rala also finds synonyms and similar words, then searches for Kannada words matching those related terms.</li>
-            <li><strong>Smart Sorting</strong>: Results are prioritized so that definitions ending with exact matches (e.g., "; an editor.") appear before passing mentions.</li>
+            <li><strong>Dictionary Loading</strong>: 
+                <ul>
+                    <li><strong>Alar</strong>: Kannada-English dictionary data loaded from YAML file hosted on GitHub (156,672 entries)</li>
+                    <li><strong>Padakanaja</strong>: English-Kannada dictionary from Karnataka Government (322,008 entries)</li>
+                </ul>
+            </li>
+            <li><strong>Hybrid Search</strong>: 
+                <ul>
+                    <li>Alar is searched locally (client-side) for fast, offline-capable results</li>
+                    <li>Padakanaja is searched via Cloudflare Worker API for server-side performance</li>
+                    <li>Results from both sources are combined and deduplicated</li>
+                </ul>
+            </li>
+            <li><strong>Reverse Indexing</strong>: For Alar, English words in definitions are indexed to enable fast lookups.</li>
+            <li><strong>Exact Matching</strong>: Finds all Kannada words whose definitions directly contain your search term.</li>
+            <li><strong>Synonym Matching</strong>: Using the <a href="https://www.datamuse.com/api/">Datamuse API</a>, Rala finds synonyms and word forms, then searches for matching Kannada words.</li>
+            <li><strong>Smart Sorting</strong>: Results are prioritized so that definitions ending with exact matches appear before passing mentions.</li>
             <li><strong>Audio Playback</strong>: Pronunciation audio is loaded from the Alar Voice Corpus repository, organized by entry ID.</li>
         </ol>
         
         <h2>Technical Details</h2>
         <ul>
-            <li><strong>Architecture</strong>: Fully client-side application—all processing happens in your browser using JavaScript</li>
-            <li><strong>Dictionary Format</strong>: YAML format parsed using <code class="code">js-yaml</code> library</li>
-            <li><strong>Synonym API</strong>: <a href="https://www.datamuse.com/api/">Datamuse API</a> for finding related words</li>
+            <li><strong>Architecture</strong>: Hybrid client-server architecture
+                <ul>
+                    <li>Client-side: Alar dictionary loaded and searched locally (offline-capable)</li>
+                    <li>Server-side: Padakanaja dictionary served via Cloudflare Workers for fast lookups</li>
+                </ul>
+            </li>
+            <li><strong>Dictionary Format</strong>: 
+                <ul>
+                    <li>Alar: YAML format parsed using <code class="code">js-yaml</code> library</li>
+                    <li>Padakanaja: Optimized JSON format stored in Cloudflare KV</li>
+                </ul>
+            </li>
+            <li><strong>Search Performance</strong>: Reverse index for O(1) lookups, enabling sub-50ms search times</li>
+            <li><strong>Synonym API</strong>: <a href="https://www.datamuse.com/api/">Datamuse API</a> for finding related words and word forms</li>
             <li><strong>Audio Files</strong>: MP3 files from the Alar Voice Corpus, served via GitHub raw content</li>
-            <li><strong>No Backend</strong>: No server required—works entirely with static hosting</li>
+            <li><strong>Total Entries</strong>: 478,680 entries from both dictionaries (156,672 Alar + 322,008 Padakanaja)</li>
         </ul>
         
         <h2>Attribution & Sources</h2>
@@ -202,7 +225,13 @@
                 <strong>Alar Dictionary</strong> by <strong>V. Krishna</strong><br>
                 Original Kannada → English dictionary<br>
                 <a href="https://alar.ink">https://alar.ink</a><br>
-                <a href="https://github.com/alar-dict/data">Source Data on GitHub</a>
+                <a href="https://github.com/alar-dict/data">Source Data on GitHub</a><br>
+                Licensed under <a href="https://opendatacommons.org/licenses/odbl/">ODC-ODbL</a>
+            </p>
+            <p style="margin-top: 16px;">
+                <strong>Padakanaja Dictionary</strong> by <strong>Karnataka Government</strong><br>
+                Comprehensive English → Kannada dictionary<br>
+                <a href="https://padakanaja.karnataka.gov.in">https://padakanaja.karnataka.gov.in</a>
             </p>
         </div>
         
@@ -251,9 +280,9 @@
     <div class="footer">
         <p>
             <strong>Rala (ರಲ)</strong> = Reverse <a href="https://alar.ink" target="_blank">Alar</a> · 
-            Dictionary data by <a href="https://alar.ink" target="_blank">V. Krishna</a> · 
-            Licensed under <a href="https://opendatacommons.org/licenses/odbl/" target="_blank">ODC-ODbL</a> · 
-            <a href="https://github.com/alar-dict/data" target="_blank">Source Data</a>
+            Dictionary data from:
+            <a href="https://alar.ink" target="_blank">V. Krishna's Alar</a> (ODC-ODbL) · 
+            <a href="https://padakanaja.karnataka.gov.in" target="_blank">Karnataka Government Padakanaja</a>
         </p>
         <div style="margin-top: 20px;">
             <a href="index.html">Home</a> · 

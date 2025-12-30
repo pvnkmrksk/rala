@@ -261,9 +261,19 @@ function renderApp(initialQuery = '') {
             
             // Filter out synonym results that are already in direct results
             const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
-            synonymResults = synonymResultsTemp.filter(r => 
+            let allSynonymResults = synonymResultsTemp.filter(r => 
                 !directKeys.has(`${r.kannada}-${r.definition}`)
             );
+            
+            // Mobile: Limit synonym results
+            const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            const MOBILE_LIMIT = 500;
+            const originalSynonymCount = allSynonymResults.length;
+            if (isMobile && allSynonymResults.length > MOBILE_LIMIT) {
+                synonymResults = allSynonymResults.slice(0, MOBILE_LIMIT);
+            } else {
+                synonymResults = allSynonymResults;
+            }
             synonymsUsed = synonymsUsedTemp;
         } else {
             // Client-side: normal flow
@@ -271,18 +281,33 @@ function renderApp(initialQuery = '') {
             
             // Filter out synonym results that are already in direct results
             const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
-            synonymResults = synonymResultsTemp.filter(r => 
+            let allSynonymResults = synonymResultsTemp.filter(r => 
                 !directKeys.has(`${r.kannada}-${r.definition}`)
             );
+            
+            // Mobile: Limit synonym results
+            const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            const MOBILE_LIMIT = 500;
+            const originalSynonymCount = allSynonymResults.length;
+            if (isMobile && allSynonymResults.length > MOBILE_LIMIT) {
+                synonymResults = allSynonymResults.slice(0, MOBILE_LIMIT);
+            } else {
+                synonymResults = allSynonymResults;
+            }
             synonymsUsed = synonymsUsedTemp;
         }
         
-        tabSynonymCount.textContent = ` (${synonymResults.length})`;
+        const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const MOBILE_LIMIT = 500;
+        const originalSynonymCount = synonymResults.length;
+        const displaySynonymCount = (isMobile && originalSynonymCount > MOBILE_LIMIT) ? '500+' : synonymResults.length;
+        tabSynonymCount.textContent = ` (${displaySynonymCount})`;
         tabSynonymSpinner.style.display = 'none';
         synonymSearchCompleted = true;
         
         // Update UI with both results (progressive rendering with animation)
-        resultsDiv.innerHTML = renderResults(directResults, synonymResults, synonymsUsed, query, false, false);
+        const showSynonymMobileLimit = isMobile && originalSynonymCount > MOBILE_LIMIT;
+        resultsDiv.innerHTML = renderResults(directResults, synonymResults, synonymsUsed, query, false, false, false, showSynonymMobileLimit);
         
         // Trigger CSS animation for synonym results
         requestAnimationFrame(() => {
@@ -372,24 +397,36 @@ function renderApp(initialQuery = '') {
         const searchTime = performance.now() - startTime;
         console.log(`Search completed in ${searchTime.toFixed(0)}ms`);
         
-        tabExactCount.textContent = ` (${directResults.length})`;
+        // Mobile: Limit to 500 results, show "500+"
+        const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const MOBILE_LIMIT = 500;
+        const originalCount = directResults.length;
+        let displayCount = originalCount;
+        let displayResults = directResults;
+        
+        if (isMobile && originalCount > MOBILE_LIMIT) {
+            displayResults = directResults.slice(0, MOBILE_LIMIT);
+            displayCount = `${MOBILE_LIMIT}+`;
+        }
+        
+        tabExactCount.textContent = ` (${displayCount})`;
         tabExactSpinner.style.display = 'none';
         
         // Progressive rendering: Update UI with direct results
         // Render in batches for smooth animation
         const batchSize = 50;
-        const totalBatches = Math.ceil(directResults.length / batchSize);
+        const totalBatches = Math.ceil(displayResults.length / batchSize);
         
-        if (directResults.length > 0) {
+        if (displayResults.length > 0) {
             // Render first batch immediately
-            const firstBatch = directResults.slice(0, batchSize);
-            resultsDiv.innerHTML = renderResults(firstBatch, [], {}, query, false, false);
+            const firstBatch = displayResults.slice(0, batchSize);
+            resultsDiv.innerHTML = renderResults(firstBatch, [], {}, query, false, false, isMobile && originalCount > MOBILE_LIMIT);
             
             // Render remaining batches progressively
             for (let i = 1; i < totalBatches; i++) {
                 await new Promise(resolve => setTimeout(resolve, 50)); // Small delay between batches
-                const batch = directResults.slice(0, (i + 1) * batchSize);
-                resultsDiv.innerHTML = renderResults(batch, [], {}, query, false, false);
+                const batch = displayResults.slice(0, (i + 1) * batchSize);
+                resultsDiv.innerHTML = renderResults(batch, [], {}, query, false, false, isMobile && originalCount > MOBILE_LIMIT);
             }
         } else {
             resultsDiv.innerHTML = renderResults([], [], {}, query, false, false);
@@ -464,18 +501,31 @@ function renderApp(initialQuery = '') {
             };
             
             const synonymData = await searchWithSynonyms(query, progressCallback);
-            synonymResults = synonymData.results || [];
+            let allSynonymResults = synonymData.results || [];
             synonymsUsed = synonymData.synonymsUsed || {};
+            
+            // Mobile: Limit synonym results
+            const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            const MOBILE_LIMIT = 500;
+            const originalSynonymCount = allSynonymResults.length;
+            if (isMobile && allSynonymResults.length > MOBILE_LIMIT) {
+                synonymResults = allSynonymResults.slice(0, MOBILE_LIMIT);
+            } else {
+                synonymResults = allSynonymResults;
+            }
+            
             const synonymTime = performance.now() - synonymStartTime;
-            console.log(`Synonym search completed in ${synonymTime.toFixed(0)}ms, found ${synonymResults.length} results`);
+            console.log(`Synonym search completed in ${synonymTime.toFixed(0)}ms, found ${originalSynonymCount} results`);
             synonymSearchInProgress = false;
             synonymSearchCompleted = true;
-            tabSynonymCount.textContent = ` (${synonymResults.length})`;
+            const displayCount = (isMobile && originalSynonymCount > MOBILE_LIMIT) ? '500+' : synonymResults.length;
+            tabSynonymCount.textContent = ` (${displayCount})`;
             tabSynonymSpinner.style.display = 'none';
             
             // Final render
             if (synonymResults.length > 0) {
-                resultsDiv.innerHTML = renderResults([], synonymResults, synonymsUsed, query, false, false);
+                const showMobileLimit = isMobile && originalSynonymCount > MOBILE_LIMIT;
+                resultsDiv.innerHTML = renderResults([], synonymResults, synonymsUsed, query, false, false, false, showMobileLimit);
             }
         } else if (fromEnter) {
             // Load immediately if Enter was pressed

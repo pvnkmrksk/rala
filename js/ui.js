@@ -14,7 +14,7 @@ function cleanKannadaEntry(text) {
     return cleaned;
 }
 
-function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false) {
+function renderResults(directResults, synonymResults, synonymsUsed, query, loadingDirect = false, loadingIndirect = false, showDirectMobileLimit = false, showSynonymMobileLimit = false) {
     let html = '';
     
     // Only show "no results" if we're not loading and have no results
@@ -47,10 +47,20 @@ function renderResults(directResults, synonymResults, synonymsUsed, query, loadi
         anyWordResults = directResults;
     }
     
+    // Mobile limit notice for direct results
+    if (showDirectMobileLimit) {
+        html += `
+            <div style="padding: 12px; margin-bottom: 16px; background: var(--bg-secondary); border-radius: 8px; font-size: 14px; color: var(--text-color-lighter);">
+                Showing first 500 results. <strong>${directResults.length}+</strong> total results found.
+            </div>
+        `;
+    }
+    
     // Exact matches section
+    const directCount = showDirectMobileLimit ? '500+' : directResults.length;
     html += `
         <div class="results-section section-anchor" id="exact-matches">
-            <div class="section-header">Exact Match${directResults.length !== 1 ? 'es' : ''} (${directResults.length})</div>
+            <div class="section-header">Exact Match${directResults.length !== 1 ? 'es' : ''} (${directCount})</div>
     `;
     
     if (loadingDirect) {
@@ -97,10 +107,20 @@ function renderResults(directResults, synonymResults, synonymsUsed, query, loadi
     html += `</div>`;
     
     // Synonym matches section
+    const synonymCount = showSynonymMobileLimit ? '500+' : synonymResults.length;
     html += `
         <div class="results-section section-anchor" id="synonym-matches">
-            <div class="section-header">Synonym Match${synonymResults.length !== 1 ? 'es' : ''} (${synonymResults.length})</div>
+            <div class="section-header">Synonym Match${synonymResults.length !== 1 ? 'es' : ''} (${synonymCount})</div>
     `;
+    
+    // Mobile limit notice for synonyms
+    if (showSynonymMobileLimit) {
+        html += `
+            <div style="padding: 12px; margin-bottom: 16px; background: var(--bg-secondary); border-radius: 8px; font-size: 14px; color: var(--text-color-lighter);">
+                Showing first 500 results. <strong>${synonymResults.length}+</strong> total synonym results found.
+            </div>
+        `;
+    }
     
     if (loadingIndirect) {
         html += `
