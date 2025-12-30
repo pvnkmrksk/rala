@@ -1,0 +1,12 @@
+name = "rala-search-test"
+main = "src/index.reverse.js"
+compatibility_date = "2024-01-01"
+
+# Test KV Namespace (separate from production)
+[[kv_namespaces]]
+binding = "DICTIONARY"
+id = "c0d0459e763b45c2816c8d26fb4771a1"
+
+# Note: Use this for testing reverse index
+# Deploy with: npx wrangler deploy --config wrangler.test.toml
+

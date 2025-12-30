@@ -1,53 +1,86 @@
-// Cloudflare Worker for Rala Dictionary Search
-// Simple approach: Two dictionary keys (Padakanaja + Alar), linear search with .includes()
-// This was the original working approach - simple and fast!
+// Cloudflare Worker for Rala Dictionary Search - REVERSE INDEX VERSION
+// This is a test version using reverse index for O(1) lookups
+// Use index.js for production (linear search)
 
-// Cache dictionary in Worker memory (stays warm between requests)
-// Only Padakanaja - Alar is loaded client-side for offline support
-let dictionaryCache = null;
-let cacheLoadPromise = null;
+// Cache reverse index chunks in Worker memory
+let chunkCache = new Map(); // chunkNumber -> chunk data
+let chunkIndex = null;
+let chunkIndexPromise = null;
 
-// Expand optimized Padakanaja format
-function expandPadakanajaEntries(optimized) {
-    if (Array.isArray(optimized)) {
-        return optimized;
+// Load chunk index (small file mapping prefixes to chunks)
+async function loadChunkIndex(env) {
+    if (chunkIndex) {
+        return chunkIndex;
     }
     
-    const entries = [];
+    if (chunkIndexPromise) {
+        return chunkIndexPromise;
+    }
     
-    for (const [key, entriesList] of Object.entries(optimized)) {
-        let source, dictTitle;
-        if (key.includes('|')) {
-            [source, dictTitle] = key.split('|', 2);
-        } else {
-            source = key;
-            dictTitle = '';
-        }
-        
-        if (Array.isArray(entriesList)) {
-            for (const entryData of entriesList) {
-                let kannada, english, type;
-                if (entryData.length === 3) {
-                    [kannada, english, type] = entryData;
-                } else {
-                    [kannada, english] = entryData;
-                    type = 'Noun';
-                }
-                
-                entries.push({
-                    entry: kannada,
-                    defs: [{
-                        entry: english,
-                        type: type || 'Noun'
-                    }],
-                    source: source,
-                    dict_title: dictTitle
-                });
+    chunkIndexPromise = (async () => {
+        try {
+            const data = await env.DICTIONARY.get('padakanaja_reverse_index_chunk_index', 'json');
+            if (!data) {
+                throw new Error('Chunk index not found in KV');
             }
+            chunkIndex = data;
+            console.log(`Loaded chunk index: ${Object.keys(chunkIndex).length} prefixes`);
+            return chunkIndex;
+        } catch (error) {
+            console.error('Failed to load chunk index:', error);
+            throw error;
         }
+    })();
+    
+    return chunkIndexPromise;
+}
+
+// Load specific chunks from KV
+async function loadChunks(chunkNumbers, env) {
+    const chunksToLoad = chunkNumbers.filter(num => !chunkCache.has(num));
+    
+    if (chunksToLoad.length === 0) {
+        return; // All chunks already loaded
     }
     
-    return entries;
+    const loadPromises = chunksToLoad.map(async (chunkNum) => {
+        try {
+            const chunkKey = `padakanaja_reverse_index_part${chunkNum}`;
+            const data = await env.DICTIONARY.get(chunkKey, 'json');
+            if (data) {
+                chunkCache.set(chunkNum, data);
+                console.log(`Loaded chunk ${chunkNum} (${Object.keys(data).length} words)`);
+            }
+        } catch (error) {
+            console.error(`Failed to load chunk ${chunkNum}:`, error);
+        }
+    });
+    
+    await Promise.all(loadPromises);
+}
+
+// Get which chunks might contain a word
+function getChunksForWord(word, chunkIndex) {
+    if (!chunkIndex || !word) {
+        return [1]; // Fallback: try first chunk
+    }
+    
+    const wordLower = word.toLowerCase();
+    const prefix = wordLower.substring(0, 3);
+    
+    if (prefix in chunkIndex) {
+        return chunkIndex[prefix];
+    }
+    
+    // Fallback: try first character
+    const firstChar = wordLower[0];
+    if (firstChar && firstChar in chunkIndex) {
+        const chunks = chunkIndex[firstChar];
+        return chunks.slice(0, 3); // Limit to 3 chunks
+    }
+    
+    // Ultimate fallback: first chunk
+    return [1];
 }
 
 // Clean Kannada entry
@@ -60,168 +93,62 @@ function cleanKannadaEntry(text) {
     return cleaned;
 }
 
-// Count words in Kannada text
-function countWords(text) {
-    if (!text) return 0;
-    const cleaned = cleanKannadaEntry(text);
-    const words = cleaned.split(/\s+/).filter(w => w.length > 0);
-    return words.length;
-}
-
-// Get definition priority for sorting
-function getDefinitionPriority(definition, searchWord, kannadaEntry = '') {
-    if (!definition) return 9;
-    const trimmed = definition.trim();
-    const trimmedLower = trimmed.toLowerCase();
-    const searchLower = searchWord.toLowerCase();
-    const escapedSearch = searchLower.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
-    
-    const kannadaWordCount = countWords(kannadaEntry);
-    const isKannadaShort = kannadaWordCount <= 2;
-    
-    // Priority 0/1: Exact full-word match
-    const trimmedNoPeriod = trimmed.replace(/\.\s*$/, '').trim();
-    if (trimmedNoPeriod.toLowerCase() === searchLower) {
-        return isKannadaShort ? 0 : 1;
-    }
-    
-    // Priority 2/3: Search term at the end
-    const atEndPattern = new RegExp(`${escapedSearch}\\s*\\.\\s*$`, 'i');
-    if (atEndPattern.test(trimmed)) {
-        return isKannadaShort ? 2 : 3;
-    }
-    
-    // Priority 4/5: Search term anywhere
-    if (trimmedLower.includes(searchLower)) {
-        return isKannadaShort ? 4 : 5;
-    }
-    
-    return 9;
-}
-
-// Load dictionary from KV (with caching) - Padakanaja only
-// Alar is loaded client-side for offline support
-async function loadDictionary(env) {
-    if (dictionaryCache) {
-        return dictionaryCache;
-    }
-    
-    if (cacheLoadPromise) {
-        return cacheLoadPromise;
-    }
-    
-    cacheLoadPromise = (async () => {
-        try {
-            // Load only Padakanaja (21MB - fast and works)
-            const data = await env.DICTIONARY.get('combined_dictionaries_ultra', 'json');
-            if (!data) {
-                throw new Error('Dictionary not found in KV');
-            }
-            
-            // Expand optimized format
-            dictionaryCache = expandPadakanajaEntries(data);
-            console.log(`Loaded ${dictionaryCache.length} Padakanaja entries from KV`);
-            return dictionaryCache;
-        } catch (error) {
-            console.error('Failed to load dictionary:', error);
-            throw error;
-        }
-    })();
-    
-    return cacheLoadPromise;
-}
-
-// Helper: Check if text contains word as a whole word (not substring)
-// e.g., "test" matches "test" but NOT "detest" or "testing"
-function containsWholeWord(text, word) {
-    if (!text || !word) return false;
-    // Escape special regex characters in word
-    const escapedWord = word.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
-    // Use word boundary regex to match whole words only
-    const regex = new RegExp(`\\b${escapedWord}\\b`, 'i');
-    return regex.test(text);
-}
-
-// Search with whole word matching only (no substring matching)
-async function searchDictionary(query, dictionary) {
+// Search using reverse index (O(1) lookup)
+async function searchWithReverseIndex(query, env) {
     const queryLower = query.toLowerCase().trim();
     const words = queryLower.split(/\s+/).filter(w => w.length > 0);
-    const isMultiWord = words.length > 1;
-    const maxResults = 2000;
+    
+    if (words.length === 0) {
+        return [];
+    }
+    
+    // Load chunk index
+    const index = await loadChunkIndex(env);
+    console.log(`Searching for: ${queryLower}, words: ${words.join(', ')}`);
+    console.log(`Chunk index loaded: ${Object.keys(index).length} prefixes`);
     
     const results = [];
     const seen = new Set();
+    const maxResults = 500;
     
-    if (isMultiWord) {
-        // Multi-word: search for exact phrase first, then all words as whole words
-        const exactPhrase = queryLower;
+    // For each word, find relevant chunks and search
+    for (const word of words) {
+        if (results.length >= maxResults) break;
         
-        for (const entry of dictionary) {
-            if (results.length >= maxResults) break;
-            if (!entry.defs) continue;
-            for (const def of entry.defs) {
-                if (results.length >= maxResults) break;
-                if (!def.entry) continue;
-                const defLower = def.entry.toLowerCase();
-                
-                // Exact phrase match (substring is OK for phrases)
-                if (defLower.includes(exactPhrase)) {
-                    const key = `${entry.entry}-${def.entry}`;
-                    if (!seen.has(key)) {
-                        seen.add(key);
-                        results.push({
-                            kannada: cleanKannadaEntry(entry.entry),
-                            definition: def.entry,
-                            type: def.type || 'Noun',
-                            source: entry.source || '',
-                            dict_title: entry.dict_title || '',
-                            matchedWord: exactPhrase,
-                            matchType: 'exact-phrase'
-                        });
-                    }
-                } else {
-                    // Then check if all words appear as whole words
-                    const allWordsMatch = words.every(w => containsWholeWord(def.entry, w));
-                    if (allWordsMatch) {
-                        const key = `${entry.entry}-${def.entry}`;
-                        if (!seen.has(key)) {
-                            seen.add(key);
-                            results.push({
-                                kannada: cleanKannadaEntry(entry.entry),
-                                definition: def.entry,
-                                type: def.type || 'Noun',
-                                source: entry.source || '',
-                                dict_title: entry.dict_title || '',
-                                matchedWord: exactPhrase,
-                                matchType: 'all-words'
-                            });
-                        }
-                    }
-                }
+        const cleanWord = word.replace(/[^a-z0-9]/gi, '').toLowerCase();
+        if (cleanWord.length < 2) continue;
+        
+        // Get chunks that might contain this word
+        const chunkNumbers = getChunksForWord(cleanWord, index);
+        console.log(`Word '${cleanWord}' -> chunks: ${chunkNumbers.join(', ')}`);
+        
+        // Load those chunks
+        await loadChunks(chunkNumbers, env);
+        console.log(`Loaded chunks: ${Array.from(chunkCache.keys()).join(', ')}`);
+        
+        // Search in loaded chunks
+        for (const chunkNum of chunkNumbers) {
+            const chunk = chunkCache.get(chunkNum);
+            if (!chunk) {
+                console.log(`Chunk ${chunkNum} not loaded after loadChunks call`);
+                continue;
             }
-        }
-    } else {
-        // Single word: use whole word matching only (no substring matching)
-        const word = words[0];
-        // Optimize: limit to 500 results max (faster, prevents CPU limits)
-        const maxResultsOptimized = Math.min(maxResults, 500);
-        
-        for (const entry of dictionary) {
-            if (results.length >= maxResultsOptimized) break; // Early exit
-            if (!entry.defs) continue;
-            for (const def of entry.defs) {
-                if (results.length >= maxResultsOptimized) break; // Early exit
-                if (!def.entry) continue;
-                
-                // Use whole word matching - "test" won't match "detest"
-                if (containsWholeWord(def.entry, word)) {
-                    const key = `${entry.entry}-${def.entry}`;
-                    if (!seen.has(key)) {
+            console.log(`Searching chunk ${chunkNum} (${Object.keys(chunk).length} words)`);
+            console.log(`Looking for '${cleanWord}' in chunk ${chunkNum}`);
+            
+            // Check if word exists
+            const hasWord = cleanWord in chunk;
+            console.log(`'${cleanWord}' in chunk ${chunkNum}: ${hasWord}`);
+            if (hasWord) {
+                console.log(`Found '${cleanWord}' in chunk ${chunkNum}: ${chunk[cleanWord].length} entries`);
+                for (const entry of chunk[cleanWord]) {
+                    const key = `${entry.kannada}-${entry.english}`;
+                    if (!seen.has(key) && results.length < maxResults) {
                         seen.add(key);
                         results.push({
-                            kannada: cleanKannadaEntry(entry.entry),
-                            definition: def.entry,
-                            type: def.type || 'Noun',
+                            kannada: cleanKannadaEntry(entry.kannada),
+                            definition: entry.english,
+                            type: entry.type || 'Noun',
                             source: entry.source || '',
                             dict_title: entry.dict_title || '',
                             matchedWord: word,
@@ -233,23 +160,13 @@ async function searchDictionary(query, dictionary) {
         }
     }
     
-    // Sort by priority
-    results.sort((a, b) => {
-        const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
-        const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
-        if (aPriority !== bPriority) {
-            return aPriority - bPriority;
-        }
-        return cleanKannadaEntry(a.kannada).localeCompare(cleanKannadaEntry(b.kannada));
-    });
-    
     return results;
 }
 
 // Main request handler
 export default {
     async fetch(request, env) {
-        // CORS headers (allow all origins including localhost)
+        // CORS headers
         const origin = request.headers.get('Origin');
         const corsHeaders = {
             'Access-Control-Allow-Origin': origin || '*',
@@ -263,24 +180,10 @@ export default {
             return new Response(null, { headers: corsHeaders });
         }
         
-        // Only allow GET and POST
-        if (request.method !== 'GET' && request.method !== 'POST') {
-            return new Response('Method not allowed', { 
-                status: 405,
-                headers: corsHeaders 
-            });
-        }
-        
         try {
-            // Get query from URL or body
-            let query = '';
-            if (request.method === 'GET') {
-                const url = new URL(request.url);
-                query = url.searchParams.get('q') || '';
-            } else {
-                const body = await request.json();
-                query = body.query || '';
-            }
+            // Get query
+            const url = new URL(request.url);
+            const query = url.searchParams.get('q') || '';
             
             if (!query || query.trim().length === 0) {
                 return new Response(JSON.stringify({ 
@@ -291,14 +194,9 @@ export default {
                 });
             }
             
-            // Load dictionary (cached) - Padakanaja only
-            // Alar is loaded client-side for offline support
-            const dictionary = await loadDictionary(env);
+            // Search using reverse index
+            const results = await searchWithReverseIndex(query.trim(), env);
             
-            // Search with simple linear search (.includes() catches partial matches!)
-            const results = await searchDictionary(query.trim(), dictionary);
-            
-            // Return results
             return new Response(JSON.stringify({
                 query: query.trim(),
                 results: results,
@@ -319,3 +217,4 @@ export default {
         }
     }
 };
+
