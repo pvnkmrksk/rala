@@ -9,6 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icon.svg">
+    <link rel="stylesheet" href="styles.css">
     <style>
         * {
             box-sizing: border-box;
@@ -19,8 +20,8 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 0;
-            background: white;
-            color: #333;
+            background: var(--bg-color);
+            color: var(--text-color);
             line-height: 1.6;
         }
         
@@ -32,7 +33,7 @@
         h1 {
             font-size: 72px;
             font-weight: 600;
-            color: #000;
+            color: var(--text-color);
             margin: 0 0 20px;
             letter-spacing: -1px;
             line-height: 1.1;
@@ -40,7 +41,7 @@
         
         .subtitle {
             text-align: center;
-            color: #666;
+            color: var(--text-color-light);
             margin-bottom: 8px;
             font-size: 15px;
             line-height: 1.6;
@@ -54,18 +55,18 @@
         .nav {
             text-align: center;
             padding: 20px;
-            border-bottom: 1px solid #e0e0e0;
+            border-bottom: 1px solid var(--border-color);
         }
         
         .nav a {
-            color: #666;
+            color: var(--text-color-light);
             text-decoration: none;
             margin: 0 15px;
             font-size: 15px;
         }
         
         .nav a:hover {
-            color: #000;
+            color: var(--text-color);
         }
         
         .content {
@@ -75,7 +76,7 @@
         h2 {
             font-size: 24px;
             font-weight: 600;
-            color: #000;
+            color: var(--text-color);
             margin-top: 40px;
             margin-bottom: 16px;
         }
@@ -86,7 +87,7 @@
         
         p {
             margin-bottom: 16px;
-            color: #333;
+            color: var(--text-color);
         }
         
         ul, ol {
@@ -99,7 +100,7 @@
         }
         
         a {
-            color: #000;
+            color: var(--text-color);
             text-decoration: underline;
         }
         
@@ -108,7 +109,7 @@
         }
         
         .code {
-            background: #f5f5f5;
+            background: var(--hover-bg);
             padding: 2px 6px;
             border-radius: 3px;
             font-family: 'Monaco', 'Courier New', monospace;
@@ -116,8 +117,8 @@
         }
         
         .attribution-box {
-            background: #f9f9f9;
-            border-left: 3px solid #000;
+            background: var(--section-bg);
+            border-left: 3px solid var(--text-color);
             padding: 20px;
             margin: 24px 0;
         }
@@ -126,6 +127,7 @@
             margin-top: 0;
             font-size: 18px;
             font-weight: 600;
+            color: var(--text-color);
         }
         
         .footer {
@@ -133,12 +135,12 @@
             padding: 40px 20px;
             text-align: center;
             font-size: 13px;
-            color: #999;
-            border-top: 1px solid #e0e0e0;
+            color: var(--text-color-lighter);
+            border-top: 1px solid var(--border-color);
         }
         
         .footer a {
-            color: #000;
+            color: var(--text-color);
             text-decoration: underline;
         }
         
@@ -148,6 +150,12 @@
     </style>
 </head>
 <body>
+    <button class="dark-mode-toggle" id="dark-mode-toggle" title="Toggle dark mode" aria-label="Toggle dark mode">
+        <svg id="dark-mode-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
+    
     <div class="header">
         <h1>ರಲ</h1>
         <p class="subtitle">
@@ -288,10 +296,15 @@
             <a href="index.html">Home</a> · 
             <a href="about.html">About</a>
         </div>
-        <div style="margin-top: 20px; font-size: 12px; color: #999;">
-            Made with ❤️ by <a href="https://github.com/pvnkmrksk" target="_blank" style="color: #000; text-decoration: underline;">pvnkmrksk</a>
+        <div style="margin-top: 20px; font-size: 12px; color: var(--text-color-lighter);">
+            Made with ❤️ by <a href="https://github.com/pvnkmrksk" target="_blank" style="color: var(--text-color); text-decoration: underline;">pvnkmrksk</a>
         </div>
     </div>
+    
+    <script src="js/utils.js?v=2.3"></script>
+    <script>
+        initDarkMode();
+    </script>
 </body>
 </html>
 
