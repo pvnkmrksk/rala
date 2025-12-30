@@ -272,7 +272,15 @@ function renderResultCard(result, query, isSynonym = false) {
     if (result.source === 'alar') {
         sourceText = PRIMARY_DICTIONARY.dictTitle;
         sourceTextKannada = PRIMARY_DICTIONARY.dictTitleKannada;
-        sourceLink = PRIMARY_DICTIONARY.link;
+        // Link directly to the specific word in Alar dictionary
+        // Format: https://alar.ink/dictionary/kannada/english/{urlEncodedKannadaWord}
+        const kannadaWord = cleanKannadaEntry(result.kannada);
+        if (kannadaWord) {
+            const encodedWord = encodeURIComponent(kannadaWord);
+            sourceLink = `https://alar.ink/dictionary/kannada/english/${encodedWord}`;
+        } else {
+            sourceLink = PRIMARY_DICTIONARY.link;
+        }
     } else if (result.dict_title) {
         sourceText = result.dict_title;
         sourceLink = PADAKANAJA_BASE_URL;
