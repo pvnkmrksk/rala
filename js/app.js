@@ -425,27 +425,40 @@ function renderApp(initialQuery = '') {
             
             const synonymStartTime = performance.now();
             
-            // Progressive loading callback - update UI as results come in
+            // Progressive loading callback - update UI as results come in (flowing like a river)
+            let lastResultCount = 0;
             const progressCallback = (currentResults, currentSynonymsUsed) => {
                 synonymResults = currentResults;
                 synonymsUsed = currentSynonymsUsed;
                 tabSynonymCount.textContent = ` (${synonymResults.length})`;
                 
+                // Only animate NEW results (the ones that just appeared)
+                const newCount = synonymResults.length - lastResultCount;
+                lastResultCount = synonymResults.length;
+                
                 // Update UI progressively
                 resultsDiv.innerHTML = renderResults([], synonymResults, synonymsUsed, query, false, true);
                 
-                // Animate new results
+                // Animate only the NEW results (flowing in smoothly)
                 requestAnimationFrame(() => {
                     const resultCards = resultsDiv.querySelectorAll('.result-card');
+                    // Animate only the last N cards (the new ones)
+                    const startIndex = Math.max(0, resultCards.length - newCount);
                     resultCards.forEach((card, index) => {
-                        if (!card.style.opacity || card.style.opacity === '1') return; // Already animated
-                        card.style.opacity = '0';
-                        card.style.transform = 'translateY(10px)';
-                        setTimeout(() => {
-                            card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+                        if (index < startIndex) {
+                            // Already visible, keep it visible
                             card.style.opacity = '1';
                             card.style.transform = 'translateY(0)';
-                        }, index * 10);
+                        } else {
+                            // New card - animate in (like a bubble rising)
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(15px)';
+                            setTimeout(() => {
+                                card.style.transition = 'opacity 0.3s ease-out, transform 0.3s ease-out';
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, (index - startIndex) * 50); // Stagger new results
+                        }
                     });
                 });
             };
