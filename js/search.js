@@ -413,7 +413,7 @@ async function searchDirect(query) {
             const searchTime = performance.now() - startTime;
             
             // Convert Worker response format to client format (Padakanaja results)
-            const padakanajaResults = data.results.map(result => ({
+            let padakanajaResults = data.results.map(result => ({
                 kannada: result.kannada,
                 phone: result.phone || '',
                 definition: result.definition,
@@ -425,6 +425,36 @@ async function searchDirect(query) {
                 matchedWord: result.matchedWord || query,
                 matchType: result.matchType || 'direct'
             }));
+            
+            // Client-side multi-word filtering (fallback if Worker didn't filter properly)
+            const queryWords = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+            if (queryWords.length > 1) {
+                // Filter to only entries containing ALL words as whole words
+                padakanajaResults = padakanajaResults.filter(result => {
+                    const defLower = result.definition.toLowerCase();
+                    return queryWords.every(word => {
+                        const cleanWord = word.replace(/[^a-z0-9]/gi, '');
+                        if (cleanWord.length < 2) return true; // Skip very short words
+                        return containsWholeWord(result.definition, cleanWord);
+                    });
+                });
+                
+                // Re-prioritize: exact phrase first, then all words
+                const exactPhrase = query.toLowerCase();
+                const exactPhraseFiltered = [];
+                const allWordsFiltered = [];
+                
+                for (const result of padakanajaResults) {
+                    const defLower = result.definition.toLowerCase();
+                    if (defLower.includes(exactPhrase)) {
+                        exactPhraseFiltered.push({...result, matchType: 'exact-phrase'});
+                    } else {
+                        allWordsFiltered.push({...result, matchType: 'all-words'});
+                    }
+                }
+                
+                padakanajaResults = [...exactPhraseFiltered, ...allWordsFiltered];
+            }
             
             // Combine Alar (local) + Padakanaja (API) results
             const seen = new Set();

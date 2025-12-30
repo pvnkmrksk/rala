@@ -93,6 +93,14 @@ function cleanKannadaEntry(text) {
     return cleaned;
 }
 
+// Helper: Check if text contains whole word
+function containsWholeWord(text, word) {
+    if (!text || !word) return false;
+    const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`\\b${escapedWord}\\b`, 'i');
+    return regex.test(text);
+}
+
 // Search using reverse index (O(1) lookup)
 async function searchWithReverseIndex(query, env) {
     const queryLower = query.toLowerCase().trim();
@@ -102,65 +110,129 @@ async function searchWithReverseIndex(query, env) {
         return [];
     }
     
-    // Load chunk index
-    const index = await loadChunkIndex(env);
-    console.log(`Searching for: ${queryLower}, words: ${words.join(', ')}`);
-    console.log(`Chunk index loaded: ${Object.keys(index).length} prefixes`);
-    
-    const results = [];
-    const seen = new Set();
+    const isMultiWord = words.length > 1;
     const maxResults = 500;
     
-    // For each word, find relevant chunks and search
-    for (const word of words) {
-        if (results.length >= maxResults) break;
+    // Load chunk index
+    const index = await loadChunkIndex(env);
+    
+    // For multi-word: collect all candidate entries, then filter to those containing all words
+    if (isMultiWord) {
+        const exactPhrase = queryLower;
+        const exactPhraseResults = [];
+        const allWordsResults = [];
+        const seen = new Set();
         
-        const cleanWord = word.replace(/[^a-z0-9]/gi, '').toLowerCase();
-        if (cleanWord.length < 2) continue;
+        // Step 1: Collect all candidate entries (union of all word results)
+        const candidateEntries = new Map(); // key -> entry data
         
-        // Get chunks that might contain this word
-        const chunkNumbers = getChunksForWord(cleanWord, index);
-        console.log(`Word '${cleanWord}' -> chunks: ${chunkNumbers.join(', ')}`);
+        // Load all chunks for all words first
+        const allChunkNumbers = new Set();
+        for (const word of words) {
+            const cleanWord = word.replace(/[^a-z0-9]/gi, '').toLowerCase();
+            if (cleanWord.length < 2) continue;
+            const chunks = getChunksForWord(cleanWord, index);
+            chunks.forEach(c => allChunkNumbers.add(c));
+        }
+        await loadChunks(Array.from(allChunkNumbers), env);
         
-        // Load those chunks
-        await loadChunks(chunkNumbers, env);
-        console.log(`Loaded chunks: ${Array.from(chunkCache.keys()).join(', ')}`);
-        
-        // Search in loaded chunks
-        for (const chunkNum of chunkNumbers) {
-            const chunk = chunkCache.get(chunkNum);
-            if (!chunk) {
-                console.log(`Chunk ${chunkNum} not loaded after loadChunks call`);
-                continue;
-            }
-            console.log(`Searching chunk ${chunkNum} (${Object.keys(chunk).length} words)`);
-            console.log(`Looking for '${cleanWord}' in chunk ${chunkNum}`);
+        // Collect all entries that match any word
+        for (const word of words) {
+            const cleanWord = word.replace(/[^a-z0-9]/gi, '').toLowerCase();
+            if (cleanWord.length < 2) continue;
             
-            // Check if word exists
-            const hasWord = cleanWord in chunk;
-            console.log(`'${cleanWord}' in chunk ${chunkNum}: ${hasWord}`);
-            if (hasWord) {
-                console.log(`Found '${cleanWord}' in chunk ${chunkNum}: ${chunk[cleanWord].length} entries`);
+            const chunkNumbers = getChunksForWord(cleanWord, index);
+            for (const chunkNum of chunkNumbers) {
+                const chunk = chunkCache.get(chunkNum);
+                if (!chunk || !(cleanWord in chunk)) continue;
+                
                 for (const entry of chunk[cleanWord]) {
                     const key = `${entry.kannada}-${entry.english}`;
-                    if (!seen.has(key) && results.length < maxResults) {
-                        seen.add(key);
-                        results.push({
-                            kannada: cleanKannadaEntry(entry.kannada),
-                            definition: entry.english,
-                            type: entry.type || 'Noun',
-                            source: entry.source || '',
-                            dict_title: entry.dict_title || '',
-                            matchedWord: word,
-                            matchType: 'direct'
-                        });
+                    if (!candidateEntries.has(key)) {
+                        candidateEntries.set(key, entry);
                     }
                 }
             }
         }
+        
+        // Step 2: Filter candidates to only those containing ALL words
+        for (const [key, entry] of candidateEntries) {
+            if (seen.has(key) || exactPhraseResults.length + allWordsResults.length >= maxResults) break;
+            
+            const defLower = entry.english.toLowerCase();
+            
+            // Check if all words are present
+            const allWordsPresent = words.every(w => {
+                const cleanW = w.replace(/[^a-z0-9]/gi, '').toLowerCase();
+                return containsWholeWord(entry.english, cleanW);
+            });
+            
+            if (!allWordsPresent) continue; // Skip if not all words present
+            
+            // Exact phrase match (highest priority)
+            if (defLower.includes(exactPhrase)) {
+                seen.add(key);
+                exactPhraseResults.push({
+                    kannada: cleanKannadaEntry(entry.kannada),
+                    definition: entry.english,
+                    type: entry.type || 'Noun',
+                    source: entry.source || '',
+                    dict_title: entry.dict_title || '',
+                    matchedWord: exactPhrase,
+                    matchType: 'exact-phrase'
+                });
+            } else {
+                // All words present as whole words
+                seen.add(key);
+                allWordsResults.push({
+                    kannada: cleanKannadaEntry(entry.kannada),
+                    definition: entry.english,
+                    type: entry.type || 'Noun',
+                    source: entry.source || '',
+                    dict_title: entry.dict_title || '',
+                    matchedWord: exactPhrase,
+                    matchType: 'all-words'
+                });
+            }
+        }
+        
+        // Return: exact phrase first, then all words
+        return [...exactPhraseResults, ...allWordsResults].slice(0, maxResults);
+    } else {
+        // Single word search (original logic)
+        const results = [];
+        const seen = new Set();
+        const word = words[0];
+        const cleanWord = word.replace(/[^a-z0-9]/gi, '').toLowerCase();
+        
+        if (cleanWord.length < 2) return [];
+        
+        const chunkNumbers = getChunksForWord(cleanWord, index);
+        await loadChunks(chunkNumbers, env);
+        
+        for (const chunkNum of chunkNumbers) {
+            const chunk = chunkCache.get(chunkNum);
+            if (!chunk || !(cleanWord in chunk)) continue;
+            
+            for (const entry of chunk[cleanWord]) {
+                const key = `${entry.kannada}-${entry.english}`;
+                if (!seen.has(key) && results.length < maxResults) {
+                    seen.add(key);
+                    results.push({
+                        kannada: cleanKannadaEntry(entry.kannada),
+                        definition: entry.english,
+                        type: entry.type || 'Noun',
+                        source: entry.source || '',
+                        dict_title: entry.dict_title || '',
+                        matchedWord: word,
+                        matchType: 'direct'
+                    });
+                }
+            }
+        }
+        
+        return results;
     }
-    
-    return results;
 }
 
 // Main request handler
