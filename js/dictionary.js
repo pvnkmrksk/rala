@@ -2,6 +2,105 @@
 // dictionary.js - Dictionary loading, caching, and reverse index building
 // ============================================================================
 
+// Load Alar from YAML (fast, original way - for offline support when Worker API is enabled)
+async function loadAlarFromYAML() {
+    try {
+        console.log('📚 Loading Alar from YAML (fast, original way)...');
+        
+        // Check cache first
+        const bypassCache = shouldBypassCache();
+        const cachedVersion = await getCachedVersion();
+        const versionMatches = cachedVersion === CACHE_VERSION;
+        
+        if (!bypassCache && versionMatches) {
+            try {
+                const cachedData = await getCachedDictionary();
+                if (cachedData) {
+                    if (Array.isArray(cachedData)) {
+                        // Filter to only Alar entries
+                        const alarEntries = cachedData.filter(e => e.source === 'alar');
+                        if (alarEntries.length > 0) {
+                            dictionary = alarEntries;
+                            dictionaryReady = true;
+                            console.log(`✓ Loaded ${alarEntries.length} Alar entries from cache`);
+                            
+                            // Load reverse index
+                            try {
+                                await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
+                                console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
+                            } catch (error) {
+                                console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
+                                buildReverseIndex();
+                                console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
+                            }
+                            return;
+                        }
+                    } else if (cachedData.alar && Array.isArray(cachedData.alar)) {
+                        dictionary = cachedData.alar;
+                        dictionaryReady = true;
+                        console.log(`✓ Loaded ${dictionary.length} Alar entries from cache`);
+                        
+                        // Load reverse index
+                        try {
+                            await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
+                            console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
+                        } catch (error) {
+                            console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
+                            buildReverseIndex();
+                            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
+                        }
+                        return;
+                    }
+                }
+            } catch (error) {
+                console.warn('Failed to load from cache:', error);
+            }
+        }
+        
+        // Fetch from YAML (the original fast way)
+        console.log('Fetching Alar dictionary from YAML...');
+        const primaryEntries = await fetchDictionaryFile(PRIMARY_DICTIONARY);
+        
+        if (!primaryEntries || !Array.isArray(primaryEntries)) {
+            throw new Error('Failed to load Alar dictionary');
+        }
+        
+        // Add source info
+        primaryEntries.forEach(entry => {
+            if (!entry.dict_title) entry.dict_title = PRIMARY_DICTIONARY.dictTitle;
+            if (!entry.dict_title_kannada) entry.dict_title_kannada = PRIMARY_DICTIONARY.dictTitleKannada;
+            if (!entry.source) entry.source = 'alar';
+        });
+        
+        dictionary = primaryEntries;
+        dictionaryReady = true;
+        console.log(`✓ Loaded ${primaryEntries.length} Alar entries from YAML`);
+        
+        // Load reverse index
+        try {
+            await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
+            console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
+        } catch (error) {
+            console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
+            buildReverseIndex();
+            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
+        }
+        
+        // Cache for offline use
+        try {
+            await setCachedDictionary({ alar: dictionary });
+            await setCachedVersion(CACHE_VERSION);
+            console.log('✓ Alar dictionary cached for offline use');
+        } catch (error) {
+            console.warn('Failed to cache Alar dictionary:', error);
+        }
+    } catch (error) {
+        console.error('Failed to load Alar dictionary:', error);
+        dictionary = [];
+        dictionaryReady = true; // Mark ready even if failed (Worker API will still work)
+    }
+}
+
 // Load dictionary with IndexedDB caching
 async function loadDictionary() {
     // Check if we should bypass cache (URL parameter or version mismatch)

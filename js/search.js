@@ -35,6 +35,53 @@ function isDescription(text) {
 }
 
 // Get word forms (derived words) - e.g., "heal" -> "healer", "healing", "healed"
+// Get word endings/stems using Datamuse API only (no custom logic)
+// Uses Datamuse's spelling pattern search to find word forms
+async function getWordEndings(word) {
+    try {
+        // Use Datamuse API to find word forms (e.g., "escalation" -> "escalate", "escalating")
+        // Search for words starting with the stem (remove common endings first)
+        const endings = ['tion', 'sion', 'ing', 'ed', 'ly', 'ment', 'ness', 'ity', 'able', 'ible', 'er', 'est', 's', 'es'];
+        let stem = word.toLowerCase();
+        let foundStem = false;
+        
+        for (const ending of endings) {
+            if (stem.endsWith(ending) && stem.length > ending.length + 2) {
+                stem = stem.slice(0, -ending.length);
+                foundStem = true;
+                break;
+            }
+        }
+        
+        // If we found a stem, use Datamuse API to find all word forms
+        if (foundStem && stem.length >= 3) {
+            const response = await fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(stem)}*&max=20`);
+            const data = await response.json();
+            
+            const wordForms = [];
+            const wordLower = word.toLowerCase();
+            
+            for (const item of data) {
+                const itemWord = item.word.toLowerCase();
+                // Exclude the original word itself
+                if (itemWord !== wordLower && itemWord.startsWith(stem)) {
+                    // Filter out compound words and phrases
+                    if (!itemWord.includes(' ') && itemWord.length <= stem.length + 8) {
+                        wordForms.push(item.word);
+                    }
+                }
+            }
+            
+            return wordForms;
+        }
+        
+        return [];
+    } catch (error) {
+        console.error('Error getting word endings from API:', error);
+        return [];
+    }
+}
+
 async function getWordForms(word) {
     try {
         const response = await fetch(`${DATAMUSE_API}?rel_der=${encodeURIComponent(word)}&max=10`);
@@ -82,94 +129,31 @@ async function getSynonyms(word) {
     }
 }
 
-// Get word form variants (plurals, adjectives, adverbs, etc.)
+// Get word variants (plurals, verb forms) - DEPRECATED, use getWordEndings instead
 async function getWordVariants(word) {
     try {
-        // Get multiple word form variants in parallel
-        const [spellings, rhymes, soundsLike] = await Promise.all([
-            // Get spelling variants (plurals, past tense, etc.)
-            fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(word)}&max=10`).then(r => r.json()),
-            // Get words that rhyme (often related forms)
-            fetch(`${DATAMUSE_API}?rel_rhy=${encodeURIComponent(word)}&max=5`).then(r => r.json()),
-            // Get words that sound similar (variants)
-            fetch(`${DATAMUSE_API}?sl=${encodeURIComponent(word)}&max=5`).then(r => r.json())
-        ]);
+        // Get spelling variants (plurals, past tense, etc.) - but be careful
+        const response = await fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(word)}&max=10`);
+        const data = await response.json();
         
         const variants = [];
-        
-        // Add spelling variants (plurals, verb forms, etc.)
-        for (const item of spellings) {
+        for (const item of data) {
             if (item.word && item.word !== word) {
                 variants.push(item.word);
             }
         }
         
-        // Add rhyming words (often related forms)
-        for (const item of rhymes) {
-            if (item.word && item.word !== word && item.score > 50000) {
-                variants.push(item.word);
-            }
-        }
-        
-        // Add similar-sounding words (variants)
-        for (const item of soundsLike) {
-            if (item.word && item.word !== word && item.score > 50000) {
-                variants.push(item.word);
-            }
-        }
-        
-        return [...new Set(variants)].slice(0, 10); // Limit to top 10
+        return variants;
     } catch {
         return [];
     }
 }
 
-// Get words with similar meaning (very conservative - only actual synonyms)
+// Get similar words - REMOVED (was giving false positives like "exhalation", "excavation")
+// Use only word endings and proper synonyms (rel_syn) instead
 async function getSimilarWords(word) {
-    try {
-        // Use means-like but be very selective
-        const response = await fetch(`${DATAMUSE_API}?ml=${encodeURIComponent(word)}&max=20`);
-        const data = await response.json();
-        
-        // Get antonyms for this specific word to filter them out
-        const antResponse = await fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`);
-        const antonyms = await antResponse.json();
-        const antonymSet = new Set(antonyms.map(item => item.word.toLowerCase()));
-        
-        // Filter very aggressively:
-        // 1. Only include words with "syn" tag (actual synonyms from Datamuse)
-        // 2. Exclude antonyms for THIS specific word
-        // 3. Exclude words with negative prefixes
-        // 4. High score threshold
-        const filtered = data
-            .filter(item => {
-                // Must have high score
-                if (!item.score || item.score < 5000000) return false;
-                
-                const wLower = item.word.toLowerCase();
-                
-                // Exclude antonyms for THIS word
-                if (antonymSet.has(wLower)) return false;
-                
-                // Exclude if word contains negative prefixes
-                if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti')) {
-                    return false;
-                }
-                
-                // CRITICAL: Only include words with "syn" tag (actual synonyms)
-                // This ensures we don't get related words that aren't synonyms
-                const hasSynTag = item.tags && item.tags.includes('syn');
-                if (!hasSynTag) return false; // Reject if not a synonym
-                
-                return true;
-            })
-            .map(item => item.word)
-            .slice(0, 5); // Limit to top 5 (very conservative)
-        
-        return filtered;
-    } catch {
-        return [];
-    }
+    // Disabled - was giving too many false positives
+    return [];
 }
 
 function isExactDefinition(definition) {
@@ -285,22 +269,151 @@ function textContains(text, pattern) {
     return text.toLowerCase().includes(pattern.toLowerCase());
 }
 
+// Helper: Check if text contains word as a whole word (not substring)
+// e.g., "test" matches "test" but NOT "detest" or "testing"
+function containsWholeWord(text, word) {
+    if (!text || !word) return false;
+    // Escape special regex characters in word
+    const escapedWord = word.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
+    // Use word boundary regex to match whole words only
+    const regex = new RegExp(`\\b${escapedWord}\\b`, 'i');
+    return regex.test(text);
+}
+
+// Search Alar dictionary locally (for offline support)
+function searchLocalAlar(query) {
+    if (!dictionary || dictionary.length === 0) {
+        return [];
+    }
+    
+    const queryLower = query.toLowerCase().trim();
+    const words = queryLower.split(/\s+/).filter(w => w.length > 0);
+    const results = [];
+    const seen = new Set();
+    
+    // Filter to only Alar entries
+    const alarEntries = dictionary.filter(e => e.source === 'alar');
+    
+    if (words.length === 1) {
+        // Single word search - use whole word matching only (no substring matching)
+        const word = words[0];
+        for (const entry of alarEntries) {
+            if (!entry.defs) continue;
+            for (const def of entry.defs) {
+                if (!def.entry) continue;
+                // Use whole word matching - "test" won't match "detest"
+                if (containsWholeWord(def.entry, word)) {
+                    const key = `${entry.entry}-${def.entry}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        results.push({
+                            kannada: entry.entry,
+                            phone: entry.phone || '',
+                            definition: def.entry,
+                            type: def.type || 'Noun',
+                            head: entry.head || '',
+                            id: entry.id || '',
+                            dict_title: entry.dict_title || '',
+                            source: entry.source || 'alar',
+                            matchedWord: word,
+                            matchType: 'direct'
+                        });
+                    }
+                }
+            }
+        }
+    } else {
+        // Multi-word search - check for exact phrase first, then all words as whole words
+        const exactPhrase = queryLower;
+        for (const entry of alarEntries) {
+            if (!entry.defs) continue;
+            for (const def of entry.defs) {
+                if (!def.entry) continue;
+                const defLower = def.entry.toLowerCase();
+                // First try exact phrase match
+                if (defLower.includes(exactPhrase)) {
+                    const key = `${entry.entry}-${def.entry}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        results.push({
+                            kannada: entry.entry,
+                            phone: entry.phone || '',
+                            definition: def.entry,
+                            type: def.type || 'Noun',
+                            head: entry.head || '',
+                            id: entry.id || '',
+                            dict_title: entry.dict_title || '',
+                            source: entry.source || 'alar',
+                            matchedWord: exactPhrase,
+                            matchType: 'exact-phrase'
+                        });
+                    }
+                } else {
+                    // Then check if all words appear as whole words
+                    const allWordsMatch = words.every(w => containsWholeWord(def.entry, w));
+                    if (allWordsMatch) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            results.push({
+                                kannada: entry.entry,
+                                phone: entry.phone || '',
+                                definition: def.entry,
+                                type: def.type || 'Noun',
+                                head: entry.head || '',
+                                id: entry.id || '',
+                                dict_title: entry.dict_title || '',
+                                source: entry.source || 'alar',
+                                matchedWord: exactPhrase,
+                                matchType: 'all-words'
+                            });
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // Sort by priority
+    results.sort((a, b) => {
+        const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
+        const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
+        if (aPriority !== bPriority) {
+            return aPriority - bPriority;
+        }
+        return cleanKannadaEntry(a.kannada).localeCompare(cleanKannadaEntry(b.kannada));
+    });
+    
+    return results;
+}
+
 async function searchDirect(query) {
-    // If Worker API is configured, use server-side search
+    // If Worker API is configured, search Alar locally (fast) + Padakanaja from API (on-demand)
     if (WORKER_API_URL) {
         try {
-            console.log(`🔍 Searching via Worker API: ${query}`);
             const startTime = performance.now();
-            const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`);
-            if (!response.ok) {
-                throw new Error(`Worker API error: ${response.status}`);
-            }
-            const data = await response.json();
-            const searchTime = performance.now() - startTime;
-            console.log(`✅ Worker API returned ${data.count || data.results?.length || 0} results in ${searchTime.toFixed(0)}ms`);
             
-            // Convert Worker response format to client format
-            const results = data.results.map(result => ({
+            // Search Alar locally (fast, already loaded) and Padakanaja from API in parallel
+            const [localResults, workerResponse] = await Promise.all([
+                // Search Alar locally (if dictionary is loaded)
+                Promise.resolve(
+                    dictionaryReady && dictionary && dictionary.length > 0 
+                        ? searchLocalAlar(query) 
+                        : []
+                ),
+                // Fetch Padakanaja from Worker API (on-demand, like synonyms)
+                fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`)
+            ]);
+            
+            if (!workerResponse.ok) {
+                throw new Error(`Worker API error: ${workerResponse.status}`);
+            }
+            
+            const data = await workerResponse.json();
+            const searchTime = performance.now() - startTime;
+            
+            // Convert Worker response format to client format (Padakanaja results)
+            const padakanajaResults = data.results.map(result => ({
                 kannada: result.kannada,
                 phone: result.phone || '',
                 definition: result.definition,
@@ -313,10 +426,43 @@ async function searchDirect(query) {
                 matchType: result.matchType || 'direct'
             }));
             
-            // Progressive rendering: return results immediately (they're already sorted)
-            return results;
+            // Combine Alar (local) + Padakanaja (API) results
+            const seen = new Set();
+            const combinedResults = [];
+            
+            // Add Alar results first (local, fast)
+            for (const result of localResults) {
+                const key = `${result.kannada}-${result.definition}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    combinedResults.push(result);
+                }
+            }
+            
+            // Add Padakanaja results (from API, avoid duplicates)
+            for (const result of padakanajaResults) {
+                const key = `${result.kannada}-${result.definition}`;
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    combinedResults.push(result);
+                }
+            }
+            
+            console.log(`🔍 Search "${query}" (v2.2): ${localResults.length} Alar + ${padakanajaResults.length} Padakanaja = ${combinedResults.length} total (${searchTime.toFixed(0)}ms)`);
+            
+            // Sort combined results (same priority logic as before)
+            combinedResults.sort((a, b) => {
+                const aPriority = getDefinitionPriority(a.definition, a.matchedWord || query, a.kannada);
+                const bPriority = getDefinitionPriority(b.definition, b.matchedWord || query, b.kannada);
+                if (aPriority !== bPriority) {
+                    return aPriority - bPriority;
+                }
+                return cleanKannadaEntry(a.kannada).localeCompare(cleanKannadaEntry(b.kannada));
+            });
+            
+            return combinedResults;
         } catch (error) {
-            console.warn('⚠️ Worker API search failed, falling back to client-side:', error);
+            console.error('❌ Worker API search failed:', error);
             // Fall through to client-side search
         }
     }
@@ -629,10 +775,9 @@ async function searchDirect(query) {
             }
         }
         
-        // Filter to only those that contain all words
+        // Filter to only those that contain all words (as whole words)
         for (const [key, entry] of candidateEntries.entries()) {
-            const defLower = entry.definition.toLowerCase();
-            const containsAllWords = words.every(word => defLower.includes(word));
+            const containsAllWords = words.every(word => containsWholeWord(entry.definition, word));
             if (containsAllWords) {
                 seen.add(key);
                 allWordsResults.push({ 
@@ -675,10 +820,8 @@ async function searchDirect(query) {
                     
                     for (const def of entry.defs) {
                         if (!def.entry) continue;
-                        const defLower = def.entry.toLowerCase();
-                        
-                        // Check if definition contains the word
-                        if (defLower.includes(word.toLowerCase())) {
+                        // Check if definition contains the word (as whole word)
+                        if (containsWholeWord(def.entry, word)) {
                             const key = `${entry.entry}-${def.entry}`;
                             if (!seen.has(key)) {
                                 seen.add(key);
@@ -768,10 +911,8 @@ async function searchDirect(query) {
                 
                 for (const def of entry.defs) {
                     if (!def.entry) continue;
-                    const defLower = def.entry.toLowerCase();
-                    
-                    // Check if definition contains the word
-                    if (defLower.includes(word)) {
+                    // Check if definition contains the word (as whole word)
+                    if (containsWholeWord(def.entry, word)) {
                         const key = `${entry.entry}-${def.entry}`;
                         if (!seen.has(key)) {
                             seen.add(key);
@@ -840,22 +981,20 @@ async function searchWithSynonyms(query) {
     const isMultiWord = words.length > 1;
     const queryLower = query.toLowerCase().trim();
     
-    // If Worker API is enabled, use Datamuse for synonyms + Worker API for search
+    // If Worker API is enabled, use Datamuse for word endings + synonyms + Worker API for search
     if (WORKER_API_URL) {
-        // Get word forms (derivatives, plurals, adjectives, adverbs, etc.) and synonyms
-        const [wordForms, synonyms, wordVariants] = await Promise.all([
-            getWordForms(queryLower),
-            getSynonyms(queryLower),
-            getWordVariants(queryLower)  // New: Get all word form variants
-        ]);
+        // STEP 1: Get word endings FIRST (e.g., "escalation" -> "escalate", "escalating")
+        // This is the most important - should be checked BEFORE synonyms!
+        const wordEndings = await getWordEndings(queryLower);
         
-        let relatedWords = [...new Set([...wordForms, ...synonyms, ...wordVariants])];
+        // STEP 2: Get actual synonyms (only rel_syn, no means-like or sounds-like)
+        const synonyms = await getSynonyms(queryLower);
         
-        // Only add similar words if we have very few results (less than 3)
-        if (relatedWords.length < 3) {
-            const similar = await getSimilarWords(queryLower);
-            relatedWords = [...new Set([...relatedWords, ...similar])];
-        }
+        // Combine: word endings first, then synonyms
+        let relatedWords = [...new Set([...wordEndings, ...synonyms])];
+        
+        console.log(`🔍 Word endings for "${queryLower}": ${wordEndings.join(', ') || 'none'}`);
+        console.log(`🔍 Synonyms for "${queryLower}": ${synonyms.join(', ') || 'none'}`);
         
         if (relatedWords.length === 0) {
             return { results: [], synonymsUsed: {} };
@@ -983,10 +1122,8 @@ async function searchWithSynonyms(query) {
                         
                         for (const def of entry.defs) {
                             if (!def.entry) continue;
-                            const defLower = def.entry.toLowerCase();
-                            
-                            // Check if definition contains the synonym word
-                            if (defLower.includes(relWord.toLowerCase())) {
+                            // Check if definition contains the synonym word (as whole word)
+                            if (containsWholeWord(def.entry, relWord)) {
                                 const key = `${entry.entry}-${def.entry}`;
                                 if (!seen.has(key)) {
                                     seen.add(key);
@@ -1113,10 +1250,8 @@ async function searchWithSynonyms(query) {
                     
                     for (const def of entry.defs) {
                         if (!def.entry) continue;
-                        const defLower = def.entry.toLowerCase();
-                        
-                        // Check if definition contains the synonym word
-                        if (defLower.includes(relWord.toLowerCase())) {
+                        // Check if definition contains the synonym word (as whole word)
+                        if (containsWholeWord(def.entry, relWord)) {
                             const key = `${entry.entry}-${def.entry}`;
                             if (!seen.has(key)) {
                                 seen.add(key);

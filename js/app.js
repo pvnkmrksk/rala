@@ -4,41 +4,75 @@
 
 // Initialize
 async function init() {
+    const initStartTime = performance.now();
+    console.log('🚀 RALA v2.2 - INIT STARTING (NEW VERSION - CHECK THIS MESSAGE!)');
+    
     try {
         // Initialize dark mode first
         initDarkMode();
         
-        // If Worker API is available, skip loading dictionaries (searches use Worker API)
+        // Remove loading spinner immediately (no animation, instant)
+        const loadingEl = document.getElementById('initial-loading');
+        if (loadingEl) {
+            loadingEl.remove();
+            console.log('✅ Loading spinner removed immediately');
+        } else {
+            console.warn('⚠️ Loading spinner not found (may have been removed already)');
+        }
+        
+        // If Worker API is available, load Alar from YAML (fast, original way) - async in background
+        // Padakanaja will be loaded on-demand via API (like synonyms)
         if (!WORKER_API_URL) {
             await loadDictionary();
             // buildReverseIndex is now only needed if pre-built index fails (handled in loadDictionary)
             // Don't call it here as it's already handled
         } else {
-            console.log('🚀 Worker API enabled - skipping client-side dictionary load');
-            dictionaryReady = true; // Mark as ready so UI doesn't wait
+            console.log('🚀 Worker API enabled - loading Alar in background');
+            
+            // Pre-warm Worker with a dummy call (make it hot and ready)
+            const preWarmStartTime = performance.now();
+            const preWarmPromise = fetch(`${WORKER_API_URL}?q=elytra`)
+                .then(() => {
+                    const preWarmTime = performance.now() - preWarmStartTime;
+                    console.log(`🔥 Pre-warm Worker API: ${preWarmTime.toFixed(0)}ms`);
+                })
+                .catch(error => {
+                    const preWarmTime = performance.now() - preWarmStartTime;
+                    console.warn(`⚠️ Pre-warm Worker API failed (${preWarmTime.toFixed(0)}ms):`, error);
+                });
+            
+            // Load Alar from YAML async in background (don't block UI)
+            const alarLoadStartTime = performance.now();
+            loadAlarFromYAML()
+                .then(() => {
+                    const alarLoadTime = performance.now() - alarLoadStartTime;
+                    dictionaryReady = true;
+                    console.log(`✓ Alar loaded in background: ${alarLoadTime.toFixed(0)}ms`);
+                })
+                .catch(error => {
+                    const alarLoadTime = performance.now() - alarLoadStartTime;
+                    console.error(`❌ Failed to load Alar in background (${alarLoadTime.toFixed(0)}ms):`, error);
+                    dictionaryReady = true; // Mark ready anyway (Worker API will still work)
+                });
+            
+            dictionaryReady = true; // Mark as ready immediately (UI doesn't wait)
+            
+            // Log total init time
+            const initTime = performance.now() - initStartTime;
+            console.log(`⚡ Site ready in: ${initTime.toFixed(0)}ms (v2.2 - NEW VERSION)`);
         }
         
-        // Remove loading message
-        // If Worker API is enabled, remove immediately (no dictionary loading needed)
-        // Otherwise, wait for dictionary to load
+        // Remove loading message (already done above, but keep this for non-Worker path)
         const removeLoading = () => {
             const loadingEl = app.querySelector('.loading');
-            if (loadingEl && (WORKER_API_URL || dictionaryReady)) {
+            if (loadingEl && dictionaryReady) {
                 loadingEl.remove();
                 return true;
             }
             return false;
         };
         
-        // If Worker API is enabled, update loading text and remove immediately
-        if (WORKER_API_URL) {
-            const loadingText = document.getElementById('loading-text');
-            if (loadingText) {
-                loadingText.textContent = 'Ready to search';
-            }
-            // Small delay to show "Ready" message briefly
-            setTimeout(() => removeLoading(), 300);
-        } else {
+        if (!WORKER_API_URL) {
             // Try immediately first (Alar might already be loaded from cache)
             if (!removeLoading()) {
                 // If not ready yet, check every 50ms (faster on mobile) until ready
@@ -91,7 +125,7 @@ function renderApp(initialQuery = '') {
         </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
-            ${WORKER_API_URL ? '478,680 entries | 38,746 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
+            ${WORKER_API_URL ? '478,680 entries | 103,585 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
         </div>
     `;
     
@@ -270,18 +304,47 @@ function renderApp(initialQuery = '') {
         resultsDiv.innerHTML = renderResults([], [], {}, query, true, false);
         switchTab('exact');
         
-        // Step 1: Search direct matches
+        // Step 1: Search direct matches with progressive rendering
         const startTime = performance.now();
-        directResults = await searchDirect(query);
+        
+        // Start search (non-blocking for UI updates)
+        const searchPromise = searchDirect(query);
+        
+        // Progressive rendering: Show results as they come in
+        // Update UI every 100ms to show progress
+        let lastUpdate = Date.now();
+        const updateInterval = setInterval(() => {
+            // This will be updated when search completes
+        }, 100);
+        
+        directResults = await searchPromise;
+        clearInterval(updateInterval);
+        
         const searchTime = performance.now() - startTime;
         console.log(`Search completed in ${searchTime.toFixed(0)}ms`);
         
         tabExactCount.textContent = ` (${directResults.length})`;
         tabExactSpinner.style.display = 'none';
         
-        // Progressive rendering: Update UI with direct results immediately
-        // Add fade-in animation for smooth appearance
-        resultsDiv.innerHTML = renderResults(directResults, [], {}, query, false, false);
+        // Progressive rendering: Update UI with direct results
+        // Render in batches for smooth animation
+        const batchSize = 50;
+        const totalBatches = Math.ceil(directResults.length / batchSize);
+        
+        if (directResults.length > 0) {
+            // Render first batch immediately
+            const firstBatch = directResults.slice(0, batchSize);
+            resultsDiv.innerHTML = renderResults(firstBatch, [], {}, query, false, false);
+            
+            // Render remaining batches progressively
+            for (let i = 1; i < totalBatches; i++) {
+                await new Promise(resolve => setTimeout(resolve, 50)); // Small delay between batches
+                const batch = directResults.slice(0, (i + 1) * batchSize);
+                resultsDiv.innerHTML = renderResults(batch, [], {}, query, false, false);
+            }
+        } else {
+            resultsDiv.innerHTML = renderResults([], [], {}, query, false, false);
+        }
         
         // Trigger CSS animation for results
         requestAnimationFrame(() => {
@@ -290,16 +353,37 @@ function renderApp(initialQuery = '') {
                 card.style.opacity = '0';
                 card.style.transform = 'translateY(10px)';
                 setTimeout(() => {
-                    card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                    card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
                     card.style.opacity = '1';
                     card.style.transform = 'translateY(0)';
-                }, index * 20); // Stagger animation
+                }, index * 10); // Faster stagger for smoother feel
             });
         });
         
-        // Step 2: Load synonyms with delay (500ms) or immediately if Enter was pressed
+        // Step 2: Auto-trigger synonym search if no direct results, or load synonyms with delay
         // Synonym search now works with Worker API (uses client-side Datamuse + Worker API)
-        if (fromEnter) {
+        if (directResults.length === 0) {
+            // No direct results - automatically trigger synonym search
+            console.log('No direct results found, automatically searching synonyms...');
+            tabSynonymSpinner.style.display = 'inline-block';
+            synonymSearchInProgress = true;
+            const synonymStartTime = performance.now();
+            const synonymData = await searchWithSynonyms(query);
+            synonymResults = synonymData.results || [];
+            synonymsUsed = synonymData.synonymsUsed || {};
+            const synonymTime = performance.now() - synonymStartTime;
+            console.log(`Synonym search completed in ${synonymTime.toFixed(0)}ms, found ${synonymResults.length} results`);
+            synonymSearchInProgress = false;
+            synonymSearchCompleted = true;
+            tabSynonymCount.textContent = ` (${synonymResults.length})`;
+            tabSynonymSpinner.style.display = 'none';
+            
+            // Switch to synonym tab if we have results
+            if (synonymResults.length > 0) {
+                switchTab('synonym');
+                resultsDiv.innerHTML = renderResults([], synonymResults, synonymsUsed, query, false, false);
+            }
+        } else if (fromEnter) {
             // Load immediately if Enter was pressed
             await loadSynonyms(query);
         } else {

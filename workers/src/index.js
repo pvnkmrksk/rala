@@ -1,17 +1,61 @@
 // Cloudflare Worker for Rala Dictionary Search
-// Uses optimized English->Kannada reverse index with lazy chunk loading
+// Simple approach: Two dictionary keys (Padakanaja + Alar), linear search with .includes()
+// This was the original working approach - simple and fast!
 
-// Cache for loaded chunks (keyed by chunk number)
-const chunkCache = new Map();
-let chunkIndex = null;
-let chunkCount = 21;
+// Cache dictionary in Worker memory (stays warm between requests)
+// Only Padakanaja - Alar is loaded client-side for offline support
+let dictionaryCache = null;
+let cacheLoadPromise = null;
 
-// Clean Kannada entry (remove brackets, numbers, etc.)
+// Expand optimized Padakanaja format
+function expandPadakanajaEntries(optimized) {
+    if (Array.isArray(optimized)) {
+        return optimized;
+    }
+    
+    const entries = [];
+    
+    for (const [key, entriesList] of Object.entries(optimized)) {
+        let source, dictTitle;
+        if (key.includes('|')) {
+            [source, dictTitle] = key.split('|', 2);
+        } else {
+            source = key;
+            dictTitle = '';
+        }
+        
+        if (Array.isArray(entriesList)) {
+            for (const entryData of entriesList) {
+                let kannada, english, type;
+                if (entryData.length === 3) {
+                    [kannada, english, type] = entryData;
+                } else {
+                    [kannada, english] = entryData;
+                    type = 'Noun';
+                }
+                
+                entries.push({
+                    entry: kannada,
+                    defs: [{
+                        entry: english,
+                        type: type || 'Noun'
+                    }],
+                    source: source,
+                    dict_title: dictTitle
+                });
+            }
+        }
+    }
+    
+    return entries;
+}
+
+// Clean Kannada entry
 function cleanKannadaEntry(text) {
     if (!text) return '';
     let cleaned = text.replace(/[\[\](){}【】「」〈〉《》『』〔〕［］（）｛｝]/g, '');
     cleaned = cleaned.replace(/[<>"']/g, '');
-    cleaned = cleaned.replace(/\d+/g, ''); // Remove numbers
+    cleaned = cleaned.replace(/\d+/g, '');
     cleaned = cleaned.replace(/\s+/g, ' ').trim();
     return cleaned;
 }
@@ -55,168 +99,133 @@ function getDefinitionPriority(definition, searchWord, kannadaEntry = '') {
     return 9;
 }
 
-// Load chunk index (maps word prefixes to chunk numbers)
-async function loadChunkIndex(env) {
-    if (chunkIndex) {
-        return chunkIndex;
+// Load dictionary from KV (with caching) - Padakanaja only
+// Alar is loaded client-side for offline support
+async function loadDictionary(env) {
+    if (dictionaryCache) {
+        return dictionaryCache;
     }
     
-    try {
-        chunkIndex = await env.DICTIONARY.get('chunk_index', 'json');
-        if (!chunkIndex) {
-            // Fallback: load all chunks (slower but works)
-            chunkIndex = {};
-        }
-        return chunkIndex;
-    } catch (error) {
-        console.error('Failed to load chunk index:', error);
-        return {};
-    }
-}
-
-// Get chunk numbers that might contain a word
-function getChunksForWord(word, chunkIndex) {
-    const wordLower = word.toLowerCase();
-    const chunks = new Set();
-    
-    // Try prefixes of length 1, 2, 3
-    for (let len = 1; len <= 3 && len <= wordLower.length; len++) {
-        const prefix = wordLower.substring(0, len);
-        if (chunkIndex[prefix]) {
-            for (const chunkNum of chunkIndex[prefix]) {
-                chunks.add(chunkNum);
-            }
-        }
+    if (cacheLoadPromise) {
+        return cacheLoadPromise;
     }
     
-    // If no chunks found, return all chunks (fallback)
-    if (chunks.size === 0) {
-        for (let i = 1; i <= chunkCount; i++) {
-            chunks.add(i);
-        }
-    }
-    
-    return Array.from(chunks);
-}
-
-// Load specific chunk(s) from KV
-async function loadChunks(chunkNumbers, env) {
-    const chunksToLoad = chunkNumbers.filter(num => !chunkCache.has(num));
-    
-    if (chunksToLoad.length === 0) {
-        return; // All chunks already cached
-    }
-    
-    // Load chunks in parallel
-    const promises = chunksToLoad.map(async (chunkNum) => {
+    cacheLoadPromise = (async () => {
         try {
-            const chunk = await env.DICTIONARY.get(`english_reverse_index_part${chunkNum}`, 'json');
-            if (chunk) {
-                chunkCache.set(chunkNum, chunk);
+            // Load only Padakanaja (21MB - fast and works)
+            const data = await env.DICTIONARY.get('combined_dictionaries_ultra', 'json');
+            if (!data) {
+                throw new Error('Dictionary not found in KV');
             }
+            
+            // Expand optimized format
+            dictionaryCache = expandPadakanajaEntries(data);
+            console.log(`Loaded ${dictionaryCache.length} Padakanaja entries from KV`);
+            return dictionaryCache;
         } catch (error) {
-            console.error(`Failed to load chunk ${chunkNum}:`, error);
+            console.error('Failed to load dictionary:', error);
+            throw error;
         }
-    });
+    })();
     
-    await Promise.all(promises);
+    return cacheLoadPromise;
 }
 
-// Get word from cached chunks
-function getWordFromChunks(word) {
-    const wordLower = word.toLowerCase();
-    const results = [];
-    
-    for (const [chunkNum, chunk] of chunkCache.entries()) {
-        if (chunk[wordLower]) {
-            results.push(...chunk[wordLower]);
-        }
-    }
-    
-    return results;
+// Helper: Check if text contains word as a whole word (not substring)
+// e.g., "test" matches "test" but NOT "detest" or "testing"
+function containsWholeWord(text, word) {
+    if (!text || !word) return false;
+    // Escape special regex characters in word
+    const escapedWord = word.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
+    // Use word boundary regex to match whole words only
+    const regex = new RegExp(`\\b${escapedWord}\\b`, 'i');
+    return regex.test(text);
 }
 
-// Search function using lazy-loaded chunks
-async function searchDictionary(query, env) {
+// Search with whole word matching only (no substring matching)
+async function searchDictionary(query, dictionary) {
     const queryLower = query.toLowerCase().trim();
     const words = queryLower.split(/\s+/).filter(w => w.length > 0);
     const isMultiWord = words.length > 1;
-    
-    // Load chunk index
-    const chunkIndex = await loadChunkIndex(env);
-    
-    // Determine which chunks to load
-    const chunksToLoad = new Set();
-    for (const word of words) {
-        const chunks = getChunksForWord(word, chunkIndex);
-        for (const chunkNum of chunks) {
-            chunksToLoad.add(chunkNum);
-        }
-    }
-    
-    // Load required chunks
-    await loadChunks(Array.from(chunksToLoad), env);
+    const maxResults = 2000;
     
     const results = [];
     const seen = new Set();
     
     if (isMultiWord) {
-        // Multi-word: search for exact phrase, then all words
+        // Multi-word: search for exact phrase first, then all words as whole words
         const exactPhrase = queryLower;
-        const phraseResults = getWordFromChunks(exactPhrase);
-        for (const entry of phraseResults) {
-            const key = `${entry.kannada}-${entry.full_definition}`;
-            if (!seen.has(key)) {
-                seen.add(key);
-                results.push({
-                    kannada: cleanKannadaEntry(entry.kannada),
-                    definition: entry.full_definition,
-                    type: entry.type || 'Noun',
-                    source: entry.source || '',
-                    dict_title: '',
-                    matchedWord: exactPhrase,
-                    matchType: 'exact-phrase'
-                });
-            }
-        }
         
-        // All words present
-        for (const word of words) {
-            const wordResults = getWordFromChunks(word);
-            for (const entry of wordResults) {
-                const key = `${entry.kannada}-${entry.full_definition}`;
-                if (!seen.has(key)) {
-                    seen.add(key);
-                    results.push({
-                        kannada: cleanKannadaEntry(entry.kannada),
-                        definition: entry.full_definition,
-                        type: entry.type || 'Noun',
-                        source: entry.source || '',
-                        dict_title: '',
-                        matchedWord: word,
-                        matchType: 'all-words'
-                    });
+        for (const entry of dictionary) {
+            if (results.length >= maxResults) break;
+            if (!entry.defs) continue;
+            for (const def of entry.defs) {
+                if (results.length >= maxResults) break;
+                if (!def.entry) continue;
+                const defLower = def.entry.toLowerCase();
+                
+                // Exact phrase match (substring is OK for phrases)
+                if (defLower.includes(exactPhrase)) {
+                    const key = `${entry.entry}-${def.entry}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        results.push({
+                            kannada: cleanKannadaEntry(entry.entry),
+                            definition: def.entry,
+                            type: def.type || 'Noun',
+                            source: entry.source || '',
+                            dict_title: entry.dict_title || '',
+                            matchedWord: exactPhrase,
+                            matchType: 'exact-phrase'
+                        });
+                    }
+                } else {
+                    // Then check if all words appear as whole words
+                    const allWordsMatch = words.every(w => containsWholeWord(def.entry, w));
+                    if (allWordsMatch) {
+                        const key = `${entry.entry}-${def.entry}`;
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            results.push({
+                                kannada: cleanKannadaEntry(entry.entry),
+                                definition: def.entry,
+                                type: def.type || 'Noun',
+                                source: entry.source || '',
+                                dict_title: entry.dict_title || '',
+                                matchedWord: exactPhrase,
+                                matchType: 'all-words'
+                            });
+                        }
+                    }
                 }
             }
         }
     } else {
-        // Single word search
+        // Single word: use whole word matching only (no substring matching)
         const word = words[0];
-        const wordResults = getWordFromChunks(word);
-        
-        for (const entry of wordResults) {
-            const key = `${entry.kannada}-${entry.full_definition}`;
-            if (!seen.has(key)) {
-                seen.add(key);
-                results.push({
-                    kannada: cleanKannadaEntry(entry.kannada),
-                    definition: entry.full_definition,
-                    type: entry.type || 'Noun',
-                    source: entry.source || '',
-                    dict_title: '',
-                    matchedWord: word,
-                    matchType: 'direct'
-                });
+        for (const entry of dictionary) {
+            if (results.length >= maxResults) break;
+            if (!entry.defs) continue;
+            for (const def of entry.defs) {
+                if (results.length >= maxResults) break;
+                if (!def.entry) continue;
+                
+                // Use whole word matching - "test" won't match "detest"
+                if (containsWholeWord(def.entry, word)) {
+                    const key = `${entry.entry}-${def.entry}`;
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        results.push({
+                            kannada: cleanKannadaEntry(entry.entry),
+                            definition: def.entry,
+                            type: def.type || 'Noun',
+                            source: entry.source || '',
+                            dict_title: entry.dict_title || '',
+                            matchedWord: word,
+                            matchType: 'direct'
+                        });
+                    }
+                }
             }
         }
     }
@@ -237,11 +246,13 @@ async function searchDictionary(query, env) {
 // Main request handler
 export default {
     async fetch(request, env) {
-        // CORS headers
+        // CORS headers (allow all origins including localhost)
+        const origin = request.headers.get('Origin');
         const corsHeaders = {
-            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Origin': origin || '*',
             'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
             'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Max-Age': '86400',
         };
         
         // Handle OPTIONS preflight
@@ -277,8 +288,12 @@ export default {
                 });
             }
             
-            // Search using lazy-loaded chunks
-            const results = await searchDictionary(query.trim(), env);
+            // Load dictionary (cached) - Padakanaja only
+            // Alar is loaded client-side for offline support
+            const dictionary = await loadDictionary(env);
+            
+            // Search with simple linear search (.includes() catches partial matches!)
+            const results = await searchDictionary(query.trim(), dictionary);
             
             // Return results
             return new Response(JSON.stringify({
