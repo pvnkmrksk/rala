@@ -363,12 +363,45 @@ function renderApp(initialQuery = '') {
         // Step 2: Auto-trigger synonym search if no direct results, or load synonyms with delay
         // Synonym search now works with Worker API (uses client-side Datamuse + Worker API)
         if (directResults.length === 0) {
-            // No direct results - automatically trigger synonym search
+            // No direct results - automatically trigger synonym search with progressive loading
             console.log('No direct results found, automatically searching synonyms...');
             tabSynonymSpinner.style.display = 'inline-block';
             synonymSearchInProgress = true;
+            synonymResults = [];
+            synonymsUsed = {};
+            
+            // Switch to synonym tab immediately to show progress
+            switchTab('synonym');
+            resultsDiv.innerHTML = renderResults([], [], {}, query, false, true);
+            
             const synonymStartTime = performance.now();
-            const synonymData = await searchWithSynonyms(query);
+            
+            // Progressive loading callback - update UI as results come in
+            const progressCallback = (currentResults, currentSynonymsUsed) => {
+                synonymResults = currentResults;
+                synonymsUsed = currentSynonymsUsed;
+                tabSynonymCount.textContent = ` (${synonymResults.length})`;
+                
+                // Update UI progressively
+                resultsDiv.innerHTML = renderResults([], synonymResults, synonymsUsed, query, false, true);
+                
+                // Animate new results
+                requestAnimationFrame(() => {
+                    const resultCards = resultsDiv.querySelectorAll('.result-card');
+                    resultCards.forEach((card, index) => {
+                        if (!card.style.opacity || card.style.opacity === '1') return; // Already animated
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(10px)';
+                        setTimeout(() => {
+                            card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, index * 10);
+                    });
+                });
+            };
+            
+            const synonymData = await searchWithSynonyms(query, progressCallback);
             synonymResults = synonymData.results || [];
             synonymsUsed = synonymData.synonymsUsed || {};
             const synonymTime = performance.now() - synonymStartTime;
@@ -378,9 +411,8 @@ function renderApp(initialQuery = '') {
             tabSynonymCount.textContent = ` (${synonymResults.length})`;
             tabSynonymSpinner.style.display = 'none';
             
-            // Switch to synonym tab if we have results
+            // Final render
             if (synonymResults.length > 0) {
-                switchTab('synonym');
                 resultsDiv.innerHTML = renderResults([], synonymResults, synonymsUsed, query, false, false);
             }
         } else if (fromEnter) {
