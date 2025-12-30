@@ -35,13 +35,13 @@ function isDescription(text) {
 }
 
 // Get word forms (derived words) - e.g., "escalation" -> "escalate", "escalating", "escalated"
-// Improved: Uses multiple Datamuse queries for better coverage
+// Tested: Uses sp=stem* and /sug endpoint (both work well)
 async function getWordEndings(word) {
     try {
         const wordLower = word.toLowerCase();
         const wordForms = new Set();
         
-        // Strategy 1: Find stem and search for all forms
+        // Strategy 1: Find stem and use sp=stem* (TESTED - works well)
         const endings = ['tion', 'sion', 'ing', 'ed', 'ly', 'ment', 'ness', 'ity', 'able', 'ible', 'er', 'est', 's', 'es', 'al', 'ic', 'ive'];
         let stem = wordLower;
         let foundStem = false;
@@ -54,28 +54,32 @@ async function getWordEndings(word) {
             }
         }
         
-        // Strategy 2: Try multiple Datamuse queries in parallel
+        // Strategy 2: Use Datamuse /sug endpoint (TESTED - works well, simpler)
+        // This gives word suggestions based on the stem
         const queries = [];
         
         if (foundStem && stem.length >= 3) {
-            // Query 1: Words starting with stem (covers most forms)
-            queries.push(fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(stem)}*&max=30`));
+            // Query 1: sp=stem* (TESTED - finds escalate, escalating, escalated, etc.)
+            queries.push(fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(stem)}*&max=25`));
             
-            // Query 2: Words that sound similar (catches variations)
-            queries.push(fetch(`${DATAMUSE_API}?sl=${encodeURIComponent(stem)}&max=20`));
-            
-            // Query 3: Words that rhyme (catches related forms)
-            queries.push(fetch(`${DATAMUSE_API}?rel_rhy=${encodeURIComponent(stem)}&max=15`));
+            // Query 2: /sug endpoint (TESTED - also works well)
+            queries.push(fetch(`https://api.datamuse.com/sug?s=${encodeURIComponent(stem)}`));
+        } else {
+            // If no stem found, try direct pattern
+            queries.push(fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(wordLower)}*&max=20`));
         }
         
-        // Query 4: Direct spelling pattern for the word itself (catches plurals, verb forms)
-        queries.push(fetch(`${DATAMUSE_API}?sp=${encodeURIComponent(wordLower)}*&max=20`));
-        
-        // Query 5: Words that follow the pattern (lc=word finds words that follow)
-        queries.push(fetch(`${DATAMUSE_API}?lc=${encodeURIComponent(wordLower)}&max=15`));
-        
         const responses = await Promise.all(queries);
-        const allData = await Promise.all(responses.map(r => r.json()));
+        const allData = await Promise.all(responses.map(async (r) => {
+            const url = r.url;
+            if (url.includes('/sug')) {
+                // /sug returns array of objects with 'word' and 'score'
+                const data = await r.json();
+                return data.map(item => ({ word: item.word, score: item.score || 0 }));
+            } else {
+                return r.json();
+            }
+        }));
         
         // Process all results
         for (const data of allData) {
@@ -86,26 +90,20 @@ async function getWordEndings(word) {
                 // Exclude the original word
                 if (itemWord === wordLower) continue;
                 
-                // Must start with stem (if we found one) or be related
-                if (foundStem && !itemWord.startsWith(stem)) {
-                    // Allow if it's a close variation (e.g., "escalate" from "escalation")
-                    const stemLen = stem.length;
-                    if (itemWord.length < stemLen - 2 || itemWord.length > stemLen + 8) continue;
-                    if (!itemWord.substring(0, Math.min(stemLen, itemWord.length)) === stem.substring(0, Math.min(stemLen, itemWord.length))) {
-                        continue;
-                    }
-                }
+                // Must start with stem (if we found one)
+                if (foundStem && !itemWord.startsWith(stem)) continue;
                 
                 // Filter out compound words, phrases, and very long words
                 if (itemWord.includes(' ') || itemWord.includes('-')) continue;
-                if (itemWord.length > wordLower.length + 10) continue;
+                if (itemWord.length > wordLower.length + 8) continue;
+                if (itemWord.length < stem.length - 1) continue; // Too short
                 
                 // Add valid word form
                 wordForms.add(item.word);
             }
         }
         
-        return Array.from(wordForms).slice(0, 15); // Limit to top 15
+        return Array.from(wordForms).slice(0, 12); // Limit to top 12
     } catch (error) {
         console.error('Error getting word endings from API:', error);
         return [];
