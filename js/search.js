@@ -990,8 +990,11 @@ async function searchWithSynonyms(query) {
         // STEP 2: Get actual synonyms (only rel_syn, no means-like or sounds-like)
         const synonyms = await getSynonyms(queryLower);
         
-        // Combine: word endings first, then synonyms
-        let relatedWords = [...new Set([...wordEndings, ...synonyms])];
+        // Limit synonyms to top 5 to reduce Worker load (prevents CPU limits)
+        const limitedSynonyms = synonyms.slice(0, 5);
+        
+        // Combine: word endings first, then limited synonyms
+        let relatedWords = [...new Set([...wordEndings, ...limitedSynonyms])];
         
         console.log(`🔍 Word endings for "${queryLower}": ${wordEndings.join(', ') || 'none'}`);
         console.log(`🔍 Synonyms for "${queryLower}": ${synonyms.join(', ') || 'none'}`);
@@ -1076,9 +1079,9 @@ async function searchWithSynonyms(query) {
                 }
             }
             
-            // Small delay between batches to avoid rate limits
+            // Longer delay between batches to avoid CPU limits (Worker needs time to process)
             if (i + BATCH_SIZE < relatedWords.length) {
-                await new Promise(resolve => setTimeout(resolve, 200)); // 200ms delay
+                await new Promise(resolve => setTimeout(resolve, 500)); // 500ms delay (increased from 200ms)
             }
         }
         
