@@ -1044,10 +1044,11 @@ async function searchWithSynonyms(query) {
             return [];
         });
         
-        // Wait for all searches to complete
-        const allResults = await Promise.all(searchPromises);
-        for (const wordResults of allResults) {
-            results.push(...wordResults);
+        // Flatten results (already collected in batches)
+        for (const wordResults of searchPromises) {
+            if (Array.isArray(wordResults)) {
+                results.push(...wordResults);
+            }
         }
         
         return { results, synonymsUsed };
