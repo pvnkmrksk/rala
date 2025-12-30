@@ -207,8 +207,44 @@ function renderApp(initialQuery = '') {
             synonymResults = [];
             synonymsUsed = {};
             
-            // Perform search (this will take time for multiple API calls)
-            const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
+            // Progressive loading callback - update UI as results come in
+            const progressCallback = (currentResults, currentSynonymsUsed) => {
+                // Filter out synonym results that are already in direct results
+                const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
+                const filteredResults = currentResults.filter(r => 
+                    !directKeys.has(`${r.kannada}-${r.definition}`)
+                );
+                
+                synonymResults = filteredResults;
+                synonymsUsed = currentSynonymsUsed;
+                tabSynonymCount.textContent = ` (${synonymResults.length})`;
+                
+                // Update UI progressively (only if synonym tab is active)
+                if (tabSynonym.classList.contains('active')) {
+                    resultsDiv.innerHTML = renderResults(directResults, synonymResults, synonymsUsed, query, false, true);
+                    
+                    // Animate new results
+                    requestAnimationFrame(() => {
+                        const synonymSection = document.getElementById('synonym-matches');
+                        if (synonymSection) {
+                            const resultCards = synonymSection.querySelectorAll('.result-card');
+                            resultCards.forEach((card, index) => {
+                                if (!card.style.opacity || card.style.opacity === '1') return; // Already animated
+                                card.style.opacity = '0';
+                                card.style.transform = 'translateY(10px)';
+                                setTimeout(() => {
+                                    card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+                                    card.style.opacity = '1';
+                                    card.style.transform = 'translateY(0)';
+                                }, index * 10);
+                            });
+                        }
+                    });
+                }
+            };
+            
+            // Perform search with progressive callback
+            const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query, progressCallback);
             
             // Filter out synonym results that are already in direct results
             const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));

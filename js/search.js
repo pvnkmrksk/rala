@@ -1006,7 +1006,7 @@ async function searchDirect(query) {
     }
 }
 
-async function searchWithSynonyms(query) {
+async function searchWithSynonyms(query, progressCallback = null) {
     const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
     const isMultiWord = words.length > 1;
     const queryLower = query.toLowerCase().trim();
@@ -1103,10 +1103,17 @@ async function searchWithSynonyms(query) {
             
             // Wait for batch to complete before starting next batch
             const batchResults = await Promise.all(batchPromises);
+            const newResults = [];
             for (const wordResults of batchResults) {
                 if (Array.isArray(wordResults)) {
+                    newResults.push(...wordResults);
                     results.push(...wordResults);
                 }
+            }
+            
+            // Call progress callback if provided (progressive rendering)
+            if (progressCallback && newResults.length > 0) {
+                progressCallback([...results], {...synonymsUsed});
             }
             
             // Longer delay between batches to avoid CPU limits (Worker needs time to process)
