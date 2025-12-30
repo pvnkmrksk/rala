@@ -24,15 +24,9 @@ async function loadAlarFromYAML() {
                             dictionaryReady = true;
                             console.log(`✓ Loaded ${alarEntries.length} Alar entries from cache`);
                             
-                            // Load reverse index
-                            try {
-                                await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
-                                console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
-                            } catch (error) {
-                                console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
-                                buildReverseIndex();
-                                console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
-                            }
+                            // Build reverse index from entries (no pre-built index)
+                            buildReverseIndex();
+                            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
                             return;
                         }
                     } else if (cachedData.alar && Array.isArray(cachedData.alar)) {
@@ -40,15 +34,9 @@ async function loadAlarFromYAML() {
                         dictionaryReady = true;
                         console.log(`✓ Loaded ${dictionary.length} Alar entries from cache`);
                         
-                        // Load reverse index
-                        try {
-                            await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
-                            console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
-                        } catch (error) {
-                            console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
-                            buildReverseIndex();
-                            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
-                        }
+                        // Build reverse index from entries (no pre-built index)
+                        buildReverseIndex();
+                        console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
                         return;
                     }
                 }
@@ -76,15 +64,9 @@ async function loadAlarFromYAML() {
         dictionaryReady = true;
         console.log(`✓ Loaded ${primaryEntries.length} Alar entries from YAML`);
         
-        // Load reverse index
-        try {
-            await loadPreBuiltReverseIndex(ALAR_REVERSE_INDEX_FILES, ALAR_REVERSE_INDEX_METADATA, 'Alar');
-            console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
-        } catch (error) {
-            console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
-            buildReverseIndex();
-            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
-        }
+                            // Build reverse index from entries (no pre-built index)
+                            buildReverseIndex();
+                            console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
         
         // Cache for offline use
         try {
@@ -524,7 +506,7 @@ async function fetchAndCacheDictionary() {
             console.log(`✓ Alar reverse index loaded. Total words: ${reverseIndex.size}`);
         } catch (error) {
             console.warn('Failed to load pre-built Alar reverse index, building from entries:', error);
-            // Fallback: build from entries if pre-built index fails
+            // Build reverse index from entries (no pre-built index)
             buildReverseIndex();
             console.log(`✓ Alar reverse index built from entries. Total words: ${reverseIndex.size}`);
         }

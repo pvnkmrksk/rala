@@ -33,17 +33,10 @@ const PADAKANAJA_COMBINED_FILES = [
     'padakanaja/combined_dictionaries_ultra.json'
 ];
 
-// Pre-built reverse index for Alar (split into chunks for faster loading)
-const ALAR_REVERSE_INDEX_FILES = [
-    'padakanaja/alar_reverse_index_part1.json',
-    'padakanaja/alar_reverse_index_part2.json',
-    'padakanaja/alar_reverse_index_part3.json',
-    'padakanaja/alar_reverse_index_part4.json',
-    'padakanaja/alar_reverse_index_part5.json',
-    'padakanaja/alar_reverse_index_part6.json',
-    'padakanaja/alar_reverse_index_part7.json'
-];
-const ALAR_REVERSE_INDEX_METADATA = 'padakanaja/alar_reverse_index_metadata.json';
+// Pre-built reverse index for Alar (removed - building from entries instead)
+// Reverse index is now built on-the-fly from entries for simplicity
+const ALAR_REVERSE_INDEX_FILES = []; // Empty - will build from entries
+const ALAR_REVERSE_INDEX_METADATA = null; // Not used
 
 // Padakanaja entries are English->Kannada, so we search directly (no reverse index needed)
 // Reverse index is only for Alar (Kannada->English)
