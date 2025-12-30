@@ -203,11 +203,14 @@ async function searchDictionary(query, dictionary) {
     } else {
         // Single word: use whole word matching only (no substring matching)
         const word = words[0];
+        // Optimize: limit to 500 results max (faster, prevents CPU limits)
+        const maxResultsOptimized = Math.min(maxResults, 500);
+        
         for (const entry of dictionary) {
-            if (results.length >= maxResults) break;
+            if (results.length >= maxResultsOptimized) break; // Early exit
             if (!entry.defs) continue;
             for (const def of entry.defs) {
-                if (results.length >= maxResults) break;
+                if (results.length >= maxResultsOptimized) break; // Early exit
                 if (!def.entry) continue;
                 
                 // Use whole word matching - "test" won't match "detest"
