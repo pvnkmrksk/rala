@@ -64,26 +64,44 @@ function updateURL(query, replace = false) {
     }
 }
 function getAudioUrl(entryId, source = 'alar') {
-    if (!entryId) return null;
+    console.log('🔍 getAudioUrl called:', { entryId, source, entryIdType: typeof entryId });
+    
+    if (!entryId) {
+        console.log('❌ No entryId provided');
+        return null;
+    }
     
     // Alar: uses numeric IDs directly
     if (source === 'alar') {
+        const numericId = typeof entryId === 'string' ? parseInt(entryId, 10) : entryId;
+        if (isNaN(numericId)) {
+            console.log('❌ Invalid Alar ID (not numeric):', entryId);
+            return null;
+        }
+        
         // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
         let rangeStart, rangeEnd;
-        if (entryId <= 9999) {
+        if (numericId <= 9999) {
             rangeStart = 1;
             rangeEnd = 9999;
         } else {
-            rangeStart = Math.floor(entryId / 10000) * 10000;
+            rangeStart = Math.floor(numericId / 10000) * 10000;
             rangeEnd = rangeStart + 9999;
         }
         const range = `${rangeStart}-${rangeEnd}`;
-        return `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${entryId}.mp3`;
+        const url = `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${numericId}.mp3`;
+        console.log('✅ Alar audio URL:', url);
+        return url;
     }
     
     // Padakanaja: uses entry_id (string) but needs sequential_id for range calculation
-    if (source !== 'alar' && padakanajaAudioIndex && padakanajaAudioIndex[entryId]) {
-        const sequentialId = padakanajaAudioIndex[entryId];
+    const entryIdStr = String(entryId);
+    console.log('🔍 Padakanaja lookup:', { entryIdStr, indexLoaded: padakanajaAudioIndex !== null, indexSize: padakanajaAudioIndex ? Object.keys(padakanajaAudioIndex).length : 0 });
+    
+    if (source !== 'alar' && padakanajaAudioIndex && padakanajaAudioIndex[entryIdStr]) {
+        const sequentialId = padakanajaAudioIndex[entryIdStr];
+        console.log('✅ Found sequential_id:', sequentialId, 'for entry_id:', entryIdStr);
+        
         let rangeStart, rangeEnd;
         if (sequentialId <= 9999) {
             rangeStart = 1;
@@ -93,7 +111,15 @@ function getAudioUrl(entryId, source = 'alar') {
             rangeEnd = rangeStart + 9999;
         }
         const range = `${rangeStart}-${rangeEnd}`;
-        return `${PADAKANAJA_VOICE_CORPUS_URL}/audio/${range}/${entryId}.mp3`;
+        const url = `${PADAKANAJA_VOICE_CORPUS_URL}/audio/${range}/${entryIdStr}.mp3`;
+        console.log('✅ Padakanaja audio URL:', url);
+        return url;
+    } else {
+        console.log('❌ Padakanaja entry not found in index:', {
+            entryIdStr,
+            indexLoaded: padakanajaAudioIndex !== null,
+            inIndex: padakanajaAudioIndex ? entryIdStr in padakanajaAudioIndex : false
+        });
     }
     
     return null;
@@ -329,12 +355,25 @@ function copyKannadaWord(buttonId, kannadaWord) {
     });
 }
 function playAudio(buttonId, audioUrl) {
+    console.log('🔊 playAudio called:', { buttonId, audioUrl });
+    
     const button = document.getElementById(buttonId);
-    if (!button) return;
+    if (!button) {
+        console.error('❌ Audio button not found:', buttonId);
+        return;
+    }
+    
+    if (!audioUrl) {
+        console.error('❌ No audio URL provided');
+        return;
+    }
+    
+    console.log('✅ Button found, URL valid:', audioUrl);
     
     // Stop any currently playing audio
     const currentAudio = window.currentPlayingAudio;
     if (currentAudio) {
+        console.log('⏹ Stopping previous audio');
         currentAudio.pause();
         currentAudio.currentTime = 0;
         const prevButton = document.querySelector('.audio-button.playing');
@@ -342,25 +381,52 @@ function playAudio(buttonId, audioUrl) {
     }
     
     // Play new audio
+    console.log('▶️ Creating Audio object and playing...');
     const audio = new Audio(audioUrl);
     window.currentPlayingAudio = audio;
     
     button.classList.add('playing');
     
-    audio.play().catch(err => {
-        console.error('Error playing audio:', err);
+    audio.play().then(() => {
+        console.log('✅ Audio playback started successfully');
+    }).catch(err => {
+        console.error('❌ Error playing audio:', err);
+        console.error('   URL:', audioUrl);
+        console.error('   Error details:', {
+            name: err.name,
+            message: err.message,
+            code: err.code
+        });
         button.classList.remove('playing');
     });
     
     audio.onended = () => {
+        console.log('✅ Audio playback ended');
         button.classList.remove('playing');
         window.currentPlayingAudio = null;
     };
     
-    audio.onerror = () => {
+    audio.onerror = (e) => {
+        console.error('❌ Audio error event:', e);
+        console.error('   URL:', audioUrl);
+        console.error('   Error code:', audio.error?.code);
+        console.error('   Error message:', audio.error?.message);
         button.classList.remove('playing');
         window.currentPlayingAudio = null;
     };
+    
+    // Add load event listener for debugging
+    audio.addEventListener('loadstart', () => {
+        console.log('📥 Audio load started');
+    });
+    
+    audio.addEventListener('loadeddata', () => {
+        console.log('✅ Audio data loaded');
+    });
+    
+    audio.addEventListener('canplay', () => {
+        console.log('✅ Audio can play');
+    });
 }
 
 // Make playAudio available globally

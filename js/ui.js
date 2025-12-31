@@ -174,8 +174,10 @@ function renderResultCard(result, query, isSynonym = false) {
     let showButton = false;
     // Check if result has a valid ID (not empty string)
     // For Padakanaja, always show button if source is not 'alar' and has an ID
-    if (result.id && result.id.trim() !== '') {
-        const cacheKey = `${source}:${result.id}`;
+    // Note: result.id can be a number (Alar) or string (Padakanaja)
+    const idStr = result.id ? String(result.id).trim() : '';
+    if (idStr !== '') {
+        const cacheKey = `${source}:${idStr}`;
         const cached = audioExistenceCache.get(cacheKey);
         if (cached === true) {
             showButton = true; // We know it exists
