@@ -172,7 +172,9 @@ function renderResultCard(result, query, isSynonym = false) {
     // If unknown, show it and check asynchronously
     // Support both Alar and Padakanaja sources
     let showButton = false;
-    if (result.id) {
+    // Check if result has a valid ID (not empty string)
+    // For Padakanaja, always show button if source is not 'alar' and has an ID
+    if (result.id && result.id.trim() !== '') {
         const cacheKey = `${source}:${result.id}`;
         const cached = audioExistenceCache.get(cacheKey);
         if (cached === true) {
@@ -185,6 +187,10 @@ function renderResultCard(result, query, isSynonym = false) {
             // but we'll show the button and let checkAndUpdateAudioButtons handle it
             showButton = true; // Show it and check later
         }
+    } else if (source !== 'alar' && result.dict_title) {
+        // For Padakanaja entries without ID, still try to show button
+        // (some entries might not have IDs in the data)
+        showButton = true; // Show button and let async check handle it
     }
     
     // Get source display text and link
