@@ -153,20 +153,23 @@ async function checkAudioExists(entryId, source = 'alar') {
     }
     
     try {
-        // Use HEAD request to check if file exists without downloading it
-        const response = await fetch(audioUrl, { method: 'HEAD', cache: 'no-cache' });
+        // Use HEAD request with timeout to check if file exists
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 second timeout
+        
+        const response = await fetch(audioUrl, { 
+            method: 'HEAD', 
+            cache: 'no-cache',
+            signal: controller.signal
+        });
+        clearTimeout(timeoutId);
+        
         const exists = response.ok && response.status === 200;
         audioExistenceCache.set(cacheKey, exists);
-        
-        if (!exists) {
-            console.log(`Audio file not found for entry ID ${entryId} (${source}): ${audioUrl}`);
-        }
-        
         return exists;
     } catch (error) {
-        // If there's an error (network, CORS, etc.), assume it doesn't exist
+        // If there's an error (network, timeout, CORS, etc.), assume it doesn't exist
         audioExistenceCache.set(cacheKey, false);
-        console.log(`Error checking audio for entry ID ${entryId} (${source}):`, error);
         return false;
     }
 }
