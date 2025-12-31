@@ -226,41 +226,42 @@ async function checkAndUpdateAudioButtons(results) {
         });
         
         const results_checks = await Promise.all(checkPromises);
-    
-    // Update buttons based on existence
-    results_checks.forEach(({ entryId, source, exists }) => {
-        // Get audio URL now that index is loaded (if it exists)
-        const audioUrl = exists ? getAudioUrl(entryId, source) : null;
         
-        // Find all buttons for this entry ID (include source in selector if needed)
-        const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"][data-source="${source}"]`);
-        if (buttons.length === 0) {
-            // Try without source selector for backward compatibility
-            const fallbackButtons = document.querySelectorAll(`[data-entry-id="${entryId}"]`);
-            fallbackButtons.forEach(button => {
-                if (button.getAttribute('data-source') === source || !button.hasAttribute('data-source')) {
-                    if (exists && audioUrl) {
-                        button.style.display = '';
-                        button.style.opacity = '1';
-                        button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
-                    } else {
-                        button.remove();
+        // Update buttons for this batch
+        results_checks.forEach(({ entryId, source, exists }) => {
+            // Get audio URL now that index is loaded (if it exists)
+            const audioUrl = exists ? getAudioUrl(entryId, source) : null;
+            
+            // Find all buttons for this entry ID (include source in selector if needed)
+            const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"][data-source="${source}"]`);
+            if (buttons.length === 0) {
+                // Try without source selector for backward compatibility
+                const fallbackButtons = document.querySelectorAll(`[data-entry-id="${entryId}"]`);
+                fallbackButtons.forEach(button => {
+                    if (button.getAttribute('data-source') === source || !button.hasAttribute('data-source')) {
+                        if (exists && audioUrl) {
+                            button.style.display = '';
+                            button.style.opacity = '1';
+                            button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
+                        } else {
+                            button.remove();
+                        }
                     }
+                });
+                return;
+            }
+            buttons.forEach(button => {
+                if (exists && audioUrl) {
+                    button.style.display = '';
+                    button.style.opacity = '1';
+                    button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
+                } else {
+                    // Remove the button if it doesn't exist
+                    button.remove();
                 }
             });
-            return;
-        }
-        buttons.forEach(button => {
-            if (exists && audioUrl) {
-                button.style.display = '';
-                button.style.opacity = '1';
-                button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
-            } else {
-                // Remove the button if it doesn't exist
-                button.remove();
-            }
         });
-    });
+    }
 }
 
 function renderResultCard(result, query, isSynonym = false) {
