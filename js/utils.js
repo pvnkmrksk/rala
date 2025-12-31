@@ -206,6 +206,9 @@ async function checkAndUpdateAudioButtons(results) {
     
     // Update buttons based on existence
     results_checks.forEach(({ entryId, source, exists }) => {
+        // Get audio URL now that index is loaded (if it exists)
+        const audioUrl = exists ? getAudioUrl(entryId, source) : null;
+        
         // Find all buttons for this entry ID (include source in selector if needed)
         const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"][data-source="${source}"]`);
         if (buttons.length === 0) {
@@ -213,8 +216,10 @@ async function checkAndUpdateAudioButtons(results) {
             const fallbackButtons = document.querySelectorAll(`[data-entry-id="${entryId}"]`);
             fallbackButtons.forEach(button => {
                 if (button.getAttribute('data-source') === source || !button.hasAttribute('data-source')) {
-                    if (exists) {
+                    if (exists && audioUrl) {
                         button.style.display = '';
+                        button.style.opacity = '1';
+                        button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
                     } else {
                         button.remove();
                     }
@@ -223,8 +228,10 @@ async function checkAndUpdateAudioButtons(results) {
             return;
         }
         buttons.forEach(button => {
-            if (exists) {
+            if (exists && audioUrl) {
                 button.style.display = '';
+                button.style.opacity = '1';
+                button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
             } else {
                 // Remove the button if it doesn't exist
                 button.remove();
