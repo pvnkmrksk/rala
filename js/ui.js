@@ -173,11 +173,16 @@ function renderResultCard(result, query, isSynonym = false) {
     // If unknown, show it and check asynchronously
     // Support both Alar and Padakanaja sources
     let showButton = false;
-    // Check if result has a valid ID (not empty string)
+    // Check if result has a valid ID (not empty string, null, or undefined)
     // For Padakanaja, always show button if source is not 'alar' and has an ID
     // Note: result.id can be a number (Alar) or string (Padakanaja)
-    // Use != null to handle both null/undefined and 0 (which is falsy but valid)
-    const idStr = (result.id != null && result.id !== '') ? String(result.id).trim() : '';
+    // Handle null, undefined, empty string, and 0 (which is falsy but valid for Alar)
+    let idStr = '';
+    if (result.id !== null && result.id !== undefined && result.id !== '') {
+        // Convert to string and trim, handling both numbers and strings
+        const idValue = String(result.id);
+        idStr = idValue.trim();
+    }
     if (idStr !== '') {
         const cacheKey = `${source}:${idStr}`;
         const cached = audioExistenceCache.get(cacheKey);
