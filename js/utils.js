@@ -311,54 +311,6 @@ async function checkAndUpdateAudioButtons(results) {
     }
 }
 
-function renderResultCard(result, query, isSynonym = false) {
-    const highlightedDef = highlightMatch(result.definition, result.matchedWord, result.matchType);
-    const audioUrl = result.id ? getAudioUrl(result.id) : null;
-    const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
-    const copyId = `copy-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
-    
-    // Check cache first - if we know it doesn't exist, don't show button
-    // If unknown, show it and check asynchronously
-    let showButton = false;
-    if (audioUrl && result.id) {
-        const cached = audioExistenceCache.get(result.id);
-        if (cached === true) {
-            showButton = true; // We know it exists
-        } else if (cached === false) {
-            showButton = false; // We know it doesn't exist
-        } else {
-            showButton = true; // Unknown - show it and check later
-        }
-    }
-    
-    return `
-        <div class="result-card">
-            <div class="kannada-word">
-                ${showButton && audioUrl ? `
-                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')" title="Play pronunciation">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M8 5v14l11-7z"/>
-                        </svg>
-                    </button>
-                ` : ''}
-                <span>${result.kannada}</span>
-                <button class="copy-button" id="${copyId}" onclick="copyKannadaWord('${copyId}', '${result.kannada.replace(/'/g, "\\'")}')" title="Copy Kannada word">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="phonetic">${result.phone || ''}</div>
-            <div class="definition selectable">
-                <span class="def-type">${result.type || 'n/a'}</span>
-                <span class="def-text">${highlightedDef}</span>
-            </div>
-            ${isSynonym ? `<div class="synonym-match">matched via synonym: "${result.matchedWord}" (searched: "${result.originalQuery}")</div>` : ''}
-        </div>
-    `;
-}
-
 function copyKannadaWord(buttonId, kannadaWord) {
     navigator.clipboard.writeText(kannadaWord).then(() => {
         const button = document.getElementById(buttonId);
