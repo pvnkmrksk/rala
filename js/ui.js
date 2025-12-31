@@ -172,7 +172,7 @@ function renderResultCard(result, query, isSynonym = false) {
     // If unknown, show it and check asynchronously
     // Support both Alar and Padakanaja sources
     let showButton = false;
-    if (audioUrl && result.id) {
+    if (result.id) {
         const cacheKey = `${source}:${result.id}`;
         const cached = audioExistenceCache.get(cacheKey);
         if (cached === true) {
@@ -180,7 +180,10 @@ function renderResultCard(result, query, isSynonym = false) {
         } else if (cached === false) {
             showButton = false; // We know it doesn't exist
         } else {
-            showButton = true; // Unknown - show it and check later
+            // Unknown - show button for both Alar and Padakanaja
+            // For Padakanaja, audioUrl might be null if index isn't loaded yet,
+            // but we'll show the button and let checkAndUpdateAudioButtons handle it
+            showButton = true; // Show it and check later
         }
     }
     
@@ -221,8 +224,8 @@ function renderResultCard(result, query, isSynonym = false) {
     return `
         <div class="result-card">
             <div class="kannada-word">
-                ${showButton && audioUrl ? `
-                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" data-source="${source}" onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')" title="Play pronunciation">
+                ${showButton ? `
+                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" data-source="${source}" ${audioUrl ? `onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')"` : ''} title="Play pronunciation" style="opacity: ${audioUrl ? '1' : '0.5'};">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M8 5v14l11-7z"/>
                         </svg>
