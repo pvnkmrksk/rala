@@ -3,15 +3,27 @@
 Create reverse index for Padakanaja dictionary only
 Maps English words -> List of Kannada entries
 Optimized for Cloudflare KV (split into chunks < 25MB)
+Includes entry IDs for audio support
 """
 
 import json
 import os
 import sys
+import hashlib
+import re
 from collections import defaultdict
 
+def generate_entry_id(kannada_word, english_word, index=0):
+    """Generate entry ID matching the format used in voice corpus"""
+    unique_str = f"{kannada_word}|{english_word}|{index}"
+    hash_obj = hashlib.md5(unique_str.encode('utf-8'))
+    hash_hex = hash_obj.hexdigest()[:12]
+    english_clean = re.sub(r'[^\w]', '', english_word.lower())[:10]
+    entry_id = f"{english_clean}_{hash_hex}"
+    return entry_id
+
 def load_padakanaja():
-    """Load Padakanaja dictionary from optimized format"""
+    """Load Padakanaja dictionary from optimized format and generate IDs"""
     input_file = 'padakanaja/combined_dictionaries_ultra.json'
     
     if not os.path.exists(input_file):
@@ -23,6 +35,7 @@ def load_padakanaja():
         data = json.load(f)
     
     entries = []
+    entry_index = 0
     if isinstance(data, dict):
         for key, entries_list in data.items():
             source = key.split('|')[0] if '|' in key else key
@@ -35,15 +48,20 @@ def load_padakanaja():
                         english = entry_data[1]
                         type_val = entry_data[2] if len(entry_data) > 2 else 'Noun'
                         
+                        # Generate entry ID (same format as voice corpus)
+                        entry_id = generate_entry_id(kannada, english, entry_index)
+                        entry_index += 1
+                        
                         entries.append({
                             'kannada': kannada,
                             'english': english,
                             'type': type_val,
                             'source': source,
-                            'dict_title': dict_title
+                            'dict_title': dict_title,
+                            'id': entry_id
                         })
     
-    print(f"✓ Loaded {len(entries):,} Padakanaja entries")
+    print(f"✓ Loaded {len(entries):,} Padakanaja entries with IDs")
     return entries
 
 def build_reverse_index(entries):
@@ -67,7 +85,8 @@ def build_reverse_index(entries):
                     'english': entry['english'],
                     'type': entry['type'],
                     'source': entry['source'],
-                    'dict_title': entry['dict_title']
+                    'dict_title': entry['dict_title'],
+                    'id': entry.get('id', '')  # Include entry ID for audio support
                 })
     
     # Remove duplicates (same kannada-english pair)
