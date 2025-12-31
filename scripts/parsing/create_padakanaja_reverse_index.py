@@ -13,17 +13,17 @@ from pathlib import Path
 from collections import defaultdict
 
 def load_audio_index_mapping():
-    """Load audio_index.json and word_id_mapping.json to create (kannada, english) -> entry_id mapping"""
+    """Load audio_index.json and word_id_mapping.json to enable (kannada, english) -> entry_id lookup"""
     audio_index_path = Path('/Users/pavan/src/padakanaja-voice-corpus/audio_index.json')
     word_mapping_path = Path('/Users/pavan/src/padakanaja-voice-corpus/word_id_mapping.json')
     
     if not audio_index_path.exists():
         print(f"⚠ Warning: {audio_index_path} not found, will generate IDs on the fly")
-        return {}
+        return None, None
     
     if not word_mapping_path.exists():
         print(f"⚠ Warning: {word_mapping_path} not found, will generate IDs on the fly")
-        return {}
+        return None, None
     
     print("📚 Loading audio index and word mapping...")
     
@@ -31,31 +31,60 @@ def load_audio_index_mapping():
     with open(audio_index_path, 'r', encoding='utf-8') as f:
         audio_index = json.load(f)
     
-    # Load word_id_mapping.json to get kannada -> entry_id mapping
+    # Load word_id_mapping.json to get kannada -> {primary_id, all_ids} mapping
     with open(word_mapping_path, 'r', encoding='utf-8') as f:
         word_mapping = json.load(f)
     
-    # Create mapping: (kannada, english) -> entry_id
-    # We'll use the sequential_map which has entry_id -> kannada
-    sequential_map = word_mapping.get('sequential_map', {})
-    
-    # Create reverse: kannada -> entry_id (using primary_id from word_id_map)
-    kannada_to_entry_id = {}
     word_id_map = word_mapping.get('word_id_map', {})
-    for kannada, data in word_id_map.items():
-        primary_id = data.get('primary_id', '')
-        if primary_id and primary_id in audio_index:
-            kannada_to_entry_id[kannada] = primary_id
     
-    print(f"✓ Loaded {len(kannada_to_entry_id):,} kannada -> entry_id mappings")
-    return kannada_to_entry_id
+    print(f"✓ Loaded audio index: {len(audio_index):,} entry IDs")
+    print(f"✓ Loaded word mapping: {len(word_id_map):,} Kannada words")
+    return audio_index, word_id_map
 
-def load_padakanaja(kannada_to_entry_id):
-    """Load Padakanaja dictionary from optimized format and use existing IDs from audio index"""
-    input_file = 'padakanaja/combined_dictionaries_ultra.json'
+def find_entry_id_for_pair(kannada, english, word_id_map, audio_index):
+    """Find the correct entry_id for a (kannada, english) pair"""
+    if not kannada or kannada not in word_id_map:
+        return ''
     
-    if not os.path.exists(input_file):
-        print(f"❌ Error: {input_file} not found")
+    data = word_id_map[kannada]
+    all_ids = data.get('all_ids', [])
+    primary_id = data.get('primary_id', '')
+    
+    # Filter to only IDs that exist in audio_index
+    valid_ids = [eid for eid in all_ids if eid in audio_index]
+    
+    if not valid_ids:
+        return ''
+    
+    # Prefer primary_id if it's valid
+    if primary_id and primary_id in valid_ids:
+        return primary_id
+    
+    # Otherwise, use the first valid ID
+    # Note: This might not be perfect if there are multiple entries with same kannada but different english,
+    # but it's the best we can do without loading the original YAML files
+    return valid_ids[0]
+
+def load_padakanaja(audio_index, word_id_map):
+    """Load Padakanaja dictionary from optimized format and match IDs from audio index"""
+    # Try multiple possible paths
+    script_dir = Path(__file__).parent
+    possible_paths = [
+        script_dir / 'padakanaja' / 'combined_dictionaries_ultra.json',
+        script_dir.parent.parent / 'padakanaja' / 'combined_dictionaries_ultra.json',
+        Path('padakanaja/combined_dictionaries_ultra.json'),
+    ]
+    
+    input_file = None
+    for path in possible_paths:
+        if path.exists():
+            input_file = path
+            break
+    
+    if input_file is None:
+        print(f"❌ Error: combined_dictionaries_ultra.json not found in any of these locations:")
+        for path in possible_paths:
+            print(f"   - {path}")
         sys.exit(1)
     
     print(f"📚 Loading Padakanaja dictionary from {input_file}...")
@@ -65,6 +94,32 @@ def load_padakanaja(kannada_to_entry_id):
     entries = []
     matched_ids = 0
     unmatched_entries = []
+    
+    if audio_index is None or word_id_map is None:
+        print("⚠ No audio index or word mapping available, skipping ID matching")
+        # Still load entries but without IDs
+        if isinstance(data, dict):
+            for key, entries_list in data.items():
+                source = key.split('|')[0] if '|' in key else key
+                dict_title = key.split('|')[1] if '|' in key else ''
+                
+                if isinstance(entries_list, list):
+                    for entry_data in entries_list:
+                        if isinstance(entry_data, list) and len(entry_data) >= 2:
+                            kannada = entry_data[0]
+                            english = entry_data[1]
+                            type_val = entry_data[2] if len(entry_data) > 2 else 'Noun'
+                            
+                            entries.append({
+                                'kannada': kannada,
+                                'english': english,
+                                'type': type_val,
+                                'source': source,
+                                'dict_title': dict_title,
+                                'id': ''
+                            })
+        print(f"✓ Loaded {len(entries):,} Padakanaja entries (no IDs)")
+        return entries
     
     if isinstance(data, dict):
         for key, entries_list in data.items():
@@ -78,23 +133,21 @@ def load_padakanaja(kannada_to_entry_id):
                         english = entry_data[1]
                         type_val = entry_data[2] if len(entry_data) > 2 else 'Noun'
                         
-                        # Try to find existing entry_id from audio index
-                        entry_id = kannada_to_entry_id.get(kannada, '')
+                        # Find entry_id for this (kannada, english) pair
+                        entry_id = find_entry_id_for_pair(kannada, english, word_id_map, audio_index)
                         if entry_id:
                             matched_ids += 1
+                            entries.append({
+                                'kannada': kannada,
+                                'english': english,
+                                'type': type_val,
+                                'source': source,
+                                'dict_title': dict_title,
+                                'id': entry_id
+                            })
                         else:
-                            # Store for later - we'll generate IDs for unmatched entries
+                            # Store for later - we'll skip entries without audio
                             unmatched_entries.append((kannada, english, type_val, source, dict_title))
-                            continue
-                        
-                        entries.append({
-                            'kannada': kannada,
-                            'english': english,
-                            'type': type_val,
-                            'source': source,
-                            'dict_title': dict_title,
-                            'id': entry_id
-                        })
     
     print(f"✓ Loaded {len(entries):,} Padakanaja entries with matched IDs")
     print(f"  Matched: {matched_ids:,}, Unmatched: {len(unmatched_entries):,}")
@@ -211,11 +264,11 @@ def create_chunk_index(chunks):
     return chunk_index
 
 def main():
-    # Load audio index mapping
-    kannada_to_entry_id = load_audio_index_mapping()
+    # Load audio index and word mapping
+    audio_index, word_id_map = load_audio_index_mapping()
     
     # Load Padakanaja with correct IDs
-    entries = load_padakanaja(kannada_to_entry_id)
+    entries = load_padakanaja(audio_index, word_id_map)
     
     # Build reverse index
     reverse_index = build_reverse_index(entries)
@@ -225,8 +278,13 @@ def main():
     
     # Save chunks
     print("💾 Saving chunks...")
+    # Ensure output directory exists
+    script_dir = Path(__file__).parent
+    output_dir = script_dir.parent.parent / 'padakanaja'
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
     for i, chunk in enumerate(chunks, 1):
-        output_file = f'padakanaja/padakanaja_reverse_index_part{i}.json'
+        output_file = output_dir / f'padakanaja_reverse_index_part{i}.json'
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(chunk, f, ensure_ascii=False, indent=0)
         chunk_size_mb = os.path.getsize(output_file) / 1024 / 1024
@@ -234,7 +292,7 @@ def main():
     
     # Create and save chunk index
     chunk_index = create_chunk_index(chunks)
-    index_file = 'padakanaja/padakanaja_reverse_index_chunk_index.json'
+    index_file = output_dir / 'padakanaja_reverse_index_chunk_index.json'
     with open(index_file, 'w', encoding='utf-8') as f:
         json.dump(chunk_index, f, ensure_ascii=False, indent=2)
     print(f"✓ Saved {index_file}")
@@ -245,7 +303,7 @@ def main():
         'total_chunks': len(chunks),
         'chunk_sizes': [len(chunk) for chunk in chunks]
     }
-    metadata_file = 'padakanaja/padakanaja_reverse_index_metadata.json'
+    metadata_file = output_dir / 'padakanaja_reverse_index_metadata.json'
     with open(metadata_file, 'w', encoding='utf-8') as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
     print(f"✓ Saved {metadata_file}")
