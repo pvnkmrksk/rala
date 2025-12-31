@@ -157,27 +157,38 @@ async function loadPadakanajaAudioIndex() {
 }
 
 async function checkAudioExists(entryId, source = 'alar') {
-    if (!entryId) return false;
+    const entryIdStr = String(entryId);
+    console.log('🔍 checkAudioExists called:', { entryId: entryIdStr, source });
+    
+    if (!entryIdStr || entryIdStr === '') {
+        console.log('❌ Empty entryId');
+        return false;
+    }
     
     // Create cache key with source to avoid conflicts
-    const cacheKey = `${source}:${entryId}`;
+    const cacheKey = `${source}:${entryIdStr}`;
     
     // Check cache first
     if (audioExistenceCache.has(cacheKey)) {
-        return audioExistenceCache.get(cacheKey);
+        const cached = audioExistenceCache.get(cacheKey);
+        console.log('✅ Found in cache:', cached);
+        return cached;
     }
     
     // For Padakanaja, ensure index is loaded
     if (source !== 'alar') {
+        console.log('📚 Loading Padakanaja audio index...');
         await loadPadakanajaAudioIndex();
     }
     
-    const audioUrl = getAudioUrl(entryId, source);
+    const audioUrl = getAudioUrl(entryIdStr, source);
     if (!audioUrl) {
+        console.log('❌ No audio URL generated');
         audioExistenceCache.set(cacheKey, false);
         return false;
     }
     
+    console.log('🌐 Checking audio file:', audioUrl);
     try {
         // Use HEAD request with timeout to check if file exists
         const controller = new AbortController();
@@ -192,10 +203,19 @@ async function checkAudioExists(entryId, source = 'alar') {
         
         const exists = response.ok && response.status === 200;
         audioExistenceCache.set(cacheKey, exists);
+        
+        if (exists) {
+            console.log('✅ Audio file exists:', audioUrl);
+        } else {
+            console.log(`❌ Audio file not found (${response.status}):`, audioUrl);
+        }
+        
         return exists;
     } catch (error) {
         // If there's an error (network, timeout, CORS, etc.), assume it doesn't exist
         audioExistenceCache.set(cacheKey, false);
+        console.error(`❌ Error checking audio:`, error);
+        console.error('   URL:', audioUrl);
         return false;
     }
 }
