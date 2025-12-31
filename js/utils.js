@@ -227,12 +227,13 @@ async function checkAndUpdateAudioButtons(results) {
     const seen = new Set();
     
     for (const result of results) {
-        if (!result.id || result.id.trim() === '') continue;
+        const idStr = result.id ? String(result.id).trim() : '';
+        if (!idStr) continue;
         const source = result.source || 'alar';
-        const cacheKey = `${source}:${result.id}`;
+        const cacheKey = `${source}:${idStr}`;
         
         if (!audioExistenceCache.has(cacheKey) && !seen.has(cacheKey)) {
-            entriesToCheck.push({ id: result.id, source });
+            entriesToCheck.push({ id: idStr, source });
             seen.add(cacheKey);
         }
     }
