@@ -30,8 +30,8 @@ const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 
 // Padakanaja Voice Corpus base URL
 // For local testing: "http://localhost:8001"
-// For production: "https://raw.githubusercontent.com/YOUR_USERNAME/padakanaja-voice-corpus/main"
-const PADAKANAJA_VOICE_CORPUS_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/padakanaja-voice-corpus/main"; // Update YOUR_USERNAME after pushing
+// For production: "https://raw.githubusercontent.com/pvnkmrksk/padakanaja-voice-corpus/main"
+const PADAKANAJA_VOICE_CORPUS_URL = "https://raw.githubusercontent.com/pvnkmrksk/padakanaja-voice-corpus/main";
 
 // Padakanaja audio index (entry_id -> sequential_id mapping)
 // This will be loaded on demand
