@@ -178,6 +178,7 @@ async function searchWithReverseIndex(query, env) {
                     type: entry.type || 'Noun',
                     source: entry.source || '',
                     dict_title: entry.dict_title || '',
+                    id: entry.id || '',
                     matchedWord: exactPhrase,
                     matchType: 'exact-phrase'
                 });
@@ -190,6 +191,7 @@ async function searchWithReverseIndex(query, env) {
                     type: entry.type || 'Noun',
                     source: entry.source || '',
                     dict_title: entry.dict_title || '',
+                    id: entry.id || '',
                     matchedWord: exactPhrase,
                     matchType: 'all-words'
                 });
