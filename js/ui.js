@@ -164,7 +164,8 @@ function renderResults(directResults, synonymResults, synonymsUsed, query, loadi
 function renderResultCard(result, query, isSynonym = false) {
     const highlightedDef = highlightMatch(result.definition, result.matchedWord, result.matchType);
     const source = result.source || 'alar';
-    const audioUrl = result.id ? getAudioUrl(result.id, source) : null;
+    // Use same check as idStr to handle 0 (valid Alar ID) and empty strings
+    const audioUrl = (result.id != null && result.id !== '') ? getAudioUrl(result.id, source) : null;
     const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
     const copyId = `copy-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
     
