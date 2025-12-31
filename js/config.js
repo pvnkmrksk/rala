@@ -28,6 +28,14 @@ const PRIMARY_DICTIONARY = {
 // Padakanaja dictionary base URL
 const PADAKANAJA_BASE_URL = "https://padakanaja.karnataka.gov.in/dictionary";
 
+// Padakanaja Voice Corpus base URL (update with your GitHub username/repo)
+const PADAKANAJA_VOICE_CORPUS_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/padakanaja-voice-corpus/main";
+
+// Padakanaja audio index (entry_id -> sequential_id mapping)
+// This will be loaded on demand
+let padakanajaAudioIndex = null;
+let padakanajaAudioIndexLoading = false;
+
 // Combined padakanaja dictionary (ultra-compact format: duplicates removed, flattened)
 const PADAKANAJA_COMBINED_FILES = [
     'padakanaja/combined_dictionaries_ultra.json'

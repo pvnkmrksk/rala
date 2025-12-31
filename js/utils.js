@@ -63,37 +63,92 @@ function updateURL(query, replace = false) {
         window.history.pushState({ query }, '', url);
     }
 }
-function getAudioUrl(entryId) {
+function getAudioUrl(entryId, source = 'alar') {
     if (!entryId) return null;
-    // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
-    // Range calculation: for ID 1-9999 use "1-9999", for 10000-19999 use "10000-19999", etc.
-    // For IDs 1-9999: rangeStart = 1, rangeEnd = 9999
-    // For IDs 10000-19999: rangeStart = 10000, rangeEnd = 19999
-    // For IDs 20000-29999: rangeStart = 20000, rangeEnd = 29999, etc.
-    let rangeStart, rangeEnd;
-    if (entryId <= 9999) {
-        rangeStart = 1;
-        rangeEnd = 9999;
-    } else {
-        rangeStart = Math.floor(entryId / 10000) * 10000;
-        rangeEnd = rangeStart + 9999;
+    
+    // Alar: uses numeric IDs directly
+    if (source === 'alar') {
+        // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
+        let rangeStart, rangeEnd;
+        if (entryId <= 9999) {
+            rangeStart = 1;
+            rangeEnd = 9999;
+        } else {
+            rangeStart = Math.floor(entryId / 10000) * 10000;
+            rangeEnd = rangeStart + 9999;
+        }
+        const range = `${rangeStart}-${rangeEnd}`;
+        return `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${entryId}.mp3`;
     }
-    const range = `${rangeStart}-${rangeEnd}`;
-    // Using raw.githubusercontent.com to serve the audio files
-    return `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${entryId}.mp3`;
+    
+    // Padakanaja: uses entry_id (string) but needs sequential_id for range calculation
+    if (source !== 'alar' && padakanajaAudioIndex && padakanajaAudioIndex[entryId]) {
+        const sequentialId = padakanajaAudioIndex[entryId];
+        let rangeStart, rangeEnd;
+        if (sequentialId <= 9999) {
+            rangeStart = 1;
+            rangeEnd = 9999;
+        } else {
+            rangeStart = Math.floor(sequentialId / 10000) * 10000;
+            rangeEnd = rangeStart + 9999;
+        }
+        const range = `${rangeStart}-${rangeEnd}`;
+        return `${PADAKANAJA_VOICE_CORPUS_URL}/audio/${range}/${entryId}.mp3`;
+    }
+    
+    return null;
 }
 
-async function checkAudioExists(entryId) {
-    if (!entryId) return false;
-    
-    // Check cache first
-    if (audioExistenceCache.has(entryId)) {
-        return audioExistenceCache.get(entryId);
+// Load Padakanaja audio index (lightweight mapping: entry_id -> sequential_id)
+async function loadPadakanajaAudioIndex() {
+    if (padakanajaAudioIndex !== null) return padakanajaAudioIndex; // Already loaded
+    if (padakanajaAudioIndexLoading) {
+        // Wait for ongoing load
+        while (padakanajaAudioIndexLoading) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+        }
+        return padakanajaAudioIndex;
     }
     
-    const audioUrl = getAudioUrl(entryId);
+    padakanajaAudioIndexLoading = true;
+    try {
+        const response = await fetch(`${PADAKANAJA_VOICE_CORPUS_URL}/audio_index.json`);
+        if (response.ok) {
+            padakanajaAudioIndex = await response.json();
+            console.log(`✓ Loaded Padakanaja audio index (${Object.keys(padakanajaAudioIndex).length} entries)`);
+        } else {
+            console.warn('Failed to load Padakanaja audio index:', response.status);
+            padakanajaAudioIndex = {}; // Empty to prevent retries
+        }
+    } catch (error) {
+        console.warn('Error loading Padakanaja audio index:', error);
+        padakanajaAudioIndex = {}; // Empty to prevent retries
+    } finally {
+        padakanajaAudioIndexLoading = false;
+    }
+    
+    return padakanajaAudioIndex;
+}
+
+async function checkAudioExists(entryId, source = 'alar') {
+    if (!entryId) return false;
+    
+    // Create cache key with source to avoid conflicts
+    const cacheKey = `${source}:${entryId}`;
+    
+    // Check cache first
+    if (audioExistenceCache.has(cacheKey)) {
+        return audioExistenceCache.get(cacheKey);
+    }
+    
+    // For Padakanaja, ensure index is loaded
+    if (source !== 'alar') {
+        await loadPadakanajaAudioIndex();
+    }
+    
+    const audioUrl = getAudioUrl(entryId, source);
     if (!audioUrl) {
-        audioExistenceCache.set(entryId, false);
+        audioExistenceCache.set(cacheKey, false);
         return false;
     }
     
@@ -101,42 +156,70 @@ async function checkAudioExists(entryId) {
         // Use HEAD request to check if file exists without downloading it
         const response = await fetch(audioUrl, { method: 'HEAD', cache: 'no-cache' });
         const exists = response.ok && response.status === 200;
-        audioExistenceCache.set(entryId, exists);
+        audioExistenceCache.set(cacheKey, exists);
         
         if (!exists) {
-            console.log(`Audio file not found for entry ID ${entryId}: ${audioUrl}`);
+            console.log(`Audio file not found for entry ID ${entryId} (${source}): ${audioUrl}`);
         }
         
         return exists;
     } catch (error) {
         // If there's an error (network, CORS, etc.), assume it doesn't exist
-        audioExistenceCache.set(entryId, false);
-        console.log(`Error checking audio for entry ID ${entryId}:`, error);
+        audioExistenceCache.set(cacheKey, false);
+        console.log(`Error checking audio for entry ID ${entryId} (${source}):`, error);
         return false;
     }
 }
 
 async function checkAndUpdateAudioButtons(results) {
     // Collect all unique entry IDs from results that we haven't checked yet
-    const entryIds = [...new Set(results.map(r => r.id).filter(id => id && !audioExistenceCache.has(id)))];
+    // Include source information
+    const entriesToCheck = [];
+    const seen = new Set();
     
-    if (entryIds.length === 0) return; // All already checked
+    for (const result of results) {
+        if (!result.id) continue;
+        const source = result.source || 'alar';
+        const cacheKey = `${source}:${result.id}`;
+        
+        if (!audioExistenceCache.has(cacheKey) && !seen.has(cacheKey)) {
+            entriesToCheck.push({ id: result.id, source });
+            seen.add(cacheKey);
+        }
+    }
+    
+    if (entriesToCheck.length === 0) return; // All already checked
+    
+    // Load Padakanaja index if needed
+    const hasPadakanaja = entriesToCheck.some(e => e.source !== 'alar');
+    if (hasPadakanaja) {
+        await loadPadakanajaAudioIndex();
+    }
     
     // Check all audio files in parallel (limit to avoid too many requests)
-    const checkPromises = entryIds.slice(0, 50).map(async (entryId) => {
-        const exists = await checkAudioExists(entryId);
-        return { entryId, exists };
+    const checkPromises = entriesToCheck.slice(0, 50).map(async ({ id, source }) => {
+        const exists = await checkAudioExists(id, source);
+        return { entryId: id, source, exists };
     });
     
     const results_checks = await Promise.all(checkPromises);
     
     // Update buttons based on existence
-    results_checks.forEach(({ entryId, exists }) => {
-        // Find all buttons for this entry ID
-        const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"]`);
-        if (buttons.length === 0 && exists) {
-            // Button wasn't shown but file exists - we need to add it
-            // This shouldn't happen with current logic, but handle it just in case
+    results_checks.forEach(({ entryId, source, exists }) => {
+        // Find all buttons for this entry ID (include source in selector if needed)
+        const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"][data-source="${source}"]`);
+        if (buttons.length === 0) {
+            // Try without source selector for backward compatibility
+            const fallbackButtons = document.querySelectorAll(`[data-entry-id="${entryId}"]`);
+            fallbackButtons.forEach(button => {
+                if (button.getAttribute('data-source') === source || !button.hasAttribute('data-source')) {
+                    if (exists) {
+                        button.style.display = '';
+                    } else {
+                        button.remove();
+                    }
+                }
+            });
             return;
         }
         buttons.forEach(button => {
