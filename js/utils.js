@@ -178,7 +178,7 @@ async function checkAndUpdateAudioButtons(results) {
     const seen = new Set();
     
     for (const result of results) {
-        if (!result.id) continue;
+        if (!result.id || result.id.trim() === '') continue;
         const source = result.source || 'alar';
         const cacheKey = `${source}:${result.id}`;
         
@@ -190,19 +190,39 @@ async function checkAndUpdateAudioButtons(results) {
     
     if (entriesToCheck.length === 0) return; // All already checked
     
-    // Load Padakanaja index if needed
+    // Load Padakanaja index if needed (non-blocking, with timeout)
     const hasPadakanaja = entriesToCheck.some(e => e.source !== 'alar');
     if (hasPadakanaja) {
-        await loadPadakanajaAudioIndex();
+        try {
+            await Promise.race([
+                loadPadakanajaAudioIndex(),
+                new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), 5000))
+            ]);
+        } catch (error) {
+            console.warn('Audio index load timeout or error, continuing without it');
+        }
     }
     
-    // Check all audio files in parallel (limit to avoid too many requests)
-    const checkPromises = entriesToCheck.slice(0, 50).map(async ({ id, source }) => {
-        const exists = await checkAudioExists(id, source);
-        return { entryId: id, source, exists };
-    });
+    // Check audio files in smaller batches to avoid blocking
+    // Limit to first 20 entries to avoid too many requests
+    const batchSize = 10;
+    const batches = [];
+    for (let i = 0; i < Math.min(entriesToCheck.length, 20); i += batchSize) {
+        batches.push(entriesToCheck.slice(i, i + batchSize));
+    }
     
-    const results_checks = await Promise.all(checkPromises);
+    // Process batches sequentially to avoid overwhelming the network
+    for (const batch of batches) {
+        const checkPromises = batch.map(async ({ id, source }) => {
+            try {
+                const exists = await checkAudioExists(id, source);
+                return { entryId: id, source, exists };
+            } catch (error) {
+                return { entryId: id, source, exists: false };
+            }
+        });
+        
+        const results_checks = await Promise.all(checkPromises);
     
     // Update buttons based on existence
     results_checks.forEach(({ entryId, source, exists }) => {
