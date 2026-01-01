@@ -57,7 +57,7 @@ A fast, offline-capable English → Kannada dictionary combining the best of bot
 Rala includes audio pronunciation for dictionary entries:
 
 - **Alar Entries**: Uses [Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus) by Aditya-ds-1806
-- **Padakanaja Entries**: Uses [Padakanaja Voice Corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus) (262,260 words)
+- **Padakanaja Entries**: Uses [Padakanaja Voice Corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus) (262,260 audio files)
 
 Audio files are automatically loaded and played when available. The audio button appears next to entries that have pronunciation available.
 
