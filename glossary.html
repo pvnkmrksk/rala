@@ -361,70 +361,52 @@
                     }
                 }
                 
-                // Filter out junk and process hyphenated words
-                const processedWords = new Set();
-                
-                allWords.forEach(word => {
+                // Filter out junk: numbers, ordinals, ranges, and invalid entries
+                allWords = allWords.filter(word => {
                     const w = word.trim();
                     
                     // Skip empty
-                    if (!w || w.length === 0) return;
+                    if (!w || w.length === 0) return false;
                     
                     // Skip entries shorter than 2 characters
-                    if (w.length < 2) return;
+                    if (w.length < 2) return false;
                     
                     // Skip entries that are just numbers
-                    if (/^\d+$/.test(w)) return;
+                    if (/^\d+$/.test(w)) return false;
                     
                     // Skip entries that start with numbers (like "500b", "563c", "66o34")
-                    if (/^\d/.test(w)) return;
+                    if (/^\d/.test(w)) return false;
                     
                     // Skip entries that are mostly numbers with dashes (like "300-350", "4-5", "72-88")
-                    if (/^\d+-\d+/.test(w)) return;
+                    if (/^\d+-\d+/.test(w)) return false;
                     
                     // Skip ordinals (1st, 2nd, 3rd, 4th, etc.)
-                    if (/^\d+(st|nd|rd|th)$/i.test(w)) return;
+                    if (/^\d+(st|nd|rd|th)$/i.test(w)) return false;
                     
-                    // Skip entries that start with hyphens or underscores (like "-button", "-speaking", "__st")
-                    if (/^[-_]/.test(w)) return;
+                    // Skip entries that start or end with hyphens (like "-button", "-speaking", "--u")
+                    if (/^-|-$/.test(w)) return false;
                     
-                    // Skip entries with multiple consecutive hyphens at start (like "--u", "-uu-")
-                    if (/^--/.test(w)) return;
+                    // Skip entries with multiple consecutive hyphens (like "--u", "-uu-")
+                    if (/--/.test(w)) return false;
                     
                     // Skip entries with underscores (like "__st", "__th")
-                    if (/_/.test(w)) return;
+                    if (/_/.test(w)) return false;
                     
                     // Skip entries that contain numbers (like "abba3")
-                    if (/\d/.test(w)) return;
-                    
-                    // Skip entries that don't start with a letter
-                    if (!/^[a-z]/i.test(w)) return;
-                    
-                    // Skip entries that are just punctuation or symbols
-                    if (!/[a-z]/i.test(w)) return;
+                    if (/\d/.test(w)) return false;
                     
                     // Skip entries that are mostly special characters
                     const letterCount = (w.match(/[a-z]/gi) || []).length;
-                    if (letterCount < w.length * 0.5) return; // At least 50% letters
+                    if (letterCount < w.length * 0.5) return false; // At least 50% letters
                     
-                    // Process hyphenated words: strip hyphens and add both versions
-                    if (w.includes('-')) {
-                        // Skip if it's just "a-b" or similar short hyphenated entries
-                        if (w.length <= 3 && w.includes('-')) return;
-                        
-                        // Strip hyphens and add the word without hyphens
-                        const withoutHyphens = w.replace(/-/g, '');
-                        if (withoutHyphens.length >= 2 && /^[a-z]/i.test(withoutHyphens)) {
-                            processedWords.add(withoutHyphens);
-                        }
-                    } else {
-                        // Regular word without hyphens - add as is
-                        processedWords.add(w);
-                    }
-                });
-                
-                // Convert Set to sorted array
-                allWords = Array.from(processedWords).sort();
+                    // Skip entries that don't start with a letter
+                    if (!/^[a-z]/i.test(w)) return false;
+                    
+                    // Skip entries that are just punctuation or symbols
+                    if (!/[a-z]/i.test(w)) return false;
+                    
+                    return true;
+                }).sort();
                 
                 if (allWords.length === 0) {
                     loadingEl.textContent = 'No words found. Please refresh the page.';
@@ -455,6 +437,29 @@
                 });
                 lettersEl.style.display = 'flex';
                 
+                // Additional filtering for page 1 only - remove junk words for better first impression
+                function isJunkWord(word) {
+                    const w = word.toLowerCase().trim();
+                    
+                    // Remove very short words (less than 3 chars) unless they're common
+                    const commonShortWords = new Set(['a', 'i', 'am', 'an', 'as', 'at', 'be', 'by', 'do', 'go', 'he', 'if', 'in', 'is', 'it', 'me', 'my', 'no', 'of', 'on', 'or', 'so', 'to', 'up', 'us', 'we']);
+                    if (w.length < 3 && !commonShortWords.has(w)) return true;
+                    
+                    // Remove hyphenated words on page 1 (like "a-b", "aard-wolf")
+                    if (w.includes('-')) return true;
+                    
+                    // Remove words that look like abbreviations or codes (all caps short words)
+                    if (w.length <= 3 && word === word.toUpperCase() && !commonShortWords.has(w)) return true;
+                    
+                    // Remove words that are just repeated letters (aaa, bbb, etc.)
+                    if (/^(.)\1+$/.test(w) && w.length <= 4) return true;
+                    
+                    // Remove words that look like typos or fragments
+                    if (w.length <= 2 && !commonShortWords.has(w)) return true;
+                    
+                    return false;
+                }
+                
                 // Display words with pagination
                 function filterAndDisplay() {
                     let filtered = allWords;
@@ -474,6 +479,11 @@
                         );
                         currentLetter = null; // Clear letter filter when searching
                         updateActiveLetter(null);
+                    }
+                    
+                    // Apply extra filtering for page 1 only (better first impression)
+                    if (currentPage === 1 && !currentLetter && !query) {
+                        filtered = filtered.filter(word => !isJunkWord(word));
                     }
                     
                     // Calculate pagination
