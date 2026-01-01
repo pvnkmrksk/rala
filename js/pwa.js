@@ -25,6 +25,7 @@ if ('serviceWorker' in navigator) {
 
 // Install Prompt Handling
 let deferredPrompt;
+window.deferredPrompt = null; // Make available globally
 const installPrompt = document.getElementById('install-prompt');
 const installClose = document.getElementById('install-close');
 
@@ -33,8 +34,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     // Stash the event so it can be triggered later
     deferredPrompt = e;
+    window.deferredPrompt = e; // Make available globally
     // Show the install prompt
-    installPrompt.classList.add('show');
+    if (installPrompt) {
+        installPrompt.classList.add('show');
+    }
 });
 
 installPrompt.addEventListener('click', async () => {
@@ -49,9 +53,12 @@ installPrompt.addEventListener('click', async () => {
     
     // Clear the deferredPrompt
     deferredPrompt = null;
+    window.deferredPrompt = null;
     
     // Hide the install prompt
-    installPrompt.classList.remove('show');
+    if (installPrompt) {
+        installPrompt.classList.remove('show');
+    }
 });
 
 installClose.addEventListener('click', (e) => {
@@ -62,15 +69,20 @@ installClose.addEventListener('click', (e) => {
 // Hide prompt if app is already installed
 window.addEventListener('appinstalled', () => {
     console.log('PWA installed successfully');
-    installPrompt.classList.remove('show');
+    if (installPrompt) {
+        installPrompt.classList.remove('show');
+    }
     deferredPrompt = null;
+    window.deferredPrompt = null;
 });
 
 // Check if app is already installed (standalone mode)
 if (window.matchMedia('(display-mode: standalone)').matches || 
     window.navigator.standalone === true) {
     console.log('Running as installed PWA');
-    installPrompt.classList.remove('show');
+    if (installPrompt) {
+        installPrompt.classList.remove('show');
+    }
 }
 
 // PWA Info Banner
