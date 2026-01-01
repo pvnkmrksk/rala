@@ -340,7 +340,7 @@
                 
                 // Get all English words from reverse index
                 if (typeof allEnglishWords !== 'undefined' && allEnglishWords instanceof Set) {
-                    allWords = Array.from(allEnglishWords).sort();
+                    allWords = Array.from(allEnglishWords);
                 } else {
                     // Fallback: try to get words from dictionary entries
                     if (typeof dictionary !== 'undefined' && Array.isArray(dictionary)) {
@@ -357,9 +357,43 @@
                                 });
                             }
                         });
-                        allWords = Array.from(wordSet).sort();
+                        allWords = Array.from(wordSet);
                     }
                 }
+                
+                // Filter out junk: numbers, ordinals, ranges, and invalid entries
+                allWords = allWords.filter(word => {
+                    const w = word.trim();
+                    
+                    // Skip empty
+                    if (!w || w.length === 0) return false;
+                    
+                    // Skip entries that are just numbers
+                    if (/^\d+$/.test(w)) return false;
+                    
+                    // Skip entries that start with numbers (like "500b", "563c", "66o34")
+                    if (/^\d/.test(w)) return false;
+                    
+                    // Skip entries that are mostly numbers with dashes (like "300-350", "4-5", "72-88")
+                    if (/^\d+-\d+/.test(w)) return false;
+                    
+                    // Skip ordinals (1st, 2nd, 3rd, 4th, etc.)
+                    if (/^\d+(st|nd|rd|th)$/i.test(w)) return false;
+                    
+                    // Skip entries with underscores or other junk characters
+                    if (/[_\W]/.test(w) && !/[a-z]/.test(w)) return false;
+                    
+                    // Skip entries that are just special characters
+                    if (/^[^a-z]+$/i.test(w)) return false;
+                    
+                    // Skip entries shorter than 2 characters (too short to be meaningful)
+                    if (w.length < 2) return false;
+                    
+                    // Skip entries that are just punctuation or symbols
+                    if (!/[a-z]/i.test(w)) return false;
+                    
+                    return true;
+                }).sort();
                 
                 if (allWords.length === 0) {
                     loadingEl.textContent = 'No words found. Please refresh the page.';
