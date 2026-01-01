@@ -428,6 +428,9 @@ input[type="text"]:focus {
     -webkit-user-select: text;
     -moz-user-select: text;
     -ms-user-select: text;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .matched-word {
