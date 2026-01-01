@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Rala">
     <link rel="apple-touch-icon" href="icon.svg">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2.12">
     <style>
         .glossary-container {
             padding: 20px;
@@ -86,6 +86,81 @@
             color: var(--text-color-light);
         }
         
+        .glossary-letters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: var(--section-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color-light);
+        }
+        
+        .glossary-letter {
+            padding: 8px 12px;
+            background: var(--input-bg);
+            border: 1px solid var(--input-border);
+            border-radius: 4px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.2s;
+            min-width: 36px;
+            text-align: center;
+        }
+        
+        .glossary-letter:hover {
+            background: var(--hover-bg);
+            border-color: var(--text-color);
+        }
+        
+        .glossary-letter.active {
+            background: var(--text-color);
+            color: var(--bg-color);
+            border-color: var(--text-color);
+        }
+        
+        .glossary-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .glossary-page-btn {
+            padding: 8px 12px;
+            background: var(--input-bg);
+            border: 1px solid var(--input-border);
+            border-radius: 4px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 14px;
+            transition: all 0.2s;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        .glossary-page-btn:hover {
+            background: var(--hover-bg);
+            border-color: var(--text-color);
+        }
+        
+        .glossary-page-btn.active {
+            background: var(--text-color);
+            color: var(--bg-color);
+            border-color: var(--text-color);
+        }
+        
+        .glossary-page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
         @media (max-width: 768px) {
             .glossary-list {
                 grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -95,6 +170,27 @@
             .glossary-word {
                 font-size: 13px;
                 padding: 6px 10px;
+            }
+            
+            .glossary-letters {
+                gap: 6px;
+                padding: 15px;
+            }
+            
+            .glossary-letter {
+                padding: 6px 10px;
+                font-size: 13px;
+                min-width: 32px;
+            }
+            
+            .glossary-pagination {
+                gap: 6px;
+            }
+            
+            .glossary-page-btn {
+                padding: 6px 10px;
+                font-size: 13px;
+                min-width: 36px;
             }
         }
     </style>
@@ -180,8 +276,12 @@
             <div class="glossary-stats" id="glossary-stats">Loading...</div>
         </div>
         
+        <div class="glossary-letters" id="glossary-letters" style="display: none;"></div>
+        
         <div class="glossary-loading" id="glossary-loading">Loading words...</div>
         <div class="glossary-list" id="glossary-list"></div>
+        
+        <div class="glossary-pagination" id="glossary-pagination" style="display: none;"></div>
     </div>
     
     <footer class="attribution">
@@ -201,10 +301,10 @@
         </div>
     </footer>
     
-    <script src="js/config.js?v=2.10"></script>
-    <script src="js/utils.js?v=2.10"></script>
-    <script src="js/sidebar.js?v=2.10"></script>
-    <script src="js/dictionary.js?v=2.10"></script>
+    <script src="js/config.js?v=2.12"></script>
+    <script src="js/utils.js?v=2.12"></script>
+    <script src="js/sidebar.js?v=2.12"></script>
+    <script src="js/dictionary.js?v=2.12"></script>
     <script>
         initDarkMode();
         initSidebar();
@@ -215,6 +315,13 @@
             const listEl = document.getElementById('glossary-list');
             const statsEl = document.getElementById('glossary-stats');
             const searchInput = document.getElementById('glossary-search');
+            const lettersEl = document.getElementById('glossary-letters');
+            const paginationEl = document.getElementById('glossary-pagination');
+            
+            let allWords = [];
+            let currentPage = 1;
+            let currentLetter = null;
+            let wordsPerPage = 500;
             
             try {
                 // Load Alar dictionary to get all English words
@@ -224,15 +331,62 @@
                 buildReverseIndex();
                 
                 // Get all English words from reverse index
-                const allWords = Array.from(allEnglishWords).sort();
+                allWords = Array.from(allEnglishWords).sort();
                 
                 statsEl.textContent = `${allWords.length.toLocaleString()} English words`;
                 loadingEl.style.display = 'none';
                 
-                // Display words
-                function displayWords(words) {
+                // Create letter navigation
+                const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+                lettersEl.innerHTML = '';
+                letters.forEach(letter => {
+                    const link = document.createElement('a');
+                    link.href = '#';
+                    link.className = 'glossary-letter';
+                    link.textContent = letter;
+                    link.onclick = (e) => {
+                        e.preventDefault();
+                        currentLetter = letter;
+                        currentPage = 1;
+                        searchInput.value = '';
+                        filterAndDisplay();
+                        updateActiveLetter(letter);
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    };
+                    lettersEl.appendChild(link);
+                });
+                lettersEl.style.display = 'flex';
+                
+                // Display words with pagination
+                function filterAndDisplay() {
+                    let filtered = allWords;
+                    
+                    // Filter by letter if selected
+                    if (currentLetter) {
+                        filtered = filtered.filter(word => 
+                            word.toUpperCase().startsWith(currentLetter)
+                        );
+                    }
+                    
+                    // Filter by search query
+                    const query = searchInput.value.toLowerCase().trim();
+                    if (query) {
+                        filtered = filtered.filter(word => 
+                            word.toLowerCase().includes(query)
+                        );
+                        currentLetter = null; // Clear letter filter when searching
+                        updateActiveLetter(null);
+                    }
+                    
+                    // Calculate pagination
+                    const totalPages = Math.ceil(filtered.length / wordsPerPage);
+                    const startIndex = (currentPage - 1) * wordsPerPage;
+                    const endIndex = startIndex + wordsPerPage;
+                    const pageWords = filtered.slice(startIndex, endIndex);
+                    
+                    // Display words
                     listEl.innerHTML = '';
-                    words.forEach(word => {
+                    pageWords.forEach(word => {
                         const link = document.createElement('a');
                         link.href = `index.html?q=${encodeURIComponent(word)}`;
                         link.className = 'glossary-word';
@@ -240,24 +394,131 @@
                         listEl.appendChild(link);
                     });
                     
-                    statsEl.textContent = `${words.length.toLocaleString()} of ${allWords.length.toLocaleString()} words`;
+                    // Update stats
+                    if (query || currentLetter) {
+                        statsEl.textContent = `Showing ${pageWords.length.toLocaleString()} of ${filtered.length.toLocaleString()} words (Page ${currentPage} of ${totalPages})`;
+                    } else {
+                        statsEl.textContent = `${allWords.length.toLocaleString()} English words (Page ${currentPage} of ${totalPages})`;
+                    }
+                    
+                    // Update pagination
+                    updatePagination(totalPages);
                 }
                 
-                // Initial display
-                displayWords(allWords);
+                function updateActiveLetter(letter) {
+                    lettersEl.querySelectorAll('.glossary-letter').forEach(link => {
+                        link.classList.toggle('active', link.textContent === letter);
+                    });
+                }
                 
-                // Search functionality
-                searchInput.addEventListener('input', (e) => {
-                    const query = e.target.value.toLowerCase().trim();
-                    if (!query) {
-                        displayWords(allWords);
+                function updatePagination(totalPages) {
+                    if (totalPages <= 1) {
+                        paginationEl.style.display = 'none';
                         return;
                     }
                     
-                    const filtered = allWords.filter(word => 
-                        word.toLowerCase().includes(query)
-                    );
-                    displayWords(filtered);
+                    paginationEl.style.display = 'flex';
+                    paginationEl.innerHTML = '';
+                    
+                    // Previous button
+                    const prevBtn = document.createElement('button');
+                    prevBtn.className = 'glossary-page-btn';
+                    prevBtn.textContent = '←';
+                    prevBtn.disabled = currentPage === 1;
+                    prevBtn.onclick = (e) => {
+                        e.preventDefault();
+                        if (currentPage > 1) {
+                            currentPage--;
+                            filterAndDisplay();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }
+                    };
+                    paginationEl.appendChild(prevBtn);
+                    
+                    // Page numbers (show up to 10 pages around current)
+                    const startPage = Math.max(1, currentPage - 5);
+                    const endPage = Math.min(totalPages, currentPage + 5);
+                    
+                    if (startPage > 1) {
+                        const firstBtn = document.createElement('a');
+                        firstBtn.href = '#';
+                        firstBtn.className = 'glossary-page-btn';
+                        firstBtn.textContent = '1';
+                        firstBtn.onclick = (e) => {
+                            e.preventDefault();
+                            currentPage = 1;
+                            filterAndDisplay();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        };
+                        paginationEl.appendChild(firstBtn);
+                        if (startPage > 2) {
+                            const ellipsis = document.createElement('span');
+                            ellipsis.textContent = '...';
+                            ellipsis.style.padding = '8px 4px';
+                            ellipsis.style.color = 'var(--text-color-light)';
+                            paginationEl.appendChild(ellipsis);
+                        }
+                    }
+                    
+                    for (let i = startPage; i <= endPage; i++) {
+                        const pageBtn = document.createElement('a');
+                        pageBtn.href = '#';
+                        pageBtn.className = 'glossary-page-btn';
+                        if (i === currentPage) pageBtn.classList.add('active');
+                        pageBtn.textContent = i.toString();
+                        pageBtn.onclick = (e) => {
+                            e.preventDefault();
+                            currentPage = i;
+                            filterAndDisplay();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        };
+                        paginationEl.appendChild(pageBtn);
+                    }
+                    
+                    if (endPage < totalPages) {
+                        if (endPage < totalPages - 1) {
+                            const ellipsis = document.createElement('span');
+                            ellipsis.textContent = '...';
+                            ellipsis.style.padding = '8px 4px';
+                            ellipsis.style.color = 'var(--text-color-light)';
+                            paginationEl.appendChild(ellipsis);
+                        }
+                        const lastBtn = document.createElement('a');
+                        lastBtn.href = '#';
+                        lastBtn.className = 'glossary-page-btn';
+                        lastBtn.textContent = totalPages.toString();
+                        lastBtn.onclick = (e) => {
+                            e.preventDefault();
+                            currentPage = totalPages;
+                            filterAndDisplay();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        };
+                        paginationEl.appendChild(lastBtn);
+                    }
+                    
+                    // Next button
+                    const nextBtn = document.createElement('button');
+                    nextBtn.className = 'glossary-page-btn';
+                    nextBtn.textContent = '→';
+                    nextBtn.disabled = currentPage === totalPages;
+                    nextBtn.onclick = (e) => {
+                        e.preventDefault();
+                        if (currentPage < totalPages) {
+                            currentPage++;
+                            filterAndDisplay();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }
+                    };
+                    paginationEl.appendChild(nextBtn);
+                }
+                
+                // Initial display
+                filterAndDisplay();
+                
+                // Search functionality
+                searchInput.addEventListener('input', (e) => {
+                    currentPage = 1;
+                    filterAndDisplay();
                 });
                 
             } catch (error) {

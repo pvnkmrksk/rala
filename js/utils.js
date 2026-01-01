@@ -402,5 +402,6 @@ function playAudio(buttonId, audioUrl) {
     });
 }
 
-// Make playAudio available globally
+// Make functions available globally
 window.playAudio = playAudio;
+window.preloadAudio = preloadAudio;

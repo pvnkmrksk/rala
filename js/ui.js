@@ -240,7 +240,7 @@ function renderResultCard(result, query, isSynonym = false) {
         <div class="result-card">
             <div class="kannada-word">
                 ${showButton ? `
-                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" data-source="${source}" ${audioUrl ? `onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')"` : ''} title="Play pronunciation" style="opacity: ${audioUrl ? '1' : '0.5'};">
+                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" data-source="${source}" ${audioUrl ? `onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')"` : ''} title="Play pronunciation" style="opacity: ${audioUrl ? '1' : '0.5'};" data-audio-url="${audioUrl || ''}">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M8 5v14l11-7z"/>
                         </svg>
