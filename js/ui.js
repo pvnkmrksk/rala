@@ -169,6 +169,11 @@ function renderResultCard(result, query, isSynonym = false) {
     const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
     const copyId = `copy-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
     
+    // Pre-load audio if URL is available
+    if (audioUrl && typeof preloadAudio === 'function') {
+        preloadAudio(audioUrl);
+    }
+    
     // Check cache first - if we know it doesn't exist, don't show button
     // If unknown, show it and check asynchronously
     // Support both Alar and Padakanaja sources
