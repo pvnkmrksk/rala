@@ -37,7 +37,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     window.deferredPrompt = e; // Make available globally
     // Show the install prompt
     if (installPrompt) {
-        installPrompt.classList.add('show');
+    installPrompt.classList.add('show');
     }
 });
 
@@ -57,7 +57,7 @@ installPrompt.addEventListener('click', async () => {
     
     // Hide the install prompt
     if (installPrompt) {
-        installPrompt.classList.remove('show');
+    installPrompt.classList.remove('show');
     }
 });
 
@@ -70,7 +70,7 @@ installClose.addEventListener('click', (e) => {
 window.addEventListener('appinstalled', () => {
     console.log('PWA installed successfully');
     if (installPrompt) {
-        installPrompt.classList.remove('show');
+    installPrompt.classList.remove('show');
     }
     deferredPrompt = null;
     window.deferredPrompt = null;
@@ -81,7 +81,7 @@ if (window.matchMedia('(display-mode: standalone)').matches ||
     window.navigator.standalone === true) {
     console.log('Running as installed PWA');
     if (installPrompt) {
-        installPrompt.classList.remove('show');
+    installPrompt.classList.remove('show');
     }
 }
 
@@ -120,5 +120,5 @@ showPWAInfo();
 // Start the app (only if not already started)
 if (typeof init === 'function' && !window.appInitialized) {
     window.appInitialized = true;
-    init();
+init();
 }

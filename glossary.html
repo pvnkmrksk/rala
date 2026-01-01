@@ -325,41 +325,14 @@
             let wordsPerPage = 500;
             
             try {
-                // Load Alar dictionary to get all English words
-                // Use the same method as the main page
-                if (typeof loadAlarFromYAML === 'function') {
-                    await loadAlarFromYAML();
-                } else if (typeof loadDictionary === 'function') {
-                    await loadDictionary();
+                // Load pre-generated word list (much faster than generating on-the-fly)
+                const wordsUrl = typeof GLOSSARY_WORDS_URL !== 'undefined' ? GLOSSARY_WORDS_URL : 'data/glossary_words.json';
+                const response = await fetch(wordsUrl);
+                if (!response.ok) {
+                    throw new Error(`Failed to load glossary words: ${response.status}`);
                 }
-                
-                // Build reverse index to get all English words
-                if (typeof buildReverseIndex === 'function') {
-                    buildReverseIndex();
-                }
-                
-                // Get all English words from reverse index
-                if (typeof allEnglishWords !== 'undefined' && allEnglishWords instanceof Set) {
-                    allWords = Array.from(allEnglishWords);
-                } else {
-                    // Fallback: try to get words from dictionary entries
-                    if (typeof dictionary !== 'undefined' && Array.isArray(dictionary)) {
-                        const wordSet = new Set();
-                        dictionary.forEach(entry => {
-                            if (entry.defs) {
-                                entry.defs.forEach(def => {
-                                    if (def.entry) {
-                                        const words = def.entry.toLowerCase().match(/\b[a-z]+\b/g);
-                                        if (words) {
-                                            words.forEach(w => wordSet.add(w));
-                                        }
-                                    }
-                                });
-                            }
-                        });
-                        allWords = Array.from(wordSet);
-                    }
-                }
+                allWords = await response.json();
+                console.log(`✓ Loaded ${allWords.length.toLocaleString()} pre-generated words`);
                 
                 // Filter out junk: numbers, ordinals, ranges, and invalid entries
                 allWords = allWords.filter(word => {

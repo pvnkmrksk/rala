@@ -131,23 +131,23 @@ def load_padakanaja(audio_index, word_id_map):
     if audio_index is None or word_id_map is None:
         print("⚠ No audio index or word mapping available, skipping ID matching")
         # Still load entries but without IDs
-        if isinstance(data, dict):
-            for key, entries_list in data.items():
-                source = key.split('|')[0] if '|' in key else key
-                dict_title = key.split('|')[1] if '|' in key else ''
-                
-                if isinstance(entries_list, list):
-                    for entry_data in entries_list:
-                        if isinstance(entry_data, list) and len(entry_data) >= 2:
-                            kannada = entry_data[0]
-                            english = entry_data[1]
-                            type_val = entry_data[2] if len(entry_data) > 2 else 'Noun'
-                            
-                            entries.append({
-                                'kannada': kannada,
-                                'english': english,
-                                'type': type_val,
-                                'source': source,
+    if isinstance(data, dict):
+        for key, entries_list in data.items():
+            source = key.split('|')[0] if '|' in key else key
+            dict_title = key.split('|')[1] if '|' in key else ''
+            
+            if isinstance(entries_list, list):
+                for entry_data in entries_list:
+                    if isinstance(entry_data, list) and len(entry_data) >= 2:
+                        kannada = entry_data[0]
+                        english = entry_data[1]
+                        type_val = entry_data[2] if len(entry_data) > 2 else 'Noun'
+                        
+                        entries.append({
+                            'kannada': kannada,
+                            'english': english,
+                            'type': type_val,
+                            'source': source,
                                 'dict_title': dict_title,
                                 'id': ''
                             })

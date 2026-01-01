@@ -79,16 +79,16 @@ function getAudioUrl(entryId, source = 'alar') {
             return null;
         }
         
-        // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
-        let rangeStart, rangeEnd;
+    // Audio files are organized by ID ranges: 1-9999, 10000-19999, etc.
+    let rangeStart, rangeEnd;
         if (numericId <= 9999) {
-            rangeStart = 1;
-            rangeEnd = 9999;
-        } else {
+        rangeStart = 1;
+        rangeEnd = 9999;
+    } else {
             rangeStart = Math.floor(numericId / 10000) * 10000;
-            rangeEnd = rangeStart + 9999;
-        }
-        const range = `${rangeStart}-${rangeEnd}`;
+        rangeEnd = rangeStart + 9999;
+    }
+    const range = `${rangeStart}-${rangeEnd}`;
         const url = `https://raw.githubusercontent.com/Aditya-ds-1806/Alar-voice-corpus/main/audio/${range}/${numericId}.mp3`;
         console.log('✅ Alar audio URL:', url);
         return url;
@@ -270,10 +270,10 @@ async function checkAndUpdateAudioButtons(results) {
             } catch (error) {
                 return { entryId: id, source, exists: false };
             }
-        });
-        
-        const results_checks = await Promise.all(checkPromises);
-        
+    });
+    
+    const results_checks = await Promise.all(checkPromises);
+    
         // Update buttons for this batch
         results_checks.forEach(({ entryId, source, exists }) => {
             // Get audio URL now that index is loaded (if it exists)
@@ -301,21 +301,21 @@ async function checkAndUpdateAudioButtons(results) {
                         }
                     }
                 });
-                return;
-            }
-            buttons.forEach(button => {
+            return;
+        }
+        buttons.forEach(button => {
                 if (exists && audioUrl) {
-                    button.style.display = '';
+                button.style.display = '';
                     button.style.opacity = '1';
                     button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
                     button.setAttribute('data-audio-url', audioUrl);
-                } else {
-                    // Remove the button if it doesn't exist
-                    button.remove();
-                }
-            });
+            } else {
+                // Remove the button if it doesn't exist
+                button.remove();
+            }
         });
-    }
+    });
+}
 }
 
 function copyKannadaWord(buttonId, kannadaWord) {
