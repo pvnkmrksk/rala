@@ -441,12 +441,12 @@
                 function isJunkWord(word) {
                     const w = word.toLowerCase().trim();
                     
-                    // Remove very short words (less than 3 chars) unless they're common
-                    const commonShortWords = new Set(['a', 'i', 'am', 'an', 'as', 'at', 'be', 'by', 'do', 'go', 'he', 'if', 'in', 'is', 'it', 'me', 'my', 'no', 'of', 'on', 'or', 'so', 'to', 'up', 'us', 'we']);
-                    if (w.length < 3 && !commonShortWords.has(w)) return true;
-                    
                     // Remove hyphenated words on page 1 (like "a-b", "aard-wolf")
                     if (w.includes('-')) return true;
+                    
+                    // Remove very short words (less than 3 chars) unless they're common English
+                    const commonShortWords = new Set(['a', 'i', 'am', 'an', 'as', 'at', 'be', 'by', 'do', 'go', 'he', 'if', 'in', 'is', 'it', 'me', 'my', 'no', 'of', 'on', 'or', 'so', 'to', 'up', 'us', 'we', 'ad', 'ah', 'ai', 'ay', 'eh', 'ha', 'hi', 'ho', 'id', 'ma', 'oh', 'ok', 'ow', 'pa', 'pi', 'ta', 'ti', 'um', 'ya', 'ye', 'yo']);
+                    if (w.length < 3 && !commonShortWords.has(w)) return true;
                     
                     // Remove words that look like abbreviations or codes (all caps short words)
                     if (w.length <= 3 && word === word.toUpperCase() && !commonShortWords.has(w)) return true;
@@ -454,8 +454,36 @@
                     // Remove words that are just repeated letters (aaa, bbb, etc.)
                     if (/^(.)\1+$/.test(w) && w.length <= 4) return true;
                     
-                    // Remove words that look like typos or fragments
-                    if (w.length <= 2 && !commonShortWords.has(w)) return true;
+                    // Remove specific junk/non-English words that appeared on page 1
+                    const junkWords = new Set([
+                        'aba', 'abage', 'abahud', 'abahude', 'abahudu', 'abait', 'aballavanige', 
+                        'abaravin', 'abaru', 'abbi', 'abbr', 'abbrev', 'abbreviatiated', 
+                        'abbykare', 'abc', 'abdariffa', 'abh', 'abha', 'abhad', 'abhan', 
+                        'abhi', 'abhic', 'abhidhamma'
+                    ]);
+                    if (junkWords.has(w)) return true;
+                    
+                    // Remove words that don't look like proper English
+                    // Words should have vowels and reasonable consonant patterns
+                    if (w.length >= 3) {
+                        const vowelCount = (w.match(/[aeiou]/gi) || []).length;
+                        const consonantCount = w.length - vowelCount;
+                        
+                        // If word has no vowels, it's probably not English
+                        if (vowelCount === 0) return true;
+                        
+                        // If word is mostly consonants (more than 75%), probably not a word
+                        if (consonantCount / w.length > 0.75) return true;
+                        
+                        // If word has too many consecutive consonants (4+), probably not English
+                        if (/[bcdfghjklmnpqrstvwxyz]{4,}/i.test(w)) return true;
+                        
+                        // If word has unusual consonant clusters that aren't English-like
+                        // Common English patterns: br, bl, cr, cl, dr, fl, fr, gl, gr, pl, pr, sc, sk, sl, sm, sn, sp, st, sw, tr, tw, thr, shr, sch
+                        // But avoid words with too many unusual clusters
+                        const unusualClusters = (w.match(/[bcdfghjklmnpqrstvwxyz]{3,}/gi) || []).length;
+                        if (unusualClusters > 1 && w.length < 8) return true;
+                    }
                     
                     return false;
                 }
