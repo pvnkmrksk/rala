@@ -105,5 +105,8 @@ if (pwaInfoDismiss) {
 // Show info banner
 showPWAInfo();
 
-// Start the app
-init();
+// Start the app (only if not already started)
+if (typeof init === 'function' && !window.appInitialized) {
+    window.appInitialized = true;
+    init();
+}

@@ -11,6 +11,9 @@ async function init() {
         // Initialize dark mode first
         initDarkMode();
         
+        // Initialize sidebar
+        initSidebar();
+        
         // Remove loading spinner immediately (no animation, instant)
         const loadingEl = document.getElementById('initial-loading');
         if (loadingEl) {
