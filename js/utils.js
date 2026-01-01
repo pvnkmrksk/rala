@@ -279,6 +279,11 @@ async function checkAndUpdateAudioButtons(results) {
             // Get audio URL now that index is loaded (if it exists)
             const audioUrl = exists ? getAudioUrl(entryId, source) : null;
             
+            // Pre-load audio if it exists
+            if (exists && audioUrl && typeof preloadAudio === 'function') {
+                preloadAudio(audioUrl);
+            }
+            
             // Find all buttons for this entry ID (include source in selector if needed)
             const buttons = document.querySelectorAll(`[data-entry-id="${entryId}"][data-source="${source}"]`);
             if (buttons.length === 0) {
@@ -290,6 +295,7 @@ async function checkAndUpdateAudioButtons(results) {
                             button.style.display = '';
                             button.style.opacity = '1';
                             button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
+                            button.setAttribute('data-audio-url', audioUrl);
                         } else {
                             button.remove();
                         }
@@ -302,6 +308,7 @@ async function checkAndUpdateAudioButtons(results) {
                     button.style.display = '';
                     button.style.opacity = '1';
                     button.setAttribute('onclick', `playAudio('${button.id}', '${audioUrl.replace(/'/g, "\\'")}')`);
+                    button.setAttribute('data-audio-url', audioUrl);
                 } else {
                     // Remove the button if it doesn't exist
                     button.remove();
