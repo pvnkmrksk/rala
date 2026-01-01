@@ -9,6 +9,8 @@ Includes entry IDs for audio support - FIXED to use same IDs as audio generation
 import json
 import os
 import sys
+import hashlib
+import re
 from pathlib import Path
 from collections import defaultdict
 
@@ -41,29 +43,60 @@ def load_audio_index_mapping():
     print(f"✓ Loaded word mapping: {len(word_id_map):,} Kannada words")
     return audio_index, word_id_map
 
+def generate_entry_id(kannada_word, english_word, index=0):
+    """Generate entry ID matching the format used in voice corpus"""
+    unique_str = f"{kannada_word}|{english_word}|{index}"
+    hash_obj = hashlib.md5(unique_str.encode('utf-8'))
+    hash_hex = hash_obj.hexdigest()[:12]
+    english_clean = re.sub(r'[^\w]', '', english_word.lower())[:10]
+    entry_id = f"{english_clean}_{hash_hex}"
+    return entry_id
+
 def find_entry_id_for_pair(kannada, english, word_id_map, audio_index):
     """Find the correct entry_id for a (kannada, english) pair"""
-    if not kannada or kannada not in word_id_map:
+    if not kannada or not english:
         return ''
     
-    data = word_id_map[kannada]
-    all_ids = data.get('all_ids', [])
-    primary_id = data.get('primary_id', '')
+    # Get all valid IDs for this kannada word (if available)
+    valid_kannada_ids = []
+    if kannada in word_id_map:
+        data = word_id_map[kannada]
+        all_ids = data.get('all_ids', [])
+        # Filter to only IDs that exist in audio_index
+        valid_kannada_ids = [eid for eid in all_ids if eid in audio_index]
     
-    # Filter to only IDs that exist in audio_index
-    valid_ids = [eid for eid in all_ids if eid in audio_index]
+    # First, try to regenerate the ID using the same algorithm
+    # Try index 0, 1, 2, ... up to 20 (should cover most cases)
+    # Prefer IDs that are also in the valid_kannada_ids list
+    matched_ids = []
+    for index in range(20):
+        generated_id = generate_entry_id(kannada, english, index)
+        if generated_id in audio_index:
+            if valid_kannada_ids and generated_id in valid_kannada_ids:
+                # This is a perfect match - return immediately
+                return generated_id
+            matched_ids.append(generated_id)
     
-    if not valid_ids:
-        return ''
+    # If we found matches, prefer one that's in valid_kannada_ids
+    if matched_ids:
+        for mid in matched_ids:
+            if valid_kannada_ids and mid in valid_kannada_ids:
+                return mid
+        # Otherwise, return the first match
+        return matched_ids[0]
     
-    # Prefer primary_id if it's valid
-    if primary_id and primary_id in valid_ids:
-        return primary_id
+    # Fallback: if regeneration doesn't work, try looking up by kannada word
+    # This is less precise but might catch some cases
+    if valid_kannada_ids:
+        # Prefer primary_id if it's valid
+        if kannada in word_id_map:
+            primary_id = word_id_map[kannada].get('primary_id', '')
+            if primary_id and primary_id in valid_kannada_ids:
+                return primary_id
+        # Otherwise, use the first valid ID
+        return valid_kannada_ids[0]
     
-    # Otherwise, use the first valid ID
-    # Note: This might not be perfect if there are multiple entries with same kannada but different english,
-    # but it's the best we can do without loading the original YAML files
-    return valid_ids[0]
+    return ''
 
 def load_padakanaja(audio_index, word_id_map):
     """Load Padakanaja dictionary from optimized format and match IDs from audio index"""

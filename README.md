@@ -185,7 +185,6 @@ Contributions are welcome! Areas where help is needed:
 
 ## 🐛 Known Issues
 
-- Some Padakanaja entries may not have audio (coverage ~85%)
 - Large result sets may take a moment to render
 - Offline mode works for Alar only (Padakanaja requires API)
 
