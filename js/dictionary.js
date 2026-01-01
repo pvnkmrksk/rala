@@ -2,6 +2,12 @@
 // dictionary.js - Dictionary loading, caching, and reverse index building
 // ============================================================================
 
+// Helper function to check if cache should be bypassed
+function shouldBypassCache() {
+    if (typeof window === 'undefined' || !window.location) return false;
+    return window.location.search.includes('nocache');
+}
+
 // Load Alar from YAML (fast, original way - for offline support when Worker API is enabled)
 async function loadAlarFromYAML() {
     try {
