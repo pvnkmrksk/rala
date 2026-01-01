@@ -368,6 +368,9 @@
                     // Skip empty
                     if (!w || w.length === 0) return false;
                     
+                    // Skip entries shorter than 2 characters
+                    if (w.length < 2) return false;
+                    
                     // Skip entries that are just numbers
                     if (/^\d+$/.test(w)) return false;
                     
@@ -380,14 +383,24 @@
                     // Skip ordinals (1st, 2nd, 3rd, 4th, etc.)
                     if (/^\d+(st|nd|rd|th)$/i.test(w)) return false;
                     
-                    // Skip entries with underscores or other junk characters
-                    if (/[_\W]/.test(w) && !/[a-z]/.test(w)) return false;
+                    // Skip entries that start or end with hyphens (like "-button", "-speaking", "--u")
+                    if (/^-|-$/.test(w)) return false;
                     
-                    // Skip entries that are just special characters
-                    if (/^[^a-z]+$/i.test(w)) return false;
+                    // Skip entries with multiple consecutive hyphens (like "--u", "-uu-")
+                    if (/--/.test(w)) return false;
                     
-                    // Skip entries shorter than 2 characters (too short to be meaningful)
-                    if (w.length < 2) return false;
+                    // Skip entries with underscores (like "__st", "__th")
+                    if (/_/.test(w)) return false;
+                    
+                    // Skip entries that contain numbers (like "abba3")
+                    if (/\d/.test(w)) return false;
+                    
+                    // Skip entries that are mostly special characters
+                    const letterCount = (w.match(/[a-z]/gi) || []).length;
+                    if (letterCount < w.length * 0.5) return false; // At least 50% letters
+                    
+                    // Skip entries that don't start with a letter
+                    if (!/^[a-z]/i.test(w)) return false;
                     
                     // Skip entries that are just punctuation or symbols
                     if (!/[a-z]/i.test(w)) return false;
