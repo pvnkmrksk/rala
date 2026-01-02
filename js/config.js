@@ -41,6 +41,10 @@ let padakanajaAudioIndexLoading = false;
 // Glossary words (pre-generated filtered word list for faster loading)
 const GLOSSARY_WORDS_URL = 'data/glossary_words.json';
 
+// Worker API readiness flag
+let workerApiReady = false;
+let workerApiReadyPromise = null;
+
 // Combined padakanaja dictionary (ultra-compact format: duplicates removed, flattened)
 const PADAKANAJA_COMBINED_FILES = [
     'padakanaja/combined_dictionaries_ultra.json'

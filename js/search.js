@@ -447,6 +447,15 @@ async function searchDirect(query) {
     // If Worker API is configured, search Alar locally (fast) + Padakanaja from API (on-demand)
     if (WORKER_API_URL) {
         try {
+            // Wait for Worker API to be ready (if pre-warm is still in progress)
+            if (typeof workerApiReadyPromise !== 'undefined' && workerApiReadyPromise !== null) {
+                await workerApiReadyPromise;
+            }
+            // If still not ready, wait a bit more (fallback)
+            if (typeof workerApiReady !== 'undefined' && !workerApiReady) {
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
+            
             const startTime = performance.now();
             
             // Search Alar locally (fast, already loaded) and Padakanaja from API in parallel

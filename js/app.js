@@ -32,16 +32,33 @@ async function init() {
         } else {
             console.log('🚀 Worker API enabled - loading Alar in background');
             
-            // Pre-warm Worker with a dummy call (make it hot and ready)
+            // Pre-warm Worker with a known word (elytra) and verify response
+            // This ensures the API is actually ready before allowing searches
             const preWarmStartTime = performance.now();
-            const preWarmPromise = fetch(`${WORKER_API_URL}?q=elytra`)
-                .then(() => {
+            workerApiReadyPromise = fetch(`${WORKER_API_URL}?q=elytra`)
+                .then(async (response) => {
+                    if (!response.ok) {
+                        throw new Error(`Worker API returned ${response.status}`);
+                    }
+                    const data = await response.json();
+                    // Verify we got actual results (elytra should return results)
+                    if (!data || !data.results || !Array.isArray(data.results)) {
+                        throw new Error('Worker API returned invalid response format');
+                    }
                     const preWarmTime = performance.now() - preWarmStartTime;
-                    console.log(`🔥 Pre-warm Worker API: ${preWarmTime.toFixed(0)}ms`);
+                    workerApiReady = true;
+                    console.log(`🔥 Pre-warm Worker API verified: ${preWarmTime.toFixed(0)}ms (${data.results.length} results for "elytra")`);
+                    return true;
                 })
                 .catch(error => {
                     const preWarmTime = performance.now() - preWarmStartTime;
                     console.warn(`⚠️ Pre-warm Worker API failed (${preWarmTime.toFixed(0)}ms):`, error);
+                    // Still mark as ready after a delay to allow retries
+                    setTimeout(() => {
+                        workerApiReady = true;
+                        console.log('⚠️ Worker API marked as ready despite pre-warm failure (will retry on search)');
+                    }, 2000);
+                    return false;
                 });
             
             // Load Alar from YAML async in background (don't block UI)
@@ -100,7 +117,18 @@ async function init() {
         
         // Check URL for initial query before rendering
         const urlQuery = getQueryFromURL();
-        renderApp(urlQuery);
+        
+        // If there's an initial query and Worker API is enabled, wait for it to be ready
+        if (urlQuery && WORKER_API_URL && typeof workerApiReadyPromise !== 'undefined' && workerApiReadyPromise !== null) {
+            workerApiReadyPromise.then(() => {
+                renderApp(urlQuery);
+            }).catch(() => {
+                // Still render even if pre-warm failed
+                renderApp(urlQuery);
+            });
+        } else {
+            renderApp(urlQuery);
+        }
     } catch (error) {
         app.innerHTML = `
             <div class="status" style="color: #e74c3c;">
@@ -547,8 +575,23 @@ function renderApp(initialQuery = '') {
         // Industry standard: 300-500ms for instant search, 500-800ms for network calls
         const debounceDelay = WORKER_API_URL ? 600 : 400;
         debounceTimer = setTimeout(() => {
-            // Only search if dictionary is ready (or Worker API is enabled)
-            if (WORKER_API_URL || dictionaryReady) {
+            // Only search if dictionary is ready (or Worker API is enabled and ready)
+            if (WORKER_API_URL) {
+                // For Worker API, wait for it to be ready
+                if (typeof workerApiReadyPromise !== 'undefined' && workerApiReadyPromise !== null) {
+                    workerApiReadyPromise.then(() => {
+                        performSearch(e.target.value, false);
+                    }).catch(() => {
+                        // Still try to search even if pre-warm failed
+                        performSearch(e.target.value, false);
+                    });
+                } else if (typeof workerApiReady !== 'undefined' && workerApiReady) {
+                    performSearch(e.target.value, false);
+                } else {
+                    // Wait a bit and retry
+                    setTimeout(() => performSearch(e.target.value, false), 500);
+                }
+            } else if (dictionaryReady) {
                 performSearch(e.target.value, false);
             }
         }, debounceDelay);
