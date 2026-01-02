@@ -235,8 +235,8 @@ function renderResultCard(result, query, isSynonym = false) {
     const tooltipText = sourceTextKannada ? `${escapedSourceTextKannada}<br>${escapedSourceText}` : escapedSourceText;
     
     const sourceDisplay = sourceText ? `
-        <span class="dict-source-wrapper">
-            <a href="${sourceLink}" target="_blank" rel="noopener noreferrer" class="dict-source" id="${sourceId}" data-source-text="${escapedSourceText}">[source]</a>
+        <span class="dict-source-wrapper" id="${sourceId}-wrapper">
+            <a href="${sourceLink}" target="_blank" rel="noopener noreferrer" class="dict-source" id="${sourceId}" data-source-text="${escapedSourceText}" data-source-link="${sourceLink}">[source]</a>
             <div class="dict-source-tooltip" id="${sourceId}-tooltip">${tooltipText}</div>
         </span>
     ` : '';
@@ -268,4 +268,65 @@ function renderResultCard(result, query, isSynonym = false) {
             ${isSynonym ? `<div class="synonym-match">matched via synonym: "${result.matchedWord}" (searched: "${result.originalQuery}")</div>` : ''}
         </div>
     `;
+}
+
+// Handle mobile tap behavior for source links
+// On mobile: first tap shows tooltip, second tap opens link
+function initSourceLinkBehavior() {
+    // Check if we're on a touch device
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    
+    if (!isTouchDevice) {
+        return; // Desktop hover behavior works fine
+    }
+    
+    // Use event delegation for dynamically added source links
+    document.addEventListener('click', (e) => {
+        const sourceLink = e.target.closest('.dict-source');
+        if (!sourceLink) return;
+        
+        const wrapper = sourceLink.closest('.dict-source-wrapper');
+        if (!wrapper) return;
+        
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // Check if tooltip is already shown
+        const isShown = wrapper.classList.contains('show-tooltip');
+        
+        if (isShown) {
+            // Second tap: open the link
+            const link = sourceLink.getAttribute('data-source-link') || sourceLink.getAttribute('href');
+            if (link) {
+                window.open(link, '_blank', 'noopener,noreferrer');
+            }
+            wrapper.classList.remove('show-tooltip');
+        } else {
+            // First tap: show tooltip
+            // Hide any other open tooltips
+            document.querySelectorAll('.dict-source-wrapper.show-tooltip').forEach(w => {
+                w.classList.remove('show-tooltip');
+            });
+            wrapper.classList.add('show-tooltip');
+            
+            // Hide tooltip when clicking elsewhere
+            const hideTooltip = (event) => {
+                if (!wrapper.contains(event.target)) {
+                    wrapper.classList.remove('show-tooltip');
+                    document.removeEventListener('click', hideTooltip);
+                }
+            };
+            // Use setTimeout to avoid immediate hide
+            setTimeout(() => {
+                document.addEventListener('click', hideTooltip, { once: true });
+            }, 100);
+        }
+    }, true); // Use capture phase
+}
+
+// Initialize source link behavior after DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSourceLinkBehavior);
+} else {
+    initSourceLinkBehavior();
 }

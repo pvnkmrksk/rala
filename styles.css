@@ -73,8 +73,10 @@ body {
     color: var(--text-color);
     transition: background-color 0.2s, color 0.2s;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: visible; /* Allow vertical scrolling for sticky */
     width: 100%;
     box-sizing: border-box;
+    min-height: 100vh; /* Ensure body has height for sticky to work */
 }
 
 html {
@@ -110,12 +112,18 @@ h1 {
 }
 
 .sticky-search {
+    position: -webkit-sticky; /* Safari support */
     position: sticky;
     top: 0;
     background: var(--bg-color);
-    z-index: 200;
+    z-index: 1000;
     border-bottom: 1px solid var(--border-color);
-    padding: 20px 20px;
+    padding: 20px 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    /* Sticky works within the body's max-width container */
 }
 
 .search-wrapper {
@@ -419,9 +427,12 @@ input[type="text"]:focus {
     transition: background 0.2s;
     max-width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: visible;
+    overflow-y: visible;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    position: relative;
+    z-index: 1;
 }
 
 .result-card:hover {
@@ -614,13 +625,12 @@ body.dark-mode .matched-word {
 }
 
 .tabs-wrapper {
-    position: sticky;
-    top: 80px;
     background: var(--bg-color);
-    z-index: 100;
-    border-bottom: 1px solid var(--border-color);
-    padding: 16px 20px;
-    margin-bottom: 0;
+    border-top: 1px solid var(--border-color);
+    padding: 12px 20px;
+    margin-top: 0;
+    position: relative;
+    z-index: 1000;
 }
 
 .tabs {
@@ -752,39 +762,56 @@ body.dark-mode .matched-word {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #000;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 14px 18px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 20px 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
     display: none;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     z-index: 1000;
     cursor: pointer;
-    font-size: 14px;
-    max-width: 320px;
-    line-height: 1.4;
+    font-size: 15px;
+    max-width: 340px;
+    line-height: 1.5;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .install-prompt.show {
     display: flex;
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .install-prompt:hover {
-    background: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(102, 126, 234, 0.5);
 }
 
 .install-prompt-header {
     display: flex;
     align-items: center;
     gap: 12px;
+    font-weight: 600;
 }
 
 .install-prompt svg {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     flex-shrink: 0;
+    stroke-width: 2.5;
 }
 
 .install-prompt .close {
@@ -800,44 +827,13 @@ body.dark-mode .matched-word {
 }
 
 .install-prompt-text {
-    font-size: 13px;
-    opacity: 0.9;
-    margin-top: 4px;
-}
-
-.pwa-info-banner {
-    background: var(--hover-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 16px;
-    margin: 20px;
     font-size: 14px;
-    color: var(--text-color-light);
-    display: none;
+    opacity: 0.95;
+    margin-top: 0;
+    font-weight: 400;
 }
 
-.pwa-info-banner.show {
-    display: block;
-}
-
-.pwa-info-banner strong {
-    color: var(--text-color);
-    display: inline;
-    margin-right: 8px;
-}
-
-.pwa-info-banner .dismiss {
-    margin-left: 12px;
-    color: var(--text-color);
-    text-decoration: underline;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.pwa-info-banner .dismiss:hover {
-    text-decoration: none;
-    opacity: 0.8;
-}
+/* PWA Info Banner - REMOVED (user requested deletion) */
 
 @media (max-width: 600px) {
     .install-prompt {
@@ -946,7 +942,7 @@ body.dark-mode .dict-progress {
 
 .dict-source-tooltip {
     position: absolute;
-    bottom: calc(100% + 8px);
+    bottom: calc(100% + 4px);
     left: 50%;
     transform: translateX(-50%);
     background: var(--bg-color);
@@ -959,12 +955,12 @@ body.dark-mode .dict-progress {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s, transform 0.2s;
-    z-index: 1000;
+    z-index: 10000;
     max-width: 300px;
     white-space: normal;
     text-align: center;
     line-height: 1.4;
-    margin-bottom: 4px;
+    margin-bottom: 0;
 }
 
 .dict-source-tooltip br {
@@ -972,9 +968,10 @@ body.dark-mode .dict-progress {
     margin: 4px 0;
 }
 
-.dict-source-wrapper:hover .dict-source-tooltip {
+.dict-source-wrapper:hover .dict-source-tooltip,
+.dict-source-wrapper.show-tooltip .dict-source-tooltip {
     opacity: 1;
-    transform: translateX(-50%) translateY(-4px);
+    transform: translateX(-50%) translateY(-2px);
     pointer-events: auto;
 }
 

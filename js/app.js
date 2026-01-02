@@ -112,20 +112,6 @@ async function init() {
 }
 function renderApp(initialQuery = '') {
     app.innerHTML = `
-        <div class="tabs-wrapper" id="tabs-wrapper" style="display: none;">
-            <div class="tabs">
-                <button class="tab active" id="tab-exact">
-                    <span>Exact Match</span>
-                    <span id="tab-exact-count"></span>
-                    <span id="tab-exact-spinner" class="tab-spinner" style="display: none;"></span>
-                </button>
-                <button class="tab" id="tab-synonym">
-                    <span>Synonym Match</span>
-                    <span id="tab-synonym-count"></span>
-                    <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
-                </button>
-            </div>
-        </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
             ${WORKER_API_URL ? '478,680 entries | 103,585 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
@@ -160,8 +146,7 @@ function renderApp(initialQuery = '') {
             if (exactSection) {
                 setTimeout(() => {
                     const searchHeight = document.querySelector('.sticky-search').offsetHeight;
-                    const tabsHeight = document.querySelector('.tabs-wrapper').offsetHeight;
-                    const offset = searchHeight + tabsHeight;
+                    const offset = searchHeight;
                     const elementPosition = exactSection.getBoundingClientRect().top + window.pageYOffset;
                     window.scrollTo({ 
                         top: elementPosition - offset, 
@@ -176,8 +161,7 @@ function renderApp(initialQuery = '') {
             if (synonymSection) {
                 setTimeout(() => {
                     const searchHeight = document.querySelector('.sticky-search').offsetHeight;
-                    const tabsHeight = document.querySelector('.tabs-wrapper').offsetHeight;
-                    const offset = searchHeight + tabsHeight;
+                    const offset = searchHeight;
                     const elementPosition = synonymSection.getBoundingClientRect().top + window.pageYOffset;
                     window.scrollTo({ 
                         top: elementPosition - offset, 

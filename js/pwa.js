@@ -85,37 +85,7 @@ if (window.matchMedia('(display-mode: standalone)').matches ||
     }
 }
 
-// PWA Info Banner
-const pwaInfoBanner = document.getElementById('pwa-info-banner');
-const pwaInfoDismiss = document.getElementById('pwa-info-dismiss');
-
-// Show info banner on first visit (if not dismissed before)
-function showPWAInfo() {
-    const dismissed = localStorage.getItem('pwa-info-dismissed');
-    const isInstalled = window.matchMedia('(display-mode: standalone)').matches || 
-                       window.navigator.standalone === true;
-    
-    // Don't show if already dismissed or already installed
-    if (!dismissed && !isInstalled && pwaInfoBanner) {
-        // Show after a short delay so page loads first
-        setTimeout(() => {
-            pwaInfoBanner.classList.add('show');
-        }, 2000);
-    }
-}
-
-// Dismiss banner
-if (pwaInfoDismiss) {
-    pwaInfoDismiss.addEventListener('click', () => {
-        if (pwaInfoBanner) {
-            pwaInfoBanner.classList.remove('show');
-            localStorage.setItem('pwa-info-dismissed', 'true');
-        }
-    });
-}
-
-// Show info banner
-showPWAInfo();
+// PWA Info Banner - REMOVED (user requested deletion)
 
 // Start the app (only if not already started)
 if (typeof init === 'function' && !window.appInitialized) {

@@ -47,7 +47,7 @@ function initSidebar() {
     };
     
     installLink?.addEventListener('click', handleInstall);
-    footerInstallLink?.addEventListener('click', handleInstall);
+    // Footer install link removed
     
     // Close sidebar on Escape key
     document.addEventListener('keydown', (e) => {

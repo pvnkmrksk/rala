@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Rala">
     <link rel="apple-touch-icon" href="icon.svg">
-    <link rel="stylesheet" href="styles.css?v=2.11">
+    <link rel="stylesheet" href="styles.css?v=2.19">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </head>
 <body>
@@ -70,7 +70,7 @@
                     <line x1="9" y1="11" x2="15" y2="11"></line>
                     <line x1="9" y1="15" x2="13" y2="15"></line>
                 </svg>
-                <span>Index / Glossary</span>
+                <span>Glossary</span>
             </a>
         </nav>
     </div>
@@ -94,12 +94,6 @@
         <div class="install-prompt-text">Install for offline use and faster access</div>
     </div>
     
-    <div id="pwa-info-banner" class="pwa-info-banner">
-        <strong>💡 Install Rala as an App</strong>
-        Use "Add to Home Screen" from your browser menu for a fully offline, faster loading, local app.
-        <span class="dismiss" id="pwa-info-dismiss">Got it, dismiss this message</span>
-    </div>
-    
     <div class="header">
         <h1>ರಲ</h1>
         <p class="subtitle">
@@ -120,6 +114,20 @@
                 </button>
             </div>
         </div>
+        <div class="tabs-wrapper" id="tabs-wrapper" style="display: none;">
+            <div class="tabs">
+                <button class="tab active" id="tab-exact">
+                    <span>Exact Match</span>
+                    <span id="tab-exact-count"></span>
+                    <span id="tab-exact-spinner" class="tab-spinner" style="display: none;"></span>
+                </button>
+                <button class="tab" id="tab-synonym">
+                    <span>Synonym Match</span>
+                    <span id="tab-synonym-count"></span>
+                    <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
+                </button>
+            </div>
+        </div>
     </div>
     
     <div id="app">
@@ -133,8 +141,7 @@
         <div class="footer-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="index.html" id="footer-install-link">Install App</a>
-            <a href="glossary.html">Index / Glossary</a>
+            <a href="glossary.html">Glossary</a>
         </div>
         <div class="footer-links">
             <a href="https://github.com/pvnkmrksk/rala" target="_blank"><strong>Rala (ರಲ)</strong></a>
