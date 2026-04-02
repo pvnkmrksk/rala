@@ -14,6 +14,15 @@ const STORE_NAME = 'dictionary';
 // Set this to your Worker URL after deployment, or null to use client-side search
 const WORKER_API_URL = 'https://rala-search.rala-search.workers.dev';
 
+// Vercel Web Analytics (optional). Static site is on GitHub Pages; the tracker script is
+// served from your Vercel project. Steps: (1) Create or use a Vercel project for this repo,
+// (2) enable Web Analytics in the project, (3) add rala.kutuhula.in under Domains,
+// (4) deploy once on Vercel, (5) set VERCEL_ANALYTICS_ORIGIN to the *.vercel.app URL (no slash).
+// Docs: https://vercel.com/docs/analytics/quickstart
+const VERCEL_ANALYTICS_ORIGIN = null;
+// Only send page views from these hostnames (avoids noise from localhost / preview URLs).
+const VERCEL_ANALYTICS_HOSTS = ['rala.kutuhula.in'];
+
 // Primary dictionary (loaded first)
 const PRIMARY_DICTIONARY = { 
     url: YAML_URL, 
