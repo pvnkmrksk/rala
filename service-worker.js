@@ -1,16 +1,56 @@
 // Service Worker for Rala PWA
-const CACHE_NAME = 'rala-v2.1';
-const RUNTIME_CACHE = 'rala-runtime-v2.1';
+const CACHE_NAME = 'rala-v2.3';
+const RUNTIME_CACHE = 'rala-runtime-v2.3';
+const ONLINE_FRESH_WINDOW_MS = 3 * 60 * 60 * 1000; // 3 hours
+const META_LAST_ONLINE_URL = '/__sw_meta__/last-online-success';
+const META_LAST_ONLINE_REQUEST = new Request(META_LAST_ONLINE_URL);
 
 // Assets to cache on install
 const STATIC_ASSETS = [
   './',
   './index.html',
   './about.html',
+  './glossary.html',
   './icon.svg',
   './manifest.json',
   'https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js'
 ];
+
+async function getLastOnlineSuccessTs() {
+  try {
+    const cache = await caches.open(RUNTIME_CACHE);
+    const response = await cache.match(META_LAST_ONLINE_REQUEST);
+    if (!response) return 0;
+    const data = await response.json();
+    return Number(data.ts) || 0;
+  } catch (_) {
+    return 0;
+  }
+}
+
+async function setLastOnlineSuccessTs(ts = Date.now()) {
+  try {
+    const cache = await caches.open(RUNTIME_CACHE);
+    await cache.put(
+      META_LAST_ONLINE_REQUEST,
+      new Response(JSON.stringify({ ts }), {
+        headers: { 'Content-Type': 'application/json' }
+      })
+    );
+  } catch (_) {
+    // Best effort only.
+  }
+}
+
+async function fetchWithTimeout(request, timeoutMs = 7000) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(request, { signal: controller.signal });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
 
 // Install event - cache static assets
 self.addEventListener('install', (event) => {
@@ -65,28 +105,36 @@ self.addEventListener('fetch', (event) => {
     return; // Let browser handle it
   }
 
-  // For navigation requests (HTML pages), try cache first, then network
+  // For navigation requests (HTML pages):
+  // - If the user loaded online recently (within freshness window), use cache.
+  // - Otherwise check network first.
+  // This keeps updates fresh while avoiding unnecessary downloads on frequent visits.
   if (request.mode === 'navigate') {
     event.respondWith(
-      caches.match(request).then((cachedResponse) => {
-        if (cachedResponse) {
-          console.log('[Service Worker] Serving from cache:', request.url);
-          return cachedResponse;
+      (async () => {
+        const cached = await caches.match(request);
+        const lastOnlineTs = await getLastOnlineSuccessTs();
+        const isRecentOnlineLoad = (Date.now() - lastOnlineTs) < ONLINE_FRESH_WINDOW_MS;
+
+        if (isRecentOnlineLoad && cached) {
+          return cached;
         }
-        return fetch(request).then((response) => {
-          // Cache the response for future use
+
+        try {
+          const response = await fetchWithTimeout(request);
           if (response.ok) {
             const responseToCache = response.clone();
             caches.open(RUNTIME_CACHE).then((cache) => {
               cache.put(request, responseToCache);
             });
+            setLastOnlineSuccessTs();
           }
           return response;
-        }).catch(() => {
-          // If offline and no cache, return offline page
+        } catch (_) {
+          if (cached) return cached;
           return caches.match('./index.html');
-        });
-      })
+        }
+      })()
     );
     return;
   }
@@ -106,6 +154,7 @@ self.addEventListener('fetch', (event) => {
             caches.open(RUNTIME_CACHE).then((cache) => {
               cache.put(request, responseToCache);
             });
+            setLastOnlineSuccessTs();
           }
           return response;
         });
@@ -123,6 +172,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(RUNTIME_CACHE).then((cache) => {
             cache.put(request, responseToCache);
           });
+          setLastOnlineSuccessTs();
         }
         return response;
       }).catch(() => {
@@ -137,12 +187,17 @@ self.addEventListener('fetch', (event) => {
   // But we can provide offline fallback
   if (url.href.includes('alar.yml')) {
     event.respondWith(
-      fetch(request).catch(() => {
+      fetch(request).then((response) => {
+        if (response.ok) {
+          setLastOnlineSuccessTs();
+        }
+        return response;
+      }).catch(() => {
         // If offline, return a response indicating offline mode
         // The app will use IndexedDB cache instead
-        return new Response('', { 
-          status: 503, 
-          statusText: 'Service Unavailable (Offline)' 
+        return new Response('', {
+          status: 503,
+          statusText: 'Service Unavailable (Offline)'
         });
       })
     );
@@ -157,6 +212,7 @@ self.addEventListener('fetch', (event) => {
         caches.open(RUNTIME_CACHE).then((cache) => {
           cache.put(request, responseToCache);
         });
+        setLastOnlineSuccessTs();
       }
       return response;
     }).catch(() => {

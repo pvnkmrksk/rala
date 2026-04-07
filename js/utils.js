@@ -44,6 +44,41 @@ function initDarkMode() {
         }
     });
 }
+
+function initScrollToTopButton() {
+    const buttonId = 'scroll-to-top-button';
+    let scrollTopButton = document.getElementById(buttonId);
+
+    if (!scrollTopButton) {
+        scrollTopButton = document.createElement('button');
+        scrollTopButton.id = buttonId;
+        scrollTopButton.className = 'scroll-top-button';
+        scrollTopButton.setAttribute('type', 'button');
+        scrollTopButton.setAttribute('title', 'Scroll to top');
+        scrollTopButton.setAttribute('aria-label', 'Scroll to top');
+        scrollTopButton.innerHTML = `
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="m18 15-6-6-6 6"></path>
+            </svg>
+        `;
+        document.body.appendChild(scrollTopButton);
+    }
+
+    const toggleVisibility = () => {
+        if (window.scrollY > 320) {
+            scrollTopButton.classList.add('show');
+        } else {
+            scrollTopButton.classList.remove('show');
+        }
+    };
+
+    scrollTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', toggleVisibility, { passive: true });
+    toggleVisibility();
+}
 // URL sync functionality
 function getQueryFromURL() {
     const params = new URLSearchParams(window.location.search);
@@ -409,6 +444,14 @@ function playAudio(buttonId, audioUrl) {
     });
 }
 
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initScrollToTopButton);
+} else {
+    initScrollToTopButton();
+}
+
 // Make functions available globally
 window.playAudio = playAudio;
-window.preloadAudio = preloadAudio;
+if (typeof preloadAudio === 'function') {
+    window.preloadAudio = preloadAudio;
+}

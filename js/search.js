@@ -126,17 +126,16 @@ async function getSynonyms(word) {
         const wordLower = word.toLowerCase();
         const synonymSet = new Set();
         
-        // Strategy 1: Direct synonyms (rel_syn)
-        const [synResponse, antResponse, mlResponse] = await Promise.all([
+        // Strategy 1: Direct synonyms (rel_syn) + antonyms for filtering.
+        // NOTE: We intentionally avoid broad "means-like" fallback here since it
+        // often introduces noisy semantically related (but not synonymous) terms.
+        const [synResponse, antResponse] = await Promise.all([
             fetch(`${DATAMUSE_API}?rel_syn=${encodeURIComponent(word)}&max=25`),
-            fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`),
-            // Means-like (ml) - but filter carefully to avoid false positives
-            fetch(`${DATAMUSE_API}?ml=${encodeURIComponent(word)}&max=15`)
+            fetch(`${DATAMUSE_API}?rel_ant=${encodeURIComponent(word)}&max=20`)
         ]);
         
         const synonyms = await synResponse.json();
         const antonyms = await antResponse.json();
-        const meansLike = await mlResponse.json();
         
         // Create set of antonyms to exclude
         const antonymSet = new Set(antonyms.map(item => item.word.toLowerCase()));
@@ -160,29 +159,37 @@ async function getSynonyms(word) {
             synonymSet.add(item.word);
         }
         
-        // Process means-like (lower quality, but useful if we don't have many synonyms)
-        if (synonymSet.size < 5) {
-            for (const item of meansLike) {
-                if (!item.word) continue;
-                const wLower = item.word.toLowerCase();
-                
-                // Stricter filtering for means-like
-                if (antonymSet.has(wLower)) continue;
-                if (wLower.startsWith('un') || wLower.startsWith('non') || wLower.startsWith('anti') || wLower.startsWith('dis')) continue;
-                if (Math.abs(wLower.length - wordLower.length) > 4) continue;
-                
-                // Only add if it's reasonably similar
-                if (item.score && item.score > 50000) { // Higher score = more related
-                    synonymSet.add(item.word);
-                }
-            }
-        }
-        
         return Array.from(synonymSet).slice(0, 12); // Limit to top 12
     } catch (error) {
         console.error('Error getting synonyms:', error);
         return [];
     }
+}
+
+function hasWholeWordAtDefinitionEnd(definition, word) {
+    if (!definition || !word) return false;
+    const escapedWord = word.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
+    const endPattern = new RegExp(`\\b${escapedWord}\\b\\s*\\.\\s*$`, 'i');
+    return endPattern.test(definition.trim());
+}
+
+function getSynonymResultPriority(result) {
+    const definition = result.definition || '';
+    const originalQuery = (result.originalQuery || '').toLowerCase();
+    const matchedWord = (result.matchedWord || '').toLowerCase();
+    const defLower = definition.toLowerCase();
+
+    // Strict grouping for better synonym ranking:
+    // 0: exact original query at definition end
+    // 1: synonym token at definition end
+    // 2: original query as whole word anywhere
+    // 3: synonym token as whole word anywhere
+    // 4+: fallback to existing quality ranking
+    if (originalQuery && hasWholeWordAtDefinitionEnd(definition, originalQuery)) return 0;
+    if (matchedWord && hasWholeWordAtDefinitionEnd(definition, matchedWord)) return 1;
+    if (originalQuery && containsWholeWord(defLower, originalQuery)) return 2;
+    if (matchedWord && containsWholeWord(defLower, matchedWord)) return 3;
+    return 4 + getDefinitionPriority(definition, matchedWord || originalQuery, result.kannada || '');
 }
 
 // Get word variants (plurals, verb forms) - DEPRECATED, use getWordEndings instead
@@ -1161,8 +1168,8 @@ async function searchWithSynonyms(query, progressCallback = null) {
                     if (progressCallback && newResults.length > 0) {
                         // Sort results by priority before calling callback
                         const sortedResults = [...results].sort((a, b) => {
-                            const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
-                            const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
+                            const aPriority = getSynonymResultPriority(a);
+                            const bPriority = getSynonymResultPriority(b);
                             if (aPriority !== bPriority) return aPriority - bPriority;
                             return cleanKannadaEntry(a.kannada).localeCompare(cleanKannadaEntry(b.kannada));
                         });
@@ -1316,8 +1323,8 @@ async function searchWithSynonyms(query, progressCallback = null) {
             
             // Sort by priority first, then alphabetically
             results.sort((a, b) => {
-                const aPriority = getDefinitionPriority(a.definition, a.matchedWord || '', a.kannada);
-                const bPriority = getDefinitionPriority(b.definition, b.matchedWord || '', b.kannada);
+                const aPriority = getSynonymResultPriority(a);
+                const bPriority = getSynonymResultPriority(b);
                 if (aPriority !== bPriority) {
                     return aPriority - bPriority;
                 }
@@ -1448,9 +1455,8 @@ async function searchWithSynonyms(query, progressCallback = null) {
     console.log(`Synonym search - Total: ${results.length}, Exact definitions: ${exactCount}`);
     
     results.sort((a, b) => {
-        // Get priority for each result (using the matched word as search term)
-        const aPriority = getDefinitionPriority(a.definition, a.matchedWord, a.kannada);
-        const bPriority = getDefinitionPriority(b.definition, b.matchedWord, b.kannada);
+        const aPriority = getSynonymResultPriority(a);
+        const bPriority = getSynonymResultPriority(b);
         
         // Lower priority number = higher priority (comes first)
         if (aPriority !== bPriority) {

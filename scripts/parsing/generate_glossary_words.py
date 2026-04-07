@@ -8,6 +8,7 @@ import yaml
 import json
 import re
 from pathlib import Path
+from typing import Iterable
 
 def extract_words(text):
     """Extract meaningful English words from text."""
@@ -16,6 +17,14 @@ def extract_words(text):
     
     # Extract words (lowercase, alphanumeric)
     words = re.findall(r'\b[a-z]+\b', text.lower())
+    return words
+
+
+def extract_words_from_values(values: Iterable[str]):
+    words = []
+    for value in values:
+        if isinstance(value, str) and value.strip():
+            words.extend(extract_words(value))
     return words
 
 def is_junk_word(word):
@@ -116,6 +125,43 @@ def generate_glossary_words(yaml_url=None, yaml_file=None, output_file='glossary
                 if not is_junk_word(word):
                     all_words.add(word)
     
+    # Also include words from local Padakanaja JSON datasets (English fields)
+    # so glossary/autocomplete aligns better with runtime search coverage.
+    repo_root = Path(__file__).resolve().parents[2]
+    padakanaja_dir = repo_root / 'padakanaja'
+    if padakanaja_dir.exists():
+        padakanaja_files = sorted([
+            p for p in padakanaja_dir.glob('*.json')
+            if p.name != 'manifest.json'
+            and 'reverse_index' not in p.name
+            and 'chunk_index' not in p.name
+        ])
+        print(f"Scanning {len(padakanaja_files)} Padakanaja JSON files...")
+        for file_path in padakanaja_files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    records = json.load(f)
+                if not isinstance(records, list):
+                    continue
+                for rec in records:
+                    if not isinstance(rec, dict):
+                        continue
+                    candidate_fields = []
+                    for key, value in rec.items():
+                        key_lower = key.lower()
+                        if (
+                            'english word' in key_lower
+                            or 'english meaning' in key_lower
+                            or 'synonym' in key_lower
+                            or 'administrative word' in key_lower
+                        ):
+                            candidate_fields.append(value)
+                    for word in extract_words_from_values(candidate_fields):
+                        if not is_junk_word(word):
+                            all_words.add(word)
+            except Exception as e:
+                print(f"Warning: failed to parse {file_path.name}: {e}")
+
     # Convert to sorted list
     word_list = sorted(list(all_words))
     

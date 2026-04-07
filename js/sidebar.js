@@ -30,18 +30,9 @@ function initSidebar() {
     // Handle install link
     const handleInstall = (e) => {
         e.preventDefault();
-        // Trigger PWA install prompt if available
-        if (window.deferredPrompt) {
-            window.deferredPrompt.prompt();
-            window.deferredPrompt.userChoice.then((choiceResult) => {
-                window.deferredPrompt = null;
-            });
-        } else {
-            // Show install instructions
-            alert('To install this app:\n\n' +
-                  'Chrome/Edge: Click the menu (⋮) → "Install Rala"\n' +
-                  'Safari (iOS): Tap Share → "Add to Home Screen"\n' +
-                  'Firefox: Click menu → "Install"');
+        // Use unified install flow (native prompt where available, in-app guidance otherwise).
+        if (typeof window.triggerInstallFlow === 'function') {
+            window.triggerInstallFlow();
         }
         closeSidebar();
     };

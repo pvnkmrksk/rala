@@ -135,6 +135,7 @@ h1 {
     gap: 8px;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
 }
 
 .lang-selector {
@@ -188,6 +189,41 @@ input[type="text"]:focus {
 .search-button svg {
     width: 20px;
     height: 20px;
+}
+
+.search-suggestions {
+    max-width: 600px;
+    margin: 6px auto 0;
+    background: var(--section-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.search-suggestions.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.search-suggestion-item {
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    padding: 10px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.16s;
+}
+
+.search-suggestion-item:hover,
+.search-suggestion-item.active {
+    background: var(--hover-bg);
 }
 
 .status {
@@ -358,6 +394,44 @@ input[type="text"]:focus {
 .dark-mode-toggle svg {
     width: 18px;
     height: 18px;
+}
+
+.scroll-top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s, transform 0.2s, box-shadow 0.2s;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(10px);
+    visibility: hidden;
+    box-shadow: 0 8px 22px rgba(102, 126, 234, 0.45);
+}
+
+.scroll-top-button.show {
+    opacity: 0.94;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.scroll-top-button:hover {
+    opacity: 1;
+    box-shadow: 0 12px 28px rgba(102, 126, 234, 0.6);
+}
+
+.scroll-top-button svg {
+    width: 22px;
+    height: 22px;
 }
 
 .loading {
@@ -773,7 +847,7 @@ body.dark-mode .matched-word {
     z-index: 1000;
     cursor: pointer;
     font-size: 15px;
-    max-width: 340px;
+    max-width: 280px;
     line-height: 1.5;
     transition: transform 0.2s, box-shadow 0.2s;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -833,6 +907,61 @@ body.dark-mode .matched-word {
     font-weight: 400;
 }
 
+@media (min-width: 1200px) {
+    .install-prompt {
+        right: max(20px, calc((100vw - 900px) / 2 - 300px));
+    }
+}
+
+.install-help-sheet {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1004;
+    padding: 20px;
+}
+
+.install-help-sheet.show {
+    display: flex;
+}
+
+.install-help-card {
+    width: min(420px, 100%);
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: relative;
+}
+
+.install-help-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.install-help-card p {
+    margin: 0;
+    color: var(--text-color-light);
+    line-height: 1.5;
+}
+
+.install-help-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    border: none;
+    background: transparent;
+    color: var(--text-color-light);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
 /* PWA Info Banner - REMOVED (user requested deletion) */
 
 @media (max-width: 600px) {
@@ -841,6 +970,11 @@ body.dark-mode .matched-word {
         right: 10px;
         left: 10px;
         max-width: none;
+    }
+
+    .scroll-top-button {
+        right: 12px;
+        bottom: 12px;
     }
 }
 

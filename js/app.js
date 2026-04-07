@@ -156,15 +156,152 @@ function renderApp(initialQuery = '') {
     const tabSynonymCount = document.getElementById('tab-synonym-count');
     const tabExactSpinner = document.getElementById('tab-exact-spinner');
     const tabSynonymSpinner = document.getElementById('tab-synonym-spinner');
+    const searchSuggestions = document.getElementById('search-suggestions');
     
     let directResults = [];
     let synonymResults = [];
     let synonymsUsed = {};
     let currentQuery = '';
-    let debounceTimer = null;
+    let autocompleteTimer = null;
     let synonymSearchInProgress = false;
     let synonymSearchCompleted = false;
     let synonymSearchTimeout = null;
+    let autocompleteWords = [];
+    let autocompleteLoaded = false;
+    let autocompleteLoadPromise = null;
+    let searchSessionId = 0;
+    let suggestionItems = [];
+    let activeSuggestionIndex = -1;
+    let lastSuggestionSignature = '';
+
+    async function loadAutocompleteWords() {
+        if (autocompleteLoaded) return autocompleteWords;
+        if (autocompleteLoadPromise) return autocompleteLoadPromise;
+        autocompleteLoadPromise = fetch(GLOSSARY_WORDS_URL)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load autocomplete words: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then((words) => {
+                autocompleteWords = Array.isArray(words) ? words : [];
+                autocompleteLoaded = true;
+                return autocompleteWords;
+            })
+            .catch((error) => {
+                console.warn('Autocomplete disabled (failed to load words):', error);
+                autocompleteWords = [];
+                autocompleteLoaded = true;
+                return autocompleteWords;
+            });
+        return autocompleteLoadPromise;
+    }
+
+    function getSuggestionMatches(rawQuery) {
+        const query = rawQuery.trim().toLowerCase();
+        if (query.length < 3 || autocompleteWords.length === 0) {
+            return [];
+        }
+
+        const prefixMatches = [];
+        const containsMatches = [];
+        for (let i = 0; i < autocompleteWords.length; i++) {
+            const word = autocompleteWords[i];
+            const normalized = String(word).toLowerCase();
+            if (normalized.startsWith(query)) {
+                prefixMatches.push(word);
+            } else if (query.length >= 3 && normalized.includes(query)) {
+                containsMatches.push(word);
+            }
+            if (prefixMatches.length >= 7 && containsMatches.length >= 5) {
+                break;
+            }
+        }
+
+        const seen = new Set();
+        const merged = [];
+        // Always include the exact typed token first so root forms are never hidden.
+        merged.push(rawQuery.trim());
+        seen.add(rawQuery.trim().toLowerCase());
+
+        [...prefixMatches, ...containsMatches].forEach((word) => {
+            const key = String(word).toLowerCase();
+            if (!seen.has(key) && merged.length < 8) {
+                seen.add(key);
+                merged.push(word);
+            }
+        });
+
+        return merged;
+    }
+
+    function hideSuggestions() {
+        if (!searchSuggestions) return;
+        searchSuggestions.classList.remove('show');
+        searchSuggestions.style.display = 'none';
+        activeSuggestionIndex = -1;
+    }
+
+    function renderSuggestions(matches) {
+        if (!searchSuggestions) return;
+        const signature = matches.join('|');
+        if (signature === lastSuggestionSignature) {
+            return;
+        }
+        lastSuggestionSignature = signature;
+        activeSuggestionIndex = -1;
+        searchSuggestions.innerHTML = '';
+        suggestionItems = [];
+
+        matches.forEach((word, idx) => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'search-suggestion-item';
+            btn.textContent = word;
+            btn.setAttribute('aria-label', `Suggestion ${word}`);
+            btn.addEventListener('mousedown', (e) => {
+                // Prevent blur/focus flicker before click resolves.
+                e.preventDefault();
+            });
+            btn.addEventListener('click', () => {
+                searchInput.value = word;
+                hideSuggestions();
+                performSearch(word, true);
+            });
+            searchSuggestions.appendChild(btn);
+            suggestionItems.push(btn);
+        });
+
+        if (matches.length === 0) {
+            hideSuggestions();
+            return;
+        }
+        searchSuggestions.style.display = 'block';
+        // Trigger CSS transition in next frame.
+        requestAnimationFrame(() => {
+            searchSuggestions.classList.add('show');
+        });
+    }
+
+    function updateSearchSuggestions(rawQuery) {
+        if (!searchSuggestions) return;
+        const merged = getSuggestionMatches(rawQuery);
+        renderSuggestions(merged);
+    }
+
+    function moveSuggestionSelection(direction) {
+        if (!suggestionItems.length) return;
+        if (activeSuggestionIndex >= 0 && suggestionItems[activeSuggestionIndex]) {
+            suggestionItems[activeSuggestionIndex].classList.remove('active');
+        }
+        activeSuggestionIndex += direction;
+        if (activeSuggestionIndex < 0) activeSuggestionIndex = suggestionItems.length - 1;
+        if (activeSuggestionIndex >= suggestionItems.length) activeSuggestionIndex = 0;
+        const item = suggestionItems[activeSuggestionIndex];
+        item.classList.add('active');
+        searchInput.value = item.textContent || '';
+    }
     
     function switchTab(tabName) {
         if (tabName === 'exact') {
@@ -208,7 +345,8 @@ function renderApp(initialQuery = '') {
         }
     });
     
-    async function loadSynonyms(query) {
+    async function loadSynonyms(query, sessionId = searchSessionId) {
+        if (sessionId !== searchSessionId) return;
         if (synonymSearchInProgress || synonymSearchCompleted) {
             return;
         }
@@ -225,6 +363,7 @@ function renderApp(initialQuery = '') {
             // Progressive loading callback - update UI as results come in (flowing like a river)
             let lastResultCount = 0;
             const progressCallback = (currentResults, currentSynonymsUsed) => {
+                if (sessionId !== searchSessionId) return;
                 // Filter out synonym results that are already in direct results
                 const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
                 const filteredResults = currentResults.filter(r => 
@@ -273,6 +412,7 @@ function renderApp(initialQuery = '') {
             
             // Perform search with progressive callback
             const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query, progressCallback);
+            if (sessionId !== searchSessionId) return;
             
             // Filter out synonym results that are already in direct results
             const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
@@ -293,6 +433,7 @@ function renderApp(initialQuery = '') {
         } else {
             // Client-side: normal flow
             const { results: synonymResultsTemp, synonymsUsed: synonymsUsedTemp } = await searchWithSynonyms(query);
+            if (sessionId !== searchSessionId) return;
             
             // Filter out synonym results that are already in direct results
             const directKeys = new Set(directResults.map(r => `${r.kannada}-${r.definition}`));
@@ -326,6 +467,7 @@ function renderApp(initialQuery = '') {
         
         // Trigger CSS animation for synonym results
         requestAnimationFrame(() => {
+            if (sessionId !== searchSessionId) return;
             const synonymSection = document.getElementById('synonym-matches');
             if (synonymSection) {
                 const resultCards = synonymSection.querySelectorAll('.result-card');
@@ -343,6 +485,8 @@ function renderApp(initialQuery = '') {
     }
     
     async function performSearch(query, fromEnter = false, skipURLUpdate = false) {
+        const sessionId = ++searchSessionId;
+        hideSuggestions();
         if (!query.trim()) {
             resultsDiv.innerHTML = '';
             tabsWrapper.style.display = 'none';
@@ -398,16 +542,9 @@ function renderApp(initialQuery = '') {
         
         // Start search (non-blocking for UI updates)
         const searchPromise = searchDirect(query);
-        
-        // Progressive rendering: Show results as they come in
-        // Update UI every 100ms to show progress
-        let lastUpdate = Date.now();
-        const updateInterval = setInterval(() => {
-            // This will be updated when search completes
-        }, 100);
-        
+
         directResults = await searchPromise;
-        clearInterval(updateInterval);
+        if (sessionId !== searchSessionId) return;
         
         const searchTime = performance.now() - startTime;
         console.log(`Search completed in ${searchTime.toFixed(0)}ms`);
@@ -427,25 +564,16 @@ function renderApp(initialQuery = '') {
         tabExactCount.textContent = ` (${displayCount})`;
         tabExactSpinner.style.display = 'none';
         
-        // Progressive rendering: Update UI with direct results
-        // Render in batches for smooth animation
-        const batchSize = 50;
-        const totalBatches = Math.ceil(displayResults.length / batchSize);
-        
-        if (displayResults.length > 0) {
-            // Render first batch immediately
-            const firstBatch = displayResults.slice(0, batchSize);
-            resultsDiv.innerHTML = renderResults(firstBatch, [], {}, query, false, false, isMobile && originalCount > MOBILE_LIMIT);
-            
-            // Render remaining batches progressively
-            for (let i = 1; i < totalBatches; i++) {
-                await new Promise(resolve => setTimeout(resolve, 50)); // Small delay between batches
-                const batch = displayResults.slice(0, (i + 1) * batchSize);
-                resultsDiv.innerHTML = renderResults(batch, [], {}, query, false, false, isMobile && originalCount > MOBILE_LIMIT);
-            }
-        } else {
-            resultsDiv.innerHTML = renderResults([], [], {}, query, false, false);
-        }
+        // Render once to avoid count/result mismatches from progressive batch updates.
+        resultsDiv.innerHTML = renderResults(
+            displayResults,
+            [],
+            {},
+            query,
+            false,
+            false,
+            isMobile && originalCount > MOBILE_LIMIT
+        );
         
         // Trigger CSS animation for results
         requestAnimationFrame(() => {
@@ -516,6 +644,7 @@ function renderApp(initialQuery = '') {
             };
             
             const synonymData = await searchWithSynonyms(query, progressCallback);
+            if (sessionId !== searchSessionId) return;
             let allSynonymResults = synonymData.results || [];
             synonymsUsed = synonymData.synonymsUsed || {};
             
@@ -544,11 +673,11 @@ function renderApp(initialQuery = '') {
             }
         } else if (fromEnter) {
             // Load immediately if Enter was pressed
-            await loadSynonyms(query);
+            await loadSynonyms(query, sessionId);
         } else {
             // Wait 500ms before loading synonyms
             synonymSearchTimeout = setTimeout(() => {
-                loadSynonyms(query);
+                loadSynonyms(query, sessionId);
             }, 500);
         }
         
@@ -562,45 +691,43 @@ function renderApp(initialQuery = '') {
     }
     
     searchInput.addEventListener('input', (e) => {
-        clearTimeout(debounceTimer);
-        const query = e.target.value.trim();
+        clearTimeout(autocompleteTimer);
+        const rawValue = e.target.value || '';
+        const query = rawValue.trim();
+
+        autocompleteTimer = setTimeout(() => {
+            updateSearchSuggestions(rawValue);
+        }, 320);
         
         // If empty, clear immediately
         if (!query) {
+            lastSuggestionSignature = '';
+            hideSuggestions();
             performSearch('', false);
             return;
         }
-        
-        // Debounce search: 600ms for Worker API (network delay), 400ms for client-side
-        // Industry standard: 300-500ms for instant search, 500-800ms for network calls
-        const debounceDelay = WORKER_API_URL ? 600 : 400;
-        debounceTimer = setTimeout(() => {
-            // Only search if dictionary is ready (or Worker API is enabled and ready)
-            if (WORKER_API_URL) {
-                // For Worker API, wait for it to be ready
-                if (typeof workerApiReadyPromise !== 'undefined' && workerApiReadyPromise !== null) {
-                    workerApiReadyPromise.then(() => {
-                        performSearch(e.target.value, false);
-                    }).catch(() => {
-                        // Still try to search even if pre-warm failed
-                        performSearch(e.target.value, false);
-                    });
-                } else if (typeof workerApiReady !== 'undefined' && workerApiReady) {
-                    performSearch(e.target.value, false);
-                } else {
-                    // Wait a bit and retry
-                    setTimeout(() => performSearch(e.target.value, false), 500);
-                }
-            } else if (dictionaryReady) {
-                performSearch(e.target.value, false);
-            }
-        }, debounceDelay);
     });
     
     searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            moveSuggestionSelection(1);
+            return;
+        }
+        if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            moveSuggestionSelection(-1);
+            return;
+        }
         if (e.key === 'Enter') {
             e.preventDefault();
-            clearTimeout(debounceTimer);
+            if (activeSuggestionIndex >= 0 && suggestionItems[activeSuggestionIndex]) {
+                const selected = suggestionItems[activeSuggestionIndex].textContent || '';
+                searchInput.value = selected;
+                hideSuggestions();
+                performSearch(selected, true);
+                return;
+            }
             const query = e.target.value.trim();
             
             // If query changed, perform new search (only if dictionary is ready)
@@ -612,8 +739,11 @@ function renderApp(initialQuery = '') {
                     clearTimeout(synonymSearchTimeout);
                     synonymSearchTimeout = null;
                 }
-                loadSynonyms(currentQuery);
+                loadSynonyms(currentQuery, searchSessionId);
             }
+        }
+        if (e.key === 'Escape') {
+            hideSuggestions();
         }
     });
     
@@ -638,4 +768,16 @@ function renderApp(initialQuery = '') {
             performSearch(initialQuery, false, true); // skipURLUpdate = true since URL already has it
         }, 100);
     }
+
+    // Lazy-load autocomplete corpus in background after first render.
+    setTimeout(() => {
+        loadAutocompleteWords();
+    }, 800);
+
+    // Close suggestions on blur after click handlers run.
+    searchInput.addEventListener('blur', () => {
+        setTimeout(() => {
+            hideSuggestions();
+        }, 120);
+    });
 }
