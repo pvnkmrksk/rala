@@ -826,10 +826,29 @@ body.dark-mode .matched-word {
 .footer-links a {
     color: var(--text-color-light);
     text-decoration: none;
+    font-weight: 400;
 }
 
 .footer-links a:hover {
     color: var(--text-color);
+    text-decoration: underline;
+}
+
+.footer-credit {
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--text-color-lighter);
+}
+
+.footer-credit a {
+    color: var(--text-color-light);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-credit a:hover {
+    color: var(--text-color);
+    text-decoration: underline;
 }
 
 .install-prompt {
