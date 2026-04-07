@@ -6,196 +6,162 @@
 
 **ರಲ** = Reverse [Alar](https://alar.ink)
 
-A fast, offline-capable English → Kannada dictionary combining the best of both worlds:
-- **Alar Dictionary** by V. Krishna (156,672 entries)
-- **Padakanaja Dictionaries** from Karnataka Government (322,008 entries)
+Rala is a fast, installable English -> Kannada dictionary that combines:
+- **Alar** by V. Krishna (156,672 entries)
+- **Padakanaja** dictionaries from the Government of Karnataka (322,008 entries)
 
-**Total: 478,680 entries | 103,585 unique English words**
+**Total: 478,680 entries**
 
-🌐 **Live Site**: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
+Live site: [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
 
 ![Rala Dictionary Demo](rala-demo-test.png)
 
-## ✨ Features
+## Features
 
-- ⚡ **Fast Search**: Hybrid architecture with Cloudflare Worker API + local caching
-- 🔍 **Smart Matching**: Whole-word matching (no false positives from substrings)
-- 🔄 **Word Forms**: Automatic detection of word endings (escalation → escalate, escalating, etc.)
-- 🔊 **Audio Pronunciation**: Audio playback for both Alar and Padakanaja entries
-- 📱 **Offline Support**: Alar dictionary cached locally for offline use
-- 🌙 **Dark Mode**: Built-in dark mode support
-- 📱 **PWA**: Installable as a Progressive Web App
-- 🎯 **Dual Source**: Combines results from Alar and Padakanaja in real-time
+- Hybrid search: local Alar + Cloudflare Worker-backed Padakanaja
+- Whole-word matching (avoids substring false positives)
+- Synonym and word-form expansion with ranking
+- Audio playback support (Alar + Padakanaja corpus integration)
+- Installable PWA with platform-specific install guidance
+- Smart caching policy in service worker (freshness checks + offline fallback)
+- Dark mode, copy-to-clipboard, sidebar navigation, glossary page
 
-## 🏗️ Architecture
-
-### Frontend
-- **Hosting**: Static site on GitHub Pages
-- **Framework**: Vanilla JavaScript (no dependencies)
-- **Storage**: IndexedDB for offline dictionary caching
-- **Audio**: Integrated with [Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus) and [Padakanaja Voice Corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus)
-
-### Backend
-- **API**: Cloudflare Worker for Padakanaja dictionary (322k entries)
-- **Search**: Fast prefix matching with result ranking
-- **Caching**: Response caching for improved performance
-
-### Data Sources
-- **Alar**: 156,672 entries loaded client-side (offline-capable)
-- **Padakanaja**: 322,008 entries served via Cloudflare Worker API
-
-## 📊 Dictionary Statistics
-
-| Source | Entries | Unique Words | Coverage |
-|--------|---------|--------------|----------|
-| Alar | 156,672 | ~50,000 | Literary & Classical Kannada |
-| Padakanaja | 322,008 | ~53,585 | Modern & Technical Kannada |
-| **Total** | **478,680** | **103,585** | **Comprehensive** |
-
-## 🔊 Audio Pronunciation
-
-Rala includes audio pronunciation for dictionary entries:
-
-- **Alar Entries**: Uses [Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus) by Aditya-ds-1806
-- **Padakanaja Entries**: Uses [Padakanaja Voice Corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus) (262,260 audio files)
-
-Audio files are automatically loaded and played when available. The audio button appears next to entries that have pronunciation available.
-
-## 🚀 Quick Start
-
-### Using the Dictionary
-
-1. Visit [https://pvnkmrksk.github.io/rala/](https://pvnkmrksk.github.io/rala/)
-2. Type an English word in the search box
-3. View Kannada translations from both Alar and Padakanaja
-4. Click the 🔊 button to hear pronunciation (when available)
-
-### Local Development
+## Quick Start
 
 ```bash
-# Clone the repository
 git clone https://github.com/pvnkmrksk/rala.git
 cd rala
-
-# Start local server
 ./test-local.sh
-
-# Or manually
-python3 -m http.server 8000
 ```
 
-Then open [http://localhost:8000](http://localhost:8000) in your browser.
+Then open [http://localhost:8000](http://localhost:8000).
 
-## 🔧 Development
-
-### Project Structure
-
-```
-rala/
-├── js/
-│   ├── config.js          # Configuration and constants
-│   ├── utils.js           # Audio URL lookup, search utilities
-│   ├── ui.js              # UI rendering and interactions
-│   └── search.js           # Search logic
-├── workers/
-│   └── src/
-│       └── index.js        # Cloudflare Worker API
-├── padakanaja/            # Padakanaja dictionary data
-└── index.html             # Main application
-```
-
-### Cloudflare Worker Deployment
-
-The Padakanaja dictionary is served via a Cloudflare Worker for fast, global access:
+Run tests:
 
 ```bash
-cd workers
-npx wrangler deploy
+npm test
 ```
 
-Update `js/config.js` with your Worker URL after deployment.
+## Architecture
 
-### Dictionary Processing
+### Frontend
+- Static app (Vanilla JS + HTML + CSS)
+- IndexedDB and cache-first data paths for offline/low-network conditions
+- Search UI with controlled autocomplete and delayed suggestion updates
 
-See `scripts/` directory for:
-- `scraping/` - Scrapers for Padakanaja dictionaries
-- `parsing/` - Scripts to process and optimize dictionary data
+### Backend
+- Cloudflare Worker serves/queries Padakanaja search data
+- Alar data and reverse index logic run client-side
 
-## 📚 Data Sources
+### Caching strategy
+- Navigation requests use a freshness window policy
+- Network checks are preferred when stale
+- Cache fallback is used when offline or recently refreshed
 
-### Alar Dictionary
-- **Source**: [V. Krishna's Alar](https://alar.ink)
-- **License**: [ODC-ODbL](https://opendatacommons.org/licenses/odbl/)
-- **Entries**: 156,672
-- **Format**: YAML (preserved for posterity)
-- **Coverage**: Literary and classical Kannada
-- **Audio**: [Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus)
+## Data Sources
 
-### Padakanaja Dictionaries
-- **Source**: [Karnataka Government Padakanaja Portal](https://padakanaja.karnataka.gov.in/dictionary)
-- **Publisher**: Government of Karnataka
-- **Entries**: 322,008 (combined from multiple specialized dictionaries)
-- **Format**: CSV/JSON (scraped and processed)
-- **Coverage**: Modern, technical, and specialized Kannada
-- **Audio**: [Padakanaja Voice Corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus)
+### Alar
+- Source: [https://alar.ink](https://alar.ink)
+- Data: [https://github.com/alar-dict/data](https://github.com/alar-dict/data)
+- License: [ODC-ODbL](https://opendatacommons.org/licenses/odbl/)
 
-## 🎯 Search Features
+### Padakanaja
+- Source: [https://padakanaja.karnataka.gov.in/dictionary](https://padakanaja.karnataka.gov.in/dictionary)
+- Publisher: Government of Karnataka
 
-### Smart Word Matching
-- Whole-word matching (no substring false positives)
-- Automatic word form detection (escalation → escalate)
-- Case-insensitive search
-- Prefix matching for fast results
+### Audio
+- Alar voice corpus: [Aditya-ds-1806/Alar-voice-corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus)
+- Padakanaja voice corpus: [pvnkmrksk/padakanaja-voice-corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus)
 
-### Result Display
-- Combined results from Alar and Padakanaja
-- Source attribution for each entry
-- Audio playback button (when available)
-- Copy to clipboard functionality
-- Dark mode support
+## Data / Glossary Generation
 
-## 🔗 Related Projects
+The glossary list used by autocomplete and glossary browsing is generated with:
 
-- **[Alar Dictionary](https://alar.ink)**: Original Kannada-English dictionary
-- **[Alar Voice Corpus](https://github.com/Aditya-ds-1806/Alar-voice-corpus)**: Audio pronunciation for Alar entries
-- **[Padakanaja Voice Corpus](https://github.com/pvnkmrksk/padakanaja-voice-corpus)**: Audio pronunciation for Padakanaja entries
+```bash
+python3 scripts/parsing/generate_glossary_words.py
+mv glossary_words.json data/glossary_words.json
+```
 
-## 📄 License
+This script currently merges:
+- Alar definition tokens
+- Padakanaja English fields (word/meaning/synonyms/administrative word)
 
-- **Alar data**: [ODC-ODbL](https://opendatacommons.org/licenses/odbl/) (Open Data Commons Open Database License)
-- **Padakanaja data**: Public domain (Government of Karnataka)
-- **Code**: See repository license file
+## Project Structure
 
-## 🙏 Attribution
+```text
+rala/
+├── index.html
+├── about.html
+├── glossary.html
+├── js/
+│   ├── app.js
+│   ├── search.js
+│   ├── ui.js
+│   ├── pwa.js
+│   ├── sidebar.js
+│   └── config.js
+├── data/
+│   └── glossary_words.json
+├── scripts/
+│   ├── scraping/
+│   └── parsing/
+├── workers/
+│   └── src/index.js
+└── service-worker.js
+```
 
-- **Alar Dictionary**: Dictionary data by [V. Krishna](https://alar.ink), licensed under [ODC-ODbL](https://opendatacommons.org/licenses/odbl/)
-- **Padakanaja Dictionaries**: Sourced from [Karnataka Government Padakanaja Portal](https://padakanaja.karnataka.gov.in/dictionary), maintained by Government of Karnataka
-- **Source Data**: [Alar Dictionary Data](https://github.com/alar-dict/data)
-- **Alar Voice Corpus**: [Aditya-ds-1806](https://github.com/Aditya-ds-1806/Alar-voice-corpus)
-- **Padakanaja Voice Corpus**: [pvnkmrksk](https://github.com/pvnkmrksk/padakanaja-voice-corpus)
+## Contributing
 
-## 🤝 Contributing
+Contributions are welcome. If you are starting, please:
 
-Contributions are welcome! Areas where help is needed:
-- Improving search accuracy
-- Adding more word forms
-- Performance optimizations
-- UI/UX improvements
-- Documentation
+1. Open an issue with the bug/feature and expected behavior
+2. Create a feature branch from `main`
+3. Keep changes focused and include test notes
+4. Run `npm test` before opening PR
 
-## 🐛 Known Issues
+Good first contribution areas:
+- Search ranking and synonym precision
+- UI/UX polish for mobile and desktop
+- Performance profiling and render smoothness
+- Better test coverage for search edge cases
+- Script/tooling improvements for dataset refreshes
 
-- Large result sets may take a moment to render
-- Offline mode works for Alar only (Padakanaja requires API)
+## Roadmap
 
-## 📞 Support
+### Search quality
+- Improve phrase-level synonym precision and explain why each synonym matched
+- Add optional strict/relaxed search modes
+- Better ranking for dictionary headwords vs long descriptive entries
 
-For issues, questions, or suggestions:
-- Open an issue on [GitHub](https://github.com/pvnkmrksk/rala/issues)
-- Check existing issues for solutions
+### UX and accessibility
+- Keyboard-first suggestion navigation polish
+- Better focus/ARIA semantics for install and suggestion panels
+- Improve perceived performance for very large result sets
 
----
+### Data pipeline
+- Unify glossary generation with the same runtime search tokenization rules
+- Add repeatable `npm` scripts for data regeneration
+- Add validation reports for noisy/low-quality tokens
 
-**Made with ❤️ for the Kannada language community**
+### Offline and updates
+- Add visible app version/update indicator in UI
+- Improve update messaging when a new service worker activates
+- Fine-tune cache windows based on real usage analytics
 
-**ರಲ** - Making Kannada accessible, one word at a time.
+### Testing and observability
+- Add integration tests for known race conditions
+- Add smoke tests for service-worker caching behavior
+- Expand Worker API test coverage and fixture-based data checks
+
+## Known Limitations
+
+- Padakanaja offline behavior depends on available cached data/API reachability
+- Very large queries can still render slower on low-end devices
+
+## License and Attribution
+
+- Alar data: [ODC-ODbL](https://opendatacommons.org/licenses/odbl/)
+- Padakanaja data: Government of Karnataka sources
+- Code: see repository license file
+
+Made with love for the Kannada language community.
