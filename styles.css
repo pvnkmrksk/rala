@@ -841,7 +841,7 @@ body.dark-mode .matched-word {
     padding: 20px 24px;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 12px;
     z-index: 1000;
@@ -849,24 +849,19 @@ body.dark-mode .matched-word {
     font-size: 15px;
     max-width: 280px;
     line-height: 1.5;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: opacity 0.28s ease, transform 0.28s ease, box-shadow 0.2s;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transform: translateY(14px);
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .install-prompt.show {
-    display: flex;
-    animation: slideUp 0.3s ease-out;
-}
-
-@keyframes slideUp {
-    from {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .install-prompt:hover {
@@ -889,11 +884,7 @@ body.dark-mode .matched-word {
 }
 
 .install-prompt .close {
-    margin-left: auto;
-    opacity: 0.7;
-    font-size: 18px;
-    line-height: 1;
-    cursor: pointer;
+    display: none;
 }
 
 .install-prompt .close:hover {

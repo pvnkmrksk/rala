@@ -30,7 +30,9 @@ const installPrompt = document.getElementById('install-prompt');
 const installClose = document.getElementById('install-close');
 const INSTALL_AUTO_SHOWN_KEY = 'rala_install_auto_shown_v1';
 const INSTALL_AUTO_SHOW_DELAY_MS = 3500;
+const INSTALL_PROMPT_AUTO_DISMISS_MS = 7000;
 let autoInstallShowTimer = null;
+let installDismissTimer = null;
 
 function isIosDevice() {
     return /iPad|iPhone|iPod/.test(navigator.userAgent) ||
@@ -113,6 +115,33 @@ function showInstallInstructions() {
     sheet.classList.add('show');
 }
 
+function clearInstallDismissTimer() {
+    if (installDismissTimer) {
+        clearTimeout(installDismissTimer);
+        installDismissTimer = null;
+    }
+}
+
+function hideInstallPrompt() {
+    if (!installPrompt) return;
+    installPrompt.classList.remove('show');
+    clearInstallDismissTimer();
+}
+
+function scheduleInstallPromptDismiss() {
+    if (!installPrompt || !installPrompt.classList.contains('show')) return;
+    clearInstallDismissTimer();
+    installDismissTimer = setTimeout(() => {
+        hideInstallPrompt();
+    }, INSTALL_PROMPT_AUTO_DISMISS_MS);
+}
+
+function showInstallPrompt() {
+    if (!installPrompt) return;
+    installPrompt.classList.add('show');
+    scheduleInstallPromptDismiss();
+}
+
 function scheduleAutoInstallPromptCard() {
     if (!installPrompt || isInStandaloneMode()) return;
     const alreadyShown = localStorage.getItem(INSTALL_AUTO_SHOWN_KEY) === '1';
@@ -120,7 +149,7 @@ function scheduleAutoInstallPromptCard() {
     clearTimeout(autoInstallShowTimer);
     autoInstallShowTimer = setTimeout(() => {
         if (!isInStandaloneMode() && deferredPrompt) {
-            installPrompt.classList.add('show');
+            showInstallPrompt();
             localStorage.setItem(INSTALL_AUTO_SHOWN_KEY, '1');
         }
     }, INSTALL_AUTO_SHOW_DELAY_MS);
@@ -135,9 +164,7 @@ async function promptInstall() {
 
     deferredPrompt = null;
     window.deferredPrompt = null;
-    if (installPrompt) {
-        installPrompt.classList.remove('show');
-    }
+    hideInstallPrompt();
     return true;
 }
 
@@ -162,6 +189,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 
 if (installPrompt) {
+    installPrompt.addEventListener('mouseenter', clearInstallDismissTimer);
+    installPrompt.addEventListener('mouseleave', scheduleInstallPromptDismiss);
+    installPrompt.addEventListener('touchstart', clearInstallDismissTimer, { passive: true });
+    installPrompt.addEventListener('touchend', scheduleInstallPromptDismiss, { passive: true });
+    installPrompt.addEventListener('touchcancel', scheduleInstallPromptDismiss, { passive: true });
     installPrompt.addEventListener('click', async () => {
         await window.triggerInstallFlow();
     });
@@ -170,7 +202,7 @@ if (installPrompt) {
 if (installClose && installPrompt) {
     installClose.addEventListener('click', (e) => {
         e.stopPropagation();
-        installPrompt.classList.remove('show');
+        hideInstallPrompt();
         // Count as seen once if user dismisses.
         localStorage.setItem(INSTALL_AUTO_SHOWN_KEY, '1');
     });
@@ -179,9 +211,7 @@ if (installClose && installPrompt) {
 // Hide prompt if app is already installed
 window.addEventListener('appinstalled', () => {
     console.log('PWA installed successfully');
-    if (installPrompt) {
-    installPrompt.classList.remove('show');
-    }
+    hideInstallPrompt();
     deferredPrompt = null;
     window.deferredPrompt = null;
 });
@@ -190,9 +220,7 @@ window.addEventListener('appinstalled', () => {
 if (window.matchMedia('(display-mode: standalone)').matches || 
     window.navigator.standalone === true) {
     console.log('Running as installed PWA');
-    if (installPrompt) {
-    installPrompt.classList.remove('show');
-    }
+    hideInstallPrompt();
 }
 
 // For platforms without beforeinstallprompt (e.g., iOS Safari), show polished
