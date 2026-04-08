@@ -29,10 +29,10 @@ window.deferredPrompt = null; // Make available globally
 const installPrompt = document.getElementById('install-prompt');
 const installClose = document.getElementById('install-close');
 const INSTALL_AUTO_SHOWN_KEY = 'rala_install_auto_shown_v1';
-const INSTALL_AUTO_SHOW_DELAY_MS = 3500;
-const INSTALL_PROMPT_AUTO_DISMISS_MS = 7000;
-let autoInstallShowTimer = null;
+const INSTALL_PROMPT_AUTO_DISMISS_MS = 2500;
 let installDismissTimer = null;
+let hasCompletedFirstSearch = false;
+let hasScrolledResultsAfterSearch = false;
 
 function isIosDevice() {
     return /iPad|iPhone|iPod/.test(navigator.userAgent) ||
@@ -142,17 +142,14 @@ function showInstallPrompt() {
     scheduleInstallPromptDismiss();
 }
 
-function scheduleAutoInstallPromptCard() {
+function maybeAutoShowInstallPrompt() {
     if (!installPrompt || isInStandaloneMode()) return;
     const alreadyShown = localStorage.getItem(INSTALL_AUTO_SHOWN_KEY) === '1';
     if (alreadyShown) return;
-    clearTimeout(autoInstallShowTimer);
-    autoInstallShowTimer = setTimeout(() => {
-        if (!isInStandaloneMode() && deferredPrompt) {
-            showInstallPrompt();
-            localStorage.setItem(INSTALL_AUTO_SHOWN_KEY, '1');
-        }
-    }, INSTALL_AUTO_SHOW_DELAY_MS);
+    if (!hasCompletedFirstSearch || !hasScrolledResultsAfterSearch) return;
+
+    showInstallPrompt();
+    localStorage.setItem(INSTALL_AUTO_SHOWN_KEY, '1');
 }
 
 async function promptInstall() {
@@ -184,8 +181,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     // Stash the event so it can be triggered later
     deferredPrompt = e;
     window.deferredPrompt = e; // Make available globally
-    // Auto-show install card only once, after app settles for a few seconds.
-    scheduleAutoInstallPromptCard();
+    maybeAutoShowInstallPrompt();
 });
 
 if (installPrompt) {
@@ -208,6 +204,18 @@ if (installClose && installPrompt) {
     });
 }
 
+window.addEventListener('rala:first-search-complete', () => {
+    hasCompletedFirstSearch = true;
+    maybeAutoShowInstallPrompt();
+});
+
+window.addEventListener('scroll', () => {
+    if (hasScrolledResultsAfterSearch || !hasCompletedFirstSearch) return;
+    if (window.scrollY < 100) return;
+    hasScrolledResultsAfterSearch = true;
+    maybeAutoShowInstallPrompt();
+}, { passive: true });
+
 // Hide prompt if app is already installed
 window.addEventListener('appinstalled', () => {
     console.log('PWA installed successfully');
@@ -223,21 +231,8 @@ if (window.matchMedia('(display-mode: standalone)').matches ||
     hideInstallPrompt();
 }
 
-// For platforms without beforeinstallprompt (e.g., iOS Safari), show polished
-// install instructions automatically only once.
-window.addEventListener('load', () => {
-    if (isInStandaloneMode()) return;
-    const alreadyShown = localStorage.getItem(INSTALL_AUTO_SHOWN_KEY) === '1';
-    if (alreadyShown) return;
-    if (deferredPrompt) return;
-    if (!installPrompt) return;
-    setTimeout(() => {
-        if (!deferredPrompt && !isInStandaloneMode()) {
-            showInstallInstructions();
-            localStorage.setItem(INSTALL_AUTO_SHOWN_KEY, '1');
-        }
-    }, INSTALL_AUTO_SHOW_DELAY_MS);
-});
+// Do not auto-open install instructions on load.
+// We now only show the card after first completed search + results scroll.
 
 // PWA Info Banner - REMOVED (user requested deletion)
 

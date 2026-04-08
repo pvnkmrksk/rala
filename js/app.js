@@ -173,6 +173,7 @@ function renderApp(initialQuery = '') {
     let suggestionItems = [];
     let activeSuggestionIndex = -1;
     let lastSuggestionSignature = '';
+    let firstSearchCompleteEventSent = false;
 
     async function loadAutocompleteWords() {
         if (autocompleteLoaded) return autocompleteWords;
@@ -548,6 +549,16 @@ function renderApp(initialQuery = '') {
         
         const searchTime = performance.now() - startTime;
         console.log(`Search completed in ${searchTime.toFixed(0)}ms`);
+
+        if (!firstSearchCompleteEventSent) {
+            firstSearchCompleteEventSent = true;
+            window.dispatchEvent(new CustomEvent('rala:first-search-complete', {
+                detail: {
+                    query,
+                    directResultCount: directResults.length
+                }
+            }));
+        }
         
         // Mobile: Limit to 500 results, show "500+"
         const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
