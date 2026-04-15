@@ -238,6 +238,39 @@ async function searchWithReverseIndex(query, env) {
     }
 }
 
+function writeRalaMetric(env, name) {
+    if (name === 'pwa_install') {
+        console.log(JSON.stringify({ rala_event: name, ts: Date.now() }));
+    }
+    const analytics = env.ANALYTICS || env.ANALYTICS_ENGINE;
+    if (analytics) {
+        try {
+            analytics.writeDataPoint({ blobs: [name], doubles: [1] });
+        } catch (err) {
+            console.error('Analytics write failed:', err);
+        }
+    }
+}
+
+function sanitizeLogFragment(s, maxLen) {
+    if (!s || typeof s !== 'string') return '';
+    return s.replace(/[\r\n\0]/g, ' ').trim().slice(0, maxLen);
+}
+
+/** Primary user search only: always logs `q` to Worker Logs (filter: rala_event). */
+function logSearchPrimary(env, queryText) {
+    const q = sanitizeLogFragment(queryText, 300);
+    console.log(JSON.stringify({ rala_event: 'search_primary', q, ts: Date.now() }));
+    const analytics = env.ANALYTICS || env.ANALYTICS_ENGINE;
+    if (analytics) {
+        try {
+            analytics.writeDataPoint({ blobs: ['search_primary', q], doubles: [1] });
+        } catch (err) {
+            console.error('Analytics write failed:', err);
+        }
+    }
+}
+
 // Main request handler
 export default {
     async fetch(request, env) {
@@ -246,7 +279,7 @@ export default {
         const corsHeaders = {
             'Access-Control-Allow-Origin': origin || '*',
             'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Allow-Headers': 'Content-Type, X-Rala-Intent',
             'Access-Control-Max-Age': '86400',
         };
         
@@ -254,10 +287,37 @@ export default {
         if (request.method === 'OPTIONS') {
             return new Response(null, { headers: corsHeaders });
         }
+
+        const url = new URL(request.url);
+
+        // Client-side events (whitelist only)
+        if (url.pathname === '/__rala/v1/event' && request.method === 'POST') {
+            try {
+                const body = await request.json();
+                const e = body && typeof body.e === 'string' ? body.e : '';
+                if (e === 'pwa_install') {
+                    writeRalaMetric(env, 'pwa_install');
+                    return new Response(null, { status: 204, headers: corsHeaders });
+                }
+                if (e === 'audio_play') {
+                    const w = sanitizeLogFragment(body.w, 120);
+                    console.log(JSON.stringify({ rala_event: 'audio_play', w, ts: Date.now() }));
+                    return new Response(null, { status: 204, headers: corsHeaders });
+                }
+                return new Response(JSON.stringify({ error: 'Unsupported event' }), {
+                    status: 400,
+                    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+                });
+            } catch {
+                return new Response(JSON.stringify({ error: 'Invalid JSON body' }), {
+                    status: 400,
+                    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+                });
+            }
+        }
         
         try {
             // Get query
-            const url = new URL(request.url);
             const query = url.searchParams.get('q') || '';
             
             if (!query || query.trim().length === 0) {
@@ -267,6 +327,11 @@ export default {
                     status: 400,
                     headers: { ...corsHeaders, 'Content-Type': 'application/json' }
                 });
+            }
+
+            const intent = request.headers.get('X-Rala-Intent') || '';
+            if (intent === 'primary') {
+                logSearchPrimary(env, query.trim());
             }
             
             // Search using reverse index

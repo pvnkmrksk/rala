@@ -474,7 +474,9 @@ async function searchDirect(query) {
                         : []
                 ),
                 // Fetch Padakanaja from Worker API (on-demand, like synonyms)
-                fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`)
+                fetch(`${WORKER_API_URL}?q=${encodeURIComponent(query)}`, {
+                    headers: { 'X-Rala-Intent': 'primary' },
+                })
             ]);
             
             if (!workerResponse.ok) {
@@ -1130,7 +1132,8 @@ async function searchWithSynonyms(query, progressCallback = null) {
                 const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
                 
                 const response = await fetch(`${WORKER_API_URL}?q=${encodeURIComponent(relWord)}`, {
-                    signal: controller.signal
+                    signal: controller.signal,
+                    headers: { 'X-Rala-Intent': 'synonym' },
                 });
                 clearTimeout(timeoutId);
                 

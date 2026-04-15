@@ -19,8 +19,10 @@ const WORKER_API_URL = 'https://rala-search.rala-search.workers.dev';
 // (2) enable Web Analytics in the project, (3) add rala.kutuhula.in under Domains,
 // (4) deploy once on Vercel, (5) set VERCEL_ANALYTICS_ORIGIN to the *.vercel.app URL (no slash).
 // Docs: https://vercel.com/docs/analytics/quickstart
+// Until VERCEL_ANALYTICS_ORIGIN is set, js/vercel-analytics.js does nothing (see index.html).
 const VERCEL_ANALYTICS_ORIGIN = null;
 // Only send page views from these hostnames (avoids noise from localhost / preview URLs).
+// Add 'pvnkmrksk.github.io' if you want analytics on the GitHub Pages URL too.
 const VERCEL_ANALYTICS_HOSTS = ['rala.kutuhula.in'];
 
 // Primary dictionary (loaded first)

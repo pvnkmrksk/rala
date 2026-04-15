@@ -28,6 +28,7 @@ let deferredPrompt;
 window.deferredPrompt = null; // Make available globally
 const installPrompt = document.getElementById('install-prompt');
 const installClose = document.getElementById('install-close');
+const headerInstallChip = document.getElementById('header-install-chip');
 const INSTALL_AUTO_SHOWN_KEY = 'rala_install_auto_shown_v1';
 const INSTALL_PROMPT_AUTO_DISMISS_MS = 2500;
 let installDismissTimer = null;
@@ -42,6 +43,16 @@ function isIosDevice() {
 function isInStandaloneMode() {
     return window.matchMedia('(display-mode: standalone)').matches ||
         window.navigator.standalone === true;
+}
+
+function preferHeaderInstallChip() {
+    if (isIosDevice()) return false;
+    if (isInStandaloneMode()) return false;
+    return typeof window.matchMedia === 'function' && window.matchMedia('(min-width: 900px)').matches;
+}
+
+function hideHeaderInstallChip() {
+    if (headerInstallChip) headerInstallChip.hidden = true;
 }
 
 function ensureInstallHelpSheet() {
@@ -144,6 +155,7 @@ function showInstallPrompt() {
 
 function maybeAutoShowInstallPrompt() {
     if (!installPrompt || isInStandaloneMode()) return;
+    if (headerInstallChip && !headerInstallChip.hidden) return;
     const alreadyShown = localStorage.getItem(INSTALL_AUTO_SHOWN_KEY) === '1';
     if (alreadyShown) return;
     if (!hasCompletedFirstSearch || !hasScrolledResultsAfterSearch) return;
@@ -162,6 +174,7 @@ async function promptInstall() {
     deferredPrompt = null;
     window.deferredPrompt = null;
     hideInstallPrompt();
+    hideHeaderInstallChip();
     return true;
 }
 
@@ -175,13 +188,25 @@ window.triggerInstallFlow = async function triggerInstallFlow() {
     }
 };
 
+if (headerInstallChip) {
+    headerInstallChip.addEventListener('click', () => {
+        if (typeof window.triggerInstallFlow === 'function') {
+            window.triggerInstallFlow();
+        }
+    });
+}
+
 window.addEventListener('beforeinstallprompt', (e) => {
     // Prevent the mini-infobar from appearing
     e.preventDefault();
     // Stash the event so it can be triggered later
     deferredPrompt = e;
     window.deferredPrompt = e; // Make available globally
-    maybeAutoShowInstallPrompt();
+    if (headerInstallChip && preferHeaderInstallChip()) {
+        headerInstallChip.hidden = false;
+    } else {
+        maybeAutoShowInstallPrompt();
+    }
 });
 
 if (installPrompt) {
@@ -219,7 +244,11 @@ window.addEventListener('scroll', () => {
 // Hide prompt if app is already installed
 window.addEventListener('appinstalled', () => {
     console.log('PWA installed successfully');
+    if (typeof window.reportRalaWorkerEvent === 'function') {
+        window.reportRalaWorkerEvent('pwa_install');
+    }
     hideInstallPrompt();
+    hideHeaderInstallChip();
     deferredPrompt = null;
     window.deferredPrompt = null;
 });
@@ -229,6 +258,7 @@ if (window.matchMedia('(display-mode: standalone)').matches ||
     window.navigator.standalone === true) {
     console.log('Running as installed PWA');
     hideInstallPrompt();
+    hideHeaderInstallChip();
 }
 
 // Do not auto-open install instructions on load.

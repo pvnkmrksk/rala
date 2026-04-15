@@ -396,6 +396,34 @@ input[type="text"]:focus {
     height: 18px;
 }
 
+/* Desktop: same native install flow as Android — deferredPrompt.prompt() via triggerInstallFlow */
+.header-install-chip {
+    position: fixed;
+    top: 20px;
+    right: 64px;
+    z-index: 1000;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-color);
+    color: var(--text-color);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: border-color 0.2s, opacity 0.2s;
+}
+
+.header-install-chip:hover {
+    border-color: var(--text-color);
+}
+
+@media (max-width: 899px) {
+    .header-install-chip {
+        display: none;
+    }
+}
+
 .scroll-top-button {
     position: fixed;
     right: 20px;

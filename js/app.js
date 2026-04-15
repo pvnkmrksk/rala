@@ -35,7 +35,9 @@ async function init() {
             // Pre-warm Worker with a known word (elytra) and verify response
             // This ensures the API is actually ready before allowing searches
             const preWarmStartTime = performance.now();
-            workerApiReadyPromise = fetch(`${WORKER_API_URL}?q=elytra`)
+            workerApiReadyPromise = fetch(`${WORKER_API_URL}?q=elytra`, {
+                    headers: { 'X-Rala-Intent': 'warmup' },
+                })
                 .then(async (response) => {
                     if (!response.ok) {
                         throw new Error(`Worker API returned ${response.status}`);

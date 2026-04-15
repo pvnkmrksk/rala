@@ -377,6 +377,18 @@ function playAudio(buttonId, audioUrl) {
         console.error('❌ Audio button not found:', buttonId);
         return;
     }
+
+    try {
+        const raw = button.getAttribute('data-kannada-log');
+        if (raw && typeof window.reportRalaWorkerEvent === 'function') {
+            const label = decodeURIComponent(raw).replace(/[\r\n]/g, ' ').trim().slice(0, 120);
+            if (label) {
+                window.reportRalaWorkerEvent('audio_play', { w: label });
+            }
+        }
+    } catch (_) {
+        /* ignore malformed data-kannada-log */
+    }
     
     if (!audioUrl) {
         console.error('❌ No audio URL provided');

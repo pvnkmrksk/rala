@@ -164,6 +164,7 @@ function renderResults(directResults, synonymResults, synonymsUsed, query, loadi
 function renderResultCard(result, query, isSynonym = false) {
     const highlightedDef = highlightMatch(result.definition, result.matchedWord, result.matchType);
     const source = result.source || 'alar';
+    const kannadaLogEnc = encodeURIComponent(cleanKannadaEntry(result.kannada) || '');
     // Use same check as idStr to handle 0 (valid Alar ID) and empty strings
     const audioUrl = (result.id != null && result.id !== '') ? getAudioUrl(result.id, source) : null;
     const audioId = `audio-${result.id || 'no-id'}-${result.kannada.replace(/[^a-zA-Z0-9]/g, '-')}`;
@@ -245,7 +246,7 @@ function renderResultCard(result, query, isSynonym = false) {
         <div class="result-card">
             <div class="kannada-word">
                 ${showButton ? `
-                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" data-source="${source}" ${audioUrl ? `onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')"` : ''} title="Play pronunciation" style="opacity: ${audioUrl ? '1' : '0.5'};" data-audio-url="${audioUrl || ''}">
+                    <button class="audio-button" id="${audioId}" data-entry-id="${result.id || ''}" data-source="${source}" data-kannada-log="${kannadaLogEnc}" ${audioUrl ? `onclick="playAudio('${audioId}', '${audioUrl.replace(/'/g, "\\'")}')"` : ''} title="Play pronunciation" style="opacity: ${audioUrl ? '1' : '0.5'};" data-audio-url="${audioUrl || ''}">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M8 5v14l11-7z"/>
                         </svg>
