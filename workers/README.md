@@ -84,39 +84,9 @@ Content-Type: application/json
    - **Workers & Pages** → **rala-search** → **Observability** → **Logs** (enable **Workers Logs** if prompted).  
    - Filter or search for `search_primary` / `audio_play` / `pwa_install` in the log viewer (exact UI varies by plan).
 
-3. **R2 archive API for local dashboard**  
-   - Set a secret token once:
-     ```bash
-     npx wrangler secret put LOG_DASHBOARD_TOKEN
-     ```
-   - Query recent archived events:
-     ```bash
-     curl "https://rala-search.rala-search.workers.dev/__rala/v1/archive?hours=24&limit=1000" \
-       -H "X-Rala-Dashboard-Token: <token>"
-     ```
-   - Optional filter by event:
-     `...&event=search_primary` (or `audio_play`, `pwa_install`).
-
-## Local dashboard
-
-The repo includes a simple dashboard at `tools/log-dashboard/` that reads from
-`/__rala/v1/archive` and shows chronology, top words, geo split, plus raw JSON.
-
-Run locally:
-
-```bash
-cd /Users/pavan/src/rala
-python3 -m http.server 8090
-```
-
-Open:
-
-- `http://127.0.0.1:8090/tools/log-dashboard/`
-
-Enter:
-
-- Worker URL (`https://rala-search.rala-search.workers.dev`)
-- `LOG_DASHBOARD_TOKEN`
+3. **R2 durable archive (raw JSON events)**  
+   With `LOG_ARCHIVE` bound, each event is stored as its own JSON object in R2.
+   Use Cloudflare R2 tools/UI to download and analyze these offline for custom dashboards.
 
 ## Development
 

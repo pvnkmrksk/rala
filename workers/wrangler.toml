@@ -19,10 +19,6 @@ id = "3c0a155119644621bd656231b4ec9063"
 binding = "LOG_ARCHIVE"
 bucket_name = "rala-event-archive"
 
-# Set with:
-# npx wrangler secret put LOG_DASHBOARD_TOKEN
-# Used by GET /__rala/v1/archive for local dashboard access.
-
 [observability]
 enabled = false
 head_sampling_rate = 1

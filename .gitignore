@@ -25,3 +25,5 @@ node_modules/
 __pycache__/
 *.pyc
 *.pyo
+# Local-only dashboard artifacts (do not commit)
+tools/log-dashboard/
