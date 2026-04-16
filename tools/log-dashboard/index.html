@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rala Log Dashboard</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #0f1115; color: #e7eaf0; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    h1 { margin: 0 0 12px; font-size: 22px; }
+    .muted { color: #9aa3b2; font-size: 13px; }
+    .card { background: #171b22; border: 1px solid #2a3240; border-radius: 10px; padding: 14px; margin-top: 12px; }
+    .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    input, select, button { background: #0f131a; color: #e7eaf0; border: 1px solid #303a4a; border-radius: 8px; padding: 8px 10px; }
+    button { cursor: pointer; }
+    button:hover { border-color: #4d6080; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+    .metric { background: #121722; border: 1px solid #283247; border-radius: 8px; padding: 10px; }
+    .metric .k { color: #9aa3b2; font-size: 12px; }
+    .metric .v { font-size: 20px; margin-top: 4px; }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .list { max-height: 240px; overflow: auto; border: 1px solid #293448; border-radius: 8px; padding: 8px; }
+    .list div { padding: 3px 2px; border-bottom: 1px dashed #273041; font-size: 13px; }
+    .list div:last-child { border-bottom: none; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 12px; }
+    th, td { border-bottom: 1px solid #2a3240; padding: 8px; text-align: left; vertical-align: top; }
+    th { color: #9fb0cc; position: sticky; top: 0; background: #171b22; }
+    .json { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
+    .warn { color: #ffcf73; }
+    @media (max-width: 900px) { .grid, .cols { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Rala Log Dashboard</h1>
+    <div class="muted">Reads archived events from <code>/__rala/v1/archive</code> (R2). Keep this page local and token-protected.</div>
+
+    <div class="card">
+      <div class="row">
+        <label>Worker URL <input id="workerUrl" size="44" value="https://rala-search.rala-search.workers.dev" /></label>
+        <label>Token <input id="token" size="24" placeholder="LOG_DASHBOARD_TOKEN" /></label>
+        <label>Hours <input id="hours" type="number" min="1" max="336" value="24" style="width:80px" /></label>
+        <label>Limit <input id="limit" type="number" min="1" max="5000" value="1000" style="width:90px" /></label>
+        <label>Event
+          <select id="eventFilter">
+            <option value="">all</option>
+            <option value="search_primary">search_primary</option>
+            <option value="audio_play">audio_play</option>
+            <option value="pwa_install">pwa_install</option>
+          </select>
+        </label>
+        <button id="loadBtn">Load</button>
+        <button id="downloadBtn">Download JSON</button>
+      </div>
+      <div id="status" class="muted" style="margin-top:8px;">Idle.</div>
+    </div>
+
+    <div class="card grid">
+      <div class="metric"><div class="k">Events loaded</div><div class="v" id="mCount">0</div></div>
+      <div class="metric"><div class="k">Search events</div><div class="v" id="mSearch">0</div></div>
+      <div class="metric"><div class="k">Audio events</div><div class="v" id="mAudio">0</div></div>
+      <div class="metric"><div class="k">PWA installs</div><div class="v" id="mPwa">0</div></div>
+    </div>
+
+    <div class="card cols">
+      <div>
+        <h3>Top searched words</h3>
+        <div id="topSearch" class="list"></div>
+      </div>
+      <div>
+        <h3>Top countries</h3>
+        <div id="topCountries" class="list"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <label>Search text contains <input id="qContains" size="20" placeholder="e.g. carom" /></label>
+        <label>Country <input id="countryFilter" size="10" placeholder="DE" /></label>
+        <label>Event type
+          <select id="tableEventFilter">
+            <option value="">all</option>
+            <option value="search_primary">search_primary</option>
+            <option value="audio_play">audio_play</option>
+            <option value="pwa_install">pwa_install</option>
+          </select>
+        </label>
+        <button id="applyFilterBtn">Apply filters</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Term</th>
+            <th>Country/City</th>
+            <th>IP</th>
+            <th>ISP</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

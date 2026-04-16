@@ -301,6 +301,66 @@ function emitEvent(env, request, eventName, payload = {}, executionCtx = null) {
     }
 }
 
+function isDashboardAuthorized(request, env, url) {
+    const expected = (env.LOG_DASHBOARD_TOKEN || '').trim();
+    if (!expected) return false;
+    const headerToken = (request.headers.get('X-Rala-Dashboard-Token') || '').trim();
+    const queryToken = (url.searchParams.get('token') || '').trim();
+    return headerToken === expected || queryToken === expected;
+}
+
+async function readArchiveEvents(env, options = {}) {
+    if (!env.LOG_ARCHIVE) {
+        return { events: [], scannedKeys: 0 };
+    }
+
+    const hours = Math.max(1, Math.min(24 * 14, Number(options.hours || 24))); // 1h..14d
+    const limit = Math.max(1, Math.min(5000, Number(options.limit || 1000)));
+    const eventFilter = sanitizeLogFragment(options.event || '', 64);
+    const sinceMs = Date.now() - (hours * 60 * 60 * 1000);
+
+    let cursor = undefined;
+    let scannedKeys = 0;
+    const candidateKeys = [];
+
+    // List object keys from newest-ish partitions. For low/medium volume, this is sufficient.
+    while (true) {
+        const page = await env.LOG_ARCHIVE.list({ prefix: 'events/', cursor, limit: 1000 });
+        for (const obj of page.objects || []) {
+            scannedKeys += 1;
+            const uploadedMs = obj.uploaded ? new Date(obj.uploaded).getTime() : 0;
+            if (uploadedMs >= sinceMs) {
+                candidateKeys.push(obj.key);
+            }
+        }
+        if (!page.truncated) break;
+        cursor = page.cursor;
+        if (scannedKeys >= 50000) break; // Safety cap
+    }
+
+    // Keys include timestamp prefix, so lexical sort gives stable chronology inside date folders.
+    candidateKeys.sort();
+    const keysToFetch = candidateKeys.slice(-Math.min(candidateKeys.length, limit * 3));
+
+    const parsed = [];
+    for (const key of keysToFetch) {
+        const obj = await env.LOG_ARCHIVE.get(key);
+        if (!obj) continue;
+        try {
+            const ev = JSON.parse(await obj.text());
+            if (!ev || typeof ev !== 'object') continue;
+            if (eventFilter && ev.rala_event !== eventFilter) continue;
+            if (typeof ev.ts === 'number' && ev.ts < sinceMs) continue;
+            parsed.push(ev);
+        } catch {
+            // Skip malformed objects
+        }
+    }
+
+    parsed.sort((a, b) => Number(b.ts || 0) - Number(a.ts || 0));
+    return { events: parsed.slice(0, limit), scannedKeys };
+}
+
 /** Primary user search only: always logs `q` to Worker Logs (filter: rala_event). */
 function logSearchPrimary(env, request, queryText, executionCtx = null) {
     const q = sanitizeLogFragment(queryText, 300);
@@ -315,7 +375,7 @@ export default {
         const corsHeaders = {
             'Access-Control-Allow-Origin': origin || '*',
             'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type, X-Rala-Intent',
+            'Access-Control-Allow-Headers': 'Content-Type, X-Rala-Intent, X-Rala-Dashboard-Token',
             'Access-Control-Max-Age': '86400',
         };
         
@@ -325,6 +385,32 @@ export default {
         }
 
         const url = new URL(request.url);
+
+        // Admin archive endpoint (for local dashboard)
+        if (url.pathname === '/__rala/v1/archive' && request.method === 'GET') {
+            if (!isDashboardAuthorized(request, env, url)) {
+                return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+                    status: 401,
+                    headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+                });
+            }
+
+            const result = await readArchiveEvents(env, {
+                hours: url.searchParams.get('hours') || '24',
+                limit: url.searchParams.get('limit') || '1000',
+                event: url.searchParams.get('event') || ''
+            });
+            return new Response(JSON.stringify({
+                event_version: EVENT_VERSION,
+                archive_version: 'rala_archive.v1',
+                generated_at: Date.now(),
+                count: result.events.length,
+                scanned_keys: result.scannedKeys,
+                events: result.events
+            }), {
+                headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+            });
+        }
 
         // Client-side events (whitelist only)
         if (url.pathname === '/__rala/v1/event' && request.method === 'POST') {
