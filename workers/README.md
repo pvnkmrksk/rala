@@ -65,9 +65,10 @@ Content-Type: application/json
 
 | Signal | How |
 |--------|-----|
-| **Primary search** (user direct search; synonym calls excluded) | `GET ?q=…` with header `X-Rala-Intent: primary`. Worker emits **`console.log` JSON** with `rala_event: "search_primary"` and **`q`** (search text, truncated). If `ANALYTICS` is bound in `wrangler.toml`, also writes **Analytics Engine** rows. |
+| **Primary search** (user direct search; synonym calls excluded) | `GET ?q=…` with header `X-Rala-Intent: primary`. Worker emits versioned JSON logs (`event_version`, `log_level`) with `rala_event: "search_primary"` and `q` (search text, truncated), plus rough geo/network context in `ctx`. |
 | **PWA installed** | `POST /__rala/v1/event` body `{"e":"pwa_install"}` after `appinstalled`. |
 | **Audio play** (optional) | `POST` body `{"e":"audio_play","w":"…"}` — Kannada headword for the row whose play button was pressed. |
+| **R2 archival** (optional) | If `LOG_ARCHIVE` bucket binding exists, each custom event is written to `events/YYYY/MM/DD/HH/<ts>-<uuid>.json`. |
 
 ### Viewing search terms and events in Cloudflare
 
@@ -83,11 +84,39 @@ Content-Type: application/json
    - **Workers & Pages** → **rala-search** → **Observability** → **Logs** (enable **Workers Logs** if prompted).  
    - Filter or search for `search_primary` / `audio_play` / `pwa_install` in the log viewer (exact UI varies by plan).
 
-3. **Analytics Engine** (optional; **requires one-time account enable**)  
-   If `wrangler deploy` fails with **code 10089** (“enable Analytics Engine”), open the URL Wrangler prints (`…/workers/analytics-engine`), turn **Analytics Engine** on for the account, then uncomment the `[[analytics_engine_datasets]]` block in `wrangler.toml` (binding `ANALYTICS`, dataset `rala_usage`) and deploy again.  
-   Without that binding, **Worker Logs still contain every `search_primary` line with `q`**; you only skip AE SQL/charts.
+3. **R2 archive API for local dashboard**  
+   - Set a secret token once:
+     ```bash
+     npx wrangler secret put LOG_DASHBOARD_TOKEN
+     ```
+   - Query recent archived events:
+     ```bash
+     curl "https://rala-search.rala-search.workers.dev/__rala/v1/archive?hours=24&limit=1000" \
+       -H "X-Rala-Dashboard-Token: <token>"
+     ```
+   - Optional filter by event:
+     `...&event=search_primary` (or `audio_play`, `pwa_install`).
 
-If the `[[analytics_engine_datasets]]` block is commented out, **primary searches still appear in Worker Logs** via `console.log`; only Analytics Engine writes are skipped.
+## Local dashboard
+
+The repo includes a simple dashboard at `tools/log-dashboard/` that reads from
+`/__rala/v1/archive` and shows chronology, top words, geo split, plus raw JSON.
+
+Run locally:
+
+```bash
+cd /Users/pavan/src/rala
+python3 -m http.server 8090
+```
+
+Open:
+
+- `http://127.0.0.1:8090/tools/log-dashboard/`
+
+Enter:
+
+- Worker URL (`https://rala-search.rala-search.workers.dev`)
+- `LOG_DASHBOARD_TOKEN`
 
 ## Development
 

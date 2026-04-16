@@ -24,7 +24,6 @@ async function loadChunkIndex(env) {
                 throw new Error('Chunk index not found in KV');
             }
             chunkIndex = data;
-            console.log(`Loaded chunk index: ${Object.keys(chunkIndex).length} prefixes`);
             return chunkIndex;
         } catch (error) {
             console.error('Failed to load chunk index:', error);
@@ -49,7 +48,6 @@ async function loadChunks(chunkNumbers, env) {
             const data = await env.DICTIONARY.get(chunkKey, 'json');
             if (data) {
                 chunkCache.set(chunkNum, data);
-                console.log(`Loaded chunk ${chunkNum} (${Object.keys(data).length} words)`);
             }
         } catch (error) {
             console.error(`Failed to load chunk ${chunkNum}:`, error);
@@ -238,48 +236,146 @@ async function searchWithReverseIndex(query, env) {
     }
 }
 
-function writeRalaMetric(env, name) {
-    if (name === 'pwa_install') {
-        console.log(JSON.stringify({ rala_event: name, ts: Date.now() }));
-    }
-    const analytics = env.ANALYTICS || env.ANALYTICS_ENGINE;
-    if (analytics) {
-        try {
-            analytics.writeDataPoint({ blobs: [name], doubles: [1] });
-        } catch (err) {
-            console.error('Analytics write failed:', err);
-        }
-    }
-}
-
 function sanitizeLogFragment(s, maxLen) {
     if (!s || typeof s !== 'string') return '';
     return s.replace(/[\r\n\0]/g, ' ').trim().slice(0, maxLen);
 }
 
-/** Primary user search only: always logs `q` to Worker Logs (filter: rala_event). */
-function logSearchPrimary(env, queryText) {
-    const q = sanitizeLogFragment(queryText, 300);
-    console.log(JSON.stringify({ rala_event: 'search_primary', q, ts: Date.now() }));
+const EVENT_VERSION = 'rala_event.v2';
+const EVENT_LOG_LEVEL = 'info';
+
+function getRequestContext(request) {
+    const cf = request.cf || {};
+    return {
+        ip: request.headers.get('CF-Connecting-IP') || request.headers.get('X-Real-IP') || '',
+        country: cf.country || '',
+        city: cf.city || '',
+        region: cf.region || '',
+        colo: cf.colo || '',
+        asn: cf.asn || null,
+        isp: cf.asOrganization || '',
+        user_agent: request.headers.get('User-Agent') || '',
+        origin: request.headers.get('Origin') || '',
+        referer: request.headers.get('Referer') || ''
+    };
+}
+
+async function archiveEventToR2(env, eventObj) {
+    if (!env.LOG_ARCHIVE) return;
+    const date = new Date(eventObj.ts);
+    const yyyy = date.getUTCFullYear();
+    const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
+    const dd = String(date.getUTCDate()).padStart(2, '0');
+    const hh = String(date.getUTCHours()).padStart(2, '0');
+    const key = `events/${yyyy}/${mm}/${dd}/${hh}/${eventObj.ts}-${crypto.randomUUID()}.json`;
+    const body = JSON.stringify(eventObj);
+    await env.LOG_ARCHIVE.put(key, body, {
+        httpMetadata: { contentType: 'application/json' }
+    });
+}
+
+function emitEvent(env, request, eventName, payload = {}, executionCtx = null) {
+    const eventObj = {
+        rala_event: eventName,
+        event_version: EVENT_VERSION,
+        log_level: EVENT_LOG_LEVEL,
+        ts: Date.now(),
+        ...payload,
+        ctx: getRequestContext(request)
+    };
+
+    console.log(JSON.stringify(eventObj));
+
     const analytics = env.ANALYTICS || env.ANALYTICS_ENGINE;
     if (analytics) {
+        const term = payload.q || payload.w || '';
         try {
-            analytics.writeDataPoint({ blobs: ['search_primary', q], doubles: [1] });
+            analytics.writeDataPoint({ blobs: [eventName, term], doubles: [1] });
         } catch (err) {
             console.error('Analytics write failed:', err);
         }
     }
+
+    if (executionCtx && env.LOG_ARCHIVE) {
+        executionCtx.waitUntil(archiveEventToR2(env, eventObj));
+    }
+}
+
+function isDashboardAuthorized(request, env, url) {
+    const expected = (env.LOG_DASHBOARD_TOKEN || '').trim();
+    if (!expected) return false;
+    const headerToken = (request.headers.get('X-Rala-Dashboard-Token') || '').trim();
+    const queryToken = (url.searchParams.get('token') || '').trim();
+    return headerToken === expected || queryToken === expected;
+}
+
+async function readArchiveEvents(env, options = {}) {
+    if (!env.LOG_ARCHIVE) {
+        return { events: [], scannedKeys: 0 };
+    }
+
+    const hours = Math.max(1, Math.min(24 * 14, Number(options.hours || 24))); // 1h..14d
+    const limit = Math.max(1, Math.min(5000, Number(options.limit || 1000)));
+    const eventFilter = sanitizeLogFragment(options.event || '', 64);
+    const sinceMs = Date.now() - (hours * 60 * 60 * 1000);
+
+    let cursor = undefined;
+    let scannedKeys = 0;
+    const candidateKeys = [];
+
+    // List object keys from newest-ish partitions. For low/medium volume, this is sufficient.
+    while (true) {
+        const page = await env.LOG_ARCHIVE.list({ prefix: 'events/', cursor, limit: 1000 });
+        for (const obj of page.objects || []) {
+            scannedKeys += 1;
+            const uploadedMs = obj.uploaded ? new Date(obj.uploaded).getTime() : 0;
+            if (uploadedMs >= sinceMs) {
+                candidateKeys.push(obj.key);
+            }
+        }
+        if (!page.truncated) break;
+        cursor = page.cursor;
+        if (scannedKeys >= 50000) break; // Safety cap
+    }
+
+    // Keys include timestamp prefix, so lexical sort gives stable chronology inside date folders.
+    candidateKeys.sort();
+    const keysToFetch = candidateKeys.slice(-Math.min(candidateKeys.length, limit * 3));
+
+    const parsed = [];
+    for (const key of keysToFetch) {
+        const obj = await env.LOG_ARCHIVE.get(key);
+        if (!obj) continue;
+        try {
+            const ev = JSON.parse(await obj.text());
+            if (!ev || typeof ev !== 'object') continue;
+            if (eventFilter && ev.rala_event !== eventFilter) continue;
+            if (typeof ev.ts === 'number' && ev.ts < sinceMs) continue;
+            parsed.push(ev);
+        } catch {
+            // Skip malformed objects
+        }
+    }
+
+    parsed.sort((a, b) => Number(b.ts || 0) - Number(a.ts || 0));
+    return { events: parsed.slice(0, limit), scannedKeys };
+}
+
+/** Primary user search only: always logs `q` to Worker Logs (filter: rala_event). */
+function logSearchPrimary(env, request, queryText, executionCtx = null) {
+    const q = sanitizeLogFragment(queryText, 300);
+    emitEvent(env, request, 'search_primary', { q }, executionCtx);
 }
 
 // Main request handler
 export default {
-    async fetch(request, env) {
+    async fetch(request, env, executionCtx) {
         // CORS headers
         const origin = request.headers.get('Origin');
         const corsHeaders = {
             'Access-Control-Allow-Origin': origin || '*',
             'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type, X-Rala-Intent',
+            'Access-Control-Allow-Headers': 'Content-Type, X-Rala-Intent, X-Rala-Dashboard-Token',
             'Access-Control-Max-Age': '86400',
         };
         
@@ -290,18 +386,44 @@ export default {
 
         const url = new URL(request.url);
 
+        // Admin archive endpoint (for local dashboard)
+        if (url.pathname === '/__rala/v1/archive' && request.method === 'GET') {
+            if (!isDashboardAuthorized(request, env, url)) {
+                return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+                    status: 401,
+                    headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+                });
+            }
+
+            const result = await readArchiveEvents(env, {
+                hours: url.searchParams.get('hours') || '24',
+                limit: url.searchParams.get('limit') || '1000',
+                event: url.searchParams.get('event') || ''
+            });
+            return new Response(JSON.stringify({
+                event_version: EVENT_VERSION,
+                archive_version: 'rala_archive.v1',
+                generated_at: Date.now(),
+                count: result.events.length,
+                scanned_keys: result.scannedKeys,
+                events: result.events
+            }), {
+                headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+            });
+        }
+
         // Client-side events (whitelist only)
         if (url.pathname === '/__rala/v1/event' && request.method === 'POST') {
             try {
                 const body = await request.json();
                 const e = body && typeof body.e === 'string' ? body.e : '';
                 if (e === 'pwa_install') {
-                    writeRalaMetric(env, 'pwa_install');
+                    emitEvent(env, request, 'pwa_install', {}, executionCtx);
                     return new Response(null, { status: 204, headers: corsHeaders });
                 }
                 if (e === 'audio_play') {
                     const w = sanitizeLogFragment(body.w, 120);
-                    console.log(JSON.stringify({ rala_event: 'audio_play', w, ts: Date.now() }));
+                    emitEvent(env, request, 'audio_play', { w }, executionCtx);
                     return new Response(null, { status: 204, headers: corsHeaders });
                 }
                 return new Response(JSON.stringify({ error: 'Unsupported event' }), {
@@ -331,7 +453,7 @@ export default {
 
             const intent = request.headers.get('X-Rala-Intent') || '';
             if (intent === 'primary') {
-                logSearchPrimary(env, query.trim());
+                logSearchPrimary(env, request, query.trim(), executionCtx);
             }
             
             // Search using reverse index
