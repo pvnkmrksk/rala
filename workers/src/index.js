@@ -309,6 +309,28 @@ function isDashboardAuthorized(request, env, url) {
     return headerToken === expected || queryToken === expected;
 }
 
+function toArchiveHourPrefix(ts) {
+    const d = new Date(ts);
+    const yyyy = d.getUTCFullYear();
+    const mm = String(d.getUTCMonth() + 1).padStart(2, '0');
+    const dd = String(d.getUTCDate()).padStart(2, '0');
+    const hh = String(d.getUTCHours()).padStart(2, '0');
+    return `events/${yyyy}/${mm}/${dd}/${hh}/`;
+}
+
+function utcHourStartMs(ts) {
+    const d = new Date(ts);
+    return Date.UTC(
+        d.getUTCFullYear(),
+        d.getUTCMonth(),
+        d.getUTCDate(),
+        d.getUTCHours(),
+        0,
+        0,
+        0
+    );
+}
+
 async function readArchiveEvents(env, options = {}) {
     if (!env.LOG_ARCHIVE) {
         return { events: [], scannedKeys: 0 };
@@ -319,23 +341,34 @@ async function readArchiveEvents(env, options = {}) {
     const eventFilter = sanitizeLogFragment(options.event || '', 64);
     const sinceMs = Date.now() - (hours * 60 * 60 * 1000);
 
-    let cursor = undefined;
     let scannedKeys = 0;
     const candidateKeys = [];
+    const maxScannedKeys = 75000;
+    const targetCandidateCount = Math.max(limit * 10, 3000);
+    const startHour = utcHourStartMs(Date.now());
+    const minHour = utcHourStartMs(sinceMs);
 
-    // List object keys from newest-ish partitions. For low/medium volume, this is sufficient.
-    while (true) {
-        const page = await env.LOG_ARCHIVE.list({ prefix: 'events/', cursor, limit: 1000 });
-        for (const obj of page.objects || []) {
-            scannedKeys += 1;
-            const uploadedMs = obj.uploaded ? new Date(obj.uploaded).getTime() : 0;
-            if (uploadedMs >= sinceMs) {
+    // Scan recent hour partitions first so dashboards don't miss fresh events at high key counts.
+    for (let hourTs = startHour; hourTs >= minHour; hourTs -= 60 * 60 * 1000) {
+        const prefix = toArchiveHourPrefix(hourTs);
+        let cursor = undefined;
+
+        while (true) {
+            const page = await env.LOG_ARCHIVE.list({ prefix, cursor, limit: 1000 });
+            for (const obj of page.objects || []) {
+                scannedKeys += 1;
                 candidateKeys.push(obj.key);
             }
+
+            if (!page.truncated) break;
+            cursor = page.cursor;
+
+            if (scannedKeys >= maxScannedKeys) break;
+            if (!eventFilter && candidateKeys.length >= targetCandidateCount) break;
         }
-        if (!page.truncated) break;
-        cursor = page.cursor;
-        if (scannedKeys >= 50000) break; // Safety cap
+
+        if (scannedKeys >= maxScannedKeys) break;
+        if (!eventFilter && candidateKeys.length >= targetCandidateCount) break;
     }
 
     // Keys include timestamp prefix, so lexical sort gives stable chronology inside date folders.
