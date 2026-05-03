@@ -267,7 +267,10 @@ async function archiveEventToR2(env, eventObj) {
     const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
     const dd = String(date.getUTCDate()).padStart(2, '0');
     const hh = String(date.getUTCHours()).padStart(2, '0');
-    const key = `events/${yyyy}/${mm}/${dd}/${hh}/${eventObj.ts}-${crypto.randomUUID()}.json`;
+    const tail = `${yyyy}/${mm}/${dd}/${hh}`;
+    const category =
+        eventObj && eventObj.rala_event === 'user_feedback' ? 'events/user_feedback' : 'events';
+    const key = `${category}/${tail}/${eventObj.ts}-${crypto.randomUUID()}.json`;
     const body = JSON.stringify(eventObj);
     await env.LOG_ARCHIVE.put(key, body, {
         httpMetadata: { contentType: 'application/json' }
@@ -338,6 +341,17 @@ export default {
                 if (e === 'audio_play') {
                     const w = sanitizeLogFragment(body.w, 120);
                     emitEvent(env, request, 'audio_play', { w }, executionCtx);
+                    return new Response(null, { status: 204, headers: corsHeaders });
+                }
+                if (e === 'user_feedback') {
+                    const w = sanitizeLogFragment(body.w, 2000);
+                    if (!w) {
+                        return new Response(JSON.stringify({ error: 'Missing feedback text' }), {
+                            status: 400,
+                            headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+                        });
+                    }
+                    emitEvent(env, request, 'user_feedback', { w }, executionCtx);
                     return new Response(null, { status: 204, headers: corsHeaders });
                 }
                 return new Response(JSON.stringify({ error: 'Unsupported event' }), {

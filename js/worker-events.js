@@ -24,5 +24,23 @@
         }
     }
 
+    function reportRalaFeedback(text) {
+        if (typeof WORKER_API_URL === 'undefined' || !WORKER_API_URL) return;
+        const w = String(text || '').trim().slice(0, 2000);
+        if (!w) return;
+        try {
+            const url = new URL('/__rala/v1/event', WORKER_API_URL);
+            fetch(url.toString(), {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ e: 'user_feedback', w }),
+                keepalive: true,
+            }).catch(function () {});
+        } catch (_) {
+            /* ignore */
+        }
+    }
+
     window.reportRalaWorkerEvent = postEvent;
+    window.reportRalaFeedback = reportRalaFeedback;
 })();

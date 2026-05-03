@@ -141,7 +141,18 @@ async function init() {
     }
 }
 function renderApp(initialQuery = '') {
+    if (typeof window.__ralaBaseTitle === 'undefined') {
+        window.__ralaBaseTitle = document.title;
+    }
+    const FEEDBACK_DOC_TITLE = 'ನಿಮ್ಮ ಅನಿಸಿಕೆ ತಿಳಿಸಿ · Please share your feedback 🙏 · Rala';
+
     app.innerHTML = `
+        <div id="feedback-panel" class="feedback-panel" hidden>
+            <p class="feedback-panel-lede">ನಿಮ್ಮ ಅನಿಸಿಕೆ ತಿಳಿಸಿ · Please share your feedback 🙏</p>
+            <textarea id="feedback-tab-text" class="feedback-textarea" rows="6" maxlength="2000" placeholder="Type your feedback here…" aria-label="Feedback text"></textarea>
+            <button type="button" class="feedback-submit" id="feedback-tab-submit">Submit</button>
+            <p id="feedback-tab-hint" class="feedback-hint" hidden></p>
+        </div>
         <div id="results" class="results-container"></div>
         <div class="stats">
             ${WORKER_API_URL ? '478,680 entries | 103,585 unique English words' : `${dictionary.length.toLocaleString()} total entries | ${reverseIndex.size.toLocaleString()} unique English words indexed`}
@@ -151,9 +162,22 @@ function renderApp(initialQuery = '') {
     const searchInput = document.getElementById('search-input');
     const searchButton = document.getElementById('search-button');
     const resultsDiv = document.getElementById('results');
+    const statsEl = app.querySelector('.stats');
+    const feedbackPanel = document.getElementById('feedback-panel');
+    const feedbackTabText = document.getElementById('feedback-tab-text');
+    const feedbackTabSubmit = document.getElementById('feedback-tab-submit');
+    const feedbackTabHint = document.getElementById('feedback-tab-hint');
     const tabsWrapper = document.getElementById('tabs-wrapper');
     const tabExact = document.getElementById('tab-exact');
     const tabSynonym = document.getElementById('tab-synonym');
+    const tabFeedback = document.getElementById('tab-feedback');
+    const feedbackModal = document.getElementById('feedback-modal');
+    const feedbackModalText = document.getElementById('feedback-modal-text');
+    const feedbackModalSubmit = document.getElementById('feedback-modal-submit');
+    const feedbackModalLater = document.getElementById('feedback-modal-later');
+    const feedbackModalClose = document.getElementById('feedback-modal-close');
+    const feedbackModalBackdrop = document.getElementById('feedback-modal-backdrop');
+    const feedbackModalHint = document.getElementById('feedback-modal-hint');
     const tabExactCount = document.getElementById('tab-exact-count');
     const tabSynonymCount = document.getElementById('tab-synonym-count');
     const tabExactSpinner = document.getElementById('tab-exact-spinner');
@@ -306,34 +330,140 @@ function renderApp(initialQuery = '') {
         searchInput.value = item.textContent || '';
     }
     
+    function setFeedbackTabVisibility(show) {
+        if (!tabFeedback) return;
+        tabFeedback.style.display = show ? '' : 'none';
+    }
+
+    function openFeedbackModal() {
+        if (!feedbackModal || !feedbackModalText || !feedbackTabText) return;
+        feedbackModalText.value = feedbackTabText.value;
+        feedbackModal.removeAttribute('hidden');
+        feedbackModal.classList.add('show');
+        feedbackModal.setAttribute('aria-hidden', 'false');
+        document.title = FEEDBACK_DOC_TITLE;
+        if (feedbackModalHint) {
+            feedbackModalHint.hidden = true;
+            feedbackModalHint.textContent = '';
+            feedbackModalHint.classList.remove('ok');
+        }
+        try {
+            feedbackModalText.focus();
+        } catch (_) {
+            /* ignore */
+        }
+    }
+
+    function closeFeedbackModal() {
+        if (!feedbackModal || !feedbackModalText || !feedbackTabText) return;
+        feedbackTabText.value = feedbackModalText.value;
+        feedbackModal.classList.remove('show');
+        feedbackModal.setAttribute('hidden', '');
+        feedbackModal.setAttribute('aria-hidden', 'true');
+        document.title = window.__ralaBaseTitle || document.title;
+    }
+
+    function showTabFeedbackHint(msg, ok) {
+        if (!feedbackTabHint) return;
+        feedbackTabHint.textContent = msg;
+        feedbackTabHint.hidden = !msg;
+        feedbackTabHint.classList.toggle('ok', !!ok);
+    }
+
+    function showModalFeedbackHint(msg, ok) {
+        if (!feedbackModalHint) return;
+        feedbackModalHint.textContent = msg;
+        feedbackModalHint.hidden = !msg;
+        feedbackModalHint.classList.toggle('ok', !!ok);
+    }
+
+    function submitFeedbackFrom(source) {
+        const raw = source === 'modal' ? feedbackModalText.value : feedbackTabText.value;
+        const text = (raw || '').trim();
+        const hintFn = source === 'modal' ? showModalFeedbackHint : showTabFeedbackHint;
+        if (!text) {
+            hintFn('Write something first, then submit.', false);
+            return;
+        }
+        if (typeof window.reportRalaFeedback === 'function') {
+            window.reportRalaFeedback(text);
+        }
+        localStorage.setItem('rala_feedback_submitted', '1');
+        sessionStorage.setItem('rala_feedback_modal_shown', '1');
+        feedbackTabText.value = '';
+        feedbackModalText.value = '';
+        if (source === 'modal') {
+            closeFeedbackModal();
+        } else {
+            hintFn('Thank you — we read every note.', true);
+        }
+        if (tabFeedback && tabFeedback.classList.contains('active')) {
+            switchTab('exact');
+        }
+    }
+
+    function bumpSearchCountMaybeOpenFeedback() {
+        if (localStorage.getItem('rala_feedback_submitted') === '1') return;
+        if (sessionStorage.getItem('rala_feedback_modal_shown') === '1') return;
+        const prev = Number(sessionStorage.getItem('rala_search_completed') || '0');
+        const next = prev + 1;
+        sessionStorage.setItem('rala_search_completed', String(next));
+        if (next >= 2) {
+            sessionStorage.setItem('rala_feedback_modal_shown', '1');
+            openFeedbackModal();
+        }
+    }
+
     function switchTab(tabName) {
-        if (tabName === 'exact') {
-            tabExact.classList.add('active');
-            tabSynonym.classList.remove('active');
+        const isExact = tabName === 'exact';
+        const isSynonym = tabName === 'synonym';
+        const isFeedback = tabName === 'feedback';
+
+        tabExact.classList.toggle('active', isExact);
+        tabSynonym.classList.toggle('active', isSynonym);
+        if (tabFeedback) tabFeedback.classList.toggle('active', isFeedback);
+
+        if (feedbackPanel && resultsDiv && statsEl) {
+            if (isFeedback) {
+                feedbackPanel.hidden = false;
+                resultsDiv.style.display = 'none';
+                statsEl.style.display = 'none';
+            } else {
+                feedbackPanel.hidden = true;
+                resultsDiv.style.display = '';
+                statsEl.style.display = '';
+            }
+        }
+
+        const searchHeight = document.querySelector('.sticky-search').offsetHeight;
+
+        if (isFeedback && feedbackPanel) {
+            setTimeout(() => {
+                const top = feedbackPanel.getBoundingClientRect().top + window.pageYOffset;
+                window.scrollTo({ top: top - searchHeight, behavior: 'smooth' });
+            }, 80);
+            return;
+        }
+
+        if (isExact) {
             const exactSection = document.getElementById('exact-matches');
             if (exactSection) {
                 setTimeout(() => {
-                    const searchHeight = document.querySelector('.sticky-search').offsetHeight;
-                    const offset = searchHeight;
                     const elementPosition = exactSection.getBoundingClientRect().top + window.pageYOffset;
-                    window.scrollTo({ 
-                        top: elementPosition - offset, 
-                        behavior: 'smooth' 
+                    window.scrollTo({
+                        top: elementPosition - searchHeight,
+                        behavior: 'smooth',
                     });
                 }, 100);
             }
-        } else {
-            tabSynonym.classList.add('active');
-            tabExact.classList.remove('active');
+        } else if (isSynonym) {
             const synonymSection = document.getElementById('synonym-matches');
             if (synonymSection) {
                 setTimeout(() => {
-                    const searchHeight = document.querySelector('.sticky-search').offsetHeight;
-                    const offset = searchHeight;
                     const elementPosition = synonymSection.getBoundingClientRect().top + window.pageYOffset;
-                    window.scrollTo({ 
-                        top: elementPosition - offset, 
-                        behavior: 'smooth' 
+                    window.scrollTo({
+                        top: elementPosition - searchHeight,
+                        behavior: 'smooth',
                     });
                 }, 100);
             }
@@ -342,6 +472,24 @@ function renderApp(initialQuery = '') {
     
     tabExact.addEventListener('click', () => switchTab('exact'));
     tabSynonym.addEventListener('click', () => switchTab('synonym'));
+    if (tabFeedback) tabFeedback.addEventListener('click', () => switchTab('feedback'));
+    if (feedbackTabSubmit) feedbackTabSubmit.addEventListener('click', () => submitFeedbackFrom('tab'));
+    if (feedbackModalSubmit) feedbackModalSubmit.addEventListener('click', () => submitFeedbackFrom('modal'));
+    if (feedbackModalLater) {
+        feedbackModalLater.addEventListener('click', () => {
+            closeFeedbackModal();
+        });
+    }
+    if (feedbackModalClose) {
+        feedbackModalClose.addEventListener('click', () => {
+            closeFeedbackModal();
+        });
+    }
+    if (feedbackModalBackdrop) {
+        feedbackModalBackdrop.addEventListener('click', () => {
+            closeFeedbackModal();
+        });
+    }
     searchButton.addEventListener('click', () => {
         if (searchInput.value.trim()) {
             performSearch(searchInput.value.trim(), true);
@@ -493,6 +641,17 @@ function renderApp(initialQuery = '') {
         if (!query.trim()) {
             resultsDiv.innerHTML = '';
             tabsWrapper.style.display = 'none';
+            setFeedbackTabVisibility(false);
+            if (feedbackPanel && resultsDiv && statsEl) {
+                feedbackPanel.hidden = true;
+                resultsDiv.style.display = '';
+                statsEl.style.display = '';
+            }
+            if (tabFeedback) {
+                tabFeedback.classList.remove('active');
+                tabExact.classList.add('active');
+                tabSynonym.classList.remove('active');
+            }
             directResults = [];
             synonymResults = [];
             synonymsUsed = {};
@@ -529,7 +688,8 @@ function renderApp(initialQuery = '') {
         
         // Show tabs
         tabsWrapper.style.display = 'block';
-        
+        setFeedbackTabVisibility(true);
+
         // Reset tab states
         tabExactCount.textContent = '';
         tabSynonymCount.textContent = '';
@@ -561,7 +721,9 @@ function renderApp(initialQuery = '') {
                 }
             }));
         }
-        
+
+        bumpSearchCountMaybeOpenFeedback();
+
         // Mobile: Limit to 500 results, show "500+"
         const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         const MOBILE_LIMIT = 500;
@@ -697,6 +859,15 @@ function renderApp(initialQuery = '') {
         // Hide tabs if no results at all
         if (directResults.length === 0 && synonymResults.length === 0) {
             tabsWrapper.style.display = 'none';
+            setFeedbackTabVisibility(false);
+            if (feedbackPanel && resultsDiv && statsEl) {
+                feedbackPanel.hidden = true;
+                resultsDiv.style.display = '';
+                statsEl.style.display = '';
+            }
+            if (tabFeedback) tabFeedback.classList.remove('active');
+            tabExact.classList.add('active');
+            tabSynonym.classList.remove('active');
         } else {
             // Default to exact tab
             switchTab('exact');
@@ -793,4 +964,13 @@ function renderApp(initialQuery = '') {
             hideSuggestions();
         }, 120);
     });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key !== 'Escape') return;
+        if (feedbackModal && feedbackModal.classList.contains('show')) {
+            closeFeedbackModal();
+        }
+    });
+
+    setFeedbackTabVisibility(false);
 }
