@@ -336,8 +336,8 @@ function renderApp(initialQuery = '') {
     }
 
     function openFeedbackModal() {
-        if (!feedbackModal || !feedbackModalText || !feedbackTabText) return;
-        feedbackModalText.value = feedbackTabText.value;
+        if (!feedbackModal || !feedbackModalText) return;
+        if (feedbackTabText) feedbackModalText.value = feedbackTabText.value;
         feedbackModal.removeAttribute('hidden');
         feedbackModal.classList.add('show');
         feedbackModal.setAttribute('aria-hidden', 'false');
@@ -355,8 +355,8 @@ function renderApp(initialQuery = '') {
     }
 
     function closeFeedbackModal() {
-        if (!feedbackModal || !feedbackModalText || !feedbackTabText) return;
-        feedbackTabText.value = feedbackModalText.value;
+        if (!feedbackModal || !feedbackModalText) return;
+        if (feedbackTabText) feedbackTabText.value = feedbackModalText.value;
         feedbackModal.classList.remove('show');
         feedbackModal.setAttribute('hidden', '');
         feedbackModal.setAttribute('aria-hidden', 'true');
@@ -973,4 +973,25 @@ function renderApp(initialQuery = '') {
     });
 
     setFeedbackTabVisibility(false);
+
+    window.openRalaFeedback = function () {
+        openFeedbackModal();
+    };
+
+    try {
+        const sp = new URLSearchParams(window.location.search);
+        if (sp.get('open_feedback') === '1') {
+            sp.delete('open_feedback');
+            const qs = sp.toString();
+            const path = window.location.pathname || '/';
+            history.replaceState(null, '', path + (qs ? `?${qs}` : '') + (window.location.hash || ''));
+            queueMicrotask(() => {
+                if (typeof window.openRalaFeedback === 'function') {
+                    window.openRalaFeedback();
+                }
+            });
+        }
+    } catch (_) {
+        /* ignore */
+    }
 }

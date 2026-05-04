@@ -12,7 +12,20 @@ const STORE_NAME = 'dictionary';
 
 // Cloudflare Worker API endpoint (server-side search)
 // Set this to your Worker URL after deployment, or null to use client-side search
-const WORKER_API_URL = 'https://rala-search.rala-search.workers.dev';
+// Local Worker: open the site with ?dev_worker in the URL (e.g. index.html?dev_worker=1) while `wrangler dev` runs on :8787.
+const WORKER_API_URL = (function () {
+    const prod = 'https://rala-search.rala-search.workers.dev';
+    try {
+        if (typeof window !== 'undefined' && window.location && window.location.search) {
+            if (new URLSearchParams(window.location.search).has('dev_worker')) {
+                return 'http://127.0.0.1:8787';
+            }
+        }
+    } catch (_) {
+        /* ignore */
+    }
+    return prod;
+})();
 
 // Vercel Web Analytics (optional). Static site is on GitHub Pages; the tracker script is
 // served from your Vercel project. Steps: (1) Create or use a Vercel project for this repo,

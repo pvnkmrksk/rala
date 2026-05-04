@@ -9,6 +9,7 @@ function initSidebar() {
     const sidebarOverlay = document.getElementById('sidebar-overlay');
     const installLink = document.getElementById('install-link');
     const footerInstallLink = document.getElementById('footer-install-link');
+    const sidebarOpenFeedback = document.getElementById('sidebar-open-feedback');
     
     // Open sidebar
     hamburgerMenu?.addEventListener('click', () => {
@@ -39,6 +40,23 @@ function initSidebar() {
     
     installLink?.addEventListener('click', handleInstall);
     // Footer install link removed
+
+    sidebarOpenFeedback?.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (typeof window.openRalaFeedback === 'function') {
+            window.openRalaFeedback();
+            closeSidebar();
+            return;
+        }
+        closeSidebar();
+        try {
+            const u = new URL(window.location.href);
+            u.searchParams.set('open_feedback', '1');
+            window.location.assign(u.pathname + u.search + (u.hash || ''));
+        } catch (_) {
+            window.location.assign('index.html?open_feedback=1');
+        }
+    });
     
     // Close sidebar on Escape key
     document.addEventListener('keydown', (e) => {
