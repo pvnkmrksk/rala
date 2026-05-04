@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Rala">
     <link rel="apple-touch-icon" href="icon.svg">
-    <link rel="stylesheet" href="styles.css?v=2.32">
+    <link rel="stylesheet" href="styles.css?v=2.33">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </head>
 <body>
@@ -77,8 +77,8 @@
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                 </svg>
                 <span class="sidebar-link-stack">
-                    <span class="sidebar-link-title">Feedback · ಅನಿಸಿಕೆ 🙏</span>
-                    <span class="sidebar-link-sub">We read every note — tell us what you think</span>
+                    <span class="sidebar-link-title">Feedback</span>
+                    <span class="sidebar-link-sub">I read every note</span>
                 </span>
             </button>
         </nav>
@@ -138,8 +138,7 @@
                     <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
                 </button>
                 <button type="button" class="tab tab-feedback" id="tab-feedback" aria-label="Feedback">
-                    <span>ಅನಿಸಿಕೆ</span>
-                    <span aria-hidden="true">🙏</span>
+                    <span>Feedback</span>
                 </button>
             </div>
         </div>
@@ -149,16 +148,17 @@
         <div class="feedback-modal-backdrop" id="feedback-modal-backdrop" aria-hidden="true"></div>
         <div class="feedback-modal-box" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title">
             <button type="button" class="feedback-modal-close" id="feedback-modal-close" aria-label="Close">×</button>
-            <h2 id="feedback-modal-title" class="feedback-modal-title">
-                ನಿಮ್ಮ ಅನಿಸಿಕೆ ತಿಳಿಸಿ · Please share your feedback 🙏
-            </h2>
+            <h2 id="feedback-modal-title" class="feedback-modal-title">Please share your feedback</h2>
+            <p class="feedback-modal-subtitle" id="feedback-modal-subtitle">I read each one.</p>
             <textarea
                 id="feedback-modal-text"
                 class="feedback-textarea"
                 rows="5"
                 maxlength="2000"
-                placeholder="Type your feedback here…"
+                placeholder="ನಿಮ್ಮ ಅನಿಸಿಕೆ ಇಲ್ಲಿ ಬರೆಯಿರಿ…"
+                lang="kn"
                 aria-label="Feedback text"
+                aria-describedby="feedback-modal-subtitle"
             ></textarea>
             <div class="feedback-modal-actions">
                 <button type="button" class="feedback-submit" id="feedback-modal-submit">Submit</button>
@@ -201,7 +201,7 @@
     <script src="js/search.js?v=2.30"></script>
     <script src="js/ui.js?v=2.30"></script>
     <script src="js/sidebar.js?v=2.32"></script>
-    <script src="js/app.js?v=2.32"></script>
+    <script src="js/app.js?v=2.33"></script>
     <script src="js/pwa.js?v=2.30"></script>
     <script src="js/home-title.js?v=2.28"></script>
 </body>

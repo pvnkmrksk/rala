@@ -836,12 +836,6 @@ body.dark-mode .matched-word {
     background: var(--bg-color);
 }
 
-.feedback-panel-lede {
-    margin: 0 0 12px;
-    font-size: 15px;
-    line-height: 1.45;
-    color: var(--text-color);
-}
 
 .feedback-textarea {
     width: 100%;
@@ -965,11 +959,32 @@ body.dark-mode .matched-word {
 }
 
 .feedback-modal-title {
-    margin: 0 28px 14px 0;
+    margin: 0 28px 8px 0;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.4;
     color: var(--text-color);
+}
+
+.feedback-modal-subtitle {
+    margin: 0 28px 14px 0;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--text-color-light);
+}
+
+.feedback-panel-heading {
+    margin: 0 0 6px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.feedback-panel-subtitle {
+    margin: 0 0 14px;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--text-color-light);
 }
 
 .feedback-modal-actions {

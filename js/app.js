@@ -144,12 +144,13 @@ function renderApp(initialQuery = '') {
     if (typeof window.__ralaBaseTitle === 'undefined') {
         window.__ralaBaseTitle = document.title;
     }
-    const FEEDBACK_DOC_TITLE = 'ನಿಮ್ಮ ಅನಿಸಿಕೆ ತಿಳಿಸಿ · Please share your feedback 🙏 · Rala';
+    const FEEDBACK_DOC_TITLE = 'Please share your feedback · Rala';
 
     app.innerHTML = `
         <div id="feedback-panel" class="feedback-panel" hidden>
-            <p class="feedback-panel-lede">ನಿಮ್ಮ ಅನಿಸಿಕೆ ತಿಳಿಸಿ · Please share your feedback 🙏</p>
-            <textarea id="feedback-tab-text" class="feedback-textarea" rows="6" maxlength="2000" placeholder="Type your feedback here…" aria-label="Feedback text"></textarea>
+            <h3 class="feedback-panel-heading">Please share your feedback</h3>
+            <p class="feedback-panel-subtitle" id="feedback-panel-subtitle">I read each one.</p>
+            <textarea id="feedback-tab-text" class="feedback-textarea" rows="6" maxlength="2000" placeholder="ನಿಮ್ಮ ಅನಿಸಿಕೆ ಇಲ್ಲಿ ಬರೆಯಿರಿ…" lang="kn" aria-label="Feedback text" aria-describedby="feedback-panel-subtitle"></textarea>
             <button type="button" class="feedback-submit" id="feedback-tab-submit">Submit</button>
             <p id="feedback-tab-hint" class="feedback-hint" hidden></p>
         </div>
@@ -395,7 +396,7 @@ function renderApp(initialQuery = '') {
         if (source === 'modal') {
             closeFeedbackModal();
         } else {
-            hintFn('Thank you — we read every note.', true);
+            hintFn('Thank you — I read each one.', true);
         }
         if (tabFeedback && tabFeedback.classList.contains('active')) {
             switchTab('exact');
