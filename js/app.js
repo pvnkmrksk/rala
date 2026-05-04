@@ -144,13 +144,12 @@ function renderApp(initialQuery = '') {
     if (typeof window.__ralaBaseTitle === 'undefined') {
         window.__ralaBaseTitle = document.title;
     }
-    const FEEDBACK_DOC_TITLE = 'Please share your feedback · Rala';
+    const FEEDBACK_DOC_TITLE = 'Feedback · Rala';
 
     app.innerHTML = `
         <div id="feedback-panel" class="feedback-panel" hidden>
-            <h3 class="feedback-panel-heading">Please share your feedback</h3>
-            <p class="feedback-panel-subtitle" id="feedback-panel-subtitle">I read each one.</p>
-            <textarea id="feedback-tab-text" class="feedback-textarea" rows="6" maxlength="2000" placeholder="ನಿಮ್ಮ ಅನಿಸಿಕೆ ಇಲ್ಲಿ ಬರೆಯಿರಿ…" lang="kn" aria-label="Feedback text" aria-describedby="feedback-panel-subtitle"></textarea>
+            <h3 class="feedback-panel-heading">Feedback</h3>
+            <textarea id="feedback-tab-text" class="feedback-textarea" rows="6" maxlength="2000" placeholder="ನಿಮ್ಮ ಅನಿಸಿಕೆ ಇಲ್ಲಿ ಬರೆಯಿರಿ…" lang="kn" aria-label="Feedback text"></textarea>
             <button type="button" class="feedback-submit" id="feedback-tab-submit">Submit</button>
             <p id="feedback-tab-hint" class="feedback-hint" hidden></p>
         </div>
@@ -179,6 +178,8 @@ function renderApp(initialQuery = '') {
     const feedbackModalClose = document.getElementById('feedback-modal-close');
     const feedbackModalBackdrop = document.getElementById('feedback-modal-backdrop');
     const feedbackModalHint = document.getElementById('feedback-modal-hint');
+    const feedbackModalFormWrap = document.getElementById('feedback-modal-form-wrap');
+    const feedbackModalSuccess = document.getElementById('feedback-modal-success');
     const tabExactCount = document.getElementById('tab-exact-count');
     const tabSynonymCount = document.getElementById('tab-synonym-count');
     const tabExactSpinner = document.getElementById('tab-exact-spinner');
@@ -201,6 +202,23 @@ function renderApp(initialQuery = '') {
     let activeSuggestionIndex = -1;
     let lastSuggestionSignature = '';
     let firstSearchCompleteEventSent = false;
+    let feedbackModalSuccessTimer = null;
+    const FEEDBACK_MODAL_SUCCESS_MS = 1100;
+
+    function clearFeedbackModalSuccessTimer() {
+        if (feedbackModalSuccessTimer != null) {
+            clearTimeout(feedbackModalSuccessTimer);
+            feedbackModalSuccessTimer = null;
+        }
+    }
+
+    function resetFeedbackModalFormUI() {
+        clearFeedbackModalSuccessTimer();
+        if (feedbackModalFormWrap) feedbackModalFormWrap.hidden = false;
+        if (feedbackModalSuccess) feedbackModalSuccess.hidden = true;
+        if (feedbackModalSubmit) feedbackModalSubmit.disabled = false;
+        if (feedbackModalLater) feedbackModalLater.disabled = false;
+    }
 
     async function loadAutocompleteWords() {
         if (autocompleteLoaded) return autocompleteWords;
@@ -338,6 +356,7 @@ function renderApp(initialQuery = '') {
 
     function openFeedbackModal() {
         if (!feedbackModal || !feedbackModalText) return;
+        resetFeedbackModalFormUI();
         if (feedbackTabText) feedbackModalText.value = feedbackTabText.value;
         feedbackModal.removeAttribute('hidden');
         feedbackModal.classList.add('show');
@@ -362,6 +381,7 @@ function renderApp(initialQuery = '') {
         feedbackModal.setAttribute('hidden', '');
         feedbackModal.setAttribute('aria-hidden', 'true');
         document.title = window.__ralaBaseTitle || document.title;
+        resetFeedbackModalFormUI();
     }
 
     function showTabFeedbackHint(msg, ok) {
@@ -391,15 +411,20 @@ function renderApp(initialQuery = '') {
         }
         localStorage.setItem('rala_feedback_submitted', '1');
         sessionStorage.setItem('rala_feedback_modal_shown', '1');
-        feedbackTabText.value = '';
+        if (feedbackTabText) feedbackTabText.value = '';
         feedbackModalText.value = '';
         if (source === 'modal') {
-            closeFeedbackModal();
+            if (feedbackModalSubmit) feedbackModalSubmit.disabled = true;
+            if (feedbackModalLater) feedbackModalLater.disabled = true;
+            if (feedbackModalFormWrap) feedbackModalFormWrap.hidden = true;
+            if (feedbackModalSuccess) feedbackModalSuccess.hidden = false;
+            clearFeedbackModalSuccessTimer();
+            feedbackModalSuccessTimer = setTimeout(() => {
+                feedbackModalSuccessTimer = null;
+                closeFeedbackModal();
+            }, FEEDBACK_MODAL_SUCCESS_MS);
         } else {
-            hintFn('Thank you — I read each one.', true);
-        }
-        if (tabFeedback && tabFeedback.classList.contains('active')) {
-            switchTab('exact');
+            hintFn('Thanks.', true);
         }
     }
 
@@ -409,7 +434,10 @@ function renderApp(initialQuery = '') {
         const prev = Number(sessionStorage.getItem('rala_search_completed') || '0');
         const next = prev + 1;
         sessionStorage.setItem('rala_search_completed', String(next));
-        if (next >= 2) {
+        if (typeof window.syncSidebarFeedbackEntryVisibility === 'function') {
+            window.syncSidebarFeedbackEntryVisibility();
+        }
+        if (next >= RALA_FEEDBACK_MIN_SEARCHES) {
             sessionStorage.setItem('rala_feedback_modal_shown', '1');
             openFeedbackModal();
         }
@@ -723,8 +751,6 @@ function renderApp(initialQuery = '') {
             }));
         }
 
-        bumpSearchCountMaybeOpenFeedback();
-
         // Mobile: Limit to 500 results, show "500+"
         const isMobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         const MOBILE_LIMIT = 500;
@@ -873,6 +899,11 @@ function renderApp(initialQuery = '') {
             // Default to exact tab
             switchTab('exact');
         }
+
+        const hadUsefulResults = directResults.length > 0 || synonymResults.length > 0;
+        if (hadUsefulResults && sessionId === searchSessionId) {
+            bumpSearchCountMaybeOpenFeedback();
+        }
     }
     
     searchInput.addEventListener('input', (e) => {
@@ -982,15 +1013,19 @@ function renderApp(initialQuery = '') {
     try {
         const sp = new URLSearchParams(window.location.search);
         if (sp.get('open_feedback') === '1') {
+            const earned =
+                Number(sessionStorage.getItem('rala_search_completed') || '0') >= RALA_FEEDBACK_MIN_SEARCHES;
             sp.delete('open_feedback');
             const qs = sp.toString();
             const path = window.location.pathname || '/';
             history.replaceState(null, '', path + (qs ? `?${qs}` : '') + (window.location.hash || ''));
-            queueMicrotask(() => {
-                if (typeof window.openRalaFeedback === 'function') {
-                    window.openRalaFeedback();
-                }
-            });
+            if (earned) {
+                queueMicrotask(() => {
+                    if (typeof window.openRalaFeedback === 'function') {
+                        window.openRalaFeedback();
+                    }
+                });
+            }
         }
     } catch (_) {
         /* ignore */

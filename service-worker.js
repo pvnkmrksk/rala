@@ -1,6 +1,6 @@
 // Service Worker for Rala PWA
-const CACHE_NAME = 'rala-v2.3';
-const RUNTIME_CACHE = 'rala-runtime-v2.3';
+const CACHE_NAME = 'rala-v2.4';
+const RUNTIME_CACHE = 'rala-runtime-v2.4';
 const ONLINE_FRESH_WINDOW_MS = 3 * 60 * 60 * 1000; // 3 hours
 const META_LAST_ONLINE_URL = '/__sw_meta__/last-online-success';
 const META_LAST_ONLINE_REQUEST = new Request(META_LAST_ONLINE_URL);
@@ -11,6 +11,7 @@ const STATIC_ASSETS = [
   './index.html',
   './about.html',
   './glossary.html',
+  './feedback.html',
   './icon.svg',
   './manifest.json',
   'https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js'

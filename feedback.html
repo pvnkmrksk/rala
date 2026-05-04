@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#000000">
-    <meta name="description" content="English → Kannada dictionary. An amateur reversal of V. Krishna's Alar">
-    <title>Rala - English to Kannada Dictionary</title>
-    
-    <!-- PWA Manifest -->
+    <meta name="description" content="Send feedback about Rala dictionary">
+    <title>Feedback · Rala</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
-    
-    <!-- iOS PWA Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Rala">
     <link rel="apple-touch-icon" href="icon.svg">
     <link rel="stylesheet" href="styles.css?v=2.36">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 </head>
 <body>
-    <!-- Hamburger Menu Button -->
     <button class="hamburger-menu" id="hamburger-menu" title="Open menu" aria-label="Open menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -28,8 +22,7 @@
             <line x1="3" y1="18" x2="21" y2="18"></line>
         </svg>
     </button>
-    
-    <!-- Sidebar -->
+
     <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <h2>ರಲ</h2>
@@ -80,89 +73,39 @@
             </button>
         </nav>
     </div>
-    
-    <!-- Sidebar Overlay -->
+
     <div class="sidebar-overlay" id="sidebar-overlay"></div>
-    
+
     <button class="dark-mode-toggle" id="dark-mode-toggle" title="Toggle dark mode" aria-label="Toggle dark mode">
         <svg id="dark-mode-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
         </svg>
     </button>
-    <button type="button" id="header-install-chip" class="header-install-chip" hidden aria-label="Install Rala app">Install</button>
-    <div id="install-prompt" class="install-prompt">
-        <button id="install-close" class="close" type="button" aria-label="Close install prompt">×</button>
-        <div class="install-prompt-header">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-            </svg>
-            <span><strong>Install Rala</strong></span>
-        </div>
-        <div class="install-prompt-text">Install for faster access and offline use.</div>
-    </div>
-    
+
     <div class="header">
         <h1 id="home-title">ರಲ</h1>
         <p class="subtitle">
-            <span class="subtitle-line">ಇಂಗ್ಲಿಷ್ ಕನ್ನಡ ನಿಘಂಟು. ಶ್ರೀ. ವಿ. ಕೃಷ್ಣ ಅವರ "ಅಲರ್" ನ ಹವ್ಯಾಸಿ ಹಿಮ್ಮುಖ</span>
-            <span class="subtitle-line">"Rala" English → Kannada dictionary. An amateur reversal of V. Krishna's Alar</span>
+            <span class="subtitle-line">Feedback</span>
         </p>
     </div>
-    
-    <div class="sticky-search">
-        <div class="search-wrapper" id="search-wrapper">
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search English word..." autocomplete="off" spellcheck="false" autofocus>
-                <button class="search-button" id="search-button">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                </button>
-            </div>
-            <div id="search-suggestions" class="search-suggestions" style="display: none;"></div>
-        </div>
-        <div class="tabs-wrapper" id="tabs-wrapper" style="display: none;">
-            <div class="tabs">
-                <button class="tab active" id="tab-exact">
-                    <span>Exact Match</span>
-                    <span id="tab-exact-count"></span>
-                    <span id="tab-exact-spinner" class="tab-spinner" style="display: none;"></span>
-                </button>
-                <button class="tab" id="tab-synonym">
-                    <span>Synonym Match</span>
-                    <span id="tab-synonym-count"></span>
-                    <span id="tab-synonym-spinner" class="tab-spinner" style="display: none;"></span>
-                </button>
-                <button type="button" class="tab tab-feedback" id="tab-feedback" aria-label="Feedback">
-                    <span>Feedback</span>
-                </button>
-            </div>
-        </div>
-    </div>
 
-    <div id="feedback-modal" class="feedback-modal" aria-hidden="true" hidden>
-        <div class="feedback-modal-backdrop" id="feedback-modal-backdrop" aria-hidden="true"></div>
-        <div class="feedback-modal-box" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title">
-            <button type="button" class="feedback-modal-close" id="feedback-modal-close" aria-label="Close">×</button>
-            <div id="feedback-modal-form-wrap">
-                <h2 id="feedback-modal-title" class="feedback-modal-title">Feedback</h2>
+    <main class="feedback-page-main">
+        <div class="feedback-panel" id="feedback-page-panel">
+            <div id="feedback-page-form">
+                <h2 class="feedback-panel-heading">Feedback</h2>
                 <textarea
-                    id="feedback-modal-text"
+                    id="feedback-page-text"
                     class="feedback-textarea"
-                    rows="5"
+                    rows="8"
                     maxlength="2000"
                     placeholder="ನಿಮ್ಮ ಅನಿಸಿಕೆ ಇಲ್ಲಿ ಬರೆಯಿರಿ…"
                     lang="kn"
                     aria-label="Feedback text"
                 ></textarea>
-                <div class="feedback-modal-actions">
-                    <button type="button" class="feedback-submit" id="feedback-modal-submit">Submit</button>
-                    <button type="button" class="feedback-later" id="feedback-modal-later">Later</button>
-                </div>
-                <p id="feedback-modal-hint" class="feedback-hint" hidden></p>
+                <button type="button" class="feedback-submit" id="feedback-page-submit">Submit</button>
+                <p id="feedback-page-hint" class="feedback-hint" hidden></p>
             </div>
-            <div id="feedback-modal-success" class="feedback-modal-success" hidden role="status" aria-live="polite">
+            <div id="feedback-page-success" class="feedback-modal-success" hidden role="status" aria-live="polite">
                 <div class="feedback-success-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
@@ -172,15 +115,8 @@
                 <p class="feedback-success-title">Thanks.</p>
             </div>
         </div>
-    </div>
-    
-    <div id="app">
-        <div class="loading" id="initial-loading">
-            <div class="spinner"></div>
-            <p id="loading-text">Loading...</p>
-        </div>
-    </div>
-    
+    </main>
+
     <footer class="attribution">
         <div class="footer-nav">
             <a href="index.html">Home</a>
@@ -198,17 +134,11 @@
         </div>
     </footer>
 
-    <!-- Load JavaScript modules in dependency order -->
     <script src="js/config.js?v=2.36"></script>
     <script src="js/worker-events.js?v=2.36"></script>
-    <script src="js/vercel-analytics.js?v=2.28"></script>
-    <script src="js/storage.js?v=2.28"></script>
-    <script src="js/dictionary.js?v=2.28"></script>
     <script src="js/utils.js?v=2.30"></script>
-    <script src="js/search.js?v=2.30"></script>
-    <script src="js/ui.js?v=2.30"></script>
     <script src="js/sidebar.js?v=2.36"></script>
-    <script src="js/app.js?v=2.36"></script>
+    <script src="js/feedback-page.js?v=2.36"></script>
     <script src="js/pwa.js?v=2.30"></script>
     <script src="js/home-title.js?v=2.28"></script>
 </body>

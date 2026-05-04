@@ -65,6 +65,9 @@ let padakanajaAudioIndexLoading = false;
 // Glossary words (pre-generated filtered word list for faster loading)
 const GLOSSARY_WORDS_URL = 'data/glossary_words.json';
 
+/** Successful searches (with at least one result) before in-app feedback affordances unlock. */
+const RALA_FEEDBACK_MIN_SEARCHES = 3;
+
 // Worker API readiness flag
 let workerApiReady = false;
 let workerApiReadyPromise = null;

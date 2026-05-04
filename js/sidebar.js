@@ -2,6 +2,15 @@
 // sidebar.js - Sidebar menu functionality
 // ============================================================================
 
+function syncSidebarFeedbackEntryVisibility() {
+    const n = Number(sessionStorage.getItem('rala_search_completed') || '0');
+    const ok = n >= RALA_FEEDBACK_MIN_SEARCHES;
+    const btn = document.getElementById('sidebar-open-feedback');
+    if (btn) btn.hidden = !ok;
+    const glossaryFb = document.getElementById('sidebar-feedback-to-home');
+    if (glossaryFb) glossaryFb.hidden = !ok;
+}
+
 function initSidebar() {
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const sidebar = document.getElementById('sidebar');
@@ -49,13 +58,7 @@ function initSidebar() {
             return;
         }
         closeSidebar();
-        try {
-            const u = new URL(window.location.href);
-            u.searchParams.set('open_feedback', '1');
-            window.location.assign(u.pathname + u.search + (u.hash || ''));
-        } catch (_) {
-            window.location.assign('index.html?open_feedback=1');
-        }
+        window.location.assign('feedback.html');
     });
     
     // Close sidebar on Escape key
@@ -64,5 +67,9 @@ function initSidebar() {
             closeSidebar();
         }
     });
+
+    syncSidebarFeedbackEntryVisibility();
 }
+
+window.syncSidebarFeedbackEntryVisibility = syncSidebarFeedbackEntryVisibility;
 
